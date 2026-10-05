@@ -1,4 +1,6 @@
 import http from "node:http";
+import { readFile } from "node:fs/promises";
+import { extname, join } from "node:path";
 import { config } from "./config.js";
 import { analyzeMarket } from "./analyze.js";
 import { PaperPortfolio } from "./paper.js";
@@ -10,8 +12,11 @@ import { estimateProbability, probabilityRange } from "./probability.js";
 import { scanOpenMarkets, researchQueue } from "./scanner.js";
 import { makeResearchPlan } from "./researchPlan.js";
 import { auditSummary } from "./audit.js";
+import { gatherEvidence } from "./researchRunner.js";
 
 const portfolio = new PaperPortfolio();
+const mime={".html":"text/html; charset=utf-8",".css":"text/css; charset=utf-8",".js":"text/javascript; charset=utf-8"};
+const sendFile=async(res,path)=>{try{const data=await readFile(join("public",path));res.writeHead(200,{"content-type":mime[extname(path)]??"application/octet-stream"});res.end(data);return true}catch{return false}};
 const send=(res,status,data)=>{res.writeHead(status,{"content-type":"application/json","access-control-allow-origin":"*"});res.end(JSON.stringify(data,null,2));};
 const body=req=>new Promise((resolve,reject)=>{let s="";req.on("data",c=>s+=c);req.on("end",()=>{try{resolve(s?JSON.parse(s):{})}catch(e){reject(e)}});});
 
@@ -19,6 +24,10 @@ http.createServer(async(req,res)=>{
  try{
   const url=new URL(req.url,"http://localhost");
   if(req.method==="GET"&&url.pathname==="/health") return send(res,200,{ok:true,strategy:"research-first",minEdge:config.minEdge});
+  if(req.method==="GET"&&url.pathname==="/") {if(await sendFile(res,"index.html"))return;}
+  if(req.method==="GET"&&url.pathname==="/app.css") {if(await sendFile(res,"app.css"))return;}
+  if(req.method==="GET"&&url.pathname==="/app.js") {if(await sendFile(res,"app.js"))return;}
+  if(req.method==="POST"&&url.pathname.startsWith("/gather/")){const ticker=decodeURIComponent(url.pathname.slice(8));const d=await getMarket(ticker);return send(res,200,await gatherEvidence(normalizeMarket(d.market??d)));}
   if(req.method==="GET"&&url.pathname==="/audit") return send(res,200,await auditSummary());
   if(req.method==="GET"&&url.pathname.startsWith("/research-plan/")){const ticker=decodeURIComponent(url.pathname.slice(15));const d=await getMarket(ticker);return send(res,200,makeResearchPlan(normalizeMarket(d.market??d)));}
   if(req.method==="GET"&&url.pathname==="/scan"){const markets=await scanOpenMarkets({limit:Number(url.searchParams.get("limit")??100),minVolume:Number(url.searchParams.get("minVolume")??0)});return send(res,200,{count:markets.length,queue:researchQueue(markets,Number(url.searchParams.get("max")??25))});}
