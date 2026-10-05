@@ -8,7 +8,8 @@ import {saveResearch,saveAnalysis} from "./store.js";
 
 export async function researchMarket(ticker){
  const raw=await getMarket(ticker),market=normalizeMarket(raw.market??raw);
- // Do not expose quote fields to the evidence/reasoning stage.
+ // Snapshot is fetched for rules/metadata, but quote fields are stripped before research/AI.
+ // The same snapshot is used only after the forecast is locked to avoid a second-network-call race.
  const researchMarket={ticker:market.ticker,title:market.title,subtitle:market.subtitle,rulesPrimary:market.rulesPrimary,rulesSecondary:market.rulesSecondary,closeTime:market.closeTime};
  const gathered=await gatherEvidence(researchMarket);
  if(!gathered.diagnostics.sufficient)throw new Error("Not enough independent evidence to estimate this market safely");
