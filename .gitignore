@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+data/state.json
+node_modules/
+coverage/
+.DS_Store
+*.log
