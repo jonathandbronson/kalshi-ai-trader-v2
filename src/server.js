@@ -17,7 +17,7 @@ http.createServer(async(req,res)=>{try{
  if(req.method==="GET"&&url.pathname==="/")return void await file(res,"index.html");
  if(req.method==="GET"&&["/app.css","/app.js"].includes(url.pathname))return void await file(res,url.pathname.slice(1));
  if(req.method==="GET"&&url.pathname==="/health")return send(res,200,{ok:true,version:"1.0.0",researchFirst:true,minEdge:config.minEdge,realMoneyTrading:false,aiConfigured:aiConfigured()});
- if(req.method==="GET"&&url.pathname==="/scan"){const markets=await scanOpenMarkets({limit:Number(url.searchParams.get("limit")??100),minVolume:Number(url.searchParams.get("minVolume")??0)});return send(res,200,{count:markets.length,queue:researchQueue(markets,Number(url.searchParams.get("max")??25))});}
+ if(req.method==="GET"&&url.pathname==="/scan"){const result=await scanOpenMarkets({limit:Number(url.searchParams.get("limit")??100),minVolume:Number(url.searchParams.get("minVolume")??0),diagnostics:true});return send(res,200,{count:result.markets.length,queue:researchQueue(result.markets,Number(url.searchParams.get("max")??25)),diagnostics:result.diagnostics});}
  if(req.method==="POST"&&url.pathname.startsWith("/pipeline/"))return send(res,200,await researchMarket(decodeURIComponent(url.pathname.slice(10))));
  if(req.method==="POST"&&url.pathname.startsWith("/gather/")){const ticker=decodeURIComponent(url.pathname.slice(8)),d=await getMarket(ticker);return send(res,200,await gatherEvidence(normalizeMarket(d.market??d)));}
  if(req.method==="GET"&&url.pathname.startsWith("/research-plan/")){const ticker=decodeURIComponent(url.pathname.slice(15)),d=await getMarket(ticker);return send(res,200,makeResearchPlan(normalizeMarket(d.market??d)));}
