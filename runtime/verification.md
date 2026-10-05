@@ -2,11 +2,11 @@
 
 ## Status
 
-The requested retrieval/infrastructure hardening and genuine forecast → durable lock → fresh quote → naturally qualifying paper-entry verification passed. The app remains **PREPARATION**. The 200-forecast benchmark is neither started nor frozen.
+The requested retrieval/infrastructure hardening and genuine forecast → durable lock → fresh quote → naturally qualifying paper-entry verification passed. The final audit-chain/runtime cleanup is verified by **85 backend tests and 2 fixture browser tests**. The app remains **PREPARATION**; benchmark collection has not started. The separate Git control-freeze manifest is in `runtime/benchmark-freeze.md`.
 
 Node: **24.13.0**. Application version: `v2-integrity-1`.
 
-Verified application fingerprint: `fa3187513b8554436335938136220bd2f201f2a6b0521e34602cd754c88ecc2c`.
+Historical genuine-live fingerprint: `fa3187513b8554436335938136220bd2f201f2a6b0521e34602cd754c88ecc2c`. Final audit-hardened control fingerprint: `86a8aeddeb4c276c650ef94810bd502e67de8929f6c8b876565813feb2222550`. Historical immutable forecast metadata is preserved, not rewritten to claim another generation on the final code.
 
 The hardened baseline was commit `29f7f5a09afdac9b3f3d6c380d8e6f1d2b1b2aef`; subsequent changes are retrieval/parser/network infrastructure, regression coverage, runtime setup and documentation. Do not describe the final source as identical to that earlier commit.
 
@@ -45,6 +45,9 @@ Separate database: `/tmp/v2-final-live-iMb2jR/validation.sqlite`. This is not th
 - Two earlier isolated attempts stopped at provider HTTP 400 without locks, quote access or positions. They remain separate from the successful database; failures were not retried automatically.
 
 ## Preservation and remaining limitations
+
+- Final audit events are hash-chained and append-only under storage transactions. The original live database remains untouched; the explicitly retrofitted copy is ignored `data/v2-validation-audit.sqlite`, with 4 original events plus a retroactive import event.
+- The final cleanup removes only the unused Python module and adds audit integrity. Forecasting, research, model, sizing and paper decision code are unchanged from the successful live verification.
 
 - Preparation database `data/v2-preparation.sqlite`: PREPARATION, 0 forecasts, 0 positions, 0 provider calls. Its cash remains $1,000.
 - Legacy JSON checksum remains `ac27f22e96a8ace7a0d18e70e22624d859da8c2cb0d6acc2ed6a3ae1089da766`; no migration or replacement occurred.

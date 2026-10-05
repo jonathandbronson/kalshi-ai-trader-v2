@@ -1,2 +1,3 @@
 - [Preview frame verification](preview-frame-verification.md) — headless public-parent checks can hit local-network access blocking unrelated to the app's CSP.
 - [AI preflight limits](ai-preflight-limits.md) — authenticated model visibility is not proof that a genuine forecast request will succeed.
+- [Historical audit trust boundary](benchmark-audit-history.md) — retroactive audit sealing never reattributes historical forecasts or populates benchmark storage.
