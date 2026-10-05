@@ -5,9 +5,9 @@ async function request(path){
  if(!response.ok)throw new Error(`Kalshi API ${response.status}: ${(await response.text()).slice(0,500)}`);return response.json();}
  finally{clearTimeout(timer)}
 }
-export async function getMarkets({limit=100,cursor,status="open",seriesTicker}={}){
+export async function getMarkets({limit=100,cursor,status="open",seriesTicker,minCloseTs}={}){
  const q=new URLSearchParams({limit:String(Math.min(200,Math.max(1,limit)))});
- if(cursor)q.set("cursor",cursor);if(status)q.set("status",status);if(seriesTicker)q.set("series_ticker",seriesTicker);
+ if(cursor)q.set("cursor",cursor);if(status)q.set("status",status);if(seriesTicker)q.set("series_ticker",seriesTicker);if(minCloseTs)q.set("min_close_ts",String(minCloseTs));
  return request(`/markets?${q}`);
 }
 export async function getMarket(ticker){if(!ticker)throw new Error("ticker required");return request(`/markets/${encodeURIComponent(ticker)}`)}
