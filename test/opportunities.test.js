@@ -1,0 +1,2 @@
+import test from "node:test";import assert from "node:assert/strict";import {rankOpportunities} from "../src/opportunities.js";
+test("ranking excludes nonqualifying analyses",()=>{const r=rankOpportunities([{ticker:"A",qualifies:false,bestTrade:{netEdge:.2}},{ticker:"B",qualifies:true,bestTrade:{netEdge:.1},evidenceQuality:.8,volume:1000}]);assert.equal(r.length,1);assert.equal(r[0].ticker,"B");});
