@@ -1,45 +1,34 @@
 import http from "node:http";
-import { readFile } from "node:fs/promises";
-import { extname, join } from "node:path";
-import { config } from "./config.js";
-import { analyzeMarket } from "./analyze.js";
-import { PaperPortfolio } from "./paper.js";
-import { getMarkets, getMarket, normalizeMarket } from "./kalshi.js";
-import { buildResearchPacket } from "./research.js";
-import { combineResearchWithMarket } from "./opportunities.js";
-import { saveResearch, saveAnalysis, loadState } from "./store.js";
-import { estimateProbability, probabilityRange } from "./probability.js";
-import { scanOpenMarkets, researchQueue } from "./scanner.js";
-import { makeResearchPlan } from "./researchPlan.js";
-import { auditSummary } from "./audit.js";
-import { gatherEvidence } from "./researchRunner.js";
+import {readFile} from "node:fs/promises";import {extname,join} from "node:path";
+import {config} from "./config.js";import {getMarkets,getMarket,normalizeMarket} from "./kalshi.js";
+import {scanOpenMarkets,researchQueue} from "./scanner.js";import {makeResearchPlan} from "./researchPlan.js";
+import {gatherEvidence} from "./researchRunner.js";import {researchMarket} from "./pipeline.js";
+import {loadState} from "./store.js";import {auditSummary} from "./audit.js";import {rankOpportunities} from "./opportunities.js";
+import {paperSnapshot,placePaperTrade,settlePaperTrade} from "./paperStore.js";import {performanceMetrics} from "./metrics.js";
+import {aiConfigured} from "./aiEstimator.js";
 
-const portfolio = new PaperPortfolio();
 const mime={".html":"text/html; charset=utf-8",".css":"text/css; charset=utf-8",".js":"text/javascript; charset=utf-8"};
-const sendFile=async(res,path)=>{try{const data=await readFile(join("public",path));res.writeHead(200,{"content-type":mime[extname(path)]??"application/octet-stream"});res.end(data);return true}catch{return false}};
 const send=(res,status,data)=>{res.writeHead(status,{"content-type":"application/json","access-control-allow-origin":"*"});res.end(JSON.stringify(data,null,2));};
-const body=req=>new Promise((resolve,reject)=>{let s="";req.on("data",c=>s+=c);req.on("end",()=>{try{resolve(s?JSON.parse(s):{})}catch(e){reject(e)}});});
+const body=req=>new Promise((resolve,reject)=>{let s="";req.on("data",c=>{s+=c;if(s.length>1e6)reject(new Error("Request too large"))});req.on("end",()=>{try{resolve(s?JSON.parse(s):{})}catch(e){reject(e)}})});
+const file=async(res,name)=>{try{const d=await readFile(join("public",name));res.writeHead(200,{"content-type":mime[extname(name)]??"application/octet-stream"});res.end(d);return true}catch{return false}};
 
-http.createServer(async(req,res)=>{
- try{
-  const url=new URL(req.url,"http://localhost");
-  if(req.method==="GET"&&url.pathname==="/health") return send(res,200,{ok:true,strategy:"research-first",minEdge:config.minEdge});
-  if(req.method==="GET"&&url.pathname==="/") {if(await sendFile(res,"index.html"))return;}
-  if(req.method==="GET"&&url.pathname==="/app.css") {if(await sendFile(res,"app.css"))return;}
-  if(req.method==="GET"&&url.pathname==="/app.js") {if(await sendFile(res,"app.js"))return;}
-  if(req.method==="POST"&&url.pathname.startsWith("/gather/")){const ticker=decodeURIComponent(url.pathname.slice(8));const d=await getMarket(ticker);return send(res,200,await gatherEvidence(normalizeMarket(d.market??d)));}
-  if(req.method==="GET"&&url.pathname==="/audit") return send(res,200,await auditSummary());
-  if(req.method==="GET"&&url.pathname.startsWith("/research-plan/")){const ticker=decodeURIComponent(url.pathname.slice(15));const d=await getMarket(ticker);return send(res,200,makeResearchPlan(normalizeMarket(d.market??d)));}
-  if(req.method==="GET"&&url.pathname==="/scan"){const markets=await scanOpenMarkets({limit:Number(url.searchParams.get("limit")??100),minVolume:Number(url.searchParams.get("minVolume")??0)});return send(res,200,{count:markets.length,queue:researchQueue(markets,Number(url.searchParams.get("max")??25))});}
-  if(req.method==="POST"&&url.pathname==="/estimate"){const input=await body(req);const estimate=estimateProbability(input);return send(res,200,{...estimate,range:probabilityRange(estimate)});}
-  if(req.method==="GET"&&url.pathname==="/markets"){const d=await getMarkets({limit:Number(url.searchParams.get("limit")??100),cursor:url.searchParams.get("cursor")??undefined});return send(res,200,{...d,markets:(d.markets??[]).map(normalizeMarket)});}
-  if(req.method==="GET"&&url.pathname.startsWith("/markets/")){const ticker=decodeURIComponent(url.pathname.slice(9));const d=await getMarket(ticker);return send(res,200,normalizeMarket(d.market??d));}
-  if(req.method==="POST"&&url.pathname==="/research"){const p=buildResearchPacket(await body(req));await saveResearch(p);return send(res,201,p);}
-  if(req.method==="POST"&&url.pathname==="/evaluate"){const input=await body(req);const state=await loadState();const packet=state.research[input.ticker];if(!packet)throw new Error("Research must be completed and locked before market evaluation");const d=await getMarket(input.ticker);const market=normalizeMarket(d.market??d);const a=combineResearchWithMarket(packet,market);a.volume=market.volume;a.evidenceQuality=packet.evidenceQuality;await saveAnalysis(a);return send(res,200,a);}
-  if(req.method==="GET"&&url.pathname==="/state") return send(res,200,await loadState());
-  if(req.method==="GET"&&url.pathname==="/paper") return send(res,200,portfolio.snapshot());
-  if(req.method==="POST"&&url.pathname==="/analyze") return send(res,200,analyzeMarket(await body(req)));
-  if(req.method==="POST"&&url.pathname==="/paper/trades"){const a=analyzeMarket(await body(req));return send(res,201,portfolio.place(a));}
-  return send(res,404,{error:"Not found"});
- }catch(e){return send(res,400,{error:e.message});}
-}).listen(config.port,()=>console.log(`Kalshi AI Trader v2 listening on :${config.port}`));
+http.createServer(async(req,res)=>{try{
+ const url=new URL(req.url,"http://localhost");
+ if(req.method==="GET"&&url.pathname==="/")return void await file(res,"index.html");
+ if(req.method==="GET"&&["/app.css","/app.js"].includes(url.pathname))return void await file(res,url.pathname.slice(1));
+ if(req.method==="GET"&&url.pathname==="/health")return send(res,200,{ok:true,version:"1.0.0",researchFirst:true,minEdge:config.minEdge,realMoneyTrading:false,aiConfigured:aiConfigured()});
+ if(req.method==="GET"&&url.pathname==="/scan"){const markets=await scanOpenMarkets({limit:Number(url.searchParams.get("limit")??100),minVolume:Number(url.searchParams.get("minVolume")??0)});return send(res,200,{count:markets.length,queue:researchQueue(markets,Number(url.searchParams.get("max")??25))});}
+ if(req.method==="POST"&&url.pathname.startsWith("/pipeline/"))return send(res,200,await researchMarket(decodeURIComponent(url.pathname.slice(10))));
+ if(req.method==="POST"&&url.pathname.startsWith("/gather/")){const ticker=decodeURIComponent(url.pathname.slice(8)),d=await getMarket(ticker);return send(res,200,await gatherEvidence(normalizeMarket(d.market??d)));}
+ if(req.method==="GET"&&url.pathname.startsWith("/research-plan/")){const ticker=decodeURIComponent(url.pathname.slice(15)),d=await getMarket(ticker);return send(res,200,makeResearchPlan(normalizeMarket(d.market??d)));}
+ if(req.method==="GET"&&url.pathname==="/opportunities"){const s=await loadState();return send(res,200,rankOpportunities(Object.values(s.analyses??{})));}
+ if(req.method==="GET"&&url.pathname==="/paper")return send(res,200,await paperSnapshot());
+ if(req.method==="POST"&&url.pathname==="/paper/trades"){const input=await body(req),s=await loadState(),a=s.analyses?.[input.ticker];if(!a)throw new Error("Saved analysis not found");return send(res,201,await placePaperTrade(a,input.fraction));}
+ if(req.method==="POST"&&url.pathname.startsWith("/paper/settle/")){const input=await body(req);return send(res,200,await settlePaperTrade(decodeURIComponent(url.pathname.slice(14)),input.outcome));}
+ if(req.method==="GET"&&url.pathname==="/metrics")return send(res,200,await performanceMetrics());
+ if(req.method==="GET"&&url.pathname==="/audit")return send(res,200,await auditSummary());
+ if(req.method==="GET"&&url.pathname==="/state")return send(res,200,await loadState());
+ if(req.method==="GET"&&url.pathname==="/markets"){const d=await getMarkets({limit:Number(url.searchParams.get("limit")??100),cursor:url.searchParams.get("cursor")??undefined});return send(res,200,{...d,markets:(d.markets??[]).map(normalizeMarket)});}
+ if(req.method==="GET"&&url.pathname.startsWith("/markets/")){const d=await getMarket(decodeURIComponent(url.pathname.slice(9)));return send(res,200,normalizeMarket(d.market??d));}
+ return send(res,404,{error:"Not found"});
+}catch(e){send(res,400,{error:e.message})}}).listen(config.port,()=>console.log(`Kalshi AI Trader v2 listening on :${config.port}`));
