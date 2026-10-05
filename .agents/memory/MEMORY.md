@@ -1,0 +1,1 @@
+- [Preview frame verification](preview-frame-verification.md) — headless public-parent checks can hit local-network access blocking unrelated to the app's CSP.
