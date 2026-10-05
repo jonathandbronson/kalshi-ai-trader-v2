@@ -1,7 +1,2 @@
-export const config = Object.freeze({
-  minEdge: Number(process.env.MIN_EDGE ?? 0.08),
-  strongEdge: Number(process.env.STRONG_EDGE ?? 0.12),
-  simulatedBankroll: Number(process.env.SIMULATED_BANKROLL ?? 1000),
-  maxFractionPerTrade: Number(process.env.MAX_FRACTION_PER_TRADE ?? 0.03),
-  port: Number(process.env.PORT ?? 3000)
-});
+function number(name,value,min,max){const n=Number(process.env[name]??value);if(!Number.isFinite(n)||n<min||n>max)throw new Error(`Invalid ${name}`);return n;}
+export const config=Object.freeze({minEdge:number("MIN_EDGE",.08,.08,1),strongEdge:number("STRONG_EDGE",.12,.12,1),simulatedBankroll:1000,maxFractionPerTrade:number("MAX_FRACTION_PER_TRADE",.03,0,.03),port:number("PORT",3000,0,65535),version:"v2-integrity-1",quoteMaxAgeMs:60000,maxHorizonDays:365,maxApiRequests:number("MAX_API_REQUESTS",600,0,10000)});

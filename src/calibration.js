@@ -1,9 +1,4 @@
-export function brierScore(predictions){
- if(!predictions.length) return null;
- return predictions.reduce((s,p)=>s+(Number(p.probability)-Number(p.outcome))**2,0)/predictions.length;
-}
-export function calibrationBins(predictions,bins=10){
- const out=Array.from({length:bins},(_,i)=>({low:i/bins,high:(i+1)/bins,count:0,predicted:0,actual:0}));
- for(const p of predictions){const pr=Math.max(0,Math.min(.999999,Number(p.probability)));const b=out[Math.floor(pr*bins)];b.count++;b.predicted+=pr;b.actual+=Number(p.outcome);}
- return out.filter(x=>x.count).map(x=>({...x,predicted:x.predicted/x.count,actual:x.actual/x.count}));
-}
+function validate(rows){for(const r of rows)if(typeof r.probability!=="number"||!Number.isFinite(r.probability)||r.probability<0||r.probability>1||![0,1].includes(r.outcome))throw new Error("Invalid scored forecast");}
+export function brierScore(rows){validate(rows);return rows.length?rows.reduce((n,r)=>n+(r.probability-r.outcome)**2,0)/rows.length:null;}
+export function logLoss(rows){validate(rows);return rows.length?rows.reduce((n,r)=>n-Math.log(Math.max(1e-15,r.outcome?r.probability:1-r.probability)),0)/rows.length:null;}
+export function calibrationBins(rows,bins=10){validate(rows);if(!Number.isInteger(bins)||bins<1||bins>100)throw new Error("Invalid buckets");const out=Array.from({length:bins},(_,i)=>({low:i/bins,high:(i+1)/bins,count:0,predicted:0,actual:0}));for(const r of rows){const b=out[Math.min(bins-1,Math.floor(r.probability*bins))];b.count++;b.predicted+=r.probability;b.actual+=r.outcome;}return out.filter(b=>b.count).map(b=>({...b,predicted:b.predicted/b.count,actual:b.actual/b.count,smallSample:b.count<30}));}

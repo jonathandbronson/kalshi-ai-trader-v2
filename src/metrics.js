@@ -1,7 +1,8 @@
-import {brierScore,calibrationBins} from "./calibration.js";import {loadState} from "./store.js";
-export async function performanceMetrics(){
- const s=await loadState(),settled=(s.paperTrades??[]).filter(t=>t.status!=="OPEN");
- const predictions=settled.map(t=>({probability:t.estimatedProbability,outcome:t.status==="WON"?1:0}));
- const wins=settled.filter(t=>t.status==="WON").length;
- return {settled:settled.length,wins,losses:settled.length-wins,winRate:settled.length?wins/settled.length:null,brierScore:brierScore(predictions),calibration:calibrationBins(predictions),targetRange:{minimum:200,preferred:500},readyForReview:settled.length>=200};
-}
+import {codeFingerprint,strategyFingerprint} from "./version.js";
+import {brierScore,logLoss,calibrationBins} from "./calibration.js";
+import {loadState} from "./store.js";
+function summarize(rows){return {count:rows.length,brierScore:brierScore(rows),logLoss:logLoss(rows),calibration:calibrationBins(rows),accuracy:rows.length?rows.filter(r=>(r.probability>=.5)===Boolean(r.outcome)).length/rows.length:null};}
+export async function performanceMetrics(){const s=await loadState(),all=Object.values(s.forecasts),unique=new Map();for(const f of all){if(f.version!==s.experiment.version||f.strategyFingerprint!==strategyFingerprint)continue;const key=f.eventId||f.driverId||f.ticker;if(!unique.has(key))unique.set(key,f);}const forecasts=[...unique.values()],rows=forecasts.filter(f=>s.resolutions[f.id]).map(f=>({...f,probability:f.independentProbability,outcome:s.resolutions[f.id].outcome}));
+ const groups=key=>Object.fromEntries([...new Set(rows.map(key))].map(v=>[v,summarize(rows.filter(r=>key(r)===v))]));
+ const edgeRows=rows.map(r=>{const e=Object.values(s.evaluations).find(e=>e.forecastId===r.id);if(!e?.bestTrade)return null;const won=e.bestTrade.side==="YES"?r.outcome:1-r.outcome;return {forecastId:r.id,qualified:e.qualifies,expectedNetEdge:e.bestTrade.netEdge,realizedPerContract:won-e.bestTrade.cost-e.bestTrade.estimatedFees};}).filter(Boolean);
+ const known=s.costs.filter(c=>c.estimatedCost!=null);return {...summarize(rows),settled:rows.length,locked:forecasts.length,totalVersions:all.length,excludedOtherVersions:all.length-forecasts.length,codeFingerprint,strategyFingerprint,unresolved:forecasts.length-rows.length,targetRange:{minimum:200,preferred:500},readyForReview:rows.length>=200,experiment:s.experiment,categoryPerformance:groups(r=>r.category),modelPerformance:groups(r=>r.forecast.model),evidencePerformance:groups(r=>r.evidenceQuality>=.8?"HIGH":"MODERATE"),horizonPerformance:groups(r=>r.horizonDays<=7?"WEEK":r.horizonDays<=30?"MONTH":"LONGER"),edgeResults:edgeRows,cost:{requests:s.costs.reduce((n,c)=>n+(c.attempts??1),0),knownEstimatedUsd:known.reduce((n,c)=>n+c.estimatedCost,0),unknownCostRequests:s.costs.length-known.length,records:s.costs},warning:"Software verification does not establish predictive skill. Small samples are inconclusive. Preparation mode; benchmark not started."};}

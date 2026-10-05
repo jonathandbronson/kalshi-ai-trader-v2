@@ -1,0 +1,9 @@
+import {getMarket} from "./kalshi.js";
+import {digest,loadState,transact} from "./store.js";
+export async function monitorSettlements({fetchMarket=getMarket,recheckResolved=false}={}){
+ const s=await loadState(),tickers=new Set([...Object.values(s.forecasts).filter(f=>recheckResolved||!s.resolutions[f.id]).map(f=>f.ticker),...s.paperTrades.filter(t=>t.status==="OPEN").map(t=>t.ticker)]),results=[];
+ for(const ticker of tickers){try{const d=await fetchMarket(ticker,{stage:"OFFICIAL_SETTLEMENT"}),m=d.market??d;if(m.ticker!==ticker)throw new Error("Resolution ticker mismatch");if(!["settled","finalized"].includes(m.status)){results.push({ticker,status:"UNRESOLVED"});continue;}if(!["yes","no"].includes(m.result))throw new Error("Invalid official result");
+ const result=await transact(state=>{const outcome=m.result==="yes"?1:0;for(const f of Object.values(state.forecasts).filter(f=>f.ticker===ticker)){const old=state.resolutions[f.id];if(old&&old.outcome!==outcome)throw new Error("Official settlement conflict");const resolution={forecastId:f.id,outcome,source:"Kalshi official market result",officialStatus:m.status,officialResult:m.result,resolvedAt:new Date().toISOString()};resolution.hash=digest(resolution);if(!state.resolutions[f.id]){state.resolutions[f.id]=resolution;state.audit.push({type:"OFFICIAL_RESOLUTION",forecastId:f.id,at:resolution.resolvedAt,outcome});}}for(const t of state.paperTrades.filter(t=>t.ticker===ticker&&t.status==="OPEN")){t.status=(t.side==="YES")===Boolean(outcome)?"WON":"LOST";t.outcome=m.result.toUpperCase();t.settledAt=new Date().toISOString();state.audit.push({type:"PAPER_SETTLED",id:t.id,at:t.settledAt,outcome});}return {ticker,status:"RESOLVED"};});results.push(result);
+ }catch{results.push({ticker,status:"ERROR",error:"Official settlement unavailable or invalid; no settlement applied"});}}
+ return results;
+}

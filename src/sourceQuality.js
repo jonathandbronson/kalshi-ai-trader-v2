@@ -1,16 +1,4 @@
-const HOST_WEIGHTS=[[/\.gov$/,.95],[/\.edu$/,.85],[/reuters\.com$|apnews\.com$/,.9],[/noaa\.gov$|weather\.gov$/,.98],[/bls\.gov$|bea\.gov$|federalreserve\.gov$/,.98]];
 export function hostname(url){try{return new URL(url).hostname.replace(/^www\./,"").toLowerCase()}catch{return ""}}
-export function defaultReliability(url,source=""){
- const h=hostname(url),s=String(source).toLowerCase();
- for(const [re,w] of HOST_WEIGHTS)if(re.test(h))return w;
- if(/official|government|primary/.test(s))return .9;
- return .6;
-}
-export function freshnessWeight(publishedAt,now=Date.now()){
- if(!publishedAt)return .7; const age=Math.max(0,now-new Date(publishedAt).getTime())/86400000;
- if(age<=1)return 1;if(age<=7)return .95;if(age<=30)return .85;if(age<=180)return .7;return .55;
-}
-export function scoreEvidence(e){
- const reliability=Number.isFinite(Number(e.reliability))?Number(e.reliability):defaultReliability(e.url,e.source);
- return Math.max(0,Math.min(1,reliability*freshnessWeight(e.publishedAt)));
-}
+export function defaultReliability(url){const h=hostname(url);if(/\.gov$/.test(h))return .95;if(/\.edu$/.test(h))return .85;if(/^(?:.*\.)?(reuters\.com|apnews\.com)$/.test(h))return .9;return .6;}
+export function freshnessWeight(date,now=Date.now()){const t=Date.parse(date);if(!Number.isFinite(t)||t>now+300000)return 0;const age=(now-t)/86400000;return age<=1?1:age<=7?.95:age<=30?.85:age<=180?.7:.3;}
+export function scoreEvidence(e){return Math.min(defaultReliability(e.url),Number.isFinite(e.reliability)?e.reliability:1)*freshnessWeight(e.publishedAt);}
