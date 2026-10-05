@@ -8,6 +8,8 @@ import { combineResearchWithMarket } from "./opportunities.js";
 import { saveResearch, saveAnalysis, loadState } from "./store.js";
 import { estimateProbability, probabilityRange } from "./probability.js";
 import { scanOpenMarkets, researchQueue } from "./scanner.js";
+import { makeResearchPlan } from "./researchPlan.js";
+import { auditSummary } from "./audit.js";
 
 const portfolio = new PaperPortfolio();
 const send=(res,status,data)=>{res.writeHead(status,{"content-type":"application/json","access-control-allow-origin":"*"});res.end(JSON.stringify(data,null,2));};
@@ -17,6 +19,8 @@ http.createServer(async(req,res)=>{
  try{
   const url=new URL(req.url,"http://localhost");
   if(req.method==="GET"&&url.pathname==="/health") return send(res,200,{ok:true,strategy:"research-first",minEdge:config.minEdge});
+  if(req.method==="GET"&&url.pathname==="/audit") return send(res,200,await auditSummary());
+  if(req.method==="GET"&&url.pathname.startsWith("/research-plan/")){const ticker=decodeURIComponent(url.pathname.slice(15));const d=await getMarket(ticker);return send(res,200,makeResearchPlan(normalizeMarket(d.market??d)));}
   if(req.method==="GET"&&url.pathname==="/scan"){const markets=await scanOpenMarkets({limit:Number(url.searchParams.get("limit")??100),minVolume:Number(url.searchParams.get("minVolume")??0)});return send(res,200,{count:markets.length,queue:researchQueue(markets,Number(url.searchParams.get("max")??25))});}
   if(req.method==="POST"&&url.pathname==="/estimate"){const input=await body(req);const estimate=estimateProbability(input);return send(res,200,{...estimate,range:probabilityRange(estimate)});}
   if(req.method==="GET"&&url.pathname==="/markets"){const d=await getMarkets({limit:Number(url.searchParams.get("limit")??100),cursor:url.searchParams.get("cursor")??undefined});return send(res,200,{...d,markets:(d.markets??[]).map(normalizeMarket)});}
