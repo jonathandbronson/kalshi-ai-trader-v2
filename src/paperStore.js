@@ -2,8 +2,8 @@ import {config} from "./config.js";import {loadState,saveState} from "./store.js
 export async function paperSnapshot(){
  const s=await loadState(),trades=s.paperTrades??[];let cash=config.simulatedBankroll;
  for(const t of trades){cash-=t.stake;if(t.status==="WON")cash+=t.stake/t.price;}
- const settled=trades.filter(t=>t.status!=="OPEN"),pnl=cash-config.simulatedBankroll;
- return {initialBankroll:config.simulatedBankroll,cash,portfolioValue:cash+trades.filter(t=>t.status==="OPEN").reduce((n,t)=>n+t.stake,0),pnl,open:trades.filter(t=>t.status==="OPEN").length,settled:settled.length,trades};
+ const settled=trades.filter(t=>t.status!=="OPEN"),openValue=trades.filter(t=>t.status==="OPEN").reduce((n,t)=>n+t.stake,0),portfolioValue=cash+openValue,pnl=portfolioValue-config.simulatedBankroll;
+ return {initialBankroll:config.simulatedBankroll,cash,portfolioValue,pnl,open:trades.filter(t=>t.status==="OPEN").length,settled:settled.length,trades};
 }
 export async function placePaperTrade(analysis,fraction){
  if(!analysis?.qualifies)throw new Error("Only qualifying analyses can be paper traded");
