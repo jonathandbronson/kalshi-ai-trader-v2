@@ -1,6 +1,6 @@
 # V2 integrity pass verification
 
-Status: **local software checks passed; live provider verification incomplete; NOT ready to freeze yet**.
+Historical baseline report. For the subsequent retrieval fixes, **75 backend / 2 fixture browser passes and a genuine forecast → durable lock → fresh quote → naturally qualifying isolated paper entry**, see [runtime/verification.md](runtime/verification.md). The app remains PREPARATION; no benchmark has started or frozen. The baseline findings below are retained for context, not current credential/retrieval status.
 
 ## Changes and defects corrected
 

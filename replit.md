@@ -10,3 +10,4 @@
 - Genuine live verification must use a separate, explicitly selected validation SQLite path, not the preparation/benchmark database. Do not reuse the previous JSON version's verification results as proof of this hardened version.
 - Do not weaken research source allowlisting, contamination checks, HTTPS requirements, or insufficient-evidence rejection to work around provider failures.
 - Real-money execution must remain absent/disabled. Keep the $1,000 bankroll, 8pp minimum edge, 12pp strong edge and 3% maximum available-cash position unchanged.
+- Latest retrieval/live verification is recorded in `runtime/verification.md`; isolated validation paper positions must never be copied into preparation or benchmark storage.

@@ -23,7 +23,9 @@ export async function estimateFromEvidence({market,packet}){
  if(!evidenceDiagnostics(packet.evidence).sufficient)throw new Error("Insufficient independent evidence");
  const endpoint=new URL(process.env.OPENAI_API_URL??"https://api.openai.com/v1/responses");if(endpoint.protocol!=="https:"||endpoint.hostname!=="api.openai.com"||endpoint.username||endpoint.password)throw new Error("Unsupported AI credential destination");
  const evidence=packet.evidence.map((e,i)=>({id:i+1,source:e.source,claim:e.claim,url:e.url,publishedAt:e.publishedAt,reliability:e.reliability,role:e.role??"EVENT_SPECIFIC",sourceType:e.sourceType??"REPORTING"}));
- const input={question:market.title,eventDescription:market.subtitle??"",resolutionCriteria:packet.resolutionCriteria,category:packet.category,evidence};assertIndependent(input);
+ // Responses JSON-object mode requires the JSON instruction in the input itself.
+ // This repeats the existing output-format instruction; forecasting rules are unchanged.
+ const input={question:market.title,eventDescription:market.subtitle??"",resolutionCriteria:packet.resolutionCriteria,category:packet.category,evidence,responseFormat:"JSON"};assertIndependent(input);
  const id=crypto.randomUUID();await transact(s=>{if(s.costs.filter(c=>c.provider==="openai").length>=config.maxApiRequests)throw new Error("API request budget exhausted");if(s.costs.filter(c=>c.provider==="openai"&&Date.now()-Date.parse(c.at)<60000).length>=6)throw new Error("API rate limit reached");
  const inputRate=Number(process.env.MODEL_INPUT_USD_PER_MILLION),outputRate=Number(process.env.MODEL_OUTPUT_USD_PER_MILLION),budget=Number(process.env.MAX_API_COST_USD);
  const reservedCost=Number.isFinite(inputRate)&&Number.isFinite(outputRate)&&inputRate>=0&&outputRate>=0?((Buffer.byteLength(JSON.stringify(input),"utf8")+4000)*inputRate+2000*outputRate)/1e6:null;
