@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19T17:25:50.371Z",
+  "timestamp": "2026-10-19T17:29:14.316Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -8,17 +8,170 @@
     "No orders, paper entries, or approved pairs are generated"
   ],
   "counts": {
-    "kalshiRawMarkets": 600,
-    "kalshiSingleOutcomeMarkets": 600,
-    "kalshiMarkets": 600,
+    "kalshiRawMarkets": 700,
+    "kalshiSingleOutcomeMarkets": 639,
+    "kalshiMarkets": 639,
     "polymarketMarkets": 1200,
-    "polymarketBinaryMarkets": 995,
-    "titleCandidates": 34,
+    "polymarketBinaryMarkets": 986,
+    "titleCandidates": 38,
     "kalshiPagesRequested": 12,
     "polymarketPagesRequested": 12,
     "orderbooksChecked": 20
   },
   "candidates": [
+    {
+      "score": 0.671,
+      "kalshi": {
+        "ticker": "KX30YRRATE15M-26OCT191330-30",
+        "title": "30-year U.S. Treasury yield up in next 15 mins?",
+        "subtitle": "",
+        "rulesPrimary": "If the close yield (%) of the 1-minute Pyth candlestick for 30-year U.S. Treasury ending at 1:30 PM EDT on Oct 19, 2026 is at least the opening target yield, then the market resolves to Yes.",
+        "rulesSecondary": "The market resolves based on the closing yield of the one-minute Pyth candlestick for 30-year U.S. Treasury ending at 1:30 PM EDT on Oct 19, 2026. The 30-year U.S. Treasury refers to the US30Y, the current on-the-run benchmark of the 30-yea",
+        "closeDate": "2026-10-19"
+      },
+      "polymarket": {
+        "id": "4890803",
+        "title": "Will the 10-year Treasury yield hit 5.4% before 2027?",
+        "description": "This market will resolve to \"Yes\" if the Treasury 10-year yield reaches or is higher than the listed value for any date from market creation to December 31, 2026. Otherwise this market will resolve to \"No\".\n\nThis market will resolve as soon",
+        "resolutionSource": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2025",
+        "endDate": "2027-01-01"
+      },
+      "dateDifferenceDays": 74,
+      "topOfBook": {
+        "kalshiYesAsk": null,
+        "kalshiNoAsk": 0.99,
+        "polymarketYesAsk": 0.45,
+        "polymarketNoAsk": 0.58,
+        "kalshiYesAskSize": 0,
+        "kalshiNoAskSize": 50,
+        "polymarketYesAskSize": 90.04,
+        "polymarketNoAskSize": 50
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.44,
+          "grossSpreadPerShare": -0.44
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.671,
+      "kalshi": {
+        "ticker": "KX10YRRATE15M-26OCT191330-30",
+        "title": "10-year U.S. Treasury yield up in next 15 mins?",
+        "subtitle": "",
+        "rulesPrimary": "If the close yield (%) of the 1-minute Pyth candlestick for 10-year U.S. Treasury ending at 1:30 PM EDT on Oct 19, 2026 is at least 5.14674, then the market resolves to Yes.",
+        "rulesSecondary": "The market resolves based on the closing yield of the one-minute Pyth candlestick for 10-year U.S. Treasury ending at 1:30 PM EDT on Oct 19, 2026. The 10-year U.S. Treasury refers to the US10Y, the current on-the-run benchmark of the 10-yea",
+        "closeDate": "2026-10-19"
+      },
+      "polymarket": {
+        "id": "4890803",
+        "title": "Will the 10-year Treasury yield hit 5.4% before 2027?",
+        "description": "This market will resolve to \"Yes\" if the Treasury 10-year yield reaches or is higher than the listed value for any date from market creation to December 31, 2026. Otherwise this market will resolve to \"No\".\n\nThis market will resolve as soon",
+        "resolutionSource": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2025",
+        "endDate": "2027-01-01"
+      },
+      "dateDifferenceDays": 74,
+      "topOfBook": {
+        "kalshiYesAsk": null,
+        "kalshiNoAsk": 0.99,
+        "polymarketYesAsk": 0.45,
+        "polymarketNoAsk": 0.58,
+        "kalshiYesAskSize": 0,
+        "kalshiNoAskSize": 50,
+        "polymarketYesAskSize": 90.04,
+        "polymarketNoAskSize": 50
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.44,
+          "grossSpreadPerShare": -0.44
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.671,
+      "kalshi": {
+        "ticker": "KX5YRRATE15M-26OCT191330-30",
+        "title": "5-year U.S. Treasury yield up in next 15 mins?",
+        "subtitle": "",
+        "rulesPrimary": "If the close yield (%) of the 1-minute Pyth candlestick for 5-year U.S. Treasury ending at 1:30 PM EDT on Oct 19, 2026 is at least the opening target yield, then the market resolves to Yes.",
+        "rulesSecondary": "The market resolves based on the closing yield of the one-minute Pyth candlestick for 5-year U.S. Treasury ending at 1:30 PM EDT on Oct 19, 2026. The 5-year U.S. Treasury refers to the US5Y, the current on-the-run benchmark of the 5-year U.",
+        "closeDate": "2026-10-19"
+      },
+      "polymarket": {
+        "id": "4890803",
+        "title": "Will the 10-year Treasury yield hit 5.4% before 2027?",
+        "description": "This market will resolve to \"Yes\" if the Treasury 10-year yield reaches or is higher than the listed value for any date from market creation to December 31, 2026. Otherwise this market will resolve to \"No\".\n\nThis market will resolve as soon",
+        "resolutionSource": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2025",
+        "endDate": "2027-01-01"
+      },
+      "dateDifferenceDays": 74,
+      "topOfBook": {
+        "kalshiYesAsk": 0.95,
+        "kalshiNoAsk": 0.95,
+        "polymarketYesAsk": 0.45,
+        "polymarketNoAsk": 0.58,
+        "kalshiYesAskSize": 1,
+        "kalshiNoAskSize": 1,
+        "polymarketYesAskSize": 90.04,
+        "polymarketNoAskSize": 50
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.53,
+          "grossSpreadPerShare": -0.53
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.4,
+          "grossSpreadPerShare": -0.4
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.671,
+      "kalshi": {
+        "ticker": "KX2YRRATE15M-26OCT191330-30",
+        "title": "2-year U.S. Treasury yield up in next 15 mins?",
+        "subtitle": "",
+        "rulesPrimary": "If the close yield (%) of the 1-minute Pyth candlestick for 2-year U.S. Treasury ending at 1:30 PM EDT on Oct 19, 2026 is at least 4.77403, then the market resolves to Yes.",
+        "rulesSecondary": "The market resolves based on the closing yield of the one-minute Pyth candlestick for 2-year U.S. Treasury ending at 1:30 PM EDT on Oct 19, 2026. The 2-year U.S. Treasury refers to the US2Y, the current on-the-run benchmark of the 2-year U.",
+        "closeDate": "2026-10-19"
+      },
+      "polymarket": {
+        "id": "4890803",
+        "title": "Will the 10-year Treasury yield hit 5.4% before 2027?",
+        "description": "This market will resolve to \"Yes\" if the Treasury 10-year yield reaches or is higher than the listed value for any date from market creation to December 31, 2026. Otherwise this market will resolve to \"No\".\n\nThis market will resolve as soon",
+        "resolutionSource": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2025",
+        "endDate": "2027-01-01"
+      },
+      "dateDifferenceDays": 74,
+      "topOfBook": {
+        "kalshiYesAsk": null,
+        "kalshiNoAsk": 0.99,
+        "polymarketYesAsk": 0.45,
+        "polymarketNoAsk": 0.58,
+        "kalshiYesAskSize": 0,
+        "kalshiNoAskSize": 50,
+        "polymarketYesAskSize": 90.04,
+        "polymarketNoAskSize": 50
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.44,
+          "grossSpreadPerShare": -0.44
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
     {
       "score": 0.632,
       "kalshi": {
@@ -42,8 +195,8 @@
         "kalshiNoAsk": 0.95,
         "polymarketYesAsk": 0.028,
         "polymarketNoAsk": 0.973,
-        "kalshiYesAskSize": 20,
-        "kalshiNoAskSize": 20,
+        "kalshiYesAskSize": 100,
+        "kalshiNoAskSize": 184,
         "polymarketYesAskSize": 200,
         "polymarketNoAskSize": 110960.05
       },
@@ -294,7 +447,7 @@
         "kalshiNoAsk": null,
         "polymarketYesAsk": 0.006,
         "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 10970,
+        "kalshiYesAskSize": 11441,
         "kalshiNoAskSize": 0,
         "polymarketYesAskSize": 6686.5,
         "polymarketNoAskSize": 1689.5
@@ -368,7 +521,7 @@
         "kalshiNoAsk": null,
         "polymarketYesAsk": 0.006,
         "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 9260,
+        "kalshiYesAskSize": 9740,
         "kalshiNoAskSize": 0,
         "polymarketYesAskSize": 6686.5,
         "polymarketNoAskSize": 1689.5
@@ -405,7 +558,7 @@
         "kalshiNoAsk": null,
         "polymarketYesAsk": 0.006,
         "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 11952,
+        "kalshiYesAskSize": 12343,
         "kalshiNoAskSize": 0,
         "polymarketYesAskSize": 6686.5,
         "polymarketNoAskSize": 1689.5
@@ -479,7 +632,7 @@
         "kalshiNoAsk": null,
         "polymarketYesAsk": 0.006,
         "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 8940,
+        "kalshiYesAskSize": 9740,
         "kalshiNoAskSize": 0,
         "polymarketYesAskSize": 6686.5,
         "polymarketNoAskSize": 1689.5
@@ -632,7 +785,7 @@
         "kalshiNoAsk": null,
         "polymarketYesAsk": 0.006,
         "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 7500,
+        "kalshiYesAskSize": 9740,
         "kalshiNoAskSize": 0,
         "polymarketYesAskSize": 6686.5,
         "polymarketNoAskSize": 1689.5
@@ -645,183 +798,30 @@
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.632,
-      "kalshi": {
-        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM0MUN2",
-        "title": "Final score Manchester United wins 2-0?",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester United wins 2-0 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
-        "rulesSecondary": "",
-        "closeDate": "2026-10-23"
-      },
-      "polymarket": {
-        "id": "2771336",
-        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
-        "resolutionSource": "",
-        "endDate": "2027-05-30"
-      },
-      "dateDifferenceDays": 219,
-      "topOfBook": {
-        "kalshiYesAsk": 0.06,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.006,
-        "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 9157,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 6686.5,
-        "polymarketNoAskSize": 1689.5
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.055,
-          "grossSpreadPerShare": -0.055
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.632,
-      "kalshi": {
-        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM0MUN1",
-        "title": "Final score Manchester United wins 1-0?",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester United wins 1-0 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
-        "rulesSecondary": "",
-        "closeDate": "2026-10-23"
-      },
-      "polymarket": {
-        "id": "2771336",
-        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
-        "resolutionSource": "",
-        "endDate": "2027-05-30"
-      },
-      "dateDifferenceDays": 219,
-      "topOfBook": {
-        "kalshiYesAsk": 0.07,
-        "kalshiNoAsk": 0.97,
-        "polymarketYesAsk": 0.006,
-        "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 401.76,
-        "kalshiNoAskSize": 13,
-        "polymarketYesAskSize": 6686.5,
-        "polymarketNoAskSize": 1689.5
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.065,
-          "grossSpreadPerShare": -0.065
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 0.976,
-          "grossSpreadPerShare": 0.024
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.577,
-      "kalshi": {
-        "ticker": "KXUCL1HSCORE-26OCT21COMMUN-COM2MUN3",
-        "title": "Will the 1st half score be Manchester United wins 3-2?",
-        "subtitle": "",
-        "rulesPrimary": "If the score at the end of the 1st Half is Como 1907 2, Manchester United 3 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026, then the market resolves to Yes.",
-        "rulesSecondary": "",
-        "closeDate": "2026-10-23"
-      },
-      "polymarket": {
-        "id": "2771336",
-        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
-        "resolutionSource": "",
-        "endDate": "2027-05-30"
-      },
-      "dateDifferenceDays": 219,
-      "topOfBook": {
-        "kalshiYesAsk": 0.01,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.006,
-        "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 2480,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 6686.5,
-        "polymarketNoAskSize": 1689.5
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.005,
-          "grossSpreadPerShare": -0.005
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.577,
-      "kalshi": {
-        "ticker": "KXUCL1HSCORE-26OCT21COMMUN-COM1MUN3",
-        "title": "Will the 1st half score be Manchester United wins 3-1?",
-        "subtitle": "",
-        "rulesPrimary": "If the score at the end of the 1st Half is Como 1907 1, Manchester United 3 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026, then the market resolves to Yes.",
-        "rulesSecondary": "",
-        "closeDate": "2026-10-23"
-      },
-      "polymarket": {
-        "id": "2771336",
-        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
-        "resolutionSource": "",
-        "endDate": "2027-05-30"
-      },
-      "dateDifferenceDays": 219,
-      "topOfBook": {
-        "kalshiYesAsk": 0.02,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.006,
-        "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 2480,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 6686.5,
-        "polymarketNoAskSize": 1689.5
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.015,
-          "grossSpreadPerShare": -0.015
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
     }
   ],
   "errors": [],
   "samples": {
     "kalshi": [
       {
-        "title": "Game ends in a tie",
+        "title": "Sverdlov Mikhail wins",
         "subtitle": "",
-        "ticker": "KXESOCCERGAME-26OCT191624HAZEKROC-TIE"
+        "ticker": "KXLIGAPROMATCH-26OCT200115CHESVE-SVE"
       },
       {
-        "title": "Leverkusen (Krocs) wins",
+        "title": "Chernov Vyacheslav wins",
         "subtitle": "",
-        "ticker": "KXESOCCERGAME-26OCT191624HAZEKROC-KROC"
+        "ticker": "KXLIGAPROMATCH-26OCT200115CHESVE-CHE"
       },
       {
-        "title": "Manchester City (Haze) wins",
+        "title": "Zhigalov Vladimir wins",
         "subtitle": "",
-        "ticker": "KXESOCCERGAME-26OCT191624HAZEKROC-HAZE"
+        "ticker": "KXLIGAPROMATCH-26OCT200115ZHIKAR-ZHI"
       },
       {
-        "title": "Game ends in a tie",
+        "title": "Karpovkin Gennadiy wins",
         "subtitle": "",
-        "ticker": "KXESOCCERGAME-26OCT191622NISKSHEE-TIE"
+        "ticker": "KXLIGAPROMATCH-26OCT200115ZHIKAR-KAR"
       }
     ],
     "polymarket": [
