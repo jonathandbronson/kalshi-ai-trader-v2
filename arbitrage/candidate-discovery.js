@@ -14,8 +14,18 @@ function tokens(t){return new Set(String(t??"").toLowerCase().replace(/[^a-z0-9 
 function similarity(a,b){const x=tokens(a),y=tokens(b);if(!x.size||!y.size)return 0;const shared=[...x].filter(v=>y.has(v)).length;return shared/Math.sqrt(x.size*y.size)}
 const GENERIC=new Set(["both","teams","team","score","scored","goals","goal","over","under","win","wins","winner","game","match","league","football","basketball","soccer","points","total","first","second","half","full","time","more","less","than","each","either","draw","against","october","november","december","january","february","march","april","may","june","july","august","september","2026","2027","2028","yes","no","the","will","versus","after","before","2025","2024"]);
 function distinctive(s){return [...tokens(s)].filter(t=>!GENERIC.has(t)&&!/^\\d+$/.test(t));}
+function contractKind(s){
+ const t=String(s??"").toLowerCase();
+ if(/\\b(?:15|30|60)\\s*(?:mins?|minutes?)\\b|\\bnext\\s+\\d+\\s*(?:mins?|minutes?)\\b/.test(t))return "intraday";
+ if(/\\b(?:hit|reach|touch|exceed)\\b.*\\b(?:before|by)\\b/.test(t))return "threshold";
+ if(/\\b(?:championship|champion|finals|playoffs|nomination|worlds\\s+20\\d\\d)\\b/.test(t))return "season";
+ if(/\\b(?:score|scored|goals|1st half|2nd half|final score)\\b/.test(t))return "match-prop";
+ return "other";
+}
 function eventGate(k,p){
  const kr=String(k.rules_primary??"").toLowerCase(),kt=String(k.title??"").toLowerCase(),pt=String(p.question??"").toLowerCase(),pd=String(p.description??"").toLowerCase();
+ const kindK=contractKind(kt),kindP=contractKind(pt);
+ if(kindK!=="other"&&kindP!=="other"&&kindK!==kindP)return false;
  // Virtual sports and real-world sports are never the same underlying event.
  if(/\\besports?\\b|\\bebasketball\\b|\\besoccer\\b|valhalla league|valhalla cup|\\(wemby\\)|\\(haze\\)|\\(lenny\\)/i.test(kr+" "+kt))return false;
  // Championship and single-game outcome contracts are not interchangeable.
@@ -79,7 +89,7 @@ async function main(){
  report.counts.titleCandidates=candidates.length;
  report.counts.kalshiPagesRequested=limit;
  report.counts.polymarketPagesRequested=limit;
- report.matching={threshold:0.48,minimumSharedTokens:2,minimumDistinctiveContextTokens:2,eventTypeGate:true,dateGate:true,kalshiExcludedMultiLeg:true,kalshiApiMveFilter:"exclude",polymarketOrder:"volume24hr descending",warning:"Text similarity is not proof of settlement equivalence; all results require manual rules review."};
+ report.matching={threshold:0.48,minimumSharedTokens:2,minimumDistinctiveContextTokens:2,eventTypeGate:true,contractKindGate:true,dateGate:true,kalshiExcludedMultiLeg:true,kalshiApiMveFilter:"exclude",polymarketOrder:"volume24hr descending",warning:"Text similarity is not proof of settlement equivalence; all results require manual rules review."};
  for(const item of candidates.slice(0,maxCandidates)){
   const k=item.kalshi,p=item.polymarket;
   const full=ps.find(x=>String(x.id)===p.id),outcomes=parseArray(full?.outcomes),ids=parseArray(full?.clobTokenIds);
