@@ -20,7 +20,7 @@ function eventGate(k,p){
  if(/\\besports?\\b|\\bebasketball\\b|\\besoccer\\b|valhalla league|valhalla cup|\\(wemby\\)|\\(haze\\)|\\(lenny\\)/i.test(kr+" "+kt))return false;
  // Championship and single-game outcome contracts are not interchangeable.
  const season=/\\bchampion(ship)?\\b|\\bfinals\\b|\\bplayoffs\\b|\\btitle\\b|\\bnomination\\b/i;
- if(season.test(pt)!==season.test(kt+" "+kr))return false;
+ if(season.test(pt)!==season.test(kt))return false;
  if(season.test(pt)&&/\\bgame\\b|\\bmatch\\b|\\bwins\\b/i.test(kt+" "+kr)&&!season.test(kt))return false;
  // Require a shared, explicit calendar day where both contracts specify one.
  const kdate=(kr+" "+kt).match(/(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\\s+\\d{1,2},?\\s+20\\d\\d/i);
@@ -50,7 +50,7 @@ function matchingScore(k,p){
 function isSingleOutcome(k){
  const title=String(k.title??"");
  const ticker=String(k.ticker??"");
- return !/^KXMVE/i.test(ticker) && !/^(?:yes|no) .*,\s*(?:yes|no) /i.test(title) && title.length<200;
+ return !/^KXMVE/i.test(ticker) && !/^KXE(?:SOCCER|BASKETBALL)/i.test(ticker) && !/^(?:yes|no) .*,\s*(?:yes|no) /i.test(title) && title.length<200;
 }
 function numeric(v){const n=Number(v);return Number.isFinite(n)?n:0}
 function date(v){const n=Date.parse(v??"");return Number.isFinite(n)?new Date(n).toISOString().slice(0,10):null}
