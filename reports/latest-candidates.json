@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19T17:29:14.316Z",
+  "timestamp": "2026-10-19T17:29:40.270Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -45,7 +45,7 @@
         "kalshiYesAskSize": 0,
         "kalshiNoAskSize": 50,
         "polymarketYesAskSize": 90.04,
-        "polymarketNoAskSize": 50
+        "polymarketNoAskSize": 109.28
       },
       "illustrativeBeforeFees": [
         {
@@ -82,7 +82,7 @@
         "kalshiYesAskSize": 0,
         "kalshiNoAskSize": 50,
         "polymarketYesAskSize": 90.04,
-        "polymarketNoAskSize": 50
+        "polymarketNoAskSize": 109.28
       },
       "illustrativeBeforeFees": [
         {
@@ -119,7 +119,7 @@
         "kalshiYesAskSize": 1,
         "kalshiNoAskSize": 1,
         "polymarketYesAskSize": 90.04,
-        "polymarketNoAskSize": 50
+        "polymarketNoAskSize": 109.28
       },
       "illustrativeBeforeFees": [
         {
@@ -161,7 +161,7 @@
         "kalshiYesAskSize": 0,
         "kalshiNoAskSize": 50,
         "polymarketYesAskSize": 90.04,
-        "polymarketNoAskSize": 50
+        "polymarketNoAskSize": 109.28
       },
       "illustrativeBeforeFees": [
         {
@@ -195,7 +195,7 @@
         "kalshiNoAsk": 0.95,
         "polymarketYesAsk": 0.028,
         "polymarketNoAsk": 0.973,
-        "kalshiYesAskSize": 100,
+        "kalshiYesAskSize": 110,
         "kalshiNoAskSize": 184,
         "polymarketYesAskSize": 200,
         "polymarketNoAskSize": 110960.05
