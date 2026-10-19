@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19T17:37:45.871Z",
+  "timestamp": "2026-10-19T17:40:04.388Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -9,10 +9,10 @@
   ],
   "counts": {
     "kalshiRawMarkets": 1400,
-    "kalshiSingleOutcomeMarkets": 1263,
-    "kalshiMarkets": 1263,
+    "kalshiSingleOutcomeMarkets": 1265,
+    "kalshiMarkets": 1265,
     "polymarketMarkets": 2000,
-    "polymarketBinaryMarkets": 1672,
+    "polymarketBinaryMarkets": 1675,
     "titleCandidates": 0,
     "contractTypePolicy": "strict_same_kind",
     "kalshiPagesRequested": 20,
@@ -25,24 +25,24 @@
   "samples": {
     "kalshi": [
       {
-        "title": "What will any host or reporter say during ABC World News Tonight originally scheduled for October 19, 2026?",
+        "title": "Will Monza score over 3.5 goals?",
         "subtitle": "",
-        "ticker": "KXWORLDNEWSMENTION-26OCT19-ZACH"
+        "ticker": "KXSERIEATEAMTOTAL-26OCT19MONCAG-MON4"
       },
       {
-        "title": "What will any host or reporter say during ABC World News Tonight originally scheduled for October 19, 2026?",
+        "title": "Hapoel Kfar Shelem wins by more than 4.5 goals?",
         "subtitle": "",
-        "ticker": "KXWORLDNEWSMENTION-26OCT19-TRUM"
+        "ticker": "KXISRNLSPREAD-26OCT19HKFHAC-HKF5"
       },
       {
-        "title": "What will any host or reporter say during ABC World News Tonight originally scheduled for October 19, 2026?",
+        "title": "Monza wins by more than 3.5 goals?",
         "subtitle": "",
-        "ticker": "KXWORLDNEWSMENTION-26OCT19-TESL"
+        "ticker": "KXSERIEASPREAD-26OCT19MONCAG-MON4"
       },
       {
-        "title": "What will any host or reporter say during ABC World News Tonight originally scheduled for October 19, 2026?",
+        "title": "No team scores a TD",
         "subtitle": "",
-        "ticker": "KXWORLDNEWSMENTION-26OCT19-SUPR"
+        "ticker": "KXNCAAFFIRSTTDTEAM-26OCT24BAYKU-NONE"
       }
     ],
     "polymarket": [
