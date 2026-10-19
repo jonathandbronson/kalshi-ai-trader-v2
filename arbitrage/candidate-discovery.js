@@ -36,7 +36,7 @@ async function main(){
  const report={timestamp:new Date().toISOString(),mode:"READ_ONLY_DISCOVERY",autoApproved:0,verifiedPairs:0,notes:["Similarity is only a research lead, NOT settlement equivalence","No orders, paper entries, or approved pairs are generated"],counts:{},candidates:[],errors:[]};
  const kalshi=[],poly=[];let cursor="";let kalshiRaw=0;
  for(let i=0;i<limit;i++){
-  try{const u=new URL("https://external-api.kalshi.com/trade-api/v2/markets");u.searchParams.set("limit","100");u.searchParams.set("status","open");if(cursor)u.searchParams.set("cursor",cursor);const r=await get(u.toString());kalshiRaw+=(r.markets??[]).length;kalshi.push(...(r.markets??[]).filter(isSingleOutcome));cursor=r.cursor??"";if(!cursor||kalshi.length>=MAX_POOL)break}catch(e){report.errors.push("kalshi listing: "+e.message);break}
+  try{const u=new URL("https://external-api.kalshi.com/trade-api/v2/markets");u.searchParams.set("limit","100");u.searchParams.set("status","open");u.searchParams.set("mve_filter","exclude");if(cursor)u.searchParams.set("cursor",cursor);const r=await get(u.toString());kalshiRaw+=(r.markets??[]).length;kalshi.push(...(r.markets??[]).filter(isSingleOutcome));cursor=r.cursor??"";if(!cursor||kalshi.length>=MAX_POOL)break}catch(e){report.errors.push("kalshi listing: "+e.message);break}
  }
  for(let i=0;i<limit;i++){
   try{const u=new URL("https://gamma-api.polymarket.com/markets");u.searchParams.set("limit","100");u.searchParams.set("offset",String(i*100));u.searchParams.set("active","true");u.searchParams.set("closed","false");u.searchParams.set("order","volume24hr");u.searchParams.set("ascending","false");const r=await get(u.toString());if(!Array.isArray(r))throw Error("Invalid response");poly.push(...r);if(r.length<100)break}catch(e){report.errors.push("polymarket listing: "+e.message);break}
@@ -55,7 +55,7 @@ async function main(){
  report.counts.titleCandidates=candidates.length;
  report.counts.kalshiPagesRequested=limit;
  report.counts.polymarketPagesRequested=limit;
- report.matching={threshold:0.48,minimumSharedTokens:2,kalshiExcludedMultiLeg:true,polymarketOrder:"volume24hr descending",warning:"Text similarity is not proof of settlement equivalence; all results require manual rules review."};
+ report.matching={threshold:0.48,minimumSharedTokens:2,kalshiExcludedMultiLeg:true,kalshiApiMveFilter:"exclude",polymarketOrder:"volume24hr descending",warning:"Text similarity is not proof of settlement equivalence; all results require manual rules review."};
  for(const item of candidates.slice(0,maxCandidates)){
   const k=item.kalshi,p=item.polymarket;
   const full=ps.find(x=>String(x.id)===p.id),outcomes=parseArray(full?.outcomes),ids=parseArray(full?.clobTokenIds);
