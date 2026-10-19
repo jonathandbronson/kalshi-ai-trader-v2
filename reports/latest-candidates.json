@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19T17:32:47.883Z",
+  "timestamp": "2026-10-19T17:33:34.302Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -9,808 +9,285 @@
   ],
   "counts": {
     "kalshiRawMarkets": 700,
-    "kalshiSingleOutcomeMarkets": 647,
-    "kalshiMarkets": 647,
+    "kalshiSingleOutcomeMarkets": 638,
+    "kalshiMarkets": 638,
     "polymarketMarkets": 1200,
-    "polymarketBinaryMarkets": 987,
-    "titleCandidates": 38,
+    "polymarketBinaryMarkets": 988,
+    "titleCandidates": 8,
     "contractTypePolicy": "strict_same_kind",
     "kalshiPagesRequested": 12,
     "polymarketPagesRequested": 12,
-    "orderbooksChecked": 20
+    "orderbooksChecked": 8
   },
   "candidates": [
     {
-      "score": 0.671,
+      "score": 0.53,
       "kalshi": {
-        "ticker": "KX30YRRATE15M-26OCT191345-45",
-        "title": "30-year U.S. Treasury yield up in next 15 mins?",
+        "ticker": "KXGOLDH-26OCT1915-T4131.99",
+        "title": "Will the gold close price be above 4131.99 USD/ounce on October 19, 2026 at 3:00 PM ET?",
         "subtitle": "",
-        "rulesPrimary": "If the close yield (%) of the 1-minute Pyth candlestick for 30-year U.S. Treasury ending at 1:45 PM EDT on Oct 19, 2026 is at least the opening target yield, then the market resolves to Yes.",
-        "rulesSecondary": "The market resolves based on the closing yield of the one-minute Pyth candlestick for 30-year U.S. Treasury ending at 1:45 PM EDT on Oct 19, 2026. The 30-year U.S. Treasury refers to the US30Y, the current on-the-run benchmark of the 30-yea",
+        "rulesPrimary": "If the close price of the 1-minute candlestick for gold on October 19, 2026 at 3:00 PM EDT is above 4131.99 USD/ounce, then the market resolves to Yes.",
+        "rulesSecondary": "The settlement value is rounded to the nearest 2 decimal places. When confirming the settlement value, note the close price for the 1-minute candlestick at a given time is the price at the end of the immediately preceding one-minute interva",
         "closeDate": "2026-10-19"
       },
       "polymarket": {
-        "id": "4890803",
-        "title": "Will the 10-year Treasury yield hit 5.4% before 2027?",
-        "description": "This market will resolve to \"Yes\" if the Treasury 10-year yield reaches or is higher than the listed value for any date from market creation to December 31, 2026. Otherwise this market will resolve to \"No\".\n\nThis market will resolve as soon",
-        "resolutionSource": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2025",
-        "endDate": "2027-01-01"
+        "id": "5776869",
+        "title": "Will the price of Solana be above $85 on October 23?",
+        "description": "This market will resolve to \"Yes\" if the Binance 1 minute candle for SOL/USDT closing at 12:00 in the ET timezone (noon) on the date specified in the title has a final \"Close\" price higher than the price specified in the title. Otherwise, t",
+        "resolutionSource": "https://www.binance.com/en/trade/SOL_USDT",
+        "endDate": "2026-10-23"
       },
-      "dateDifferenceDays": 74,
+      "dateDifferenceDays": 4,
       "topOfBook": {
-        "kalshiYesAsk": 0.69,
-        "kalshiNoAsk": 0.69,
-        "polymarketYesAsk": 0.45,
-        "polymarketNoAsk": 0.58,
-        "kalshiYesAskSize": 32,
-        "kalshiNoAskSize": 32,
-        "polymarketYesAskSize": 50.04,
-        "polymarketNoAskSize": 59.28
+        "kalshiYesAsk": null,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.99,
+        "polymarketNoAsk": 0.049,
+        "kalshiYesAskSize": 0,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 5,
+        "polymarketNoAskSize": 5
       },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.27,
-          "grossSpreadPerShare": -0.27
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.14,
-          "grossSpreadPerShare": -0.14
-        }
-      ],
+      "illustrativeBeforeFees": [],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
     },
     {
-      "score": 0.671,
+      "score": 0.53,
       "kalshi": {
-        "ticker": "KX10YRRATE15M-26OCT191345-45",
-        "title": "10-year U.S. Treasury yield up in next 15 mins?",
+        "ticker": "KXGOLDH-26OCT1915-T4131.99",
+        "title": "Will the gold close price be above 4131.99 USD/ounce on October 19, 2026 at 3:00 PM ET?",
         "subtitle": "",
-        "rulesPrimary": "If the close yield (%) of the 1-minute Pyth candlestick for 10-year U.S. Treasury ending at 1:45 PM EDT on Oct 19, 2026 is at least the opening target yield, then the market resolves to Yes.",
-        "rulesSecondary": "The market resolves based on the closing yield of the one-minute Pyth candlestick for 10-year U.S. Treasury ending at 1:45 PM EDT on Oct 19, 2026. The 10-year U.S. Treasury refers to the US10Y, the current on-the-run benchmark of the 10-yea",
+        "rulesPrimary": "If the close price of the 1-minute candlestick for gold on October 19, 2026 at 3:00 PM EDT is above 4131.99 USD/ounce, then the market resolves to Yes.",
+        "rulesSecondary": "The settlement value is rounded to the nearest 2 decimal places. When confirming the settlement value, note the close price for the 1-minute candlestick at a given time is the price at the end of the immediately preceding one-minute interva",
         "closeDate": "2026-10-19"
       },
       "polymarket": {
-        "id": "4890803",
-        "title": "Will the 10-year Treasury yield hit 5.4% before 2027?",
-        "description": "This market will resolve to \"Yes\" if the Treasury 10-year yield reaches or is higher than the listed value for any date from market creation to December 31, 2026. Otherwise this market will resolve to \"No\".\n\nThis market will resolve as soon",
-        "resolutionSource": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2025",
-        "endDate": "2027-01-01"
+        "id": "5776871",
+        "title": "Will the price of Solana be above $95 on October 23?",
+        "description": "This market will resolve to \"Yes\" if the Binance 1 minute candle for SOL/USDT closing at 12:00 in the ET timezone (noon) on the date specified in the title has a final \"Close\" price higher than the price specified in the title. Otherwise, t",
+        "resolutionSource": "https://www.binance.com/en/trade/SOL_USDT",
+        "endDate": "2026-10-23"
       },
-      "dateDifferenceDays": 74,
+      "dateDifferenceDays": 4,
       "topOfBook": {
-        "kalshiYesAsk": 0.69,
-        "kalshiNoAsk": 0.69,
-        "polymarketYesAsk": 0.45,
-        "polymarketNoAsk": 0.58,
-        "kalshiYesAskSize": 32,
-        "kalshiNoAskSize": 32,
-        "polymarketYesAskSize": 50.04,
-        "polymarketNoAskSize": 59.28
+        "kalshiYesAsk": null,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.94,
+        "polymarketNoAsk": 0.11,
+        "kalshiYesAskSize": 0,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 1371.64,
+        "polymarketNoAskSize": 5
       },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.27,
-          "grossSpreadPerShare": -0.27
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.14,
-          "grossSpreadPerShare": -0.14
-        }
-      ],
+      "illustrativeBeforeFees": [],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
     },
     {
-      "score": 0.671,
+      "score": 0.53,
       "kalshi": {
-        "ticker": "KX5YRRATE15M-26OCT191345-45",
-        "title": "5-year U.S. Treasury yield up in next 15 mins?",
+        "ticker": "KXGOLDH-26OCT1914-T4131.99",
+        "title": "Will the gold close price be above 4131.99 USD/ounce on October 19, 2026 at 2:00 PM ET?",
         "subtitle": "",
-        "rulesPrimary": "If the close yield (%) of the 1-minute Pyth candlestick for 5-year U.S. Treasury ending at 1:45 PM EDT on Oct 19, 2026 is at least the opening target yield, then the market resolves to Yes.",
-        "rulesSecondary": "The market resolves based on the closing yield of the one-minute Pyth candlestick for 5-year U.S. Treasury ending at 1:45 PM EDT on Oct 19, 2026. The 5-year U.S. Treasury refers to the US5Y, the current on-the-run benchmark of the 5-year U.",
+        "rulesPrimary": "If the close price of the 1-minute candlestick for gold on October 19, 2026 at 2:00 PM EDT is above 4131.99 USD/ounce, then the market resolves to Yes.",
+        "rulesSecondary": "The settlement value is rounded to the nearest 2 decimal places. When confirming the settlement value, note the close price for the 1-minute candlestick at a given time is the price at the end of the immediately preceding one-minute interva",
         "closeDate": "2026-10-19"
       },
       "polymarket": {
-        "id": "4890803",
-        "title": "Will the 10-year Treasury yield hit 5.4% before 2027?",
-        "description": "This market will resolve to \"Yes\" if the Treasury 10-year yield reaches or is higher than the listed value for any date from market creation to December 31, 2026. Otherwise this market will resolve to \"No\".\n\nThis market will resolve as soon",
-        "resolutionSource": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2025",
-        "endDate": "2027-01-01"
+        "id": "5776869",
+        "title": "Will the price of Solana be above $85 on October 23?",
+        "description": "This market will resolve to \"Yes\" if the Binance 1 minute candle for SOL/USDT closing at 12:00 in the ET timezone (noon) on the date specified in the title has a final \"Close\" price higher than the price specified in the title. Otherwise, t",
+        "resolutionSource": "https://www.binance.com/en/trade/SOL_USDT",
+        "endDate": "2026-10-23"
       },
-      "dateDifferenceDays": 74,
+      "dateDifferenceDays": 4,
       "topOfBook": {
-        "kalshiYesAsk": 0.69,
-        "kalshiNoAsk": 0.69,
-        "polymarketYesAsk": 0.45,
-        "polymarketNoAsk": 0.58,
-        "kalshiYesAskSize": 32,
-        "kalshiNoAskSize": 32,
-        "polymarketYesAskSize": 50.04,
-        "polymarketNoAskSize": 59.28
+        "kalshiYesAsk": null,
+        "kalshiNoAsk": 0.49,
+        "polymarketYesAsk": 0.99,
+        "polymarketNoAsk": 0.049,
+        "kalshiYesAskSize": 0,
+        "kalshiNoAskSize": 100,
+        "polymarketYesAskSize": 5,
+        "polymarketNoAskSize": 5
       },
       "illustrativeBeforeFees": [
         {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.27,
-          "grossSpreadPerShare": -0.27
-        },
-        {
           "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.14,
-          "grossSpreadPerShare": -0.14
+          "combinedAsk": 1.48,
+          "grossSpreadPerShare": -0.48
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
     },
     {
-      "score": 0.671,
+      "score": 0.53,
       "kalshi": {
-        "ticker": "KX2YRRATE15M-26OCT191345-45",
-        "title": "2-year U.S. Treasury yield up in next 15 mins?",
+        "ticker": "KXGOLDH-26OCT1914-T4131.99",
+        "title": "Will the gold close price be above 4131.99 USD/ounce on October 19, 2026 at 2:00 PM ET?",
         "subtitle": "",
-        "rulesPrimary": "If the close yield (%) of the 1-minute Pyth candlestick for 2-year U.S. Treasury ending at 1:45 PM EDT on Oct 19, 2026 is at least the opening target yield, then the market resolves to Yes.",
-        "rulesSecondary": "The market resolves based on the closing yield of the one-minute Pyth candlestick for 2-year U.S. Treasury ending at 1:45 PM EDT on Oct 19, 2026. The 2-year U.S. Treasury refers to the US2Y, the current on-the-run benchmark of the 2-year U.",
+        "rulesPrimary": "If the close price of the 1-minute candlestick for gold on October 19, 2026 at 2:00 PM EDT is above 4131.99 USD/ounce, then the market resolves to Yes.",
+        "rulesSecondary": "The settlement value is rounded to the nearest 2 decimal places. When confirming the settlement value, note the close price for the 1-minute candlestick at a given time is the price at the end of the immediately preceding one-minute interva",
         "closeDate": "2026-10-19"
       },
       "polymarket": {
-        "id": "4890803",
-        "title": "Will the 10-year Treasury yield hit 5.4% before 2027?",
-        "description": "This market will resolve to \"Yes\" if the Treasury 10-year yield reaches or is higher than the listed value for any date from market creation to December 31, 2026. Otherwise this market will resolve to \"No\".\n\nThis market will resolve as soon",
-        "resolutionSource": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2025",
-        "endDate": "2027-01-01"
+        "id": "5776871",
+        "title": "Will the price of Solana be above $95 on October 23?",
+        "description": "This market will resolve to \"Yes\" if the Binance 1 minute candle for SOL/USDT closing at 12:00 in the ET timezone (noon) on the date specified in the title has a final \"Close\" price higher than the price specified in the title. Otherwise, t",
+        "resolutionSource": "https://www.binance.com/en/trade/SOL_USDT",
+        "endDate": "2026-10-23"
       },
-      "dateDifferenceDays": 74,
+      "dateDifferenceDays": 4,
       "topOfBook": {
-        "kalshiYesAsk": 0.69,
-        "kalshiNoAsk": 0.69,
-        "polymarketYesAsk": 0.45,
-        "polymarketNoAsk": 0.58,
-        "kalshiYesAskSize": 32,
-        "kalshiNoAskSize": 32,
-        "polymarketYesAskSize": 50.04,
-        "polymarketNoAskSize": 59.28
+        "kalshiYesAsk": null,
+        "kalshiNoAsk": 0.49,
+        "polymarketYesAsk": 0.94,
+        "polymarketNoAsk": 0.11,
+        "kalshiYesAskSize": 0,
+        "kalshiNoAskSize": 100,
+        "polymarketYesAskSize": 1371.64,
+        "polymarketNoAskSize": 5
       },
       "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.27,
-          "grossSpreadPerShare": -0.27
-        },
         {
           "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.14,
-          "grossSpreadPerShare": -0.14
+          "combinedAsk": 1.43,
+          "grossSpreadPerShare": -0.43
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
     },
     {
-      "score": 0.632,
+      "score": 0.53,
       "kalshi": {
-        "ticker": "KXVALORANTGAME-26OCT210200WORAQ-WOR",
-        "title": "World Sports Invictus Gaming wins",
+        "ticker": "KXGOLDH-26OCT1915-T4133.99",
+        "title": "Will the gold close price be above 4133.99 USD/ounce on October 19, 2026 at 3:00 PM ET?",
         "subtitle": "",
-        "rulesPrimary": "If World Sports Invictus Gaming wins the VCT Threshold China 2026: World Sports Invictus Gaming vs. Any Questions Gaming Valorant match originally scheduled for Oct 21, 2026 at 2:00 AM EDT, then the market resolves to Yes.",
-        "rulesSecondary": "The following market refers to the full match in the VCT Threshold China 2026: World Sports Invictus Gaming vs. Any Questions Gaming Valorant match originally scheduled for Oct 21, 2026 at 2:00 AM EDT\nIf the relevant match is postponed and ",
-        "closeDate": "2026-10-23"
+        "rulesPrimary": "If the close price of the 1-minute candlestick for gold on October 19, 2026 at 3:00 PM EDT is above 4133.99 USD/ounce, then the market resolves to Yes.",
+        "rulesSecondary": "The settlement value is rounded to the nearest 2 decimal places. When confirming the settlement value, note the close price for the 1-minute candlestick at a given time is the price at the end of the immediately preceding one-minute interva",
+        "closeDate": "2026-10-19"
       },
       "polymarket": {
-        "id": "4397050",
-        "title": "Will Invictus Gaming win Worlds 2026?",
-        "description": "This market will resolve according to the winner of the 2026 League of Legends World Championship (Worlds 2026), currently scheduled for October 15 to November 14, 2026.\n\nIf this tournament is postponed after November 28, 2026, 11:59 PM ET,",
-        "resolutionSource": "https://lolesports.com",
-        "endDate": "2026-11-29"
+        "id": "5776869",
+        "title": "Will the price of Solana be above $85 on October 23?",
+        "description": "This market will resolve to \"Yes\" if the Binance 1 minute candle for SOL/USDT closing at 12:00 in the ET timezone (noon) on the date specified in the title has a final \"Close\" price higher than the price specified in the title. Otherwise, t",
+        "resolutionSource": "https://www.binance.com/en/trade/SOL_USDT",
+        "endDate": "2026-10-23"
       },
-      "dateDifferenceDays": 37,
+      "dateDifferenceDays": 4,
       "topOfBook": {
-        "kalshiYesAsk": 0.95,
-        "kalshiNoAsk": 0.95,
-        "polymarketYesAsk": 0.028,
-        "polymarketNoAsk": 0.973,
-        "kalshiYesAskSize": 110,
-        "kalshiNoAskSize": 184,
-        "polymarketYesAskSize": 200,
-        "polymarketNoAskSize": 110960.05
+        "kalshiYesAsk": null,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.99,
+        "polymarketNoAsk": 0.049,
+        "kalshiYesAskSize": 0,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 5,
+        "polymarketNoAskSize": 5
+      },
+      "illustrativeBeforeFees": [],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.53,
+      "kalshi": {
+        "ticker": "KXGOLDH-26OCT1915-T4133.99",
+        "title": "Will the gold close price be above 4133.99 USD/ounce on October 19, 2026 at 3:00 PM ET?",
+        "subtitle": "",
+        "rulesPrimary": "If the close price of the 1-minute candlestick for gold on October 19, 2026 at 3:00 PM EDT is above 4133.99 USD/ounce, then the market resolves to Yes.",
+        "rulesSecondary": "The settlement value is rounded to the nearest 2 decimal places. When confirming the settlement value, note the close price for the 1-minute candlestick at a given time is the price at the end of the immediately preceding one-minute interva",
+        "closeDate": "2026-10-19"
+      },
+      "polymarket": {
+        "id": "5776871",
+        "title": "Will the price of Solana be above $95 on October 23?",
+        "description": "This market will resolve to \"Yes\" if the Binance 1 minute candle for SOL/USDT closing at 12:00 in the ET timezone (noon) on the date specified in the title has a final \"Close\" price higher than the price specified in the title. Otherwise, t",
+        "resolutionSource": "https://www.binance.com/en/trade/SOL_USDT",
+        "endDate": "2026-10-23"
+      },
+      "dateDifferenceDays": 4,
+      "topOfBook": {
+        "kalshiYesAsk": null,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.94,
+        "polymarketNoAsk": 0.11,
+        "kalshiYesAskSize": 0,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 1371.64,
+        "polymarketNoAskSize": 5
+      },
+      "illustrativeBeforeFees": [],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.53,
+      "kalshi": {
+        "ticker": "KXGOLDH-26OCT1914-T4133.99",
+        "title": "Will the gold close price be above 4133.99 USD/ounce on October 19, 2026 at 2:00 PM ET?",
+        "subtitle": "",
+        "rulesPrimary": "If the close price of the 1-minute candlestick for gold on October 19, 2026 at 2:00 PM EDT is above 4133.99 USD/ounce, then the market resolves to Yes.",
+        "rulesSecondary": "The settlement value is rounded to the nearest 2 decimal places. When confirming the settlement value, note the close price for the 1-minute candlestick at a given time is the price at the end of the immediately preceding one-minute interva",
+        "closeDate": "2026-10-19"
+      },
+      "polymarket": {
+        "id": "5776869",
+        "title": "Will the price of Solana be above $85 on October 23?",
+        "description": "This market will resolve to \"Yes\" if the Binance 1 minute candle for SOL/USDT closing at 12:00 in the ET timezone (noon) on the date specified in the title has a final \"Close\" price higher than the price specified in the title. Otherwise, t",
+        "resolutionSource": "https://www.binance.com/en/trade/SOL_USDT",
+        "endDate": "2026-10-23"
+      },
+      "dateDifferenceDays": 4,
+      "topOfBook": {
+        "kalshiYesAsk": null,
+        "kalshiNoAsk": 0.1,
+        "polymarketYesAsk": 0.99,
+        "polymarketNoAsk": 0.049,
+        "kalshiYesAskSize": 0,
+        "kalshiNoAskSize": 4.6,
+        "polymarketYesAskSize": 5,
+        "polymarketNoAskSize": 5
       },
       "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.923,
-          "grossSpreadPerShare": -0.923
-        },
         {
           "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 0.978,
-          "grossSpreadPerShare": 0.022
+          "combinedAsk": 1.09,
+          "grossSpreadPerShare": -0.09
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
     },
     {
-      "score": 0.632,
+      "score": 0.53,
       "kalshi": {
-        "ticker": "KXUCLTEAMTOTAL-26OCT21COMMUN-MUN3",
-        "title": "Will Manchester United score over 2.5 goals?",
+        "ticker": "KXGOLDH-26OCT1914-T4133.99",
+        "title": "Will the gold close price be above 4133.99 USD/ounce on October 19, 2026 at 2:00 PM ET?",
         "subtitle": "",
-        "rulesPrimary": "If Manchester United records above 2.5 goals in the Como vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), th",
-        "rulesSecondary": "The following market refers to Manchester United in the Como vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties)",
-        "closeDate": "2026-10-23"
+        "rulesPrimary": "If the close price of the 1-minute candlestick for gold on October 19, 2026 at 2:00 PM EDT is above 4133.99 USD/ounce, then the market resolves to Yes.",
+        "rulesSecondary": "The settlement value is rounded to the nearest 2 decimal places. When confirming the settlement value, note the close price for the 1-minute candlestick at a given time is the price at the end of the immediately preceding one-minute interva",
+        "closeDate": "2026-10-19"
       },
       "polymarket": {
-        "id": "2771336",
-        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
-        "resolutionSource": "",
-        "endDate": "2027-05-30"
+        "id": "5776871",
+        "title": "Will the price of Solana be above $95 on October 23?",
+        "description": "This market will resolve to \"Yes\" if the Binance 1 minute candle for SOL/USDT closing at 12:00 in the ET timezone (noon) on the date specified in the title has a final \"Close\" price higher than the price specified in the title. Otherwise, t",
+        "resolutionSource": "https://www.binance.com/en/trade/SOL_USDT",
+        "endDate": "2026-10-23"
       },
-      "dateDifferenceDays": 219,
+      "dateDifferenceDays": 4,
       "topOfBook": {
-        "kalshiYesAsk": 0.98,
-        "kalshiNoAsk": 0.85,
-        "polymarketYesAsk": 0.006,
-        "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 114,
-        "kalshiNoAskSize": 125,
-        "polymarketYesAskSize": 6686.5,
-        "polymarketNoAskSize": 1689.5
+        "kalshiYesAsk": null,
+        "kalshiNoAsk": 0.1,
+        "polymarketYesAsk": 0.94,
+        "polymarketNoAsk": 0.11,
+        "kalshiYesAskSize": 0,
+        "kalshiNoAskSize": 4.6,
+        "polymarketYesAskSize": 1371.64,
+        "polymarketNoAskSize": 5
       },
       "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.975,
-          "grossSpreadPerShare": -0.975
-        },
         {
           "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 0.856,
-          "grossSpreadPerShare": 0.144
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.632,
-      "kalshi": {
-        "ticker": "KXUCLTEAMTOTAL-26OCT21COMMUN-MUN2",
-        "title": "Will Manchester United score over 1.5 goals?",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester United records above 1.5 goals in the Como vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), th",
-        "rulesSecondary": "The following market refers to Manchester United in the Como vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties)",
-        "closeDate": "2026-10-23"
-      },
-      "polymarket": {
-        "id": "2771336",
-        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
-        "resolutionSource": "",
-        "endDate": "2027-05-30"
-      },
-      "dateDifferenceDays": 219,
-      "topOfBook": {
-        "kalshiYesAsk": 0.44,
-        "kalshiNoAsk": 0.75,
-        "polymarketYesAsk": 0.006,
-        "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 10400,
-        "kalshiNoAskSize": 138,
-        "polymarketYesAskSize": 6686.5,
-        "polymarketNoAskSize": 1689.5
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.435,
-          "grossSpreadPerShare": -0.435
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 0.756,
-          "grossSpreadPerShare": 0.244
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.632,
-      "kalshi": {
-        "ticker": "KXUCLTEAMTOTAL-26OCT21COMMUN-MUN1",
-        "title": "Will Manchester United score over 0.5 goals?",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester United records above 0.5 goals in the Como vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), th",
-        "rulesSecondary": "The following market refers to Manchester United in the Como vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties)",
-        "closeDate": "2026-10-23"
-      },
-      "polymarket": {
-        "id": "2771336",
-        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
-        "resolutionSource": "",
-        "endDate": "2027-05-30"
-      },
-      "dateDifferenceDays": 219,
-      "topOfBook": {
-        "kalshiYesAsk": 0.79,
-        "kalshiNoAsk": 0.25,
-        "polymarketYesAsk": 0.006,
-        "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 1088,
-        "kalshiNoAskSize": 10411,
-        "polymarketYesAskSize": 6686.5,
-        "polymarketNoAskSize": 1689.5
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.785,
-          "grossSpreadPerShare": -0.785
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 0.256,
-          "grossSpreadPerShare": 0.744
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.632,
-      "kalshi": {
-        "ticker": "KXUCL2H-26OCT21COMMUN-MUN",
-        "title": "Manchester United wins 2nd Half",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester United is the winner of the second half in the Como vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 45 minutes plus stoppage time, then the market resolves to Yes.",
-        "rulesSecondary": "The following market refers to the winner of the second half in the Como vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 45 minutes plus stoppage time. If no goals are scored during",
-        "closeDate": "2026-10-23"
-      },
-      "polymarket": {
-        "id": "2771336",
-        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
-        "resolutionSource": "",
-        "endDate": "2027-05-30"
-      },
-      "dateDifferenceDays": 219,
-      "topOfBook": {
-        "kalshiYesAsk": 0.8,
-        "kalshiNoAsk": 0.97,
-        "polymarketYesAsk": 0.006,
-        "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 19,
-        "kalshiNoAskSize": 19,
-        "polymarketYesAskSize": 6686.5,
-        "polymarketNoAskSize": 1689.5
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.795,
-          "grossSpreadPerShare": -0.795
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 0.976,
-          "grossSpreadPerShare": 0.024
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.632,
-      "kalshi": {
-        "ticker": "KXUCL1H-26OCT21COMMUN-MUN",
-        "title": "Manchester United wins 1st Half",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester United is the winner of the first half in the Como vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 45 minutes plus stoppage time, then the market resolves to Yes.",
-        "rulesSecondary": "The following market refers to the winner of the first half in the Como vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 45 minutes plus stoppage time. If no goals are scored during ",
-        "closeDate": "2026-10-23"
-      },
-      "polymarket": {
-        "id": "2771336",
-        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
-        "resolutionSource": "",
-        "endDate": "2027-05-30"
-      },
-      "dateDifferenceDays": 219,
-      "topOfBook": {
-        "kalshiYesAsk": 0.28,
-        "kalshiNoAsk": 0.74,
-        "polymarketYesAsk": 0.006,
-        "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 113.88,
-        "kalshiNoAskSize": 113.88,
-        "polymarketYesAskSize": 6686.5,
-        "polymarketNoAskSize": 1689.5
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.275,
-          "grossSpreadPerShare": -0.275
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 0.746,
-          "grossSpreadPerShare": 0.254
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.632,
-      "kalshi": {
-        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM3MUN4",
-        "title": "Final score Manchester United wins 4-3?",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester United wins 4-3 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
-        "rulesSecondary": "",
-        "closeDate": "2026-10-23"
-      },
-      "polymarket": {
-        "id": "2771336",
-        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
-        "resolutionSource": "",
-        "endDate": "2027-05-30"
-      },
-      "dateDifferenceDays": 219,
-      "topOfBook": {
-        "kalshiYesAsk": 0.02,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.006,
-        "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 11441,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 6686.5,
-        "polymarketNoAskSize": 1689.5
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.015,
-          "grossSpreadPerShare": -0.015
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.632,
-      "kalshi": {
-        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM2MUN5",
-        "title": "Final score Manchester United wins 5-2?",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester United wins 5-2 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
-        "rulesSecondary": "",
-        "closeDate": "2026-10-23"
-      },
-      "polymarket": {
-        "id": "2771336",
-        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
-        "resolutionSource": "",
-        "endDate": "2027-05-30"
-      },
-      "dateDifferenceDays": 219,
-      "topOfBook": {
-        "kalshiYesAsk": 0.01,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.006,
-        "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 9740,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 6686.5,
-        "polymarketNoAskSize": 1689.5
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.005,
-          "grossSpreadPerShare": -0.005
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.632,
-      "kalshi": {
-        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM2MUN4",
-        "title": "Final score Manchester United wins 4-2?",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester United wins 4-2 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
-        "rulesSecondary": "",
-        "closeDate": "2026-10-23"
-      },
-      "polymarket": {
-        "id": "2771336",
-        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
-        "resolutionSource": "",
-        "endDate": "2027-05-30"
-      },
-      "dateDifferenceDays": 219,
-      "topOfBook": {
-        "kalshiYesAsk": 0.02,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.006,
-        "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 9740,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 6686.5,
-        "polymarketNoAskSize": 1689.5
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.015,
-          "grossSpreadPerShare": -0.015
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.632,
-      "kalshi": {
-        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM2MUN3",
-        "title": "Final score Manchester United wins 3-2?",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester United wins 3-2 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
-        "rulesSecondary": "",
-        "closeDate": "2026-10-23"
-      },
-      "polymarket": {
-        "id": "2771336",
-        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
-        "resolutionSource": "",
-        "endDate": "2027-05-30"
-      },
-      "dateDifferenceDays": 219,
-      "topOfBook": {
-        "kalshiYesAsk": 0.05,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.006,
-        "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 12343,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 6686.5,
-        "polymarketNoAskSize": 1689.5
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.045,
-          "grossSpreadPerShare": -0.045
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.632,
-      "kalshi": {
-        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM1MUN5",
-        "title": "Final score Manchester United wins 5-1?",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester United wins 5-1 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
-        "rulesSecondary": "",
-        "closeDate": "2026-10-23"
-      },
-      "polymarket": {
-        "id": "2771336",
-        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
-        "resolutionSource": "",
-        "endDate": "2027-05-30"
-      },
-      "dateDifferenceDays": 219,
-      "topOfBook": {
-        "kalshiYesAsk": 0.01,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.006,
-        "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 9740,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 6686.5,
-        "polymarketNoAskSize": 1689.5
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.005,
-          "grossSpreadPerShare": -0.005
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.632,
-      "kalshi": {
-        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM1MUN4",
-        "title": "Final score Manchester United wins 4-1?",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester United wins 4-1 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
-        "rulesSecondary": "",
-        "closeDate": "2026-10-23"
-      },
-      "polymarket": {
-        "id": "2771336",
-        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
-        "resolutionSource": "",
-        "endDate": "2027-05-30"
-      },
-      "dateDifferenceDays": 219,
-      "topOfBook": {
-        "kalshiYesAsk": 0.02,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.006,
-        "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 9740,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 6686.5,
-        "polymarketNoAskSize": 1689.5
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.015,
-          "grossSpreadPerShare": -0.015
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.632,
-      "kalshi": {
-        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM1MUN3",
-        "title": "Final score Manchester United wins 3-1?",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester United wins 3-1 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
-        "rulesSecondary": "",
-        "closeDate": "2026-10-23"
-      },
-      "polymarket": {
-        "id": "2771336",
-        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
-        "resolutionSource": "",
-        "endDate": "2027-05-30"
-      },
-      "dateDifferenceDays": 219,
-      "topOfBook": {
-        "kalshiYesAsk": 0.05,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.006,
-        "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 10830,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 6686.5,
-        "polymarketNoAskSize": 1689.5
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.045,
-          "grossSpreadPerShare": -0.045
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.632,
-      "kalshi": {
-        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM1MUN2",
-        "title": "Final score Manchester United wins 2-1?",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester United wins 2-1 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
-        "rulesSecondary": "",
-        "closeDate": "2026-10-23"
-      },
-      "polymarket": {
-        "id": "2771336",
-        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
-        "resolutionSource": "",
-        "endDate": "2027-05-30"
-      },
-      "dateDifferenceDays": 219,
-      "topOfBook": {
-        "kalshiYesAsk": 0.09,
-        "kalshiNoAsk": 0.95,
-        "polymarketYesAsk": 0.006,
-        "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 401.86,
-        "kalshiNoAskSize": 13,
-        "polymarketYesAskSize": 6686.5,
-        "polymarketNoAskSize": 1689.5
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.085,
-          "grossSpreadPerShare": -0.085
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 0.956,
-          "grossSpreadPerShare": 0.044
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.632,
-      "kalshi": {
-        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM0MUN4",
-        "title": "Final score Manchester United wins 4-0?",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester United wins 4-0 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
-        "rulesSecondary": "",
-        "closeDate": "2026-10-23"
-      },
-      "polymarket": {
-        "id": "2771336",
-        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
-        "resolutionSource": "",
-        "endDate": "2027-05-30"
-      },
-      "dateDifferenceDays": 219,
-      "topOfBook": {
-        "kalshiYesAsk": 0.02,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.006,
-        "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 15121,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 6686.5,
-        "polymarketNoAskSize": 1689.5
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.015,
-          "grossSpreadPerShare": -0.015
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.632,
-      "kalshi": {
-        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM0MUN3",
-        "title": "Final score Manchester United wins 3-0?",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester United wins 3-0 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
-        "rulesSecondary": "",
-        "closeDate": "2026-10-23"
-      },
-      "polymarket": {
-        "id": "2771336",
-        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
-        "resolutionSource": "",
-        "endDate": "2027-05-30"
-      },
-      "dateDifferenceDays": 219,
-      "topOfBook": {
-        "kalshiYesAsk": 0.03,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.006,
-        "polymarketNoAsk": 0.995,
-        "kalshiYesAskSize": 9740,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 6686.5,
-        "polymarketNoAskSize": 1689.5
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.025,
-          "grossSpreadPerShare": -0.025
+          "combinedAsk": 1.04,
+          "grossSpreadPerShare": -0.04
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
@@ -820,24 +297,24 @@
   "samples": {
     "kalshi": [
       {
-        "title": "Will over 6.5 goals be scored?",
+        "title": "Molodtsov Denis wins",
         "subtitle": "",
-        "ticker": "KXISRPLTOTAL-26OCT19BEIMTA-7"
+        "ticker": "KXLIGAPROMATCH-26OCT200130MANMOL-MOL"
       },
       {
-        "title": "Will the Pyth 30Y U.S. Treasury yield be above 5.53% on Oct 19 at 2:00pm ET?",
-        "subtitle": "Above 5.53%",
-        "ticker": "KX30YRRATEH-19OCT2614-T553"
+        "title": "Manuylov Oleg wins",
+        "subtitle": "",
+        "ticker": "KXLIGAPROMATCH-26OCT200130MANMOL-MAN"
       },
       {
-        "title": "Sverdlov Mikhail wins",
+        "title": "Galuzinskii Stefan wins",
         "subtitle": "",
-        "ticker": "KXLIGAPROMATCH-26OCT200115CHESVE-SVE"
+        "ticker": "KXLIGAPROMATCH-26OCT200130GALBYS-GAL"
       },
       {
-        "title": "Chernov Vyacheslav wins",
+        "title": "Bystrushkin Konstantin wins",
         "subtitle": "",
-        "ticker": "KXLIGAPROMATCH-26OCT200115CHESVE-CHE"
+        "ticker": "KXLIGAPROMATCH-26OCT200130GALBYS-BYS"
       }
     ],
     "polymarket": [
