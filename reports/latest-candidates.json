@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19T17:41:39.880Z",
+  "timestamp": "2026-10-19T17:42:20.891Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -8,11 +8,11 @@
     "No orders, paper entries, or approved pairs are generated"
   ],
   "counts": {
-    "kalshiRawMarkets": 1400,
-    "kalshiSingleOutcomeMarkets": 1265,
-    "kalshiMarkets": 1265,
+    "kalshiRawMarkets": 1300,
+    "kalshiSingleOutcomeMarkets": 1213,
+    "kalshiMarkets": 1213,
     "polymarketMarkets": 2000,
-    "polymarketBinaryMarkets": 1662,
+    "polymarketBinaryMarkets": 1663,
     "titleCandidates": 0,
     "contractTypePolicy": "strict_same_kind",
     "kalshiPagesRequested": 20,
