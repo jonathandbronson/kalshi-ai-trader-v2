@@ -25,7 +25,7 @@ function contractKind(s){
 function eventGate(k,p){
  const kr=String(k.rules_primary??"").toLowerCase(),kt=String(k.title??"").toLowerCase(),pt=String(p.question??"").toLowerCase(),pd=String(p.description??"").toLowerCase();
  const kindK=contractKind(kt),kindP=contractKind(pt);
- if(kindK!=="other"&&kindP!=="other"&&kindK!==kindP)return false;
+ if(kindK!==kindP)return false;
  // Virtual sports and real-world sports are never the same underlying event.
  if(/\\besports?\\b|\\bebasketball\\b|\\besoccer\\b|valhalla league|valhalla cup|\\(wemby\\)|\\(haze\\)|\\(lenny\\)/i.test(kr+" "+kt))return false;
  // Championship and single-game outcome contracts are not interchangeable.
@@ -87,6 +87,7 @@ async function main(){
  }}
  candidates.sort((a,b)=>b.score-a.score);
  report.counts.titleCandidates=candidates.length;
+ report.counts.contractTypePolicy="strict_same_kind";
  report.counts.kalshiPagesRequested=limit;
  report.counts.polymarketPagesRequested=limit;
  report.matching={threshold:0.48,minimumSharedTokens:2,minimumDistinctiveContextTokens:2,eventTypeGate:true,contractKindGate:true,dateGate:true,kalshiExcludedMultiLeg:true,kalshiApiMveFilter:"exclude",polymarketOrder:"volume24hr descending",warning:"Text similarity is not proof of settlement equivalence; all results require manual rules review."};
