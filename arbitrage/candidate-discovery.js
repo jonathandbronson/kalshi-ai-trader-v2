@@ -24,6 +24,17 @@ function contractKind(s){
 }
 function eventGate(k,p){
  const kr=String(k.rules_primary??"").toLowerCase(),kt=String(k.title??"").toLowerCase(),pt=String(p.question??"").toLowerCase(),pd=String(p.description??"").toLowerCase();
+ const commodity=/\b(?:gold|silver|copper|platinum|palladium|oil|crude|wti|brent)\b/i;
+ const crypto=/\b(?:solana|bitcoin|ethereum|ether|dogecoin|xrp|cardano|avalanche)\b/i;
+ if(commodity.test(kt)!==commodity.test(pt))return false;
+ if(crypto.test(kt)!==crypto.test(pt))return false;
+ const kNumbers=[...kt.matchAll(/\b\d+(?:\.\d+)?\b/g)].map(m=>m[0]);
+ const pNumbers=new Set([...pt.matchAll(/\b\d+(?:\.\d+)?\b/g)].map(m=>m[0]));
+ // Different strike prices cannot represent the same binary payoff.
+ const kStrike=kt.match(/\b(?:above|below|over|under|at least|at most)\s*\$?([\d,]+(?:\.\d+)?)/);
+ const pStrike=pt.match(/\b(?:above|below|over|under|at least|at most)\s*\$?([\d,]+(?:\.\d+)?)/);
+ if(Boolean(kStrike)!==Boolean(pStrike))return false;
+ if(kStrike&&pStrike&&Number(kStrike[1].replaceAll(",",""))!==Number(pStrike[1].replaceAll(",","")))return false;
  const kindK=contractKind(kt),kindP=contractKind(pt);
  if(kindK!==kindP)return false;
  // Virtual sports and real-world sports are never the same underlying event.
