@@ -1,6 +1,8 @@
 name: Arbitrage candidate discovery
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
   push:
     branches: [arbitrage-v1]
     paths:
@@ -10,6 +12,9 @@ jobs:
   discovery:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    concurrency:
+      group: arbitrage-candidate-report
+      cancel-in-progress: false
     permissions:
       contents: write
     steps:
