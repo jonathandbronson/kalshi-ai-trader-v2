@@ -2,7 +2,7 @@
 import {writeFile} from "node:fs/promises";
 import {kalshiDepth,polyDepth} from "./live-adapters.js";
 const output=process.env.ARB_CANDIDATE_OUTPUT??"arbitrage-candidates.json";
-const limit=Math.max(1,Math.min(5,Number(process.env.ARB_PAGES??3)));
+const limit=Math.max(1,Math.min(5,Number(process.env.ARB_PAGES??5)));
 const maxCandidates=Math.max(1,Math.min(30,Number(process.env.ARB_MAX_CANDIDATES??20)));
 async function get(url){
  const c=new AbortController(),timer=setTimeout(()=>c.abort(),12000);
@@ -11,6 +11,18 @@ async function get(url){
 function parseArray(v){try{const x=typeof v==="string"?JSON.parse(v):v;return Array.isArray(x)?x:[]}catch{return []}}
 function tokens(t){return new Set(String(t??"").toLowerCase().replace(/[^a-z0-9 ]/g," ").split(/\s+/).filter(x=>x.length>2&&!["will","the","and","yes","not","before","after","does","this","that","with","for","2026","2027","2028","market"].includes(x)))}
 function similarity(a,b){const x=tokens(a),y=tokens(b);if(!x.size||!y.size)return 0;const shared=[...x].filter(v=>y.has(v)).length;return shared/Math.sqrt(x.size*y.size)}
+function matchingScore(k,p){
+ const kalshiTexts=[k.title,k.subtitle,[k.title,k.subtitle].filter(Boolean).join(" "),k.event_title].filter(Boolean);
+ const polyTexts=[p.question,p.groupItemTitle,[p.question,p.groupItemTitle].filter(Boolean).join(" ")].filter(Boolean);
+ let best=0;
+ for(const a of kalshiTexts)for(const b of polyTexts){
+   const shared=[...tokens(a)].filter(x=>tokens(b).has(x));
+   // A single shared word, including an athlete or city name, is insufficient evidence.
+   if(shared.length<2)continue;
+   best=Math.max(best,similarity(a,b));
+ }
+ return best;
+}
 function date(v){const n=Date.parse(v??"");return Number.isFinite(n)?new Date(n).toISOString().slice(0,10):null}
 const clean=s=>String(s??"").slice(0,240);
 async function main(){
@@ -25,14 +37,16 @@ async function main(){
  report.counts={kalshiMarkets:kalshi.length,polymarketMarkets:poly.length};
  const ps=poly.filter(m=>{const o=parseArray(m.outcomes),t=parseArray(m.clobTokenIds);return o.length===2&&t.length===2&&o.includes("Yes")&&o.includes("No")&&m.enableOrderBook!==false});
  report.counts.polymarketBinaryMarkets=ps.length;
+ report.samples={kalshi:kalshi.slice(0,4).map(m=>({title:clean(m.title),subtitle:clean(m.subtitle),ticker:clean(m.ticker)})),polymarket:ps.slice(0,4).map(m=>({title:clean(m.question),id:clean(m.id)}))};
  const candidates=[];
  for(const k of kalshi){if(!k.ticker||!k.title)continue;for(const p of ps){
-  const score=similarity(k.title,p.question);if(score<0.65)continue;
+  const score=matchingScore(k,p);if(score<0.48)continue;
   const kd=date(k.close_time??k.expiration_time),pd=date(p.endDate??p.end_date_iso);
-  candidates.push({score:Math.round(score*1000)/1000,kalshi:{ticker:clean(k.ticker),title:clean(k.title),closeDate:kd},polymarket:{id:clean(p.id),title:clean(p.question),endDate:pd},dateDifferenceDays:kd&&pd?Math.abs((Date.parse(kd)-Date.parse(pd))/86400000):null});
+  candidates.push({score:Math.round(score*1000)/1000,kalshi:{ticker:clean(k.ticker),title:clean(k.title),subtitle:clean(k.subtitle),rulesPrimary:clean(k.rules_primary),rulesSecondary:clean(k.rules_secondary),closeDate:kd},polymarket:{id:clean(p.id),title:clean(p.question),description:clean(p.description),resolutionSource:clean(p.resolutionSource),endDate:pd},dateDifferenceDays:kd&&pd?Math.abs((Date.parse(kd)-Date.parse(pd))/86400000):null});
  }}
  candidates.sort((a,b)=>b.score-a.score);
  report.counts.titleCandidates=candidates.length;
+ report.matching={threshold:0.48,minimumSharedTokens:2,warning:"Text similarity is not proof of settlement equivalence; all results require manual rules review."};
  for(const item of candidates.slice(0,maxCandidates)){
   const k=item.kalshi,p=item.polymarket;
   const full=ps.find(x=>String(x.id)===p.id),outcomes=parseArray(full?.outcomes),ids=parseArray(full?.clobTokenIds);
