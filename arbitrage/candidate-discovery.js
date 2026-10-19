@@ -5,9 +5,22 @@ const output=process.env.ARB_CANDIDATE_OUTPUT??"arbitrage-candidates.json";
 const limit=Math.max(1,Math.min(40,Number(process.env.ARB_PAGES??20)));
 const maxCandidates=Math.max(1,Math.min(30,Number(process.env.ARB_MAX_CANDIDATES??20)));
 const MAX_POOL=Number(process.env.ARB_MAX_POOL??1200);
+const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 async function get(url){
- const c=new AbortController(),timer=setTimeout(()=>c.abort(),12000);
- try{const r=await fetch(url,{signal:c.signal,headers:{accept:"application/json"}});if(!r.ok)throw Error("HTTP "+r.status+" "+new URL(url).hostname);return await r.json()}finally{clearTimeout(timer)}
+ for(let attempt=0;attempt<4;attempt++){
+  const c=new AbortController(),timer=setTimeout(()=>c.abort(),12000);
+  try{
+   const r=await fetch(url,{signal:c.signal,headers:{accept:"application/json"}});
+   if((r.status===429||r.status>=500)&&attempt<3){
+    const retry=Number(r.headers.get("retry-after"));
+    await sleep(Number.isFinite(retry)&&retry>0?Math.min(retry*1000,15000):750*Math.pow(2,attempt));
+    continue;
+   }
+   if(!r.ok)throw Error("HTTP "+r.status+" "+new URL(url).hostname);
+   return await r.json();
+  }finally{clearTimeout(timer)}
+ }
+ throw Error("Retries exhausted "+new URL(url).hostname);
 }
 function parseArray(v){try{const x=typeof v==="string"?JSON.parse(v):v;return Array.isArray(x)?x:[]}catch{return []}}
 function tokens(t){return new Set(String(t??"").toLowerCase().replace(/[^a-z0-9 ]/g," ").split(/\s+/).filter(x=>x.length>2&&!["will","the","and","yes","not","before","after","does","this","that","with","for","2026","2027","2028","market"].includes(x)))}
@@ -36,6 +49,15 @@ function eventGate(k,p){
  if(Boolean(kStrike)!==Boolean(pStrike))return false;
  if(kStrike&&pStrike&&Number(kStrike[1].replaceAll(",",""))!==Number(pStrike[1].replaceAll(",","")))return false;
  const kindK=contractKind(kt),kindP=contractKind(pt);
+ // A conjunction of multiple elections is not equivalent to any one race or chamber.
+ const electionBundle=/\b(?:all|every)\b.*\b(?:elections|races)\b|\b(?:house and senate|senate and house)\b/i;
+ if(electionBundle.test(kt)!==electionBundle.test(pt))return false;
+ // A team-to-score contract must identify the same fixture, not merely the same bet type.
+ if(/both teams to score/i.test(kt+" "+pt)){
+  const fixture=/\b(?:vs\.?|versus)\b/i;
+  if(fixture.test(kt)!==fixture.test(pt))return false;
+ }
+
  if(kindK!==kindP)return false;
  // Virtual sports and real-world sports are never the same underlying event.
  if(/\besports?\b|\bebasketball\b|\besoccer\b|valhalla league|valhalla cup|\(wemby\)|\(haze\)|\(lenny\)/i.test(kr+" "+kt))return false;
@@ -80,7 +102,8 @@ async function main(){
  const report={timestamp:new Date().toISOString(),mode:"READ_ONLY_DISCOVERY",autoApproved:0,verifiedPairs:0,notes:["Similarity is only a research lead, NOT settlement equivalence","No orders, paper entries, or approved pairs are generated"],counts:{},candidates:[],errors:[]};
  const kalshi=[],poly=[];let cursor="";let kalshiRaw=0;
  for(let i=0;i<limit;i++){
-  try{const u=new URL("https://external-api.kalshi.com/trade-api/v2/markets");u.searchParams.set("limit","100");u.searchParams.set("status","open");u.searchParams.set("mve_filter","exclude");if(cursor)u.searchParams.set("cursor",cursor);const r=await get(u.toString());kalshiRaw+=(r.markets??[]).length;kalshi.push(...(r.markets??[]).filter(isSingleOutcome));cursor=r.cursor??"";if(!cursor||kalshi.length>=MAX_POOL)break}catch(e){report.errors.push("kalshi listing: "+e.message);break}
+  try{const u=new URL("https://external-api.kalshi.com/trade-api/v2/markets");u.searchParams.set("limit","100");u.searchParams.set("status","open");u.searchParams.set("mve_filter","exclude");if(cursor)u.searchParams.set("cursor",cursor);const r=await get(u.toString());kalshiRaw+=(r.markets??[]).length;kalshi.push(...(r.markets??[]).filter(isSingleOutcome));cursor=r.cursor??"";if(!cursor||kalshi.length>=MAX_POOL)break;
+  await sleep(250)}catch(e){report.errors.push("kalshi listing: "+e.message);break}
  }
  for(let i=0;i<limit;i++){
   try{const u=new URL("https://gamma-api.polymarket.com/markets");u.searchParams.set("limit","100");u.searchParams.set("offset",String(i*100));u.searchParams.set("active","true");u.searchParams.set("closed","false");u.searchParams.set("order","volume24hr");u.searchParams.set("ascending","false");const r=await get(u.toString());if(!Array.isArray(r))throw Error("Invalid response");poly.push(...r);if(r.length<100)break}catch(e){report.errors.push("polymarket listing: "+e.message);break}
