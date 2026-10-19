@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19T17:43:12.015Z",
+  "timestamp": "2026-10-19T17:46:38.211Z",
   "mode": "EVENT_FIRST_READ_ONLY",
   "status": "COLLECTED",
   "autoApproved": 0,
@@ -9,35 +9,12 @@
     "kalshiEvents": 400,
     "polymarketEvents": 400,
     "kalshiNestedMarkets": 2853,
-    "polymarketNestedMarkets": 8591,
+    "polymarketNestedMarkets": 8594,
     "eventPagesRequested": 4,
     "eventMatches": 169,
     "candidates": 40
   },
   "candidates": [
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.598,
-      "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Republicans win the Senate race in South Carolina?",
-        "subtitle": ":: Current incumbent: Tim Scott",
-        "outcomeLabel": "Will Republicans win the Senate race in South Carolina? :: Current incumbent: Tim Scott",
-        "ticker": "SENATESC-28-R",
-        "eventTitle": "South Carolina Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57669",
-        "id": "630924",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will the Democrats win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
     {
       "eventScore": 0.894,
       "contractScore": 0.717,
@@ -55,811 +32,6 @@
         "id": "630925",
         "eventTitle": "South Carolina Senate Election Winner",
         "title": "Will the Republicans win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.598,
-      "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Republicans win the Senate race in South Carolina?",
-        "subtitle": ":: Current incumbent: Tim Scott",
-        "outcomeLabel": "Will Republicans win the Senate race in South Carolina? :: Current incumbent: Tim Scott",
-        "ticker": "SENATESC-28-R",
-        "eventTitle": "South Carolina Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57669",
-        "id": "630926",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will Person A win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.598,
-      "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Republicans win the Senate race in South Carolina?",
-        "subtitle": ":: Current incumbent: Tim Scott",
-        "outcomeLabel": "Will Republicans win the Senate race in South Carolina? :: Current incumbent: Tim Scott",
-        "ticker": "SENATESC-28-R",
-        "eventTitle": "South Carolina Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57669",
-        "id": "630927",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will Person B win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.598,
-      "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Republicans win the Senate race in South Carolina?",
-        "subtitle": ":: Current incumbent: Tim Scott",
-        "outcomeLabel": "Will Republicans win the Senate race in South Carolina? :: Current incumbent: Tim Scott",
-        "ticker": "SENATESC-28-R",
-        "eventTitle": "South Carolina Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57669",
-        "id": "630928",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will Person C win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.598,
-      "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Republicans win the Senate race in South Carolina?",
-        "subtitle": ":: Current incumbent: Tim Scott",
-        "outcomeLabel": "Will Republicans win the Senate race in South Carolina? :: Current incumbent: Tim Scott",
-        "ticker": "SENATESC-28-R",
-        "eventTitle": "South Carolina Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57669",
-        "id": "630929",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will Person D win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.598,
-      "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Republicans win the Senate race in South Carolina?",
-        "subtitle": ":: Current incumbent: Tim Scott",
-        "outcomeLabel": "Will Republicans win the Senate race in South Carolina? :: Current incumbent: Tim Scott",
-        "ticker": "SENATESC-28-R",
-        "eventTitle": "South Carolina Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57669",
-        "id": "630930",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will Person E win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.598,
-      "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Republicans win the Senate race in South Carolina?",
-        "subtitle": ":: Current incumbent: Tim Scott",
-        "outcomeLabel": "Will Republicans win the Senate race in South Carolina? :: Current incumbent: Tim Scott",
-        "ticker": "SENATESC-28-R",
-        "eventTitle": "South Carolina Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57669",
-        "id": "630931",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will Person F win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.598,
-      "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Republicans win the Senate race in South Carolina?",
-        "subtitle": ":: Current incumbent: Tim Scott",
-        "outcomeLabel": "Will Republicans win the Senate race in South Carolina? :: Current incumbent: Tim Scott",
-        "ticker": "SENATESC-28-R",
-        "eventTitle": "South Carolina Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57669",
-        "id": "630932",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will Person G win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.598,
-      "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Republicans win the Senate race in South Carolina?",
-        "subtitle": ":: Current incumbent: Tim Scott",
-        "outcomeLabel": "Will Republicans win the Senate race in South Carolina? :: Current incumbent: Tim Scott",
-        "ticker": "SENATESC-28-R",
-        "eventTitle": "South Carolina Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57669",
-        "id": "630933",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will Person H win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.598,
-      "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Republicans win the Senate race in South Carolina?",
-        "subtitle": ":: Current incumbent: Tim Scott",
-        "outcomeLabel": "Will Republicans win the Senate race in South Carolina? :: Current incumbent: Tim Scott",
-        "ticker": "SENATESC-28-R",
-        "eventTitle": "South Carolina Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57669",
-        "id": "630934",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will Person I win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.598,
-      "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Republicans win the Senate race in South Carolina?",
-        "subtitle": ":: Current incumbent: Tim Scott",
-        "outcomeLabel": "Will Republicans win the Senate race in South Carolina? :: Current incumbent: Tim Scott",
-        "ticker": "SENATESC-28-R",
-        "eventTitle": "South Carolina Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57669",
-        "id": "630935",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will Person J win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.772,
-      "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Democratics win the Senate race in South Carolina?",
-        "subtitle": "::",
-        "outcomeLabel": "Will Democratics win the Senate race in South Carolina? ::",
-        "ticker": "SENATESC-28-D",
-        "eventTitle": "South Carolina Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57669",
-        "id": "630924",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will the Democrats win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.772,
-      "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Democratics win the Senate race in South Carolina?",
-        "subtitle": "::",
-        "outcomeLabel": "Will Democratics win the Senate race in South Carolina? ::",
-        "ticker": "SENATESC-28-D",
-        "eventTitle": "South Carolina Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57669",
-        "id": "630925",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will the Republicans win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.772,
-      "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Democratics win the Senate race in South Carolina?",
-        "subtitle": "::",
-        "outcomeLabel": "Will Democratics win the Senate race in South Carolina? ::",
-        "ticker": "SENATESC-28-D",
-        "eventTitle": "South Carolina Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57669",
-        "id": "630926",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will Person A win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.772,
-      "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Democratics win the Senate race in South Carolina?",
-        "subtitle": "::",
-        "outcomeLabel": "Will Democratics win the Senate race in South Carolina? ::",
-        "ticker": "SENATESC-28-D",
-        "eventTitle": "South Carolina Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57669",
-        "id": "630927",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will Person B win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.772,
-      "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Democratics win the Senate race in South Carolina?",
-        "subtitle": "::",
-        "outcomeLabel": "Will Democratics win the Senate race in South Carolina? ::",
-        "ticker": "SENATESC-28-D",
-        "eventTitle": "South Carolina Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57669",
-        "id": "630928",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will Person C win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.772,
-      "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Democratics win the Senate race in South Carolina?",
-        "subtitle": "::",
-        "outcomeLabel": "Will Democratics win the Senate race in South Carolina? ::",
-        "ticker": "SENATESC-28-D",
-        "eventTitle": "South Carolina Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57669",
-        "id": "630929",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will Person D win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.772,
-      "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Democratics win the Senate race in South Carolina?",
-        "subtitle": "::",
-        "outcomeLabel": "Will Democratics win the Senate race in South Carolina? ::",
-        "ticker": "SENATESC-28-D",
-        "eventTitle": "South Carolina Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57669",
-        "id": "630930",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will Person E win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.772,
-      "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Democratics win the Senate race in South Carolina?",
-        "subtitle": "::",
-        "outcomeLabel": "Will Democratics win the Senate race in South Carolina? ::",
-        "ticker": "SENATESC-28-D",
-        "eventTitle": "South Carolina Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57669",
-        "id": "630931",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will Person F win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.772,
-      "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Democratics win the Senate race in South Carolina?",
-        "subtitle": "::",
-        "outcomeLabel": "Will Democratics win the Senate race in South Carolina? ::",
-        "ticker": "SENATESC-28-D",
-        "eventTitle": "South Carolina Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57669",
-        "id": "630932",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will Person G win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.772,
-      "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Democratics win the Senate race in South Carolina?",
-        "subtitle": "::",
-        "outcomeLabel": "Will Democratics win the Senate race in South Carolina? ::",
-        "ticker": "SENATESC-28-D",
-        "eventTitle": "South Carolina Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57669",
-        "id": "630933",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will Person H win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.772,
-      "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Democratics win the Senate race in South Carolina?",
-        "subtitle": "::",
-        "outcomeLabel": "Will Democratics win the Senate race in South Carolina? ::",
-        "ticker": "SENATESC-28-D",
-        "eventTitle": "South Carolina Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57669",
-        "id": "630934",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will Person I win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.772,
-      "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Democratics win the Senate race in South Carolina?",
-        "subtitle": "::",
-        "outcomeLabel": "Will Democratics win the Senate race in South Carolina? ::",
-        "ticker": "SENATESC-28-D",
-        "eventTitle": "South Carolina Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57669",
-        "id": "630935",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will Person J win the South Carolina Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.598,
-      "kalshi": {
-        "eventTicker": "SENATENH-28",
-        "title": "Will Democratics win the Senate race in New Hampshire?",
-        "subtitle": ":: Current incumbent: Maggie Hassan",
-        "outcomeLabel": "Will Democratics win the Senate race in New Hampshire? :: Current incumbent: Maggie Hassan",
-        "ticker": "SENATENH-28-D",
-        "eventTitle": "New Hampshire Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57661",
-        "id": "630844",
-        "eventTitle": "New Hampshire Senate Election Winner",
-        "title": "Will the Democrats win the New Hampshire Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.598,
-      "kalshi": {
-        "eventTicker": "SENATENH-28",
-        "title": "Will Democratics win the Senate race in New Hampshire?",
-        "subtitle": ":: Current incumbent: Maggie Hassan",
-        "outcomeLabel": "Will Democratics win the Senate race in New Hampshire? :: Current incumbent: Maggie Hassan",
-        "ticker": "SENATENH-28-D",
-        "eventTitle": "New Hampshire Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57661",
-        "id": "630845",
-        "eventTitle": "New Hampshire Senate Election Winner",
-        "title": "Will the Republicans win the New Hampshire Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.598,
-      "kalshi": {
-        "eventTicker": "SENATENH-28",
-        "title": "Will Democratics win the Senate race in New Hampshire?",
-        "subtitle": ":: Current incumbent: Maggie Hassan",
-        "outcomeLabel": "Will Democratics win the Senate race in New Hampshire? :: Current incumbent: Maggie Hassan",
-        "ticker": "SENATENH-28-D",
-        "eventTitle": "New Hampshire Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57661",
-        "id": "630846",
-        "eventTitle": "New Hampshire Senate Election Winner",
-        "title": "Will Person A win the New Hampshire Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.598,
-      "kalshi": {
-        "eventTicker": "SENATENH-28",
-        "title": "Will Democratics win the Senate race in New Hampshire?",
-        "subtitle": ":: Current incumbent: Maggie Hassan",
-        "outcomeLabel": "Will Democratics win the Senate race in New Hampshire? :: Current incumbent: Maggie Hassan",
-        "ticker": "SENATENH-28-D",
-        "eventTitle": "New Hampshire Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57661",
-        "id": "630847",
-        "eventTitle": "New Hampshire Senate Election Winner",
-        "title": "Will Person B win the New Hampshire Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.598,
-      "kalshi": {
-        "eventTicker": "SENATENH-28",
-        "title": "Will Democratics win the Senate race in New Hampshire?",
-        "subtitle": ":: Current incumbent: Maggie Hassan",
-        "outcomeLabel": "Will Democratics win the Senate race in New Hampshire? :: Current incumbent: Maggie Hassan",
-        "ticker": "SENATENH-28-D",
-        "eventTitle": "New Hampshire Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57661",
-        "id": "630848",
-        "eventTitle": "New Hampshire Senate Election Winner",
-        "title": "Will Person C win the New Hampshire Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.598,
-      "kalshi": {
-        "eventTicker": "SENATENH-28",
-        "title": "Will Democratics win the Senate race in New Hampshire?",
-        "subtitle": ":: Current incumbent: Maggie Hassan",
-        "outcomeLabel": "Will Democratics win the Senate race in New Hampshire? :: Current incumbent: Maggie Hassan",
-        "ticker": "SENATENH-28-D",
-        "eventTitle": "New Hampshire Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57661",
-        "id": "630849",
-        "eventTitle": "New Hampshire Senate Election Winner",
-        "title": "Will Person D win the New Hampshire Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.598,
-      "kalshi": {
-        "eventTicker": "SENATENH-28",
-        "title": "Will Democratics win the Senate race in New Hampshire?",
-        "subtitle": ":: Current incumbent: Maggie Hassan",
-        "outcomeLabel": "Will Democratics win the Senate race in New Hampshire? :: Current incumbent: Maggie Hassan",
-        "ticker": "SENATENH-28-D",
-        "eventTitle": "New Hampshire Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57661",
-        "id": "630850",
-        "eventTitle": "New Hampshire Senate Election Winner",
-        "title": "Will Person E win the New Hampshire Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.598,
-      "kalshi": {
-        "eventTicker": "SENATENH-28",
-        "title": "Will Democratics win the Senate race in New Hampshire?",
-        "subtitle": ":: Current incumbent: Maggie Hassan",
-        "outcomeLabel": "Will Democratics win the Senate race in New Hampshire? :: Current incumbent: Maggie Hassan",
-        "ticker": "SENATENH-28-D",
-        "eventTitle": "New Hampshire Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57661",
-        "id": "630851",
-        "eventTitle": "New Hampshire Senate Election Winner",
-        "title": "Will Person F win the New Hampshire Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.598,
-      "kalshi": {
-        "eventTicker": "SENATENH-28",
-        "title": "Will Democratics win the Senate race in New Hampshire?",
-        "subtitle": ":: Current incumbent: Maggie Hassan",
-        "outcomeLabel": "Will Democratics win the Senate race in New Hampshire? :: Current incumbent: Maggie Hassan",
-        "ticker": "SENATENH-28-D",
-        "eventTitle": "New Hampshire Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57661",
-        "id": "630852",
-        "eventTitle": "New Hampshire Senate Election Winner",
-        "title": "Will Person G win the New Hampshire Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.598,
-      "kalshi": {
-        "eventTicker": "SENATENH-28",
-        "title": "Will Democratics win the Senate race in New Hampshire?",
-        "subtitle": ":: Current incumbent: Maggie Hassan",
-        "outcomeLabel": "Will Democratics win the Senate race in New Hampshire? :: Current incumbent: Maggie Hassan",
-        "ticker": "SENATENH-28-D",
-        "eventTitle": "New Hampshire Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57661",
-        "id": "630853",
-        "eventTitle": "New Hampshire Senate Election Winner",
-        "title": "Will Person H win the New Hampshire Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.598,
-      "kalshi": {
-        "eventTicker": "SENATENH-28",
-        "title": "Will Democratics win the Senate race in New Hampshire?",
-        "subtitle": ":: Current incumbent: Maggie Hassan",
-        "outcomeLabel": "Will Democratics win the Senate race in New Hampshire? :: Current incumbent: Maggie Hassan",
-        "ticker": "SENATENH-28-D",
-        "eventTitle": "New Hampshire Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57661",
-        "id": "630854",
-        "eventTitle": "New Hampshire Senate Election Winner",
-        "title": "Will Person I win the New Hampshire Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.598,
-      "kalshi": {
-        "eventTicker": "SENATENH-28",
-        "title": "Will Democratics win the Senate race in New Hampshire?",
-        "subtitle": ":: Current incumbent: Maggie Hassan",
-        "outcomeLabel": "Will Democratics win the Senate race in New Hampshire? :: Current incumbent: Maggie Hassan",
-        "ticker": "SENATENH-28-D",
-        "eventTitle": "New Hampshire Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57661",
-        "id": "630855",
-        "eventTitle": "New Hampshire Senate Election Winner",
-        "title": "Will Person J win the New Hampshire Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "eventScore": 0.894,
-      "contractScore": 0.772,
-      "kalshi": {
-        "eventTicker": "SENATENH-28",
-        "title": "Will Republicans win the Senate race in New Hampshire?",
-        "subtitle": "::",
-        "outcomeLabel": "Will Republicans win the Senate race in New Hampshire? ::",
-        "ticker": "SENATENH-28-R",
-        "eventTitle": "New Hampshire Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57661",
-        "id": "630844",
-        "eventTitle": "New Hampshire Senate Election Winner",
-        "title": "Will the Democrats win the New Hampshire Senate race in 2026?",
         "endDate": "2026-11-04"
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
@@ -890,22 +62,22 @@
       "executable": false
     },
     {
-      "eventScore": 0.894,
-      "contractScore": 0.772,
+      "eventScore": 0.866,
+      "contractScore": 0.68,
       "kalshi": {
-        "eventTicker": "SENATENH-28",
-        "title": "Will Republicans win the Senate race in New Hampshire?",
-        "subtitle": "::",
-        "outcomeLabel": "Will Republicans win the Senate race in New Hampshire? ::",
-        "ticker": "SENATENH-28-R",
-        "eventTitle": "New Hampshire Senate winner? (2028)",
+        "eventTicker": "SENATEOH-28",
+        "title": "Will Republicans win the Senate race in Ohio?",
+        "subtitle": ":: Current incumbent: Jon Husted",
+        "outcomeLabel": "Will Republicans win the Senate race in Ohio? :: Current incumbent: Jon Husted",
+        "ticker": "SENATEOH-28-R",
+        "eventTitle": "Ohio Senate winner? (2028)",
         "closeDate": "2029-11-07"
       },
       "polymarket": {
-        "eventId": "57661",
-        "id": "630846",
-        "eventTitle": "New Hampshire Senate Election Winner",
-        "title": "Will Person A win the New Hampshire Senate race in 2026?",
+        "eventId": "57682",
+        "id": "631058",
+        "eventTitle": "Ohio Senate Election Winner",
+        "title": "Will the Republicans win the Ohio Senate race in 2026?",
         "endDate": "2026-11-04"
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
@@ -913,23 +85,851 @@
       "executable": false
     },
     {
-      "eventScore": 0.894,
-      "contractScore": 0.772,
+      "eventScore": 0.816,
+      "contractScore": 0.816,
       "kalshi": {
-        "eventTicker": "SENATENH-28",
-        "title": "Will Republicans win the Senate race in New Hampshire?",
-        "subtitle": "::",
-        "outcomeLabel": "Will Republicans win the Senate race in New Hampshire? ::",
-        "ticker": "SENATENH-28-R",
-        "eventTitle": "New Hampshire Senate winner? (2028)",
-        "closeDate": "2029-11-07"
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Mugur Isărescu be the next Prime Minister of Romania?",
+        "subtitle": ":: Independent",
+        "outcomeLabel": "Will Mugur Isărescu be the next Prime Minister of Romania? :: Independent",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-MISA",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
       },
       "polymarket": {
-        "eventId": "57661",
-        "id": "630847",
-        "eventTitle": "New Hampshire Senate Election Winner",
-        "title": "Will Person B win the New Hampshire Senate race in 2026?",
-        "endDate": "2026-11-04"
+        "eventId": "452161",
+        "id": "2166666",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Mugur Isărescu be the next Prime Minister of Romania?",
+        "endDate": "2026-12-31"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Mircea Geoană be the next Prime Minister of Romania?",
+        "subtitle": ":: Independent",
+        "outcomeLabel": "Will Mircea Geoană be the next Prime Minister of Romania? :: Independent",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-MGEO",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166667",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Mircea Geoană be the next Prime Minister of Romania?",
+        "endDate": "2026-12-31"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Anca Dragu be the next Prime Minister of Romania?",
+        "subtitle": ":: USR",
+        "outcomeLabel": "Will Anca Dragu be the next Prime Minister of Romania? :: USR",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-ADRA",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166668",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Anca Dragu be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Lucian Isar be the next Prime Minister of Romania?",
+        "subtitle": ":: Independent",
+        "outcomeLabel": "Will Lucian Isar be the next Prime Minister of Romania? :: Independent",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-LISA",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166669",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Lucian Isar be the next Prime Minister of Romania?",
+        "endDate": "2026-12-31"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.68,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Lucian Isar be the next Prime Minister of Romania?",
+        "subtitle": ":: Independent",
+        "outcomeLabel": "Will Lucian Isar be the next Prime Minister of Romania? :: Independent",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-LISA",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166685",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Lucian Croitoru be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Cătălin Predoiu be the next Prime Minister of Romania?",
+        "subtitle": ":: PNL",
+        "outcomeLabel": "Will Cătălin Predoiu be the next Prime Minister of Romania? :: PNL",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-CPRE",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166670",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Cătălin Predoiu be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.68,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Cătălin Predoiu be the next Prime Minister of Romania?",
+        "subtitle": ":: PNL",
+        "outcomeLabel": "Will Cătălin Predoiu be the next Prime Minister of Romania? :: PNL",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-CPRE",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166679",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Cătălin Drulă be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Sorin Grindeanu be the next Prime Minister of Romania?",
+        "subtitle": ":: PSD",
+        "outcomeLabel": "Will Sorin Grindeanu be the next Prime Minister of Romania? :: PSD",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-SGRI",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166671",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Sorin Grindeanu be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will George Simion be the next Prime Minister of Romania?",
+        "subtitle": ":: AUR",
+        "outcomeLabel": "Will George Simion be the next Prime Minister of Romania? :: AUR",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-GSIM",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166672",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will George Simion be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Nicolae Ciucă be the next Prime Minister of Romania?",
+        "subtitle": ":: PNL",
+        "outcomeLabel": "Will Nicolae Ciucă be the next Prime Minister of Romania? :: PNL",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-NCIU",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166687",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Nicolae Ciucă be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Marcel Ciolacu be the next Prime Minister of Romania?",
+        "subtitle": ":: PSD",
+        "outcomeLabel": "Will Marcel Ciolacu be the next Prime Minister of Romania? :: PSD",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-MCIO",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166674",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Marcel Ciolacu be the next Prime Minister of Romania?",
+        "endDate": "2026-12-31"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Alexandru Rafila be the next Prime Minister of Romania?",
+        "subtitle": ":: PSD",
+        "outcomeLabel": "Will Alexandru Rafila be the next Prime Minister of Romania? :: PSD",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-ARAF",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166675",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Alexandru Rafila be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.68,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Alexandru Rafila be the next Prime Minister of Romania?",
+        "subtitle": ":: PSD",
+        "outcomeLabel": "Will Alexandru Rafila be the next Prime Minister of Romania? :: PSD",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-ARAF",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166692",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Alexandru Nazare be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.68,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Alexandru Rafila be the next Prime Minister of Romania?",
+        "subtitle": ":: PSD",
+        "outcomeLabel": "Will Alexandru Rafila be the next Prime Minister of Romania? :: PSD",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-ARAF",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166693",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Alexandru Rogobete be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Sebastian Burduja be the next Prime Minister of Romania?",
+        "subtitle": ":: PNL",
+        "outcomeLabel": "Will Sebastian Burduja be the next Prime Minister of Romania? :: PNL",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-SBUR",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166676",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Sebastian Burduja be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Ionuț Dumitru be the next Prime Minister of Romania?",
+        "subtitle": ":: Independent",
+        "outcomeLabel": "Will Ionuț Dumitru be the next Prime Minister of Romania? :: Independent",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-IDUM",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166677",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Ionuț Dumitru be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Elena Lasconi be the next Prime Minister of Romania?",
+        "subtitle": ":: USR",
+        "outcomeLabel": "Will Elena Lasconi be the next Prime Minister of Romania? :: USR",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-ELAS",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166678",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Elena Lasconi be the next Prime Minister of Romania?",
+        "endDate": "2026-12-31"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.68,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Cătălin Drulă be the next Prime Minister of Romania?",
+        "subtitle": ":: USR",
+        "outcomeLabel": "Will Cătălin Drulă be the next Prime Minister of Romania? :: USR",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-CDRU",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166670",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Cătălin Predoiu be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Cătălin Drulă be the next Prime Minister of Romania?",
+        "subtitle": ":: USR",
+        "outcomeLabel": "Will Cătălin Drulă be the next Prime Minister of Romania? :: USR",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-CDRU",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166679",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Cătălin Drulă be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Vasile Dîncu be the next Prime Minister of Romania?",
+        "subtitle": ":: PSD",
+        "outcomeLabel": "Will Vasile Dîncu be the next Prime Minister of Romania? :: PSD",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-VDIN",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166680",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Vasile Dîncu be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Dacian Cioloș be the next Prime Minister of Romania?",
+        "subtitle": ":: REPER",
+        "outcomeLabel": "Will Dacian Cioloș be the next Prime Minister of Romania? :: REPER",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-DCIO",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166681",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Dacian Cioloș be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Emil Boc be the next Prime Minister of Romania?",
+        "subtitle": ":: PNL",
+        "outcomeLabel": "Will Emil Boc be the next Prime Minister of Romania? :: PNL",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-EBOC",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166682",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Emil Boc be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Dominic Fritz be the next Prime Minister of Romania?",
+        "subtitle": ":: USR",
+        "outcomeLabel": "Will Dominic Fritz be the next Prime Minister of Romania? :: USR",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-DFRI",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166683",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Dominic Fritz be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Raluca Turcan be the next Prime Minister of Romania?",
+        "subtitle": ":: PNL",
+        "outcomeLabel": "Will Raluca Turcan be the next Prime Minister of Romania? :: PNL",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-RTUR",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166684",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Raluca Turcan be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.68,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Lucian Croitoru be the next Prime Minister of Romania?",
+        "subtitle": ":: Independent",
+        "outcomeLabel": "Will Lucian Croitoru be the next Prime Minister of Romania? :: Independent",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-LCRO",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166669",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Lucian Isar be the next Prime Minister of Romania?",
+        "endDate": "2026-12-31"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Lucian Croitoru be the next Prime Minister of Romania?",
+        "subtitle": ":: Independent",
+        "outcomeLabel": "Will Lucian Croitoru be the next Prime Minister of Romania? :: Independent",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-LCRO",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166685",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Lucian Croitoru be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Delia Velculescu be the next Prime Minister of Romania?",
+        "subtitle": ":: Independent",
+        "outcomeLabel": "Will Delia Velculescu be the next Prime Minister of Romania? :: Independent",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-DVEL",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166686",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Delia Velculescu be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.577,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Șerban Matei be the next Prime Minister of Romania?",
+        "subtitle": null,
+        "outcomeLabel": "Will Șerban Matei be the next Prime Minister of Romania?",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-SMAT",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166666",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Mugur Isărescu be the next Prime Minister of Romania?",
+        "endDate": "2026-12-31"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.577,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Șerban Matei be the next Prime Minister of Romania?",
+        "subtitle": null,
+        "outcomeLabel": "Will Șerban Matei be the next Prime Minister of Romania?",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-SMAT",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166667",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Mircea Geoană be the next Prime Minister of Romania?",
+        "endDate": "2026-12-31"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.577,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Șerban Matei be the next Prime Minister of Romania?",
+        "subtitle": null,
+        "outcomeLabel": "Will Șerban Matei be the next Prime Minister of Romania?",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-SMAT",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166668",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Anca Dragu be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.577,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Șerban Matei be the next Prime Minister of Romania?",
+        "subtitle": null,
+        "outcomeLabel": "Will Șerban Matei be the next Prime Minister of Romania?",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-SMAT",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166669",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Lucian Isar be the next Prime Minister of Romania?",
+        "endDate": "2026-12-31"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.577,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Șerban Matei be the next Prime Minister of Romania?",
+        "subtitle": null,
+        "outcomeLabel": "Will Șerban Matei be the next Prime Minister of Romania?",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-SMAT",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166670",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Cătălin Predoiu be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.577,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Șerban Matei be the next Prime Minister of Romania?",
+        "subtitle": null,
+        "outcomeLabel": "Will Șerban Matei be the next Prime Minister of Romania?",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-SMAT",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166671",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Sorin Grindeanu be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.577,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Șerban Matei be the next Prime Minister of Romania?",
+        "subtitle": null,
+        "outcomeLabel": "Will Șerban Matei be the next Prime Minister of Romania?",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-SMAT",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166672",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will George Simion be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.577,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Șerban Matei be the next Prime Minister of Romania?",
+        "subtitle": null,
+        "outcomeLabel": "Will Șerban Matei be the next Prime Minister of Romania?",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-SMAT",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166673",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Ilie Bolojan be the next Prime Minister of Romania?",
+        "endDate": "2026-12-31"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.577,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Șerban Matei be the next Prime Minister of Romania?",
+        "subtitle": null,
+        "outcomeLabel": "Will Șerban Matei be the next Prime Minister of Romania?",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-SMAT",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166674",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Marcel Ciolacu be the next Prime Minister of Romania?",
+        "endDate": "2026-12-31"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 0.816,
+      "contractScore": 0.577,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Șerban Matei be the next Prime Minister of Romania?",
+        "subtitle": null,
+        "outcomeLabel": "Will Șerban Matei be the next Prime Minister of Romania?",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-SMAT",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166675",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Alexandru Rafila be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
