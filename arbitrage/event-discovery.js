@@ -29,6 +29,22 @@ function contractFingerprint(title){
  const kind=/\b(?:champion|championship|playoffs|finals|nomination)\b/.test(t)?"season":/\b(?:minutes?|mins?)\b/.test(t)?"intraday":/\b(?:goals|score|1st half|2nd half)\b/.test(t)?"match-prop":"other";
  return {kind,asset,strike:strike?Number(strike[1].replaceAll(",","")):null,direction};
 }
+function outcomeLabel(m,eventTitle){
+ const t=String(m.title??""),sub=String(m.subtitle??"");
+ const event=String(eventTitle??"");
+ // Generic "Who will win?" titles must use the explicit contract subtitle.
+ const generic=/^(?:who will win|which person|winner\??$)/i.test(t.trim());
+ if(generic)return sub.trim()||null;
+ return [t,sub].filter(Boolean).join(" ");
+}
+function hasNamedOutcome(label,eventTitle){
+ if(!label)return false;
+ const l=normalized(label),e=normalized(eventTitle);
+ if(/^(who will win|winner|yes|no|other|field|any other|none of the above)$/.test(l))return false;
+ // Generic event name alone is not a selection of the same candidate.
+ if(l===e)return false;
+ return true;
+}
 function compatible(a,b){
  const x=contractFingerprint(a),y=contractFingerprint(b);
  if(x.kind!==y.kind||x.asset!==y.asset||x.strike!==y.strike||x.direction!==y.direction)return false;
@@ -77,15 +93,19 @@ async function collect(){
   for(const km of k.markets??[])for(const pm of p.markets??[]){
    if(report.candidates.length>=MAX_PAIRS)break;
    if(!km.ticker||!pm.id||!km.title||!pm.question)continue;
-   if(!compatible(km.title,pm.question))continue;
-   const scoreValue=score([k.title,km.title].join(" "),[p.title,pm.question].join(" "));
+   const kalshiOutcome=outcomeLabel(km,k.title);
+   if(!hasNamedOutcome(kalshiOutcome,k.title))continue;
+   if(!compatible(kalshiOutcome,pm.question))continue;
+   const scoreValue=score([k.title,kalshiOutcome].join(" "),[p.title,pm.question].join(" "));
+   const contractOverlap=[...words(kalshiOutcome)].filter(w=>words(pm.question).has(w));
+   if(contractOverlap.length<2)continue;
    if(scoreValue<0.55)continue;
    const key=km.ticker+":"+pm.id;if(seen.has(key))continue;seen.add(key);
    const outcomes=parse(pm.outcomes),tokens=parse(pm.clobTokenIds);
    if(outcomes.length!==2||tokens.length!==2||!outcomes.includes("Yes")||!outcomes.includes("No"))continue;
    report.candidates.push({
     eventScore:Number(confidence.toFixed(3)),contractScore:Number(scoreValue.toFixed(3)),
-    kalshi:{eventTicker:k.event_ticker,title:km.title,ticker:km.ticker,eventTitle:k.title,closeDate:day(km.close_time)},
+    kalshi:{eventTicker:k.event_ticker,title:km.title,subtitle:km.subtitle??null,outcomeLabel:kalshiOutcome,ticker:km.ticker,eventTitle:k.title,closeDate:day(km.close_time)},
     polymarket:{eventId:p.id,id:String(pm.id),eventTitle:p.title,title:pm.question,endDate:day(pm.endDate)},
     reviewStatus:"UNVERIFIED_SETTLEMENT_RULES",approved:false,executable:false
    });
