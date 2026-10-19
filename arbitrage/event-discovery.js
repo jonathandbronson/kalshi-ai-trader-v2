@@ -1,0 +1,100 @@
+// Event-first cross-venue discovery. Read-only; never approves contracts or places orders.
+import {writeFile} from "node:fs/promises";
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+const PAGES=Math.max(1,Math.min(12,Number(process.env.ARB_EVENT_PAGES??4)));
+const MAX_PAIRS=Math.max(1,Math.min(100,Number(process.env.ARB_EVENT_CANDIDATES??40)));
+async function json(url){
+ for(let n=0;n<4;n++){
+  const ctrl=new AbortController(),timer=setTimeout(()=>ctrl.abort(),12000);
+  try{
+   const r=await fetch(url,{signal:ctrl.signal,headers:{accept:"application/json"}});
+   if((r.status===429||r.status>=500)&&n<3){const retry=Number(r.headers.get("retry-after"));await sleep(Number.isFinite(retry)&&retry>0?Math.min(retry*1000,12000):600*2**n);continue;}
+   if(!r.ok)throw Error("HTTP "+r.status+" "+new URL(url).hostname);
+   return await r.json();
+  }finally{clearTimeout(timer)}
+ }
+ throw Error("Retries exhausted");
+}
+const normalized=s=>String(s??"").toLowerCase().replace(/[^a-z0-9 ]/g," ").replace(/\s+/g," ").trim();
+const stop=new Set(["will","the","and","with","that","this","have","from","2026","2027","2028","market","event","what","which","wins","win","does","over","under","before","after","yes","no","more","than","against","versus","match","game","team","teams","score","goals","price","above","below","united","states"]);
+const words=s=>new Set(normalized(s).split(" ").filter(w=>w.length>2&&!stop.has(w)));
+function score(a,b){const x=words(a),y=words(b);if(!x.size||!y.size)return 0;const overlap=[...x].filter(t=>y.has(t)).length;return overlap/Math.sqrt(x.size*y.size)}
+const parse=v=>{try{const x=typeof v==="string"?JSON.parse(v):v;return Array.isArray(x)?x:[]}catch{return []}};
+const day=s=>{const d=Date.parse(s??"");return Number.isFinite(d)?new Date(d).toISOString().slice(0,10):null};
+function contractFingerprint(title){
+ const t=normalized(title);
+ const strike=String(title??"").match(/\b(?:above|below|over|under|at least|at most)\s*\$?([\d,]+(?:\.\d+)?)/i);
+ const direction=/\b(?:above|over|at least)\b/i.test(t)?"above":/\b(?:below|under|at most)\b/i.test(t)?"below":null;
+ const asset=/\b(gold|silver|bitcoin|solana|ethereum|oil|treasury)\b/i.exec(t)?.[1]?.toLowerCase()??null;
+ const kind=/\b(?:champion|championship|playoffs|finals|nomination)\b/.test(t)?"season":/\b(?:minutes?|mins?)\b/.test(t)?"intraday":/\b(?:goals|score|1st half|2nd half)\b/.test(t)?"match-prop":"other";
+ return {kind,asset,strike:strike?Number(strike[1].replaceAll(",","")):null,direction};
+}
+function compatible(a,b){
+ const x=contractFingerprint(a),y=contractFingerprint(b);
+ if(x.kind!==y.kind||x.asset!==y.asset||x.strike!==y.strike||x.direction!==y.direction)return false;
+ // A missing explicit event date is insufficient to establish event equivalence.
+ const datePattern=/\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\s+\d{1,2}(?:,?\s+20\d\d)?\b/i;
+ const da=a.match(datePattern)?.[0],db=b.match(datePattern)?.[0];
+ if(Boolean(da)!==Boolean(db))return false;
+ if(da&&db&&normalized(da)!==normalized(db))return false;
+ return true;
+}
+async function collect(){
+ const report={timestamp:new Date().toISOString(),mode:"EVENT_FIRST_READ_ONLY",status:"COLLECTING",autoApproved:0,verifiedPairs:0,errors:[],counts:{},candidates:[],notes:["Event similarity is not proof of identical settlement rules.","No orders or paper entries are created.","Only manually reviewed contracts may be approved for simulation."]};
+ const kalshi=[],poly=[];let cursor="";
+ for(let i=0;i<PAGES;i++){
+  try{
+   const u=new URL("https://external-api.kalshi.com/trade-api/v2/events");
+   u.searchParams.set("limit","100");u.searchParams.set("status","open");u.searchParams.set("with_nested_markets","true");
+   if(cursor)u.searchParams.set("cursor",cursor);
+   const data=await json(u);kalshi.push(...(data.events??[]));cursor=data.cursor??"";
+   if(!cursor)break;await sleep(350);
+  }catch(e){report.errors.push("kalshi events: "+e.message);break}
+ }
+ for(let i=0;i<PAGES;i++){
+  try{
+   const u=new URL("https://gamma-api.polymarket.com/events");
+   u.searchParams.set("limit","100");u.searchParams.set("offset",String(i*100));u.searchParams.set("active","true");u.searchParams.set("closed","false");u.searchParams.set("order","volume24hr");u.searchParams.set("ascending","false");
+   const data=await json(u);if(!Array.isArray(data))throw Error("Unexpected event response");
+   poly.push(...data);if(data.length<100)break;
+  }catch(e){report.errors.push("polymarket events: "+e.message);break}
+ }
+ report.counts={kalshiEvents:kalshi.length,polymarketEvents:poly.length,kalshiNestedMarkets:kalshi.reduce((n,e)=>n+(e.markets?.length??0),0),polymarketNestedMarkets:poly.reduce((n,e)=>n+(e.markets?.length??0),0),eventPagesRequested:PAGES};
+ // Event-level blocking avoids a full market-by-market cross product.
+ const eventMatches=[];
+ for(const k of kalshi)for(const p of poly){
+  const kt=k.title??"",pt=p.title??"";
+  const overlap=[...words(kt)].filter(w=>words(pt).has(w));
+  if(overlap.length<2)continue;
+  const confidence=score(kt,pt);
+  if(confidence<0.52)continue;
+  eventMatches.push({k,p,confidence});
+ }
+ eventMatches.sort((a,b)=>b.confidence-a.confidence);
+ report.counts.eventMatches=eventMatches.length;
+ const seen=new Set();
+ for(const {k,p,confidence} of eventMatches){
+  for(const km of k.markets??[])for(const pm of p.markets??[]){
+   if(report.candidates.length>=MAX_PAIRS)break;
+   if(!km.ticker||!pm.id||!km.title||!pm.question)continue;
+   if(!compatible(km.title,pm.question))continue;
+   const scoreValue=score([k.title,km.title].join(" "),[p.title,pm.question].join(" "));
+   if(scoreValue<0.55)continue;
+   const key=km.ticker+":"+pm.id;if(seen.has(key))continue;seen.add(key);
+   const outcomes=parse(pm.outcomes),tokens=parse(pm.clobTokenIds);
+   if(outcomes.length!==2||tokens.length!==2||!outcomes.includes("Yes")||!outcomes.includes("No"))continue;
+   report.candidates.push({
+    eventScore:Number(confidence.toFixed(3)),contractScore:Number(scoreValue.toFixed(3)),
+    kalshi:{eventTicker:k.event_ticker,title:km.title,ticker:km.ticker,eventTitle:k.title,closeDate:day(km.close_time)},
+    polymarket:{eventId:p.id,id:String(pm.id),eventTitle:p.title,title:pm.question,endDate:day(pm.endDate)},
+    reviewStatus:"UNVERIFIED_SETTLEMENT_RULES",approved:false,executable:false
+   });
+  }
+  if(report.candidates.length>=MAX_PAIRS)break;
+ }
+ report.counts.candidates=report.candidates.length;
+ report.status=report.errors.length?"PARTIAL":"COLLECTED";
+ await writeFile(process.env.ARB_EVENT_OUTPUT??"arbitrage-events.json",JSON.stringify(report,null,2)+"\n");
+ console.log(JSON.stringify({status:report.status,counts:report.counts,errors:report.errors,candidates:report.candidates.slice(0,5)},null,2));
+}
+collect().catch(e=>{console.error(e);process.exitCode=1});
