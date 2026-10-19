@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-10-19T17:11:51.192Z",
+  "mode": "READ_ONLY",
+  "verifiedPairs": 0,
+  "opportunities": [],
+  "checks": {
+    "kalshiMarkets": true,
+    "kalshiOrderbook": true,
+    "polymarketMarkets": true,
+    "polymarketOrderbook": true
+  },
+  "samples": {
+    "kalshiMarketCount": 100,
+    "kalshi": {
+      "ticker": "KXMVECROSSCATEGORY-S20266XMGMUMUXVRRL3WH-VXGRIP6ZO",
+      "title": "yes Christian McCaffrey,yes San Francisco,yes George Kittle: 1+,yes Over 44.5 points",
+      "yesLevels": 0,
+      "noLevels": 0,
+      "yesBestAsk": null,
+      "noBestAsk": null,
+      "format": "orderbook_fp"
+    },
+    "polymarketMarketCount": 100,
+    "polymarket": {
+      "marketId": "559651",
+      "title": "Xi Jinping out before 2027?",
+      "yesAskLevels": 131,
+      "yesBestAsk": 0.028,
+      "clobTokenValidated": true
+    }
+  },
+  "errors": [],
+  "status": "PUBLIC_ENDPOINTS_RESPONDED"
+}
