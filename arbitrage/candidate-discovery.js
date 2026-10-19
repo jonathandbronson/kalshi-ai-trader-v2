@@ -13,13 +13,13 @@ function parseArray(v){try{const x=typeof v==="string"?JSON.parse(v):v;return Ar
 function tokens(t){return new Set(String(t??"").toLowerCase().replace(/[^a-z0-9 ]/g," ").split(/\s+/).filter(x=>x.length>2&&!["will","the","and","yes","not","before","after","does","this","that","with","for","2026","2027","2028","market"].includes(x)))}
 function similarity(a,b){const x=tokens(a),y=tokens(b);if(!x.size||!y.size)return 0;const shared=[...x].filter(v=>y.has(v)).length;return shared/Math.sqrt(x.size*y.size)}
 const GENERIC=new Set(["both","teams","team","score","scored","goals","goal","over","under","win","wins","winner","game","match","league","football","basketball","soccer","points","total","first","second","half","full","time","more","less","than","each","either","draw","against","october","november","december","january","february","march","april","may","june","july","august","september","2026","2027","2028","yes","no","the","will","versus","after","before","2025","2024"]);
-function distinctive(s){return [...tokens(s)].filter(t=>!GENERIC.has(t)&&!/^\\d+$/.test(t));}
+function distinctive(s){return [...tokens(s)].filter(t=>!GENERIC.has(t)&&!/^\d+$/.test(t));}
 function contractKind(s){
  const t=String(s??"").toLowerCase();
- if(/\\b(?:15|30|60)\\s*(?:mins?|minutes?)\\b|\\bnext\\s+\\d+\\s*(?:mins?|minutes?)\\b/.test(t))return "intraday";
- if(/\\b(?:hit|reach|touch|exceed)\\b.*\\b(?:before|by)\\b/.test(t))return "threshold";
- if(/\\b(?:championship|champion|finals|playoffs|nomination|worlds\\s+20\\d\\d)\\b/.test(t))return "season";
- if(/\\b(?:score|scored|goals|1st half|2nd half|final score)\\b/.test(t))return "match-prop";
+ if(/\b(?:15|30|60)\s*(?:mins?|minutes?)\b|\bnext\s+\d+\s*(?:mins?|minutes?)\b/.test(t))return "intraday";
+ if(/\b(?:hit|reach|touch|exceed)\b.*\b(?:before|by)\b/.test(t))return "threshold";
+ if(/\b(?:championship|champion|finals|playoffs|nomination|worlds\s+20\d\d)\b/.test(t))return "season";
+ if(/\b(?:score|scored|goals|1st half|2nd half|final score)\b/.test(t))return "match-prop";
  return "other";
 }
 function eventGate(k,p){
@@ -27,14 +27,14 @@ function eventGate(k,p){
  const kindK=contractKind(kt),kindP=contractKind(pt);
  if(kindK!==kindP)return false;
  // Virtual sports and real-world sports are never the same underlying event.
- if(/\\besports?\\b|\\bebasketball\\b|\\besoccer\\b|valhalla league|valhalla cup|\\(wemby\\)|\\(haze\\)|\\(lenny\\)/i.test(kr+" "+kt))return false;
+ if(/\besports?\b|\bebasketball\b|\besoccer\b|valhalla league|valhalla cup|\(wemby\)|\(haze\)|\(lenny\)/i.test(kr+" "+kt))return false;
  // Championship and single-game outcome contracts are not interchangeable.
- const season=/\\bchampion(ship)?\\b|\\bfinals\\b|\\bplayoffs\\b|\\btitle\\b|\\bnomination\\b/i;
+ const season=/\bchampion(ship)?\b|\bfinals\b|\bplayoffs\b|\btitle\b|\bnomination\b/i;
  if(season.test(pt)!==season.test(kt))return false;
- if(season.test(pt)&&/\\bgame\\b|\\bmatch\\b|\\bwins\\b/i.test(kt+" "+kr)&&!season.test(kt))return false;
+ if(season.test(pt)&&/\bgame\b|\bmatch\b|\bwins\b/i.test(kt+" "+kr)&&!season.test(kt))return false;
  // Require a shared, explicit calendar day where both contracts specify one.
- const kdate=(kr+" "+kt).match(/(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\\s+\\d{1,2},?\\s+20\\d\\d/i);
- const pdate=(pt+" "+pd).match(/(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\\s+\\d{1,2},?\\s+20\\d\\d/i);
+ const kdate=(kr+" "+kt).match(/(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\s+\d{1,2},?\s+20\d\d/i);
+ const pdate=(pt+" "+pd).match(/(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\s+\d{1,2},?\s+20\d\d/i);
  if(kdate&&pdate&&Date.parse(kdate[0])!==Date.parse(pdate[0]))return false;
  return true;
 }
