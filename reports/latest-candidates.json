@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19T17:21:11.294Z",
+  "timestamp": "2026-10-19T17:22:28.891Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -12,685 +12,13 @@
     "kalshiSingleOutcomeMarkets": 600,
     "kalshiMarkets": 600,
     "polymarketMarkets": 1200,
-    "polymarketBinaryMarkets": 998,
-    "titleCandidates": 119,
+    "polymarketBinaryMarkets": 1003,
+    "titleCandidates": 67,
     "kalshiPagesRequested": 12,
     "polymarketPagesRequested": 12,
     "orderbooksChecked": 20
   },
   "candidates": [
-    {
-      "score": 1,
-      "kalshi": {
-        "ticker": "KXEGYPLBTTS-26OCT20GAIPYR-BTTS",
-        "title": "Both Teams To Score",
-        "subtitle": "",
-        "rulesPrimary": "If El Gaish and Pyramids both score a goal in the El Gaish vs Pyramids Egyptian Premier League match originally scheduled for Oct 20, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resol",
-        "rulesSecondary": "Own goals count towards the team awarded the goal.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of thei",
-        "closeDate": "2026-10-22"
-      },
-      "polymarket": {
-        "id": "5364670",
-        "title": "AC Monza vs. Cagliari Calcio: Both Teams to Score",
-        "description": "In the upcoming Serie A game between AC Monza and Cagliari Calcio, scheduled for October 19 at 12:30 PM ET:\n\nThis market will resolve to \"Yes\" if both AC Monza and Cagliari Calcio each score at least one goal during the game.\n\nThis market w",
-        "resolutionSource": "https://www.legaseriea.it/",
-        "endDate": "2026-10-19"
-      },
-      "dateDifferenceDays": 3,
-      "topOfBook": {
-        "kalshiYesAsk": 0.41,
-        "kalshiNoAsk": 0.61,
-        "polymarketYesAsk": 0.58,
-        "polymarketNoAsk": 0.43,
-        "kalshiYesAskSize": 221,
-        "kalshiNoAskSize": 4770.56,
-        "polymarketYesAskSize": 6987.17,
-        "polymarketNoAskSize": 144.47
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 0.84,
-          "grossSpreadPerShare": 0.16
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.19,
-          "grossSpreadPerShare": -0.19
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 1,
-      "kalshi": {
-        "ticker": "KXEGYPLBTTS-26OCT20GAIPYR-BTTS",
-        "title": "Both Teams To Score",
-        "subtitle": "",
-        "rulesPrimary": "If El Gaish and Pyramids both score a goal in the El Gaish vs Pyramids Egyptian Premier League match originally scheduled for Oct 20, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resol",
-        "rulesSecondary": "Own goals count towards the team awarded the goal.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of thei",
-        "closeDate": "2026-10-22"
-      },
-      "polymarket": {
-        "id": "5410016",
-        "title": "Paris Saint-Germain FC vs. FC Barcelona: Both Teams to Score",
-        "description": "In the upcoming UEFA Champions League game between Paris Saint-Germain FC and FC Barcelona, scheduled for October 20 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if both Paris Saint-Germain FC and FC Barcelona each score at least one g",
-        "resolutionSource": "https://www.uefa.com/",
-        "endDate": "2026-10-20"
-      },
-      "dateDifferenceDays": 2,
-      "topOfBook": {
-        "kalshiYesAsk": 0.41,
-        "kalshiNoAsk": 0.61,
-        "polymarketYesAsk": 0.82,
-        "polymarketNoAsk": 0.19,
-        "kalshiYesAskSize": 221,
-        "kalshiNoAskSize": 4770.56,
-        "polymarketYesAskSize": 21170.52,
-        "polymarketNoAskSize": 2967.25
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 0.6,
-          "grossSpreadPerShare": 0.4
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.43,
-          "grossSpreadPerShare": -0.43
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 1,
-      "kalshi": {
-        "ticker": "KXEGYPLBTTS-26OCT20GAIPYR-BTTS",
-        "title": "Both Teams To Score",
-        "subtitle": "",
-        "rulesPrimary": "If El Gaish and Pyramids both score a goal in the El Gaish vs Pyramids Egyptian Premier League match originally scheduled for Oct 20, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resol",
-        "rulesSecondary": "Own goals count towards the team awarded the goal.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of thei",
-        "closeDate": "2026-10-22"
-      },
-      "polymarket": {
-        "id": "5405626",
-        "title": "Trabzonspor vs. Beşiktaş JK: Both Teams to Score",
-        "description": "In the upcoming Süper Lig game between Trabzonspor and Beşiktaş JK, scheduled for October 19 at 1:00 PM ET:\n\nThis market will resolve to \"Yes\" if both Trabzonspor and Beşiktaş JK each score at least one goal during the game.\n\nThis market wi",
-        "resolutionSource": "https://tff.org/",
-        "endDate": "2026-10-19"
-      },
-      "dateDifferenceDays": 3,
-      "topOfBook": {
-        "kalshiYesAsk": 0.41,
-        "kalshiNoAsk": 0.61,
-        "polymarketYesAsk": 0.8,
-        "polymarketNoAsk": 0.35,
-        "kalshiYesAskSize": 221,
-        "kalshiNoAskSize": 4770.56,
-        "polymarketYesAskSize": 10,
-        "polymarketNoAskSize": 20
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 0.76,
-          "grossSpreadPerShare": 0.24
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.41,
-          "grossSpreadPerShare": -0.41
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 1,
-      "kalshi": {
-        "ticker": "KXEGYPLBTTS-26OCT20GAIPYR-BTTS",
-        "title": "Both Teams To Score",
-        "subtitle": "",
-        "rulesPrimary": "If El Gaish and Pyramids both score a goal in the El Gaish vs Pyramids Egyptian Premier League match originally scheduled for Oct 20, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resol",
-        "rulesSecondary": "Own goals count towards the team awarded the goal.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of thei",
-        "closeDate": "2026-10-22"
-      },
-      "polymarket": {
-        "id": "5369016",
-        "title": "Getafe CF vs. Rayo Vallecano de Madrid: Both Teams to Score",
-        "description": "In the upcoming La Liga game between Getafe CF and Rayo Vallecano de Madrid, scheduled for October 19 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if both Getafe CF and Rayo Vallecano de Madrid each score at least one goal during the g",
-        "resolutionSource": "https://www.laliga.com/",
-        "endDate": "2026-10-19"
-      },
-      "dateDifferenceDays": 3,
-      "topOfBook": {
-        "kalshiYesAsk": 0.41,
-        "kalshiNoAsk": 0.61,
-        "polymarketYesAsk": 0.44,
-        "polymarketNoAsk": 0.57,
-        "kalshiYesAskSize": 221,
-        "kalshiNoAskSize": 4770.56,
-        "polymarketYesAskSize": 13973.67,
-        "polymarketNoAskSize": 1380.01
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 0.98,
-          "grossSpreadPerShare": 0.02
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.05,
-          "grossSpreadPerShare": -0.05
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 1,
-      "kalshi": {
-        "ticker": "KXEGYPLBTTS-26OCT20GAIPYR-BTTS",
-        "title": "Both Teams To Score",
-        "subtitle": "",
-        "rulesPrimary": "If El Gaish and Pyramids both score a goal in the El Gaish vs Pyramids Egyptian Premier League match originally scheduled for Oct 20, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resol",
-        "rulesSecondary": "Own goals count towards the team awarded the goal.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of thei",
-        "closeDate": "2026-10-22"
-      },
-      "polymarket": {
-        "id": "5379126",
-        "title": "Viborg FF vs. FC Midtjylland: Both Teams to Score",
-        "description": "In the upcoming Denmark Superliga game between Viborg FF and FC Midtjylland, scheduled for October 19 at 1:00 PM ET:\n\nThis market will resolve to \"Yes\" if both Viborg FF and FC Midtjylland each score at least one goal during the game.\n\nThis",
-        "resolutionSource": "https://superligaen.dk/",
-        "endDate": "2026-10-19"
-      },
-      "dateDifferenceDays": 3,
-      "topOfBook": {
-        "kalshiYesAsk": 0.41,
-        "kalshiNoAsk": 0.61,
-        "polymarketYesAsk": 0.55,
-        "polymarketNoAsk": 0.47,
-        "kalshiYesAskSize": 221,
-        "kalshiNoAskSize": 4770.56,
-        "polymarketYesAskSize": 1955.64,
-        "polymarketNoAskSize": 3286.64
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 0.88,
-          "grossSpreadPerShare": 0.12
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.16,
-          "grossSpreadPerShare": -0.16
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 1,
-      "kalshi": {
-        "ticker": "KXEGYPLBTTS-26OCT20GAIPYR-BTTS",
-        "title": "Both Teams To Score",
-        "subtitle": "",
-        "rulesPrimary": "If El Gaish and Pyramids both score a goal in the El Gaish vs Pyramids Egyptian Premier League match originally scheduled for Oct 20, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resol",
-        "rulesSecondary": "Own goals count towards the team awarded the goal.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of thei",
-        "closeDate": "2026-10-22"
-      },
-      "polymarket": {
-        "id": "5387578",
-        "title": "Celta Fortuna vs. CD Tenerife: Both Teams to Score",
-        "description": "In the upcoming La Liga 2 game between Celta Fortuna and CD Tenerife, scheduled for October 19 at 2:30 PM ET:\n\nThis market will resolve to \"Yes\" if both Celta Fortuna and CD Tenerife each score at least one goal during the game.\n\nThis marke",
-        "resolutionSource": "https://www.laliga.com/en-GB/laliga-hypermotion",
-        "endDate": "2026-10-19"
-      },
-      "dateDifferenceDays": 3,
-      "topOfBook": {
-        "kalshiYesAsk": 0.41,
-        "kalshiNoAsk": 0.61,
-        "polymarketYesAsk": 0.54,
-        "polymarketNoAsk": 0.47,
-        "kalshiYesAskSize": 221,
-        "kalshiNoAskSize": 4770.56,
-        "polymarketYesAskSize": 766.29,
-        "polymarketNoAskSize": 344.36
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 0.88,
-          "grossSpreadPerShare": 0.12
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.15,
-          "grossSpreadPerShare": -0.15
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 1,
-      "kalshi": {
-        "ticker": "KXEGYPLBTTS-26OCT20GAIPYR-BTTS",
-        "title": "Both Teams To Score",
-        "subtitle": "",
-        "rulesPrimary": "If El Gaish and Pyramids both score a goal in the El Gaish vs Pyramids Egyptian Premier League match originally scheduled for Oct 20, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resol",
-        "rulesSecondary": "Own goals count towards the team awarded the goal.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of thei",
-        "closeDate": "2026-10-22"
-      },
-      "polymarket": {
-        "id": "5364581",
-        "title": "Tottenham Hotspur FC vs. Coventry City FC: Both Teams to Score",
-        "description": "In the upcoming Premier League game between Tottenham Hotspur FC and Coventry City FC, scheduled for October 19 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if both Tottenham Hotspur FC and Coventry City FC each score at least one goal",
-        "resolutionSource": "https://www.premierleague.com/",
-        "endDate": "2026-10-19"
-      },
-      "dateDifferenceDays": 3,
-      "topOfBook": {
-        "kalshiYesAsk": 0.41,
-        "kalshiNoAsk": 0.61,
-        "polymarketYesAsk": 0.56,
-        "polymarketNoAsk": 0.45,
-        "kalshiYesAskSize": 221,
-        "kalshiNoAskSize": 4770.56,
-        "polymarketYesAskSize": 28331.56,
-        "polymarketNoAskSize": 6568.92
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 0.86,
-          "grossSpreadPerShare": 0.14
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.17,
-          "grossSpreadPerShare": -0.17
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 1,
-      "kalshi": {
-        "ticker": "KXEGYPLBTTS-26OCT20GAIPYR-BTTS",
-        "title": "Both Teams To Score",
-        "subtitle": "",
-        "rulesPrimary": "If El Gaish and Pyramids both score a goal in the El Gaish vs Pyramids Egyptian Premier League match originally scheduled for Oct 20, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resol",
-        "rulesSecondary": "Own goals count towards the team awarded the goal.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of thei",
-        "closeDate": "2026-10-22"
-      },
-      "polymarket": {
-        "id": "5636204",
-        "title": "Varbergs BoIS vs. Helsingborgs IF: Both Teams to Score",
-        "description": "In the upcoming Superettan game between Varbergs BoIS and Helsingborgs IF, scheduled for October 19 at 1:05 PM ET:\n\nThis market will resolve to \"Yes\" if both Varbergs BoIS and Helsingborgs IF each score at least one goal during the game.\n\nT",
-        "resolutionSource": "https://www.superettan.se/",
-        "endDate": "2026-10-19"
-      },
-      "dateDifferenceDays": 3,
-      "topOfBook": {
-        "kalshiYesAsk": 0.41,
-        "kalshiNoAsk": 0.61,
-        "polymarketYesAsk": 0.5,
-        "polymarketNoAsk": 0.52,
-        "kalshiYesAskSize": 221,
-        "kalshiNoAskSize": 4770.56,
-        "polymarketYesAskSize": 1458.6,
-        "polymarketNoAskSize": 1284
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 0.93,
-          "grossSpreadPerShare": 0.07
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.11,
-          "grossSpreadPerShare": -0.11
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 1,
-      "kalshi": {
-        "ticker": "KXEGYPLBTTS-26OCT20DEGNBE-BTTS",
-        "title": "Both Teams To Score",
-        "subtitle": "",
-        "rulesPrimary": "If Wadi Degla SC and National Bank Egypt both score a goal in the Wadi Degla SC vs National Bank Egypt Egyptian Premier League match originally scheduled for Oct 20, 2026 after 90 minutes plus stoppage time (does not include extra time or p",
-        "rulesSecondary": "Own goals count towards the team awarded the goal.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of thei",
-        "closeDate": "2026-10-22"
-      },
-      "polymarket": {
-        "id": "5364670",
-        "title": "AC Monza vs. Cagliari Calcio: Both Teams to Score",
-        "description": "In the upcoming Serie A game between AC Monza and Cagliari Calcio, scheduled for October 19 at 12:30 PM ET:\n\nThis market will resolve to \"Yes\" if both AC Monza and Cagliari Calcio each score at least one goal during the game.\n\nThis market w",
-        "resolutionSource": "https://www.legaseriea.it/",
-        "endDate": "2026-10-19"
-      },
-      "dateDifferenceDays": 3,
-      "topOfBook": {
-        "kalshiYesAsk": 0.52,
-        "kalshiNoAsk": 0.53,
-        "polymarketYesAsk": 0.58,
-        "polymarketNoAsk": 0.43,
-        "kalshiYesAskSize": 65,
-        "kalshiNoAskSize": 3548.25,
-        "polymarketYesAskSize": 6987.17,
-        "polymarketNoAskSize": 154.47
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 0.95,
-          "grossSpreadPerShare": 0.05
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.11,
-          "grossSpreadPerShare": -0.11
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 1,
-      "kalshi": {
-        "ticker": "KXEGYPLBTTS-26OCT20DEGNBE-BTTS",
-        "title": "Both Teams To Score",
-        "subtitle": "",
-        "rulesPrimary": "If Wadi Degla SC and National Bank Egypt both score a goal in the Wadi Degla SC vs National Bank Egypt Egyptian Premier League match originally scheduled for Oct 20, 2026 after 90 minutes plus stoppage time (does not include extra time or p",
-        "rulesSecondary": "Own goals count towards the team awarded the goal.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of thei",
-        "closeDate": "2026-10-22"
-      },
-      "polymarket": {
-        "id": "5410016",
-        "title": "Paris Saint-Germain FC vs. FC Barcelona: Both Teams to Score",
-        "description": "In the upcoming UEFA Champions League game between Paris Saint-Germain FC and FC Barcelona, scheduled for October 20 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if both Paris Saint-Germain FC and FC Barcelona each score at least one g",
-        "resolutionSource": "https://www.uefa.com/",
-        "endDate": "2026-10-20"
-      },
-      "dateDifferenceDays": 2,
-      "topOfBook": {
-        "kalshiYesAsk": 0.52,
-        "kalshiNoAsk": 0.53,
-        "polymarketYesAsk": 0.82,
-        "polymarketNoAsk": 0.19,
-        "kalshiYesAskSize": 65,
-        "kalshiNoAskSize": 3548.25,
-        "polymarketYesAskSize": 21165.52,
-        "polymarketNoAskSize": 2967.25
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 0.71,
-          "grossSpreadPerShare": 0.29
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.35,
-          "grossSpreadPerShare": -0.35
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 1,
-      "kalshi": {
-        "ticker": "KXEGYPLBTTS-26OCT20DEGNBE-BTTS",
-        "title": "Both Teams To Score",
-        "subtitle": "",
-        "rulesPrimary": "If Wadi Degla SC and National Bank Egypt both score a goal in the Wadi Degla SC vs National Bank Egypt Egyptian Premier League match originally scheduled for Oct 20, 2026 after 90 minutes plus stoppage time (does not include extra time or p",
-        "rulesSecondary": "Own goals count towards the team awarded the goal.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of thei",
-        "closeDate": "2026-10-22"
-      },
-      "polymarket": {
-        "id": "5405626",
-        "title": "Trabzonspor vs. Beşiktaş JK: Both Teams to Score",
-        "description": "In the upcoming Süper Lig game between Trabzonspor and Beşiktaş JK, scheduled for October 19 at 1:00 PM ET:\n\nThis market will resolve to \"Yes\" if both Trabzonspor and Beşiktaş JK each score at least one goal during the game.\n\nThis market wi",
-        "resolutionSource": "https://tff.org/",
-        "endDate": "2026-10-19"
-      },
-      "dateDifferenceDays": 3,
-      "topOfBook": {
-        "kalshiYesAsk": 0.52,
-        "kalshiNoAsk": 0.53,
-        "polymarketYesAsk": 0.8,
-        "polymarketNoAsk": 0.31,
-        "kalshiYesAskSize": 65,
-        "kalshiNoAskSize": 3548.25,
-        "polymarketYesAskSize": 80,
-        "polymarketNoAskSize": 15
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 0.83,
-          "grossSpreadPerShare": 0.17
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.33,
-          "grossSpreadPerShare": -0.33
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 1,
-      "kalshi": {
-        "ticker": "KXEGYPLBTTS-26OCT20DEGNBE-BTTS",
-        "title": "Both Teams To Score",
-        "subtitle": "",
-        "rulesPrimary": "If Wadi Degla SC and National Bank Egypt both score a goal in the Wadi Degla SC vs National Bank Egypt Egyptian Premier League match originally scheduled for Oct 20, 2026 after 90 minutes plus stoppage time (does not include extra time or p",
-        "rulesSecondary": "Own goals count towards the team awarded the goal.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of thei",
-        "closeDate": "2026-10-22"
-      },
-      "polymarket": {
-        "id": "5369016",
-        "title": "Getafe CF vs. Rayo Vallecano de Madrid: Both Teams to Score",
-        "description": "In the upcoming La Liga game between Getafe CF and Rayo Vallecano de Madrid, scheduled for October 19 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if both Getafe CF and Rayo Vallecano de Madrid each score at least one goal during the g",
-        "resolutionSource": "https://www.laliga.com/",
-        "endDate": "2026-10-19"
-      },
-      "dateDifferenceDays": 3,
-      "topOfBook": {
-        "kalshiYesAsk": 0.52,
-        "kalshiNoAsk": 0.53,
-        "polymarketYesAsk": 0.44,
-        "polymarketNoAsk": 0.57,
-        "kalshiYesAskSize": 65,
-        "kalshiNoAskSize": 3548.25,
-        "polymarketYesAskSize": 13973.67,
-        "polymarketNoAskSize": 1380.01
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.09,
-          "grossSpreadPerShare": -0.09
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 0.97,
-          "grossSpreadPerShare": 0.03
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 1,
-      "kalshi": {
-        "ticker": "KXEGYPLBTTS-26OCT20DEGNBE-BTTS",
-        "title": "Both Teams To Score",
-        "subtitle": "",
-        "rulesPrimary": "If Wadi Degla SC and National Bank Egypt both score a goal in the Wadi Degla SC vs National Bank Egypt Egyptian Premier League match originally scheduled for Oct 20, 2026 after 90 minutes plus stoppage time (does not include extra time or p",
-        "rulesSecondary": "Own goals count towards the team awarded the goal.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of thei",
-        "closeDate": "2026-10-22"
-      },
-      "polymarket": {
-        "id": "5379126",
-        "title": "Viborg FF vs. FC Midtjylland: Both Teams to Score",
-        "description": "In the upcoming Denmark Superliga game between Viborg FF and FC Midtjylland, scheduled for October 19 at 1:00 PM ET:\n\nThis market will resolve to \"Yes\" if both Viborg FF and FC Midtjylland each score at least one goal during the game.\n\nThis",
-        "resolutionSource": "https://superligaen.dk/",
-        "endDate": "2026-10-19"
-      },
-      "dateDifferenceDays": 3,
-      "topOfBook": {
-        "kalshiYesAsk": 0.52,
-        "kalshiNoAsk": 0.53,
-        "polymarketYesAsk": 0.55,
-        "polymarketNoAsk": 0.47,
-        "kalshiYesAskSize": 65,
-        "kalshiNoAskSize": 3548.25,
-        "polymarketYesAskSize": 1955.64,
-        "polymarketNoAskSize": 3286.64
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 0.99,
-          "grossSpreadPerShare": 0.01
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.08,
-          "grossSpreadPerShare": -0.08
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 1,
-      "kalshi": {
-        "ticker": "KXEGYPLBTTS-26OCT20DEGNBE-BTTS",
-        "title": "Both Teams To Score",
-        "subtitle": "",
-        "rulesPrimary": "If Wadi Degla SC and National Bank Egypt both score a goal in the Wadi Degla SC vs National Bank Egypt Egyptian Premier League match originally scheduled for Oct 20, 2026 after 90 minutes plus stoppage time (does not include extra time or p",
-        "rulesSecondary": "Own goals count towards the team awarded the goal.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of thei",
-        "closeDate": "2026-10-22"
-      },
-      "polymarket": {
-        "id": "5387578",
-        "title": "Celta Fortuna vs. CD Tenerife: Both Teams to Score",
-        "description": "In the upcoming La Liga 2 game between Celta Fortuna and CD Tenerife, scheduled for October 19 at 2:30 PM ET:\n\nThis market will resolve to \"Yes\" if both Celta Fortuna and CD Tenerife each score at least one goal during the game.\n\nThis marke",
-        "resolutionSource": "https://www.laliga.com/en-GB/laliga-hypermotion",
-        "endDate": "2026-10-19"
-      },
-      "dateDifferenceDays": 3,
-      "topOfBook": {
-        "kalshiYesAsk": 0.52,
-        "kalshiNoAsk": 0.53,
-        "polymarketYesAsk": 0.54,
-        "polymarketNoAsk": 0.47,
-        "kalshiYesAskSize": 65,
-        "kalshiNoAskSize": 3548.25,
-        "polymarketYesAskSize": 766.29,
-        "polymarketNoAskSize": 344.36
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 0.99,
-          "grossSpreadPerShare": 0.01
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.07,
-          "grossSpreadPerShare": -0.07
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 1,
-      "kalshi": {
-        "ticker": "KXEGYPLBTTS-26OCT20DEGNBE-BTTS",
-        "title": "Both Teams To Score",
-        "subtitle": "",
-        "rulesPrimary": "If Wadi Degla SC and National Bank Egypt both score a goal in the Wadi Degla SC vs National Bank Egypt Egyptian Premier League match originally scheduled for Oct 20, 2026 after 90 minutes plus stoppage time (does not include extra time or p",
-        "rulesSecondary": "Own goals count towards the team awarded the goal.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of thei",
-        "closeDate": "2026-10-22"
-      },
-      "polymarket": {
-        "id": "5364581",
-        "title": "Tottenham Hotspur FC vs. Coventry City FC: Both Teams to Score",
-        "description": "In the upcoming Premier League game between Tottenham Hotspur FC and Coventry City FC, scheduled for October 19 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if both Tottenham Hotspur FC and Coventry City FC each score at least one goal",
-        "resolutionSource": "https://www.premierleague.com/",
-        "endDate": "2026-10-19"
-      },
-      "dateDifferenceDays": 3,
-      "topOfBook": {
-        "kalshiYesAsk": 0.52,
-        "kalshiNoAsk": 0.53,
-        "polymarketYesAsk": 0.56,
-        "polymarketNoAsk": 0.45,
-        "kalshiYesAskSize": 65,
-        "kalshiNoAskSize": 3548.25,
-        "polymarketYesAskSize": 28331.56,
-        "polymarketNoAskSize": 6568.92
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 0.97,
-          "grossSpreadPerShare": 0.03
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.09,
-          "grossSpreadPerShare": -0.09
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 1,
-      "kalshi": {
-        "ticker": "KXEGYPLBTTS-26OCT20DEGNBE-BTTS",
-        "title": "Both Teams To Score",
-        "subtitle": "",
-        "rulesPrimary": "If Wadi Degla SC and National Bank Egypt both score a goal in the Wadi Degla SC vs National Bank Egypt Egyptian Premier League match originally scheduled for Oct 20, 2026 after 90 minutes plus stoppage time (does not include extra time or p",
-        "rulesSecondary": "Own goals count towards the team awarded the goal.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of thei",
-        "closeDate": "2026-10-22"
-      },
-      "polymarket": {
-        "id": "5636204",
-        "title": "Varbergs BoIS vs. Helsingborgs IF: Both Teams to Score",
-        "description": "In the upcoming Superettan game between Varbergs BoIS and Helsingborgs IF, scheduled for October 19 at 1:05 PM ET:\n\nThis market will resolve to \"Yes\" if both Varbergs BoIS and Helsingborgs IF each score at least one goal during the game.\n\nT",
-        "resolutionSource": "https://www.superettan.se/",
-        "endDate": "2026-10-19"
-      },
-      "dateDifferenceDays": 3,
-      "topOfBook": {
-        "kalshiYesAsk": 0.52,
-        "kalshiNoAsk": 0.53,
-        "polymarketYesAsk": 0.89,
-        "polymarketNoAsk": 0.52,
-        "kalshiYesAskSize": 65,
-        "kalshiNoAskSize": 3548.25,
-        "polymarketYesAskSize": 45.45,
-        "polymarketNoAskSize": 1284
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.04,
-          "grossSpreadPerShare": -0.04
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.42,
-          "grossSpreadPerShare": -0.42
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
     {
       "score": 0.775,
       "kalshi": {
@@ -790,7 +118,7 @@
         "polymarketNoAsk": 0.61,
         "kalshiYesAskSize": 19,
         "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 25416.5,
+        "polymarketYesAskSize": 25431.51,
         "polymarketNoAskSize": 15197.71
       },
       "illustrativeBeforeFees": [
@@ -838,30 +166,622 @@
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.775,
+      "kalshi": {
+        "ticker": "KXESOCCERGAME-26OCT191528SILEHAZE-SILE",
+        "title": "Paris Saint-Germain (SilentShooter) wins",
+        "subtitle": "",
+        "rulesPrimary": "If Paris Saint-Germain (SilentShooter) wins the Paris Saint-Germain (SilentShooter) vs Manchester City (Haze) professional Valhalla Cup 4 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:28 PM EDT, then the market reso",
+        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
+        "closeDate": "2026-11-02"
+      },
+      "polymarket": {
+        "id": "5409678",
+        "title": "Will Paris Saint-Germain FC win on 2026-10-20?",
+        "description": "In the upcoming game, scheduled for October 20, 2026\nIf Paris Saint-Germain FC wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has b",
+        "resolutionSource": "https://www.uefa.com/",
+        "endDate": "2026-10-20"
+      },
+      "dateDifferenceDays": 13,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.4,
+        "polymarketNoAsk": 0.61,
+        "kalshiYesAskSize": 19,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 25431.51,
+        "polymarketNoAskSize": 15197.71
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.6,
+          "grossSpreadPerShare": -0.6
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.775,
+      "kalshi": {
+        "ticker": "KXESOCCERGAME-26OCT191528SILEHAZE-SILE",
+        "title": "Paris Saint-Germain (SilentShooter) wins",
+        "subtitle": "",
+        "rulesPrimary": "If Paris Saint-Germain (SilentShooter) wins the Paris Saint-Germain (SilentShooter) vs Manchester City (Haze) professional Valhalla Cup 4 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:28 PM EDT, then the market reso",
+        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
+        "closeDate": "2026-11-02"
+      },
+      "polymarket": {
+        "id": "2772166",
+        "title": "Will Paris Saint-Germain win the 2026-27 UEFA Champions League Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 UEFA Champions League Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 UEFA Champions League Championship per the rules of UEFA Ch",
+        "resolutionSource": "",
+        "endDate": "2027-05-30"
+      },
+      "dateDifferenceDays": 209,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.16,
+        "polymarketNoAsk": 0.85,
+        "kalshiYesAskSize": 19,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 220693.17,
+        "polymarketNoAskSize": 31008.7
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.84,
+          "grossSpreadPerShare": -0.84
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.707,
+      "kalshi": {
+        "ticker": "KXEBASKETBALLGAME-26OCT191554DONOLENN-LENN",
+        "title": "Indiana Pacers (Lenny) wins",
+        "subtitle": "",
+        "rulesPrimary": "If Indiana Pacers (Lenny) wins the New Orleans Pelicans (Donovan) vs Indiana Pacers (Lenny) professional Valhalla League 2026 Week #43 eBasketball game originally scheduled for Oct 19, 2026 at 3:54 PM EDT, then the market resolves to Yes.",
+        "rulesSecondary": "If the game ends in a tie/draw, or if the game is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve to $0.50. If the match is postponed but begins within 2 weeks of its originally schedul",
+        "closeDate": "2026-11-02"
+      },
+      "polymarket": {
+        "id": "2243303",
+        "title": "Will Indiana Pacers win the 2027 NBA Finals?",
+        "description": "This market will resolve to \"Yes\" if the listed team is determined as the champion of the NBA for the 2026-27 season. Otherwise, it will resolve to \"No\".\n\nIf at any point it becomes impossible for a listed team to be named as the champion o",
+        "resolutionSource": "",
+        "endDate": "2027-07-01"
+      },
+      "dateDifferenceDays": 241,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.019,
+        "polymarketNoAsk": 0.982,
+        "kalshiYesAskSize": 66,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 288.07,
+        "polymarketNoAskSize": 555.55
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.972,
+          "grossSpreadPerShare": -0.972
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.707,
+      "kalshi": {
+        "ticker": "KXEBASKETBALLGAME-26OCT191526WEMBLENN-LENN",
+        "title": "Indiana Pacers (Lenny) wins",
+        "subtitle": "",
+        "rulesPrimary": "If Indiana Pacers (Lenny) wins the New Orleans Pelicans (Wemby) vs Indiana Pacers (Lenny) professional Valhalla League 2026 Week #43 eBasketball game originally scheduled for Oct 19, 2026 at 3:26 PM EDT, then the market resolves to Yes.",
+        "rulesSecondary": "If the game ends in a tie/draw, or if the game is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve to $0.50. If the match is postponed but begins within 2 weeks of its originally schedul",
+        "closeDate": "2026-11-02"
+      },
+      "polymarket": {
+        "id": "2243303",
+        "title": "Will Indiana Pacers win the 2027 NBA Finals?",
+        "description": "This market will resolve to \"Yes\" if the listed team is determined as the champion of the NBA for the 2026-27 season. Otherwise, it will resolve to \"No\".\n\nIf at any point it becomes impossible for a listed team to be named as the champion o",
+        "resolutionSource": "",
+        "endDate": "2027-07-01"
+      },
+      "dateDifferenceDays": 241,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.019,
+        "polymarketNoAsk": 0.982,
+        "kalshiYesAskSize": 66,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 288.07,
+        "polymarketNoAskSize": 555.55
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.972,
+          "grossSpreadPerShare": -0.972
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.707,
+      "kalshi": {
+        "ticker": "KXESOCCERGAME-26OCT191554DANNSHEE-SHEE",
+        "title": "Manchester City (Sheerpy) wins",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester City (Sheerpy) wins the Sunderland (Danny) vs Manchester City (Sheerpy) professional Valhalla Cup 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:54 PM EDT, then the market resolves to Yes.",
+        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
+        "closeDate": "2026-11-02"
+      },
+      "polymarket": {
+        "id": "5409194",
+        "title": "Will Manchester City FC win on 2026-10-20?",
+        "description": "In the upcoming game, scheduled for October 20, 2026\nIf Manchester City FC wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been ",
+        "resolutionSource": "https://www.uefa.com/",
+        "endDate": "2026-10-20"
+      },
+      "dateDifferenceDays": 13,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.89,
+        "polymarketNoAsk": 0.12,
+        "kalshiYesAskSize": 19,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 52094.29,
+        "polymarketNoAskSize": 3335.61
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.11,
+          "grossSpreadPerShare": -0.11
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.707,
+      "kalshi": {
+        "ticker": "KXESOCCERGAME-26OCT191554DANNSHEE-SHEE",
+        "title": "Manchester City (Sheerpy) wins",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester City (Sheerpy) wins the Sunderland (Danny) vs Manchester City (Sheerpy) professional Valhalla Cup 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:54 PM EDT, then the market resolves to Yes.",
+        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
+        "closeDate": "2026-11-02"
+      },
+      "polymarket": {
+        "id": "2771335",
+        "title": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
+        "resolutionSource": "",
+        "endDate": "2027-05-30"
+      },
+      "dateDifferenceDays": 209,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.18,
+        "polymarketNoAsk": 0.85,
+        "kalshiYesAskSize": 19,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 5999.12,
+        "polymarketNoAskSize": 1323.01
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.84,
+          "grossSpreadPerShare": -0.84
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.707,
+      "kalshi": {
+        "ticker": "KXESOCCERGAME-26OCT191554DANNSHEE-SHEE",
+        "title": "Manchester City (Sheerpy) wins",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester City (Sheerpy) wins the Sunderland (Danny) vs Manchester City (Sheerpy) professional Valhalla Cup 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:54 PM EDT, then the market resolves to Yes.",
+        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
+        "closeDate": "2026-11-02"
+      },
+      "polymarket": {
+        "id": "2772169",
+        "title": "Will Manchester City win the 2026-27 UEFA Champions League Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 UEFA Champions League Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 UEFA Champions League Championship per the rules of UEFA Ch",
+        "resolutionSource": "",
+        "endDate": "2027-06-20"
+      },
+      "dateDifferenceDays": 230,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.07,
+        "polymarketNoAsk": 0.94,
+        "kalshiYesAskSize": 19,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 47469.37,
+        "polymarketNoAskSize": 30221.25
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.93,
+          "grossSpreadPerShare": -0.93
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.707,
+      "kalshi": {
+        "ticker": "KXESOCCERGAME-26OCT191554DANNSHEE-SHEE",
+        "title": "Manchester City (Sheerpy) wins",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester City (Sheerpy) wins the Sunderland (Danny) vs Manchester City (Sheerpy) professional Valhalla Cup 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:54 PM EDT, then the market resolves to Yes.",
+        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
+        "closeDate": "2026-11-02"
+      },
+      "polymarket": {
+        "id": "3848389",
+        "title": "Will Manchester City be relegated from the 2026-27 Premier League?",
+        "description": "This market will resolve to \"Yes\" if the listed team is relegated from Premier League at the conclusion of the 2026-27 Premier League season. Otherwise, this market will resolve to \"No\".\n\nOfficial relegation is defined as a team losing its ",
+        "resolutionSource": "",
+        "endDate": "2027-07-01"
+      },
+      "dateDifferenceDays": 241,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.373,
+        "polymarketNoAsk": 0.646,
+        "kalshiYesAskSize": 19,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 681.12,
+        "polymarketNoAskSize": 156
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.636,
+          "grossSpreadPerShare": -0.636
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.707,
+      "kalshi": {
+        "ticker": "KXESOCCERGAME-26OCT191556SILEKROC-SILE",
+        "title": "Manchester City (SilentShooter) wins",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester City (SilentShooter) wins the Manchester City (SilentShooter) vs FC Bayern (Krocs) professional Valhalla Cup 4 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:56 PM EDT, then the market resolves to Yes.",
+        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
+        "closeDate": "2026-11-02"
+      },
+      "polymarket": {
+        "id": "5409194",
+        "title": "Will Manchester City FC win on 2026-10-20?",
+        "description": "In the upcoming game, scheduled for October 20, 2026\nIf Manchester City FC wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been ",
+        "resolutionSource": "https://www.uefa.com/",
+        "endDate": "2026-10-20"
+      },
+      "dateDifferenceDays": 13,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.89,
+        "polymarketNoAsk": 0.12,
+        "kalshiYesAskSize": 19,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 52094.29,
+        "polymarketNoAskSize": 3335.61
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.11,
+          "grossSpreadPerShare": -0.11
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.707,
+      "kalshi": {
+        "ticker": "KXESOCCERGAME-26OCT191556SILEKROC-SILE",
+        "title": "Manchester City (SilentShooter) wins",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester City (SilentShooter) wins the Manchester City (SilentShooter) vs FC Bayern (Krocs) professional Valhalla Cup 4 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:56 PM EDT, then the market resolves to Yes.",
+        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
+        "closeDate": "2026-11-02"
+      },
+      "polymarket": {
+        "id": "2771335",
+        "title": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
+        "resolutionSource": "",
+        "endDate": "2027-05-30"
+      },
+      "dateDifferenceDays": 209,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.18,
+        "polymarketNoAsk": 0.85,
+        "kalshiYesAskSize": 19,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 5999.12,
+        "polymarketNoAskSize": 1323.01
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.84,
+          "grossSpreadPerShare": -0.84
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.707,
+      "kalshi": {
+        "ticker": "KXESOCCERGAME-26OCT191556SILEKROC-SILE",
+        "title": "Manchester City (SilentShooter) wins",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester City (SilentShooter) wins the Manchester City (SilentShooter) vs FC Bayern (Krocs) professional Valhalla Cup 4 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:56 PM EDT, then the market resolves to Yes.",
+        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
+        "closeDate": "2026-11-02"
+      },
+      "polymarket": {
+        "id": "2772169",
+        "title": "Will Manchester City win the 2026-27 UEFA Champions League Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 UEFA Champions League Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 UEFA Champions League Championship per the rules of UEFA Ch",
+        "resolutionSource": "",
+        "endDate": "2027-06-20"
+      },
+      "dateDifferenceDays": 230,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.07,
+        "polymarketNoAsk": 0.94,
+        "kalshiYesAskSize": 19,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 47469.37,
+        "polymarketNoAskSize": 30221.25
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.93,
+          "grossSpreadPerShare": -0.93
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.707,
+      "kalshi": {
+        "ticker": "KXESOCCERGAME-26OCT191556SILEKROC-SILE",
+        "title": "Manchester City (SilentShooter) wins",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester City (SilentShooter) wins the Manchester City (SilentShooter) vs FC Bayern (Krocs) professional Valhalla Cup 4 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:56 PM EDT, then the market resolves to Yes.",
+        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
+        "closeDate": "2026-11-02"
+      },
+      "polymarket": {
+        "id": "3848389",
+        "title": "Will Manchester City be relegated from the 2026-27 Premier League?",
+        "description": "This market will resolve to \"Yes\" if the listed team is relegated from Premier League at the conclusion of the 2026-27 Premier League season. Otherwise, this market will resolve to \"No\".\n\nOfficial relegation is defined as a team losing its ",
+        "resolutionSource": "",
+        "endDate": "2027-07-01"
+      },
+      "dateDifferenceDays": 241,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.373,
+        "polymarketNoAsk": 0.646,
+        "kalshiYesAskSize": 19,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 681.12,
+        "polymarketNoAskSize": 156
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.636,
+          "grossSpreadPerShare": -0.636
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.707,
+      "kalshi": {
+        "ticker": "KXESOCCERGAME-26OCT191540SHEEFREN-SHEE",
+        "title": "Manchester City (Sheerpy) wins",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester City (Sheerpy) wins the Manchester City (Sheerpy) vs Everton (Frenkie) professional Valhalla Cup 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:40 PM EDT, then the market resolves to Yes.",
+        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
+        "closeDate": "2026-11-02"
+      },
+      "polymarket": {
+        "id": "5409194",
+        "title": "Will Manchester City FC win on 2026-10-20?",
+        "description": "In the upcoming game, scheduled for October 20, 2026\nIf Manchester City FC wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been ",
+        "resolutionSource": "https://www.uefa.com/",
+        "endDate": "2026-10-20"
+      },
+      "dateDifferenceDays": 13,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.89,
+        "polymarketNoAsk": 0.12,
+        "kalshiYesAskSize": 19,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 52094.29,
+        "polymarketNoAskSize": 3335.61
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.11,
+          "grossSpreadPerShare": -0.11
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.707,
+      "kalshi": {
+        "ticker": "KXESOCCERGAME-26OCT191540SHEEFREN-SHEE",
+        "title": "Manchester City (Sheerpy) wins",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester City (Sheerpy) wins the Manchester City (Sheerpy) vs Everton (Frenkie) professional Valhalla Cup 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:40 PM EDT, then the market resolves to Yes.",
+        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
+        "closeDate": "2026-11-02"
+      },
+      "polymarket": {
+        "id": "2771335",
+        "title": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
+        "resolutionSource": "",
+        "endDate": "2027-05-30"
+      },
+      "dateDifferenceDays": 209,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.18,
+        "polymarketNoAsk": 0.85,
+        "kalshiYesAskSize": 19,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 5999.12,
+        "polymarketNoAskSize": 1323.01
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.84,
+          "grossSpreadPerShare": -0.84
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.707,
+      "kalshi": {
+        "ticker": "KXESOCCERGAME-26OCT191540SHEEFREN-SHEE",
+        "title": "Manchester City (Sheerpy) wins",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester City (Sheerpy) wins the Manchester City (Sheerpy) vs Everton (Frenkie) professional Valhalla Cup 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:40 PM EDT, then the market resolves to Yes.",
+        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
+        "closeDate": "2026-11-02"
+      },
+      "polymarket": {
+        "id": "2772169",
+        "title": "Will Manchester City win the 2026-27 UEFA Champions League Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 UEFA Champions League Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 UEFA Champions League Championship per the rules of UEFA Ch",
+        "resolutionSource": "",
+        "endDate": "2027-06-20"
+      },
+      "dateDifferenceDays": 230,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.07,
+        "polymarketNoAsk": 0.94,
+        "kalshiYesAskSize": 19,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 47469.37,
+        "polymarketNoAskSize": 30221.25
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.93,
+          "grossSpreadPerShare": -0.93
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.707,
+      "kalshi": {
+        "ticker": "KXESOCCERGAME-26OCT191540SHEEFREN-SHEE",
+        "title": "Manchester City (Sheerpy) wins",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester City (Sheerpy) wins the Manchester City (Sheerpy) vs Everton (Frenkie) professional Valhalla Cup 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:40 PM EDT, then the market resolves to Yes.",
+        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
+        "closeDate": "2026-11-02"
+      },
+      "polymarket": {
+        "id": "3848389",
+        "title": "Will Manchester City be relegated from the 2026-27 Premier League?",
+        "description": "This market will resolve to \"Yes\" if the listed team is relegated from Premier League at the conclusion of the 2026-27 Premier League season. Otherwise, this market will resolve to \"No\".\n\nOfficial relegation is defined as a team losing its ",
+        "resolutionSource": "",
+        "endDate": "2027-07-01"
+      },
+      "dateDifferenceDays": 241,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.373,
+        "polymarketNoAsk": 0.646,
+        "kalshiYesAskSize": 19,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 681.12,
+        "polymarketNoAskSize": 156
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.636,
+          "grossSpreadPerShare": -0.636
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
     }
   ],
   "errors": [],
   "samples": {
     "kalshi": [
       {
-        "title": "Denver Nuggets (Steve) wins",
+        "title": "Sverdlov Mikhail wins",
         "subtitle": "",
-        "ticker": "KXEBASKETBALLGAME-26OCT191554STEVMILE-STEV"
+        "ticker": "KXLIGAPROMATCH-26OCT200115CHESVE-SVE"
       },
       {
-        "title": "Dallas Mavericks (Miles) wins",
+        "title": "Chernov Vyacheslav wins",
         "subtitle": "",
-        "ticker": "KXEBASKETBALLGAME-26OCT191554STEVMILE-MILE"
+        "ticker": "KXLIGAPROMATCH-26OCT200115CHESVE-CHE"
       },
       {
-        "title": "Indiana Pacers (Lenny) wins",
+        "title": "Zhigalov Vladimir wins",
         "subtitle": "",
-        "ticker": "KXEBASKETBALLGAME-26OCT191554DONOLENN-LENN"
+        "ticker": "KXLIGAPROMATCH-26OCT200115ZHIKAR-ZHI"
       },
       {
-        "title": "New Orleans Pelicans (Donovan) wins",
+        "title": "Karpovkin Gennadiy wins",
         "subtitle": "",
-        "ticker": "KXEBASKETBALLGAME-26OCT191554DONOLENN-DONO"
+        "ticker": "KXLIGAPROMATCH-26OCT200115ZHIKAR-KAR"
       }
     ],
     "polymarket": [
@@ -886,6 +806,7 @@
   "matching": {
     "threshold": 0.48,
     "minimumSharedTokens": 2,
+    "minimumDistinctiveContextTokens": 2,
     "kalshiExcludedMultiLeg": true,
     "kalshiApiMveFilter": "exclude",
     "polymarketOrder": "volume24hr descending",
