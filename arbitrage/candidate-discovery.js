@@ -2,9 +2,9 @@
 import {writeFile} from "node:fs/promises";
 import {kalshiDepth,polyDepth} from "./live-adapters.js";
 const output=process.env.ARB_CANDIDATE_OUTPUT??"arbitrage-candidates.json";
-const limit=Math.max(1,Math.min(20,Number(process.env.ARB_PAGES??12)));
+const limit=Math.max(1,Math.min(40,Number(process.env.ARB_PAGES??20)));
 const maxCandidates=Math.max(1,Math.min(30,Number(process.env.ARB_MAX_CANDIDATES??20)));
-const MAX_POOL=Number(process.env.ARB_MAX_POOL??600);
+const MAX_POOL=Number(process.env.ARB_MAX_POOL??1200);
 async function get(url){
  const c=new AbortController(),timer=setTimeout(()=>c.abort(),12000);
  try{const r=await fetch(url,{signal:c.signal,headers:{accept:"application/json"}});if(!r.ok)throw Error("HTTP "+r.status+" "+new URL(url).hostname);return await r.json()}finally{clearTimeout(timer)}
@@ -100,6 +100,7 @@ async function main(){
  report.counts.titleCandidates=candidates.length;
  report.counts.contractTypePolicy="strict_same_kind";
  report.counts.kalshiPagesRequested=limit;
+ report.counts.kalshiPoolCap=MAX_POOL;
  report.counts.polymarketPagesRequested=limit;
  report.matching={threshold:0.48,minimumSharedTokens:2,minimumDistinctiveContextTokens:2,eventTypeGate:true,contractKindGate:true,dateGate:true,kalshiExcludedMultiLeg:true,kalshiApiMveFilter:"exclude",polymarketOrder:"volume24hr descending",warning:"Text similarity is not proof of settlement equivalence; all results require manual rules review."};
  for(const item of candidates.slice(0,maxCandidates)){
