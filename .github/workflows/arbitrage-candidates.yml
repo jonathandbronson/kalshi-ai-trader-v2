@@ -22,6 +22,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Check scanner syntax before collection
+        run: node --check arbitrage/candidate-discovery.js
       - name: Collect and score candidate markets (read only)
         run: node arbitrage/candidate-discovery.js
       - name: Publish latest report into repository for direct retrieval
