@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19T17:22:28.891Z",
+  "timestamp": "2026-10-19T17:23:38.433Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -13,748 +13,783 @@
     "kalshiMarkets": 600,
     "polymarketMarkets": 1200,
     "polymarketBinaryMarkets": 1003,
-    "titleCandidates": 67,
+    "titleCandidates": 33,
     "kalshiPagesRequested": 12,
     "polymarketPagesRequested": 12,
     "orderbooksChecked": 20
   },
   "candidates": [
     {
-      "score": 0.775,
+      "score": 0.632,
       "kalshi": {
-        "ticker": "KXEBASKETBALLGAME-26OCT191554DONOLENN-DONO",
-        "title": "New Orleans Pelicans (Donovan) wins",
+        "ticker": "KXUCLTEAMTOTAL-26OCT21COMMUN-MUN3",
+        "title": "Will Manchester United score over 2.5 goals?",
         "subtitle": "",
-        "rulesPrimary": "If New Orleans Pelicans (Donovan) wins the New Orleans Pelicans (Donovan) vs Indiana Pacers (Lenny) professional Valhalla League 2026 Week #43 eBasketball game originally scheduled for Oct 19, 2026 at 3:54 PM EDT, then the market resolves t",
-        "rulesSecondary": "If the game ends in a tie/draw, or if the game is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve to $0.50. If the match is postponed but begins within 2 weeks of its originally schedul",
-        "closeDate": "2026-11-02"
+        "rulesPrimary": "If Manchester United records above 2.5 goals in the Como vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), th",
+        "rulesSecondary": "The following market refers to Manchester United in the Como vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties)",
+        "closeDate": "2026-10-23"
       },
       "polymarket": {
-        "id": "2668742",
-        "title": "Will the New Orleans Pelicans be the 2027 NBA Western Conference Champion?",
-        "description": "This market will resolve according to the team that wins the Western Conference Finals for the 2027 NBA Playoffs.\n\nIf at any point it becomes impossible for a listed team to win the 2027 Western Conference Finals per the rules of NBA (e.g.,",
-        "resolutionSource": "",
-        "endDate": "2027-07-01"
-      },
-      "dateDifferenceDays": 241,
-      "topOfBook": {
-        "kalshiYesAsk": 0.99,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.009,
-        "polymarketNoAsk": 0.992,
-        "kalshiYesAskSize": 66,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 90,
-        "polymarketNoAskSize": 100
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.982,
-          "grossSpreadPerShare": -0.982
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.775,
-      "kalshi": {
-        "ticker": "KXEBASKETBALLGAME-26OCT191526WEMBLENN-WEMB",
-        "title": "New Orleans Pelicans (Wemby) wins",
-        "subtitle": "",
-        "rulesPrimary": "If New Orleans Pelicans (Wemby) wins the New Orleans Pelicans (Wemby) vs Indiana Pacers (Lenny) professional Valhalla League 2026 Week #43 eBasketball game originally scheduled for Oct 19, 2026 at 3:26 PM EDT, then the market resolves to Ye",
-        "rulesSecondary": "If the game ends in a tie/draw, or if the game is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve to $0.50. If the match is postponed but begins within 2 weeks of its originally schedul",
-        "closeDate": "2026-11-02"
-      },
-      "polymarket": {
-        "id": "2668742",
-        "title": "Will the New Orleans Pelicans be the 2027 NBA Western Conference Champion?",
-        "description": "This market will resolve according to the team that wins the Western Conference Finals for the 2027 NBA Playoffs.\n\nIf at any point it becomes impossible for a listed team to win the 2027 Western Conference Finals per the rules of NBA (e.g.,",
-        "resolutionSource": "",
-        "endDate": "2027-07-01"
-      },
-      "dateDifferenceDays": 241,
-      "topOfBook": {
-        "kalshiYesAsk": 0.95,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.009,
-        "polymarketNoAsk": 0.992,
-        "kalshiYesAskSize": 1,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 90,
-        "polymarketNoAskSize": 100
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.942,
-          "grossSpreadPerShare": -0.942
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.775,
-      "kalshi": {
-        "ticker": "KXESOCCERGAME-26OCT191610SILEHAZE-HAZE",
-        "title": "Paris Saint-Germain (Haze) wins",
-        "subtitle": "",
-        "rulesPrimary": "If Paris Saint-Germain (Haze) wins the Benfica (SilentShooter) vs Paris Saint-Germain (Haze) professional Valhalla Cup 4 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 4:10 PM EDT, then the market resolves to Yes.",
-        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
-        "closeDate": "2026-11-02"
-      },
-      "polymarket": {
-        "id": "5409678",
-        "title": "Will Paris Saint-Germain FC win on 2026-10-20?",
-        "description": "In the upcoming game, scheduled for October 20, 2026\nIf Paris Saint-Germain FC wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has b",
-        "resolutionSource": "https://www.uefa.com/",
-        "endDate": "2026-10-20"
-      },
-      "dateDifferenceDays": 13,
-      "topOfBook": {
-        "kalshiYesAsk": 0.99,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.4,
-        "polymarketNoAsk": 0.61,
-        "kalshiYesAskSize": 19,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 25431.51,
-        "polymarketNoAskSize": 15197.71
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.6,
-          "grossSpreadPerShare": -0.6
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.775,
-      "kalshi": {
-        "ticker": "KXESOCCERGAME-26OCT191610SILEHAZE-HAZE",
-        "title": "Paris Saint-Germain (Haze) wins",
-        "subtitle": "",
-        "rulesPrimary": "If Paris Saint-Germain (Haze) wins the Benfica (SilentShooter) vs Paris Saint-Germain (Haze) professional Valhalla Cup 4 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 4:10 PM EDT, then the market resolves to Yes.",
-        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
-        "closeDate": "2026-11-02"
-      },
-      "polymarket": {
-        "id": "2772166",
-        "title": "Will Paris Saint-Germain win the 2026-27 UEFA Champions League Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 UEFA Champions League Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 UEFA Champions League Championship per the rules of UEFA Ch",
-        "resolutionSource": "",
-        "endDate": "2027-05-30"
-      },
-      "dateDifferenceDays": 209,
-      "topOfBook": {
-        "kalshiYesAsk": 0.99,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.16,
-        "polymarketNoAsk": 0.85,
-        "kalshiYesAskSize": 19,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 220693.17,
-        "polymarketNoAskSize": 31008.7
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.84,
-          "grossSpreadPerShare": -0.84
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.775,
-      "kalshi": {
-        "ticker": "KXESOCCERGAME-26OCT191528SILEHAZE-SILE",
-        "title": "Paris Saint-Germain (SilentShooter) wins",
-        "subtitle": "",
-        "rulesPrimary": "If Paris Saint-Germain (SilentShooter) wins the Paris Saint-Germain (SilentShooter) vs Manchester City (Haze) professional Valhalla Cup 4 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:28 PM EDT, then the market reso",
-        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
-        "closeDate": "2026-11-02"
-      },
-      "polymarket": {
-        "id": "5409678",
-        "title": "Will Paris Saint-Germain FC win on 2026-10-20?",
-        "description": "In the upcoming game, scheduled for October 20, 2026\nIf Paris Saint-Germain FC wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has b",
-        "resolutionSource": "https://www.uefa.com/",
-        "endDate": "2026-10-20"
-      },
-      "dateDifferenceDays": 13,
-      "topOfBook": {
-        "kalshiYesAsk": 0.99,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.4,
-        "polymarketNoAsk": 0.61,
-        "kalshiYesAskSize": 19,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 25431.51,
-        "polymarketNoAskSize": 15197.71
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.6,
-          "grossSpreadPerShare": -0.6
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.775,
-      "kalshi": {
-        "ticker": "KXESOCCERGAME-26OCT191528SILEHAZE-SILE",
-        "title": "Paris Saint-Germain (SilentShooter) wins",
-        "subtitle": "",
-        "rulesPrimary": "If Paris Saint-Germain (SilentShooter) wins the Paris Saint-Germain (SilentShooter) vs Manchester City (Haze) professional Valhalla Cup 4 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:28 PM EDT, then the market reso",
-        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
-        "closeDate": "2026-11-02"
-      },
-      "polymarket": {
-        "id": "2772166",
-        "title": "Will Paris Saint-Germain win the 2026-27 UEFA Champions League Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 UEFA Champions League Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 UEFA Champions League Championship per the rules of UEFA Ch",
-        "resolutionSource": "",
-        "endDate": "2027-05-30"
-      },
-      "dateDifferenceDays": 209,
-      "topOfBook": {
-        "kalshiYesAsk": 0.99,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.16,
-        "polymarketNoAsk": 0.85,
-        "kalshiYesAskSize": 19,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 220693.17,
-        "polymarketNoAskSize": 31008.7
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.84,
-          "grossSpreadPerShare": -0.84
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.707,
-      "kalshi": {
-        "ticker": "KXEBASKETBALLGAME-26OCT191554DONOLENN-LENN",
-        "title": "Indiana Pacers (Lenny) wins",
-        "subtitle": "",
-        "rulesPrimary": "If Indiana Pacers (Lenny) wins the New Orleans Pelicans (Donovan) vs Indiana Pacers (Lenny) professional Valhalla League 2026 Week #43 eBasketball game originally scheduled for Oct 19, 2026 at 3:54 PM EDT, then the market resolves to Yes.",
-        "rulesSecondary": "If the game ends in a tie/draw, or if the game is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve to $0.50. If the match is postponed but begins within 2 weeks of its originally schedul",
-        "closeDate": "2026-11-02"
-      },
-      "polymarket": {
-        "id": "2243303",
-        "title": "Will Indiana Pacers win the 2027 NBA Finals?",
-        "description": "This market will resolve to \"Yes\" if the listed team is determined as the champion of the NBA for the 2026-27 season. Otherwise, it will resolve to \"No\".\n\nIf at any point it becomes impossible for a listed team to be named as the champion o",
-        "resolutionSource": "",
-        "endDate": "2027-07-01"
-      },
-      "dateDifferenceDays": 241,
-      "topOfBook": {
-        "kalshiYesAsk": 0.99,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.019,
-        "polymarketNoAsk": 0.982,
-        "kalshiYesAskSize": 66,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 288.07,
-        "polymarketNoAskSize": 555.55
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.972,
-          "grossSpreadPerShare": -0.972
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.707,
-      "kalshi": {
-        "ticker": "KXEBASKETBALLGAME-26OCT191526WEMBLENN-LENN",
-        "title": "Indiana Pacers (Lenny) wins",
-        "subtitle": "",
-        "rulesPrimary": "If Indiana Pacers (Lenny) wins the New Orleans Pelicans (Wemby) vs Indiana Pacers (Lenny) professional Valhalla League 2026 Week #43 eBasketball game originally scheduled for Oct 19, 2026 at 3:26 PM EDT, then the market resolves to Yes.",
-        "rulesSecondary": "If the game ends in a tie/draw, or if the game is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve to $0.50. If the match is postponed but begins within 2 weeks of its originally schedul",
-        "closeDate": "2026-11-02"
-      },
-      "polymarket": {
-        "id": "2243303",
-        "title": "Will Indiana Pacers win the 2027 NBA Finals?",
-        "description": "This market will resolve to \"Yes\" if the listed team is determined as the champion of the NBA for the 2026-27 season. Otherwise, it will resolve to \"No\".\n\nIf at any point it becomes impossible for a listed team to be named as the champion o",
-        "resolutionSource": "",
-        "endDate": "2027-07-01"
-      },
-      "dateDifferenceDays": 241,
-      "topOfBook": {
-        "kalshiYesAsk": 0.99,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.019,
-        "polymarketNoAsk": 0.982,
-        "kalshiYesAskSize": 66,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 288.07,
-        "polymarketNoAskSize": 555.55
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.972,
-          "grossSpreadPerShare": -0.972
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.707,
-      "kalshi": {
-        "ticker": "KXESOCCERGAME-26OCT191554DANNSHEE-SHEE",
-        "title": "Manchester City (Sheerpy) wins",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester City (Sheerpy) wins the Sunderland (Danny) vs Manchester City (Sheerpy) professional Valhalla Cup 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:54 PM EDT, then the market resolves to Yes.",
-        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
-        "closeDate": "2026-11-02"
-      },
-      "polymarket": {
-        "id": "5409194",
-        "title": "Will Manchester City FC win on 2026-10-20?",
-        "description": "In the upcoming game, scheduled for October 20, 2026\nIf Manchester City FC wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been ",
-        "resolutionSource": "https://www.uefa.com/",
-        "endDate": "2026-10-20"
-      },
-      "dateDifferenceDays": 13,
-      "topOfBook": {
-        "kalshiYesAsk": 0.99,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.89,
-        "polymarketNoAsk": 0.12,
-        "kalshiYesAskSize": 19,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 52094.29,
-        "polymarketNoAskSize": 3335.61
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.11,
-          "grossSpreadPerShare": -0.11
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.707,
-      "kalshi": {
-        "ticker": "KXESOCCERGAME-26OCT191554DANNSHEE-SHEE",
-        "title": "Manchester City (Sheerpy) wins",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester City (Sheerpy) wins the Sunderland (Danny) vs Manchester City (Sheerpy) professional Valhalla Cup 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:54 PM EDT, then the market resolves to Yes.",
-        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
-        "closeDate": "2026-11-02"
-      },
-      "polymarket": {
-        "id": "2771335",
-        "title": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+        "id": "2771336",
+        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
         "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
         "resolutionSource": "",
         "endDate": "2027-05-30"
       },
-      "dateDifferenceDays": 209,
+      "dateDifferenceDays": 219,
       "topOfBook": {
-        "kalshiYesAsk": 0.99,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.18,
-        "polymarketNoAsk": 0.85,
-        "kalshiYesAskSize": 19,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 5999.12,
-        "polymarketNoAskSize": 1323.01
+        "kalshiYesAsk": 0.98,
+        "kalshiNoAsk": 0.85,
+        "polymarketYesAsk": 0.006,
+        "polymarketNoAsk": 0.995,
+        "kalshiYesAskSize": 114,
+        "kalshiNoAskSize": 125,
+        "polymarketYesAskSize": 6686.5,
+        "polymarketNoAskSize": 1689.5
       },
       "illustrativeBeforeFees": [
         {
           "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.84,
-          "grossSpreadPerShare": -0.84
+          "combinedAsk": 1.975,
+          "grossSpreadPerShare": -0.975
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 0.856,
+          "grossSpreadPerShare": 0.144
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
     },
     {
-      "score": 0.707,
+      "score": 0.632,
       "kalshi": {
-        "ticker": "KXESOCCERGAME-26OCT191554DANNSHEE-SHEE",
-        "title": "Manchester City (Sheerpy) wins",
+        "ticker": "KXUCLTEAMTOTAL-26OCT21COMMUN-MUN2",
+        "title": "Will Manchester United score over 1.5 goals?",
         "subtitle": "",
-        "rulesPrimary": "If Manchester City (Sheerpy) wins the Sunderland (Danny) vs Manchester City (Sheerpy) professional Valhalla Cup 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:54 PM EDT, then the market resolves to Yes.",
-        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
-        "closeDate": "2026-11-02"
+        "rulesPrimary": "If Manchester United records above 1.5 goals in the Como vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), th",
+        "rulesSecondary": "The following market refers to Manchester United in the Como vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties)",
+        "closeDate": "2026-10-23"
       },
       "polymarket": {
-        "id": "2772169",
-        "title": "Will Manchester City win the 2026-27 UEFA Champions League Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 UEFA Champions League Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 UEFA Champions League Championship per the rules of UEFA Ch",
-        "resolutionSource": "",
-        "endDate": "2027-06-20"
-      },
-      "dateDifferenceDays": 230,
-      "topOfBook": {
-        "kalshiYesAsk": 0.99,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.07,
-        "polymarketNoAsk": 0.94,
-        "kalshiYesAskSize": 19,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 47469.37,
-        "polymarketNoAskSize": 30221.25
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.93,
-          "grossSpreadPerShare": -0.93
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.707,
-      "kalshi": {
-        "ticker": "KXESOCCERGAME-26OCT191554DANNSHEE-SHEE",
-        "title": "Manchester City (Sheerpy) wins",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester City (Sheerpy) wins the Sunderland (Danny) vs Manchester City (Sheerpy) professional Valhalla Cup 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:54 PM EDT, then the market resolves to Yes.",
-        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
-        "closeDate": "2026-11-02"
-      },
-      "polymarket": {
-        "id": "3848389",
-        "title": "Will Manchester City be relegated from the 2026-27 Premier League?",
-        "description": "This market will resolve to \"Yes\" if the listed team is relegated from Premier League at the conclusion of the 2026-27 Premier League season. Otherwise, this market will resolve to \"No\".\n\nOfficial relegation is defined as a team losing its ",
-        "resolutionSource": "",
-        "endDate": "2027-07-01"
-      },
-      "dateDifferenceDays": 241,
-      "topOfBook": {
-        "kalshiYesAsk": 0.99,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.373,
-        "polymarketNoAsk": 0.646,
-        "kalshiYesAskSize": 19,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 681.12,
-        "polymarketNoAskSize": 156
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.636,
-          "grossSpreadPerShare": -0.636
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.707,
-      "kalshi": {
-        "ticker": "KXESOCCERGAME-26OCT191556SILEKROC-SILE",
-        "title": "Manchester City (SilentShooter) wins",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester City (SilentShooter) wins the Manchester City (SilentShooter) vs FC Bayern (Krocs) professional Valhalla Cup 4 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:56 PM EDT, then the market resolves to Yes.",
-        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
-        "closeDate": "2026-11-02"
-      },
-      "polymarket": {
-        "id": "5409194",
-        "title": "Will Manchester City FC win on 2026-10-20?",
-        "description": "In the upcoming game, scheduled for October 20, 2026\nIf Manchester City FC wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been ",
-        "resolutionSource": "https://www.uefa.com/",
-        "endDate": "2026-10-20"
-      },
-      "dateDifferenceDays": 13,
-      "topOfBook": {
-        "kalshiYesAsk": 0.99,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.89,
-        "polymarketNoAsk": 0.12,
-        "kalshiYesAskSize": 19,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 52094.29,
-        "polymarketNoAskSize": 3335.61
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.11,
-          "grossSpreadPerShare": -0.11
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.707,
-      "kalshi": {
-        "ticker": "KXESOCCERGAME-26OCT191556SILEKROC-SILE",
-        "title": "Manchester City (SilentShooter) wins",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester City (SilentShooter) wins the Manchester City (SilentShooter) vs FC Bayern (Krocs) professional Valhalla Cup 4 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:56 PM EDT, then the market resolves to Yes.",
-        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
-        "closeDate": "2026-11-02"
-      },
-      "polymarket": {
-        "id": "2771335",
-        "title": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+        "id": "2771336",
+        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
         "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
         "resolutionSource": "",
         "endDate": "2027-05-30"
       },
-      "dateDifferenceDays": 209,
+      "dateDifferenceDays": 219,
       "topOfBook": {
-        "kalshiYesAsk": 0.99,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.18,
-        "polymarketNoAsk": 0.85,
-        "kalshiYesAskSize": 19,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 5999.12,
-        "polymarketNoAskSize": 1323.01
+        "kalshiYesAsk": 0.44,
+        "kalshiNoAsk": 0.77,
+        "polymarketYesAsk": 0.006,
+        "polymarketNoAsk": 0.995,
+        "kalshiYesAskSize": 10400,
+        "kalshiNoAskSize": 138,
+        "polymarketYesAskSize": 6686.5,
+        "polymarketNoAskSize": 1689.5
       },
       "illustrativeBeforeFees": [
         {
           "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.84,
-          "grossSpreadPerShare": -0.84
+          "combinedAsk": 1.435,
+          "grossSpreadPerShare": -0.435
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 0.776,
+          "grossSpreadPerShare": 0.224
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
     },
     {
-      "score": 0.707,
+      "score": 0.632,
       "kalshi": {
-        "ticker": "KXESOCCERGAME-26OCT191556SILEKROC-SILE",
-        "title": "Manchester City (SilentShooter) wins",
+        "ticker": "KXUCLTEAMTOTAL-26OCT21COMMUN-MUN1",
+        "title": "Will Manchester United score over 0.5 goals?",
         "subtitle": "",
-        "rulesPrimary": "If Manchester City (SilentShooter) wins the Manchester City (SilentShooter) vs FC Bayern (Krocs) professional Valhalla Cup 4 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:56 PM EDT, then the market resolves to Yes.",
-        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
-        "closeDate": "2026-11-02"
+        "rulesPrimary": "If Manchester United records above 0.5 goals in the Como vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), th",
+        "rulesSecondary": "The following market refers to Manchester United in the Como vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties)",
+        "closeDate": "2026-10-23"
       },
       "polymarket": {
-        "id": "2772169",
-        "title": "Will Manchester City win the 2026-27 UEFA Champions League Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 UEFA Champions League Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 UEFA Champions League Championship per the rules of UEFA Ch",
-        "resolutionSource": "",
-        "endDate": "2027-06-20"
-      },
-      "dateDifferenceDays": 230,
-      "topOfBook": {
-        "kalshiYesAsk": 0.99,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.07,
-        "polymarketNoAsk": 0.94,
-        "kalshiYesAskSize": 19,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 47469.37,
-        "polymarketNoAskSize": 30221.25
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.93,
-          "grossSpreadPerShare": -0.93
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.707,
-      "kalshi": {
-        "ticker": "KXESOCCERGAME-26OCT191556SILEKROC-SILE",
-        "title": "Manchester City (SilentShooter) wins",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester City (SilentShooter) wins the Manchester City (SilentShooter) vs FC Bayern (Krocs) professional Valhalla Cup 4 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:56 PM EDT, then the market resolves to Yes.",
-        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
-        "closeDate": "2026-11-02"
-      },
-      "polymarket": {
-        "id": "3848389",
-        "title": "Will Manchester City be relegated from the 2026-27 Premier League?",
-        "description": "This market will resolve to \"Yes\" if the listed team is relegated from Premier League at the conclusion of the 2026-27 Premier League season. Otherwise, this market will resolve to \"No\".\n\nOfficial relegation is defined as a team losing its ",
-        "resolutionSource": "",
-        "endDate": "2027-07-01"
-      },
-      "dateDifferenceDays": 241,
-      "topOfBook": {
-        "kalshiYesAsk": 0.99,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.373,
-        "polymarketNoAsk": 0.646,
-        "kalshiYesAskSize": 19,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 681.12,
-        "polymarketNoAskSize": 156
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.636,
-          "grossSpreadPerShare": -0.636
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.707,
-      "kalshi": {
-        "ticker": "KXESOCCERGAME-26OCT191540SHEEFREN-SHEE",
-        "title": "Manchester City (Sheerpy) wins",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester City (Sheerpy) wins the Manchester City (Sheerpy) vs Everton (Frenkie) professional Valhalla Cup 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:40 PM EDT, then the market resolves to Yes.",
-        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
-        "closeDate": "2026-11-02"
-      },
-      "polymarket": {
-        "id": "5409194",
-        "title": "Will Manchester City FC win on 2026-10-20?",
-        "description": "In the upcoming game, scheduled for October 20, 2026\nIf Manchester City FC wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been ",
-        "resolutionSource": "https://www.uefa.com/",
-        "endDate": "2026-10-20"
-      },
-      "dateDifferenceDays": 13,
-      "topOfBook": {
-        "kalshiYesAsk": 0.99,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.89,
-        "polymarketNoAsk": 0.12,
-        "kalshiYesAskSize": 19,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 52094.29,
-        "polymarketNoAskSize": 3335.61
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.11,
-          "grossSpreadPerShare": -0.11
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.707,
-      "kalshi": {
-        "ticker": "KXESOCCERGAME-26OCT191540SHEEFREN-SHEE",
-        "title": "Manchester City (Sheerpy) wins",
-        "subtitle": "",
-        "rulesPrimary": "If Manchester City (Sheerpy) wins the Manchester City (Sheerpy) vs Everton (Frenkie) professional Valhalla Cup 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:40 PM EDT, then the market resolves to Yes.",
-        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
-        "closeDate": "2026-11-02"
-      },
-      "polymarket": {
-        "id": "2771335",
-        "title": "Will Manchester City win the 2026-27 English Premier League (EPL) Championship?",
+        "id": "2771336",
+        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
         "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
         "resolutionSource": "",
         "endDate": "2027-05-30"
       },
-      "dateDifferenceDays": 209,
+      "dateDifferenceDays": 219,
       "topOfBook": {
-        "kalshiYesAsk": 0.99,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.18,
-        "polymarketNoAsk": 0.85,
-        "kalshiYesAskSize": 19,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 5999.12,
-        "polymarketNoAskSize": 1323.01
+        "kalshiYesAsk": 0.79,
+        "kalshiNoAsk": 0.25,
+        "polymarketYesAsk": 0.006,
+        "polymarketNoAsk": 0.995,
+        "kalshiYesAskSize": 1088,
+        "kalshiNoAskSize": 10411,
+        "polymarketYesAskSize": 6686.5,
+        "polymarketNoAskSize": 1689.5
       },
       "illustrativeBeforeFees": [
         {
           "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.84,
-          "grossSpreadPerShare": -0.84
+          "combinedAsk": 1.785,
+          "grossSpreadPerShare": -0.785
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 0.256,
+          "grossSpreadPerShare": 0.744
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
     },
     {
-      "score": 0.707,
+      "score": 0.632,
       "kalshi": {
-        "ticker": "KXESOCCERGAME-26OCT191540SHEEFREN-SHEE",
-        "title": "Manchester City (Sheerpy) wins",
+        "ticker": "KXUCL2H-26OCT21COMMUN-MUN",
+        "title": "Manchester United wins 2nd Half",
         "subtitle": "",
-        "rulesPrimary": "If Manchester City (Sheerpy) wins the Manchester City (Sheerpy) vs Everton (Frenkie) professional Valhalla Cup 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:40 PM EDT, then the market resolves to Yes.",
-        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
-        "closeDate": "2026-11-02"
+        "rulesPrimary": "If Manchester United is the winner of the second half in the Como vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 45 minutes plus stoppage time, then the market resolves to Yes.",
+        "rulesSecondary": "The following market refers to the winner of the second half in the Como vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 45 minutes plus stoppage time. If no goals are scored during",
+        "closeDate": "2026-10-23"
       },
       "polymarket": {
-        "id": "2772169",
-        "title": "Will Manchester City win the 2026-27 UEFA Champions League Championship?",
-        "description": "This market will resolve according to the team that wins the 2026-27 UEFA Champions League Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 UEFA Champions League Championship per the rules of UEFA Ch",
+        "id": "2771336",
+        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
         "resolutionSource": "",
-        "endDate": "2027-06-20"
+        "endDate": "2027-05-30"
       },
-      "dateDifferenceDays": 230,
+      "dateDifferenceDays": 219,
       "topOfBook": {
-        "kalshiYesAsk": 0.99,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.07,
-        "polymarketNoAsk": 0.94,
+        "kalshiYesAsk": 0.8,
+        "kalshiNoAsk": 0.97,
+        "polymarketYesAsk": 0.006,
+        "polymarketNoAsk": 0.995,
         "kalshiYesAskSize": 19,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 47469.37,
-        "polymarketNoAskSize": 30221.25
+        "kalshiNoAskSize": 19,
+        "polymarketYesAskSize": 6686.5,
+        "polymarketNoAskSize": 1689.5
       },
       "illustrativeBeforeFees": [
         {
           "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.93,
-          "grossSpreadPerShare": -0.93
+          "combinedAsk": 1.795,
+          "grossSpreadPerShare": -0.795
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 0.976,
+          "grossSpreadPerShare": 0.024
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
     },
     {
-      "score": 0.707,
+      "score": 0.632,
       "kalshi": {
-        "ticker": "KXESOCCERGAME-26OCT191540SHEEFREN-SHEE",
-        "title": "Manchester City (Sheerpy) wins",
+        "ticker": "KXUCL1H-26OCT21COMMUN-MUN",
+        "title": "Manchester United wins 1st Half",
         "subtitle": "",
-        "rulesPrimary": "If Manchester City (Sheerpy) wins the Manchester City (Sheerpy) vs Everton (Frenkie) professional Valhalla Cup 2026 Week #43 eSoccer match originally scheduled for Oct 19, 2026 at 3:40 PM EDT, then the market resolves to Yes.",
-        "rulesSecondary": "This market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties. If the match is cancelled or postponed more than 2 weeks from its originally scheduled start, all markets will resolve t",
-        "closeDate": "2026-11-02"
+        "rulesPrimary": "If Manchester United is the winner of the first half in the Como vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 45 minutes plus stoppage time, then the market resolves to Yes.",
+        "rulesSecondary": "The following market refers to the winner of the first half in the Como vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 45 minutes plus stoppage time. If no goals are scored during ",
+        "closeDate": "2026-10-23"
       },
       "polymarket": {
-        "id": "3848389",
-        "title": "Will Manchester City be relegated from the 2026-27 Premier League?",
-        "description": "This market will resolve to \"Yes\" if the listed team is relegated from Premier League at the conclusion of the 2026-27 Premier League season. Otherwise, this market will resolve to \"No\".\n\nOfficial relegation is defined as a team losing its ",
+        "id": "2771336",
+        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
         "resolutionSource": "",
-        "endDate": "2027-07-01"
+        "endDate": "2027-05-30"
       },
-      "dateDifferenceDays": 241,
+      "dateDifferenceDays": 219,
       "topOfBook": {
-        "kalshiYesAsk": 0.99,
-        "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.373,
-        "polymarketNoAsk": 0.646,
-        "kalshiYesAskSize": 19,
-        "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 681.12,
-        "polymarketNoAskSize": 156
+        "kalshiYesAsk": 0.28,
+        "kalshiNoAsk": 0.75,
+        "polymarketYesAsk": 0.006,
+        "polymarketNoAsk": 0.995,
+        "kalshiYesAskSize": 113.88,
+        "kalshiNoAskSize": 38,
+        "polymarketYesAskSize": 6686.5,
+        "polymarketNoAskSize": 1689.5
       },
       "illustrativeBeforeFees": [
         {
           "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.636,
-          "grossSpreadPerShare": -0.636
+          "combinedAsk": 1.275,
+          "grossSpreadPerShare": -0.275
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 0.756,
+          "grossSpreadPerShare": 0.244
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.632,
+      "kalshi": {
+        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM3MUN4",
+        "title": "Final score Manchester United wins 4-3?",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester United wins 4-3 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
+        "rulesSecondary": "",
+        "closeDate": "2026-10-23"
+      },
+      "polymarket": {
+        "id": "2771336",
+        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
+        "resolutionSource": "",
+        "endDate": "2027-05-30"
+      },
+      "dateDifferenceDays": 219,
+      "topOfBook": {
+        "kalshiYesAsk": 0.02,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.006,
+        "polymarketNoAsk": 0.995,
+        "kalshiYesAskSize": 11441,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 6686.5,
+        "polymarketNoAskSize": 1689.5
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.015,
+          "grossSpreadPerShare": -0.015
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.632,
+      "kalshi": {
+        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM2MUN5",
+        "title": "Final score Manchester United wins 5-2?",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester United wins 5-2 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
+        "rulesSecondary": "",
+        "closeDate": "2026-10-23"
+      },
+      "polymarket": {
+        "id": "2771336",
+        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
+        "resolutionSource": "",
+        "endDate": "2027-05-30"
+      },
+      "dateDifferenceDays": 219,
+      "topOfBook": {
+        "kalshiYesAsk": 0.01,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.006,
+        "polymarketNoAsk": 0.995,
+        "kalshiYesAskSize": 9740,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 6686.5,
+        "polymarketNoAskSize": 1689.5
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.005,
+          "grossSpreadPerShare": -0.005
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.632,
+      "kalshi": {
+        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM2MUN4",
+        "title": "Final score Manchester United wins 4-2?",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester United wins 4-2 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
+        "rulesSecondary": "",
+        "closeDate": "2026-10-23"
+      },
+      "polymarket": {
+        "id": "2771336",
+        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
+        "resolutionSource": "",
+        "endDate": "2027-05-30"
+      },
+      "dateDifferenceDays": 219,
+      "topOfBook": {
+        "kalshiYesAsk": 0.02,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.006,
+        "polymarketNoAsk": 0.995,
+        "kalshiYesAskSize": 9740,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 6686.5,
+        "polymarketNoAskSize": 1689.5
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.015,
+          "grossSpreadPerShare": -0.015
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.632,
+      "kalshi": {
+        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM2MUN3",
+        "title": "Final score Manchester United wins 3-2?",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester United wins 3-2 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
+        "rulesSecondary": "",
+        "closeDate": "2026-10-23"
+      },
+      "polymarket": {
+        "id": "2771336",
+        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
+        "resolutionSource": "",
+        "endDate": "2027-05-30"
+      },
+      "dateDifferenceDays": 219,
+      "topOfBook": {
+        "kalshiYesAsk": 0.05,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.006,
+        "polymarketNoAsk": 0.995,
+        "kalshiYesAskSize": 11792,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 6686.5,
+        "polymarketNoAskSize": 1689.5
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.045,
+          "grossSpreadPerShare": -0.045
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.632,
+      "kalshi": {
+        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM1MUN5",
+        "title": "Final score Manchester United wins 5-1?",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester United wins 5-1 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
+        "rulesSecondary": "",
+        "closeDate": "2026-10-23"
+      },
+      "polymarket": {
+        "id": "2771336",
+        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
+        "resolutionSource": "",
+        "endDate": "2027-05-30"
+      },
+      "dateDifferenceDays": 219,
+      "topOfBook": {
+        "kalshiYesAsk": 0.01,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.006,
+        "polymarketNoAsk": 0.995,
+        "kalshiYesAskSize": 9740,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 6686.5,
+        "polymarketNoAskSize": 1689.5
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.005,
+          "grossSpreadPerShare": -0.005
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.632,
+      "kalshi": {
+        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM1MUN4",
+        "title": "Final score Manchester United wins 4-1?",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester United wins 4-1 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
+        "rulesSecondary": "",
+        "closeDate": "2026-10-23"
+      },
+      "polymarket": {
+        "id": "2771336",
+        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
+        "resolutionSource": "",
+        "endDate": "2027-05-30"
+      },
+      "dateDifferenceDays": 219,
+      "topOfBook": {
+        "kalshiYesAsk": 0.02,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.006,
+        "polymarketNoAsk": 0.995,
+        "kalshiYesAskSize": 9740,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 6686.5,
+        "polymarketNoAskSize": 1689.5
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.015,
+          "grossSpreadPerShare": -0.015
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.632,
+      "kalshi": {
+        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM1MUN3",
+        "title": "Final score Manchester United wins 3-1?",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester United wins 3-1 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
+        "rulesSecondary": "",
+        "closeDate": "2026-10-23"
+      },
+      "polymarket": {
+        "id": "2771336",
+        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
+        "resolutionSource": "",
+        "endDate": "2027-05-30"
+      },
+      "dateDifferenceDays": 219,
+      "topOfBook": {
+        "kalshiYesAsk": 0.05,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.006,
+        "polymarketNoAsk": 0.995,
+        "kalshiYesAskSize": 10830,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 6686.5,
+        "polymarketNoAskSize": 1689.5
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.045,
+          "grossSpreadPerShare": -0.045
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.632,
+      "kalshi": {
+        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM1MUN2",
+        "title": "Final score Manchester United wins 2-1?",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester United wins 2-1 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
+        "rulesSecondary": "",
+        "closeDate": "2026-10-23"
+      },
+      "polymarket": {
+        "id": "2771336",
+        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
+        "resolutionSource": "",
+        "endDate": "2027-05-30"
+      },
+      "dateDifferenceDays": 219,
+      "topOfBook": {
+        "kalshiYesAsk": 0.09,
+        "kalshiNoAsk": 0.95,
+        "polymarketYesAsk": 0.006,
+        "polymarketNoAsk": 0.995,
+        "kalshiYesAskSize": 401.86,
+        "kalshiNoAskSize": 13,
+        "polymarketYesAskSize": 6686.5,
+        "polymarketNoAskSize": 1689.5
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.085,
+          "grossSpreadPerShare": -0.085
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 0.956,
+          "grossSpreadPerShare": 0.044
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.632,
+      "kalshi": {
+        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM0MUN4",
+        "title": "Final score Manchester United wins 4-0?",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester United wins 4-0 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
+        "rulesSecondary": "",
+        "closeDate": "2026-10-23"
+      },
+      "polymarket": {
+        "id": "2771336",
+        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
+        "resolutionSource": "",
+        "endDate": "2027-05-30"
+      },
+      "dateDifferenceDays": 219,
+      "topOfBook": {
+        "kalshiYesAsk": 0.02,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.006,
+        "polymarketNoAsk": 0.995,
+        "kalshiYesAskSize": 15121,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 6686.5,
+        "polymarketNoAskSize": 1689.5
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.015,
+          "grossSpreadPerShare": -0.015
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.632,
+      "kalshi": {
+        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM0MUN3",
+        "title": "Final score Manchester United wins 3-0?",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester United wins 3-0 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
+        "rulesSecondary": "",
+        "closeDate": "2026-10-23"
+      },
+      "polymarket": {
+        "id": "2771336",
+        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
+        "resolutionSource": "",
+        "endDate": "2027-05-30"
+      },
+      "dateDifferenceDays": 219,
+      "topOfBook": {
+        "kalshiYesAsk": 0.03,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.006,
+        "polymarketNoAsk": 0.995,
+        "kalshiYesAskSize": 9740,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 6686.5,
+        "polymarketNoAskSize": 1689.5
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.025,
+          "grossSpreadPerShare": -0.025
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.632,
+      "kalshi": {
+        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM0MUN2",
+        "title": "Final score Manchester United wins 2-0?",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester United wins 2-0 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
+        "rulesSecondary": "",
+        "closeDate": "2026-10-23"
+      },
+      "polymarket": {
+        "id": "2771336",
+        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
+        "resolutionSource": "",
+        "endDate": "2027-05-30"
+      },
+      "dateDifferenceDays": 219,
+      "topOfBook": {
+        "kalshiYesAsk": 0.06,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.006,
+        "polymarketNoAsk": 0.995,
+        "kalshiYesAskSize": 11816,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 6686.5,
+        "polymarketNoAskSize": 1689.5
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.055,
+          "grossSpreadPerShare": -0.055
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.632,
+      "kalshi": {
+        "ticker": "KXUCLSCORE-26OCT21COMMUN-COM0MUN1",
+        "title": "Final score Manchester United wins 1-0?",
+        "subtitle": "",
+        "rulesPrimary": "If Manchester United wins 1-0 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the mar",
+        "rulesSecondary": "",
+        "closeDate": "2026-10-23"
+      },
+      "polymarket": {
+        "id": "2771336",
+        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
+        "resolutionSource": "",
+        "endDate": "2027-05-30"
+      },
+      "dateDifferenceDays": 219,
+      "topOfBook": {
+        "kalshiYesAsk": 0.07,
+        "kalshiNoAsk": 0.97,
+        "polymarketYesAsk": 0.006,
+        "polymarketNoAsk": 0.995,
+        "kalshiYesAskSize": 401.76,
+        "kalshiNoAskSize": 13,
+        "polymarketYesAskSize": 6686.5,
+        "polymarketNoAskSize": 1689.5
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.065,
+          "grossSpreadPerShare": -0.065
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 0.976,
+          "grossSpreadPerShare": 0.024
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.577,
+      "kalshi": {
+        "ticker": "KXUCL1HSCORE-26OCT21COMMUN-COM2MUN3",
+        "title": "Will the 1st half score be Manchester United wins 3-2?",
+        "subtitle": "",
+        "rulesPrimary": "If the score at the end of the 1st Half is Como 1907 2, Manchester United 3 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026, then the market resolves to Yes.",
+        "rulesSecondary": "",
+        "closeDate": "2026-10-23"
+      },
+      "polymarket": {
+        "id": "2771336",
+        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
+        "resolutionSource": "",
+        "endDate": "2027-05-30"
+      },
+      "dateDifferenceDays": 219,
+      "topOfBook": {
+        "kalshiYesAsk": 0.01,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.006,
+        "polymarketNoAsk": 0.995,
+        "kalshiYesAskSize": 2480,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 6686.5,
+        "polymarketNoAskSize": 1689.5
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.005,
+          "grossSpreadPerShare": -0.005
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.577,
+      "kalshi": {
+        "ticker": "KXUCL1HSCORE-26OCT21COMMUN-COM1MUN3",
+        "title": "Will the 1st half score be Manchester United wins 3-1?",
+        "subtitle": "",
+        "rulesPrimary": "If the score at the end of the 1st Half is Como 1907 1, Manchester United 3 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026, then the market resolves to Yes.",
+        "rulesSecondary": "",
+        "closeDate": "2026-10-23"
+      },
+      "polymarket": {
+        "id": "2771336",
+        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
+        "resolutionSource": "",
+        "endDate": "2027-05-30"
+      },
+      "dateDifferenceDays": 219,
+      "topOfBook": {
+        "kalshiYesAsk": 0.02,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.006,
+        "polymarketNoAsk": 0.995,
+        "kalshiYesAskSize": 2480,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 6686.5,
+        "polymarketNoAskSize": 1689.5
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.015,
+          "grossSpreadPerShare": -0.015
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.577,
+      "kalshi": {
+        "ticker": "KXUCL1HSCORE-26OCT21COMMUN-COM1MUN2",
+        "title": "Will the 1st half score be Manchester United wins 2-1?",
+        "subtitle": "",
+        "rulesPrimary": "If the score at the end of the 1st Half is Como 1907 1, Manchester United 2 in the Como 1907 vs Manchester United professional Champions League soccer game originally scheduled for Oct 21, 2026, then the market resolves to Yes.",
+        "rulesSecondary": "",
+        "closeDate": "2026-10-23"
+      },
+      "polymarket": {
+        "id": "2771336",
+        "title": "Will Manchester United win the 2026-27 English Premier League (EPL) Championship?",
+        "description": "This market will resolve according to the team that wins the 2026-27 English Premier League (EPL) Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 English Premier League (EPL) Championship per the ru",
+        "resolutionSource": "",
+        "endDate": "2027-05-30"
+      },
+      "dateDifferenceDays": 219,
+      "topOfBook": {
+        "kalshiYesAsk": 0.05,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.006,
+        "polymarketNoAsk": 0.995,
+        "kalshiYesAskSize": 2480,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 6686.5,
+        "polymarketNoAskSize": 1689.5
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.045,
+          "grossSpreadPerShare": -0.045
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
@@ -764,24 +799,24 @@
   "samples": {
     "kalshi": [
       {
-        "title": "Sverdlov Mikhail wins",
+        "title": "Game ends in a tie",
         "subtitle": "",
-        "ticker": "KXLIGAPROMATCH-26OCT200115CHESVE-SVE"
+        "ticker": "KXESOCCERGAME-26OCT191624HAZEKROC-TIE"
       },
       {
-        "title": "Chernov Vyacheslav wins",
+        "title": "Leverkusen (Krocs) wins",
         "subtitle": "",
-        "ticker": "KXLIGAPROMATCH-26OCT200115CHESVE-CHE"
+        "ticker": "KXESOCCERGAME-26OCT191624HAZEKROC-KROC"
       },
       {
-        "title": "Zhigalov Vladimir wins",
+        "title": "Manchester City (Haze) wins",
         "subtitle": "",
-        "ticker": "KXLIGAPROMATCH-26OCT200115ZHIKAR-ZHI"
+        "ticker": "KXESOCCERGAME-26OCT191624HAZEKROC-HAZE"
       },
       {
-        "title": "Karpovkin Gennadiy wins",
+        "title": "Game ends in a tie",
         "subtitle": "",
-        "ticker": "KXLIGAPROMATCH-26OCT200115ZHIKAR-KAR"
+        "ticker": "KXESOCCERGAME-26OCT191622NISKSHEE-TIE"
       }
     ],
     "polymarket": [
@@ -807,6 +842,8 @@
     "threshold": 0.48,
     "minimumSharedTokens": 2,
     "minimumDistinctiveContextTokens": 2,
+    "eventTypeGate": true,
+    "dateGate": true,
     "kalshiExcludedMultiLeg": true,
     "kalshiApiMveFilter": "exclude",
     "polymarketOrder": "volume24hr descending",
