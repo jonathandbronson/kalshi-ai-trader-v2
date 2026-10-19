@@ -45,6 +45,20 @@ function hasNamedOutcome(label,eventTitle){
  if(l===e)return false;
  return true;
 }
+function electionOutcome(text){
+ const t=normalized(text);
+ const party=/\b(?:republicans?|gop)\b/.test(t)?"republican":/\b(?:democrats?|democratic)\b/.test(t)?"democrat":null;
+ const named=/\bperson [a-z]\b/.test(t);
+ const senate=/\bsenate\b/.test(t),house=/\bhouse\b/.test(t);
+ return {party,named,senate,house};
+}
+function electionCompatible(a,b){
+ const x=electionOutcome(a),y=electionOutcome(b);
+ if(x.party!==y.party)return false;
+ if(x.named!==y.named)return false;
+ if(x.senate!==y.senate||x.house!==y.house)return false;
+ return true;
+}
 function compatible(a,b){
  const x=contractFingerprint(a),y=contractFingerprint(b);
  if(x.kind!==y.kind||x.asset!==y.asset||x.strike!==y.strike||x.direction!==y.direction)return false;
@@ -97,6 +111,7 @@ async function collect(){
    if(!hasNamedOutcome(kalshiOutcome,k.title))continue;
    if(/^who will win/i.test(km.title)&&!String(km.subtitle??"").trim())continue;
    if(!compatible(kalshiOutcome,pm.question))continue;
+   if(!electionCompatible(kalshiOutcome,pm.question))continue;
    const scoreValue=score([k.title,kalshiOutcome].join(" "),[p.title,pm.question].join(" "));
    const contractOverlap=[...words(kalshiOutcome)].filter(w=>words(pm.question).has(w));
    if(contractOverlap.length<2)continue;
