@@ -1,0 +1,10 @@
+import test from "node:test";import assert from "node:assert/strict";
+import {kalshiDepth,polyDepth} from "./live-adapters.js";
+import {PaperPortfolio} from "./simulator.js";
+import {runPaperCycle} from "./paper-live-engine.js";
+const pair={id:"demo",kalshiTicker:"TEST",polyYesTokenId:"123",polyNoTokenId:"456",approved:true,settlementReviewed:true,yesMeansSameOutcome:true};
+const mock=async url=>({ok:true,json:async()=>url.includes("kalshi")?{orderbook_fp:{yes_dollars:[["0.60","20.00"]],no_dollars:[["0.60","20.00"]]}}:{asks:[{price:url.includes("456")?"0.35":"0.39",size:"20"}]}});
+test("Kalshi fixed point",()=>{const a=kalshiDepth({orderbook_fp:{yes_dollars:[["0.60","10"]],no_dollars:[["0.61","9"]]}});assert.equal(a.yes[0].price,.39)});
+test("Polymarket CLOB",()=>assert.equal(polyDepth({asks:[{price:"0.41",size:"5"}]})[0].size,5));
+test("mock API data to paper portfolio and deduplication",async()=>{const p=new PaperPortfolio();await runPaperCycle({pairs:[pair],portfolio:p,fetcher:mock,quantity:10,yesFeeRate:0,noFeeRate:0,latencySlippageCents:0});assert.equal(p.positions.length,2);await runPaperCycle({pairs:[pair],portfolio:p,fetcher:mock,quantity:10,yesFeeRate:0,noFeeRate:0,latencySlippageCents:0});assert.equal(p.positions.length,2)});
+test("unapproved pairs cannot fetch",async()=>{const p=new PaperPortfolio();const r=await runPaperCycle({pairs:[{...pair,approved:false}],portfolio:p,fetcher:()=>{throw Error("called")}});assert.equal(r.results[0].error,"PAIR_NOT_APPROVED")});
