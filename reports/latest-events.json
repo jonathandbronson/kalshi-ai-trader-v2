@@ -1,0 +1,864 @@
+{
+  "timestamp": "2026-10-19T17:40:24.423Z",
+  "mode": "EVENT_FIRST_READ_ONLY",
+  "status": "COLLECTED",
+  "autoApproved": 0,
+  "verifiedPairs": 0,
+  "errors": [],
+  "counts": {
+    "kalshiEvents": 400,
+    "polymarketEvents": 400,
+    "kalshiNestedMarkets": 2853,
+    "polymarketNestedMarkets": 8623,
+    "eventPagesRequested": 4,
+    "eventMatches": 170,
+    "candidates": 40
+  },
+  "candidates": [
+    {
+      "eventScore": 1,
+      "contractScore": 0.671,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561229",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will JD Vance win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561230",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Gavin Newsom win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561232",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Pete Buttigieg win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561233",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Josh Shapiro win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561234",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Marco Rubio win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561235",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Wes Moore win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561236",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Gretchen Whitmer win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561237",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Andy Beshear win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561238",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Glenn Youngkin win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561239",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Kamala Harris win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561240",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Stephen Smith win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.671,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561241",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will JB Pritzker win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561242",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Tulsi Gabbard win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561243",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Donald Trump win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561244",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561245",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Nikki Haley win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561246",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Ron DeSantis win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561247",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Tim Walz win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561248",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561249",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Greg Abbott win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561250",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Elon Musk win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561251",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will LeBron James win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561253",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Tucker Carlson win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561254",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Kim Kardashian win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561255",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Ivanka Trump win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561256",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Zohran Mamdani win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561257",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Michelle Obama win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561258",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Jamie Dimon win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.671,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561259",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Ro Khanna win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561260",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Thomas Massie win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561261",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Jon Ossoff win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561262",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will James Talarico win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561263",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Eric Trump win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561264",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Pete Hegseth win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561265",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Jalen Brunson win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561266",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Abigail Spanberger win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561267",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Hakeem Jeffries win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561268",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Elissa Slotkin win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561269",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Adam Schiff win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "eventScore": 1,
+      "contractScore": 0.6,
+      "kalshi": {
+        "eventTicker": "KXPRESPERSON-28",
+        "title": "Who will win the next presidential election?",
+        "ticker": "KXPRESPERSON-28-GNEWS",
+        "eventTitle": "2028 U.S. Presidential Election winner?",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "31552",
+        "id": "561270",
+        "eventTitle": "Presidential Election Winner 2028",
+        "title": "Will Josh Stein win the 2028 US Presidential Election?",
+        "endDate": "2028-11-08"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    }
+  ],
+  "notes": [
+    "Event similarity is not proof of identical settlement rules.",
+    "No orders or paper entries are created.",
+    "Only manually reviewed contracts may be approved for simulation."
+  ]
+}
