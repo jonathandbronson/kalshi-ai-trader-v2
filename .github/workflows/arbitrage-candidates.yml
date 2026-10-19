@@ -1,0 +1,28 @@
+name: Arbitrage candidate discovery
+on:
+  workflow_dispatch:
+  push:
+    branches: [arbitrage-v1]
+    paths:
+      - 'arbitrage/candidate-discovery.js'
+      - '.github/workflows/arbitrage-candidates.yml'
+jobs:
+  discovery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Collect and score candidate markets (read only)
+        run: node arbitrage/candidate-discovery.js
+      - name: Save candidate report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: arbitrage-candidates
+          path: arbitrage-candidates.json
+          if-no-files-found: warn
