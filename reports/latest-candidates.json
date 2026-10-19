@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19T17:29:40.270Z",
+  "timestamp": "2026-10-19T17:31:05.443Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -9,10 +9,10 @@
   ],
   "counts": {
     "kalshiRawMarkets": 700,
-    "kalshiSingleOutcomeMarkets": 639,
-    "kalshiMarkets": 639,
+    "kalshiSingleOutcomeMarkets": 647,
+    "kalshiMarkets": 647,
     "polymarketMarkets": 1200,
-    "polymarketBinaryMarkets": 986,
+    "polymarketBinaryMarkets": 990,
     "titleCandidates": 38,
     "kalshiPagesRequested": 12,
     "polymarketPagesRequested": 12,
@@ -22,11 +22,11 @@
     {
       "score": 0.671,
       "kalshi": {
-        "ticker": "KX30YRRATE15M-26OCT191330-30",
+        "ticker": "KX30YRRATE15M-26OCT191345-45",
         "title": "30-year U.S. Treasury yield up in next 15 mins?",
         "subtitle": "",
-        "rulesPrimary": "If the close yield (%) of the 1-minute Pyth candlestick for 30-year U.S. Treasury ending at 1:30 PM EDT on Oct 19, 2026 is at least the opening target yield, then the market resolves to Yes.",
-        "rulesSecondary": "The market resolves based on the closing yield of the one-minute Pyth candlestick for 30-year U.S. Treasury ending at 1:30 PM EDT on Oct 19, 2026. The 30-year U.S. Treasury refers to the US30Y, the current on-the-run benchmark of the 30-yea",
+        "rulesPrimary": "If the close yield (%) of the 1-minute Pyth candlestick for 30-year U.S. Treasury ending at 1:45 PM EDT on Oct 19, 2026 is at least the opening target yield, then the market resolves to Yes.",
+        "rulesSecondary": "The market resolves based on the closing yield of the one-minute Pyth candlestick for 30-year U.S. Treasury ending at 1:45 PM EDT on Oct 19, 2026. The 30-year U.S. Treasury refers to the US30Y, the current on-the-run benchmark of the 30-yea",
         "closeDate": "2026-10-19"
       },
       "polymarket": {
@@ -38,99 +38,25 @@
       },
       "dateDifferenceDays": 74,
       "topOfBook": {
-        "kalshiYesAsk": null,
-        "kalshiNoAsk": 0.99,
+        "kalshiYesAsk": 0.67,
+        "kalshiNoAsk": 0.67,
         "polymarketYesAsk": 0.45,
         "polymarketNoAsk": 0.58,
-        "kalshiYesAskSize": 0,
-        "kalshiNoAskSize": 50,
-        "polymarketYesAskSize": 90.04,
-        "polymarketNoAskSize": 109.28
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.44,
-          "grossSpreadPerShare": -0.44
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.671,
-      "kalshi": {
-        "ticker": "KX10YRRATE15M-26OCT191330-30",
-        "title": "10-year U.S. Treasury yield up in next 15 mins?",
-        "subtitle": "",
-        "rulesPrimary": "If the close yield (%) of the 1-minute Pyth candlestick for 10-year U.S. Treasury ending at 1:30 PM EDT on Oct 19, 2026 is at least 5.14674, then the market resolves to Yes.",
-        "rulesSecondary": "The market resolves based on the closing yield of the one-minute Pyth candlestick for 10-year U.S. Treasury ending at 1:30 PM EDT on Oct 19, 2026. The 10-year U.S. Treasury refers to the US10Y, the current on-the-run benchmark of the 10-yea",
-        "closeDate": "2026-10-19"
-      },
-      "polymarket": {
-        "id": "4890803",
-        "title": "Will the 10-year Treasury yield hit 5.4% before 2027?",
-        "description": "This market will resolve to \"Yes\" if the Treasury 10-year yield reaches or is higher than the listed value for any date from market creation to December 31, 2026. Otherwise this market will resolve to \"No\".\n\nThis market will resolve as soon",
-        "resolutionSource": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2025",
-        "endDate": "2027-01-01"
-      },
-      "dateDifferenceDays": 74,
-      "topOfBook": {
-        "kalshiYesAsk": null,
-        "kalshiNoAsk": 0.99,
-        "polymarketYesAsk": 0.45,
-        "polymarketNoAsk": 0.58,
-        "kalshiYesAskSize": 0,
-        "kalshiNoAskSize": 50,
-        "polymarketYesAskSize": 90.04,
-        "polymarketNoAskSize": 109.28
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.44,
-          "grossSpreadPerShare": -0.44
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.671,
-      "kalshi": {
-        "ticker": "KX5YRRATE15M-26OCT191330-30",
-        "title": "5-year U.S. Treasury yield up in next 15 mins?",
-        "subtitle": "",
-        "rulesPrimary": "If the close yield (%) of the 1-minute Pyth candlestick for 5-year U.S. Treasury ending at 1:30 PM EDT on Oct 19, 2026 is at least the opening target yield, then the market resolves to Yes.",
-        "rulesSecondary": "The market resolves based on the closing yield of the one-minute Pyth candlestick for 5-year U.S. Treasury ending at 1:30 PM EDT on Oct 19, 2026. The 5-year U.S. Treasury refers to the US5Y, the current on-the-run benchmark of the 5-year U.",
-        "closeDate": "2026-10-19"
-      },
-      "polymarket": {
-        "id": "4890803",
-        "title": "Will the 10-year Treasury yield hit 5.4% before 2027?",
-        "description": "This market will resolve to \"Yes\" if the Treasury 10-year yield reaches or is higher than the listed value for any date from market creation to December 31, 2026. Otherwise this market will resolve to \"No\".\n\nThis market will resolve as soon",
-        "resolutionSource": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2025",
-        "endDate": "2027-01-01"
-      },
-      "dateDifferenceDays": 74,
-      "topOfBook": {
-        "kalshiYesAsk": 0.95,
-        "kalshiNoAsk": 0.95,
-        "polymarketYesAsk": 0.45,
-        "polymarketNoAsk": 0.58,
-        "kalshiYesAskSize": 1,
-        "kalshiNoAskSize": 1,
-        "polymarketYesAskSize": 90.04,
+        "kalshiYesAskSize": 30,
+        "kalshiNoAskSize": 30,
+        "polymarketYesAskSize": 100.04,
         "polymarketNoAskSize": 109.28
       },
       "illustrativeBeforeFees": [
         {
           "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.53,
-          "grossSpreadPerShare": -0.53
+          "combinedAsk": 1.25,
+          "grossSpreadPerShare": -0.25
         },
         {
           "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.4,
-          "grossSpreadPerShare": -0.4
+          "combinedAsk": 1.12,
+          "grossSpreadPerShare": -0.12
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
@@ -138,11 +64,11 @@
     {
       "score": 0.671,
       "kalshi": {
-        "ticker": "KX2YRRATE15M-26OCT191330-30",
-        "title": "2-year U.S. Treasury yield up in next 15 mins?",
+        "ticker": "KX10YRRATE15M-26OCT191345-45",
+        "title": "10-year U.S. Treasury yield up in next 15 mins?",
         "subtitle": "",
-        "rulesPrimary": "If the close yield (%) of the 1-minute Pyth candlestick for 2-year U.S. Treasury ending at 1:30 PM EDT on Oct 19, 2026 is at least 4.77403, then the market resolves to Yes.",
-        "rulesSecondary": "The market resolves based on the closing yield of the one-minute Pyth candlestick for 2-year U.S. Treasury ending at 1:30 PM EDT on Oct 19, 2026. The 2-year U.S. Treasury refers to the US2Y, the current on-the-run benchmark of the 2-year U.",
+        "rulesPrimary": "If the close yield (%) of the 1-minute Pyth candlestick for 10-year U.S. Treasury ending at 1:45 PM EDT on Oct 19, 2026 is at least the opening target yield, then the market resolves to Yes.",
+        "rulesSecondary": "The market resolves based on the closing yield of the one-minute Pyth candlestick for 10-year U.S. Treasury ending at 1:45 PM EDT on Oct 19, 2026. The 10-year U.S. Treasury refers to the US10Y, the current on-the-run benchmark of the 10-yea",
         "closeDate": "2026-10-19"
       },
       "polymarket": {
@@ -154,20 +80,109 @@
       },
       "dateDifferenceDays": 74,
       "topOfBook": {
-        "kalshiYesAsk": null,
-        "kalshiNoAsk": 0.99,
+        "kalshiYesAsk": 0.67,
+        "kalshiNoAsk": 0.67,
         "polymarketYesAsk": 0.45,
         "polymarketNoAsk": 0.58,
-        "kalshiYesAskSize": 0,
-        "kalshiNoAskSize": 50,
-        "polymarketYesAskSize": 90.04,
+        "kalshiYesAskSize": 30,
+        "kalshiNoAskSize": 30,
+        "polymarketYesAskSize": 100.04,
         "polymarketNoAskSize": 109.28
       },
       "illustrativeBeforeFees": [
         {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.25,
+          "grossSpreadPerShare": -0.25
+        },
+        {
           "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.44,
-          "grossSpreadPerShare": -0.44
+          "combinedAsk": 1.12,
+          "grossSpreadPerShare": -0.12
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.671,
+      "kalshi": {
+        "ticker": "KX5YRRATE15M-26OCT191345-45",
+        "title": "5-year U.S. Treasury yield up in next 15 mins?",
+        "subtitle": "",
+        "rulesPrimary": "If the close yield (%) of the 1-minute Pyth candlestick for 5-year U.S. Treasury ending at 1:45 PM EDT on Oct 19, 2026 is at least the opening target yield, then the market resolves to Yes.",
+        "rulesSecondary": "The market resolves based on the closing yield of the one-minute Pyth candlestick for 5-year U.S. Treasury ending at 1:45 PM EDT on Oct 19, 2026. The 5-year U.S. Treasury refers to the US5Y, the current on-the-run benchmark of the 5-year U.",
+        "closeDate": "2026-10-19"
+      },
+      "polymarket": {
+        "id": "4890803",
+        "title": "Will the 10-year Treasury yield hit 5.4% before 2027?",
+        "description": "This market will resolve to \"Yes\" if the Treasury 10-year yield reaches or is higher than the listed value for any date from market creation to December 31, 2026. Otherwise this market will resolve to \"No\".\n\nThis market will resolve as soon",
+        "resolutionSource": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2025",
+        "endDate": "2027-01-01"
+      },
+      "dateDifferenceDays": 74,
+      "topOfBook": {
+        "kalshiYesAsk": 0.67,
+        "kalshiNoAsk": 0.67,
+        "polymarketYesAsk": 0.45,
+        "polymarketNoAsk": 0.58,
+        "kalshiYesAskSize": 30,
+        "kalshiNoAskSize": 30,
+        "polymarketYesAskSize": 100.04,
+        "polymarketNoAskSize": 109.28
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.25,
+          "grossSpreadPerShare": -0.25
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.12,
+          "grossSpreadPerShare": -0.12
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.671,
+      "kalshi": {
+        "ticker": "KX2YRRATE15M-26OCT191345-45",
+        "title": "2-year U.S. Treasury yield up in next 15 mins?",
+        "subtitle": "",
+        "rulesPrimary": "If the close yield (%) of the 1-minute Pyth candlestick for 2-year U.S. Treasury ending at 1:45 PM EDT on Oct 19, 2026 is at least the opening target yield, then the market resolves to Yes.",
+        "rulesSecondary": "The market resolves based on the closing yield of the one-minute Pyth candlestick for 2-year U.S. Treasury ending at 1:45 PM EDT on Oct 19, 2026. The 2-year U.S. Treasury refers to the US2Y, the current on-the-run benchmark of the 2-year U.",
+        "closeDate": "2026-10-19"
+      },
+      "polymarket": {
+        "id": "4890803",
+        "title": "Will the 10-year Treasury yield hit 5.4% before 2027?",
+        "description": "This market will resolve to \"Yes\" if the Treasury 10-year yield reaches or is higher than the listed value for any date from market creation to December 31, 2026. Otherwise this market will resolve to \"No\".\n\nThis market will resolve as soon",
+        "resolutionSource": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2025",
+        "endDate": "2027-01-01"
+      },
+      "dateDifferenceDays": 74,
+      "topOfBook": {
+        "kalshiYesAsk": 0.67,
+        "kalshiNoAsk": 0.67,
+        "polymarketYesAsk": 0.45,
+        "polymarketNoAsk": 0.58,
+        "kalshiYesAskSize": 30,
+        "kalshiNoAskSize": 30,
+        "polymarketYesAskSize": 100.04,
+        "polymarketNoAskSize": 109.28
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.25,
+          "grossSpreadPerShare": -0.25
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.12,
+          "grossSpreadPerShare": -0.12
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
@@ -276,7 +291,7 @@
       "dateDifferenceDays": 219,
       "topOfBook": {
         "kalshiYesAsk": 0.44,
-        "kalshiNoAsk": 0.76,
+        "kalshiNoAsk": 0.75,
         "polymarketYesAsk": 0.006,
         "polymarketNoAsk": 0.995,
         "kalshiYesAskSize": 10400,
@@ -292,8 +307,8 @@
         },
         {
           "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 0.766,
-          "grossSpreadPerShare": 0.234
+          "combinedAsk": 0.756,
+          "grossSpreadPerShare": 0.244
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
@@ -848,6 +863,7 @@
     "minimumSharedTokens": 2,
     "minimumDistinctiveContextTokens": 2,
     "eventTypeGate": true,
+    "contractKindGate": true,
     "dateGate": true,
     "kalshiExcludedMultiLeg": true,
     "kalshiApiMveFilter": "exclude",
