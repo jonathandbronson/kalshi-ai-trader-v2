@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19T17:35:01.507Z",
+  "timestamp": "2026-10-19T17:37:45.871Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -8,207 +8,41 @@
     "No orders, paper entries, or approved pairs are generated"
   ],
   "counts": {
-    "kalshiRawMarkets": 1300,
-    "kalshiSingleOutcomeMarkets": 1186,
-    "kalshiMarkets": 1186,
+    "kalshiRawMarkets": 1400,
+    "kalshiSingleOutcomeMarkets": 1263,
+    "kalshiMarkets": 1263,
     "polymarketMarkets": 2000,
-    "polymarketBinaryMarkets": 1675,
-    "titleCandidates": 4,
+    "polymarketBinaryMarkets": 1672,
+    "titleCandidates": 0,
     "contractTypePolicy": "strict_same_kind",
     "kalshiPagesRequested": 20,
     "kalshiPoolCap": 1200,
     "polymarketPagesRequested": 20,
-    "orderbooksChecked": 4
+    "orderbooksChecked": 0
   },
-  "candidates": [
-    {
-      "score": 1,
-      "kalshi": {
-        "ticker": "KXAFCCLBTTS-26OCT26AASALG-BTTS",
-        "title": "Both Teams To Score",
-        "subtitle": "",
-        "rulesPrimary": "If Al Ahli Saudi and Al Gharafa both score a goal in the Al Ahli Saudi vs Al Gharafa AFC Champions League match originally scheduled for Oct 26, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the m",
-        "rulesSecondary": "Own goals count towards the team awarded the goal.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of thei",
-        "closeDate": "2026-10-28"
-      },
-      "polymarket": {
-        "id": "5346993",
-        "title": "Al Fayha Saudi Club vs. Al Ahli Saudi Club: Both Teams to Score",
-        "description": "In the upcoming Saudi Professional League game between Al Fayha Saudi Club and Al Ahli Saudi Club, scheduled for October 19 at 11:05 AM ET:\n\nThis market will resolve to \"Yes\" if both Al Fayha Saudi Club and Al Ahli Saudi Club each score at ",
-        "resolutionSource": "https://www.slstat.com/",
-        "endDate": "2026-10-19"
-      },
-      "dateDifferenceDays": 9,
-      "topOfBook": {
-        "kalshiYesAsk": 0.95,
-        "kalshiNoAsk": 0.95,
-        "polymarketYesAsk": null,
-        "polymarketNoAsk": 0.001,
-        "kalshiYesAskSize": 33,
-        "kalshiNoAskSize": 33,
-        "polymarketYesAskSize": 0,
-        "polymarketNoAskSize": 1065.61
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 0.951,
-          "grossSpreadPerShare": 0.049
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.577,
-      "kalshi": {
-        "ticker": "KXDEMNEWENGLANDSWEEP-26NOV03",
-        "title": "Will Democrats win all 2026 U.S. House and Senate elections in New England?",
-        "subtitle": "",
-        "rulesPrimary": "If Democrats win ALL of the 2026 U.S. House elections in Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, AND Vermont, AND ALL of the 2026 U.S. Senate elections in Maine, Massachusetts, New Hampshire, AND Rhode Island, then t",
-        "rulesSecondary": "This market requires ALL specified candidates/parties/options to win their respective elections for a Yes resolution. If even one loses, the entire market resolves to No. A Democratic candidate is a candidate listed with the Democratic Part",
-        "closeDate": "2027-11-03"
-      },
-      "polymarket": {
-        "id": "630844",
-        "title": "Will the Democrats win the New Hampshire Senate race in 2026?",
-        "description": "This market will resolve according to the winner of the 2026 midterm New Hampshire U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the part",
-        "resolutionSource": "",
-        "endDate": "2026-11-04"
-      },
-      "dateDifferenceDays": 364,
-      "topOfBook": {
-        "kalshiYesAsk": 0.7,
-        "kalshiNoAsk": 0.95,
-        "polymarketYesAsk": 0.89,
-        "polymarketNoAsk": 0.12,
-        "kalshiYesAskSize": 1594,
-        "kalshiNoAskSize": 13037,
-        "polymarketYesAskSize": 4643.17,
-        "polymarketNoAskSize": 191.6
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 0.82,
-          "grossSpreadPerShare": 0.18
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.84,
-          "grossSpreadPerShare": -0.84
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.5,
-      "kalshi": {
-        "ticker": "KXDEMNEWENGLANDSWEEP-26NOV03",
-        "title": "Will Democrats win all 2026 U.S. House and Senate elections in New England?",
-        "subtitle": "",
-        "rulesPrimary": "If Democrats win ALL of the 2026 U.S. House elections in Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, AND Vermont, AND ALL of the 2026 U.S. Senate elections in Maine, Massachusetts, New Hampshire, AND Rhode Island, then t",
-        "rulesSecondary": "This market requires ALL specified candidates/parties/options to win their respective elections for a Yes resolution. If even one loses, the entire market resolves to No. A Democratic candidate is a candidate listed with the Democratic Part",
-        "closeDate": "2027-11-03"
-      },
-      "polymarket": {
-        "id": "562829",
-        "title": "2026 Balance of Power: D Senate, R House",
-        "description": "This market will resolve according to the party that wins control of the United States Senate and the party that wins control of the United States House of Representatives in the 2026 United States midterm election.\n\nA party wins control of",
-        "resolutionSource": "",
-        "endDate": "2026-11-04"
-      },
-      "dateDifferenceDays": 364,
-      "topOfBook": {
-        "kalshiYesAsk": 0.7,
-        "kalshiNoAsk": 0.95,
-        "polymarketYesAsk": 0.01,
-        "polymarketNoAsk": 0.991,
-        "kalshiYesAskSize": 1594,
-        "kalshiNoAskSize": 13037,
-        "polymarketYesAskSize": 23485.11,
-        "polymarketNoAskSize": 9729.66
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.691,
-          "grossSpreadPerShare": -0.691
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 0.96,
-          "grossSpreadPerShare": 0.04
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    },
-    {
-      "score": 0.5,
-      "kalshi": {
-        "ticker": "KXDEMNEWENGLANDSWEEP-26NOV03",
-        "title": "Will Democrats win all 2026 U.S. House and Senate elections in New England?",
-        "subtitle": "",
-        "rulesPrimary": "If Democrats win ALL of the 2026 U.S. House elections in Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, AND Vermont, AND ALL of the 2026 U.S. Senate elections in Maine, Massachusetts, New Hampshire, AND Rhode Island, then t",
-        "rulesSecondary": "This market requires ALL specified candidates/parties/options to win their respective elections for a Yes resolution. If even one loses, the entire market resolves to No. A Democratic candidate is a candidate listed with the Democratic Part",
-        "closeDate": "2027-11-03"
-      },
-      "polymarket": {
-        "id": "562830",
-        "title": "2026 Balance of Power: R Senate, D House",
-        "description": "This market will resolve according to the party that wins control of the United States Senate and the party that wins control of the United States House of Representatives in the 2026 United States midterm election.\n\nA party wins control of",
-        "resolutionSource": "",
-        "endDate": "2026-11-04"
-      },
-      "dateDifferenceDays": 364,
-      "topOfBook": {
-        "kalshiYesAsk": 0.7,
-        "kalshiNoAsk": 0.95,
-        "polymarketYesAsk": 0.28,
-        "polymarketNoAsk": 0.73,
-        "kalshiYesAskSize": 1594,
-        "kalshiNoAskSize": 13037,
-        "polymarketYesAskSize": 172952.68,
-        "polymarketNoAskSize": 92718.36
-      },
-      "illustrativeBeforeFees": [
-        {
-          "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.43,
-          "grossSpreadPerShare": -0.43
-        },
-        {
-          "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.23,
-          "grossSpreadPerShare": -0.23
-        }
-      ],
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
-    }
-  ],
-  "errors": [
-    "kalshi listing: HTTP 429 external-api.kalshi.com"
-  ],
+  "candidates": [],
+  "errors": [],
   "samples": {
     "kalshi": [
       {
-        "title": "Molodtsov Denis wins",
+        "title": "What will any host or reporter say during ABC World News Tonight originally scheduled for October 19, 2026?",
         "subtitle": "",
-        "ticker": "KXLIGAPROMATCH-26OCT200130MANMOL-MOL"
+        "ticker": "KXWORLDNEWSMENTION-26OCT19-ZACH"
       },
       {
-        "title": "Manuylov Oleg wins",
+        "title": "What will any host or reporter say during ABC World News Tonight originally scheduled for October 19, 2026?",
         "subtitle": "",
-        "ticker": "KXLIGAPROMATCH-26OCT200130MANMOL-MAN"
+        "ticker": "KXWORLDNEWSMENTION-26OCT19-TRUM"
       },
       {
-        "title": "Galuzinskii Stefan wins",
+        "title": "What will any host or reporter say during ABC World News Tonight originally scheduled for October 19, 2026?",
         "subtitle": "",
-        "ticker": "KXLIGAPROMATCH-26OCT200130GALBYS-GAL"
+        "ticker": "KXWORLDNEWSMENTION-26OCT19-TESL"
       },
       {
-        "title": "Bystrushkin Konstantin wins",
+        "title": "What will any host or reporter say during ABC World News Tonight originally scheduled for October 19, 2026?",
         "subtitle": "",
-        "ticker": "KXLIGAPROMATCH-26OCT200130GALBYS-BYS"
+        "ticker": "KXWORLDNEWSMENTION-26OCT19-SUPR"
       }
     ],
     "polymarket": [
@@ -242,5 +76,5 @@
     "polymarketOrder": "volume24hr descending",
     "warning": "Text similarity is not proof of settlement equivalence; all results require manual rules review."
   },
-  "status": "PARTIAL"
+  "status": "COLLECTED"
 }
