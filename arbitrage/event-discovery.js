@@ -95,6 +95,7 @@ async function collect(){
    if(!km.ticker||!pm.id||!km.title||!pm.question)continue;
    const kalshiOutcome=outcomeLabel(km,k.title);
    if(!hasNamedOutcome(kalshiOutcome,k.title))continue;
+   if(/^who will win/i.test(km.title)&&!String(km.subtitle??"").trim())continue;
    if(!compatible(kalshiOutcome,pm.question))continue;
    const scoreValue=score([k.title,kalshiOutcome].join(" "),[p.title,pm.question].join(" "));
    const contractOverlap=[...words(kalshiOutcome)].filter(w=>words(pm.question).has(w));
