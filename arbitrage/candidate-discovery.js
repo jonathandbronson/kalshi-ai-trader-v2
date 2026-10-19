@@ -19,7 +19,7 @@ function eventGate(k,p){
  // Virtual sports and real-world sports are never the same underlying event.
  if(/\\besports?\\b|\\bebasketball\\b|\\besoccer\\b|valhalla league|valhalla cup|\\(wemby\\)|\\(haze\\)|\\(lenny\\)/i.test(kr+" "+kt))return false;
  // Championship and single-game outcome contracts are not interchangeable.
- const season=/\\bchampion(ship)?\\b|\\bfinals\\b|\\bplayoffs\\b|\\btitle\\b|\\bnomination\\b/i;
+ const season=/\\bchampion(ship)?\\b|\\bfinals\\b|\\bplayoffs\\b|\\btitle\\b|\\bnomination\\b/i;\n if(season.test(pt)!==season.test(kt+" "+kr))return false;
  if(season.test(pt)&&/\\bgame\\b|\\bmatch\\b|\\bwins\\b/i.test(kt+" "+kr)&&!season.test(kt))return false;
  // Require a shared, explicit calendar day where both contracts specify one.
  const kdate=(kr+" "+kt).match(/(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\\s+\\d{1,2},?\\s+20\\d\\d/i);
