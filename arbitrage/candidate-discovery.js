@@ -12,6 +12,15 @@ async function get(url){
 function parseArray(v){try{const x=typeof v==="string"?JSON.parse(v):v;return Array.isArray(x)?x:[]}catch{return []}}
 function tokens(t){return new Set(String(t??"").toLowerCase().replace(/[^a-z0-9 ]/g," ").split(/\s+/).filter(x=>x.length>2&&!["will","the","and","yes","not","before","after","does","this","that","with","for","2026","2027","2028","market"].includes(x)))}
 function similarity(a,b){const x=tokens(a),y=tokens(b);if(!x.size||!y.size)return 0;const shared=[...x].filter(v=>y.has(v)).length;return shared/Math.sqrt(x.size*y.size)}
+const GENERIC=new Set(["both","teams","team","score","scored","goals","goal","over","under","win","wins","winner","game","match","league","football","basketball","soccer","points","total","first","second","half","full","time","more","less","than","each","either","draw","against","october","november","december","january","february","march","april","may","june","july","august","september","2026","2027","2028","yes","no","the","will","versus","after","before","2025","2024"]);
+function distinctive(s){return [...tokens(s)].filter(t=>!GENERIC.has(t)&&!/^\\d+$/.test(t));}
+function contextGate(k,p){
+ const kt=distinctive([k.title,k.subtitle,k.rules_primary].filter(Boolean).join(" "));
+ const pt=new Set(distinctive([p.question,p.groupItemTitle].filter(Boolean).join(" ")));
+ const common=kt.filter(t=>pt.has(t));
+ // Reject generic market labels whose teams, people or entities do not overlap.
+ return common.length>=2;
+}
 function matchingScore(k,p){
  const kalshiTexts=[k.title,k.subtitle,[k.title,k.subtitle].filter(Boolean).join(" "),k.event_title].filter(Boolean);
  const polyTexts=[p.question,p.groupItemTitle,[p.question,p.groupItemTitle].filter(Boolean).join(" ")].filter(Boolean);
@@ -47,6 +56,7 @@ async function main(){
  report.samples={kalshi:kalshi.slice(0,4).map(m=>({title:clean(m.title),subtitle:clean(m.subtitle),ticker:clean(m.ticker)})),polymarket:ps.slice(0,4).map(m=>({title:clean(m.question),id:clean(m.id)}))};
  const candidates=[];
  for(const k of kalshi){if(!k.ticker||!k.title)continue;for(const p of ps){
+  if(!contextGate(k,p))continue;
   const score=matchingScore(k,p);if(score<0.48)continue;
   const kd=date(k.close_time??k.expiration_time),pd=date(p.endDate??p.end_date_iso);
   candidates.push({score:Math.round(score*1000)/1000,kalshi:{ticker:clean(k.ticker),title:clean(k.title),subtitle:clean(k.subtitle),rulesPrimary:clean(k.rules_primary),rulesSecondary:clean(k.rules_secondary),closeDate:kd},polymarket:{id:clean(p.id),title:clean(p.question),description:clean(p.description),resolutionSource:clean(p.resolutionSource),endDate:pd},dateDifferenceDays:kd&&pd?Math.abs((Date.parse(kd)-Date.parse(pd))/86400000):null});
@@ -55,7 +65,7 @@ async function main(){
  report.counts.titleCandidates=candidates.length;
  report.counts.kalshiPagesRequested=limit;
  report.counts.polymarketPagesRequested=limit;
- report.matching={threshold:0.48,minimumSharedTokens:2,kalshiExcludedMultiLeg:true,kalshiApiMveFilter:"exclude",polymarketOrder:"volume24hr descending",warning:"Text similarity is not proof of settlement equivalence; all results require manual rules review."};
+ report.matching={threshold:0.48,minimumSharedTokens:2,minimumDistinctiveContextTokens:2,kalshiExcludedMultiLeg:true,kalshiApiMveFilter:"exclude",polymarketOrder:"volume24hr descending",warning:"Text similarity is not proof of settlement equivalence; all results require manual rules review."};
  for(const item of candidates.slice(0,maxCandidates)){
   const k=item.kalshi,p=item.polymarket;
   const full=ps.find(x=>String(x.id)===p.id),outcomes=parseArray(full?.outcomes),ids=parseArray(full?.clobTokenIds);
