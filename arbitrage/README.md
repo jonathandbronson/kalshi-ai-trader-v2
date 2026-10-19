@@ -46,3 +46,19 @@ These fields are **operator attestations**, not machine verification. Never appr
 ## Next engineering tasks
 
 Add cursor-based pagination, robust event/rule verification and audit logs, precise per-venue fee modeling, full executable depth VWAP, timestamp and latency safeguards, and a persistent paper-execution simulator before any live order integration.
+
+## Paper simulation (synthetic or manually supplied depth)
+
+Run from repository root:
+
+```bash
+node --test arbitrage/*.test.js
+node arbitrage/paper-cli.js --demo
+node arbitrage/paper-cli.js --settle paper-1
+```
+
+The demo is SYNTHETIC and does not represent actual opportunities. It starts with $1,000, caps a paper position at 3% of initial bankroll, walks ask depth to compute a volume-weighted fill, reserves configurable fees/slippage, and persists state to `arbitrage-paper-state.json`. The file is local; do not commit it. To stress-test mismatched resolutions use `--settle paper-1 --mismatch`, or `--void` for conservative zero-recovery void stress. These are hypothetical outcomes, not verified exchange settlements.
+
+For custom paper inputs, create a local JSON file shaped like `arbitrage/fixtures.js`'s `synthetic` object and set `ARB_PAPER_INPUT` to its path. The `approved` field is a human assertion, not independent proof of equivalence.
+
+**Current boundary:** The live scanner's top-of-book output is NOT yet wired into the depth-aware simulator. The paper runner consumes synthetic or user-supplied depth snapshots. It does not automatically paper-trade live exchange opportunities. The code has been committed but runtime tests and live endpoint checks still need execution in a network-enabled Node environment.
