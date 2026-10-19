@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19T17:42:53.192Z",
+  "timestamp": "2026-10-19T17:46:25.736Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -9,10 +9,10 @@
   ],
   "counts": {
     "kalshiRawMarkets": 1300,
-    "kalshiSingleOutcomeMarkets": 1213,
-    "kalshiMarkets": 1213,
+    "kalshiSingleOutcomeMarkets": 1210,
+    "kalshiMarkets": 1210,
     "polymarketMarkets": 2000,
-    "polymarketBinaryMarkets": 1663,
+    "polymarketBinaryMarkets": 1662,
     "titleCandidates": 0,
     "contractTypePolicy": "strict_same_kind",
     "kalshiPagesRequested": 20,
@@ -25,24 +25,24 @@
   "samples": {
     "kalshi": [
       {
+        "title": "Will over 7.5 goals be scored?",
+        "subtitle": "",
+        "ticker": "KXALLSVENSKANTOTAL-26OCT19DEGKAL-8"
+      },
+      {
+        "title": "SK Gaming Avarosa wins game 4",
+        "subtitle": "",
+        "ticker": "KXLOLMAP-26OCT191200SKAMR-4-SKA"
+      },
+      {
+        "title": "Mental Rush wins game 4",
+        "subtitle": "",
+        "ticker": "KXLOLMAP-26OCT191200SKAMR-4-MR"
+      },
+      {
         "title": "Will Monza score over 3.5 goals?",
         "subtitle": "",
         "ticker": "KXSERIEATEAMTOTAL-26OCT19MONCAG-MON4"
-      },
-      {
-        "title": "Hapoel Kfar Shelem wins by more than 4.5 goals?",
-        "subtitle": "",
-        "ticker": "KXISRNLSPREAD-26OCT19HKFHAC-HKF5"
-      },
-      {
-        "title": "Monza wins by more than 3.5 goals?",
-        "subtitle": "",
-        "ticker": "KXSERIEASPREAD-26OCT19MONCAG-MON4"
-      },
-      {
-        "title": "No team scores a TD",
-        "subtitle": "",
-        "ticker": "KXNCAAFFIRSTTDTEAM-26OCT24BAYKU-NONE"
       }
     ],
     "polymarket": [
