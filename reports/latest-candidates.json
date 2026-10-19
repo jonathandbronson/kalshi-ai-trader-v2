@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-10-19T17:11:20.324Z",
+  "mode": "READ_ONLY_DISCOVERY",
+  "autoApproved": 0,
+  "verifiedPairs": 0,
+  "notes": [
+    "Similarity is only a research lead, NOT settlement equivalence",
+    "No orders, paper entries, or approved pairs are generated"
+  ],
+  "counts": {
+    "kalshiMarkets": 300,
+    "polymarketMarkets": 300,
+    "polymarketBinaryMarkets": 300,
+    "titleCandidates": 0,
+    "orderbooksChecked": 0
+  },
+  "candidates": [],
+  "errors": [],
+  "status": "COLLECTED"
+}
