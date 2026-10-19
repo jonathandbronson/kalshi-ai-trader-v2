@@ -1,0 +1,28 @@
+name: Arbitrage live public API probe
+on:
+  workflow_dispatch:
+  push:
+    branches: [arbitrage-v1]
+    paths:
+      - 'arbitrage/live-probe.js'
+      - '.github/workflows/arbitrage-live-probe.yml'
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Probe live public orderbooks (no orders)
+        run: node arbitrage/live-probe.js
+      - name: Upload diagnostic report even on error
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: arbitrage-live-probe
+          path: arbitrage-probe.json
+          if-no-files-found: warn
