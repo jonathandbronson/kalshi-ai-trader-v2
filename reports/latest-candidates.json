@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19T17:17:06.389Z",
+  "timestamp": "2026-10-19T17:20:06.597Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -8,59 +8,44 @@
     "No orders, paper entries, or approved pairs are generated"
   ],
   "counts": {
-    "kalshiMarkets": 500,
-    "polymarketMarkets": 500,
-    "polymarketBinaryMarkets": 500,
+    "kalshiRawMarkets": 1200,
+    "kalshiSingleOutcomeMarkets": 0,
+    "kalshiMarkets": 0,
+    "polymarketMarkets": 1200,
+    "polymarketBinaryMarkets": 997,
     "titleCandidates": 0,
+    "kalshiPagesRequested": 12,
+    "polymarketPagesRequested": 12,
     "orderbooksChecked": 0
   },
   "candidates": [],
   "errors": [],
   "samples": {
-    "kalshi": [
-      {
-        "title": "yes Both Teams To Score,yes 8+ corners,yes Fenerbahce,yes Manchester City,yes Barcelona",
-        "subtitle": "",
-        "ticker": "KXMVECROSSCATEGORY-S2026OQKSVKRAPWCPOFJX-QKAZ64S6Z"
-      },
-      {
-        "title": "yes Rhyne Howard: 2+,yes Allisha Gray: 2+,yes Tiffany Hayes: 3+,yes Allisha Gray: 10+,yes Angel Reese: 10+,yes Jordin Canada: 10+,yes Gabby Williams: 15+,yes Tiffany Hayes: 10+,yes Veronica Burton: 10+,yes Angel Reese: 10+,yes Naz Hillmon: ",
-        "subtitle": "",
-        "ticker": "KXMVECROSSCATEGORY-S2026B2GKAHOCGU2WSE66-XL43DRDCE"
-      },
-      {
-        "title": "yes Target Price: $81,836.54,yes Target Price: $104.1927,yes Target Price: $1,134.7841",
-        "subtitle": "",
-        "ticker": "KXMVECROSSCATEGORY-S2026OC3EGU6QXOYMXK3A-KECLF6QEQ"
-      },
-      {
-        "title": "yes Over 1.5 goals scored,yes Over 1.5 goals scored,no Everton,yes Over 1.5 goals scored,yes Over 2.5 goals scored,yes Over 1.5 goals scored,yes Over 1.5 goals scored,yes Both Teams To Score,yes Atletico,no Getafe,yes Toulouse,yes Marseille",
-        "subtitle": "",
-        "ticker": "KXMVECROSSCATEGORY-S2026LVIG5XSNDPIDGTO3-NU7EQWGAC"
-      }
-    ],
+    "kalshi": [],
     "polymarket": [
       {
-        "title": "Xi Jinping out before 2027?",
-        "id": "559651"
+        "title": "Will the Fed decrease interest rates by 50+ bps after the October 2026 meeting?",
+        "id": "2589810"
       },
       {
-        "title": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
-        "id": "559652"
+        "title": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+        "id": "2589812"
       },
       {
-        "title": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
-        "id": "559653"
+        "title": "Will the Fed decrease interest rates by 25 bps after the October 2026 meeting?",
+        "id": "2589811"
       },
       {
-        "title": "Will Pete Buttigieg win the 2028 Democratic presidential nomination?",
-        "id": "559654"
+        "title": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+        "id": "2589813"
       }
     ]
   },
   "matching": {
     "threshold": 0.48,
     "minimumSharedTokens": 2,
+    "kalshiExcludedMultiLeg": true,
+    "polymarketOrder": "volume24hr descending",
     "warning": "Text similarity is not proof of settlement equivalence; all results require manual rules review."
   },
   "status": "COLLECTED"
