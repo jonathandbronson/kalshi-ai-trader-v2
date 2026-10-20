@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T16:46:26.099Z",
+  "timestamp": "2026-10-20T16:47:19.925Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -86,7 +86,7 @@
         "kalshiNoAsk": 0.83,
         "polymarketYesAsk": 0.51,
         "polymarketNoAsk": 0.53,
-        "kalshiYesAskSize": 142,
+        "kalshiYesAskSize": 146,
         "kalshiNoAskSize": 7,
         "polymarketYesAskSize": 56,
         "polymarketNoAskSize": 150
@@ -125,11 +125,11 @@
       "dateDifferenceDays": 2,
       "topOfBook": {
         "kalshiYesAsk": 0.67,
-        "kalshiNoAsk": 0.44,
+        "kalshiNoAsk": 0.46,
         "polymarketYesAsk": 0.51,
         "polymarketNoAsk": 0.53,
         "kalshiYesAskSize": 1496,
-        "kalshiNoAskSize": 13,
+        "kalshiNoAskSize": 14,
         "polymarketYesAskSize": 56,
         "polymarketNoAskSize": 150
       },
@@ -141,8 +141,8 @@
         },
         {
           "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 0.95,
-          "grossSpreadPerShare": 0.05
+          "combinedAsk": 0.97,
+          "grossSpreadPerShare": 0.03
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
@@ -167,7 +167,7 @@
       "dateDifferenceDays": 2,
       "topOfBook": {
         "kalshiYesAsk": 0.95,
-        "kalshiNoAsk": 0.78,
+        "kalshiNoAsk": 0.8,
         "polymarketYesAsk": 0.51,
         "polymarketNoAsk": 0.53,
         "kalshiYesAskSize": 1,
@@ -183,8 +183,8 @@
         },
         {
           "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.29,
-          "grossSpreadPerShare": -0.29
+          "combinedAsk": 1.31,
+          "grossSpreadPerShare": -0.31
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
@@ -284,18 +284,18 @@
       "topOfBook": {
         "kalshiYesAsk": 0.27,
         "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.63,
-        "polymarketNoAsk": 0.45,
+        "polymarketYesAsk": 0.62,
+        "polymarketNoAsk": 0.44,
         "kalshiYesAskSize": 200,
         "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 20,
-        "polymarketNoAskSize": 40
+        "polymarketYesAskSize": 15,
+        "polymarketNoAskSize": 5
       },
       "illustrativeBeforeFees": [
         {
           "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 0.72,
-          "grossSpreadPerShare": 0.28
+          "combinedAsk": 0.71,
+          "grossSpreadPerShare": 0.29
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
@@ -363,23 +363,23 @@
       "topOfBook": {
         "kalshiYesAsk": 0.51,
         "kalshiNoAsk": 0.53,
-        "polymarketYesAsk": 0.63,
-        "polymarketNoAsk": 0.45,
+        "polymarketYesAsk": 0.62,
+        "polymarketNoAsk": 0.44,
         "kalshiYesAskSize": 751,
         "kalshiNoAskSize": 38,
-        "polymarketYesAskSize": 20,
-        "polymarketNoAskSize": 40
+        "polymarketYesAskSize": 15,
+        "polymarketNoAskSize": 5
       },
       "illustrativeBeforeFees": [
         {
           "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 0.96,
-          "grossSpreadPerShare": 0.04
+          "combinedAsk": 0.95,
+          "grossSpreadPerShare": 0.05
         },
         {
           "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.16,
-          "grossSpreadPerShare": -0.16
+          "combinedAsk": 1.15,
+          "grossSpreadPerShare": -0.15
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
@@ -442,18 +442,18 @@
       "topOfBook": {
         "kalshiYesAsk": 0.76,
         "kalshiNoAsk": null,
-        "polymarketYesAsk": 0.63,
-        "polymarketNoAsk": 0.45,
+        "polymarketYesAsk": 0.62,
+        "polymarketNoAsk": 0.44,
         "kalshiYesAskSize": 200,
         "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 20,
-        "polymarketNoAskSize": 40
+        "polymarketYesAskSize": 15,
+        "polymarketNoAskSize": 5
       },
       "illustrativeBeforeFees": [
         {
           "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.21,
-          "grossSpreadPerShare": -0.21
+          "combinedAsk": 1.2,
+          "grossSpreadPerShare": -0.2
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
@@ -521,23 +521,23 @@
       "topOfBook": {
         "kalshiYesAsk": 0.16,
         "kalshiNoAsk": 0.97,
-        "polymarketYesAsk": 0.63,
-        "polymarketNoAsk": 0.45,
+        "polymarketYesAsk": 0.62,
+        "polymarketNoAsk": 0.44,
         "kalshiYesAskSize": 138,
         "kalshiNoAskSize": 1,
-        "polymarketYesAskSize": 20,
-        "polymarketNoAskSize": 40
+        "polymarketYesAskSize": 15,
+        "polymarketNoAskSize": 5
       },
       "illustrativeBeforeFees": [
         {
           "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 0.61,
-          "grossSpreadPerShare": 0.39
+          "combinedAsk": 0.6,
+          "grossSpreadPerShare": 0.4
         },
         {
           "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.6,
-          "grossSpreadPerShare": -0.6
+          "combinedAsk": 1.59,
+          "grossSpreadPerShare": -0.59
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
@@ -605,23 +605,23 @@
       "topOfBook": {
         "kalshiYesAsk": 0.32,
         "kalshiNoAsk": 0.98,
-        "polymarketYesAsk": 0.63,
-        "polymarketNoAsk": 0.45,
+        "polymarketYesAsk": 0.62,
+        "polymarketNoAsk": 0.44,
         "kalshiYesAskSize": 50,
         "kalshiNoAskSize": 25,
-        "polymarketYesAskSize": 20,
-        "polymarketNoAskSize": 40
+        "polymarketYesAskSize": 15,
+        "polymarketNoAskSize": 5
       },
       "illustrativeBeforeFees": [
         {
           "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 0.77,
-          "grossSpreadPerShare": 0.23
+          "combinedAsk": 0.76,
+          "grossSpreadPerShare": 0.24
         },
         {
           "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.61,
-          "grossSpreadPerShare": -0.61
+          "combinedAsk": 1.6,
+          "grossSpreadPerShare": -0.6
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
@@ -689,23 +689,23 @@
       "topOfBook": {
         "kalshiYesAsk": 0.53,
         "kalshiNoAsk": 0.49,
-        "polymarketYesAsk": 0.63,
-        "polymarketNoAsk": 0.45,
+        "polymarketYesAsk": 0.62,
+        "polymarketNoAsk": 0.44,
         "kalshiYesAskSize": 676,
         "kalshiNoAskSize": 820,
-        "polymarketYesAskSize": 20,
-        "polymarketNoAskSize": 40
+        "polymarketYesAskSize": 15,
+        "polymarketNoAskSize": 5
       },
       "illustrativeBeforeFees": [
         {
           "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 0.98,
-          "grossSpreadPerShare": 0.02
+          "combinedAsk": 0.97,
+          "grossSpreadPerShare": 0.03
         },
         {
           "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.12,
-          "grossSpreadPerShare": -0.12
+          "combinedAsk": 1.11,
+          "grossSpreadPerShare": -0.11
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
@@ -773,23 +773,23 @@
       "topOfBook": {
         "kalshiYesAsk": 0.79,
         "kalshiNoAsk": 0.93,
-        "polymarketYesAsk": 0.63,
-        "polymarketNoAsk": 0.45,
+        "polymarketYesAsk": 0.62,
+        "polymarketNoAsk": 0.44,
         "kalshiYesAskSize": 4285,
         "kalshiNoAskSize": 1,
-        "polymarketYesAskSize": 20,
-        "polymarketNoAskSize": 40
+        "polymarketYesAskSize": 15,
+        "polymarketNoAskSize": 5
       },
       "illustrativeBeforeFees": [
         {
           "direction": "KALSHI_YES_POLY_NO",
-          "combinedAsk": 1.24,
-          "grossSpreadPerShare": -0.24
+          "combinedAsk": 1.23,
+          "grossSpreadPerShare": -0.23
         },
         {
           "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.56,
-          "grossSpreadPerShare": -0.56
+          "combinedAsk": 1.55,
+          "grossSpreadPerShare": -0.55
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
@@ -814,11 +814,11 @@
       "dateDifferenceDays": 2,
       "topOfBook": {
         "kalshiYesAsk": 0.93,
-        "kalshiNoAsk": 0.8,
+        "kalshiNoAsk": 0.79,
         "polymarketYesAsk": 0.51,
         "polymarketNoAsk": 0.53,
         "kalshiYesAskSize": 168,
-        "kalshiNoAskSize": 1,
+        "kalshiNoAskSize": 25,
         "polymarketYesAskSize": 56,
         "polymarketNoAskSize": 150
       },
@@ -830,8 +830,8 @@
         },
         {
           "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.31,
-          "grossSpreadPerShare": -0.31
+          "combinedAsk": 1.3,
+          "grossSpreadPerShare": -0.3
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
@@ -840,6 +840,11 @@
   "errors": [],
   "samples": {
     "kalshi": [
+      {
+        "title": "Will over 6.5 goals be scored?",
+        "subtitle": "",
+        "ticker": "KXUCLTOTAL-26OCT20FENSLA-7"
+      },
       {
         "title": "Over 27.5 games",
         "subtitle": "",
@@ -854,11 +859,6 @@
         "title": "Over 17.5 games",
         "subtitle": "",
         "ticker": "KXATPGTOTAL-26OCT21MOUBAL-18"
-      },
-      {
-        "title": "Will Corentin Moutet win at least 4.5 more games than Felix Balshaw?",
-        "subtitle": "",
-        "ticker": "KXATPGSPREAD-26OCT21MOUBAL-MOU5"
       }
     ],
     "polymarket": [
