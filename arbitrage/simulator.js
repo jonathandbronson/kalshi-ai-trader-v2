@@ -24,9 +24,18 @@ export function simulatePair({yesAsks,noAsks,quantity,yesFeeRate=0,noFeeRate=0,f
  if(!approved||!settlementEvidenceVerified)return {accepted:false,reason:"SETTLEMENT_NOT_VERIFIED"};
  const yes=walkAsks(yesAsks,quantity),no=walkAsks(noAsks,quantity);
  if(yes.unfilled>1e-9||no.unfilled>1e-9)return {accepted:false,reason:"INSUFFICIENT_DEPTH",yes,no};
- const calcFee=(model,fill,rate)=>{if(!model)return fill.costUsd*rate;if(!Number.isFinite(model.rate??model.coefficient)|| (model.rate??model.coefficient)<0)throw Error("INVALID_FEE_PARAMETER");if(model.type==="flat_rate")return fill.costUsd*model.rate;if(model.type==="kalshi_taker")return Math.ceil(100*model.coefficient*quantity*fill.avgPrice*(1-fill.avgPrice))/100;throw Error("UNKNOWN_FEE_MODEL")};
+ const calcFee=(model,fill,rate)=>{
+  if(!model)return fill.costUsd*rate;
+  const parameter=model.type==="flat_rate"?model.rate:model.type==="kalshi_taker"?model.coefficient:NaN;
+  if(!Number.isFinite(parameter)||parameter<0)throw Error("INVALID_FEE_PARAMETER");
+  if(model.type==="flat_rate")return fill.costUsd*parameter;
+  // Round each price level independently to avoid underestimating nonlinear fees.
+  let remaining=quantity,fee=0;
+  for(const level of normalizeAsks(fill.levels??[])){const n=Math.min(remaining,level.size);fee+=Math.ceil((100*parameter*n*level.price*(1-level.price))-1e-10)/100;remaining-=n;if(remaining<=1e-9)break}
+  return fee;
+ };
  if(feeModels&&(!Array.isArray(feeModels)||feeModels.length!==2))throw Error("INVALID_FEE_MODELS");
- const fees=round(calcFee(feeModels?.[0],yes,yesFeeRate)+calcFee(feeModels?.[1],no,noFeeRate)+fixedFeesUsd);
+ const fees=round(calcFee(feeModels?.[0],{...yes,levels:yesAsks},yesFeeRate)+calcFee(feeModels?.[1],{...no,levels:noAsks},noFeeRate)+fixedFeesUsd);
  const slippageReserve=round(quantity*2*latencySlippageCents/100);
  const costUsd=round(yes.costUsd+no.costUsd+fees+slippageReserve);
  const netProfitUsd=round(quantity-costUsd);
