@@ -1,5 +1,6 @@
 // Event-first cross-venue discovery. Read-only; never approves contracts or places orders.
-import {writeFile} from "node:fs/promises";
+import {writeFile,readFile} from "node:fs/promises";
+import {createHash} from "node:crypto";
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const PAGES=Math.max(1,Math.min(20,Number(process.env.ARB_EVENT_PAGES??8)));
 const MAX_PAIRS=Math.max(1,Math.min(100,Number(process.env.ARB_EVENT_CANDIDATES??40)));
@@ -126,6 +127,8 @@ function compatible(a,b){
  if(da&&db&&normalized(da)!==normalized(db))return false;
  return true;
 }
+const hash=s=>createHash("sha256").update(String(s??"")).digest("hex").slice(0,16);
+async function loadRejections(){try{const v=JSON.parse(await readFile("reports/rejected-pairs.json","utf8"));return v&&typeof v==="object"?v:{}}catch{return {}}}
 async function collect(){
  const report={timestamp:new Date().toISOString(),mode:"EVENT_FIRST_READ_ONLY",status:"COLLECTING",autoApproved:0,verifiedPairs:0,errors:[],counts:{},candidates:[],notes:["Event similarity is not proof of identical settlement rules.","No orders or paper entries are created.","Only manually reviewed contracts may be approved for simulation."]};
  const kalshi=[],poly=[];let cursor="";
@@ -193,7 +196,9 @@ async function collect(){
  eventMatches.sort((a,b)=>b.confidence-a.confidence);
  report.counts.eventMatches=eventMatches.length;
  report.counts.discoveryStrategy="bidirectional_inverted_index";
- const seen=new Set(),pool=[];
+ const rejected=await loadRejections(),seen=new Set(),pool=[];
+ const rejectReasons={};
+ const reject=(key,reason)=>{rejectReasons[reason]=(rejectReasons[reason]??0)+1;rejected[key]={reason,lastSeen:report.timestamp};};
  for(const {k,p,confidence} of eventMatches){
   for(const km of k.markets??[])for(const pm of p.markets??[]){
    if(!km.ticker||!pm.id||!km.title||!pm.question)continue;
@@ -212,18 +217,19 @@ async function collect(){
    const key=km.ticker+":"+pm.id;if(seen.has(key))continue;seen.add(key);
    const evidence=reviewEvidence(k,p,km,pm);
    evidence.ruleConflicts=settlementConflicts(evidence);
-   if(evidence.ruleConflicts.includes("interim_appointment_treatment"))continue;
+   if(evidence.ruleConflicts.includes("interim_appointment_treatment")){reject(key,"interim_appointment_treatment");continue;}
    // Different listed dates require review; they do not alone prove different payouts.
    const outcomes=parse(pm.outcomes),tokens=parse(pm.clobTokenIds);
    if(outcomes.length!==2||tokens.length!==2||!outcomes.includes("Yes")||!outcomes.includes("No"))continue;
    const eventText=normalized(k.title+" "+p.title);
    const category=/\b(?:election|president|senate|house|prime minister|governor|nomination|parliament|party)\b/.test(eventText)?"politics":/\b(?:football|soccer|nba|nfl|tennis|baseball|championship|world cup|premier league|ufc|f1)\b/.test(eventText)?"sports":/\b(?:bitcoin|ethereum|solana|crypto|btc|eth)\b/.test(eventText)?"crypto":/\b(?:inflation|fed|interest|treasury|gdp|unemployment|cpi|recession)\b/.test(eventText)?"economics":/\b(?:gold|silver|oil|stock|nasdaq|s&p)\b/.test(eventText)?"finance":"other";
    if(evidence.ruleConflicts.length)evidence.reviewPriority="RULE_DIFFERENCES_REQUIRE_REVIEW";
+   const settlementFingerprint={outcome:normalized(kalshiOutcome),kalshiRuleHash:hash([evidence.kalshiRules,evidence.kalshiSecondaryRules].join("|")),polymarketRuleHash:hash(evidence.polymarketDescription),kalshiClose:evidence.kalshiClose,polymarketEnd:evidence.polymarketEnd,conflicts:evidence.ruleConflicts};
    pool.push({
     category,eventScore:Number(confidence.toFixed(3)),contractScore:Number(scoreValue.toFixed(3)),
     kalshi:{eventTicker:k.event_ticker,title:km.title,subtitle:km.subtitle??null,outcomeLabel:kalshiOutcome,ticker:km.ticker,eventTitle:k.title,closeDate:day(km.close_time)},
     polymarket:{eventId:p.id,id:String(pm.id),eventTitle:p.title,title:pm.question,endDate:day(pm.endDate)},
-    reviewEvidence:evidence,reviewStatus:"UNVERIFIED_SETTLEMENT_RULES",approved:false,executable:false
+    settlementFingerprint,reviewEvidence:evidence,reviewStatus:"UNVERIFIED_SETTLEMENT_RULES",approved:false,executable:false
    });
   }
  }
@@ -249,6 +255,9 @@ async function collect(){
   }
  }
  report.counts.eligibleCandidatePool=pool.length;
+ report.counts.rejectedByReason=rejectReasons;
+ report.counts.rejectionCacheEntries=Object.keys(rejected).length;
+ await writeFile(process.env.ARB_REJECTION_OUTPUT??"arbitrage-rejected-pairs.json",JSON.stringify({timestamp:report.timestamp,rejections:rejected},null,2)+"\n");
  report.counts.dateMismatchCandidates=pool.filter(x=>x.reviewEvidence.differentEndDates).length;
  report.counts.ruleWarningCandidates=pool.filter(x=>x.reviewEvidence.ruleConflicts.length>0).length;
  report.counts.noRuleWarningCandidates=pool.filter(x=>x.reviewEvidence.ruleConflicts.length===0).length;
