@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T15:58:54.188Z",
+  "timestamp": "2026-10-20T15:59:37.512Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -12,7 +12,7 @@
     "kalshiSingleOutcomeMarkets": 1263,
     "kalshiMarkets": 1263,
     "polymarketMarkets": 2000,
-    "polymarketBinaryMarkets": 1651,
+    "polymarketBinaryMarkets": 1653,
     "titleCandidates": 0,
     "contractTypePolicy": "strict_same_kind",
     "kalshiPagesRequested": 20,
@@ -35,14 +35,14 @@
         "ticker": "KXLIGAPROMATCH-26OCT201215OLSKAL-KAL"
       },
       {
-        "title": "Will Josh Shapiro receive at least 63% of the popular vote in the 2026 Pennsylvania gubernatorial election?",
+        "title": "Will Susan Collins receive at least 49% of the popular vote in the first round of the 2026 Maine Senate election?",
         "subtitle": "",
-        "ticker": "KXVOTEGENERAL-GOVPARTYPA-26JSHA-63"
+        "ticker": "KXVOTEGENERAL-SENATEME-26SCOL-49"
       },
       {
-        "title": "Will Josh Shapiro receive at least 61% of the popular vote in the 2026 Pennsylvania gubernatorial election?",
+        "title": "Will Jon Ossoff receive at least 53% of the popular vote in the first round of the 2026 Georgia Senate election?",
         "subtitle": "",
-        "ticker": "KXVOTEGENERAL-GOVPARTYPA-26JSHA-61"
+        "ticker": "KXVOTEGENERAL-SENATEGA-26JOSS-53"
       }
     ],
     "polymarket": [
