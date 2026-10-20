@@ -53,6 +53,19 @@ function personSelection(text){
  if(/^(republicans?|democrats?|gop|a|an|someone|person\s+[a-z])$/.test(candidate))return null;
  return candidate;
 }
+function electionScope(text){
+ const t=normalized(text);
+ const states=["alabama","alaska","arizona","arkansas","california","colorado","connecticut","delaware","florida","georgia","hawaii","idaho","illinois","indiana","iowa","kansas","kentucky","louisiana","maine","maryland","massachusetts","michigan","minnesota","mississippi","missouri","montana","nebraska","nevada","new hampshire","new jersey","new mexico","new york","north carolina","north dakota","ohio","oklahoma","oregon","pennsylvania","rhode island","south carolina","south dakota","tennessee","texas","utah","vermont","virginia","washington","west virginia","wisconsin","wyoming"];
+ const state=states.find(x=>new RegExp("\\b"+x+"\\b").test(t))??null;
+ const district=/\b(?:al|ak|az|ar|ca|co|ct|de|fl|ga|hi|id|il|in|ia|ks|ky|la|me|md|ma|mi|mn|ms|mo|mt|ne|nv|nh|nj|nm|ny|nc|nd|oh|ok|or|pa|ri|sc|sd|tn|tx|ut|vt|va|wa|wv|wi|wy)-\d{1,2}\b/.exec(String(text).toLowerCase())?.[0]??null;
+ const national=/\b(?:control|majority|balance of power|win the house|win the senate)\b/.test(t);
+ return {state,district,national};
+}
+function scopeCompatible(a,b){
+ const x=electionScope(a),y=electionScope(b);
+ if(x.state!==y.state||x.district!==y.district||x.national!==y.national)return false;
+ return true;
+}
 function electionOutcome(text){
  const t=normalized(text);
  const party=/\b(?:republicans?|gop)\b/.test(t)?"republican":/\b(?:democrats?|democratic)\b/.test(t)?"democrat":null;
@@ -119,6 +132,7 @@ async function collect(){
    if(/^who will win/i.test(km.title)&&!String(km.subtitle??"").trim())continue;
    if(!compatible(kalshiOutcome,pm.question))continue;
    if(!electionCompatible(kalshiOutcome,pm.question))continue;
+   if(!scopeCompatible(kalshiOutcome,pm.question))continue;
    const kp=personSelection(kalshiOutcome),pp=personSelection(pm.question);
    if(kp!==pp&&(kp!==null||pp!==null))continue;
    const scoreValue=score([k.title,kalshiOutcome].join(" "),[p.title,pm.question].join(" "));
@@ -128,7 +142,7 @@ async function collect(){
    const outcomes=parse(pm.outcomes),tokens=parse(pm.clobTokenIds);
    if(outcomes.length!==2||tokens.length!==2||!outcomes.includes("Yes")||!outcomes.includes("No"))continue;
    const eventText=normalized(k.title+" "+p.title);
-   const category=/\\b(?:election|president|senate|house|prime minister|governor|nomination|parliament|party)\\b/.test(eventText)?"politics":/\\b(?:football|soccer|nba|nfl|tennis|baseball|championship|world cup|premier league|ufc|f1)\\b/.test(eventText)?"sports":/\\b(?:bitcoin|ethereum|solana|crypto|btc|eth)\\b/.test(eventText)?"crypto":/\\b(?:inflation|fed|interest|treasury|gdp|unemployment|cpi|recession)\\b/.test(eventText)?"economics":/\\b(?:gold|silver|oil|stock|nasdaq|s\\&p)\\b/.test(eventText)?"finance":"other";
+   const category=/\b(?:election|president|senate|house|prime minister|governor|nomination|parliament|party)\b/.test(eventText)?"politics":/\b(?:football|soccer|nba|nfl|tennis|baseball|championship|world cup|premier league|ufc|f1)\b/.test(eventText)?"sports":/\b(?:bitcoin|ethereum|solana|crypto|btc|eth)\b/.test(eventText)?"crypto":/\b(?:inflation|fed|interest|treasury|gdp|unemployment|cpi|recession)\b/.test(eventText)?"economics":/\b(?:gold|silver|oil|stock|nasdaq|s&p)\b/.test(eventText)?"finance":"other";
    pool.push({
     category,eventScore:Number(confidence.toFixed(3)),contractScore:Number(scoreValue.toFixed(3)),
     kalshi:{eventTicker:k.event_ticker,title:km.title,subtitle:km.subtitle??null,outcomeLabel:kalshiOutcome,ticker:km.ticker,eventTitle:k.title,closeDate:day(km.close_time)},
