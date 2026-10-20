@@ -303,6 +303,8 @@ async function collect(){
  report.counts.dateMismatchCandidates=pool.filter(x=>x.reviewEvidence.differentEndDates).length;
  report.counts.ruleWarningCandidates=pool.filter(x=>x.reviewEvidence.ruleConflicts.length>0).length;
  report.counts.noRuleWarningCandidates=pool.filter(x=>x.reviewEvidence.ruleConflicts.length===0).length;
+ report.counts.settlementVerifiedCandidates=0;
+ report.counts.manualSettlementReviewRequired=pool.length;
  report.counts.uniqueEligibleEventPairs=new Set(pool.map(x=>String(x.kalshi.eventTicker)+"|"+String(x.polymarket.eventId))).size;
  report.counts.candidateCategories=Object.fromEntries(categories.map(c=>[c,report.candidates.filter(x=>x.category===c).length]));
  report.counts.uniqueMatchedEventPairs=eventUsed.size;
