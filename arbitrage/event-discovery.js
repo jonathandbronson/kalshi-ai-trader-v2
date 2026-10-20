@@ -2,7 +2,7 @@
 import {writeFile,readFile} from "node:fs/promises";
 import {createHash} from "node:crypto";
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
-const PAGES=Math.max(1,Math.min(20,Number(process.env.ARB_EVENT_PAGES??12)));
+const PAGES=Math.max(1,Math.min(20,Number(process.env.ARB_EVENT_PAGES??8)));
 const MAX_PAIRS=Math.max(1,Math.min(100,Number(process.env.ARB_EVENT_CANDIDATES??40)));
 async function json(url){
  for(let n=0;n<4;n++){
