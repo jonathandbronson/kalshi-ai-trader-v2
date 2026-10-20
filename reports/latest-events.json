@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T16:46:53.849Z",
+  "timestamp": "2026-10-20T16:47:48.465Z",
   "mode": "EVENT_FIRST_READ_ONLY",
   "status": "COLLECTED",
   "autoApproved": 0,
@@ -15,28 +15,28 @@
       },
       "Economics": {
         "kalshiSeries": 3,
-        "kalshiEvents": 1,
+        "kalshiEvents": 2,
         "polyTags": 2,
         "polyEvents": 18
       },
       "Financials": {
         "kalshiSeries": 3,
-        "kalshiEvents": 2,
-        "polyTags": 0,
-        "polyEvents": 0
+        "kalshiEvents": 1,
+        "polyTags": 50,
+        "polyEvents": 166
       },
       "Crypto": {
         "kalshiSeries": 3,
         "kalshiEvents": 1,
-        "polyTags": 0,
-        "polyEvents": 0
+        "polyTags": 50,
+        "polyEvents": 166
       }
     },
     "categorySourceErrors": 0,
     "kalshiEvents": 804,
-    "polymarketEvents": 1218,
-    "kalshiNestedMarkets": 6387,
-    "polymarketNestedMarkets": 21006,
+    "polymarketEvents": 1357,
+    "kalshiNestedMarkets": 6418,
+    "polymarketNestedMarkets": 22297,
     "eventPagesRequested": 8,
     "polymarketDiscoverySources": [
       "volume24hr",
@@ -47,7 +47,7 @@
       "open_cursor_pagination",
       "series_ticker"
     ],
-    "eventMatches": 1078,
+    "eventMatches": 1101,
     "eventMatchThreshold": {
       "minimumSharedTokens": 2,
       "minimumSimilarity": 0.52
@@ -59,24 +59,24 @@
       "crypto": 0,
       "economics": 216,
       "finance": 0,
-      "other": 47
+      "other": 70
     },
     "sourceEventCategories": {
       "kalshi": {
         "politics": 141,
         "sports": 13,
-        "crypto": 2,
+        "crypto": 1,
         "economics": 62,
         "finance": 0,
-        "other": 586
+        "other": 587
       },
       "polymarket": {
-        "politics": 95,
+        "politics": 98,
         "sports": 22,
-        "crypto": 143,
-        "economics": 30,
+        "crypto": 150,
+        "economics": 31,
         "finance": 11,
-        "other": 917
+        "other": 1045
       }
     },
     "discoveryCoverageWarning": [
@@ -94,8 +94,10 @@
       "finance": 0,
       "other": 0
     },
-    "rejectedByReason": {},
-    "rejectionCacheEntries": 279,
+    "rejectedByReason": {
+      "different_meeting_deadline_year": 81
+    },
+    "rejectionCacheEntries": 360,
     "rejectionCacheLoaded": 279,
     "cachedRejections": 279,
     "dateMismatchCandidates": 51,
