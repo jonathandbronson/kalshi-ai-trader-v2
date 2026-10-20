@@ -2,7 +2,7 @@ import test from "node:test";import assert from "node:assert/strict";
 import {kalshiDepth,polyDepth,fetchPairDepth} from "./live-adapters.js";
 import {PaperPortfolio} from "./simulator.js";
 import {runPaperCycle} from "./paper-live-engine.js";
-const pair={id:"demo",kalshiTicker:"TEST",polymarketId:"789",polyYesTokenId:"123",polyNoTokenId:"456",approved:true,settlementReviewed:true,yesMeansSameOutcome:true,settlementEvidenceVerified:true};
+const pair={id:"demo",kalshiTicker:"TEST",polymarketId:"789",polyYesTokenId:"123",polyNoTokenId:"456",approved:true,settlementReviewed:true,yesMeansSameOutcome:true,settlementEvidenceVerified:true,kalshiFeeModel:{type:"kalshi_taker",coefficient:.07},polymarketFeeModel:{type:"flat_rate",rate:0}};
 const mock=async url=>({ok:true,json:async()=>{
  if(url.includes("kalshi"))return {orderbook_fp:{yes_dollars:[["0.60","20.00"]],no_dollars:[["0.60","20.00"]]}};
  if(url.includes("gamma-api"))return {active:true,closed:false,outcomes:'["Yes","No"]',clobTokenIds:'["123","456"]',conditionId:"0xabc"};
@@ -15,3 +15,5 @@ test("mock API data to paper portfolio and deduplication",async()=>{const p=new 
 test("unapproved pairs cannot fetch",async()=>{const p=new PaperPortfolio();const r=await runPaperCycle({pairs:[{...pair,approved:false}],portfolio:p,fetcher:()=>{throw Error("called")}});assert.equal(r.results[0].error,"PAIR_NOT_APPROVED")});
 test("wrong Polymarket outcome token fails closed",async()=>{const bad={...pair,polyNoTokenId:"999"};await assert.rejects(()=>fetchPairDepth(bad,mock),/POLYMARKET_METADATA_MISMATCH/)});
 test("wrong book asset id fails closed",async()=>{const bad=async url=>{const r=await mock(url);if(url.includes("clob.polymarket.com")&&url.includes("123"))return {ok:true,json:async()=>({...await r.json(),asset_id:"999"})};return r};await assert.rejects(()=>fetchPairDepth(pair,bad),/POLYMARKET_BOOK_TOKEN_MISMATCH/)});
+
+test("missing venue fee schedule prevents paper entries",async()=>{const p=new PaperPortfolio();const r=await runPaperCycle({pairs:[{...pair,polymarketFeeModel:undefined}],portfolio:p,fetcher:mock,quantity:5});assert.equal(p.positions.length,0);assert.equal(r.results[0].reason,"VENUE_FEE_MODELS_REQUIRED")});
