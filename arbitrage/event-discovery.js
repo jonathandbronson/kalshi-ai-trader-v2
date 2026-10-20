@@ -211,7 +211,7 @@ async function collect(){
  report.counts.eventMatches=eventMatches.length;
  report.counts.discoveryStrategy="bidirectional_inverted_index";
  const rejected=await loadRejections(),seen=new Set(),pool=[];
- const rejectReasons={};
+ const rejectReasons={};let cachedRejections=0;
  const reject=(key,reason)=>{rejectReasons[reason]=(rejectReasons[reason]??0)+1;rejected[key]={reason,lastSeen:report.timestamp};};
  for(const {k,p,confidence} of eventMatches){
   for(const km of k.markets??[])for(const pm of p.markets??[]){
@@ -231,8 +231,10 @@ async function collect(){
    if(contractOverlap.length<2||scoreValue<0.55)continue;
    const key=km.ticker+":"+pm.id;if(seen.has(key))continue;seen.add(key);
    const evidence=reviewEvidence(k,p,km,pm);
+   const rulesHash=hash([evidence.kalshiRules,evidence.kalshiSecondaryRules,evidence.polymarketDescription].join("|"));
+   if(rejected[key]?.reason==="interim_appointment_treatment"&&rejected[key]?.rulesHash===rulesHash){cachedRejections++;continue;}
    evidence.ruleConflicts=settlementConflicts(evidence);
-   if(evidence.ruleConflicts.includes("interim_appointment_treatment")){reject(key,"interim_appointment_treatment");continue;}
+   if(evidence.ruleConflicts.includes("interim_appointment_treatment")){reject(key,"interim_appointment_treatment");rejected[key].rulesHash=rulesHash;continue;}
    // Different listed dates require review; they do not alone prove different payouts.
    const outcomes=parse(pm.outcomes),tokens=parse(pm.clobTokenIds);
    if(outcomes.length!==2||tokens.length!==2||!outcomes.includes("Yes")||!outcomes.includes("No"))continue;
@@ -272,6 +274,7 @@ async function collect(){
  report.counts.eligibleCandidatePool=pool.length;
  report.counts.rejectedByReason=rejectReasons;
  report.counts.rejectionCacheEntries=Object.keys(rejected).length;
+ report.counts.cachedRejections=cachedRejections;
  await writeFile(process.env.ARB_REJECTION_OUTPUT??"arbitrage-rejected-pairs.json",JSON.stringify({timestamp:report.timestamp,rejections:rejected},null,2)+"\n");
  report.counts.dateMismatchCandidates=pool.filter(x=>x.reviewEvidence.differentEndDates).length;
  report.counts.ruleWarningCandidates=pool.filter(x=>x.reviewEvidence.ruleConflicts.length>0).length;
