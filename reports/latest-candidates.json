@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T16:10:04.571Z",
+  "timestamp": "2026-10-20T16:11:00.107Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -12,15 +12,53 @@
     "kalshiSingleOutcomeMarkets": 1239,
     "kalshiMarkets": 1239,
     "polymarketMarkets": 2000,
-    "polymarketBinaryMarkets": 1674,
-    "titleCandidates": 0,
+    "polymarketBinaryMarkets": 1667,
+    "titleCandidates": 1,
     "contractTypePolicy": "strict_same_kind",
     "kalshiPagesRequested": 20,
     "kalshiPoolCap": 1200,
     "polymarketPagesRequested": 20,
-    "orderbooksChecked": 0
+    "orderbooksChecked": 1
   },
-  "candidates": [],
+  "candidates": [
+    {
+      "score": 0.816,
+      "kalshi": {
+        "ticker": "KXUCLTCORNERS-26OCT21RMARBL-RMA7",
+        "title": "Real Madrid: 7+ corners",
+        "subtitle": "",
+        "rulesPrimary": "If Real Madrid records at least 7+ corners during the entire game (regulation, stoppage and any extra time periods) of the Real Madrid vs Leipzig professional Champions League soccer game originally scheduled for Oct 21, 2026, then the mark",
+        "rulesSecondary": "Kalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+        "closeDate": "2026-10-23"
+      },
+      "polymarket": {
+        "id": "5436649",
+        "title": "Will Real Madrid CF win on 2026-10-21?",
+        "description": "In the upcoming game, scheduled for October 21, 2026\nIf Real Madrid CF wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been comp",
+        "resolutionSource": "https://www.uefa.com/",
+        "endDate": "2026-10-21"
+      },
+      "dateDifferenceDays": 2,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.79,
+        "polymarketNoAsk": 0.22,
+        "kalshiYesAskSize": 781,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 34565.32,
+        "polymarketNoAskSize": 932.74
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.21,
+          "grossSpreadPerShare": -0.21
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    }
+  ],
   "errors": [],
   "samples": {
     "kalshi": [
