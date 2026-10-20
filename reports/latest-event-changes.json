@@ -1,23 +1,31 @@
 {
-  "timestamp": "2026-10-20T16:09:02.606Z",
+  "timestamp": "2026-10-20T16:09:49.020Z",
   "status": "SHORTLIST_DIFF_ONLY",
   "currentScanStatus": "COLLECTED",
   "previousScanStatus": "COLLECTED",
-  "previousTimestamp": "2026-10-20T16:07:15.117Z",
+  "previousTimestamp": "2026-10-20T16:08:02.691Z",
   "counts": {
     "previous": 40,
     "current": 40,
-    "added": 2,
-    "removed": 2
+    "added": 6,
+    "removed": 6
   },
   "shortlistTruncated": true,
   "added": [
-    "KXNEXTROMANIAPM-45JAN01-VDIN|2166680",
-    "KXPUTINZELENSKYYLOCATION-28-HUNG|667085"
+    "SENATEGA-28-R|630693",
+    "SENATEFL-28-R|631045",
+    "SENATESC-28-R|630925",
+    "SENATEOH-28-R|631058",
+    "SENATEKS-28-R|630747",
+    "SENATESC-28-R|5972006"
   ],
   "removed": [
-    "KXPUTINZELENSKYYLOCATION-28-SWZ|2364952",
-    "KXOSCARSUPACTR-27-PEN|5686242"
+    "KXNEXTROMANIAPM-45JAN01-ELAS|2166678",
+    "KXPUTINZELENSKYYLOCATION-28-HUNG|667079",
+    "KXNEXTROMANIAPM-45JAN01-CDRU|2166679",
+    "KXPUTINZELENSKYYLOCATION-28-HUNG|667080",
+    "KXNEXTROMANIAPM-45JAN01-VDIN|2166680",
+    "KXPUTINZELENSKYYLOCATION-28-HUNG|667085"
   ],
   "notes": [
     "Only compares the candidate shortlist, not the entire event universe.",
