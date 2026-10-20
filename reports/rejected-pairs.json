@@ -1,37 +1,45 @@
 {
-  "timestamp": "2026-10-20T16:08:02.691Z",
+  "timestamp": "2026-10-20T16:08:54.081Z",
   "rejections": {
     "KXNEXTISRAELPM-45JAN01-NBEN:682706": {
       "reason": "interim_appointment_treatment",
-      "lastSeen": "2026-10-20T16:08:02.691Z"
+      "lastSeen": "2026-10-20T16:08:54.081Z",
+      "rulesHash": "ea208dffd2d963e3"
     },
     "KXNEXTISRAELPM-45JAN01-YLEV:682715": {
       "reason": "interim_appointment_treatment",
-      "lastSeen": "2026-10-20T16:08:02.691Z"
+      "lastSeen": "2026-10-20T16:08:54.081Z",
+      "rulesHash": "a400ea20086b7a8a"
     },
     "KXNEXTISRAELPM-45JAN01-IKAT:682719": {
       "reason": "interim_appointment_treatment",
-      "lastSeen": "2026-10-20T16:08:02.691Z"
+      "lastSeen": "2026-10-20T16:08:54.081Z",
+      "rulesHash": "26187d57e1067239"
     },
     "KXNEXTISRAELPM-45JAN01-BGAN:682709": {
       "reason": "interim_appointment_treatment",
-      "lastSeen": "2026-10-20T16:08:02.691Z"
+      "lastSeen": "2026-10-20T16:08:54.081Z",
+      "rulesHash": "c4ac8788934bc56f"
     },
     "KXNEXTISRAELPM-45JAN01-YLAP:682707": {
       "reason": "interim_appointment_treatment",
-      "lastSeen": "2026-10-20T16:08:02.691Z"
+      "lastSeen": "2026-10-20T16:08:54.081Z",
+      "rulesHash": "ec4f742a017023ed"
     },
     "KXNEXTISRAELPM-45JAN01-YCOH:682711": {
       "reason": "interim_appointment_treatment",
-      "lastSeen": "2026-10-20T16:08:02.691Z"
+      "lastSeen": "2026-10-20T16:08:54.081Z",
+      "rulesHash": "a8b26a61a13c5157"
     },
     "KXNEXTISRAELPM-45JAN01-ALIE:682710": {
       "reason": "interim_appointment_treatment",
-      "lastSeen": "2026-10-20T16:08:02.691Z"
+      "lastSeen": "2026-10-20T16:08:54.081Z",
+      "rulesHash": "8854b48cf9662591"
     },
     "KXNEXTISRAELPM-45JAN01-YGOL:682712": {
       "reason": "interim_appointment_treatment",
-      "lastSeen": "2026-10-20T16:08:02.691Z"
+      "lastSeen": "2026-10-20T16:08:54.081Z",
+      "rulesHash": "e498d562803eb1b9"
     }
   }
 }
