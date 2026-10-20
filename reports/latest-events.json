@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T16:02:26.461Z",
+  "timestamp": "2026-10-20T16:03:01.318Z",
   "mode": "EVENT_FIRST_READ_ONLY",
   "status": "COLLECTED",
   "autoApproved": 0,
@@ -9,11 +9,13 @@
     "kalshiEvents": 400,
     "polymarketEvents": 400,
     "kalshiNestedMarkets": 2856,
-    "polymarketNestedMarkets": 9980,
+    "polymarketNestedMarkets": 9898,
     "eventPagesRequested": 4,
     "eventMatches": 155,
     "discoveryStrategy": "bidirectional_inverted_index",
     "eligibleCandidatePool": 38,
+    "dateMismatchCandidates": 38,
+    "uniqueEligibleEventPairs": 2,
     "candidateCategories": {
       "politics": 38
     },
