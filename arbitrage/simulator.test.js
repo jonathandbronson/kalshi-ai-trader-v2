@@ -13,3 +13,6 @@ test("stress test mismatched settlement",()=>{const p=new PaperPortfolio();const
 
 test("rejects positive spread below 2 percent net ROI",()=>{const q=simulatePair({yesAsks:[{price:.49,size:10}],noAsks:[{price:.49,size:10}],quantity:5,approved:true,settlementEvidenceVerified:true});assert.equal(q.reason,"BELOW_MIN_NET_ROI")});
 test("approved alone does not bypass evidence gate",()=>{const q=simulatePair({yesAsks:yes,noAsks:no,quantity:5,approved:true});assert.equal(q.reason,"SETTLEMENT_NOT_VERIFIED")});
+
+test("explicit fee models reduce modeled net return",()=>{const a=simulatePair({yesAsks:yes,noAsks:no,quantity:5,approved:true,settlementEvidenceVerified:true,feeModels:[{type:"kalshi_taker",coefficient:.07},{type:"flat_rate",rate:.02}]});assert.equal(a.accepted,true);assert.ok(a.feesUsd>0)});
+test("invalid fee coefficient fails closed",()=>assert.throws(()=>simulatePair({yesAsks:yes,noAsks:no,quantity:5,approved:true,settlementEvidenceVerified:true,feeModels:[{type:"kalshi_taker",coefficient:-1},{type:"flat_rate",rate:0}]}),/INVALID_FEE_PARAMETER/));
