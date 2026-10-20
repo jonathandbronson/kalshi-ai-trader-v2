@@ -11,6 +11,7 @@ on:
       - 'arbitrage/event-changes.js'
       - 'arbitrage/simulator.js'
       - 'arbitrage/simulator.test.js'
+      - 'arbitrage/fixtures.js'
       - 'arbitrage/paper-live-engine.js'
       - 'arbitrage/paper-live-engine.test.js'
       - '.github/workflows/arbitrage-candidates.yml'
