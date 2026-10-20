@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T16:45:56.875Z",
+  "timestamp": "2026-10-20T16:46:53.849Z",
   "mode": "EVENT_FIRST_READ_ONLY",
   "status": "COLLECTED",
   "autoApproved": 0,
@@ -15,28 +15,28 @@
       },
       "Economics": {
         "kalshiSeries": 3,
-        "kalshiEvents": 2,
+        "kalshiEvents": 1,
         "polyTags": 2,
         "polyEvents": 18
       },
       "Financials": {
         "kalshiSeries": 3,
-        "kalshiEvents": 3,
+        "kalshiEvents": 2,
         "polyTags": 0,
         "polyEvents": 0
       },
       "Crypto": {
         "kalshiSeries": 3,
-        "kalshiEvents": 3,
+        "kalshiEvents": 1,
         "polyTags": 0,
         "polyEvents": 0
       }
     },
     "categorySourceErrors": 0,
-    "kalshiEvents": 808,
-    "polymarketEvents": 1208,
-    "kalshiNestedMarkets": 6801,
-    "polymarketNestedMarkets": 21001,
+    "kalshiEvents": 804,
+    "polymarketEvents": 1218,
+    "kalshiNestedMarkets": 6387,
+    "polymarketNestedMarkets": 21006,
     "eventPagesRequested": 8,
     "polymarketDiscoverySources": [
       "volume24hr",
@@ -47,7 +47,7 @@
       "open_cursor_pagination",
       "series_ticker"
     ],
-    "eventMatches": 1080,
+    "eventMatches": 1078,
     "eventMatchThreshold": {
       "minimumSharedTokens": 2,
       "minimumSimilarity": 0.52
@@ -59,24 +59,24 @@
       "crypto": 0,
       "economics": 216,
       "finance": 0,
-      "other": 49
+      "other": 47
     },
     "sourceEventCategories": {
       "kalshi": {
         "politics": 141,
         "sports": 13,
-        "crypto": 1,
+        "crypto": 2,
         "economics": 62,
-        "finance": 1,
-        "other": 590
+        "finance": 0,
+        "other": 586
       },
       "polymarket": {
         "politics": 95,
         "sports": 22,
-        "crypto": 139,
+        "crypto": 143,
         "economics": 30,
         "finance": 11,
-        "other": 911
+        "other": 917
       }
     },
     "discoveryCoverageWarning": [
