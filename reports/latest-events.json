@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T15:59:20.141Z",
+  "timestamp": "2026-10-20T15:59:59.710Z",
   "mode": "EVENT_FIRST_READ_ONLY",
   "status": "COLLECTED",
   "autoApproved": 0,
@@ -12,6 +12,7 @@
     "polymarketNestedMarkets": 9867,
     "eventPagesRequested": 4,
     "eventMatches": 155,
+    "discoveryStrategy": "bidirectional_inverted_index",
     "eligibleCandidatePool": 0,
     "candidateCategories": {},
     "uniqueMatchedEventPairs": 0,
