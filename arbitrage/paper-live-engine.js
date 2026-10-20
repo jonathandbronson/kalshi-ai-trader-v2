@@ -1,6 +1,6 @@
 import {fetchPairDepth} from "./live-adapters.js";
 import {PaperPortfolio,simulatePair} from "./simulator.js";
-export async function runPaperCycle({pairs,portfolio,fetcher=fetch,quantity=10,yesFeeRate=.02,noFeeRate=.02,latencySlippageCents=1,maxFetchMs=5000}){
+export async function runPaperCycle({pairs,portfolio,fetcher=fetch,quantity=10,yesFeeRate=.02,noFeeRate=.02,latencySlippageCents=1,maxFetchMs=5000,minNetRoi=.02}){
  const results=[];
  for(const pair of pairs){
   if(!pair.approved||!pair.settlementReviewed||!pair.yesMeansSameOutcome||pair.settlementEvidenceVerified!==true){results.push({pairId:pair.id,error:"PAIR_NOT_APPROVED"});continue}
@@ -10,7 +10,7 @@ export async function runPaperCycle({pairs,portfolio,fetcher=fetch,quantity=10,y
    for(const [direction,yesAsks,noAsks] of [["KALSHI_YES_POLY_NO",b.kalshi.yes,b.polyNo],["POLY_YES_KALSHI_NO",b.polyYes,b.kalshi.no]]){
     const exists=portfolio.positions.some(x=>x.settlementStatus==="OPEN"&&x.pairId===pair.id&&x.direction===direction);
     if(exists){results.push({pairId:pair.id,direction,reason:"DUPLICATE_OPEN_POSITION"});continue}
-    const quote={pairId:pair.id,direction,yesAsks,noAsks,quantity,yesFeeRate,noFeeRate,latencySlippageCents,approved:true,settlementEvidenceVerified:true,minNetRoi:.02};
+    const quote={pairId:pair.id,direction,yesAsks,noAsks,quantity,yesFeeRate,noFeeRate,latencySlippageCents,approved:true,settlementEvidenceVerified:true,minNetRoi};
     const result=portfolio.enter(quote);results.push({pairId:pair.id,direction,...result});
    }
   }catch(e){results.push({pairId:pair.id,error:e.message})}
