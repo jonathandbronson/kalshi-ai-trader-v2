@@ -14,6 +14,10 @@ on:
       - 'arbitrage/fixtures.js'
       - 'arbitrage/paper-live-engine.js'
       - 'arbitrage/paper-live-engine.test.js'
+      - 'arbitrage/spread-observer.js'
+      - 'arbitrage/spread-observer.test.js'
+      - 'arbitrage/spread-observer-cli.js'
+      - 'arbitrage/approved-pairs.json'
       - '.github/workflows/arbitrage-candidates.yml'
 jobs:
   discovery:
@@ -39,6 +43,9 @@ jobs:
         run: node arbitrage/candidate-discovery.js
       - name: Discover event-first candidate pairs (read only)
         run: node arbitrage/event-discovery.js
+      - name: Observe spreads on manually verified watchlist (read only)
+        if: success()
+        run: node arbitrage/spread-observer-cli.js
       - name: Compare new event candidates with previous report
         if: success()
         run: node arbitrage/event-changes.js
@@ -88,6 +95,9 @@ jobs:
             } else {
               await publish('reports/latest-event-failure.json',eventReport);
             }
+            if (fs.existsSync('arbitrage-spread-observations.json')) {
+              await publish('reports/latest-spread-observations.json',fs.readFileSync('arbitrage-spread-observations.json','utf8'));
+            }
             if (fs.existsSync('arbitrage-rejected-pairs.json')) {
               await publish('reports/rejected-pairs.json',fs.readFileSync('arbitrage-rejected-pairs.json','utf8'));
             }
@@ -104,4 +114,5 @@ jobs:
             arbitrage-events.json
             arbitrage-event-changes.json
             arbitrage-rejected-pairs.json
+            arbitrage-spread-observations.json
           if-no-files-found: warn
