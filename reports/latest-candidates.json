@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T08:05:16.715Z",
+  "timestamp": "2026-10-20T08:06:41.839Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -9,10 +9,10 @@
   ],
   "counts": {
     "kalshiRawMarkets": 1400,
-    "kalshiSingleOutcomeMarkets": 1220,
-    "kalshiMarkets": 1220,
+    "kalshiSingleOutcomeMarkets": 1223,
+    "kalshiMarkets": 1223,
     "polymarketMarkets": 2000,
-    "polymarketBinaryMarkets": 1773,
+    "polymarketBinaryMarkets": 1776,
     "titleCandidates": 0,
     "contractTypePolicy": "strict_same_kind",
     "kalshiPagesRequested": 20,
@@ -25,24 +25,24 @@
   "samples": {
     "kalshi": [
       {
-        "title": "Cincinnati (Pablo) wins",
+        "title": "Over 199.5 points scored",
         "subtitle": "",
-        "ticker": "KXEFOOTBALLGAME-26OCT200446PABLJOSH-PABL"
+        "ticker": "KXFIBACHAMPTOTAL-26OCT201200SVVSZO-200"
       },
       {
-        "title": "Chicago (Joshua) wins",
+        "title": "Over 189.5 points scored",
         "subtitle": "",
-        "ticker": "KXEFOOTBALLGAME-26OCT200446PABLJOSH-JOSH"
+        "ticker": "KXFIBACHAMPTOTAL-26OCT201200SVVSZO-190"
       },
       {
-        "title": "Sergeevich Igor wins",
+        "title": "Over 179.5 points scored",
         "subtitle": "",
-        "ticker": "KXLIGAPROMATCH-26OCT200415SERKAR-SER"
+        "ticker": "KXFIBACHAMPTOTAL-26OCT201200SVVSZO-180"
       },
       {
-        "title": "Karpovkin Gennadiy wins",
+        "title": "Over 169.5 points scored",
         "subtitle": "",
-        "ticker": "KXLIGAPROMATCH-26OCT200415SERKAR-KAR"
+        "ticker": "KXFIBACHAMPTOTAL-26OCT201200SVVSZO-170"
       }
     ],
     "polymarket": [
