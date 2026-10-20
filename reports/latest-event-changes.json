@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-20T08:04:22.386Z",
-  "status": "SHORTLIST_DIFF_ONLY",
+  "timestamp": "2026-10-20T08:05:02.009Z",
+  "status": "DIFF_ONLY",
   "currentScanStatus": "COLLECTED",
   "previousScanStatus": "COLLECTED",
   "previousTimestamp": "2026-10-19T17:46:38.211Z",
@@ -10,7 +10,6 @@
     "added": 16,
     "removed": 16
   },
-  "shortlistTruncated": true,
   "added": [
     "KXNEXTROMANIAPM-45JAN01-SMAT|2166691",
     "KXNEXTROMANIAPM-45JAN01-RBUR|2166690",
@@ -49,7 +48,7 @@
   ],
   "notes": [
     "Only compares the candidate shortlist, not the entire event universe.",
-    "Disappearance from the capped shortlist does not mean an event closed or a market disappeared.",
+    "Disappearance from the shortlist does not mean an event closed.",
     "No settlement verification or trade approval."
   ]
 }
