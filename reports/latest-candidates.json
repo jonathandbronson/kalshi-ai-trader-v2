@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T16:09:17.066Z",
+  "timestamp": "2026-10-20T16:10:04.571Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -12,7 +12,7 @@
     "kalshiSingleOutcomeMarkets": 1239,
     "kalshiMarkets": 1239,
     "polymarketMarkets": 2000,
-    "polymarketBinaryMarkets": 1671,
+    "polymarketBinaryMarkets": 1674,
     "titleCandidates": 0,
     "contractTypePolicy": "strict_same_kind",
     "kalshiPagesRequested": 20,
@@ -30,19 +30,19 @@
         "ticker": "KXNHLSAVE-26OCT20BOSDAL-DALJOETTINGER29-24"
       },
       {
-        "title": "Veljko Simic: First Goalscorer",
+        "title": "4th Quarter: Over 66.5 points scored",
         "subtitle": "",
-        "ticker": "KXUCLFIRSTGOAL-26OCT20SBHBVB-SBHVSIMIC21"
+        "ticker": "KXNBA4QTOTAL-26OCT21DALHOU-67"
       },
       {
-        "title": "Umarli Rahmonaliev: First Goalscorer",
+        "title": "4th Quarter: Over 64.5 points scored",
         "subtitle": "",
-        "ticker": "KXUCLFIRSTGOAL-26OCT20SBHBVB-SBHURAHMO7"
+        "ticker": "KXNBA4QTOTAL-26OCT21DALHOU-65"
       },
       {
-        "title": "Tymoteusz Puchacz: First Goalscorer",
+        "title": "4th Quarter: Over 62.5 points scored",
         "subtitle": "",
-        "ticker": "KXUCLFIRSTGOAL-26OCT20SBHBVB-SBHTPUCHA27"
+        "ticker": "KXNBA4QTOTAL-26OCT21DALHOU-63"
       }
     ],
     "polymarket": [
