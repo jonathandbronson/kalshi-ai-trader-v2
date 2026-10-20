@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T16:08:54.081Z",
+  "timestamp": "2026-10-20T16:09:40.680Z",
   "mode": "EVENT_FIRST_READ_ONLY",
   "status": "COLLECTED",
   "autoApproved": 0,
@@ -9,7 +9,7 @@
     "kalshiEvents": 800,
     "polymarketEvents": 1188,
     "kalshiNestedMarkets": 6360,
-    "polymarketNestedMarkets": 20776,
+    "polymarketNestedMarkets": 20528,
     "eventPagesRequested": 8,
     "polymarketDiscoverySources": [
       "volume24hr",
@@ -17,21 +17,29 @@
     ],
     "eventMatches": 893,
     "discoveryStrategy": "bidirectional_inverted_index",
-    "eligibleCandidatePool": 317,
+    "eventMatchCategories": {
+      "politics": 838,
+      "sports": 1,
+      "crypto": 0,
+      "economics": 4,
+      "finance": 0,
+      "other": 50
+    },
+    "eligibleCandidatePool": 323,
     "rejectedByReason": {
       "interim_appointment_treatment": 8
     },
     "rejectionCacheEntries": 8,
     "cachedRejections": 0,
-    "dateMismatchCandidates": 317,
-    "ruleWarningCandidates": 47,
-    "noRuleWarningCandidates": 270,
-    "uniqueEligibleEventPairs": 3,
+    "dateMismatchCandidates": 323,
+    "ruleWarningCandidates": 48,
+    "noRuleWarningCandidates": 275,
+    "uniqueEligibleEventPairs": 9,
     "candidateCategories": {
-      "other": 20,
-      "politics": 20
+      "other": 17,
+      "politics": 23
     },
-    "uniqueMatchedEventPairs": 3,
+    "uniqueMatchedEventPairs": 9,
     "candidates": 40
   },
   "candidates": [
@@ -70,6 +78,110 @@
         "polymarketResolutionSource": "",
         "kalshiClose": "2028-12-31",
         "polymarketEnd": "2027-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.866,
+      "contractScore": 0.913,
+      "kalshi": {
+        "eventTicker": "SENATEGA-28",
+        "title": "Will Republicans win the Senate race in Georgia?",
+        "subtitle": "::",
+        "outcomeLabel": "Will Republicans win the Senate race in Georgia? ::",
+        "ticker": "SENATEGA-28-R",
+        "eventTitle": "Georgia Senate winner? (2028)",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "57642",
+        "id": "630693",
+        "eventTitle": "Georgia Senate Election Winner",
+        "title": "Will the Republicans win the Georgia Senate race in 2026?",
+        "endDate": "2026-11-04"
+      },
+      "settlementFingerprint": {
+        "outcome": "will republicans win the senate race in georgia",
+        "kalshiRuleHash": "348000cd237a8b10",
+        "polymarketRuleHash": "d9337001920aae60",
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Georgia for the term beginning in 2029, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm Georgia U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+        "polymarketResolutionSource": null,
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.866,
+      "contractScore": 0.913,
+      "kalshi": {
+        "eventTicker": "SENATEFL-28",
+        "title": "Will Republicans win the Senate race in Florida?",
+        "subtitle": "::",
+        "outcomeLabel": "Will Republicans win the Senate race in Florida? ::",
+        "ticker": "SENATEFL-28-R",
+        "eventTitle": "Florida Senate winner? (2028)",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "57681",
+        "id": "631045",
+        "eventTitle": "Florida Senate Election Winner",
+        "title": "Will the Republicans win the Florida Senate race in 2026?",
+        "endDate": "2026-11-04"
+      },
+      "settlementFingerprint": {
+        "outcome": "will republicans win the senate race in florida",
+        "kalshiRuleHash": "0ce87b3d2a307296",
+        "polymarketRuleHash": "abee5a06f7ce6d3c",
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Florida for the term beginning in 2029, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the winner of the 2026 Florida U.S. Senate special election currently scheduled for November 3, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
         "differentEndDates": true,
         "manualChecks": [
           "same_exact_outcome",
@@ -147,6 +259,58 @@
     },
     {
       "category": "politics",
+      "eventScore": 0.894,
+      "contractScore": 0.717,
+      "kalshi": {
+        "eventTicker": "SENATESC-28",
+        "title": "Will Republicans win the Senate race in South Carolina?",
+        "subtitle": ":: Current incumbent: Tim Scott",
+        "outcomeLabel": "Will Republicans win the Senate race in South Carolina? :: Current incumbent: Tim Scott",
+        "ticker": "SENATESC-28-R",
+        "eventTitle": "South Carolina Senate winner? (2028)",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "57669",
+        "id": "630925",
+        "eventTitle": "South Carolina Senate Election Winner",
+        "title": "Will the Republicans win the South Carolina Senate race in 2026?",
+        "endDate": "2026-11-04"
+      },
+      "settlementFingerprint": {
+        "outcome": "will republicans win the senate race in south carolina current incumbent tim scott",
+        "kalshiRuleHash": "7ff2964e81ebb7cd",
+        "polymarketRuleHash": "8194e81ff39d3090",
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of South Carolina for the term beginning in 2029, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm South Carolina U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+        "polymarketResolutionSource": null,
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
       "eventScore": 0.791,
       "contractScore": 0.696,
       "kalshi": {
@@ -182,6 +346,166 @@
         "polymarketResolutionSource": "https://www.interieur.gouv.fr/",
         "kalshiClose": "2028-04-17",
         "polymarketEnd": "2027-04-19",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.866,
+      "contractScore": 0.68,
+      "kalshi": {
+        "eventTicker": "SENATEOH-28",
+        "title": "Will Republicans win the Senate race in Ohio?",
+        "subtitle": ":: Current incumbent: Jon Husted",
+        "outcomeLabel": "Will Republicans win the Senate race in Ohio? :: Current incumbent: Jon Husted",
+        "ticker": "SENATEOH-28-R",
+        "eventTitle": "Ohio Senate winner? (2028)",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "57682",
+        "id": "631058",
+        "eventTitle": "Ohio Senate Election Winner",
+        "title": "Will the Republicans win the Ohio Senate race in 2026?",
+        "endDate": "2026-11-04"
+      },
+      "settlementFingerprint": {
+        "outcome": "will republicans win the senate race in ohio current incumbent jon husted",
+        "kalshiRuleHash": "9edf08d6fe9ecb32",
+        "polymarketRuleHash": "bf934fe9a18e4cb3",
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Ohio for the term beginning in 2029, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the winner of the 2026 Ohio U.S. Senate special election currently scheduled for November 3, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.866,
+      "contractScore": 0.68,
+      "kalshi": {
+        "eventTicker": "SENATEKS-28",
+        "title": "Will Republicans win the Senate race in Kansas?",
+        "subtitle": ":: Current incumbent: Jerry Moran",
+        "outcomeLabel": "Will Republicans win the Senate race in Kansas? :: Current incumbent: Jerry Moran",
+        "ticker": "SENATEKS-28-R",
+        "eventTitle": "Kansas Senate winner? (2028)",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "57648",
+        "id": "630747",
+        "eventTitle": "Kansas Senate Election Winner",
+        "title": "Will the Republicans win the Kansas Senate race in 2026?",
+        "endDate": "2026-11-04"
+      },
+      "settlementFingerprint": {
+        "outcome": "will republicans win the senate race in kansas current incumbent jerry moran",
+        "kalshiRuleHash": "3c996d5c03f2b8b7",
+        "polymarketRuleHash": "cdb2e7fff6164951",
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Kansas for the term beginning in 2029, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm Kansas U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+        "polymarketResolutionSource": null,
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.756,
+      "contractScore": 0.632,
+      "kalshi": {
+        "eventTicker": "SENATESC-28",
+        "title": "Will Republicans win the Senate race in South Carolina?",
+        "subtitle": ":: Current incumbent: Tim Scott",
+        "outcomeLabel": "Will Republicans win the Senate race in South Carolina? :: Current incumbent: Tim Scott",
+        "ticker": "SENATESC-28-R",
+        "eventTitle": "South Carolina Senate winner? (2028)",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "1224209",
+        "id": "5972006",
+        "eventTitle": "South Carolina Senate Election: Greenville County Winner",
+        "title": "Will the Republicans win Greenville County in the South Carolina Senate race in 2026?",
+        "endDate": "2026-11-03"
+      },
+      "settlementFingerprint": {
+        "outcome": "will republicans win the senate race in south carolina current incumbent tim scott",
+        "kalshiRuleHash": "7ff2964e81ebb7cd",
+        "polymarketRuleHash": "403b92260d129b4b",
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-03",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of South Carolina for the term beginning in 2029, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the party nominee or independent candidate that receives the most valid votes from Greenville County in the election for United States Senator from South Carolina, which is scheduled to be held on November 3, 2026.\n\nThe candidates will be primarily ranked by the number of valid votes received in the specified election. If two or more candidates are tied on valid votes, ties will be broken by alphabetical order of the candidate last names. This market will resolve to the candidate that occupies the highest finishing position after applying this ranking.\n\nThe nominees of the Democratic and Republican parties are named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nIf the results of the election in the specified county are not definitively known by March 31, 2027, this market will resolve to \"Other.\"\n\nThis market will resolve based on a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the government of South Carolina, including the Election Commission and the government of Greenville County.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-03",
         "differentEndDates": true,
         "manualChecks": [
           "same_exact_outcome",
@@ -1869,336 +2193,6 @@
         "id": "667077",
         "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
         "title": "Will Zelenskyy and Putin meet next in Russia before 2027?",
-        "endDate": "2027-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will putin and zelenskyy meet next in hungary",
-        "kalshiRuleHash": "d6541703a4b506c0",
-        "polymarketRuleHash": "f1f381a27d7ada30",
-        "kalshiClose": "2028-12-31",
-        "polymarketEnd": "2027-01-01",
-        "conflicts": []
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Hungary before Dec 31, 2028, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2028-12-31",
-        "polymarketEnd": "2027-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
-        "ruleConflicts": []
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Elena Lasconi be the next Prime Minister of Romania?",
-        "subtitle": ":: USR",
-        "outcomeLabel": "Will Elena Lasconi be the next Prime Minister of Romania? :: USR",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-ELAS",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166678",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Elena Lasconi be the next Prime Minister of Romania?",
-        "endDate": "2026-12-31"
-      },
-      "settlementFingerprint": {
-        "outcome": "will elena lasconi be the next prime minister of romania usr",
-        "kalshiRuleHash": "b650fc324bff69e9",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-12-31",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Elena Lasconi, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-12-31",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "other",
-      "eventScore": 1,
-      "contractScore": 0.833,
-      "kalshi": {
-        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
-        "title": "Will Putin and Zelenskyy meet next in Hungary?",
-        "subtitle": null,
-        "outcomeLabel": "Will Putin and Zelenskyy meet next in Hungary?",
-        "ticker": "KXPUTINZELENSKYYLOCATION-28-HUNG",
-        "eventTitle": "Where will Putin and Zelenskyy next meet?",
-        "closeDate": "2028-12-31"
-      },
-      "polymarket": {
-        "eventId": "74056",
-        "id": "667079",
-        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
-        "title": "Will Zelenskyy and Putin meet next in Ukraine before 2027?",
-        "endDate": "2027-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will putin and zelenskyy meet next in hungary",
-        "kalshiRuleHash": "d6541703a4b506c0",
-        "polymarketRuleHash": "f1f381a27d7ada30",
-        "kalshiClose": "2028-12-31",
-        "polymarketEnd": "2027-01-01",
-        "conflicts": []
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Hungary before Dec 31, 2028, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2028-12-31",
-        "polymarketEnd": "2027-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
-        "ruleConflicts": []
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Cătălin Drulă be the next Prime Minister of Romania?",
-        "subtitle": ":: USR",
-        "outcomeLabel": "Will Cătălin Drulă be the next Prime Minister of Romania? :: USR",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-CDRU",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166679",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Cătălin Drulă be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will c t lin drul be the next prime minister of romania usr",
-        "kalshiRuleHash": "0ed80c78fdb4beec",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Cătălin Drulă, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "other",
-      "eventScore": 1,
-      "contractScore": 0.833,
-      "kalshi": {
-        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
-        "title": "Will Putin and Zelenskyy meet next in Hungary?",
-        "subtitle": null,
-        "outcomeLabel": "Will Putin and Zelenskyy meet next in Hungary?",
-        "ticker": "KXPUTINZELENSKYYLOCATION-28-HUNG",
-        "eventTitle": "Where will Putin and Zelenskyy next meet?",
-        "closeDate": "2028-12-31"
-      },
-      "polymarket": {
-        "eventId": "74056",
-        "id": "667080",
-        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
-        "title": "Will Zelenskyy and Putin meet next in China before 2027?",
-        "endDate": "2027-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will putin and zelenskyy meet next in hungary",
-        "kalshiRuleHash": "d6541703a4b506c0",
-        "polymarketRuleHash": "f1f381a27d7ada30",
-        "kalshiClose": "2028-12-31",
-        "polymarketEnd": "2027-01-01",
-        "conflicts": []
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Hungary before Dec 31, 2028, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2028-12-31",
-        "polymarketEnd": "2027-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
-        "ruleConflicts": []
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Vasile Dîncu be the next Prime Minister of Romania?",
-        "subtitle": ":: PSD",
-        "outcomeLabel": "Will Vasile Dîncu be the next Prime Minister of Romania? :: PSD",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-VDIN",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166680",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Vasile Dîncu be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will vasile d ncu be the next prime minister of romania psd",
-        "kalshiRuleHash": "a04f781666d19cc1",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Vasile Dîncu, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "other",
-      "eventScore": 1,
-      "contractScore": 0.833,
-      "kalshi": {
-        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
-        "title": "Will Putin and Zelenskyy meet next in Hungary?",
-        "subtitle": null,
-        "outcomeLabel": "Will Putin and Zelenskyy meet next in Hungary?",
-        "ticker": "KXPUTINZELENSKYYLOCATION-28-HUNG",
-        "eventTitle": "Where will Putin and Zelenskyy next meet?",
-        "closeDate": "2028-12-31"
-      },
-      "polymarket": {
-        "eventId": "74056",
-        "id": "667085",
-        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
-        "title": "Will Zelenskyy  and Putin meet next in Belarus before 2027?",
         "endDate": "2027-01-01"
       },
       "settlementFingerprint": {
