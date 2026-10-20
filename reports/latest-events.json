@@ -1,78 +1,81 @@
 {
-  "timestamp": "2026-10-20T16:11:25.553Z",
+  "timestamp": "2026-10-20T16:12:05.326Z",
   "mode": "EVENT_FIRST_READ_ONLY",
   "status": "COLLECTED",
   "autoApproved": 0,
   "verifiedPairs": 0,
   "errors": [],
   "counts": {
-    "kalshiEvents": 800,
-    "polymarketEvents": 1187,
-    "kalshiNestedMarkets": 6360,
-    "polymarketNestedMarkets": 20983,
-    "eventPagesRequested": 8,
+    "kalshiEvents": 1200,
+    "polymarketEvents": 1594,
+    "kalshiNestedMarkets": 10340,
+    "polymarketNestedMarkets": 27706,
+    "eventPagesRequested": 12,
     "polymarketDiscoverySources": [
       "volume24hr",
       "recent_id"
     ],
-    "eventMatches": 893,
+    "kalshiDiscoverySources": [
+      "open_cursor_pagination"
+    ],
+    "eventMatches": 1733,
     "eventMatchThreshold": {
       "minimumSharedTokens": 2,
       "minimumSimilarity": 0.52
     },
     "discoveryStrategy": "bidirectional_inverted_index",
     "eventMatchCategories": {
-      "politics": 838,
-      "sports": 1,
+      "politics": 1597,
+      "sports": 10,
       "crypto": 0,
-      "economics": 4,
+      "economics": 44,
       "finance": 0,
-      "other": 50
+      "other": 82
     },
     "sourceEventCategories": {
       "kalshi": {
-        "politics": 141,
-        "sports": 13,
+        "politics": 485,
+        "sports": 14,
         "crypto": 1,
-        "economics": 62,
+        "economics": 64,
         "finance": 0,
-        "other": 583
+        "other": 636
       },
       "polymarket": {
-        "politics": 94,
-        "sports": 23,
-        "crypto": 146,
-        "economics": 11,
-        "finance": 11,
-        "other": 902
+        "politics": 178,
+        "sports": 43,
+        "crypto": 160,
+        "economics": 17,
+        "finance": 14,
+        "other": 1182
       }
     },
     "discoveryCoverageWarning": [
       "crypto",
       "finance"
     ],
-    "eligibleCandidatePool": 323,
+    "eligibleCandidatePool": 2072,
     "eligiblePoolCategories": {
-      "politics": 53,
+      "politics": 57,
       "sports": 0,
       "crypto": 0,
       "economics": 0,
       "finance": 0,
-      "other": 270
+      "other": 2015
     },
     "rejectedByReason": {},
     "rejectionCacheEntries": 8,
     "rejectionCacheLoaded": 8,
     "cachedRejections": 8,
-    "dateMismatchCandidates": 323,
+    "dateMismatchCandidates": 2072,
     "ruleWarningCandidates": 48,
-    "noRuleWarningCandidates": 275,
-    "uniqueEligibleEventPairs": 9,
+    "noRuleWarningCandidates": 2024,
+    "uniqueEligibleEventPairs": 23,
     "candidateCategories": {
-      "other": 17,
-      "politics": 23
+      "other": 20,
+      "politics": 20
     },
-    "uniqueMatchedEventPairs": 9,
+    "uniqueMatchedEventPairs": 23,
     "candidates": 40
   },
   "candidates": [
@@ -111,6 +114,110 @@
         "polymarketResolutionSource": "",
         "kalshiClose": "2028-12-31",
         "polymarketEnd": "2027-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.894,
+      "contractScore": 0.926,
+      "kalshi": {
+        "eventTicker": "SENATENH-28",
+        "title": "Will Republicans win the Senate race in New Hampshire?",
+        "subtitle": "::",
+        "outcomeLabel": "Will Republicans win the Senate race in New Hampshire? ::",
+        "ticker": "SENATENH-28-R",
+        "eventTitle": "New Hampshire Senate winner? (2028)",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "57661",
+        "id": "630845",
+        "eventTitle": "New Hampshire Senate Election Winner",
+        "title": "Will the Republicans win the New Hampshire Senate race in 2026?",
+        "endDate": "2026-11-04"
+      },
+      "settlementFingerprint": {
+        "outcome": "will republicans win the senate race in new hampshire",
+        "kalshiRuleHash": "167231426bab027c",
+        "polymarketRuleHash": "e7a8afd74a29d281",
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of New Hampshire for the term beginning in 2029, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm New Hampshire U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+        "polymarketResolutionSource": null,
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "other",
+      "eventScore": 0.833,
+      "contractScore": 0.804,
+      "kalshi": {
+        "eventTicker": "KXOSCARINTLFILM-27",
+        "title": "Will Possible Love win Best International Feature Film at the Oscars?",
+        "subtitle": "Possible Love::",
+        "outcomeLabel": "Will Possible Love win Best International Feature Film at the Oscars? Possible Love::",
+        "ticker": "KXOSCARINTLFILM-27-POS",
+        "eventTitle": "Oscar Winner: Best International Feature Film",
+        "closeDate": "2027-12-31"
+      },
+      "polymarket": {
+        "eventId": "805190",
+        "id": "3377309",
+        "eventTitle": "Oscars 2027: Best International Feature Film Winner",
+        "title": "Will Possible Love win Best International Feature Film at the 99th Academy Awards?",
+        "endDate": "2027-03-14"
+      },
+      "settlementFingerprint": {
+        "outcome": "will possible love win best international feature film at the oscars possible love",
+        "kalshiRuleHash": "f809be3a69a74b08",
+        "polymarketRuleHash": "7c5dc64bb42c3abd",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-03-14",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Possible Love has won Best International Feature Film at the 99th Academy Awards, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+        "polymarketDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best International Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best International Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "https://www.oscars.org/",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-03-14",
         "differentEndDates": true,
         "manualChecks": [
           "same_exact_outcome",
@@ -181,6 +288,58 @@
       "executable": false
     },
     {
+      "category": "other",
+      "eventScore": 0.75,
+      "contractScore": 0.783,
+      "kalshi": {
+        "eventTicker": "KXOSCARPIC-27",
+        "title": "Will Wild Horse Nine win Best Picture at the Oscars?",
+        "subtitle": "Wild Horse Nine::",
+        "outcomeLabel": "Will Wild Horse Nine win Best Picture at the Oscars? Wild Horse Nine::",
+        "ticker": "KXOSCARPIC-27-WIL",
+        "eventTitle": "Oscar Winner: Best Picture",
+        "closeDate": "2027-12-31"
+      },
+      "polymarket": {
+        "eventId": "759150",
+        "id": "3145013",
+        "eventTitle": "Oscars 2027: Best Picture Winner",
+        "title": "Will Wild Horse Nine win Best Picture at the 99th Academy Awards?",
+        "endDate": "2027-03-14"
+      },
+      "settlementFingerprint": {
+        "outcome": "will wild horse nine win best picture at the oscars wild horse nine",
+        "kalshiRuleHash": "c175bc8fad772f67",
+        "polymarketRuleHash": "8fe55ccd80d74a64",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-03-14",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Wild Horse Nine has won Best Picture at the 99th Academy Awards, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+        "polymarketDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best Picture. \n\nIf a film is not officially nominated for the Academy Award for Best Picture when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "https://www.oscars.org/",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-03-14",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
       "category": "politics",
       "eventScore": 0.866,
       "contractScore": 0.913,
@@ -215,6 +374,58 @@
         "polymarketResolutionSource": "",
         "kalshiClose": "2029-11-07",
         "polymarketEnd": "2026-11-04",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "other",
+      "eventScore": 0.8,
+      "contractScore": 0.763,
+      "kalshi": {
+        "eventTicker": "KXOSCARSUPACTR-27",
+        "title": "Will Penélope Cruz win Best Supporting Actress at the Oscars?",
+        "subtitle": "Penélope Cruz:: The Bride!",
+        "outcomeLabel": "Will Penélope Cruz win Best Supporting Actress at the Oscars? Penélope Cruz:: The Bride!",
+        "ticker": "KXOSCARSUPACTR-27-PEN",
+        "eventTitle": "Oscar Winner: Best Supporting Actress",
+        "closeDate": "2027-12-31"
+      },
+      "polymarket": {
+        "eventId": "805218",
+        "id": "3377499",
+        "eventTitle": "Oscars 2027: Best Supporting Actress Winner",
+        "title": "Will Penélope Cruz win Best Supporting Actress at the 99th Academy Awards?",
+        "endDate": "2027-07-01"
+      },
+      "settlementFingerprint": {
+        "outcome": "will pen lope cruz win best supporting actress at the oscars pen lope cruz the bride",
+        "kalshiRuleHash": "5bb84ced3f94039f",
+        "polymarketRuleHash": "9c958e7ce2e81d39",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-07-01",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Penélope Cruz has won Best Supporting Actress at the 99th Academy Awards, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+        "polymarketDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed actress that wins the 99th Academy Award for Best Supporting Actress.\n\nIf an actress is not officially nominated for the Academy Award for Best Supporting Actress when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated actress whose listed last name comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "https://www.oscars.org/",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-07-01",
         "differentEndDates": true,
         "manualChecks": [
           "same_exact_outcome",
@@ -291,6 +502,58 @@
       "executable": false
     },
     {
+      "category": "other",
+      "eventScore": 0.671,
+      "contractScore": 0.738,
+      "kalshi": {
+        "eventTicker": "KXOSCARSCORE-27",
+        "title": "Will The Adventures of Cliff Booth win Best Music (Original Score) at the Oscars?",
+        "subtitle": "The Adventures of Cliff Booth::",
+        "outcomeLabel": "Will The Adventures of Cliff Booth win Best Music (Original Score) at the Oscars? The Adventures of Cliff Booth::",
+        "ticker": "KXOSCARSCORE-27-ADV",
+        "eventTitle": "Oscar Winner: Best Music (Original Score)",
+        "closeDate": "2027-12-31"
+      },
+      "polymarket": {
+        "eventId": "805177",
+        "id": "3377106",
+        "eventTitle": "Oscars 2027: Best Original Score Winner",
+        "title": "Will The Adventures of Cliff Booth win Best Original Score at the 99th Academy Awards?",
+        "endDate": "2027-03-14"
+      },
+      "settlementFingerprint": {
+        "outcome": "will the adventures of cliff booth win best music original score at the oscars the adventures of cliff booth",
+        "kalshiRuleHash": "5bbbd5ab7f325790",
+        "polymarketRuleHash": "748af8c5909d124d",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-03-14",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If The Further Mis-Adventures of Cliff Booth has won Best Music (Original Score) at the 99th Academy Awards, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+        "polymarketDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best Original Score.\n\nIf a film is not officially nominated for the Academy Award for Best Original Score when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "https://www.oscars.org/",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-03-14",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
       "category": "politics",
       "eventScore": 0.894,
       "contractScore": 0.717,
@@ -325,6 +588,58 @@
         "polymarketResolutionSource": null,
         "kalshiClose": "2029-11-07",
         "polymarketEnd": "2026-11-04",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "other",
+      "eventScore": 0.671,
+      "contractScore": 0.704,
+      "kalshi": {
+        "eventTicker": "KXOSCARACTR-27",
+        "title": "Will Penélope Cruz win Best Actress at the Oscars?",
+        "subtitle": "Penélope Cruz:: The Invite",
+        "outcomeLabel": "Will Penélope Cruz win Best Actress at the Oscars? Penélope Cruz:: The Invite",
+        "ticker": "KXOSCARACTR-27-PEN",
+        "eventTitle": "Oscar winner: Best Actress",
+        "closeDate": "2027-12-31"
+      },
+      "polymarket": {
+        "eventId": "805218",
+        "id": "3377499",
+        "eventTitle": "Oscars 2027: Best Supporting Actress Winner",
+        "title": "Will Penélope Cruz win Best Supporting Actress at the 99th Academy Awards?",
+        "endDate": "2027-07-01"
+      },
+      "settlementFingerprint": {
+        "outcome": "will pen lope cruz win best actress at the oscars pen lope cruz the invite",
+        "kalshiRuleHash": "ff3b30a8408caa10",
+        "polymarketRuleHash": "9c958e7ce2e81d39",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-07-01",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Penélope Cruz has won Best Actress at the 99th Academy Awards, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.\n",
+        "polymarketDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed actress that wins the 99th Academy Award for Best Supporting Actress.\n\nIf an actress is not officially nominated for the Academy Award for Best Supporting Actress when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated actress whose listed last name comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "https://www.oscars.org/",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-07-01",
         "differentEndDates": true,
         "manualChecks": [
           "same_exact_outcome",
@@ -399,6 +714,58 @@
       "executable": false
     },
     {
+      "category": "other",
+      "eventScore": 0.6,
+      "contractScore": 0.645,
+      "kalshi": {
+        "eventTicker": "KXOSCARNOMSPLAY-27",
+        "title": "2027 Best Original Screenplay Oscar nominations?",
+        "subtitle": "Teenage Sex and Death at Camp Miasma:: Jane Schoenbrun",
+        "outcomeLabel": "2027 Best Original Screenplay Oscar nominations? Teenage Sex and Death at Camp Miasma:: Jane Schoenbrun",
+        "ticker": "KXOSCARNOMSPLAY-27-TEE",
+        "eventTitle": "Oscar nominees: Best Original Screenplay",
+        "closeDate": "2027-12-31"
+      },
+      "polymarket": {
+        "eventId": "1188312",
+        "id": "5686288",
+        "eventTitle": "Oscars 2027: Best Original Screenplay Nominations",
+        "title": "Will \"Teenage Sex and Death at Camp Miasma\" be nominated for Best Original Screenplay at the 99th Academy Awards?",
+        "endDate": "2027-03-15"
+      },
+      "settlementFingerprint": {
+        "outcome": "2027 best original screenplay oscar nominations teenage sex and death at camp miasma jane schoenbrun",
+        "kalshiRuleHash": "1e4bc90ce78614e6",
+        "polymarketRuleHash": "0ffc4e57e8c88be3",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-03-15",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Teenage Sex and Death at Camp Miasma has been nominated for Best Original Screenplay at the 99th Academy Awards, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The 99th Academy Awards Nominations are expected to be announced in January 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+        "polymarketDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve to \"Yes\" if the listed film is nominated for the 99th Academy Award for Best Original Screenplay. If a film is not officially nominated for the Academy Award for Best Original Screenplay when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIf, for any reason, no nominations are declared by March 14, 2027, 11:59 PM ET,  this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-03-15",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
       "category": "politics",
       "eventScore": 0.866,
       "contractScore": 0.68,
@@ -433,6 +800,58 @@
         "polymarketResolutionSource": "",
         "kalshiClose": "2029-11-07",
         "polymarketEnd": "2026-11-04",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "other",
+      "eventScore": 0.667,
+      "contractScore": 0.603,
+      "kalshi": {
+        "eventTicker": "KXOSCARNOMINTERFILM-27",
+        "title": "2027 Best International Feature Film Oscar nominations?",
+        "subtitle": "The Dreamed Adventure",
+        "outcomeLabel": "2027 Best International Feature Film Oscar nominations? The Dreamed Adventure",
+        "ticker": "KXOSCARNOMINTERFILM-27-DRE",
+        "eventTitle": "Oscar nominees: Best International Feature Film",
+        "closeDate": "2027-12-31"
+      },
+      "polymarket": {
+        "eventId": "805190",
+        "id": "3377311",
+        "eventTitle": "Oscars 2027: Best International Feature Film Winner",
+        "title": "Will The Dreamed Adventure win Best International Feature Film at the 99th Academy Awards?",
+        "endDate": "2027-03-14"
+      },
+      "settlementFingerprint": {
+        "outcome": "2027 best international feature film oscar nominations the dreamed adventure",
+        "kalshiRuleHash": "845391c96c63d7c1",
+        "polymarketRuleHash": "7c5dc64bb42c3abd",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-03-14",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If The Dreamed Adventure has been nominated for Best International Feature Film at the 99th Academy Awards, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The 99th Academy Awards Nominations are expected to be announced in January 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+        "polymarketDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best International Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best International Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "https://www.oscars.org/",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-03-14",
         "differentEndDates": true,
         "manualChecks": [
           "same_exact_outcome",
@@ -503,6 +922,266 @@
       "executable": false
     },
     {
+      "category": "other",
+      "eventScore": 0.577,
+      "contractScore": 0.596,
+      "kalshi": {
+        "eventTicker": "KXMUSICREPORT-TOPDIGSALE27DEC31",
+        "title": "Will Die With a Smile be #1 on Luminate's 2026 Year-End Music Report: Top 10-Selling Digital Songs of 2026 in U.S., as Published by Billboard?",
+        "subtitle": ":: Lady Gaga & Bruno Mars",
+        "outcomeLabel": "Will Die With a Smile be #1 on Luminate's 2026 Year-End Music Report: Top 10-Selling Digital Songs of 2026 in U.S., as Published by Billboard? :: Lady Gaga & Bruno Mars",
+        "ticker": "KXMUSICREPORT-TOPDIGSALE27DEC31-DIE",
+        "eventTitle": "Top U.S. Selling Digital Song: 2026",
+        "closeDate": "2027-12-26"
+      },
+      "polymarket": {
+        "eventId": "704669",
+        "id": "2929168",
+        "eventTitle": "Top Spotify Song 2026",
+        "title": "Will Die With A Smile – Lady Gaga & Bruno Mars be the top song for 2026?",
+        "endDate": "2027-02-01"
+      },
+      "settlementFingerprint": {
+        "outcome": "will die with a smile be 1 on luminate s 2026 year end music report top 10 selling digital songs of 2026 in u s as published by billboard lady gaga bruno mars",
+        "kalshiRuleHash": "8989c3cd93c71dea",
+        "polymarketRuleHash": "87e4cd3b40a999cb",
+        "kalshiClose": "2027-12-26",
+        "polymarketEnd": "2027-02-01",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Die With a Smile is ranked #1 on Luminate's 2026 Year-End Music Report: Top 10-Selling Digital Songs of 2026 in U.S., as Published by Billboard, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "Spotify releases an annual report of its most streamed song (see: https://newsroom.spotify.com/2025-12-03/wrapped-top-artists-songs-albums-podcasts-audiobooks/). This market refers to the most streamed Spotify song globally for 2026. \n\nThis market will resolve according to the name of the song listed by Spotify as the top song of 2026.\n\nIf multiple songs tie for top song for 2026, this market will resolve according to the song whose listed name comes first in alphabetical order.\n\nIf Spotify does not release who their top song for 2026 is by January 31, 2027, 11:59 PM ET, this market will resolve to \"Other\". \n\nThe resolution source for this market will be official information from Spotify, typically released as part of Spotify Wrapped. \n\nNote: This market and these products have not been endorsed by Spotify. Any references to Spotify, Spotify charts, streaming data, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Spotify and Polymarket. Spotify and related marks are the property of Spotify AB and its group companies.",
+        "polymarketResolutionSource": "https://newsroom.spotify.com/2025-12-03/wrapped-top-artists-songs-albums-podcasts-audiobooks/",
+        "kalshiClose": "2027-12-26",
+        "polymarketEnd": "2027-02-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.866,
+      "contractScore": 0.68,
+      "kalshi": {
+        "eventTicker": "SENATEIA-28",
+        "title": "Will Republicans win the Senate race in Iowa?",
+        "subtitle": ":: Current incumbent: Chuck Grassley",
+        "outcomeLabel": "Will Republicans win the Senate race in Iowa? :: Current incumbent: Chuck Grassley",
+        "ticker": "SENATEIA-28-R",
+        "eventTitle": "Iowa Senate winner? (2028)",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "57647",
+        "id": "630734",
+        "eventTitle": "Iowa Senate Election Winner",
+        "title": "Will the Republicans win the Iowa Senate race in 2026?",
+        "endDate": "2026-11-04"
+      },
+      "settlementFingerprint": {
+        "outcome": "will republicans win the senate race in iowa current incumbent chuck grassley",
+        "kalshiRuleHash": "17305ae1c506b860",
+        "polymarketRuleHash": "58f62beb03999f98",
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Iowa for the term beginning in 2029, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm Iowa U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+        "polymarketResolutionSource": null,
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "other",
+      "eventScore": 0.667,
+      "contractScore": 0.559,
+      "kalshi": {
+        "eventTicker": "KXOSCARDOCU-27",
+        "title": "Will Musk win Best Documentary Feature Film at the Oscars?",
+        "subtitle": "Musk::",
+        "outcomeLabel": "Will Musk win Best Documentary Feature Film at the Oscars? Musk::",
+        "ticker": "KXOSCARDOCU-27-MUS",
+        "eventTitle": "Oscar Winner: Best Documentary Feature Film",
+        "closeDate": "2027-12-31"
+      },
+      "polymarket": {
+        "eventId": "805190",
+        "id": "3377302",
+        "eventTitle": "Oscars 2027: Best International Feature Film Winner",
+        "title": "Will Fjord win Best International Feature Film at the 99th Academy Awards?",
+        "endDate": "2027-03-14"
+      },
+      "settlementFingerprint": {
+        "outcome": "will musk win best documentary feature film at the oscars musk",
+        "kalshiRuleHash": "d314f311f4cd1ad7",
+        "polymarketRuleHash": "7c5dc64bb42c3abd",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-03-14",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Musk has won Best Documentary Feature Film at the 99th Academy Awards, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+        "polymarketDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best International Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best International Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "https://www.oscars.org/",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-03-14",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.866,
+      "contractScore": 0.68,
+      "kalshi": {
+        "eventTicker": "SENATEAR-28",
+        "title": "Will Republicans win the Senate race in Arkansas?",
+        "subtitle": ":: Current incumbent: John Boozman",
+        "outcomeLabel": "Will Republicans win the Senate race in Arkansas? :: Current incumbent: John Boozman",
+        "ticker": "SENATEAR-28-R",
+        "eventTitle": "Arkansas Senate winner? (2028)",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "57639",
+        "id": "630654",
+        "eventTitle": "Arkansas Senate Election Winner",
+        "title": "Will the Republicans win the Arkansas Senate race in 2026?",
+        "endDate": "2026-11-04"
+      },
+      "settlementFingerprint": {
+        "outcome": "will republicans win the senate race in arkansas current incumbent john boozman",
+        "kalshiRuleHash": "84f67f4da9eda0f2",
+        "polymarketRuleHash": "738ad7394508e9f5",
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Arkansas for the term beginning in 2029, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm Arkansas U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+        "polymarketResolutionSource": null,
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "other",
+      "eventScore": 0.667,
+      "contractScore": 0.559,
+      "kalshi": {
+        "eventTicker": "KXOSCARANIMATED-27",
+        "title": "Will Tie win Best Animated Feature Film at the Oscars?",
+        "subtitle": "Tie::",
+        "outcomeLabel": "Will Tie win Best Animated Feature Film at the Oscars? Tie::",
+        "ticker": "KXOSCARANIMATED-27-TIE",
+        "eventTitle": "Oscar Winner: Best Animated Feature Film",
+        "closeDate": "2027-12-31"
+      },
+      "polymarket": {
+        "eventId": "805190",
+        "id": "3377302",
+        "eventTitle": "Oscars 2027: Best International Feature Film Winner",
+        "title": "Will Fjord win Best International Feature Film at the 99th Academy Awards?",
+        "endDate": "2027-03-14"
+      },
+      "settlementFingerprint": {
+        "outcome": "will tie win best animated feature film at the oscars tie",
+        "kalshiRuleHash": "50a7204c037383dc",
+        "polymarketRuleHash": "7c5dc64bb42c3abd",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-03-14",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Tie has won Best Animated Feature Film at the 99th Academy Awards, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+        "polymarketDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best International Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best International Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "https://www.oscars.org/",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-03-14",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
       "category": "politics",
       "eventScore": 0.756,
       "contractScore": 0.632,
@@ -553,6 +1232,58 @@
         "ruleConflicts": [
           "explicit_deadline_only_on_polymarket"
         ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.6,
+      "contractScore": 0.598,
+      "kalshi": {
+        "eventTicker": "KXNHSENGOVCOMBO-26NOV",
+        "title": "Will New Hampshire Governor winner be Democratic party and New Hampshire Senate winner be Democratic party?",
+        "subtitle": "Democrats sweep",
+        "outcomeLabel": "Will New Hampshire Governor winner be Democratic party and New Hampshire Senate winner be Democratic party? Democrats sweep",
+        "ticker": "KXNHSENGOVCOMBO-26NOV-DEMDEM",
+        "eventTitle": "New Hampshire Governor-Senate combo",
+        "closeDate": "2027-11-03"
+      },
+      "polymarket": {
+        "eventId": "57661",
+        "id": "630844",
+        "eventTitle": "New Hampshire Senate Election Winner",
+        "title": "Will the Democrats win the New Hampshire Senate race in 2026?",
+        "endDate": "2026-11-04"
+      },
+      "settlementFingerprint": {
+        "outcome": "will new hampshire governor winner be democratic party and new hampshire senate winner be democratic party democrats sweep",
+        "kalshiRuleHash": "d556dfb11ffa3838",
+        "polymarketRuleHash": "e7a8afd74a29d281",
+        "kalshiClose": "2027-11-03",
+        "polymarketEnd": "2026-11-04",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If ALL of the following occur: New Hampshire Governor winner: Democratic party, New Hampshire Senate winner: Democratic party, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "This is a combination market requiring ALL specified outcomes to occur for the contract to pay out. If ANY single component resolves to No or becomes impossible, the entire contract immediately resolves to No. Each component is resolved according to its corresponding Kalshi ruleset: New Hampshire Governor winner (GOVPARTY), New Hampshire Senate winner (SENATEPARTY).",
+        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm New Hampshire U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+        "polymarketResolutionSource": null,
+        "kalshiClose": "2027-11-03",
+        "polymarketEnd": "2026-11-04",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -1468,776 +2199,6 @@
       },
       "reviewEvidence": {
         "kalshiRules": "If the next Putin and Zelenskyy meeting happens in China before Dec 31, 2028, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2028-12-31",
-        "polymarketEnd": "2027-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
-        "ruleConflicts": []
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Sorin Grindeanu be the next Prime Minister of Romania?",
-        "subtitle": ":: PSD",
-        "outcomeLabel": "Will Sorin Grindeanu be the next Prime Minister of Romania? :: PSD",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-SGRI",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166671",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Sorin Grindeanu be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will sorin grindeanu be the next prime minister of romania psd",
-        "kalshiRuleHash": "b7b84deaf7755554",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Sorin Grindeanu, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "other",
-      "eventScore": 1,
-      "contractScore": 0.913,
-      "kalshi": {
-        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
-        "title": "Will Putin and Zelenskyy meet next in Germany?",
-        "subtitle": null,
-        "outcomeLabel": "Will Putin and Zelenskyy meet next in Germany?",
-        "ticker": "KXPUTINZELENSKYYLOCATION-28-GER",
-        "eventTitle": "Where will Putin and Zelenskyy next meet?",
-        "closeDate": "2028-12-31"
-      },
-      "polymarket": {
-        "eventId": "74056",
-        "id": "667083",
-        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
-        "title": "Will Zelenskyy and Putin meet next in US before 2027?",
-        "endDate": "2027-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will putin and zelenskyy meet next in germany",
-        "kalshiRuleHash": "3863a924c825ec77",
-        "polymarketRuleHash": "f1f381a27d7ada30",
-        "kalshiClose": "2028-12-31",
-        "polymarketEnd": "2027-01-01",
-        "conflicts": []
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Germany before Dec 31, 2028, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2028-12-31",
-        "polymarketEnd": "2027-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
-        "ruleConflicts": []
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will George Simion be the next Prime Minister of Romania?",
-        "subtitle": ":: AUR",
-        "outcomeLabel": "Will George Simion be the next Prime Minister of Romania? :: AUR",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-GSIM",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166672",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will George Simion be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will george simion be the next prime minister of romania aur",
-        "kalshiRuleHash": "c9fdd79f6b48599e",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is George Simion, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "other",
-      "eventScore": 1,
-      "contractScore": 0.913,
-      "kalshi": {
-        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
-        "title": "Will Putin and Zelenskyy meet next in the USA?",
-        "subtitle": null,
-        "outcomeLabel": "Will Putin and Zelenskyy meet next in the USA?",
-        "ticker": "KXPUTINZELENSKYYLOCATION-28-UNI",
-        "eventTitle": "Where will Putin and Zelenskyy next meet?",
-        "closeDate": "2028-12-31"
-      },
-      "polymarket": {
-        "eventId": "74056",
-        "id": "667083",
-        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
-        "title": "Will Zelenskyy and Putin meet next in US before 2027?",
-        "endDate": "2027-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will putin and zelenskyy meet next in the usa",
-        "kalshiRuleHash": "7af8aaefba86ce67",
-        "polymarketRuleHash": "f1f381a27d7ada30",
-        "kalshiClose": "2028-12-31",
-        "polymarketEnd": "2027-01-01",
-        "conflicts": []
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in United States before Dec 31, 2028, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2028-12-31",
-        "polymarketEnd": "2027-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
-        "ruleConflicts": []
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Nicolae Ciucă be the next Prime Minister of Romania?",
-        "subtitle": ":: PNL",
-        "outcomeLabel": "Will Nicolae Ciucă be the next Prime Minister of Romania? :: PNL",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-NCIU",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166687",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Nicolae Ciucă be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will nicolae ciuc be the next prime minister of romania pnl",
-        "kalshiRuleHash": "36500f26ab831e9d",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Nicolae Ciucă, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "other",
-      "eventScore": 1,
-      "contractScore": 0.913,
-      "kalshi": {
-        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
-        "title": "Will Putin and Zelenskyy meet next in Ukraine?",
-        "subtitle": null,
-        "outcomeLabel": "Will Putin and Zelenskyy meet next in Ukraine?",
-        "ticker": "KXPUTINZELENSKYYLOCATION-28-UKR",
-        "eventTitle": "Where will Putin and Zelenskyy next meet?",
-        "closeDate": "2028-12-31"
-      },
-      "polymarket": {
-        "eventId": "74056",
-        "id": "667083",
-        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
-        "title": "Will Zelenskyy and Putin meet next in US before 2027?",
-        "endDate": "2027-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will putin and zelenskyy meet next in ukraine",
-        "kalshiRuleHash": "08de3548b503645d",
-        "polymarketRuleHash": "f1f381a27d7ada30",
-        "kalshiClose": "2028-12-31",
-        "polymarketEnd": "2027-01-01",
-        "conflicts": []
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Ukraine before Dec 31, 2028, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2028-12-31",
-        "polymarketEnd": "2027-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
-        "ruleConflicts": []
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Marcel Ciolacu be the next Prime Minister of Romania?",
-        "subtitle": ":: PSD",
-        "outcomeLabel": "Will Marcel Ciolacu be the next Prime Minister of Romania? :: PSD",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-MCIO",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166674",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Marcel Ciolacu be the next Prime Minister of Romania?",
-        "endDate": "2026-12-31"
-      },
-      "settlementFingerprint": {
-        "outcome": "will marcel ciolacu be the next prime minister of romania psd",
-        "kalshiRuleHash": "8a9963ad8937b6fb",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-12-31",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Marcel Ciolacu, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-12-31",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "other",
-      "eventScore": 1,
-      "contractScore": 0.913,
-      "kalshi": {
-        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
-        "title": "Will Putin and Zelenskyy meet next in Russia?",
-        "subtitle": null,
-        "outcomeLabel": "Will Putin and Zelenskyy meet next in Russia?",
-        "ticker": "KXPUTINZELENSKYYLOCATION-28-RUS",
-        "eventTitle": "Where will Putin and Zelenskyy next meet?",
-        "closeDate": "2028-12-31"
-      },
-      "polymarket": {
-        "eventId": "74056",
-        "id": "667083",
-        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
-        "title": "Will Zelenskyy and Putin meet next in US before 2027?",
-        "endDate": "2027-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will putin and zelenskyy meet next in russia",
-        "kalshiRuleHash": "40b1a29b19ad48b4",
-        "polymarketRuleHash": "f1f381a27d7ada30",
-        "kalshiClose": "2028-12-31",
-        "polymarketEnd": "2027-01-01",
-        "conflicts": []
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Russia before Dec 31, 2028, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2028-12-31",
-        "polymarketEnd": "2027-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
-        "ruleConflicts": []
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Alexandru Rafila be the next Prime Minister of Romania?",
-        "subtitle": ":: PSD",
-        "outcomeLabel": "Will Alexandru Rafila be the next Prime Minister of Romania? :: PSD",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-ARAF",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166675",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Alexandru Rafila be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will alexandru rafila be the next prime minister of romania psd",
-        "kalshiRuleHash": "6bf055c358178966",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Alexandru Rafila, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "other",
-      "eventScore": 1,
-      "contractScore": 0.845,
-      "kalshi": {
-        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
-        "title": "Will Putin and Zelenskyy meet next in the United Arab Emirates?",
-        "subtitle": null,
-        "outcomeLabel": "Will Putin and Zelenskyy meet next in the United Arab Emirates?",
-        "ticker": "KXPUTINZELENSKYYLOCATION-28-UAE",
-        "eventTitle": "Where will Putin and Zelenskyy next meet?",
-        "closeDate": "2028-12-31"
-      },
-      "polymarket": {
-        "eventId": "74056",
-        "id": "667083",
-        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
-        "title": "Will Zelenskyy and Putin meet next in US before 2027?",
-        "endDate": "2027-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will putin and zelenskyy meet next in the united arab emirates",
-        "kalshiRuleHash": "787ab0cb02bc1ff1",
-        "polymarketRuleHash": "f1f381a27d7ada30",
-        "kalshiClose": "2028-12-31",
-        "polymarketEnd": "2027-01-01",
-        "conflicts": []
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in United Arab Emirates before Dec 31, 2028, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2028-12-31",
-        "polymarketEnd": "2027-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
-        "ruleConflicts": []
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Sebastian Burduja be the next Prime Minister of Romania?",
-        "subtitle": ":: PNL",
-        "outcomeLabel": "Will Sebastian Burduja be the next Prime Minister of Romania? :: PNL",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-SBUR",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166676",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Sebastian Burduja be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will sebastian burduja be the next prime minister of romania pnl",
-        "kalshiRuleHash": "6a584e9f3f358073",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Sebastian Burduja, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "other",
-      "eventScore": 1,
-      "contractScore": 0.833,
-      "kalshi": {
-        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
-        "title": "Will Putin and Zelenskyy meet next in Hungary?",
-        "subtitle": null,
-        "outcomeLabel": "Will Putin and Zelenskyy meet next in Hungary?",
-        "ticker": "KXPUTINZELENSKYYLOCATION-28-HUNG",
-        "eventTitle": "Where will Putin and Zelenskyy next meet?",
-        "closeDate": "2028-12-31"
-      },
-      "polymarket": {
-        "eventId": "74056",
-        "id": "667076",
-        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
-        "title": "Will Zelenskyy and Putin meet next in Turkey before 2027?",
-        "endDate": "2027-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will putin and zelenskyy meet next in hungary",
-        "kalshiRuleHash": "d6541703a4b506c0",
-        "polymarketRuleHash": "f1f381a27d7ada30",
-        "kalshiClose": "2028-12-31",
-        "polymarketEnd": "2027-01-01",
-        "conflicts": []
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Hungary before Dec 31, 2028, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2028-12-31",
-        "polymarketEnd": "2027-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
-        "ruleConflicts": []
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Ionuț Dumitru be the next Prime Minister of Romania?",
-        "subtitle": ":: Independent",
-        "outcomeLabel": "Will Ionuț Dumitru be the next Prime Minister of Romania? :: Independent",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-IDUM",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166677",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Ionuț Dumitru be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will ionu dumitru be the next prime minister of romania independent",
-        "kalshiRuleHash": "52d472c6785c2ed0",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Ionuț Dumitru, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "other",
-      "eventScore": 1,
-      "contractScore": 0.833,
-      "kalshi": {
-        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
-        "title": "Will Putin and Zelenskyy meet next in Hungary?",
-        "subtitle": null,
-        "outcomeLabel": "Will Putin and Zelenskyy meet next in Hungary?",
-        "ticker": "KXPUTINZELENSKYYLOCATION-28-HUNG",
-        "eventTitle": "Where will Putin and Zelenskyy next meet?",
-        "closeDate": "2028-12-31"
-      },
-      "polymarket": {
-        "eventId": "74056",
-        "id": "667077",
-        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
-        "title": "Will Zelenskyy and Putin meet next in Russia before 2027?",
-        "endDate": "2027-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will putin and zelenskyy meet next in hungary",
-        "kalshiRuleHash": "d6541703a4b506c0",
-        "polymarketRuleHash": "f1f381a27d7ada30",
-        "kalshiClose": "2028-12-31",
-        "polymarketEnd": "2027-01-01",
-        "conflicts": []
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Hungary before Dec 31, 2028, then the market resolves to Yes.",
         "kalshiSecondaryRules": "",
         "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
         "polymarketResolutionSource": "",
