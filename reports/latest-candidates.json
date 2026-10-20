@@ -1,6 +1,896 @@
 {
-  "timestamp": "2026-10-20T16:42:20.249Z",
-  "status": "COLLECTOR_FAILED",
-  "runId": 39459764050,
-  "message": "No report generated; inspect workflow logs"
+  "timestamp": "2026-10-20T16:42:39.089Z",
+  "mode": "READ_ONLY_DISCOVERY",
+  "autoApproved": 0,
+  "verifiedPairs": 0,
+  "notes": [
+    "Similarity is only a research lead, NOT settlement equivalence",
+    "No orders, paper entries, or approved pairs are generated"
+  ],
+  "counts": {
+    "kalshiRawMarkets": 1300,
+    "kalshiSingleOutcomeMarkets": 1209,
+    "kalshiMarkets": 1209,
+    "polymarketMarkets": 2000,
+    "polymarketBinaryMarkets": 1643,
+    "titleCandidates": 25,
+    "contractTypePolicy": "strict_same_kind",
+    "kalshiPagesRequested": 20,
+    "kalshiPoolCap": 1200,
+    "polymarketPagesRequested": 20,
+    "orderbooksChecked": 20
+  },
+  "candidates": [
+    {
+      "score": 1,
+      "kalshi": {
+        "ticker": "KXNBAAST-26OCT20BOSDET-BOSPPRITCHARD11-8",
+        "title": "Payton Pritchard: 8+ assists",
+        "subtitle": "",
+        "rulesPrimary": "If Payton Pritchard records 8+ assists in the Boston vs Detroit Pro Basketball game originally scheduled for Oct 20, 2026, then the market resolves to Yes.",
+        "rulesSecondary": "Note: If a player is inactive, or active but never takes the court, the market settles to a fair price. Once a player enters the game the market settles based on the player's assists recorded.\n\nIf the game is postponed but begins within 48 ",
+        "closeDate": "2026-10-22"
+      },
+      "polymarket": {
+        "id": "5950642",
+        "title": "Payton Pritchard: Assists O/U 4.5",
+        "description": "In the upcoming NBA game, scheduled for October 20 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if Payton Pritchard records more than 4.5 assists during the game.\n\nThis market will resolve to \"No\" if Payton Pritchard records 4.5 assist",
+        "resolutionSource": "https://www.nba.com/",
+        "endDate": "2026-10-20"
+      },
+      "dateDifferenceDays": 2,
+      "topOfBook": {
+        "kalshiYesAsk": 0.13,
+        "kalshiNoAsk": 0.88,
+        "polymarketYesAsk": 0.5,
+        "polymarketNoAsk": 0.84,
+        "kalshiYesAskSize": 1549,
+        "kalshiNoAskSize": 30,
+        "polymarketYesAskSize": 12,
+        "polymarketNoAskSize": 67
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 0.97,
+          "grossSpreadPerShare": 0.03
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.38,
+          "grossSpreadPerShare": -0.38
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 1,
+      "kalshi": {
+        "ticker": "KXNBAAST-26OCT20BOSDET-BOSPPRITCHARD11-6",
+        "title": "Payton Pritchard: 6+ assists",
+        "subtitle": "",
+        "rulesPrimary": "If Payton Pritchard records 6+ assists in the Boston vs Detroit Pro Basketball game originally scheduled for Oct 20, 2026, then the market resolves to Yes.",
+        "rulesSecondary": "Note: If a player is inactive, or active but never takes the court, the market settles to a fair price. Once a player enters the game the market settles based on the player's assists recorded.\n\nIf the game is postponed but begins within 48 ",
+        "closeDate": "2026-10-22"
+      },
+      "polymarket": {
+        "id": "5950642",
+        "title": "Payton Pritchard: Assists O/U 4.5",
+        "description": "In the upcoming NBA game, scheduled for October 20 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if Payton Pritchard records more than 4.5 assists during the game.\n\nThis market will resolve to \"No\" if Payton Pritchard records 4.5 assist",
+        "resolutionSource": "https://www.nba.com/",
+        "endDate": "2026-10-20"
+      },
+      "dateDifferenceDays": 2,
+      "topOfBook": {
+        "kalshiYesAsk": 0.34,
+        "kalshiNoAsk": 0.85,
+        "polymarketYesAsk": 0.5,
+        "polymarketNoAsk": 0.84,
+        "kalshiYesAskSize": 96,
+        "kalshiNoAskSize": 41,
+        "polymarketYesAskSize": 12,
+        "polymarketNoAskSize": 67
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.18,
+          "grossSpreadPerShare": -0.18
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.35,
+          "grossSpreadPerShare": -0.35
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 1,
+      "kalshi": {
+        "ticker": "KXNBAAST-26OCT20BOSDET-BOSPPRITCHARD11-4",
+        "title": "Payton Pritchard: 4+ assists",
+        "subtitle": "",
+        "rulesPrimary": "If Payton Pritchard records 4+ assists in the Boston vs Detroit Pro Basketball game originally scheduled for Oct 20, 2026, then the market resolves to Yes.",
+        "rulesSecondary": "Note: If a player is inactive, or active but never takes the court, the market settles to a fair price. Once a player enters the game the market settles based on the player's assists recorded.\n\nIf the game is postponed but begins within 48 ",
+        "closeDate": "2026-10-22"
+      },
+      "polymarket": {
+        "id": "5950642",
+        "title": "Payton Pritchard: Assists O/U 4.5",
+        "description": "In the upcoming NBA game, scheduled for October 20 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if Payton Pritchard records more than 4.5 assists during the game.\n\nThis market will resolve to \"No\" if Payton Pritchard records 4.5 assist",
+        "resolutionSource": "https://www.nba.com/",
+        "endDate": "2026-10-20"
+      },
+      "dateDifferenceDays": 2,
+      "topOfBook": {
+        "kalshiYesAsk": 0.69,
+        "kalshiNoAsk": 0.43,
+        "polymarketYesAsk": 0.5,
+        "polymarketNoAsk": 0.84,
+        "kalshiYesAskSize": 1537.54,
+        "kalshiNoAskSize": 13,
+        "polymarketYesAskSize": 12,
+        "polymarketNoAskSize": 67
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.53,
+          "grossSpreadPerShare": -0.53
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 0.93,
+          "grossSpreadPerShare": 0.07
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 1,
+      "kalshi": {
+        "ticker": "KXNBAAST-26OCT20BOSDET-BOSPPRITCHARD11-2",
+        "title": "Payton Pritchard: 2+ assists",
+        "subtitle": "",
+        "rulesPrimary": "If Payton Pritchard records 2+ assists in the Boston vs Detroit Pro Basketball game originally scheduled for Oct 20, 2026, then the market resolves to Yes.",
+        "rulesSecondary": "Note: If a player is inactive, or active but never takes the court, the market settles to a fair price. Once a player enters the game the market settles based on the player's assists recorded.\n\nIf the game is postponed but begins within 48 ",
+        "closeDate": "2026-10-22"
+      },
+      "polymarket": {
+        "id": "5950642",
+        "title": "Payton Pritchard: Assists O/U 4.5",
+        "description": "In the upcoming NBA game, scheduled for October 20 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if Payton Pritchard records more than 4.5 assists during the game.\n\nThis market will resolve to \"No\" if Payton Pritchard records 4.5 assist",
+        "resolutionSource": "https://www.nba.com/",
+        "endDate": "2026-10-20"
+      },
+      "dateDifferenceDays": 2,
+      "topOfBook": {
+        "kalshiYesAsk": 0.95,
+        "kalshiNoAsk": 0.77,
+        "polymarketYesAsk": 0.5,
+        "polymarketNoAsk": 0.84,
+        "kalshiYesAskSize": 1,
+        "kalshiNoAskSize": 25,
+        "polymarketYesAskSize": 12,
+        "polymarketNoAskSize": 67
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.79,
+          "grossSpreadPerShare": -0.79
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.27,
+          "grossSpreadPerShare": -0.27
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.816,
+      "kalshi": {
+        "ticker": "KXUCLTCORNERS-26OCT21RMARBL-RMA7",
+        "title": "Real Madrid: 7+ corners",
+        "subtitle": "",
+        "rulesPrimary": "If Real Madrid records at least 7+ corners during the entire game (regulation, stoppage and any extra time periods) of the Real Madrid vs Leipzig professional Champions League soccer game originally scheduled for Oct 21, 2026, then the mark",
+        "rulesSecondary": "Kalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+        "closeDate": "2026-10-23"
+      },
+      "polymarket": {
+        "id": "5436649",
+        "title": "Will Real Madrid CF win on 2026-10-21?",
+        "description": "In the upcoming game, scheduled for October 21, 2026\nIf Real Madrid CF wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been comp",
+        "resolutionSource": "https://www.uefa.com/",
+        "endDate": "2026-10-21"
+      },
+      "dateDifferenceDays": 2,
+      "topOfBook": {
+        "kalshiYesAsk": 0.98,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.79,
+        "polymarketNoAsk": 0.22,
+        "kalshiYesAskSize": 25,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 36829.83,
+        "polymarketNoAskSize": 727.74
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.2,
+          "grossSpreadPerShare": -0.2
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.775,
+      "kalshi": {
+        "ticker": "KXNBAPRA-26OCT20BOSDET-BOSPPRITCHARD11-30",
+        "title": "Payton Pritchard: 30+ points, rebounds, and assists",
+        "subtitle": "",
+        "rulesPrimary": "If Payton Pritchard records 30+ combined points, rebounds, and assists in the Boston vs Detroit Pro Basketball game originally scheduled for Oct 20, 2026, then the market resolves to Yes.",
+        "rulesSecondary": "This market resolves based on the number of combined points, rebounds, and assists recorded by Payton Pritchard. Note: If a player is inactive, or active but never takes the court, the market settles to a fair price. Once a player enters th",
+        "closeDate": "2026-10-22"
+      },
+      "polymarket": {
+        "id": "5950642",
+        "title": "Payton Pritchard: Assists O/U 4.5",
+        "description": "In the upcoming NBA game, scheduled for October 20 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if Payton Pritchard records more than 4.5 assists during the game.\n\nThis market will resolve to \"No\" if Payton Pritchard records 4.5 assist",
+        "resolutionSource": "https://www.nba.com/",
+        "endDate": "2026-10-20"
+      },
+      "dateDifferenceDays": 2,
+      "topOfBook": {
+        "kalshiYesAsk": 0.3,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.5,
+        "polymarketNoAsk": 0.84,
+        "kalshiYesAskSize": 200,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 12,
+        "polymarketNoAskSize": 67
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.14,
+          "grossSpreadPerShare": -0.14
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.775,
+      "kalshi": {
+        "ticker": "KXNBAPRA-26OCT20BOSDET-BOSPPRITCHARD11-30",
+        "title": "Payton Pritchard: 30+ points, rebounds, and assists",
+        "subtitle": "",
+        "rulesPrimary": "If Payton Pritchard records 30+ combined points, rebounds, and assists in the Boston vs Detroit Pro Basketball game originally scheduled for Oct 20, 2026, then the market resolves to Yes.",
+        "rulesSecondary": "This market resolves based on the number of combined points, rebounds, and assists recorded by Payton Pritchard. Note: If a player is inactive, or active but never takes the court, the market settles to a fair price. Once a player enters th",
+        "closeDate": "2026-10-22"
+      },
+      "polymarket": {
+        "id": "5950639",
+        "title": "Payton Pritchard: Points O/U 15.5",
+        "description": "In the upcoming NBA game, scheduled for October 20 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if Payton Pritchard scores more than 15.5 points during the game.\n\nThis market will resolve to \"No\" if Payton Pritchard scores 15.5 points ",
+        "resolutionSource": "https://www.nba.com/",
+        "endDate": "2026-10-20"
+      },
+      "dateDifferenceDays": 2,
+      "topOfBook": {
+        "kalshiYesAsk": 0.3,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.63,
+        "polymarketNoAsk": 0.45,
+        "kalshiYesAskSize": 200,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 20,
+        "polymarketNoAskSize": 40
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 0.75,
+          "grossSpreadPerShare": 0.25
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.775,
+      "kalshi": {
+        "ticker": "KXNBAPRA-26OCT20BOSDET-BOSPPRITCHARD11-25",
+        "title": "Payton Pritchard: 25+ points, rebounds, and assists",
+        "subtitle": "",
+        "rulesPrimary": "If Payton Pritchard records 25+ combined points, rebounds, and assists in the Boston vs Detroit Pro Basketball game originally scheduled for Oct 20, 2026, then the market resolves to Yes.",
+        "rulesSecondary": "This market resolves based on the number of combined points, rebounds, and assists recorded by Payton Pritchard. Note: If a player is inactive, or active but never takes the court, the market settles to a fair price. Once a player enters th",
+        "closeDate": "2026-10-22"
+      },
+      "polymarket": {
+        "id": "5950642",
+        "title": "Payton Pritchard: Assists O/U 4.5",
+        "description": "In the upcoming NBA game, scheduled for October 20 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if Payton Pritchard records more than 4.5 assists during the game.\n\nThis market will resolve to \"No\" if Payton Pritchard records 4.5 assist",
+        "resolutionSource": "https://www.nba.com/",
+        "endDate": "2026-10-20"
+      },
+      "dateDifferenceDays": 2,
+      "topOfBook": {
+        "kalshiYesAsk": 0.51,
+        "kalshiNoAsk": 0.53,
+        "polymarketYesAsk": 0.5,
+        "polymarketNoAsk": 0.84,
+        "kalshiYesAskSize": 751,
+        "kalshiNoAskSize": 17,
+        "polymarketYesAskSize": 12,
+        "polymarketNoAskSize": 67
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.35,
+          "grossSpreadPerShare": -0.35
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.03,
+          "grossSpreadPerShare": -0.03
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.775,
+      "kalshi": {
+        "ticker": "KXNBAPRA-26OCT20BOSDET-BOSPPRITCHARD11-25",
+        "title": "Payton Pritchard: 25+ points, rebounds, and assists",
+        "subtitle": "",
+        "rulesPrimary": "If Payton Pritchard records 25+ combined points, rebounds, and assists in the Boston vs Detroit Pro Basketball game originally scheduled for Oct 20, 2026, then the market resolves to Yes.",
+        "rulesSecondary": "This market resolves based on the number of combined points, rebounds, and assists recorded by Payton Pritchard. Note: If a player is inactive, or active but never takes the court, the market settles to a fair price. Once a player enters th",
+        "closeDate": "2026-10-22"
+      },
+      "polymarket": {
+        "id": "5950639",
+        "title": "Payton Pritchard: Points O/U 15.5",
+        "description": "In the upcoming NBA game, scheduled for October 20 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if Payton Pritchard scores more than 15.5 points during the game.\n\nThis market will resolve to \"No\" if Payton Pritchard scores 15.5 points ",
+        "resolutionSource": "https://www.nba.com/",
+        "endDate": "2026-10-20"
+      },
+      "dateDifferenceDays": 2,
+      "topOfBook": {
+        "kalshiYesAsk": 0.51,
+        "kalshiNoAsk": 0.53,
+        "polymarketYesAsk": 0.63,
+        "polymarketNoAsk": 0.45,
+        "kalshiYesAskSize": 751,
+        "kalshiNoAskSize": 17,
+        "polymarketYesAskSize": 20,
+        "polymarketNoAskSize": 40
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 0.96,
+          "grossSpreadPerShare": 0.04
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.16,
+          "grossSpreadPerShare": -0.16
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.775,
+      "kalshi": {
+        "ticker": "KXNBAPRA-26OCT20BOSDET-BOSPPRITCHARD11-20",
+        "title": "Payton Pritchard: 20+ points, rebounds, and assists",
+        "subtitle": "",
+        "rulesPrimary": "If Payton Pritchard records 20+ combined points, rebounds, and assists in the Boston vs Detroit Pro Basketball game originally scheduled for Oct 20, 2026, then the market resolves to Yes.",
+        "rulesSecondary": "This market resolves based on the number of combined points, rebounds, and assists recorded by Payton Pritchard. Note: If a player is inactive, or active but never takes the court, the market settles to a fair price. Once a player enters th",
+        "closeDate": "2026-10-22"
+      },
+      "polymarket": {
+        "id": "5950642",
+        "title": "Payton Pritchard: Assists O/U 4.5",
+        "description": "In the upcoming NBA game, scheduled for October 20 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if Payton Pritchard records more than 4.5 assists during the game.\n\nThis market will resolve to \"No\" if Payton Pritchard records 4.5 assist",
+        "resolutionSource": "https://www.nba.com/",
+        "endDate": "2026-10-20"
+      },
+      "dateDifferenceDays": 2,
+      "topOfBook": {
+        "kalshiYesAsk": 0.79,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.5,
+        "polymarketNoAsk": 0.84,
+        "kalshiYesAskSize": 200,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 12,
+        "polymarketNoAskSize": 67
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.63,
+          "grossSpreadPerShare": -0.63
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.775,
+      "kalshi": {
+        "ticker": "KXNBAPRA-26OCT20BOSDET-BOSPPRITCHARD11-20",
+        "title": "Payton Pritchard: 20+ points, rebounds, and assists",
+        "subtitle": "",
+        "rulesPrimary": "If Payton Pritchard records 20+ combined points, rebounds, and assists in the Boston vs Detroit Pro Basketball game originally scheduled for Oct 20, 2026, then the market resolves to Yes.",
+        "rulesSecondary": "This market resolves based on the number of combined points, rebounds, and assists recorded by Payton Pritchard. Note: If a player is inactive, or active but never takes the court, the market settles to a fair price. Once a player enters th",
+        "closeDate": "2026-10-22"
+      },
+      "polymarket": {
+        "id": "5950639",
+        "title": "Payton Pritchard: Points O/U 15.5",
+        "description": "In the upcoming NBA game, scheduled for October 20 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if Payton Pritchard scores more than 15.5 points during the game.\n\nThis market will resolve to \"No\" if Payton Pritchard scores 15.5 points ",
+        "resolutionSource": "https://www.nba.com/",
+        "endDate": "2026-10-20"
+      },
+      "dateDifferenceDays": 2,
+      "topOfBook": {
+        "kalshiYesAsk": 0.79,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.63,
+        "polymarketNoAsk": 0.45,
+        "kalshiYesAskSize": 200,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 20,
+        "polymarketNoAskSize": 40
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.24,
+          "grossSpreadPerShare": -0.24
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.667,
+      "kalshi": {
+        "ticker": "KXNBA3PT-26OCT20BOSDET-BOSPPRITCHARD11-5",
+        "title": "Payton Pritchard: 5+ threes",
+        "subtitle": "",
+        "rulesPrimary": "If Payton Pritchard records 5+ made three-pointers in the Boston vs Detroit Pro Basketball game originally scheduled for Oct 20, 2026, then the market resolves to Yes.",
+        "rulesSecondary": "Note: If a player is inactive, or active but never takes the court, the market settles to a fair price. Once a player enters the game the market settles based on the player's made three-pointers recorded.\n\nIf the game is postponed but begin",
+        "closeDate": "2026-10-22"
+      },
+      "polymarket": {
+        "id": "5950642",
+        "title": "Payton Pritchard: Assists O/U 4.5",
+        "description": "In the upcoming NBA game, scheduled for October 20 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if Payton Pritchard records more than 4.5 assists during the game.\n\nThis market will resolve to \"No\" if Payton Pritchard records 4.5 assist",
+        "resolutionSource": "https://www.nba.com/",
+        "endDate": "2026-10-20"
+      },
+      "dateDifferenceDays": 2,
+      "topOfBook": {
+        "kalshiYesAsk": 0.17,
+        "kalshiNoAsk": 0.97,
+        "polymarketYesAsk": 0.5,
+        "polymarketNoAsk": 0.84,
+        "kalshiYesAskSize": 1284.41,
+        "kalshiNoAskSize": 1,
+        "polymarketYesAskSize": 12,
+        "polymarketNoAskSize": 67
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.01,
+          "grossSpreadPerShare": -0.01
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.47,
+          "grossSpreadPerShare": -0.47
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.667,
+      "kalshi": {
+        "ticker": "KXNBA3PT-26OCT20BOSDET-BOSPPRITCHARD11-5",
+        "title": "Payton Pritchard: 5+ threes",
+        "subtitle": "",
+        "rulesPrimary": "If Payton Pritchard records 5+ made three-pointers in the Boston vs Detroit Pro Basketball game originally scheduled for Oct 20, 2026, then the market resolves to Yes.",
+        "rulesSecondary": "Note: If a player is inactive, or active but never takes the court, the market settles to a fair price. Once a player enters the game the market settles based on the player's made three-pointers recorded.\n\nIf the game is postponed but begin",
+        "closeDate": "2026-10-22"
+      },
+      "polymarket": {
+        "id": "5950639",
+        "title": "Payton Pritchard: Points O/U 15.5",
+        "description": "In the upcoming NBA game, scheduled for October 20 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if Payton Pritchard scores more than 15.5 points during the game.\n\nThis market will resolve to \"No\" if Payton Pritchard scores 15.5 points ",
+        "resolutionSource": "https://www.nba.com/",
+        "endDate": "2026-10-20"
+      },
+      "dateDifferenceDays": 2,
+      "topOfBook": {
+        "kalshiYesAsk": 0.17,
+        "kalshiNoAsk": 0.97,
+        "polymarketYesAsk": 0.63,
+        "polymarketNoAsk": 0.45,
+        "kalshiYesAskSize": 1284.41,
+        "kalshiNoAskSize": 1,
+        "polymarketYesAskSize": 20,
+        "polymarketNoAskSize": 40
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 0.62,
+          "grossSpreadPerShare": 0.38
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.6,
+          "grossSpreadPerShare": -0.6
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.667,
+      "kalshi": {
+        "ticker": "KXNBA3PT-26OCT20BOSDET-BOSPPRITCHARD11-4",
+        "title": "Payton Pritchard: 4+ threes",
+        "subtitle": "",
+        "rulesPrimary": "If Payton Pritchard records 4+ made three-pointers in the Boston vs Detroit Pro Basketball game originally scheduled for Oct 20, 2026, then the market resolves to Yes.",
+        "rulesSecondary": "Note: If a player is inactive, or active but never takes the court, the market settles to a fair price. Once a player enters the game the market settles based on the player's made three-pointers recorded.\n\nIf the game is postponed but begin",
+        "closeDate": "2026-10-22"
+      },
+      "polymarket": {
+        "id": "5950642",
+        "title": "Payton Pritchard: Assists O/U 4.5",
+        "description": "In the upcoming NBA game, scheduled for October 20 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if Payton Pritchard records more than 4.5 assists during the game.\n\nThis market will resolve to \"No\" if Payton Pritchard records 4.5 assist",
+        "resolutionSource": "https://www.nba.com/",
+        "endDate": "2026-10-20"
+      },
+      "dateDifferenceDays": 2,
+      "topOfBook": {
+        "kalshiYesAsk": 0.33,
+        "kalshiNoAsk": 0.98,
+        "polymarketYesAsk": 0.5,
+        "polymarketNoAsk": 0.84,
+        "kalshiYesAskSize": 3472,
+        "kalshiNoAskSize": 25,
+        "polymarketYesAskSize": 12,
+        "polymarketNoAskSize": 67
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.17,
+          "grossSpreadPerShare": -0.17
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.48,
+          "grossSpreadPerShare": -0.48
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.667,
+      "kalshi": {
+        "ticker": "KXNBA3PT-26OCT20BOSDET-BOSPPRITCHARD11-4",
+        "title": "Payton Pritchard: 4+ threes",
+        "subtitle": "",
+        "rulesPrimary": "If Payton Pritchard records 4+ made three-pointers in the Boston vs Detroit Pro Basketball game originally scheduled for Oct 20, 2026, then the market resolves to Yes.",
+        "rulesSecondary": "Note: If a player is inactive, or active but never takes the court, the market settles to a fair price. Once a player enters the game the market settles based on the player's made three-pointers recorded.\n\nIf the game is postponed but begin",
+        "closeDate": "2026-10-22"
+      },
+      "polymarket": {
+        "id": "5950639",
+        "title": "Payton Pritchard: Points O/U 15.5",
+        "description": "In the upcoming NBA game, scheduled for October 20 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if Payton Pritchard scores more than 15.5 points during the game.\n\nThis market will resolve to \"No\" if Payton Pritchard scores 15.5 points ",
+        "resolutionSource": "https://www.nba.com/",
+        "endDate": "2026-10-20"
+      },
+      "dateDifferenceDays": 2,
+      "topOfBook": {
+        "kalshiYesAsk": 0.33,
+        "kalshiNoAsk": 0.98,
+        "polymarketYesAsk": 0.63,
+        "polymarketNoAsk": 0.45,
+        "kalshiYesAskSize": 3472,
+        "kalshiNoAskSize": 25,
+        "polymarketYesAskSize": 20,
+        "polymarketNoAskSize": 40
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 0.78,
+          "grossSpreadPerShare": 0.22
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.61,
+          "grossSpreadPerShare": -0.61
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.667,
+      "kalshi": {
+        "ticker": "KXNBA3PT-26OCT20BOSDET-BOSPPRITCHARD11-3",
+        "title": "Payton Pritchard: 3+ threes",
+        "subtitle": "",
+        "rulesPrimary": "If Payton Pritchard records 3+ made three-pointers in the Boston vs Detroit Pro Basketball game originally scheduled for Oct 20, 2026, then the market resolves to Yes.",
+        "rulesSecondary": "Note: If a player is inactive, or active but never takes the court, the market settles to a fair price. Once a player enters the game the market settles based on the player's made three-pointers recorded.\n\nIf the game is postponed but begin",
+        "closeDate": "2026-10-22"
+      },
+      "polymarket": {
+        "id": "5950642",
+        "title": "Payton Pritchard: Assists O/U 4.5",
+        "description": "In the upcoming NBA game, scheduled for October 20 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if Payton Pritchard records more than 4.5 assists during the game.\n\nThis market will resolve to \"No\" if Payton Pritchard records 4.5 assist",
+        "resolutionSource": "https://www.nba.com/",
+        "endDate": "2026-10-20"
+      },
+      "dateDifferenceDays": 2,
+      "topOfBook": {
+        "kalshiYesAsk": 0.53,
+        "kalshiNoAsk": 0.49,
+        "polymarketYesAsk": 0.5,
+        "polymarketNoAsk": 0.84,
+        "kalshiYesAskSize": 684,
+        "kalshiNoAskSize": 520,
+        "polymarketYesAskSize": 12,
+        "polymarketNoAskSize": 67
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.37,
+          "grossSpreadPerShare": -0.37
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 0.99,
+          "grossSpreadPerShare": 0.01
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.667,
+      "kalshi": {
+        "ticker": "KXNBA3PT-26OCT20BOSDET-BOSPPRITCHARD11-3",
+        "title": "Payton Pritchard: 3+ threes",
+        "subtitle": "",
+        "rulesPrimary": "If Payton Pritchard records 3+ made three-pointers in the Boston vs Detroit Pro Basketball game originally scheduled for Oct 20, 2026, then the market resolves to Yes.",
+        "rulesSecondary": "Note: If a player is inactive, or active but never takes the court, the market settles to a fair price. Once a player enters the game the market settles based on the player's made three-pointers recorded.\n\nIf the game is postponed but begin",
+        "closeDate": "2026-10-22"
+      },
+      "polymarket": {
+        "id": "5950639",
+        "title": "Payton Pritchard: Points O/U 15.5",
+        "description": "In the upcoming NBA game, scheduled for October 20 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if Payton Pritchard scores more than 15.5 points during the game.\n\nThis market will resolve to \"No\" if Payton Pritchard scores 15.5 points ",
+        "resolutionSource": "https://www.nba.com/",
+        "endDate": "2026-10-20"
+      },
+      "dateDifferenceDays": 2,
+      "topOfBook": {
+        "kalshiYesAsk": 0.53,
+        "kalshiNoAsk": 0.49,
+        "polymarketYesAsk": 0.63,
+        "polymarketNoAsk": 0.45,
+        "kalshiYesAskSize": 684,
+        "kalshiNoAskSize": 520,
+        "polymarketYesAskSize": 20,
+        "polymarketNoAskSize": 40
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 0.98,
+          "grossSpreadPerShare": 0.02
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.12,
+          "grossSpreadPerShare": -0.12
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.667,
+      "kalshi": {
+        "ticker": "KXNBA3PT-26OCT20BOSDET-BOSPPRITCHARD11-2",
+        "title": "Payton Pritchard: 2+ threes",
+        "subtitle": "",
+        "rulesPrimary": "If Payton Pritchard records 2+ made three-pointers in the Boston vs Detroit Pro Basketball game originally scheduled for Oct 20, 2026, then the market resolves to Yes.",
+        "rulesSecondary": "Note: If a player is inactive, or active but never takes the court, the market settles to a fair price. Once a player enters the game the market settles based on the player's made three-pointers recorded.\n\nIf the game is postponed but begin",
+        "closeDate": "2026-10-22"
+      },
+      "polymarket": {
+        "id": "5950642",
+        "title": "Payton Pritchard: Assists O/U 4.5",
+        "description": "In the upcoming NBA game, scheduled for October 20 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if Payton Pritchard records more than 4.5 assists during the game.\n\nThis market will resolve to \"No\" if Payton Pritchard records 4.5 assist",
+        "resolutionSource": "https://www.nba.com/",
+        "endDate": "2026-10-20"
+      },
+      "dateDifferenceDays": 2,
+      "topOfBook": {
+        "kalshiYesAsk": 0.78,
+        "kalshiNoAsk": 0.93,
+        "polymarketYesAsk": 0.5,
+        "polymarketNoAsk": 0.84,
+        "kalshiYesAskSize": 234,
+        "kalshiNoAskSize": 1,
+        "polymarketYesAskSize": 12,
+        "polymarketNoAskSize": 67
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.62,
+          "grossSpreadPerShare": -0.62
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.43,
+          "grossSpreadPerShare": -0.43
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.667,
+      "kalshi": {
+        "ticker": "KXNBA3PT-26OCT20BOSDET-BOSPPRITCHARD11-2",
+        "title": "Payton Pritchard: 2+ threes",
+        "subtitle": "",
+        "rulesPrimary": "If Payton Pritchard records 2+ made three-pointers in the Boston vs Detroit Pro Basketball game originally scheduled for Oct 20, 2026, then the market resolves to Yes.",
+        "rulesSecondary": "Note: If a player is inactive, or active but never takes the court, the market settles to a fair price. Once a player enters the game the market settles based on the player's made three-pointers recorded.\n\nIf the game is postponed but begin",
+        "closeDate": "2026-10-22"
+      },
+      "polymarket": {
+        "id": "5950639",
+        "title": "Payton Pritchard: Points O/U 15.5",
+        "description": "In the upcoming NBA game, scheduled for October 20 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if Payton Pritchard scores more than 15.5 points during the game.\n\nThis market will resolve to \"No\" if Payton Pritchard scores 15.5 points ",
+        "resolutionSource": "https://www.nba.com/",
+        "endDate": "2026-10-20"
+      },
+      "dateDifferenceDays": 2,
+      "topOfBook": {
+        "kalshiYesAsk": 0.78,
+        "kalshiNoAsk": 0.93,
+        "polymarketYesAsk": 0.63,
+        "polymarketNoAsk": 0.45,
+        "kalshiYesAskSize": 234,
+        "kalshiNoAskSize": 1,
+        "polymarketYesAskSize": 20,
+        "polymarketNoAskSize": 40
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.23,
+          "grossSpreadPerShare": -0.23
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.56,
+          "grossSpreadPerShare": -0.56
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.667,
+      "kalshi": {
+        "ticker": "KXNBA3PT-26OCT20BOSDET-BOSPPRITCHARD11-1",
+        "title": "Payton Pritchard: 1+ threes",
+        "subtitle": "",
+        "rulesPrimary": "If Payton Pritchard records 1+ made three-pointers in the Boston vs Detroit Pro Basketball game originally scheduled for Oct 20, 2026, then the market resolves to Yes.",
+        "rulesSecondary": "Note: If a player is inactive, or active but never takes the court, the market settles to a fair price. Once a player enters the game the market settles based on the player's made three-pointers recorded.\n\nIf the game is postponed but begin",
+        "closeDate": "2026-10-22"
+      },
+      "polymarket": {
+        "id": "5950642",
+        "title": "Payton Pritchard: Assists O/U 4.5",
+        "description": "In the upcoming NBA game, scheduled for October 20 at 3:00 PM ET:\n\nThis market will resolve to \"Yes\" if Payton Pritchard records more than 4.5 assists during the game.\n\nThis market will resolve to \"No\" if Payton Pritchard records 4.5 assist",
+        "resolutionSource": "https://www.nba.com/",
+        "endDate": "2026-10-20"
+      },
+      "dateDifferenceDays": 2,
+      "topOfBook": {
+        "kalshiYesAsk": 0.94,
+        "kalshiNoAsk": 0.84,
+        "polymarketYesAsk": 0.5,
+        "polymarketNoAsk": 0.84,
+        "kalshiYesAskSize": 51,
+        "kalshiNoAskSize": 25,
+        "polymarketYesAskSize": 12,
+        "polymarketNoAskSize": 67
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.78,
+          "grossSpreadPerShare": -0.78
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.34,
+          "grossSpreadPerShare": -0.34
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    }
+  ],
+  "errors": [],
+  "samples": {
+    "kalshi": [
+      {
+        "title": "Green Bay (Pablo) wins",
+        "subtitle": "",
+        "ticker": "KXEFOOTBALLGAME-26OCT201328PABLMACE-PABL"
+      },
+      {
+        "title": "Atlanta (Mace) wins",
+        "subtitle": "",
+        "ticker": "KXEFOOTBALLGAME-26OCT201328PABLMACE-MACE"
+      },
+      {
+        "title": "Dylan Harper: 25+ points",
+        "subtitle": "",
+        "ticker": "KXNBAPTS-26OCT20OKCSAS-SASDHARPER2-25"
+      },
+      {
+        "title": "Dylan Harper: 20+ points",
+        "subtitle": "",
+        "ticker": "KXNBAPTS-26OCT20OKCSAS-SASDHARPER2-20"
+      }
+    ],
+    "polymarket": [
+      {
+        "title": "Will FC Barcelona win on 2026-10-20?",
+        "id": "5409680"
+      },
+      {
+        "title": "US x Iran ceasefire continues through October 22?",
+        "id": "5686979"
+      },
+      {
+        "title": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
+        "id": "2772194"
+      },
+      {
+        "title": "2026 Balance of Power: R Senate, D House",
+        "id": "562830"
+      }
+    ]
+  },
+  "matching": {
+    "threshold": 0.48,
+    "minimumSharedTokens": 2,
+    "minimumDistinctiveContextTokens": 2,
+    "eventTypeGate": true,
+    "contractKindGate": true,
+    "dateGate": true,
+    "kalshiExcludedMultiLeg": true,
+    "kalshiApiMveFilter": "exclude",
+    "polymarketOrder": "volume24hr descending",
+    "warning": "Text similarity is not proof of settlement equivalence; all results require manual rules review."
+  },
+  "status": "COLLECTED"
 }
