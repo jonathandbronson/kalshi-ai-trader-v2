@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T16:45:33.985Z",
+  "timestamp": "2026-10-20T16:46:26.099Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -12,7 +12,7 @@
     "kalshiSingleOutcomeMarkets": 1288,
     "kalshiMarkets": 1288,
     "polymarketMarkets": 2000,
-    "polymarketBinaryMarkets": 1642,
+    "polymarketBinaryMarkets": 1641,
     "titleCandidates": 25,
     "contractTypePolicy": "strict_same_kind",
     "kalshiPagesRequested": 20,
@@ -86,7 +86,7 @@
         "kalshiNoAsk": 0.83,
         "polymarketYesAsk": 0.51,
         "polymarketNoAsk": 0.53,
-        "kalshiYesAskSize": 146,
+        "kalshiYesAskSize": 142,
         "kalshiNoAskSize": 7,
         "polymarketYesAskSize": 56,
         "polymarketNoAskSize": 150
@@ -125,11 +125,11 @@
       "dateDifferenceDays": 2,
       "topOfBook": {
         "kalshiYesAsk": 0.67,
-        "kalshiNoAsk": 0.64,
+        "kalshiNoAsk": 0.44,
         "polymarketYesAsk": 0.51,
         "polymarketNoAsk": 0.53,
         "kalshiYesAskSize": 1496,
-        "kalshiNoAskSize": 15,
+        "kalshiNoAskSize": 13,
         "polymarketYesAskSize": 56,
         "polymarketNoAskSize": 150
       },
@@ -141,8 +141,8 @@
         },
         {
           "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.15,
-          "grossSpreadPerShare": -0.15
+          "combinedAsk": 0.95,
+          "grossSpreadPerShare": 0.05
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
@@ -167,7 +167,7 @@
       "dateDifferenceDays": 2,
       "topOfBook": {
         "kalshiYesAsk": 0.95,
-        "kalshiNoAsk": 0.84,
+        "kalshiNoAsk": 0.78,
         "polymarketYesAsk": 0.51,
         "polymarketNoAsk": 0.53,
         "kalshiYesAskSize": 1,
@@ -183,8 +183,8 @@
         },
         {
           "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.35,
-          "grossSpreadPerShare": -0.35
+          "combinedAsk": 1.29,
+          "grossSpreadPerShare": -0.29
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
@@ -212,7 +212,7 @@
         "kalshiNoAsk": null,
         "polymarketYesAsk": 0.79,
         "polymarketNoAsk": 0.22,
-        "kalshiYesAskSize": 25,
+        "kalshiYesAskSize": 3,
         "kalshiNoAskSize": 0,
         "polymarketYesAskSize": 36809.57,
         "polymarketNoAskSize": 727.74
@@ -649,7 +649,7 @@
         "kalshiNoAsk": 0.49,
         "polymarketYesAsk": 0.51,
         "polymarketNoAsk": 0.53,
-        "kalshiYesAskSize": 678,
+        "kalshiYesAskSize": 676,
         "kalshiNoAskSize": 820,
         "polymarketYesAskSize": 56,
         "polymarketNoAskSize": 150
@@ -691,7 +691,7 @@
         "kalshiNoAsk": 0.49,
         "polymarketYesAsk": 0.63,
         "polymarketNoAsk": 0.45,
-        "kalshiYesAskSize": 678,
+        "kalshiYesAskSize": 676,
         "kalshiNoAskSize": 820,
         "polymarketYesAskSize": 20,
         "polymarketNoAskSize": 40
@@ -841,24 +841,24 @@
   "samples": {
     "kalshi": [
       {
-        "title": "los kogutos wins",
+        "title": "Over 27.5 games",
         "subtitle": "",
-        "ticker": "KXCS2GAME-26OCT220945LKDON-LK"
+        "ticker": "KXATPGTOTAL-26OCT21MOUBAL-28"
       },
       {
-        "title": "Donstu Esports wins",
+        "title": "Over 22.5 games",
         "subtitle": "",
-        "ticker": "KXCS2GAME-26OCT220945LKDON-DON"
+        "ticker": "KXATPGTOTAL-26OCT21MOUBAL-23"
       },
       {
-        "title": "TitanFlow wins",
+        "title": "Over 17.5 games",
         "subtitle": "",
-        "ticker": "KXCS2GAME-26OCT210945TITNOI-TIT"
+        "ticker": "KXATPGTOTAL-26OCT21MOUBAL-18"
       },
       {
-        "title": "Noir Verse wins",
+        "title": "Will Corentin Moutet win at least 4.5 more games than Felix Balshaw?",
         "subtitle": "",
-        "ticker": "KXCS2GAME-26OCT210945TITNOI-NOI"
+        "ticker": "KXATPGSPREAD-26OCT21MOUBAL-MOU5"
       }
     ],
     "polymarket": [
