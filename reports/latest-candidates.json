@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T16:32:43.602Z",
+  "timestamp": "2026-10-20T16:33:31.319Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -12,7 +12,7 @@
     "kalshiSingleOutcomeMarkets": 1206,
     "kalshiMarkets": 1206,
     "polymarketMarkets": 2000,
-    "polymarketBinaryMarkets": 1647,
+    "polymarketBinaryMarkets": 1648,
     "titleCandidates": 25,
     "contractTypePolicy": "strict_same_kind",
     "kalshiPagesRequested": 20,
@@ -83,11 +83,11 @@
       "dateDifferenceDays": 2,
       "topOfBook": {
         "kalshiYesAsk": 0.35,
-        "kalshiNoAsk": 0.78,
+        "kalshiNoAsk": 0.73,
         "polymarketYesAsk": 0.5,
         "polymarketNoAsk": 0.71,
-        "kalshiYesAskSize": 2026.34,
-        "kalshiNoAskSize": 40,
+        "kalshiYesAskSize": 2102.34,
+        "kalshiNoAskSize": 10,
         "polymarketYesAskSize": 12,
         "polymarketNoAskSize": 5
       },
@@ -99,8 +99,8 @@
         },
         {
           "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.28,
-          "grossSpreadPerShare": -0.28
+          "combinedAsk": 1.23,
+          "grossSpreadPerShare": -0.23
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
@@ -125,11 +125,11 @@
       "dateDifferenceDays": 2,
       "topOfBook": {
         "kalshiYesAsk": 0.69,
-        "kalshiNoAsk": 0.71,
+        "kalshiNoAsk": 0.49,
         "polymarketYesAsk": 0.5,
         "polymarketNoAsk": 0.71,
         "kalshiYesAskSize": 1604,
-        "kalshiNoAskSize": 16,
+        "kalshiNoAskSize": 14,
         "polymarketYesAskSize": 12,
         "polymarketNoAskSize": 5
       },
@@ -141,8 +141,8 @@
         },
         {
           "direction": "POLY_YES_KALSHI_NO",
-          "combinedAsk": 1.21,
-          "grossSpreadPerShare": -0.21
+          "combinedAsk": 0.99,
+          "grossSpreadPerShare": 0.01
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
@@ -214,7 +214,7 @@
         "polymarketNoAsk": 0.22,
         "kalshiYesAskSize": 3,
         "kalshiNoAskSize": 0,
-        "polymarketYesAskSize": 33219.74,
+        "polymarketYesAskSize": 34486.83,
         "polymarketNoAskSize": 727.74
       },
       "illustrativeBeforeFees": [
@@ -324,7 +324,7 @@
         "polymarketYesAsk": 0.5,
         "polymarketNoAsk": 0.71,
         "kalshiYesAskSize": 700,
-        "kalshiNoAskSize": 206,
+        "kalshiNoAskSize": 706,
         "polymarketYesAskSize": 12,
         "polymarketNoAskSize": 5
       },
@@ -366,7 +366,7 @@
         "polymarketYesAsk": 0.62,
         "polymarketNoAsk": 0.44,
         "kalshiYesAskSize": 700,
-        "kalshiNoAskSize": 206,
+        "kalshiNoAskSize": 706,
         "polymarketYesAskSize": 5,
         "polymarketNoAskSize": 5
       },
@@ -478,11 +478,11 @@
       "dateDifferenceDays": 2,
       "topOfBook": {
         "kalshiYesAsk": 0.16,
-        "kalshiNoAsk": null,
+        "kalshiNoAsk": 0.98,
         "polymarketYesAsk": 0.5,
         "polymarketNoAsk": 0.71,
         "kalshiYesAskSize": 1250,
-        "kalshiNoAskSize": 0,
+        "kalshiNoAskSize": 25,
         "polymarketYesAskSize": 12,
         "polymarketNoAskSize": 5
       },
@@ -491,6 +491,11 @@
           "direction": "KALSHI_YES_POLY_NO",
           "combinedAsk": 0.87,
           "grossSpreadPerShare": 0.13
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.48,
+          "grossSpreadPerShare": -0.48
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
@@ -515,11 +520,11 @@
       "dateDifferenceDays": 2,
       "topOfBook": {
         "kalshiYesAsk": 0.16,
-        "kalshiNoAsk": null,
+        "kalshiNoAsk": 0.98,
         "polymarketYesAsk": 0.62,
         "polymarketNoAsk": 0.44,
         "kalshiYesAskSize": 1250,
-        "kalshiNoAskSize": 0,
+        "kalshiNoAskSize": 25,
         "polymarketYesAskSize": 5,
         "polymarketNoAskSize": 5
       },
@@ -528,6 +533,11 @@
           "direction": "KALSHI_YES_POLY_NO",
           "combinedAsk": 0.6,
           "grossSpreadPerShare": 0.4
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.6,
+          "grossSpreadPerShare": -0.6
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
@@ -552,11 +562,11 @@
       "dateDifferenceDays": 2,
       "topOfBook": {
         "kalshiYesAsk": 0.31,
-        "kalshiNoAsk": null,
+        "kalshiNoAsk": 0.98,
         "polymarketYesAsk": 0.5,
         "polymarketNoAsk": 0.71,
         "kalshiYesAskSize": 200,
-        "kalshiNoAskSize": 0,
+        "kalshiNoAskSize": 25,
         "polymarketYesAskSize": 12,
         "polymarketNoAskSize": 5
       },
@@ -565,6 +575,11 @@
           "direction": "KALSHI_YES_POLY_NO",
           "combinedAsk": 1.02,
           "grossSpreadPerShare": -0.02
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.48,
+          "grossSpreadPerShare": -0.48
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
@@ -589,11 +604,11 @@
       "dateDifferenceDays": 2,
       "topOfBook": {
         "kalshiYesAsk": 0.31,
-        "kalshiNoAsk": null,
+        "kalshiNoAsk": 0.98,
         "polymarketYesAsk": 0.62,
         "polymarketNoAsk": 0.44,
         "kalshiYesAskSize": 200,
-        "kalshiNoAskSize": 0,
+        "kalshiNoAskSize": 25,
         "polymarketYesAskSize": 5,
         "polymarketNoAskSize": 5
       },
@@ -602,6 +617,11 @@
           "direction": "KALSHI_YES_POLY_NO",
           "combinedAsk": 0.75,
           "grossSpreadPerShare": 0.25
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.6,
+          "grossSpreadPerShare": -0.6
         }
       ],
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
@@ -629,8 +649,8 @@
         "kalshiNoAsk": 0.5,
         "polymarketYesAsk": 0.5,
         "polymarketNoAsk": 0.71,
-        "kalshiYesAskSize": 5581,
-        "kalshiNoAskSize": 1540.3,
+        "kalshiYesAskSize": 5266,
+        "kalshiNoAskSize": 1040.3,
         "polymarketYesAskSize": 12,
         "polymarketNoAskSize": 5
       },
@@ -671,8 +691,8 @@
         "kalshiNoAsk": 0.5,
         "polymarketYesAsk": 0.62,
         "polymarketNoAsk": 0.44,
-        "kalshiYesAskSize": 5581,
-        "kalshiNoAskSize": 1540.3,
+        "kalshiYesAskSize": 5266,
+        "kalshiNoAskSize": 1040.3,
         "polymarketYesAskSize": 5,
         "polymarketNoAskSize": 5
       },
@@ -821,6 +841,16 @@
   "samples": {
     "kalshi": [
       {
+        "title": "Rokhlin Igor wins",
+        "subtitle": "",
+        "ticker": "KXLIGAPROMATCH-26OCT210030PRIROK-ROK"
+      },
+      {
+        "title": "Priakhin Vadim wins",
+        "subtitle": "",
+        "ticker": "KXLIGAPROMATCH-26OCT210030PRIROK-PRI"
+      },
+      {
         "title": "Mikal Bridges: 2+ steals",
         "subtitle": "",
         "ticker": "KXNBASTL-26OCT20PHINYK-NYKMBRIDGES25-2"
@@ -829,16 +859,6 @@
         "title": "Mikal Bridges: 1+ steals",
         "subtitle": "",
         "ticker": "KXNBASTL-26OCT20PHINYK-NYKMBRIDGES25-1"
-      },
-      {
-        "title": "Karl-Anthony Towns: 2+ steals",
-        "subtitle": "",
-        "ticker": "KXNBASTL-26OCT20PHINYK-NYKKTOWNS32-2"
-      },
-      {
-        "title": "Karl-Anthony Towns: 1+ steals",
-        "subtitle": "",
-        "ticker": "KXNBASTL-26OCT20PHINYK-NYKKTOWNS32-1"
       }
     ],
     "polymarket": [
