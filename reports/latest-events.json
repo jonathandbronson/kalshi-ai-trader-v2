@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T16:03:01.318Z",
+  "timestamp": "2026-10-20T16:03:48.274Z",
   "mode": "EVENT_FIRST_READ_ONLY",
   "status": "COLLECTED",
   "autoApproved": 0,
@@ -13,14 +13,16 @@
     "eventPagesRequested": 4,
     "eventMatches": 155,
     "discoveryStrategy": "bidirectional_inverted_index",
-    "eligibleCandidatePool": 38,
-    "dateMismatchCandidates": 38,
-    "uniqueEligibleEventPairs": 2,
+    "eligibleCandidatePool": 30,
+    "dateMismatchCandidates": 30,
+    "ruleWarningCandidates": 30,
+    "noRuleWarningCandidates": 0,
+    "uniqueEligibleEventPairs": 1,
     "candidateCategories": {
-      "politics": 38
+      "politics": 30
     },
-    "uniqueMatchedEventPairs": 2,
-    "candidates": 38
+    "uniqueMatchedEventPairs": 1,
+    "candidates": 30
   },
   "candidates": [
     {
@@ -60,50 +62,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.548,
-      "contractScore": 0.756,
-      "kalshi": {
-        "eventTicker": "KXNEXTISRAELPM-45JAN01",
-        "title": "Will Naftali Bennett be the next Prime Minister of Israel?",
-        "subtitle": "Naftali Bennett",
-        "outcomeLabel": "Will Naftali Bennett be the next Prime Minister of Israel? Naftali Bennett",
-        "ticker": "KXNEXTISRAELPM-45JAN01-NBEN",
-        "eventTitle": "Who will succeed Netanyahu as Prime Minister of Israel?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "81557",
-        "id": "682706",
-        "eventTitle": "Prime Minister of Israel after the next election?",
-        "title": "Will Naftali Bennett be the next Prime Minister of Israel?",
-        "endDate": "2026-10-28"
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Israel after Issuance is Naftali Bennett, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "The market resolves based on who actually assumes the office of Prime Minister, not who is elected or nominated. Acting or interim appointments count as holding the position if they formally assume the office. The person must be different from whoever held the position at market issuance - if the same person continues in office through the expiration date, all markets resolve to No. Resolution is based on official announcements from the country's legislature or government, with The New York Times as a secondary source for confirmation.",
-        "polymarketDescription": "Legislative elections are schedule to be held in Israel on October 27, 2026. \n\nThis market will resolve to the next individual who is officially appointed and sworn in as Prime Minister of Israel following the 2026 parliamentary election. If an election is called early, this market will immediately resolve to the individual who is officially appointed and sworn in after that election.\n\nTo count for resolution, the individual must be formally sworn in. Any interim or caretaker Prime Minister will not count toward the resolution of this market.\n\nIf no such Prime Minister is sworn in by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Israel; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-10-28",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -146,7 +109,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -189,7 +156,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -232,7 +203,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -275,7 +250,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -318,7 +297,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -361,7 +344,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -404,7 +391,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -447,7 +438,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -490,7 +485,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -533,7 +532,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -576,7 +579,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -619,7 +626,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -662,7 +673,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -705,7 +720,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -748,7 +767,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -791,7 +814,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -834,7 +861,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -877,7 +908,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -920,7 +955,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -963,7 +1002,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -1006,7 +1049,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -1049,7 +1096,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -1092,7 +1143,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -1135,7 +1190,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -1178,7 +1237,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -1221,7 +1284,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -1264,7 +1331,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -1307,265 +1378,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.548,
-      "contractScore": 0.756,
-      "kalshi": {
-        "eventTicker": "KXNEXTISRAELPM-45JAN01",
-        "title": "Will Yariv Levin be the next Prime Minister of Israel?",
-        "subtitle": "::",
-        "outcomeLabel": "Will Yariv Levin be the next Prime Minister of Israel? ::",
-        "ticker": "KXNEXTISRAELPM-45JAN01-YLEV",
-        "eventTitle": "Who will succeed Netanyahu as Prime Minister of Israel?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "81557",
-        "id": "682715",
-        "eventTitle": "Prime Minister of Israel after the next election?",
-        "title": "Will Yariv Levin be the next Prime Minister of Israel?",
-        "endDate": "2026-10-28"
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Israel after Issuance is Yariv Levin, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "The market resolves based on who actually assumes the office of Prime Minister, not who is elected or nominated. Acting or interim appointments count as holding the position if they formally assume the office. The person must be different from whoever held the position at market issuance - if the same person continues in office through the expiration date, all markets resolve to No. Resolution is based on official announcements from the country's legislature or government, with The New York Times as a secondary source for confirmation.",
-        "polymarketDescription": "Legislative elections are schedule to be held in Israel on October 27, 2026. \n\nThis market will resolve to the next individual who is officially appointed and sworn in as Prime Minister of Israel following the 2026 parliamentary election. If an election is called early, this market will immediately resolve to the individual who is officially appointed and sworn in after that election.\n\nTo count for resolution, the individual must be formally sworn in. Any interim or caretaker Prime Minister will not count toward the resolution of this market.\n\nIf no such Prime Minister is sworn in by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Israel; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-10-28",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.548,
-      "contractScore": 0.756,
-      "kalshi": {
-        "eventTicker": "KXNEXTISRAELPM-45JAN01",
-        "title": "Will Benny Gantz be the next Prime Minister of Israel?",
-        "subtitle": "::",
-        "outcomeLabel": "Will Benny Gantz be the next Prime Minister of Israel? ::",
-        "ticker": "KXNEXTISRAELPM-45JAN01-BGAN",
-        "eventTitle": "Who will succeed Netanyahu as Prime Minister of Israel?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "81557",
-        "id": "682709",
-        "eventTitle": "Prime Minister of Israel after the next election?",
-        "title": "Will Benny Gantz be the next Prime Minister of Israel?",
-        "endDate": "2026-10-28"
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Israel after Issuance is Benny Gantz, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "The market resolves based on who actually assumes the office of Prime Minister, not who is elected or nominated. Acting or interim appointments count as holding the position if they formally assume the office. The person must be different from whoever held the position at market issuance - if the same person continues in office through the expiration date, all markets resolve to No. Resolution is based on official announcements from the country's legislature or government, with The New York Times as a secondary source for confirmation.",
-        "polymarketDescription": "Legislative elections are schedule to be held in Israel on October 27, 2026. \n\nThis market will resolve to the next individual who is officially appointed and sworn in as Prime Minister of Israel following the 2026 parliamentary election. If an election is called early, this market will immediately resolve to the individual who is officially appointed and sworn in after that election.\n\nTo count for resolution, the individual must be formally sworn in. Any interim or caretaker Prime Minister will not count toward the resolution of this market.\n\nIf no such Prime Minister is sworn in by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Israel; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-10-28",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.548,
-      "contractScore": 0.756,
-      "kalshi": {
-        "eventTicker": "KXNEXTISRAELPM-45JAN01",
-        "title": "Will Yair Lapid be the next Prime Minister of Israel?",
-        "subtitle": "::",
-        "outcomeLabel": "Will Yair Lapid be the next Prime Minister of Israel? ::",
-        "ticker": "KXNEXTISRAELPM-45JAN01-YLAP",
-        "eventTitle": "Who will succeed Netanyahu as Prime Minister of Israel?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "81557",
-        "id": "682707",
-        "eventTitle": "Prime Minister of Israel after the next election?",
-        "title": "Will Yair Lapid be the next Prime Minister of Israel?",
-        "endDate": "2026-10-28"
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Israel after Issuance is Yair Lapid, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "The market resolves based on who actually assumes the office of Prime Minister, not who is elected or nominated. Acting or interim appointments count as holding the position if they formally assume the office. The person must be different from whoever held the position at market issuance - if the same person continues in office through the expiration date, all markets resolve to No. Resolution is based on official announcements from the country's legislature or government, with The New York Times as a secondary source for confirmation.",
-        "polymarketDescription": "Legislative elections are schedule to be held in Israel on October 27, 2026. \n\nThis market will resolve to the next individual who is officially appointed and sworn in as Prime Minister of Israel following the 2026 parliamentary election. If an election is called early, this market will immediately resolve to the individual who is officially appointed and sworn in after that election.\n\nTo count for resolution, the individual must be formally sworn in. Any interim or caretaker Prime Minister will not count toward the resolution of this market.\n\nIf no such Prime Minister is sworn in by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Israel; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-10-28",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.548,
-      "contractScore": 0.756,
-      "kalshi": {
-        "eventTicker": "KXNEXTISRAELPM-45JAN01",
-        "title": "Will Yossi Cohen be the next Prime Minister of Israel?",
-        "subtitle": "::",
-        "outcomeLabel": "Will Yossi Cohen be the next Prime Minister of Israel? ::",
-        "ticker": "KXNEXTISRAELPM-45JAN01-YCOH",
-        "eventTitle": "Who will succeed Netanyahu as Prime Minister of Israel?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "81557",
-        "id": "682711",
-        "eventTitle": "Prime Minister of Israel after the next election?",
-        "title": "Will Yossi Cohen be the next Prime Minister of Israel?",
-        "endDate": "2026-10-28"
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Israel after Issuance is Yossi Cohen, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "The market resolves based on who actually assumes the office of Prime Minister, not who is elected or nominated. Acting or interim appointments count as holding the position if they formally assume the office. The person must be different from whoever held the position at market issuance - if the same person continues in office through the expiration date, all markets resolve to No. Resolution is based on official announcements from the country's legislature or government, with The New York Times as a secondary source for confirmation.",
-        "polymarketDescription": "Legislative elections are schedule to be held in Israel on October 27, 2026. \n\nThis market will resolve to the next individual who is officially appointed and sworn in as Prime Minister of Israel following the 2026 parliamentary election. If an election is called early, this market will immediately resolve to the individual who is officially appointed and sworn in after that election.\n\nTo count for resolution, the individual must be formally sworn in. Any interim or caretaker Prime Minister will not count toward the resolution of this market.\n\nIf no such Prime Minister is sworn in by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Israel; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-10-28",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.548,
-      "contractScore": 0.756,
-      "kalshi": {
-        "eventTicker": "KXNEXTISRAELPM-45JAN01",
-        "title": "Will Avigdor Lieberman be the next Prime Minister of Israel?",
-        "subtitle": "::",
-        "outcomeLabel": "Will Avigdor Lieberman be the next Prime Minister of Israel? ::",
-        "ticker": "KXNEXTISRAELPM-45JAN01-ALIE",
-        "eventTitle": "Who will succeed Netanyahu as Prime Minister of Israel?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "81557",
-        "id": "682710",
-        "eventTitle": "Prime Minister of Israel after the next election?",
-        "title": "Will Avigdor Lieberman be the next Prime Minister of Israel?",
-        "endDate": "2026-10-28"
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Israel after Issuance is Avigdor Lieberman, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "The market resolves based on who actually assumes the office of Prime Minister, not who is elected or nominated. Acting or interim appointments count as holding the position if they formally assume the office. The person must be different from whoever held the position at market issuance - if the same person continues in office through the expiration date, all markets resolve to No. Resolution is based on official announcements from the country's legislature or government, with The New York Times as a secondary source for confirmation.",
-        "polymarketDescription": "Legislative elections are schedule to be held in Israel on October 27, 2026. \n\nThis market will resolve to the next individual who is officially appointed and sworn in as Prime Minister of Israel following the 2026 parliamentary election. If an election is called early, this market will immediately resolve to the individual who is officially appointed and sworn in after that election.\n\nTo count for resolution, the individual must be formally sworn in. Any interim or caretaker Prime Minister will not count toward the resolution of this market.\n\nIf no such Prime Minister is sworn in by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Israel; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-10-28",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.548,
-      "contractScore": 0.756,
-      "kalshi": {
-        "eventTicker": "KXNEXTISRAELPM-45JAN01",
-        "title": "Will Yair Golan be the next Prime Minister of Israel?",
-        "subtitle": "::",
-        "outcomeLabel": "Will Yair Golan be the next Prime Minister of Israel? ::",
-        "ticker": "KXNEXTISRAELPM-45JAN01-YGOL",
-        "eventTitle": "Who will succeed Netanyahu as Prime Minister of Israel?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "81557",
-        "id": "682712",
-        "eventTitle": "Prime Minister of Israel after the next election?",
-        "title": "Will Yair Golan be the next Prime Minister of Israel?",
-        "endDate": "2026-10-28"
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Israel after Issuance is Yair Golan, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "The market resolves based on who actually assumes the office of Prime Minister, not who is elected or nominated. Acting or interim appointments count as holding the position if they formally assume the office. The person must be different from whoever held the position at market issuance - if the same person continues in office through the expiration date, all markets resolve to No. Resolution is based on official announcements from the country's legislature or government, with The New York Times as a secondary source for confirmation.",
-        "polymarketDescription": "Legislative elections are schedule to be held in Israel on October 27, 2026. \n\nThis market will resolve to the next individual who is officially appointed and sworn in as Prime Minister of Israel following the 2026 parliamentary election. If an election is called early, this market will immediately resolve to the individual who is officially appointed and sworn in after that election.\n\nTo count for resolution, the individual must be formally sworn in. Any interim or caretaker Prime Minister will not count toward the resolution of this market.\n\nIf no such Prime Minister is sworn in by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Israel; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-10-28",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -1608,50 +1425,11 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.548,
-      "contractScore": 0.722,
-      "kalshi": {
-        "eventTicker": "KXNEXTISRAELPM-45JAN01",
-        "title": "Will Israel Katz be the next Prime Minister of Israel?",
-        "subtitle": "::",
-        "outcomeLabel": "Will Israel Katz be the next Prime Minister of Israel? ::",
-        "ticker": "KXNEXTISRAELPM-45JAN01-IKAT",
-        "eventTitle": "Who will succeed Netanyahu as Prime Minister of Israel?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "81557",
-        "id": "682719",
-        "eventTitle": "Prime Minister of Israel after the next election?",
-        "title": "Will Israel Katz be the next Prime Minister of Israel?",
-        "endDate": "2026-10-28"
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Israel after Issuance is Israel Katz, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "The market resolves based on who actually assumes the office of Prime Minister, not who is elected or nominated. Acting or interim appointments count as holding the position if they formally assume the office. The person must be different from whoever held the position at market issuance - if the same person continues in office through the expiration date, all markets resolve to No. Resolution is based on official announcements from the country's legislature or government, with The New York Times as a secondary source for confirmation.",
-        "polymarketDescription": "Legislative elections are schedule to be held in Israel on October 27, 2026. \n\nThis market will resolve to the next individual who is officially appointed and sworn in as Prime Minister of Israel following the 2026 parliamentary election. If an election is called early, this market will immediately resolve to the individual who is officially appointed and sworn in after that election.\n\nTo count for resolution, the individual must be formally sworn in. Any interim or caretaker Prime Minister will not count toward the resolution of this market.\n\nIf no such Prime Minister is sworn in by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Israel; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-10-28",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
