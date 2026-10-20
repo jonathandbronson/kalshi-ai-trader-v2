@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T16:07:15.117Z",
+  "timestamp": "2026-10-20T16:08:02.691Z",
   "mode": "EVENT_FIRST_READ_ONLY",
   "status": "COLLECTED",
   "autoApproved": 0,
@@ -9,7 +9,7 @@
     "kalshiEvents": 800,
     "polymarketEvents": 1196,
     "kalshiNestedMarkets": 6360,
-    "polymarketNestedMarkets": 20298,
+    "polymarketNestedMarkets": 20174,
     "eventPagesRequested": 8,
     "polymarketDiscoverySources": [
       "volume24hr",
@@ -17,20 +17,20 @@
     ],
     "eventMatches": 893,
     "discoveryStrategy": "bidirectional_inverted_index",
-    "eligibleCandidatePool": 458,
+    "eligibleCandidatePool": 317,
     "rejectedByReason": {
       "interim_appointment_treatment": 8
     },
     "rejectionCacheEntries": 8,
-    "dateMismatchCandidates": 458,
+    "dateMismatchCandidates": 317,
     "ruleWarningCandidates": 47,
-    "noRuleWarningCandidates": 411,
-    "uniqueEligibleEventPairs": 5,
+    "noRuleWarningCandidates": 270,
+    "uniqueEligibleEventPairs": 3,
     "candidateCategories": {
-      "other": 21,
-      "politics": 19
+      "other": 20,
+      "politics": 20
     },
-    "uniqueMatchedEventPairs": 5,
+    "uniqueMatchedEventPairs": 3,
     "candidates": 40
   },
   "candidates": [
@@ -145,58 +145,6 @@
       "executable": false
     },
     {
-      "category": "other",
-      "eventScore": 0.8,
-      "contractScore": 0.833,
-      "kalshi": {
-        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
-        "title": "Will Putin and Zelenskyy meet next in Switzerland?",
-        "subtitle": null,
-        "outcomeLabel": "Will Putin and Zelenskyy meet next in Switzerland?",
-        "ticker": "KXPUTINZELENSKYYLOCATION-28-SWZ",
-        "eventTitle": "Where will Putin and Zelenskyy next meet?",
-        "closeDate": "2028-12-31"
-      },
-      "polymarket": {
-        "eventId": "528389",
-        "id": "2364952",
-        "eventTitle": "Where will Trump and Putin meet next in 2026?",
-        "title": "Will Trump and Putin meet next in Switzerland?",
-        "endDate": "2027-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will putin and zelenskyy meet next in switzerland",
-        "kalshiRuleHash": "856d09237e75833d",
-        "polymarketRuleHash": "8bde2c29f4411825",
-        "kalshiClose": "2028-12-31",
-        "polymarketEnd": "2027-01-01",
-        "conflicts": []
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Switzerland before Dec 31, 2028, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve according to the location of the next meeting between Donald Trump and Vladimir Putin between market creation and December 31, 2026, 11:59 PM ET.\n\nThis market will resolve to \"No meeting by December 31\" if no qualifying meeting occurs during this market's timeframe.\n\nA meeting is defined as any encounter where Putin and Trump are all present and interact with each other in person.\n\nAn exchange of words, handshake, direct conversation, or other clear personal interaction between the named individuals will qualify as a meeting. Merely standing in proximity, making eye contact, or being present in the same room or event without direct interaction will not qualify.\n\nFor this market, Gulf states are defined as the six members of the Gulf Cooperation Council (Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, United Arab Emirates).\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
-        "polymarketResolutionSource": null,
-        "kalshiClose": "2028-12-31",
-        "polymarketEnd": "2027-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
-        "ruleConflicts": []
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
       "category": "politics",
       "eventScore": 0.791,
       "contractScore": 0.696,
@@ -247,58 +195,6 @@
         "ruleConflicts": [
           "explicit_deadline_only_on_polymarket"
         ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "other",
-      "eventScore": 0.6,
-      "contractScore": 0.614,
-      "kalshi": {
-        "eventTicker": "KXOSCARSUPACTR-27",
-        "title": "Will Penélope Cruz win Best Supporting Actress at the Oscars?",
-        "subtitle": "Penélope Cruz:: The Bride!",
-        "outcomeLabel": "Will Penélope Cruz win Best Supporting Actress at the Oscars? Penélope Cruz:: The Bride!",
-        "ticker": "KXOSCARSUPACTR-27-PEN",
-        "eventTitle": "Oscar Winner: Best Supporting Actress",
-        "closeDate": "2027-12-31"
-      },
-      "polymarket": {
-        "eventId": "1188311",
-        "id": "5686242",
-        "eventTitle": "Oscars 2027: Best Supporting Actress Nominations",
-        "title": "Will Penélope Cruz be nominated for Best Supporting Actress at the 99th Academy Awards?",
-        "endDate": "2027-03-15"
-      },
-      "settlementFingerprint": {
-        "outcome": "will pen lope cruz win best supporting actress at the oscars pen lope cruz the bride",
-        "kalshiRuleHash": "5bb84ced3f94039f",
-        "polymarketRuleHash": "421c70c084978861",
-        "kalshiClose": "2027-12-31",
-        "polymarketEnd": "2027-03-15",
-        "conflicts": []
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If Penélope Cruz has won Best Supporting Actress at the 99th Academy Awards, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
-        "polymarketDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve to \"Yes\" if the listed actress is nominated for the 99th Academy Award for Best Supporting Actress. If an actress is not officially nominated for the Academy Award for Best Supporting Actress when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIf, for any reason, no nominations are declared by March 14, 2027, 11:59 PM ET,  this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2027-12-31",
-        "polymarketEnd": "2027-03-15",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
-        "ruleConflicts": []
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -2192,6 +2088,116 @@
         "id": "667080",
         "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
         "title": "Will Zelenskyy and Putin meet next in China before 2027?",
+        "endDate": "2027-01-01"
+      },
+      "settlementFingerprint": {
+        "outcome": "will putin and zelenskyy meet next in hungary",
+        "kalshiRuleHash": "d6541703a4b506c0",
+        "polymarketRuleHash": "f1f381a27d7ada30",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Hungary before Dec 31, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Vasile Dîncu be the next Prime Minister of Romania?",
+        "subtitle": ":: PSD",
+        "outcomeLabel": "Will Vasile Dîncu be the next Prime Minister of Romania? :: PSD",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-VDIN",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166680",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Vasile Dîncu be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "settlementFingerprint": {
+        "outcome": "will vasile d ncu be the next prime minister of romania psd",
+        "kalshiRuleHash": "a04f781666d19cc1",
+        "polymarketRuleHash": "b5e031cd02f873a7",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Vasile Dîncu, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "other",
+      "eventScore": 1,
+      "contractScore": 0.833,
+      "kalshi": {
+        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
+        "title": "Will Putin and Zelenskyy meet next in Hungary?",
+        "subtitle": null,
+        "outcomeLabel": "Will Putin and Zelenskyy meet next in Hungary?",
+        "ticker": "KXPUTINZELENSKYYLOCATION-28-HUNG",
+        "eventTitle": "Where will Putin and Zelenskyy next meet?",
+        "closeDate": "2028-12-31"
+      },
+      "polymarket": {
+        "eventId": "74056",
+        "id": "667085",
+        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
+        "title": "Will Zelenskyy  and Putin meet next in Belarus before 2027?",
         "endDate": "2027-01-01"
       },
       "settlementFingerprint": {
