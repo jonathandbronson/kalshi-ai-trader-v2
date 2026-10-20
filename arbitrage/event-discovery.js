@@ -222,6 +222,7 @@ async function collect(){
  report.counts.discoveryStrategy="bidirectional_inverted_index";
  report.counts.eventMatchCategories=Object.fromEntries(["politics","sports","crypto","economics","finance","other"].map(c=>[c,eventMatches.filter(({k,p})=>eventCategory(k.title+" "+p.title)===c).length]));
  report.counts.sourceEventCategories={kalshi:Object.fromEntries(["politics","sports","crypto","economics","finance","other"].map(c=>[c,kalshi.filter(e=>eventCategory(e.title)===c).length])),polymarket:Object.fromEntries(["politics","sports","crypto","economics","finance","other"].map(c=>[c,poly.filter(e=>eventCategory(e.title)===c).length]))};
+ report.counts.discoveryCoverageWarning=["sports","crypto","economics","finance"].filter(c=>report.counts.eventMatchCategories[c]===0);
  const rejected=await loadRejections(),seen=new Set(),pool=[];
  const rejectReasons={};let cachedRejections=0;const rejectionCacheLoaded=Object.keys(rejected).length;
  const reject=(key,reason)=>{rejectReasons[reason]=(rejectReasons[reason]??0)+1;rejected[key]={reason,lastSeen:report.timestamp};};
