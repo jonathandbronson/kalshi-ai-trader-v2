@@ -17,7 +17,7 @@ export function simulatePair({yesAsks,noAsks,quantity,yesFeeRate=0,noFeeRate=0,f
  if(!approved||!settlementEvidenceVerified)return {accepted:false,reason:"SETTLEMENT_NOT_VERIFIED"};
  const yes=walkAsks(yesAsks,quantity),no=walkAsks(noAsks,quantity);
  if(yes.unfilled>1e-9||no.unfilled>1e-9)return {accepted:false,reason:"INSUFFICIENT_DEPTH",yes,no};
- const calcFee=(model,fill,rate)=>{if(!model)return fill.costUsd*rate;if(model.type==="flat_rate")return fill.costUsd*model.rate;if(model.type==="kalshi_taker")return Math.ceil(100*model.coefficient*quantity*fill.avgPrice*(1-fill.avgPrice))/100;throw Error("UNKNOWN_FEE_MODEL")};
+ const calcFee=(model,fill,rate)=>{if(!model)return fill.costUsd*rate;if(!Number.isFinite(model.rate??model.coefficient)|| (model.rate??model.coefficient)<0)throw Error("INVALID_FEE_PARAMETER");if(model.type==="flat_rate")return fill.costUsd*model.rate;if(model.type==="kalshi_taker")return Math.ceil(100*model.coefficient*quantity*fill.avgPrice*(1-fill.avgPrice))/100;throw Error("UNKNOWN_FEE_MODEL")};
  if(feeModels&&(!Array.isArray(feeModels)||feeModels.length!==2))throw Error("INVALID_FEE_MODELS");
  const fees=round(calcFee(feeModels?.[0],yes,yesFeeRate)+calcFee(feeModels?.[1],no,noFeeRate)+fixedFeesUsd);
  const slippageReserve=round(quantity*2*latencySlippageCents/100);
