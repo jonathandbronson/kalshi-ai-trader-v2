@@ -1,22 +1,18 @@
 {
-  "timestamp": "2026-10-20T16:35:07.303Z",
+  "timestamp": "2026-10-20T16:43:12.264Z",
   "status": "SHORTLIST_DIFF_ONLY",
   "currentScanStatus": "COLLECTED",
   "previousScanStatus": "COLLECTED",
-  "previousTimestamp": "2026-10-20T16:33:57.955Z",
+  "previousTimestamp": "2026-10-20T16:34:58.774Z",
   "counts": {
     "previous": 40,
     "current": 40,
-    "added": 1,
-    "removed": 1
+    "added": 0,
+    "removed": 0
   },
   "shortlistTruncated": true,
-  "added": [
-    "KXFRPRESADVANCE-26APR18-GATT|2371053"
-  ],
-  "removed": [
-    "SENATESC-28-R|5972006"
-  ],
+  "added": [],
+  "removed": [],
   "notes": [
     "Only compares the candidate shortlist, not the entire event universe.",
     "Disappearance from the capped shortlist does not mean an event closed or a market disappeared.",
