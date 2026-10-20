@@ -11,6 +11,6 @@ const prior=new Map((old?.candidates??[]).map(c=>[key(c),c]));
 const current=new Map(now.candidates.map(c=>[key(c),c]));
 const added=[...current.keys()].filter(k=>!prior.has(k));
 const removed=[...prior.keys()].filter(k=>!current.has(k));
-const report={timestamp:new Date().toISOString(),status:"DIFF_ONLY",currentScanStatus:now.status,previousScanStatus:old?.status??null,previousTimestamp:old?.timestamp??null,counts:{previous:prior.size,current:current.size,added:added.length,removed:removed.length},added,removed,notes:["Only compares the candidate shortlist, not the entire event universe.","Disappearance from the shortlist does not mean an event closed.","No settlement verification or trade approval."]};
+const report={timestamp:new Date().toISOString(),status:"SHORTLIST_DIFF_ONLY",currentScanStatus:now.status,previousScanStatus:old?.status??null,previousTimestamp:old?.timestamp??null,counts:{previous:prior.size,current:current.size,added:added.length,removed:removed.length},shortlistTruncated:true,added,removed,notes:["Only compares the candidate shortlist, not the entire event universe.","Disappearance from the capped shortlist does not mean an event closed or a market disappeared.","No settlement verification or trade approval."]};
 await writeFile(destination,JSON.stringify(report,null,2)+"\n");
 console.log(JSON.stringify(report.counts));
