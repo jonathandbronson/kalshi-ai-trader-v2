@@ -87,3 +87,11 @@ node arbitrage/spread-observer-cli.js
 The observer never places orders or creates paper positions. It measures **both** cross-venue directions for verified watchlist pairs and records positive, negative, and insufficient-depth observations. The **research threshold is 0%** so small or negative spreads can be measured; the existing paper-entry threshold remains **2% by default**. The scheduled discovery workflow publishes `reports/latest-spread-observations.json` when the observer runs. With an empty verified watchlist, the report correctly shows zero observations; it does not claim opportunities.
 
 Before judging viability, assemble a manually verified watchlist across categories, monitor spreads over multiple days, then evaluate executable depth, fees, book freshness, and unhedged-leg stress. Neither similar titles nor a positive theoretical spread establishes a risk-free arbitrage.
+
+## Category-targeted discovery and manual review (October 2026)
+
+The event scanner now supplements general volume/recent-event pagination with Kalshi `/series?category=...` followed by `/events?series_ticker=...`, and Polymarket tag discovery followed by `/events?tag_id=...`. It deduplicates event IDs, reports per-category source coverage and errors, and never auto-approves pairs. Category scan sizes are bounded by `ARB_CATEGORY_SERIES` (default 3), `ARB_CATEGORY_TAGS` (default 2), and `ARB_CATEGORY_PAGES` (default 1).
+
+After discovery, `node arbitrage/review-queue-cli.js` produces `arbitrage-review-queue.json`; GitHub Actions publishes `reports/latest-review-queue.json`. This queue contains full rule snippets, title comparisons, closing dates, rule warnings, and a research-only review score. **A high review score is not settlement equivalence.** The watchlist remains empty until independent manual verification and eligibility checks. The existing `arbitrage/approved-pairs.json` is the sole input for spread observation.
+
+These category searches improve coverage but do not guarantee all active markets have been indexed. They are a candidate-sourcing tool, not an autonomous settlement verifier.
