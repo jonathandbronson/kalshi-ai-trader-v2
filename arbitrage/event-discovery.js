@@ -218,6 +218,7 @@ async function collect(){
  const eventMatches=[...matches.values()];
  eventMatches.sort((a,b)=>b.confidence-a.confidence);
  report.counts.eventMatches=eventMatches.length;
+ report.counts.eventMatchThreshold={minimumSharedTokens:2,minimumSimilarity:0.52};
  report.counts.discoveryStrategy="bidirectional_inverted_index";
  report.counts.eventMatchCategories=Object.fromEntries(["politics","sports","crypto","economics","finance","other"].map(c=>[c,eventMatches.filter(({k,p})=>eventCategory(k.title+" "+p.title)===c).length]));
  report.counts.sourceEventCategories={kalshi:Object.fromEntries(["politics","sports","crypto","economics","finance","other"].map(c=>[c,kalshi.filter(e=>eventCategory(e.title)===c).length])),polymarket:Object.fromEntries(["politics","sports","crypto","economics","finance","other"].map(c=>[c,poly.filter(e=>eventCategory(e.title)===c).length]))};
@@ -282,6 +283,7 @@ async function collect(){
   }
  }
  report.counts.eligibleCandidatePool=pool.length;
+ report.counts.eligiblePoolCategories=Object.fromEntries(["politics","sports","crypto","economics","finance","other"].map(c=>[c,pool.filter(x=>x.category===c).length]));
  report.counts.rejectedByReason=rejectReasons;
  report.counts.rejectionCacheEntries=Object.keys(rejected).length;
  report.counts.rejectionCacheLoaded=rejectionCacheLoaded;
