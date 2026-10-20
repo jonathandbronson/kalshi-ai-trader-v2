@@ -17,7 +17,7 @@ async function main(){
  }
  const input=demo?synthetic:inputPath?JSON.parse(await readFile(inputPath,"utf8")):null;
  if(!input)throw new Error("Provide --demo for synthetic simulation or ARB_PAPER_INPUT for a reviewed, structured paper quote");
- const result=portfolio.enter(input);
+ const result=portfolio.enter(demo?{...input,settlementEvidenceVerified:true}:input);
  if(result.accepted)await writeFile(path,JSON.stringify(portfolio.snapshot(),null,2)+"\n",{mode:0o600});
  console.log(JSON.stringify({synthetic:demo,result,portfolio:portfolio.snapshot()},null,2));
 }
