@@ -1,36 +1,65 @@
 {
-  "timestamp": "2026-10-20T16:43:03.697Z",
+  "timestamp": "2026-10-20T16:45:56.875Z",
   "mode": "EVENT_FIRST_READ_ONLY",
   "status": "COLLECTED",
   "autoApproved": 0,
   "verifiedPairs": 0,
   "errors": [],
   "counts": {
-    "kalshiEvents": 800,
-    "polymarketEvents": 1196,
-    "kalshiNestedMarkets": 6360,
-    "polymarketNestedMarkets": 20982,
+    "categorySourceCoverage": {
+      "Sports": {
+        "kalshiSeries": 3,
+        "kalshiEvents": 0,
+        "polyTags": 2,
+        "polyEvents": 2
+      },
+      "Economics": {
+        "kalshiSeries": 3,
+        "kalshiEvents": 2,
+        "polyTags": 2,
+        "polyEvents": 18
+      },
+      "Financials": {
+        "kalshiSeries": 3,
+        "kalshiEvents": 3,
+        "polyTags": 0,
+        "polyEvents": 0
+      },
+      "Crypto": {
+        "kalshiSeries": 3,
+        "kalshiEvents": 3,
+        "polyTags": 0,
+        "polyEvents": 0
+      }
+    },
+    "categorySourceErrors": 0,
+    "kalshiEvents": 808,
+    "polymarketEvents": 1208,
+    "kalshiNestedMarkets": 6801,
+    "polymarketNestedMarkets": 21001,
     "eventPagesRequested": 8,
     "polymarketDiscoverySources": [
       "volume24hr",
-      "recent_id"
+      "recent_id",
+      "tag_id"
     ],
     "kalshiDiscoverySources": [
-      "open_cursor_pagination"
+      "open_cursor_pagination",
+      "series_ticker"
     ],
-    "eventMatches": 878,
+    "eventMatches": 1080,
     "eventMatchThreshold": {
       "minimumSharedTokens": 2,
       "minimumSimilarity": 0.52
     },
     "discoveryStrategy": "bidirectional_inverted_index",
     "eventMatchCategories": {
-      "politics": 822,
+      "politics": 814,
       "sports": 1,
       "crypto": 0,
-      "economics": 4,
+      "economics": 216,
       "finance": 0,
-      "other": 51
+      "other": 49
     },
     "sourceEventCategories": {
       "kalshi": {
@@ -38,16 +67,16 @@
         "sports": 13,
         "crypto": 1,
         "economics": 62,
-        "finance": 0,
-        "other": 583
+        "finance": 1,
+        "other": 590
       },
       "polymarket": {
         "politics": 95,
         "sports": 22,
-        "crypto": 141,
-        "economics": 12,
-        "finance": 10,
-        "other": 916
+        "crypto": 139,
+        "economics": 30,
+        "finance": 11,
+        "other": 911
       }
     },
     "discoveryCoverageWarning": [
