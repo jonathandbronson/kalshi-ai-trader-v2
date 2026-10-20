@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T16:32:20.056Z",
+  "timestamp": "2026-10-20T16:33:07.193Z",
   "mode": "EVENT_FIRST_READ_ONLY",
   "status": "COLLECTED",
   "autoApproved": 0,
@@ -9,7 +9,7 @@
     "kalshiEvents": 800,
     "polymarketEvents": 1194,
     "kalshiNestedMarkets": 6360,
-    "polymarketNestedMarkets": 20981,
+    "polymarketNestedMarkets": 21012,
     "eventPagesRequested": 8,
     "polymarketDiscoverySources": [
       "volume24hr",
