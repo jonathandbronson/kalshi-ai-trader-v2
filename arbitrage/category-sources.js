@@ -47,6 +47,14 @@ export async function collectCategoryEvents({fetcher=fetch,seriesPerCategory=3,t
    }
   }
   const selected=tags.filter(t=>TAG_KEYWORDS[category].test(String(t.slug??"")+" "+String(t.label??""))).slice(0,Math.max(0,tagsPerCategory));
+  // /tags may return a truncated list; query high-value slugs directly when absent.
+  const fallbackSlugs={Sports:["sports"],Economics:["economics","macro"],Financials:["finance","stocks"],Crypto:["crypto","bitcoin"]}[category]??[];
+  if(selected.length===0)for(const slug of fallbackSlugs){
+   const u=new URL("https://gamma-api.polymarket.com/tags");u.searchParams.set("slug",slug);
+   const found=await safe(u.toString(),"polymarket tag slug "+slug);
+   for(const tag of (Array.isArray(found)?found:[]))if(tag.id!=null&&!selected.some(x=>String(x.id)===String(tag.id)))selected.push(tag);
+   if(selected.length>=tagsPerCategory)break;
+  }
   for(const tag of selected){
    if(tag.id==null)continue;
    record.polyTags++;
