@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T16:05:38.053Z",
+  "timestamp": "2026-10-20T16:06:26.843Z",
   "mode": "EVENT_FIRST_READ_ONLY",
   "status": "COLLECTED",
   "autoApproved": 0,
@@ -18,6 +18,10 @@
     "eventMatches": 892,
     "discoveryStrategy": "bidirectional_inverted_index",
     "eligibleCandidatePool": 458,
+    "rejectedByReason": {
+      "interim_appointment_treatment": 8
+    },
+    "rejectionCacheEntries": 8,
     "dateMismatchCandidates": 458,
     "ruleWarningCandidates": 47,
     "noRuleWarningCandidates": 411,
@@ -49,6 +53,14 @@
         "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
         "title": "Will Zelenskyy and Putin meet next in Hungary before 2027?",
         "endDate": "2027-01-01"
+      },
+      "settlementFingerprint": {
+        "outcome": "will putin and zelenskyy meet next in hungary",
+        "kalshiRuleHash": "d6541703a4b506c0",
+        "polymarketRuleHash": "f1f381a27d7ada30",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "conflicts": []
       },
       "reviewEvidence": {
         "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Hungary before Dec 31, 2028, then the market resolves to Yes.",
@@ -93,6 +105,17 @@
         "eventTitle": "Next Prime Minister of Romania?",
         "title": "Will Șerban Matei be the next Prime Minister of Romania?",
         "endDate": "2028-01-01"
+      },
+      "settlementFingerprint": {
+        "outcome": "will erban matei be the next prime minister of romania",
+        "kalshiRuleHash": "d143759c80cc4179",
+        "polymarketRuleHash": "b5e031cd02f873a7",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewEvidence": {
         "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Șerban Matei, then the market resolves to Yes.",
@@ -141,6 +164,14 @@
         "title": "Will Trump and Putin meet next in Switzerland?",
         "endDate": "2027-01-01"
       },
+      "settlementFingerprint": {
+        "outcome": "will putin and zelenskyy meet next in switzerland",
+        "kalshiRuleHash": "856d09237e75833d",
+        "polymarketRuleHash": "8bde2c29f4411825",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "conflicts": []
+      },
       "reviewEvidence": {
         "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Switzerland before Dec 31, 2028, then the market resolves to Yes.",
         "kalshiSecondaryRules": "",
@@ -184,6 +215,16 @@
         "eventTitle": "Next French Presidential Election: who will advance to the 2nd round?",
         "title": "Will Jean-Luc Mélenchon advance to the second round of the next French presidential election?",
         "endDate": "2027-04-19"
+      },
+      "settlementFingerprint": {
+        "outcome": "will jean luc m lenchon qualify for the runoff in the 2027 french presidential election",
+        "kalshiRuleHash": "ddf1aeac2be6168c",
+        "polymarketRuleHash": "ae49a52662279851",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
       },
       "reviewEvidence": {
         "kalshiRules": "If Jean-Luc Mélenchon is announced to qualify for the runoff in the 2027 French presidential election, then the market resolves to Yes.",
@@ -231,6 +272,14 @@
         "title": "Will Penélope Cruz be nominated for Best Supporting Actress at the 99th Academy Awards?",
         "endDate": "2027-03-15"
       },
+      "settlementFingerprint": {
+        "outcome": "will pen lope cruz win best supporting actress at the oscars pen lope cruz the bride",
+        "kalshiRuleHash": "5bb84ced3f94039f",
+        "polymarketRuleHash": "421c70c084978861",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-03-15",
+        "conflicts": []
+      },
       "reviewEvidence": {
         "kalshiRules": "If Penélope Cruz has won Best Supporting Actress at the 99th Academy Awards, then the market resolves to Yes.",
         "kalshiSecondaryRules": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
@@ -275,6 +324,14 @@
         "title": "Will Zelenskyy and Putin meet next in Switzerland before 2027?",
         "endDate": "2027-01-01"
       },
+      "settlementFingerprint": {
+        "outcome": "will putin and zelenskyy meet next in switzerland",
+        "kalshiRuleHash": "856d09237e75833d",
+        "polymarketRuleHash": "f1f381a27d7ada30",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "conflicts": []
+      },
       "reviewEvidence": {
         "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Switzerland before Dec 31, 2028, then the market resolves to Yes.",
         "kalshiSecondaryRules": "",
@@ -318,6 +375,17 @@
         "eventTitle": "Next Prime Minister of Romania?",
         "title": "Will Radu Burnete be the next Prime Minister of Romania?",
         "endDate": "2028-01-01"
+      },
+      "settlementFingerprint": {
+        "outcome": "will radu burnete be the next prime minister of romania",
+        "kalshiRuleHash": "579a27f41bf86ee4",
+        "polymarketRuleHash": "b5e031cd02f873a7",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewEvidence": {
         "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Radu Burnete, then the market resolves to Yes.",
@@ -366,6 +434,14 @@
         "title": "Will Zelenskyy and Putin meet next in Turkey before 2027?",
         "endDate": "2027-01-01"
       },
+      "settlementFingerprint": {
+        "outcome": "will putin and zelenskyy meet next in turkey",
+        "kalshiRuleHash": "da503bbb71ddcccb",
+        "polymarketRuleHash": "f1f381a27d7ada30",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "conflicts": []
+      },
       "reviewEvidence": {
         "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Turkey before Dec 31, 2028, then the market resolves to Yes.",
         "kalshiSecondaryRules": "",
@@ -409,6 +485,17 @@
         "eventTitle": "Next Prime Minister of Romania?",
         "title": "Will Victor Ponta be the next Prime Minister of Romania?",
         "endDate": "2028-01-01"
+      },
+      "settlementFingerprint": {
+        "outcome": "will victor ponta be the next prime minister of romania",
+        "kalshiRuleHash": "8dc226df459bd383",
+        "polymarketRuleHash": "b5e031cd02f873a7",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewEvidence": {
         "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Victor Ponta, then the market resolves to Yes.",
@@ -457,6 +544,14 @@
         "title": "Will Zelenskyy and Putin meet next in China before 2027?",
         "endDate": "2027-01-01"
       },
+      "settlementFingerprint": {
+        "outcome": "will putin and zelenskyy meet next in china",
+        "kalshiRuleHash": "44e072646e33824f",
+        "polymarketRuleHash": "f1f381a27d7ada30",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "conflicts": []
+      },
       "reviewEvidence": {
         "kalshiRules": "If the next Putin and Zelenskyy meeting happens in China before Dec 31, 2028, then the market resolves to Yes.",
         "kalshiSecondaryRules": "",
@@ -500,6 +595,17 @@
         "eventTitle": "Next Prime Minister of Romania?",
         "title": "Will Siegfried Mureșan be the next Prime Minister of Romania?",
         "endDate": "2028-01-01"
+      },
+      "settlementFingerprint": {
+        "outcome": "will siegfried mure an be the next prime minister of romania",
+        "kalshiRuleHash": "7fc472a5223c5e4e",
+        "polymarketRuleHash": "b5e031cd02f873a7",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewEvidence": {
         "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Siegfried Mureșan, then the market resolves to Yes.",
@@ -548,6 +654,14 @@
         "title": "Will Zelenskyy and Putin meet next in Ukraine before 2027?",
         "endDate": "2027-01-01"
       },
+      "settlementFingerprint": {
+        "outcome": "will putin and zelenskyy meet next in ukraine",
+        "kalshiRuleHash": "08de3548b503645d",
+        "polymarketRuleHash": "f1f381a27d7ada30",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "conflicts": []
+      },
       "reviewEvidence": {
         "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Ukraine before Dec 31, 2028, then the market resolves to Yes.",
         "kalshiSecondaryRules": "",
@@ -591,6 +705,17 @@
         "eventTitle": "Next Prime Minister of Romania?",
         "title": "Will Mugur Isărescu be the next Prime Minister of Romania?",
         "endDate": "2026-12-31"
+      },
+      "settlementFingerprint": {
+        "outcome": "will mugur is rescu be the next prime minister of romania independent",
+        "kalshiRuleHash": "6c548fc3eee25a36",
+        "polymarketRuleHash": "b5e031cd02f873a7",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2026-12-31",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewEvidence": {
         "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Mugur Isărescu, then the market resolves to Yes.",
@@ -639,6 +764,14 @@
         "title": "Will Zelenskyy and Putin meet next in Russia before 2027?",
         "endDate": "2027-01-01"
       },
+      "settlementFingerprint": {
+        "outcome": "will putin and zelenskyy meet next in russia",
+        "kalshiRuleHash": "40b1a29b19ad48b4",
+        "polymarketRuleHash": "f1f381a27d7ada30",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "conflicts": []
+      },
       "reviewEvidence": {
         "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Russia before Dec 31, 2028, then the market resolves to Yes.",
         "kalshiSecondaryRules": "",
@@ -682,6 +815,17 @@
         "eventTitle": "Next Prime Minister of Romania?",
         "title": "Will Mircea Geoană be the next Prime Minister of Romania?",
         "endDate": "2026-12-31"
+      },
+      "settlementFingerprint": {
+        "outcome": "will mircea geoan be the next prime minister of romania independent",
+        "kalshiRuleHash": "3ba906cc19372831",
+        "polymarketRuleHash": "b5e031cd02f873a7",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2026-12-31",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewEvidence": {
         "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Mircea Geoană, then the market resolves to Yes.",
@@ -730,6 +874,14 @@
         "title": "Will Zelenskyy and Putin meet next in US before 2027?",
         "endDate": "2027-01-01"
       },
+      "settlementFingerprint": {
+        "outcome": "will putin and zelenskyy meet next in hungary",
+        "kalshiRuleHash": "d6541703a4b506c0",
+        "polymarketRuleHash": "f1f381a27d7ada30",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "conflicts": []
+      },
       "reviewEvidence": {
         "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Hungary before Dec 31, 2028, then the market resolves to Yes.",
         "kalshiSecondaryRules": "",
@@ -773,6 +925,17 @@
         "eventTitle": "Next Prime Minister of Romania?",
         "title": "Will Anca Dragu be the next Prime Minister of Romania?",
         "endDate": "2028-01-01"
+      },
+      "settlementFingerprint": {
+        "outcome": "will anca dragu be the next prime minister of romania usr",
+        "kalshiRuleHash": "fb0fb02d6e73118d",
+        "polymarketRuleHash": "b5e031cd02f873a7",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewEvidence": {
         "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Anca Dragu, then the market resolves to Yes.",
@@ -821,6 +984,14 @@
         "title": "Will Zelenskyy and Putin meet next in US before 2027?",
         "endDate": "2027-01-01"
       },
+      "settlementFingerprint": {
+        "outcome": "will putin and zelenskyy meet next in switzerland",
+        "kalshiRuleHash": "856d09237e75833d",
+        "polymarketRuleHash": "f1f381a27d7ada30",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "conflicts": []
+      },
       "reviewEvidence": {
         "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Switzerland before Dec 31, 2028, then the market resolves to Yes.",
         "kalshiSecondaryRules": "",
@@ -864,6 +1035,17 @@
         "eventTitle": "Next Prime Minister of Romania?",
         "title": "Will Lucian Isar be the next Prime Minister of Romania?",
         "endDate": "2026-12-31"
+      },
+      "settlementFingerprint": {
+        "outcome": "will lucian isar be the next prime minister of romania independent",
+        "kalshiRuleHash": "e5334060bdb0fd8f",
+        "polymarketRuleHash": "b5e031cd02f873a7",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2026-12-31",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewEvidence": {
         "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Lucian Isar, then the market resolves to Yes.",
@@ -912,6 +1094,14 @@
         "title": "Will Zelenskyy and Putin meet next in US before 2027?",
         "endDate": "2027-01-01"
       },
+      "settlementFingerprint": {
+        "outcome": "will putin and zelenskyy meet next in turkey",
+        "kalshiRuleHash": "da503bbb71ddcccb",
+        "polymarketRuleHash": "f1f381a27d7ada30",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "conflicts": []
+      },
       "reviewEvidence": {
         "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Turkey before Dec 31, 2028, then the market resolves to Yes.",
         "kalshiSecondaryRules": "",
@@ -955,6 +1145,17 @@
         "eventTitle": "Next Prime Minister of Romania?",
         "title": "Will Cătălin Predoiu be the next Prime Minister of Romania?",
         "endDate": "2028-01-01"
+      },
+      "settlementFingerprint": {
+        "outcome": "will c t lin predoiu be the next prime minister of romania pnl",
+        "kalshiRuleHash": "937e74a9803e45ed",
+        "polymarketRuleHash": "b5e031cd02f873a7",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewEvidence": {
         "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Cătălin Predoiu, then the market resolves to Yes.",
@@ -1003,6 +1204,14 @@
         "title": "Will Zelenskyy and Putin meet next in US before 2027?",
         "endDate": "2027-01-01"
       },
+      "settlementFingerprint": {
+        "outcome": "will putin and zelenskyy meet next in china",
+        "kalshiRuleHash": "44e072646e33824f",
+        "polymarketRuleHash": "f1f381a27d7ada30",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "conflicts": []
+      },
       "reviewEvidence": {
         "kalshiRules": "If the next Putin and Zelenskyy meeting happens in China before Dec 31, 2028, then the market resolves to Yes.",
         "kalshiSecondaryRules": "",
@@ -1046,6 +1255,17 @@
         "eventTitle": "Next Prime Minister of Romania?",
         "title": "Will Sorin Grindeanu be the next Prime Minister of Romania?",
         "endDate": "2028-01-01"
+      },
+      "settlementFingerprint": {
+        "outcome": "will sorin grindeanu be the next prime minister of romania psd",
+        "kalshiRuleHash": "b7b84deaf7755554",
+        "polymarketRuleHash": "b5e031cd02f873a7",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewEvidence": {
         "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Sorin Grindeanu, then the market resolves to Yes.",
@@ -1094,6 +1314,14 @@
         "title": "Will Zelenskyy and Putin meet next in US before 2027?",
         "endDate": "2027-01-01"
       },
+      "settlementFingerprint": {
+        "outcome": "will putin and zelenskyy meet next in germany",
+        "kalshiRuleHash": "3863a924c825ec77",
+        "polymarketRuleHash": "f1f381a27d7ada30",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "conflicts": []
+      },
       "reviewEvidence": {
         "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Germany before Dec 31, 2028, then the market resolves to Yes.",
         "kalshiSecondaryRules": "",
@@ -1137,6 +1365,17 @@
         "eventTitle": "Next Prime Minister of Romania?",
         "title": "Will George Simion be the next Prime Minister of Romania?",
         "endDate": "2028-01-01"
+      },
+      "settlementFingerprint": {
+        "outcome": "will george simion be the next prime minister of romania aur",
+        "kalshiRuleHash": "c9fdd79f6b48599e",
+        "polymarketRuleHash": "b5e031cd02f873a7",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewEvidence": {
         "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is George Simion, then the market resolves to Yes.",
@@ -1185,6 +1424,14 @@
         "title": "Will Zelenskyy and Putin meet next in US before 2027?",
         "endDate": "2027-01-01"
       },
+      "settlementFingerprint": {
+        "outcome": "will putin and zelenskyy meet next in the usa",
+        "kalshiRuleHash": "7af8aaefba86ce67",
+        "polymarketRuleHash": "f1f381a27d7ada30",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "conflicts": []
+      },
       "reviewEvidence": {
         "kalshiRules": "If the next Putin and Zelenskyy meeting happens in United States before Dec 31, 2028, then the market resolves to Yes.",
         "kalshiSecondaryRules": "",
@@ -1228,6 +1475,17 @@
         "eventTitle": "Next Prime Minister of Romania?",
         "title": "Will Nicolae Ciucă be the next Prime Minister of Romania?",
         "endDate": "2028-01-01"
+      },
+      "settlementFingerprint": {
+        "outcome": "will nicolae ciuc be the next prime minister of romania pnl",
+        "kalshiRuleHash": "36500f26ab831e9d",
+        "polymarketRuleHash": "b5e031cd02f873a7",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewEvidence": {
         "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Nicolae Ciucă, then the market resolves to Yes.",
@@ -1276,6 +1534,14 @@
         "title": "Will Zelenskyy and Putin meet next in US before 2027?",
         "endDate": "2027-01-01"
       },
+      "settlementFingerprint": {
+        "outcome": "will putin and zelenskyy meet next in ukraine",
+        "kalshiRuleHash": "08de3548b503645d",
+        "polymarketRuleHash": "f1f381a27d7ada30",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "conflicts": []
+      },
       "reviewEvidence": {
         "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Ukraine before Dec 31, 2028, then the market resolves to Yes.",
         "kalshiSecondaryRules": "",
@@ -1319,6 +1585,17 @@
         "eventTitle": "Next Prime Minister of Romania?",
         "title": "Will Marcel Ciolacu be the next Prime Minister of Romania?",
         "endDate": "2026-12-31"
+      },
+      "settlementFingerprint": {
+        "outcome": "will marcel ciolacu be the next prime minister of romania psd",
+        "kalshiRuleHash": "8a9963ad8937b6fb",
+        "polymarketRuleHash": "b5e031cd02f873a7",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2026-12-31",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewEvidence": {
         "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Marcel Ciolacu, then the market resolves to Yes.",
@@ -1367,6 +1644,14 @@
         "title": "Will Zelenskyy and Putin meet next in US before 2027?",
         "endDate": "2027-01-01"
       },
+      "settlementFingerprint": {
+        "outcome": "will putin and zelenskyy meet next in russia",
+        "kalshiRuleHash": "40b1a29b19ad48b4",
+        "polymarketRuleHash": "f1f381a27d7ada30",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "conflicts": []
+      },
       "reviewEvidence": {
         "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Russia before Dec 31, 2028, then the market resolves to Yes.",
         "kalshiSecondaryRules": "",
@@ -1410,6 +1695,17 @@
         "eventTitle": "Next Prime Minister of Romania?",
         "title": "Will Alexandru Rafila be the next Prime Minister of Romania?",
         "endDate": "2028-01-01"
+      },
+      "settlementFingerprint": {
+        "outcome": "will alexandru rafila be the next prime minister of romania psd",
+        "kalshiRuleHash": "6bf055c358178966",
+        "polymarketRuleHash": "b5e031cd02f873a7",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewEvidence": {
         "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Alexandru Rafila, then the market resolves to Yes.",
@@ -1458,6 +1754,14 @@
         "title": "Will Zelenskyy and Putin meet next in US before 2027?",
         "endDate": "2027-01-01"
       },
+      "settlementFingerprint": {
+        "outcome": "will putin and zelenskyy meet next in the united arab emirates",
+        "kalshiRuleHash": "787ab0cb02bc1ff1",
+        "polymarketRuleHash": "f1f381a27d7ada30",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "conflicts": []
+      },
       "reviewEvidence": {
         "kalshiRules": "If the next Putin and Zelenskyy meeting happens in United Arab Emirates before Dec 31, 2028, then the market resolves to Yes.",
         "kalshiSecondaryRules": "",
@@ -1501,6 +1805,17 @@
         "eventTitle": "Next Prime Minister of Romania?",
         "title": "Will Sebastian Burduja be the next Prime Minister of Romania?",
         "endDate": "2028-01-01"
+      },
+      "settlementFingerprint": {
+        "outcome": "will sebastian burduja be the next prime minister of romania pnl",
+        "kalshiRuleHash": "6a584e9f3f358073",
+        "polymarketRuleHash": "b5e031cd02f873a7",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewEvidence": {
         "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Sebastian Burduja, then the market resolves to Yes.",
@@ -1549,6 +1864,14 @@
         "title": "Will Zelenskyy and Putin meet next in Turkey before 2027?",
         "endDate": "2027-01-01"
       },
+      "settlementFingerprint": {
+        "outcome": "will putin and zelenskyy meet next in hungary",
+        "kalshiRuleHash": "d6541703a4b506c0",
+        "polymarketRuleHash": "f1f381a27d7ada30",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "conflicts": []
+      },
       "reviewEvidence": {
         "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Hungary before Dec 31, 2028, then the market resolves to Yes.",
         "kalshiSecondaryRules": "",
@@ -1592,6 +1915,17 @@
         "eventTitle": "Next Prime Minister of Romania?",
         "title": "Will Ionuț Dumitru be the next Prime Minister of Romania?",
         "endDate": "2028-01-01"
+      },
+      "settlementFingerprint": {
+        "outcome": "will ionu dumitru be the next prime minister of romania independent",
+        "kalshiRuleHash": "52d472c6785c2ed0",
+        "polymarketRuleHash": "b5e031cd02f873a7",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewEvidence": {
         "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Ionuț Dumitru, then the market resolves to Yes.",
@@ -1640,6 +1974,14 @@
         "title": "Will Zelenskyy and Putin meet next in Russia before 2027?",
         "endDate": "2027-01-01"
       },
+      "settlementFingerprint": {
+        "outcome": "will putin and zelenskyy meet next in hungary",
+        "kalshiRuleHash": "d6541703a4b506c0",
+        "polymarketRuleHash": "f1f381a27d7ada30",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "conflicts": []
+      },
       "reviewEvidence": {
         "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Hungary before Dec 31, 2028, then the market resolves to Yes.",
         "kalshiSecondaryRules": "",
@@ -1683,6 +2025,17 @@
         "eventTitle": "Next Prime Minister of Romania?",
         "title": "Will Elena Lasconi be the next Prime Minister of Romania?",
         "endDate": "2026-12-31"
+      },
+      "settlementFingerprint": {
+        "outcome": "will elena lasconi be the next prime minister of romania usr",
+        "kalshiRuleHash": "b650fc324bff69e9",
+        "polymarketRuleHash": "b5e031cd02f873a7",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2026-12-31",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewEvidence": {
         "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Elena Lasconi, then the market resolves to Yes.",
@@ -1731,6 +2084,14 @@
         "title": "Will Zelenskyy and Putin meet next in Ukraine before 2027?",
         "endDate": "2027-01-01"
       },
+      "settlementFingerprint": {
+        "outcome": "will putin and zelenskyy meet next in hungary",
+        "kalshiRuleHash": "d6541703a4b506c0",
+        "polymarketRuleHash": "f1f381a27d7ada30",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "conflicts": []
+      },
       "reviewEvidence": {
         "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Hungary before Dec 31, 2028, then the market resolves to Yes.",
         "kalshiSecondaryRules": "",
@@ -1774,6 +2135,17 @@
         "eventTitle": "Next Prime Minister of Romania?",
         "title": "Will Cătălin Drulă be the next Prime Minister of Romania?",
         "endDate": "2028-01-01"
+      },
+      "settlementFingerprint": {
+        "outcome": "will c t lin drul be the next prime minister of romania usr",
+        "kalshiRuleHash": "0ed80c78fdb4beec",
+        "polymarketRuleHash": "b5e031cd02f873a7",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket",
+          "parliamentary_vote_requirement_unconfirmed"
+        ]
       },
       "reviewEvidence": {
         "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Cătălin Drulă, then the market resolves to Yes.",
@@ -1821,6 +2193,14 @@
         "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
         "title": "Will Zelenskyy and Putin meet next in China before 2027?",
         "endDate": "2027-01-01"
+      },
+      "settlementFingerprint": {
+        "outcome": "will putin and zelenskyy meet next in hungary",
+        "kalshiRuleHash": "d6541703a4b506c0",
+        "polymarketRuleHash": "f1f381a27d7ada30",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "conflicts": []
       },
       "reviewEvidence": {
         "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Hungary before Dec 31, 2028, then the market resolves to Yes.",
