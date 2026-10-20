@@ -1,7 +1,7 @@
 // Event-first cross-venue discovery. Read-only; never approves contracts or places orders.
 import {writeFile} from "node:fs/promises";
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
-const PAGES=Math.max(1,Math.min(12,Number(process.env.ARB_EVENT_PAGES??4)));
+const PAGES=Math.max(1,Math.min(20,Number(process.env.ARB_EVENT_PAGES??8)));
 const MAX_PAIRS=Math.max(1,Math.min(100,Number(process.env.ARB_EVENT_CANDIDATES??40)));
 async function json(url){
  for(let n=0;n<4;n++){
@@ -146,7 +146,18 @@ async function collect(){
    poly.push(...data);if(data.length<100)break;
   }catch(e){report.errors.push("polymarket events: "+e.message);break}
  }
- report.counts={kalshiEvents:kalshi.length,polymarketEvents:poly.length,kalshiNestedMarkets:kalshi.reduce((n,e)=>n+(e.markets?.length??0),0),polymarketNestedMarkets:poly.reduce((n,e)=>n+(e.markets?.length??0),0),eventPagesRequested:PAGES};
+ // Supplement the volume-sorted Polymarket sample with newer events, avoiding duplicate IDs.
+ const existingPoly=new Set(poly.map(e=>String(e.id)));
+ for(let i=0;i<Math.min(4,PAGES);i++){
+  try{
+   const u=new URL("https://gamma-api.polymarket.com/events");
+   u.searchParams.set("limit","100");u.searchParams.set("offset",String(i*100));u.searchParams.set("active","true");u.searchParams.set("closed","false");u.searchParams.set("order","id");u.searchParams.set("ascending","false");
+   const data=await json(u);if(!Array.isArray(data))throw Error("Unexpected recent events response");
+   for(const e of data)if(!existingPoly.has(String(e.id))){existingPoly.add(String(e.id));poly.push(e)}
+   if(data.length<100)break;
+  }catch(e){report.errors.push("polymarket recent events: "+e.message);break}
+ }
+ report.counts={kalshiEvents:kalshi.length,polymarketEvents:poly.length,kalshiNestedMarkets:kalshi.reduce((n,e)=>n+(e.markets?.length??0),0),polymarketNestedMarkets:poly.reduce((n,e)=>n+(e.markets?.length??0),0),eventPagesRequested:PAGES,polymarketDiscoverySources:["volume24hr","recent_id"]};
  // Bidirectional token-index lookup: discover counterpart events from either venue
  // without relying on the same event appearing at the same listing position.
  const index=events=>{
