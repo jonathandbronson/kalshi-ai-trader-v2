@@ -99,7 +99,7 @@ function reviewEvidence(k,p,km,pm){
   polymarketDescription:pm.description??null,polymarketResolutionSource:pm.resolutionSource??null,
   kalshiClose,polymarketEnd:polyEnd,differentEndDates,
   manualChecks:["same_exact_outcome","same_resolution_trigger","same_measurement_source","same_void_and_cancellation_rules","same_settlement_deadline","fee_and_orderbook_depth"],
-  settlementVerified:false
+  settlementVerified:false,reviewPriority:differentEndDates?"CHECK_DATE_AND_SETTLEMENT_TRIGGER":"CHECK_SETTLEMENT_RULES"
  };
 }
 function compatible(a,b){
@@ -186,7 +186,7 @@ async function collect(){
    if(contractOverlap.length<2||scoreValue<0.55)continue;
    const key=km.ticker+":"+pm.id;if(seen.has(key))continue;seen.add(key);
    const evidence=reviewEvidence(k,p,km,pm);
-   if(evidence.differentEndDates)continue;
+   // Different listed dates require review; they do not alone prove different payouts.
    const outcomes=parse(pm.outcomes),tokens=parse(pm.clobTokenIds);
    if(outcomes.length!==2||tokens.length!==2||!outcomes.includes("Yes")||!outcomes.includes("No"))continue;
    const eventText=normalized(k.title+" "+p.title);
