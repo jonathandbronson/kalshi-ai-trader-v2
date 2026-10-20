@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19T17:46:25.736Z",
+  "timestamp": "2026-10-20T08:03:54.656Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -8,11 +8,11 @@
     "No orders, paper entries, or approved pairs are generated"
   ],
   "counts": {
-    "kalshiRawMarkets": 1300,
-    "kalshiSingleOutcomeMarkets": 1210,
-    "kalshiMarkets": 1210,
+    "kalshiRawMarkets": 1400,
+    "kalshiSingleOutcomeMarkets": 1220,
+    "kalshiMarkets": 1220,
     "polymarketMarkets": 2000,
-    "polymarketBinaryMarkets": 1662,
+    "polymarketBinaryMarkets": 1771,
     "titleCandidates": 0,
     "contractTypePolicy": "strict_same_kind",
     "kalshiPagesRequested": 20,
@@ -25,34 +25,34 @@
   "samples": {
     "kalshi": [
       {
-        "title": "Will over 7.5 goals be scored?",
+        "title": "Cincinnati (Pablo) wins",
         "subtitle": "",
-        "ticker": "KXALLSVENSKANTOTAL-26OCT19DEGKAL-8"
+        "ticker": "KXEFOOTBALLGAME-26OCT200446PABLJOSH-PABL"
       },
       {
-        "title": "SK Gaming Avarosa wins game 4",
+        "title": "Chicago (Joshua) wins",
         "subtitle": "",
-        "ticker": "KXLOLMAP-26OCT191200SKAMR-4-SKA"
+        "ticker": "KXEFOOTBALLGAME-26OCT200446PABLJOSH-JOSH"
       },
       {
-        "title": "Mental Rush wins game 4",
+        "title": "Sergeevich Igor wins",
         "subtitle": "",
-        "ticker": "KXLOLMAP-26OCT191200SKAMR-4-MR"
+        "ticker": "KXLIGAPROMATCH-26OCT200415SERKAR-SER"
       },
       {
-        "title": "Will Monza score over 3.5 goals?",
+        "title": "Karpovkin Gennadiy wins",
         "subtitle": "",
-        "ticker": "KXSERIEATEAMTOTAL-26OCT19MONCAG-MON4"
+        "ticker": "KXLIGAPROMATCH-26OCT200415SERKAR-KAR"
       }
     ],
     "polymarket": [
       {
-        "title": "Will the Fed decrease interest rates by 50+ bps after the October 2026 meeting?",
-        "id": "2589810"
+        "title": "Will FC Barcelona win on 2026-10-20?",
+        "id": "5409680"
       },
       {
-        "title": "Will there be no change in Fed interest rates after the October 2026 meeting?",
-        "id": "2589812"
+        "title": "US x Iran ceasefire continues through October 22?",
+        "id": "5686979"
       },
       {
         "title": "Will the Fed decrease interest rates by 25 bps after the October 2026 meeting?",
