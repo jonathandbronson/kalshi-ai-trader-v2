@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T16:33:07.193Z",
+  "timestamp": "2026-10-20T16:33:57.955Z",
   "mode": "EVENT_FIRST_READ_ONLY",
   "status": "COLLECTED",
   "autoApproved": 0,
@@ -7,9 +7,9 @@
   "errors": [],
   "counts": {
     "kalshiEvents": 800,
-    "polymarketEvents": 1194,
+    "polymarketEvents": 1190,
     "kalshiNestedMarkets": 6360,
-    "polymarketNestedMarkets": 21012,
+    "polymarketNestedMarkets": 21100,
     "eventPagesRequested": 8,
     "polymarketDiscoverySources": [
       "volume24hr",
@@ -44,10 +44,10 @@
       "polymarket": {
         "politics": 96,
         "sports": 22,
-        "crypto": 140,
+        "crypto": 135,
         "economics": 11,
         "finance": 11,
-        "other": 914
+        "other": 915
       }
     },
     "discoveryCoverageWarning": [
