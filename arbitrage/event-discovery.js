@@ -2,7 +2,7 @@
 import {writeFile,readFile} from "node:fs/promises";
 import {createHash} from "node:crypto";
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
-const PAGES=Math.max(1,Math.min(20,Number(process.env.ARB_EVENT_PAGES??8)));
+const PAGES=Math.max(1,Math.min(20,Number(process.env.ARB_EVENT_PAGES??12)));
 const MAX_PAIRS=Math.max(1,Math.min(100,Number(process.env.ARB_EVENT_CANDIDATES??40)));
 async function json(url){
  for(let n=0;n<4;n++){
@@ -183,7 +183,7 @@ async function collect(){
    if(data.length<100)break;
   }catch(e){report.errors.push("polymarket recent events: "+e.message);break}
  }
- report.counts={kalshiEvents:kalshi.length,polymarketEvents:poly.length,kalshiNestedMarkets:kalshi.reduce((n,e)=>n+(e.markets?.length??0),0),polymarketNestedMarkets:poly.reduce((n,e)=>n+(e.markets?.length??0),0),eventPagesRequested:PAGES,polymarketDiscoverySources:["volume24hr","recent_id"]};
+ report.counts={kalshiEvents:kalshi.length,polymarketEvents:poly.length,kalshiNestedMarkets:kalshi.reduce((n,e)=>n+(e.markets?.length??0),0),polymarketNestedMarkets:poly.reduce((n,e)=>n+(e.markets?.length??0),0),eventPagesRequested:PAGES,polymarketDiscoverySources:["volume24hr","recent_id"],kalshiDiscoverySources:["open_cursor_pagination"]};
  // Bidirectional token-index lookup: discover counterpart events from either venue
  // without relying on the same event appearing at the same listing position.
  const index=events=>{
