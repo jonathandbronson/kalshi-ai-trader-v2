@@ -79,6 +79,9 @@ jobs:
               ? fs.readFileSync('arbitrage-events.json','utf8')
               : JSON.stringify({timestamp:new Date().toISOString(),status:'EVENT_COLLECTOR_FAILED',runId:context.runId});
             await publish(eventPath,eventReport);
+            if (fs.existsSync('arbitrage-rejected-pairs.json')) {
+              await publish('reports/rejected-pairs.json',fs.readFileSync('arbitrage-rejected-pairs.json','utf8'));
+            }
             if (fs.existsSync('arbitrage-event-changes.json')) {
               await publish('reports/latest-event-changes.json',fs.readFileSync('arbitrage-event-changes.json','utf8'));
             }
@@ -91,4 +94,5 @@ jobs:
             arbitrage-candidates.json
             arbitrage-events.json
             arbitrage-event-changes.json
+            arbitrage-rejected-pairs.json
           if-no-files-found: warn
