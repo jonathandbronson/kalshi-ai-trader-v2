@@ -1,6 +1,7 @@
 // Event-first cross-venue discovery. Read-only; never approves contracts or places orders.
 import {writeFile,readFile} from "node:fs/promises";
 import {createHash} from "node:crypto";
+import {collectCategoryEvents} from "./category-sources.js";
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const PAGES=Math.max(1,Math.min(20,Number(process.env.ARB_EVENT_PAGES??8)));
 const MAX_PAIRS=Math.max(1,Math.min(100,Number(process.env.ARB_EVENT_CANDIDATES??40)));
@@ -190,7 +191,15 @@ async function collect(){
    if(data.length<100)break;
   }catch(e){report.errors.push("polymarket recent events: "+e.message);break}
  }
- report.counts={kalshiEvents:kalshi.length,polymarketEvents:poly.length,kalshiNestedMarkets:kalshi.reduce((n,e)=>n+(e.markets?.length??0),0),polymarketNestedMarkets:poly.reduce((n,e)=>n+(e.markets?.length??0),0),eventPagesRequested:PAGES,polymarketDiscoverySources:["volume24hr","recent_id"],kalshiDiscoverySources:["open_cursor_pagination"]};
+ // Category-targeted supplementation avoids a volume/recency-only sampling bias.
+ const targeted=await collectCategoryEvents({seriesPerCategory:Math.max(1,Math.min(5,Number(process.env.ARB_CATEGORY_SERIES??3))),tagsPerCategory:Math.max(1,Math.min(4,Number(process.env.ARB_CATEGORY_TAGS??2))),pagesPerSource:Math.max(1,Math.min(3,Number(process.env.ARB_CATEGORY_PAGES??1)))});
+ const kalshiIds=new Set(kalshi.map(e=>String(e.event_ticker)));
+ for(const e of targeted.kalshi)if(!kalshiIds.has(String(e.event_ticker))){kalshiIds.add(String(e.event_ticker));kalshi.push(e)}
+ for(const e of targeted.poly)if(!existingPoly.has(String(e.id))){existingPoly.add(String(e.id));poly.push(e)}
+ report.errors.push(...targeted.errors);
+ report.counts.categorySourceCoverage=targeted.coverage;
+ report.counts.categorySourceErrors=targeted.errors.length;
+ report.counts={...report.counts,kalshiEvents:kalshi.length,polymarketEvents:poly.length,kalshiNestedMarkets:kalshi.reduce((n,e)=>n+(e.markets?.length??0),0),polymarketNestedMarkets:poly.reduce((n,e)=>n+(e.markets?.length??0),0),eventPagesRequested:PAGES,polymarketDiscoverySources:["volume24hr","recent_id","tag_id"],kalshiDiscoverySources:["open_cursor_pagination","series_ticker"]};
  // Bidirectional token-index lookup: discover counterpart events from either venue
  // without relying on the same event appearing at the same listing position.
  const index=events=>{
