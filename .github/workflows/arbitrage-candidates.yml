@@ -18,6 +18,11 @@ on:
       - 'arbitrage/spread-observer.test.js'
       - 'arbitrage/spread-observer-cli.js'
       - 'arbitrage/approved-pairs.json'
+      - 'arbitrage/category-sources.js'
+      - 'arbitrage/category-sources.test.js'
+      - 'arbitrage/review-queue.js'
+      - 'arbitrage/review-queue.test.js'
+      - 'arbitrage/review-queue-cli.js'
       - '.github/workflows/arbitrage-candidates.yml'
 jobs:
   discovery:
@@ -43,6 +48,9 @@ jobs:
         run: node arbitrage/candidate-discovery.js
       - name: Discover event-first candidate pairs (read only)
         run: node arbitrage/event-discovery.js
+      - name: Build diversified manual settlement review queue
+        if: success()
+        run: node arbitrage/review-queue-cli.js
       - name: Observe spreads on manually verified watchlist (read only)
         if: success()
         run: node arbitrage/spread-observer-cli.js
@@ -95,6 +103,9 @@ jobs:
             } else {
               await publish('reports/latest-event-failure.json',eventReport);
             }
+            if (fs.existsSync('arbitrage-review-queue.json')) {
+              await publish('reports/latest-review-queue.json',fs.readFileSync('arbitrage-review-queue.json','utf8'));
+            }
             if (fs.existsSync('arbitrage-spread-observations.json')) {
               await publish('reports/latest-spread-observations.json',fs.readFileSync('arbitrage-spread-observations.json','utf8'));
             }
@@ -115,4 +126,5 @@ jobs:
             arbitrage-event-changes.json
             arbitrage-rejected-pairs.json
             arbitrage-spread-observations.json
+            arbitrage-review-queue.json
           if-no-files-found: warn
