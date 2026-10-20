@@ -12,9 +12,9 @@ export function walkAsks(levels,quantity){
  for(const level of normalizeAsks(levels)){const take=Math.min(remaining,level.size);cost+=take*level.price;filled+=take;remaining-=take;if(remaining<=1e-9)break}
  return {filled,unfilled:Math.max(0,remaining),costUsd:round(cost),avgPrice:filled?round(cost/filled):null};
 }
-export function simulatePair({yesAsks,noAsks,quantity,yesFeeRate=0,noFeeRate=0,fixedFeesUsd=0,latencySlippageCents=0,capitalUsd=1000,approved=false,now=new Date().toISOString(),pairId="manual",direction="YES_NO"}){
- for(const [key,v] of Object.entries({yesFeeRate,noFeeRate,fixedFeesUsd,latencySlippageCents,capitalUsd}))if(!Number.isFinite(v)||v<0)throw new RangeError(key+" must be nonnegative");
- if(!approved)return {accepted:false,reason:"SETTLEMENT_NOT_VERIFIED"};
+export function simulatePair({yesAsks,noAsks,quantity,yesFeeRate=0,noFeeRate=0,fixedFeesUsd=0,latencySlippageCents=0,capitalUsd=1000,minNetRoi=.02,settlementEvidenceVerified=false,now=new Date().toISOString(),pairId="manual",direction="YES_NO"}){
+ for(const [key,v] of Object.entries({yesFeeRate,noFeeRate,fixedFeesUsd,latencySlippageCents,capitalUsd,minNetRoi}))if(!Number.isFinite(v)||v<0)throw new RangeError(key+" must be nonnegative");
+ if(!approved||!settlementEvidenceVerified)return {accepted:false,reason:"SETTLEMENT_NOT_VERIFIED"};
  const yes=walkAsks(yesAsks,quantity),no=walkAsks(noAsks,quantity);
  if(yes.unfilled>1e-9||no.unfilled>1e-9)return {accepted:false,reason:"INSUFFICIENT_DEPTH",yes,no};
  const fees=round(yes.costUsd*yesFeeRate+no.costUsd*noFeeRate+fixedFeesUsd);
@@ -23,7 +23,9 @@ export function simulatePair({yesAsks,noAsks,quantity,yesFeeRate=0,noFeeRate=0,f
  const netProfitUsd=round(quantity-costUsd);
  if(costUsd>capitalUsd)return {accepted:false,reason:"INSUFFICIENT_CAPITAL",costUsd,capitalUsd};
  if(netProfitUsd<=0)return {accepted:false,reason:"NO_NET_EDGE",costUsd,netProfitUsd};
- return {accepted:true,mode:"PAPER_ONLY",timestamp:now,pairId,direction,quantity,yes,no,feesUsd:fees,slippageReserveUsd:slippageReserve,costUsd,payoutUsd:quantity,modeledNetProfitUsd:netProfitUsd,modeledRoi:round(netProfitUsd/costUsd),settlementStatus:"OPEN",riskNote:"Simulated simultaneous fills; execution and settlement risks remain"};
+ const modeledRoi=round(netProfitUsd/costUsd);
+ if(modeledRoi<minNetRoi)return {accepted:false,reason:"BELOW_MIN_NET_ROI",modeledRoi,minNetRoi,costUsd,netProfitUsd};
+ return {accepted:true,mode:"PAPER_ONLY",timestamp:now,pairId,direction,quantity,yes,no,feesUsd:fees,slippageReserveUsd:slippageReserve,costUsd,payoutUsd:quantity,modeledNetProfitUsd:netProfitUsd,modeledRoi,settlementStatus:"OPEN",riskNote:"Simulated simultaneous fills; execution and settlement risks remain"};
 }
 export class PaperPortfolio{
  constructor({bankrollUsd=1000,maxPositionFraction=.03}={}){
