@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T15:59:59.710Z",
+  "timestamp": "2026-10-20T16:02:26.461Z",
   "mode": "EVENT_FIRST_READ_ONLY",
   "status": "COLLECTED",
   "autoApproved": 0,
@@ -9,16 +9,1653 @@
     "kalshiEvents": 400,
     "polymarketEvents": 400,
     "kalshiNestedMarkets": 2856,
-    "polymarketNestedMarkets": 9867,
+    "polymarketNestedMarkets": 9980,
     "eventPagesRequested": 4,
     "eventMatches": 155,
     "discoveryStrategy": "bidirectional_inverted_index",
-    "eligibleCandidatePool": 0,
-    "candidateCategories": {},
-    "uniqueMatchedEventPairs": 0,
-    "candidates": 0
+    "eligibleCandidatePool": 38,
+    "candidateCategories": {
+      "politics": 38
+    },
+    "uniqueMatchedEventPairs": 2,
+    "candidates": 38
   },
-  "candidates": [],
+  "candidates": [
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.866,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Șerban Matei be the next Prime Minister of Romania?",
+        "subtitle": null,
+        "outcomeLabel": "Will Șerban Matei be the next Prime Minister of Romania?",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-SMAT",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166691",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Șerban Matei be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Șerban Matei, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.548,
+      "contractScore": 0.756,
+      "kalshi": {
+        "eventTicker": "KXNEXTISRAELPM-45JAN01",
+        "title": "Will Naftali Bennett be the next Prime Minister of Israel?",
+        "subtitle": "Naftali Bennett",
+        "outcomeLabel": "Will Naftali Bennett be the next Prime Minister of Israel? Naftali Bennett",
+        "ticker": "KXNEXTISRAELPM-45JAN01-NBEN",
+        "eventTitle": "Who will succeed Netanyahu as Prime Minister of Israel?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "81557",
+        "id": "682706",
+        "eventTitle": "Prime Minister of Israel after the next election?",
+        "title": "Will Naftali Bennett be the next Prime Minister of Israel?",
+        "endDate": "2026-10-28"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Israel after Issuance is Naftali Bennett, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The market resolves based on who actually assumes the office of Prime Minister, not who is elected or nominated. Acting or interim appointments count as holding the position if they formally assume the office. The person must be different from whoever held the position at market issuance - if the same person continues in office through the expiration date, all markets resolve to No. Resolution is based on official announcements from the country's legislature or government, with The New York Times as a secondary source for confirmation.",
+        "polymarketDescription": "Legislative elections are schedule to be held in Israel on October 27, 2026. \n\nThis market will resolve to the next individual who is officially appointed and sworn in as Prime Minister of Israel following the 2026 parliamentary election. If an election is called early, this market will immediately resolve to the individual who is officially appointed and sworn in after that election.\n\nTo count for resolution, the individual must be formally sworn in. Any interim or caretaker Prime Minister will not count toward the resolution of this market.\n\nIf no such Prime Minister is sworn in by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Israel; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2026-10-28",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.866,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Radu Burnete be the next Prime Minister of Romania?",
+        "subtitle": null,
+        "outcomeLabel": "Will Radu Burnete be the next Prime Minister of Romania?",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-RBUR",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166690",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Radu Burnete be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Radu Burnete, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.866,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Victor Ponta be the next Prime Minister of Romania?",
+        "subtitle": null,
+        "outcomeLabel": "Will Victor Ponta be the next Prime Minister of Romania?",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-VPON",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166697",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Victor Ponta be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Victor Ponta, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.866,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Siegfried Mureșan be the next Prime Minister of Romania?",
+        "subtitle": null,
+        "outcomeLabel": "Will Siegfried Mureșan be the next Prime Minister of Romania?",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-SMUR",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166700",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Siegfried Mureșan be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Siegfried Mureșan, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Mugur Isărescu be the next Prime Minister of Romania?",
+        "subtitle": ":: Independent",
+        "outcomeLabel": "Will Mugur Isărescu be the next Prime Minister of Romania? :: Independent",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-MISA",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166666",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Mugur Isărescu be the next Prime Minister of Romania?",
+        "endDate": "2026-12-31"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Mugur Isărescu, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2026-12-31",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Mircea Geoană be the next Prime Minister of Romania?",
+        "subtitle": ":: Independent",
+        "outcomeLabel": "Will Mircea Geoană be the next Prime Minister of Romania? :: Independent",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-MGEO",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166667",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Mircea Geoană be the next Prime Minister of Romania?",
+        "endDate": "2026-12-31"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Mircea Geoană, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2026-12-31",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Anca Dragu be the next Prime Minister of Romania?",
+        "subtitle": ":: USR",
+        "outcomeLabel": "Will Anca Dragu be the next Prime Minister of Romania? :: USR",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-ADRA",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166668",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Anca Dragu be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Anca Dragu, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Lucian Isar be the next Prime Minister of Romania?",
+        "subtitle": ":: Independent",
+        "outcomeLabel": "Will Lucian Isar be the next Prime Minister of Romania? :: Independent",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-LISA",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166669",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Lucian Isar be the next Prime Minister of Romania?",
+        "endDate": "2026-12-31"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Lucian Isar, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2026-12-31",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Cătălin Predoiu be the next Prime Minister of Romania?",
+        "subtitle": ":: PNL",
+        "outcomeLabel": "Will Cătălin Predoiu be the next Prime Minister of Romania? :: PNL",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-CPRE",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166670",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Cătălin Predoiu be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Cătălin Predoiu, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Sorin Grindeanu be the next Prime Minister of Romania?",
+        "subtitle": ":: PSD",
+        "outcomeLabel": "Will Sorin Grindeanu be the next Prime Minister of Romania? :: PSD",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-SGRI",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166671",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Sorin Grindeanu be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Sorin Grindeanu, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will George Simion be the next Prime Minister of Romania?",
+        "subtitle": ":: AUR",
+        "outcomeLabel": "Will George Simion be the next Prime Minister of Romania? :: AUR",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-GSIM",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166672",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will George Simion be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is George Simion, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Nicolae Ciucă be the next Prime Minister of Romania?",
+        "subtitle": ":: PNL",
+        "outcomeLabel": "Will Nicolae Ciucă be the next Prime Minister of Romania? :: PNL",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-NCIU",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166687",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Nicolae Ciucă be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Nicolae Ciucă, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Marcel Ciolacu be the next Prime Minister of Romania?",
+        "subtitle": ":: PSD",
+        "outcomeLabel": "Will Marcel Ciolacu be the next Prime Minister of Romania? :: PSD",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-MCIO",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166674",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Marcel Ciolacu be the next Prime Minister of Romania?",
+        "endDate": "2026-12-31"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Marcel Ciolacu, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2026-12-31",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Alexandru Rafila be the next Prime Minister of Romania?",
+        "subtitle": ":: PSD",
+        "outcomeLabel": "Will Alexandru Rafila be the next Prime Minister of Romania? :: PSD",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-ARAF",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166675",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Alexandru Rafila be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Alexandru Rafila, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Sebastian Burduja be the next Prime Minister of Romania?",
+        "subtitle": ":: PNL",
+        "outcomeLabel": "Will Sebastian Burduja be the next Prime Minister of Romania? :: PNL",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-SBUR",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166676",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Sebastian Burduja be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Sebastian Burduja, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Ionuț Dumitru be the next Prime Minister of Romania?",
+        "subtitle": ":: Independent",
+        "outcomeLabel": "Will Ionuț Dumitru be the next Prime Minister of Romania? :: Independent",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-IDUM",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166677",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Ionuț Dumitru be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Ionuț Dumitru, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Elena Lasconi be the next Prime Minister of Romania?",
+        "subtitle": ":: USR",
+        "outcomeLabel": "Will Elena Lasconi be the next Prime Minister of Romania? :: USR",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-ELAS",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166678",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Elena Lasconi be the next Prime Minister of Romania?",
+        "endDate": "2026-12-31"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Elena Lasconi, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2026-12-31",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Cătălin Drulă be the next Prime Minister of Romania?",
+        "subtitle": ":: USR",
+        "outcomeLabel": "Will Cătălin Drulă be the next Prime Minister of Romania? :: USR",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-CDRU",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166679",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Cătălin Drulă be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Cătălin Drulă, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Vasile Dîncu be the next Prime Minister of Romania?",
+        "subtitle": ":: PSD",
+        "outcomeLabel": "Will Vasile Dîncu be the next Prime Minister of Romania? :: PSD",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-VDIN",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166680",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Vasile Dîncu be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Vasile Dîncu, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Dacian Cioloș be the next Prime Minister of Romania?",
+        "subtitle": ":: REPER",
+        "outcomeLabel": "Will Dacian Cioloș be the next Prime Minister of Romania? :: REPER",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-DCIO",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166681",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Dacian Cioloș be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Dacian Cioloș, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Emil Boc be the next Prime Minister of Romania?",
+        "subtitle": ":: PNL",
+        "outcomeLabel": "Will Emil Boc be the next Prime Minister of Romania? :: PNL",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-EBOC",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166682",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Emil Boc be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Emil Boc, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Dominic Fritz be the next Prime Minister of Romania?",
+        "subtitle": ":: USR",
+        "outcomeLabel": "Will Dominic Fritz be the next Prime Minister of Romania? :: USR",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-DFRI",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166683",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Dominic Fritz be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Dominic Fritz, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Raluca Turcan be the next Prime Minister of Romania?",
+        "subtitle": ":: PNL",
+        "outcomeLabel": "Will Raluca Turcan be the next Prime Minister of Romania? :: PNL",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-RTUR",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166684",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Raluca Turcan be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Raluca Turcan, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Lucian Croitoru be the next Prime Minister of Romania?",
+        "subtitle": ":: Independent",
+        "outcomeLabel": "Will Lucian Croitoru be the next Prime Minister of Romania? :: Independent",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-LCRO",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166685",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Lucian Croitoru be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Lucian Croitoru, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Delia Velculescu be the next Prime Minister of Romania?",
+        "subtitle": ":: Independent",
+        "outcomeLabel": "Will Delia Velculescu be the next Prime Minister of Romania? :: Independent",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-DVEL",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166686",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Delia Velculescu be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Delia Velculescu, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Eugen Tomac be the next Prime Minister of Romania?",
+        "subtitle": ":: PMP",
+        "outcomeLabel": "Will Eugen Tomac be the next Prime Minister of Romania? :: PMP",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-ETOM",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166699",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Eugen Tomac be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Eugen Tomac, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Leonardo Badea be the next Prime Minister of Romania?",
+        "subtitle": ":: Independent",
+        "outcomeLabel": "Will Leonardo Badea be the next Prime Minister of Romania? :: Independent",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-LBAD",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166703",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Leonardo Badea be the next Prime Minister of Romania?",
+        "endDate": "2026-12-31"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Leonardo Badea, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2026-12-31",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Luca Niculescu be the next Prime Minister of Romania?",
+        "subtitle": ":: Independent",
+        "outcomeLabel": "Will Luca Niculescu be the next Prime Minister of Romania? :: Independent",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-LNIC",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166702",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Luca Niculescu be the next Prime Minister of Romania?",
+        "endDate": "2026-12-31"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Luca Niculescu, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2026-12-31",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.816,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Alexandru Rogobete be the next Prime Minister of Romania?",
+        "subtitle": ":: PSD",
+        "outcomeLabel": "Will Alexandru Rogobete be the next Prime Minister of Romania? :: PSD",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-AROG",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166693",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Alexandru Rogobete be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Alexandru Rogobete, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.548,
+      "contractScore": 0.756,
+      "kalshi": {
+        "eventTicker": "KXNEXTISRAELPM-45JAN01",
+        "title": "Will Yariv Levin be the next Prime Minister of Israel?",
+        "subtitle": "::",
+        "outcomeLabel": "Will Yariv Levin be the next Prime Minister of Israel? ::",
+        "ticker": "KXNEXTISRAELPM-45JAN01-YLEV",
+        "eventTitle": "Who will succeed Netanyahu as Prime Minister of Israel?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "81557",
+        "id": "682715",
+        "eventTitle": "Prime Minister of Israel after the next election?",
+        "title": "Will Yariv Levin be the next Prime Minister of Israel?",
+        "endDate": "2026-10-28"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Israel after Issuance is Yariv Levin, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The market resolves based on who actually assumes the office of Prime Minister, not who is elected or nominated. Acting or interim appointments count as holding the position if they formally assume the office. The person must be different from whoever held the position at market issuance - if the same person continues in office through the expiration date, all markets resolve to No. Resolution is based on official announcements from the country's legislature or government, with The New York Times as a secondary source for confirmation.",
+        "polymarketDescription": "Legislative elections are schedule to be held in Israel on October 27, 2026. \n\nThis market will resolve to the next individual who is officially appointed and sworn in as Prime Minister of Israel following the 2026 parliamentary election. If an election is called early, this market will immediately resolve to the individual who is officially appointed and sworn in after that election.\n\nTo count for resolution, the individual must be formally sworn in. Any interim or caretaker Prime Minister will not count toward the resolution of this market.\n\nIf no such Prime Minister is sworn in by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Israel; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2026-10-28",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.548,
+      "contractScore": 0.756,
+      "kalshi": {
+        "eventTicker": "KXNEXTISRAELPM-45JAN01",
+        "title": "Will Benny Gantz be the next Prime Minister of Israel?",
+        "subtitle": "::",
+        "outcomeLabel": "Will Benny Gantz be the next Prime Minister of Israel? ::",
+        "ticker": "KXNEXTISRAELPM-45JAN01-BGAN",
+        "eventTitle": "Who will succeed Netanyahu as Prime Minister of Israel?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "81557",
+        "id": "682709",
+        "eventTitle": "Prime Minister of Israel after the next election?",
+        "title": "Will Benny Gantz be the next Prime Minister of Israel?",
+        "endDate": "2026-10-28"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Israel after Issuance is Benny Gantz, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The market resolves based on who actually assumes the office of Prime Minister, not who is elected or nominated. Acting or interim appointments count as holding the position if they formally assume the office. The person must be different from whoever held the position at market issuance - if the same person continues in office through the expiration date, all markets resolve to No. Resolution is based on official announcements from the country's legislature or government, with The New York Times as a secondary source for confirmation.",
+        "polymarketDescription": "Legislative elections are schedule to be held in Israel on October 27, 2026. \n\nThis market will resolve to the next individual who is officially appointed and sworn in as Prime Minister of Israel following the 2026 parliamentary election. If an election is called early, this market will immediately resolve to the individual who is officially appointed and sworn in after that election.\n\nTo count for resolution, the individual must be formally sworn in. Any interim or caretaker Prime Minister will not count toward the resolution of this market.\n\nIf no such Prime Minister is sworn in by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Israel; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2026-10-28",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.548,
+      "contractScore": 0.756,
+      "kalshi": {
+        "eventTicker": "KXNEXTISRAELPM-45JAN01",
+        "title": "Will Yair Lapid be the next Prime Minister of Israel?",
+        "subtitle": "::",
+        "outcomeLabel": "Will Yair Lapid be the next Prime Minister of Israel? ::",
+        "ticker": "KXNEXTISRAELPM-45JAN01-YLAP",
+        "eventTitle": "Who will succeed Netanyahu as Prime Minister of Israel?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "81557",
+        "id": "682707",
+        "eventTitle": "Prime Minister of Israel after the next election?",
+        "title": "Will Yair Lapid be the next Prime Minister of Israel?",
+        "endDate": "2026-10-28"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Israel after Issuance is Yair Lapid, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The market resolves based on who actually assumes the office of Prime Minister, not who is elected or nominated. Acting or interim appointments count as holding the position if they formally assume the office. The person must be different from whoever held the position at market issuance - if the same person continues in office through the expiration date, all markets resolve to No. Resolution is based on official announcements from the country's legislature or government, with The New York Times as a secondary source for confirmation.",
+        "polymarketDescription": "Legislative elections are schedule to be held in Israel on October 27, 2026. \n\nThis market will resolve to the next individual who is officially appointed and sworn in as Prime Minister of Israel following the 2026 parliamentary election. If an election is called early, this market will immediately resolve to the individual who is officially appointed and sworn in after that election.\n\nTo count for resolution, the individual must be formally sworn in. Any interim or caretaker Prime Minister will not count toward the resolution of this market.\n\nIf no such Prime Minister is sworn in by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Israel; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2026-10-28",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.548,
+      "contractScore": 0.756,
+      "kalshi": {
+        "eventTicker": "KXNEXTISRAELPM-45JAN01",
+        "title": "Will Yossi Cohen be the next Prime Minister of Israel?",
+        "subtitle": "::",
+        "outcomeLabel": "Will Yossi Cohen be the next Prime Minister of Israel? ::",
+        "ticker": "KXNEXTISRAELPM-45JAN01-YCOH",
+        "eventTitle": "Who will succeed Netanyahu as Prime Minister of Israel?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "81557",
+        "id": "682711",
+        "eventTitle": "Prime Minister of Israel after the next election?",
+        "title": "Will Yossi Cohen be the next Prime Minister of Israel?",
+        "endDate": "2026-10-28"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Israel after Issuance is Yossi Cohen, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The market resolves based on who actually assumes the office of Prime Minister, not who is elected or nominated. Acting or interim appointments count as holding the position if they formally assume the office. The person must be different from whoever held the position at market issuance - if the same person continues in office through the expiration date, all markets resolve to No. Resolution is based on official announcements from the country's legislature or government, with The New York Times as a secondary source for confirmation.",
+        "polymarketDescription": "Legislative elections are schedule to be held in Israel on October 27, 2026. \n\nThis market will resolve to the next individual who is officially appointed and sworn in as Prime Minister of Israel following the 2026 parliamentary election. If an election is called early, this market will immediately resolve to the individual who is officially appointed and sworn in after that election.\n\nTo count for resolution, the individual must be formally sworn in. Any interim or caretaker Prime Minister will not count toward the resolution of this market.\n\nIf no such Prime Minister is sworn in by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Israel; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2026-10-28",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.548,
+      "contractScore": 0.756,
+      "kalshi": {
+        "eventTicker": "KXNEXTISRAELPM-45JAN01",
+        "title": "Will Avigdor Lieberman be the next Prime Minister of Israel?",
+        "subtitle": "::",
+        "outcomeLabel": "Will Avigdor Lieberman be the next Prime Minister of Israel? ::",
+        "ticker": "KXNEXTISRAELPM-45JAN01-ALIE",
+        "eventTitle": "Who will succeed Netanyahu as Prime Minister of Israel?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "81557",
+        "id": "682710",
+        "eventTitle": "Prime Minister of Israel after the next election?",
+        "title": "Will Avigdor Lieberman be the next Prime Minister of Israel?",
+        "endDate": "2026-10-28"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Israel after Issuance is Avigdor Lieberman, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The market resolves based on who actually assumes the office of Prime Minister, not who is elected or nominated. Acting or interim appointments count as holding the position if they formally assume the office. The person must be different from whoever held the position at market issuance - if the same person continues in office through the expiration date, all markets resolve to No. Resolution is based on official announcements from the country's legislature or government, with The New York Times as a secondary source for confirmation.",
+        "polymarketDescription": "Legislative elections are schedule to be held in Israel on October 27, 2026. \n\nThis market will resolve to the next individual who is officially appointed and sworn in as Prime Minister of Israel following the 2026 parliamentary election. If an election is called early, this market will immediately resolve to the individual who is officially appointed and sworn in after that election.\n\nTo count for resolution, the individual must be formally sworn in. Any interim or caretaker Prime Minister will not count toward the resolution of this market.\n\nIf no such Prime Minister is sworn in by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Israel; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2026-10-28",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.548,
+      "contractScore": 0.756,
+      "kalshi": {
+        "eventTicker": "KXNEXTISRAELPM-45JAN01",
+        "title": "Will Yair Golan be the next Prime Minister of Israel?",
+        "subtitle": "::",
+        "outcomeLabel": "Will Yair Golan be the next Prime Minister of Israel? ::",
+        "ticker": "KXNEXTISRAELPM-45JAN01-YGOL",
+        "eventTitle": "Who will succeed Netanyahu as Prime Minister of Israel?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "81557",
+        "id": "682712",
+        "eventTitle": "Prime Minister of Israel after the next election?",
+        "title": "Will Yair Golan be the next Prime Minister of Israel?",
+        "endDate": "2026-10-28"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Israel after Issuance is Yair Golan, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The market resolves based on who actually assumes the office of Prime Minister, not who is elected or nominated. Acting or interim appointments count as holding the position if they formally assume the office. The person must be different from whoever held the position at market issuance - if the same person continues in office through the expiration date, all markets resolve to No. Resolution is based on official announcements from the country's legislature or government, with The New York Times as a secondary source for confirmation.",
+        "polymarketDescription": "Legislative elections are schedule to be held in Israel on October 27, 2026. \n\nThis market will resolve to the next individual who is officially appointed and sworn in as Prime Minister of Israel following the 2026 parliamentary election. If an election is called early, this market will immediately resolve to the individual who is officially appointed and sworn in after that election.\n\nTo count for resolution, the individual must be formally sworn in. Any interim or caretaker Prime Minister will not count toward the resolution of this market.\n\nIf no such Prime Minister is sworn in by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Israel; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2026-10-28",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.816,
+      "contractScore": 0.739,
+      "kalshi": {
+        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
+        "title": "Will Alexandru Nazare be the next Prime Minister of Romania?",
+        "subtitle": ":: National Liberal Party",
+        "outcomeLabel": "Will Alexandru Nazare be the next Prime Minister of Romania? :: National Liberal Party",
+        "ticker": "KXNEXTROMANIAPM-45JAN01-ANAZ",
+        "eventTitle": "Who will be the next new Prime Minister of Romania?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "452161",
+        "id": "2166692",
+        "eventTitle": "Next Prime Minister of Romania?",
+        "title": "Will Alexandru Nazare be the next Prime Minister of Romania?",
+        "endDate": "2028-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Alexandru Nazare, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2028-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.548,
+      "contractScore": 0.722,
+      "kalshi": {
+        "eventTicker": "KXNEXTISRAELPM-45JAN01",
+        "title": "Will Israel Katz be the next Prime Minister of Israel?",
+        "subtitle": "::",
+        "outcomeLabel": "Will Israel Katz be the next Prime Minister of Israel? ::",
+        "ticker": "KXNEXTISRAELPM-45JAN01-IKAT",
+        "eventTitle": "Who will succeed Netanyahu as Prime Minister of Israel?",
+        "closeDate": "2045-01-01"
+      },
+      "polymarket": {
+        "eventId": "81557",
+        "id": "682719",
+        "eventTitle": "Prime Minister of Israel after the next election?",
+        "title": "Will Israel Katz be the next Prime Minister of Israel?",
+        "endDate": "2026-10-28"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the first new person to hold Prime Minister of Israel after Issuance is Israel Katz, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The market resolves based on who actually assumes the office of Prime Minister, not who is elected or nominated. Acting or interim appointments count as holding the position if they formally assume the office. The person must be different from whoever held the position at market issuance - if the same person continues in office through the expiration date, all markets resolve to No. Resolution is based on official announcements from the country's legislature or government, with The New York Times as a secondary source for confirmation.",
+        "polymarketDescription": "Legislative elections are schedule to be held in Israel on October 27, 2026. \n\nThis market will resolve to the next individual who is officially appointed and sworn in as Prime Minister of Israel following the 2026 parliamentary election. If an election is called early, this market will immediately resolve to the individual who is officially appointed and sworn in after that election.\n\nTo count for resolution, the individual must be formally sworn in. Any interim or caretaker Prime Minister will not count toward the resolution of this market.\n\nIf no such Prime Minister is sworn in by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Israel; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2045-01-01",
+        "polymarketEnd": "2026-10-28",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER"
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    }
+  ],
   "notes": [
     "Event similarity is not proof of identical settlement rules.",
     "No orders or paper entries are created.",
