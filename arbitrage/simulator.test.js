@@ -18,3 +18,5 @@ test("explicit fee models reduce modeled net return",()=>{const a=simulatePair({
 test("invalid fee coefficient fails closed",()=>assert.throws(()=>simulatePair({yesAsks:yes,noAsks:no,quantity:5,approved:true,settlementEvidenceVerified:true,feeModels:[{type:"kalshi_taker",coefficient:-1},{type:"flat_rate",rate:0}]}),/INVALID_FEE_PARAMETER/));
 
 test("unhedged leg stress shows downside when second book is empty",()=>{const q=stressPartialFill({yesAsks:[{price:.4,size:10}],noAsks:[],quantity:10});assert.equal(q.unhedged,10);assert.equal(q.worstCasePnlUsd,-4);assert.equal(q.warning,"UNHEDGED_LEG_EXPOSURE")});
+
+test("nonlinear fee is rounded across distinct consumed levels",()=>{const q=simulatePair({yesAsks:[{price:.3,size:2},{price:.4,size:3}],noAsks:[{price:.3,size:5}],quantity:5,approved:true,settlementEvidenceVerified:true,feeModels:[{type:"kalshi_taker",coefficient:.07},{type:"flat_rate",rate:0}]});assert.equal(q.feesUsd,.09)});
