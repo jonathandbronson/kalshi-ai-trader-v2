@@ -80,6 +80,28 @@ function electionCompatible(a,b){
  if(x.senate!==y.senate||x.house!==y.house)return false;
  return true;
 }
+function incompatibleEventIdentity(kEvent,pEvent,kMarket,pMarket){
+ const a=normalized(kEvent+" "+kMarket),b=normalized(pEvent+" "+pMarket);
+ // A character in a film and the lead actor in that film are distinct outcomes.
+ const role=/\b(?:as q|cast as q|perform as q)\b/;
+ const bond=/\b(?:next james bond|as james bond|bond actor)\b/;
+ if((role.test(a)&&bond.test(b))||(role.test(b)&&bond.test(a)))return "different_film_role";
+ // National elections, individual races, and succession are not equivalent.
+ const succession=/\b(?:succeed|successor|after netanyahu|after the next election|following the election)\b/;
+ if(succession.test(a)!==succession.test(b))return "different_trigger";
+ return null;
+}
+function reviewEvidence(k,p,km,pm){
+ const kalshiClose=day(km.close_time??km.expiration_time),polyEnd=day(pm.endDate??pm.end_date_iso);
+ const differentEndDates=Boolean(kalshiClose&&polyEnd&&kalshiClose!==polyEnd);
+ return {
+  kalshiRules:km.rules_primary??null,kalshiSecondaryRules:km.rules_secondary??null,
+  polymarketDescription:pm.description??null,polymarketResolutionSource:pm.resolutionSource??null,
+  kalshiClose,polymarketEnd:polyEnd,differentEndDates,
+  manualChecks:["same_exact_outcome","same_resolution_trigger","same_measurement_source","same_void_and_cancellation_rules","same_settlement_deadline","fee_and_orderbook_depth"],
+  settlementVerified:false
+ };
+}
 function compatible(a,b){
  const x=contractFingerprint(a),y=contractFingerprint(b);
  if(x.kind!==y.kind||x.asset!==y.asset||x.strike!==y.strike||x.direction!==y.direction)return false;
@@ -133,12 +155,15 @@ async function collect(){
    if(!compatible(kalshiOutcome,pm.question))continue;
    if(!electionCompatible(kalshiOutcome,pm.question))continue;
    if(!scopeCompatible(kalshiOutcome,pm.question))continue;
+   if(incompatibleEventIdentity(k.title,p.title,kalshiOutcome,pm.question))continue;
    const kp=personSelection(kalshiOutcome),pp=personSelection(pm.question);
    if(kp!==pp&&(kp!==null||pp!==null))continue;
    const scoreValue=score([k.title,kalshiOutcome].join(" "),[p.title,pm.question].join(" "));
    const contractOverlap=[...words(kalshiOutcome)].filter(w=>words(pm.question).has(w));
    if(contractOverlap.length<2||scoreValue<0.55)continue;
    const key=km.ticker+":"+pm.id;if(seen.has(key))continue;seen.add(key);
+   const evidence=reviewEvidence(k,p,km,pm);
+   if(evidence.differentEndDates)continue;
    const outcomes=parse(pm.outcomes),tokens=parse(pm.clobTokenIds);
    if(outcomes.length!==2||tokens.length!==2||!outcomes.includes("Yes")||!outcomes.includes("No"))continue;
    const eventText=normalized(k.title+" "+p.title);
@@ -147,7 +172,7 @@ async function collect(){
     category,eventScore:Number(confidence.toFixed(3)),contractScore:Number(scoreValue.toFixed(3)),
     kalshi:{eventTicker:k.event_ticker,title:km.title,subtitle:km.subtitle??null,outcomeLabel:kalshiOutcome,ticker:km.ticker,eventTitle:k.title,closeDate:day(km.close_time)},
     polymarket:{eventId:p.id,id:String(pm.id),eventTitle:p.title,title:pm.question,endDate:day(pm.endDate)},
-    reviewStatus:"UNVERIFIED_SETTLEMENT_RULES",approved:false,executable:false
+    reviewEvidence:evidence,reviewStatus:"UNVERIFIED_SETTLEMENT_RULES",approved:false,executable:false
    });
   }
  }
