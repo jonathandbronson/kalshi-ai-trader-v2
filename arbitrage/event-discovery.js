@@ -59,7 +59,7 @@ function electionScope(text){
  const states=["alabama","alaska","arizona","arkansas","california","colorado","connecticut","delaware","florida","georgia","hawaii","idaho","illinois","indiana","iowa","kansas","kentucky","louisiana","maine","maryland","massachusetts","michigan","minnesota","mississippi","missouri","montana","nebraska","nevada","new hampshire","new jersey","new mexico","new york","north carolina","north dakota","ohio","oklahoma","oregon","pennsylvania","rhode island","south carolina","south dakota","tennessee","texas","utah","vermont","virginia","washington","west virginia","wisconsin","wyoming"];
  const state=states.find(x=>new RegExp("\\b"+x+"\\b").test(t))??null;
  const district=/\b(?:al|ak|az|ar|ca|co|ct|de|fl|ga|hi|id|il|in|ia|ks|ky|la|me|md|ma|mi|mn|ms|mo|mt|ne|nv|nh|nj|nm|ny|nc|nd|oh|ok|or|pa|ri|sc|sd|tn|tx|ut|vt|va|wa|wv|wi|wy)-\d{1,2}\b/.exec(String(text).toLowerCase())?.[0]??null;
- const national=/\b(?:control|majority|balance of power|win the house|win the senate)\b/.test(t);
+ const national=!state&&!district&&/\b(?:control|majority|balance of power|win the house|win the senate)\b/.test(t);
  return {state,district,national};
 }
 function scopeCompatible(a,b){
@@ -143,6 +143,15 @@ function compatible(a,b){
 }
 const hash=s=>createHash("sha256").update(String(s??"")).digest("hex").slice(0,16);
 async function loadRejections(){try{const v=JSON.parse(await readFile("reports/rejected-pairs.json","utf8"));return v&&typeof v.rejections==="object"?v.rejections:{}}catch{return {}}}
+function eventCategory(t){
+ const text=normalized(t);
+ if(/\b(?:election|president|senate|house|prime minister|governor|nomination|parliament|party)\b/.test(text))return "politics";
+ if(/\b(?:football|soccer|nba|nfl|tennis|baseball|championship|world cup|premier league|ufc|f1)\b/.test(text))return "sports";
+ if(/\b(?:bitcoin|ethereum|solana|crypto|btc|eth)\b/.test(text))return "crypto";
+ if(/\b(?:inflation|fed|interest|treasury|gdp|unemployment|cpi|recession)\b/.test(text))return "economics";
+ if(/\b(?:gold|silver|oil|stock|nasdaq|s&p)\b/.test(text))return "finance";
+ return "other";
+}
 async function collect(){
  const report={timestamp:new Date().toISOString(),mode:"EVENT_FIRST_READ_ONLY",status:"COLLECTING",autoApproved:0,verifiedPairs:0,errors:[],counts:{},candidates:[],notes:["Event similarity is not proof of identical settlement rules.","No orders or paper entries are created.","Only manually reviewed contracts may be approved for simulation."]};
  const kalshi=[],poly=[];let cursor="";
@@ -210,6 +219,7 @@ async function collect(){
  eventMatches.sort((a,b)=>b.confidence-a.confidence);
  report.counts.eventMatches=eventMatches.length;
  report.counts.discoveryStrategy="bidirectional_inverted_index";
+ report.counts.eventMatchCategories=Object.fromEntries(["politics","sports","crypto","economics","finance","other"].map(c=>[c,eventMatches.filter(({k,p})=>eventCategory(k.title+" "+p.title)===c).length]));
  const rejected=await loadRejections(),seen=new Set(),pool=[];
  const rejectReasons={};let cachedRejections=0;
  const reject=(key,reason)=>{rejectReasons[reason]=(rejectReasons[reason]??0)+1;rejected[key]={reason,lastSeen:report.timestamp};};
