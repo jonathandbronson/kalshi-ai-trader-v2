@@ -29,6 +29,7 @@ jobs:
           node --check arbitrage/candidate-discovery.js
           node --check arbitrage/event-discovery.js
           node --check arbitrage/event-changes.js
+          node --test arbitrage/*.test.js
       - name: Collect and score candidate markets (read only)
         run: node arbitrage/candidate-discovery.js
       - name: Discover event-first candidate pairs (read only)
