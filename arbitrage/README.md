@@ -72,3 +72,18 @@ This branch remains **paper-only**. The live-paper runner requires each approved
 ```
 
 The `kalshi_taker` model estimates a nonlinear per-level fee and rounds each consumed price level upward to the nearest cent. Real fee schedules may vary by product, account, order type, and time; do not treat the sample coefficients as authoritative. The `flat_rate` model is a user-supplied assumption, **not** a verified Polymarket fee schedule. Revalidate fees before each review. The minimum modeled net ROI is 2% by default and configurable with `ARB_MIN_NET_ROI`. No simulated entry is permitted with insufficient depth, missing manual settlement evidence, or missing explicit venue fee models. `stressPartialFill` estimates worst-case unmatched-leg exposure but does not execute or hedge orders. No live orders are implemented.
+
+## Verified-pair watchlist and spread measurement
+
+Cross-exchange arbitrage remains the **only** strategy in this branch. No single-exchange statistical trading or probability forecasting has been added.
+
+Discovery reports contain **unverified research candidates**, not trade-ready pairs. The manually reviewed watchlist is `arbitrage/approved-pairs.json`, deliberately initialized to `[]`. Add a pair only after independently confirming identical outcome definitions, deadlines, cancellation/void rules, source hierarchy, contract/token IDs, and current fee assumptions. Set the four approval/evidence flags only after real human review; setting a flag alone is not proof.
+
+```bash
+node --test arbitrage/*.test.js
+node arbitrage/spread-observer-cli.js
+```
+
+The observer never places orders or creates paper positions. It measures **both** cross-venue directions for verified watchlist pairs and records positive, negative, and insufficient-depth observations. The **research threshold is 0%** so small or negative spreads can be measured; the existing paper-entry threshold remains **2% by default**. The scheduled discovery workflow publishes `reports/latest-spread-observations.json` when the observer runs. With an empty verified watchlist, the report correctly shows zero observations; it does not claim opportunities.
+
+Before judging viability, assemble a manually verified watchlist across categories, monitor spreads over multiple days, then evaluate executable depth, fees, book freshness, and unhedged-leg stress. Neither similar titles nor a positive theoretical spread establishes a risk-free arbitrage.
