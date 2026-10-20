@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T16:09:40.680Z",
+  "timestamp": "2026-10-20T16:10:34.482Z",
   "mode": "EVENT_FIRST_READ_ONLY",
   "status": "COLLECTED",
   "autoApproved": 0,
@@ -9,7 +9,7 @@
     "kalshiEvents": 800,
     "polymarketEvents": 1188,
     "kalshiNestedMarkets": 6360,
-    "polymarketNestedMarkets": 20528,
+    "polymarketNestedMarkets": 21255,
     "eventPagesRequested": 8,
     "polymarketDiscoverySources": [
       "volume24hr",
@@ -25,12 +25,29 @@
       "finance": 0,
       "other": 50
     },
-    "eligibleCandidatePool": 323,
-    "rejectedByReason": {
-      "interim_appointment_treatment": 8
+    "sourceEventCategories": {
+      "kalshi": {
+        "politics": 141,
+        "sports": 13,
+        "crypto": 1,
+        "economics": 62,
+        "finance": 0,
+        "other": 583
+      },
+      "polymarket": {
+        "politics": 95,
+        "sports": 23,
+        "crypto": 142,
+        "economics": 11,
+        "finance": 11,
+        "other": 906
+      }
     },
+    "eligibleCandidatePool": 323,
+    "rejectedByReason": {},
     "rejectionCacheEntries": 8,
-    "cachedRejections": 0,
+    "rejectionCacheLoaded": 8,
+    "cachedRejections": 8,
     "dateMismatchCandidates": 323,
     "ruleWarningCandidates": 48,
     "noRuleWarningCandidates": 275,
