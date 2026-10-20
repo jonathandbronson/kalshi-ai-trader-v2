@@ -1,29 +1,23 @@
 {
-  "timestamp": "2026-10-20T16:00:03.372Z",
+  "timestamp": "2026-10-20T16:02:29.493Z",
   "status": "SHORTLIST_DIFF_ONLY",
   "currentScanStatus": "COLLECTED",
   "previousScanStatus": "COLLECTED",
-  "previousTimestamp": "2026-10-20T08:06:58.693Z",
+  "previousTimestamp": "2026-10-20T15:59:59.710Z",
   "counts": {
-    "previous": 40,
-    "current": 0,
-    "added": 0,
-    "removed": 40
+    "previous": 0,
+    "current": 38,
+    "added": 38,
+    "removed": 0
   },
   "shortlistTruncated": true,
-  "added": [],
-  "removed": [
+  "added": [
     "KXNEXTROMANIAPM-45JAN01-SMAT|2166691",
-    "KXPERFORMROLE007-Q-TOM|2293859",
     "KXNEXTISRAELPM-45JAN01-NBEN|682706",
     "KXNEXTROMANIAPM-45JAN01-RBUR|2166690",
-    "KXPERFORMROLE007-Q-RIC|2293873",
     "KXNEXTROMANIAPM-45JAN01-VPON|2166697",
-    "KXPERFORMROLE007-Q-TOM|2293857",
     "KXNEXTROMANIAPM-45JAN01-SMUR|2166700",
-    "KXPERFORMROLE007-Q-TOM|2293872",
     "KXNEXTROMANIAPM-45JAN01-MISA|2166666",
-    "KXPERFORMROLE007-Q-TOM|2293875",
     "KXNEXTROMANIAPM-45JAN01-MGEO|2166667",
     "KXNEXTROMANIAPM-45JAN01-ADRA|2166668",
     "KXNEXTROMANIAPM-45JAN01-LISA|2166669",
@@ -52,8 +46,12 @@
     "KXNEXTISRAELPM-45JAN01-BGAN|682709",
     "KXNEXTISRAELPM-45JAN01-YLAP|682707",
     "KXNEXTISRAELPM-45JAN01-YCOH|682711",
-    "KXNEXTISRAELPM-45JAN01-ALIE|682710"
+    "KXNEXTISRAELPM-45JAN01-ALIE|682710",
+    "KXNEXTISRAELPM-45JAN01-YGOL|682712",
+    "KXNEXTROMANIAPM-45JAN01-ANAZ|2166692",
+    "KXNEXTISRAELPM-45JAN01-IKAT|682719"
   ],
+  "removed": [],
   "notes": [
     "Only compares the candidate shortlist, not the entire event universe.",
     "Disappearance from the capped shortlist does not mean an event closed or a market disappeared.",
