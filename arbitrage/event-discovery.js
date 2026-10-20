@@ -113,6 +113,12 @@ function settlementConflicts(evidence){
  if(kInterim&&pInterimExcluded)conflicts.push("interim_appointment_treatment");
  const pDeadline=/\b(?:by|before|until)\s+(?:december|january|february|march|april|may|june|july|august|september|october|november)\s+\d{1,2},?\s+20\d\d\b/i.test(p);
  if(pDeadline&&!/\b(?:by|before|until|expiration|close|deadline)\b/i.test(k))conflicts.push("explicit_deadline_only_on_polymarket");
+ const meetingDeadline=t=>t.match(/\b(?:before|by|until)\s+(?:dec(?:ember)?|jan(?:uary)?)\s+\d{1,2},?\s*(20\d\d)\b/i)?.[1]??null;
+ const kMeeting=meetingDeadline(k),pMeeting=meetingDeadline(p);
+ if(kMeeting&&pMeeting&&kMeeting!==pMeeting)conflicts.push("different_meeting_deadline_year");
+ const senateTerm=k.match(/\bterm beginning in\s+(20\d\d)\b/i)?.[1];
+ const senateElection=p.match(/\b(20\d\d)\s+(?:midterm\s+)?(?:[a-z ]{0,30})?senate\s+election\b/i)?.[1];
+ if(senateTerm&&senateElection&&Number(senateTerm)!==Number(senateElection)+1)conflicts.push("different_senate_election_cycle");
  const pVote=/\bvote of confidence\b/i.test(p);
  if(pVote&&!/\bvote of confidence\b/i.test(k))conflicts.push("parliamentary_vote_requirement_unconfirmed");
  return conflicts;
@@ -247,7 +253,7 @@ async function collect(){
    const rulesHash=hash([evidence.kalshiRules,evidence.kalshiSecondaryRules,evidence.polymarketDescription].join("|"));
    if(rejected[key]?.reason==="interim_appointment_treatment"&&rejected[key]?.rulesHash===rulesHash){cachedRejections++;continue;}
    evidence.ruleConflicts=settlementConflicts(evidence);
-   if(evidence.ruleConflicts.includes("interim_appointment_treatment")){reject(key,"interim_appointment_treatment");rejected[key].rulesHash=rulesHash;continue;}
+   if(evidence.ruleConflicts.some(c=>["interim_appointment_treatment","different_meeting_deadline_year","different_senate_election_cycle"].includes(c))){reject(key,"interim_appointment_treatment");rejected[key].rulesHash=rulesHash;continue;}
    // Different listed dates require review; they do not alone prove different payouts.
    const outcomes=parse(pm.outcomes),tokens=parse(pm.clobTokenIds);
    if(outcomes.length!==2||tokens.length!==2||!outcomes.includes("Yes")||!outcomes.includes("No"))continue;
