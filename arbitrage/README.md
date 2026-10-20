@@ -62,3 +62,13 @@ The demo is SYNTHETIC and does not represent actual opportunities. It starts wit
 For custom paper inputs, create a local JSON file shaped like `arbitrage/fixtures.js`'s `synthetic` object and set `ARB_PAPER_INPUT` to its path. The `approved` field is a human assertion, not independent proof of equivalence.
 
 **Current boundary:** The live scanner's top-of-book output is NOT yet wired into the depth-aware simulator. The paper runner consumes synthetic or user-supplied depth snapshots. It does not automatically paper-trade live exchange opportunities. The code has been committed but runtime tests and live endpoint checks still need execution in a network-enabled Node environment.
+
+## Current live-paper safety requirements
+
+This branch remains **paper-only**. The live-paper runner requires each approved pair to contain `settlementEvidenceVerified:true` in addition to `approved`, `settlementReviewed`, and `yesMeansSameOutcome`. All four flags are **manual operator attestations**, not independent cryptographic or semantic proofs. The engine will not evaluate a live-paper pair without explicit `kalshiFeeModel` and `polymarketFeeModel` objects. Examples of **illustrative, not verified current rates**:
+
+```json
+{"kalshiFeeModel":{"type":"kalshi_taker","coefficient":0.07},"polymarketFeeModel":{"type":"flat_rate","rate":0.02}}
+```
+
+The `kalshi_taker` model estimates a nonlinear per-level fee and rounds each consumed price level upward to the nearest cent. Real fee schedules may vary by product, account, order type, and time; do not treat the sample coefficients as authoritative. The `flat_rate` model is a user-supplied assumption, **not** a verified Polymarket fee schedule. Revalidate fees before each review. The minimum modeled net ROI is 2% by default and configurable with `ARB_MIN_NET_ROI`. No simulated entry is permitted with insufficient depth, missing manual settlement evidence, or missing explicit venue fee models. `stressPartialFill` estimates worst-case unmatched-leg exposure but does not execute or hedge orders. No live orders are implemented.
