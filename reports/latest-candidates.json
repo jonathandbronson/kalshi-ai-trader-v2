@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-20T16:27:55.102Z",
+  "timestamp": "2026-10-20T16:28:43.432Z",
   "status": "COLLECTOR_FAILED",
-  "runId": 39457572193,
+  "runId": 39457769327,
   "message": "No report generated; inspect workflow logs"
 }
