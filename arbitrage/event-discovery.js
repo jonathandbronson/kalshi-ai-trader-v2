@@ -110,10 +110,9 @@ async function collect(){
  }
  eventMatches.sort((a,b)=>b.confidence-a.confidence);
  report.counts.eventMatches=eventMatches.length;
- const seen=new Set();
+ const seen=new Set(),pool=[];
  for(const {k,p,confidence} of eventMatches){
   for(const km of k.markets??[])for(const pm of p.markets??[]){
-   if(report.candidates.length>=MAX_PAIRS)break;
    if(!km.ticker||!pm.id||!km.title||!pm.question)continue;
    const kalshiOutcome=outcomeLabel(km,k.title);
    if(!hasNamedOutcome(kalshiOutcome,k.title))continue;
@@ -124,20 +123,44 @@ async function collect(){
    if(kp!==pp&&(kp!==null||pp!==null))continue;
    const scoreValue=score([k.title,kalshiOutcome].join(" "),[p.title,pm.question].join(" "));
    const contractOverlap=[...words(kalshiOutcome)].filter(w=>words(pm.question).has(w));
-   if(contractOverlap.length<2)continue;
-   if(scoreValue<0.55)continue;
+   if(contractOverlap.length<2||scoreValue<0.55)continue;
    const key=km.ticker+":"+pm.id;if(seen.has(key))continue;seen.add(key);
    const outcomes=parse(pm.outcomes),tokens=parse(pm.clobTokenIds);
    if(outcomes.length!==2||tokens.length!==2||!outcomes.includes("Yes")||!outcomes.includes("No"))continue;
-   report.candidates.push({
-    eventScore:Number(confidence.toFixed(3)),contractScore:Number(scoreValue.toFixed(3)),
+   const eventText=normalized(k.title+" "+p.title);
+   const category=/\\b(?:election|president|senate|house|prime minister|governor|nomination|parliament|party)\\b/.test(eventText)?"politics":/\\b(?:football|soccer|nba|nfl|tennis|baseball|championship|world cup|premier league|ufc|f1)\\b/.test(eventText)?"sports":/\\b(?:bitcoin|ethereum|solana|crypto|btc|eth)\\b/.test(eventText)?"crypto":/\\b(?:inflation|fed|interest|treasury|gdp|unemployment|cpi|recession)\\b/.test(eventText)?"economics":/\\b(?:gold|silver|oil|stock|nasdaq|s\\&p)\\b/.test(eventText)?"finance":"other";
+   pool.push({
+    category,eventScore:Number(confidence.toFixed(3)),contractScore:Number(scoreValue.toFixed(3)),
     kalshi:{eventTicker:k.event_ticker,title:km.title,subtitle:km.subtitle??null,outcomeLabel:kalshiOutcome,ticker:km.ticker,eventTitle:k.title,closeDate:day(km.close_time)},
     polymarket:{eventId:p.id,id:String(pm.id),eventTitle:p.title,title:pm.question,endDate:day(pm.endDate)},
     reviewStatus:"UNVERIFIED_SETTLEMENT_RULES",approved:false,executable:false
    });
   }
-  if(report.candidates.length>=MAX_PAIRS)break;
  }
+ // Round-robin across categories and distinct events before selecting additional
+ // contracts from an already represented event.
+ pool.sort((a,b)=>b.contractScore-a.contractScore);
+ const buckets=new Map();
+ for(const item of pool){if(!buckets.has(item.category))buckets.set(item.category,[]);buckets.get(item.category).push(item)}
+ const eventUsed=new Set(),selected=new Set(),categories=[...buckets.keys()];
+ for(let pass=0;pass<2&&report.candidates.length<MAX_PAIRS;pass++){
+  let progress=true;
+  while(progress&&report.candidates.length<MAX_PAIRS){
+   progress=false;
+   for(const cat of categories){
+    const bucket=buckets.get(cat);
+    const idx=bucket.findIndex(item=>!selected.has(item)&&(!pass&&!eventUsed.has(String(item.kalshi.eventTicker)+"|"+String(item.polymarket.eventId))||pass));
+    if(idx<0)continue;
+    const item=bucket[idx],key=item.kalshi.ticker+"|"+item.polymarket.id;
+    selected.add(item);eventUsed.add(String(item.kalshi.eventTicker)+"|"+String(item.polymarket.eventId));
+    report.candidates.push(item);progress=true;
+    if(report.candidates.length>=MAX_PAIRS)break;
+   }
+  }
+ }
+ report.counts.eligibleCandidatePool=pool.length;
+ report.counts.candidateCategories=Object.fromEntries(categories.map(c=>[c,report.candidates.filter(x=>x.category===c).length]));
+ report.counts.uniqueMatchedEventPairs=eventUsed.size;
  report.counts.candidates=report.candidates.length;
  report.status=report.errors.length?"PARTIAL":"COLLECTED";
  await writeFile(process.env.ARB_EVENT_OUTPUT??"arbitrage-events.json",JSON.stringify(report,null,2)+"\n");
