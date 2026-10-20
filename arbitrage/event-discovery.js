@@ -284,6 +284,8 @@ async function collect(){
   }
  }
  report.counts.eligibleCandidatePool=pool.length;
+ report.counts.eligibleDistinctKalshiMarkets=new Set(pool.map(x=>x.kalshi.ticker)).size;
+ report.counts.eligibleDistinctPolymarketMarkets=new Set(pool.map(x=>x.polymarket.id)).size;
  report.counts.eligiblePoolCategories=Object.fromEntries(["politics","sports","crypto","economics","finance","other"].map(c=>[c,pool.filter(x=>x.category===c).length]));
  report.counts.rejectedByReason=rejectReasons;
  report.counts.rejectionCacheEntries=Object.keys(rejected).length;
