@@ -128,7 +128,7 @@ function compatible(a,b){
  return true;
 }
 const hash=s=>createHash("sha256").update(String(s??"")).digest("hex").slice(0,16);
-async function loadRejections(){try{const v=JSON.parse(await readFile("reports/rejected-pairs.json","utf8"));return v&&typeof v==="object"?v:{}}catch{return {}}}
+async function loadRejections(){try{const v=JSON.parse(await readFile("reports/rejected-pairs.json","utf8"));return v&&typeof v.rejections==="object"?v.rejections:{}}catch{return {}}}
 async function collect(){
  const report={timestamp:new Date().toISOString(),mode:"EVENT_FIRST_READ_ONLY",status:"COLLECTING",autoApproved:0,verifiedPairs:0,errors:[],counts:{},candidates:[],notes:["Event similarity is not proof of identical settlement rules.","No orders or paper entries are created.","Only manually reviewed contracts may be approved for simulation."]};
  const kalshi=[],poly=[];let cursor="";
