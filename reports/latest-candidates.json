@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T08:06:41.839Z",
+  "timestamp": "2026-10-20T15:58:54.188Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -8,11 +8,11 @@
     "No orders, paper entries, or approved pairs are generated"
   ],
   "counts": {
-    "kalshiRawMarkets": 1400,
-    "kalshiSingleOutcomeMarkets": 1223,
-    "kalshiMarkets": 1223,
+    "kalshiRawMarkets": 1300,
+    "kalshiSingleOutcomeMarkets": 1263,
+    "kalshiMarkets": 1263,
     "polymarketMarkets": 2000,
-    "polymarketBinaryMarkets": 1776,
+    "polymarketBinaryMarkets": 1651,
     "titleCandidates": 0,
     "contractTypePolicy": "strict_same_kind",
     "kalshiPagesRequested": 20,
@@ -25,24 +25,24 @@
   "samples": {
     "kalshi": [
       {
-        "title": "Over 199.5 points scored",
+        "title": "Olshakov Konstantin wins",
         "subtitle": "",
-        "ticker": "KXFIBACHAMPTOTAL-26OCT201200SVVSZO-200"
+        "ticker": "KXLIGAPROMATCH-26OCT201215OLSKAL-OLS"
       },
       {
-        "title": "Over 189.5 points scored",
+        "title": "Kalashnikov Evgeny wins",
         "subtitle": "",
-        "ticker": "KXFIBACHAMPTOTAL-26OCT201200SVVSZO-190"
+        "ticker": "KXLIGAPROMATCH-26OCT201215OLSKAL-KAL"
       },
       {
-        "title": "Over 179.5 points scored",
+        "title": "Will Josh Shapiro receive at least 63% of the popular vote in the 2026 Pennsylvania gubernatorial election?",
         "subtitle": "",
-        "ticker": "KXFIBACHAMPTOTAL-26OCT201200SVVSZO-180"
+        "ticker": "KXVOTEGENERAL-GOVPARTYPA-26JSHA-63"
       },
       {
-        "title": "Over 169.5 points scored",
+        "title": "Will Josh Shapiro receive at least 61% of the popular vote in the 2026 Pennsylvania gubernatorial election?",
         "subtitle": "",
-        "ticker": "KXFIBACHAMPTOTAL-26OCT201200SVVSZO-170"
+        "ticker": "KXVOTEGENERAL-GOVPARTYPA-26JSHA-61"
       }
     ],
     "polymarket": [
@@ -55,12 +55,12 @@
         "id": "5686979"
       },
       {
-        "title": "Will the Fed decrease interest rates by 25 bps after the October 2026 meeting?",
-        "id": "2589811"
+        "title": "US x Iran ceasefire continues through October 31?",
+        "id": "4641065"
       },
       {
-        "title": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
-        "id": "2589813"
+        "title": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
+        "id": "2772194"
       }
     ]
   },
