@@ -1,30 +1,79 @@
 {
-  "timestamp": "2026-10-20T16:03:48.274Z",
+  "timestamp": "2026-10-20T16:05:38.053Z",
   "mode": "EVENT_FIRST_READ_ONLY",
   "status": "COLLECTED",
   "autoApproved": 0,
   "verifiedPairs": 0,
   "errors": [],
   "counts": {
-    "kalshiEvents": 400,
-    "polymarketEvents": 400,
-    "kalshiNestedMarkets": 2856,
-    "polymarketNestedMarkets": 9898,
-    "eventPagesRequested": 4,
-    "eventMatches": 155,
+    "kalshiEvents": 800,
+    "polymarketEvents": 1198,
+    "kalshiNestedMarkets": 6360,
+    "polymarketNestedMarkets": 20569,
+    "eventPagesRequested": 8,
+    "polymarketDiscoverySources": [
+      "volume24hr",
+      "recent_id"
+    ],
+    "eventMatches": 892,
     "discoveryStrategy": "bidirectional_inverted_index",
-    "eligibleCandidatePool": 30,
-    "dateMismatchCandidates": 30,
-    "ruleWarningCandidates": 30,
-    "noRuleWarningCandidates": 0,
-    "uniqueEligibleEventPairs": 1,
+    "eligibleCandidatePool": 458,
+    "dateMismatchCandidates": 458,
+    "ruleWarningCandidates": 47,
+    "noRuleWarningCandidates": 411,
+    "uniqueEligibleEventPairs": 5,
     "candidateCategories": {
-      "politics": 30
+      "other": 21,
+      "politics": 19
     },
-    "uniqueMatchedEventPairs": 1,
-    "candidates": 30
+    "uniqueMatchedEventPairs": 5,
+    "candidates": 40
   },
   "candidates": [
+    {
+      "category": "other",
+      "eventScore": 1,
+      "contractScore": 1,
+      "kalshi": {
+        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
+        "title": "Will Putin and Zelenskyy meet next in Hungary?",
+        "subtitle": null,
+        "outcomeLabel": "Will Putin and Zelenskyy meet next in Hungary?",
+        "ticker": "KXPUTINZELENSKYYLOCATION-28-HUNG",
+        "eventTitle": "Where will Putin and Zelenskyy next meet?",
+        "closeDate": "2028-12-31"
+      },
+      "polymarket": {
+        "eventId": "74056",
+        "id": "667084",
+        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
+        "title": "Will Zelenskyy and Putin meet next in Hungary before 2027?",
+        "endDate": "2027-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Hungary before Dec 31, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
     {
       "category": "politics",
       "eventScore": 0.816,
@@ -67,6 +116,184 @@
           "explicit_deadline_only_on_polymarket",
           "parliamentary_vote_requirement_unconfirmed"
         ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "other",
+      "eventScore": 0.8,
+      "contractScore": 0.833,
+      "kalshi": {
+        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
+        "title": "Will Putin and Zelenskyy meet next in Switzerland?",
+        "subtitle": null,
+        "outcomeLabel": "Will Putin and Zelenskyy meet next in Switzerland?",
+        "ticker": "KXPUTINZELENSKYYLOCATION-28-SWZ",
+        "eventTitle": "Where will Putin and Zelenskyy next meet?",
+        "closeDate": "2028-12-31"
+      },
+      "polymarket": {
+        "eventId": "528389",
+        "id": "2364952",
+        "eventTitle": "Where will Trump and Putin meet next in 2026?",
+        "title": "Will Trump and Putin meet next in Switzerland?",
+        "endDate": "2027-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Switzerland before Dec 31, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the location of the next meeting between Donald Trump and Vladimir Putin between market creation and December 31, 2026, 11:59 PM ET.\n\nThis market will resolve to \"No meeting by December 31\" if no qualifying meeting occurs during this market's timeframe.\n\nA meeting is defined as any encounter where Putin and Trump are all present and interact with each other in person.\n\nAn exchange of words, handshake, direct conversation, or other clear personal interaction between the named individuals will qualify as a meeting. Merely standing in proximity, making eye contact, or being present in the same room or event without direct interaction will not qualify.\n\nFor this market, Gulf states are defined as the six members of the Gulf Cooperation Council (Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, United Arab Emirates).\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+        "polymarketResolutionSource": null,
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.791,
+      "contractScore": 0.696,
+      "kalshi": {
+        "eventTicker": "KXFRPRESADVANCE-26APR18",
+        "title": "Will Jean-Luc Mélenchon qualify for the runoff in the 2027 French presidential election?",
+        "subtitle": null,
+        "outcomeLabel": "Will Jean-Luc Mélenchon qualify for the runoff in the 2027 French presidential election?",
+        "ticker": "KXFRPRESADVANCE-26APR18-JMEL",
+        "eventTitle": "French presidential election: who will advance?",
+        "closeDate": "2028-04-17"
+      },
+      "polymarket": {
+        "eventId": "531333",
+        "id": "2371057",
+        "eventTitle": "Next French Presidential Election: who will advance to the 2nd round?",
+        "title": "Will Jean-Luc Mélenchon advance to the second round of the next French presidential election?",
+        "endDate": "2027-04-19"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Jean-Luc Mélenchon is announced to qualify for the runoff in the 2027 French presidential election, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "If a candidate wins the first round outright, and no runoff occurs, the market for that winning candidate will resolve Yes and all other markets will resolve to No.\n\nThis is determined at the time qualification is announced; subsequent withdrawals, disqualifications, or changes in eligibility do not affect whether the candidate qualified. If a candidate is announced to not qualify, the market will immediately resolve to No.",
+        "polymarketDescription": "The next French presidential election is currently expected to be held around April 2027. This market pertains to the outcome of the next French presidential election, regardless of whether it follows the scheduled end of the current term or is held earlier.\n\nThe President of France is elected via a two-round system; a candidate must secure over 50% of the vote to win outright in the first round. If no candidate achieves this, the top two contenders advance to a runoff second round.\n\nThis market will resolve to \"Yes\" if the listed candidate advances to the second round of the next French presidential election or wins the election outright in the first round. Otherwise, this market will resolve to \"No\".\n\nIf no such election occurs or the results of the first round of this election are not known by December 31, 2027, 11:59 PM ET, this market will resolve to \"No\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the French Government, specifically the Ministry of the Interior (https://www.interieur.gouv.fr/).",
+        "polymarketResolutionSource": "https://www.interieur.gouv.fr/",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "other",
+      "eventScore": 0.6,
+      "contractScore": 0.614,
+      "kalshi": {
+        "eventTicker": "KXOSCARSUPACTR-27",
+        "title": "Will Penélope Cruz win Best Supporting Actress at the Oscars?",
+        "subtitle": "Penélope Cruz:: The Bride!",
+        "outcomeLabel": "Will Penélope Cruz win Best Supporting Actress at the Oscars? Penélope Cruz:: The Bride!",
+        "ticker": "KXOSCARSUPACTR-27-PEN",
+        "eventTitle": "Oscar Winner: Best Supporting Actress",
+        "closeDate": "2027-12-31"
+      },
+      "polymarket": {
+        "eventId": "1188311",
+        "id": "5686242",
+        "eventTitle": "Oscars 2027: Best Supporting Actress Nominations",
+        "title": "Will Penélope Cruz be nominated for Best Supporting Actress at the 99th Academy Awards?",
+        "endDate": "2027-03-15"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Penélope Cruz has won Best Supporting Actress at the 99th Academy Awards, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+        "polymarketDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve to \"Yes\" if the listed actress is nominated for the 99th Academy Award for Best Supporting Actress. If an actress is not officially nominated for the Academy Award for Best Supporting Actress when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIf, for any reason, no nominations are declared by March 14, 2027, 11:59 PM ET,  this market will resolve to \"No\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-03-15",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "other",
+      "eventScore": 1,
+      "contractScore": 1,
+      "kalshi": {
+        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
+        "title": "Will Putin and Zelenskyy meet next in Switzerland?",
+        "subtitle": null,
+        "outcomeLabel": "Will Putin and Zelenskyy meet next in Switzerland?",
+        "ticker": "KXPUTINZELENSKYYLOCATION-28-SWZ",
+        "eventTitle": "Where will Putin and Zelenskyy next meet?",
+        "closeDate": "2028-12-31"
+      },
+      "polymarket": {
+        "eventId": "74056",
+        "id": "667088",
+        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
+        "title": "Will Zelenskyy and Putin meet next in Switzerland before 2027?",
+        "endDate": "2027-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Switzerland before Dec 31, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -120,6 +347,50 @@
       "executable": false
     },
     {
+      "category": "other",
+      "eventScore": 1,
+      "contractScore": 1,
+      "kalshi": {
+        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
+        "title": "Will Putin and Zelenskyy meet next in Turkey?",
+        "subtitle": null,
+        "outcomeLabel": "Will Putin and Zelenskyy meet next in Turkey?",
+        "ticker": "KXPUTINZELENSKYYLOCATION-28-TUR",
+        "eventTitle": "Where will Putin and Zelenskyy next meet?",
+        "closeDate": "2028-12-31"
+      },
+      "polymarket": {
+        "eventId": "74056",
+        "id": "667076",
+        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
+        "title": "Will Zelenskyy and Putin meet next in Turkey before 2027?",
+        "endDate": "2027-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Turkey before Dec 31, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
       "category": "politics",
       "eventScore": 0.816,
       "contractScore": 0.866,
@@ -161,6 +432,50 @@
           "explicit_deadline_only_on_polymarket",
           "parliamentary_vote_requirement_unconfirmed"
         ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "other",
+      "eventScore": 1,
+      "contractScore": 1,
+      "kalshi": {
+        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
+        "title": "Will Putin and Zelenskyy meet next in China?",
+        "subtitle": null,
+        "outcomeLabel": "Will Putin and Zelenskyy meet next in China?",
+        "ticker": "KXPUTINZELENSKYYLOCATION-28-CHI",
+        "eventTitle": "Where will Putin and Zelenskyy next meet?",
+        "closeDate": "2028-12-31"
+      },
+      "polymarket": {
+        "eventId": "74056",
+        "id": "667080",
+        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
+        "title": "Will Zelenskyy and Putin meet next in China before 2027?",
+        "endDate": "2027-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in China before Dec 31, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -214,6 +529,50 @@
       "executable": false
     },
     {
+      "category": "other",
+      "eventScore": 1,
+      "contractScore": 1,
+      "kalshi": {
+        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
+        "title": "Will Putin and Zelenskyy meet next in Ukraine?",
+        "subtitle": null,
+        "outcomeLabel": "Will Putin and Zelenskyy meet next in Ukraine?",
+        "ticker": "KXPUTINZELENSKYYLOCATION-28-UKR",
+        "eventTitle": "Where will Putin and Zelenskyy next meet?",
+        "closeDate": "2028-12-31"
+      },
+      "polymarket": {
+        "eventId": "74056",
+        "id": "667079",
+        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
+        "title": "Will Zelenskyy and Putin meet next in Ukraine before 2027?",
+        "endDate": "2027-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Ukraine before Dec 31, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
       "category": "politics",
       "eventScore": 0.816,
       "contractScore": 0.816,
@@ -255,6 +614,50 @@
           "explicit_deadline_only_on_polymarket",
           "parliamentary_vote_requirement_unconfirmed"
         ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "other",
+      "eventScore": 1,
+      "contractScore": 1,
+      "kalshi": {
+        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
+        "title": "Will Putin and Zelenskyy meet next in Russia?",
+        "subtitle": null,
+        "outcomeLabel": "Will Putin and Zelenskyy meet next in Russia?",
+        "ticker": "KXPUTINZELENSKYYLOCATION-28-RUS",
+        "eventTitle": "Where will Putin and Zelenskyy next meet?",
+        "closeDate": "2028-12-31"
+      },
+      "polymarket": {
+        "eventId": "74056",
+        "id": "667077",
+        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
+        "title": "Will Zelenskyy and Putin meet next in Russia before 2027?",
+        "endDate": "2027-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Russia before Dec 31, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -308,6 +711,50 @@
       "executable": false
     },
     {
+      "category": "other",
+      "eventScore": 1,
+      "contractScore": 0.913,
+      "kalshi": {
+        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
+        "title": "Will Putin and Zelenskyy meet next in Hungary?",
+        "subtitle": null,
+        "outcomeLabel": "Will Putin and Zelenskyy meet next in Hungary?",
+        "ticker": "KXPUTINZELENSKYYLOCATION-28-HUNG",
+        "eventTitle": "Where will Putin and Zelenskyy next meet?",
+        "closeDate": "2028-12-31"
+      },
+      "polymarket": {
+        "eventId": "74056",
+        "id": "667083",
+        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
+        "title": "Will Zelenskyy and Putin meet next in US before 2027?",
+        "endDate": "2027-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Hungary before Dec 31, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
       "category": "politics",
       "eventScore": 0.816,
       "contractScore": 0.816,
@@ -349,6 +796,50 @@
           "explicit_deadline_only_on_polymarket",
           "parliamentary_vote_requirement_unconfirmed"
         ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "other",
+      "eventScore": 1,
+      "contractScore": 0.913,
+      "kalshi": {
+        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
+        "title": "Will Putin and Zelenskyy meet next in Switzerland?",
+        "subtitle": null,
+        "outcomeLabel": "Will Putin and Zelenskyy meet next in Switzerland?",
+        "ticker": "KXPUTINZELENSKYYLOCATION-28-SWZ",
+        "eventTitle": "Where will Putin and Zelenskyy next meet?",
+        "closeDate": "2028-12-31"
+      },
+      "polymarket": {
+        "eventId": "74056",
+        "id": "667083",
+        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
+        "title": "Will Zelenskyy and Putin meet next in US before 2027?",
+        "endDate": "2027-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Switzerland before Dec 31, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -402,6 +893,50 @@
       "executable": false
     },
     {
+      "category": "other",
+      "eventScore": 1,
+      "contractScore": 0.913,
+      "kalshi": {
+        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
+        "title": "Will Putin and Zelenskyy meet next in Turkey?",
+        "subtitle": null,
+        "outcomeLabel": "Will Putin and Zelenskyy meet next in Turkey?",
+        "ticker": "KXPUTINZELENSKYYLOCATION-28-TUR",
+        "eventTitle": "Where will Putin and Zelenskyy next meet?",
+        "closeDate": "2028-12-31"
+      },
+      "polymarket": {
+        "eventId": "74056",
+        "id": "667083",
+        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
+        "title": "Will Zelenskyy and Putin meet next in US before 2027?",
+        "endDate": "2027-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Turkey before Dec 31, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
       "category": "politics",
       "eventScore": 0.816,
       "contractScore": 0.816,
@@ -443,6 +978,50 @@
           "explicit_deadline_only_on_polymarket",
           "parliamentary_vote_requirement_unconfirmed"
         ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "other",
+      "eventScore": 1,
+      "contractScore": 0.913,
+      "kalshi": {
+        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
+        "title": "Will Putin and Zelenskyy meet next in China?",
+        "subtitle": null,
+        "outcomeLabel": "Will Putin and Zelenskyy meet next in China?",
+        "ticker": "KXPUTINZELENSKYYLOCATION-28-CHI",
+        "eventTitle": "Where will Putin and Zelenskyy next meet?",
+        "closeDate": "2028-12-31"
+      },
+      "polymarket": {
+        "eventId": "74056",
+        "id": "667083",
+        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
+        "title": "Will Zelenskyy and Putin meet next in US before 2027?",
+        "endDate": "2027-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in China before Dec 31, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -496,6 +1075,50 @@
       "executable": false
     },
     {
+      "category": "other",
+      "eventScore": 1,
+      "contractScore": 0.913,
+      "kalshi": {
+        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
+        "title": "Will Putin and Zelenskyy meet next in Germany?",
+        "subtitle": null,
+        "outcomeLabel": "Will Putin and Zelenskyy meet next in Germany?",
+        "ticker": "KXPUTINZELENSKYYLOCATION-28-GER",
+        "eventTitle": "Where will Putin and Zelenskyy next meet?",
+        "closeDate": "2028-12-31"
+      },
+      "polymarket": {
+        "eventId": "74056",
+        "id": "667083",
+        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
+        "title": "Will Zelenskyy and Putin meet next in US before 2027?",
+        "endDate": "2027-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Germany before Dec 31, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
       "category": "politics",
       "eventScore": 0.816,
       "contractScore": 0.816,
@@ -537,6 +1160,50 @@
           "explicit_deadline_only_on_polymarket",
           "parliamentary_vote_requirement_unconfirmed"
         ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "other",
+      "eventScore": 1,
+      "contractScore": 0.913,
+      "kalshi": {
+        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
+        "title": "Will Putin and Zelenskyy meet next in the USA?",
+        "subtitle": null,
+        "outcomeLabel": "Will Putin and Zelenskyy meet next in the USA?",
+        "ticker": "KXPUTINZELENSKYYLOCATION-28-UNI",
+        "eventTitle": "Where will Putin and Zelenskyy next meet?",
+        "closeDate": "2028-12-31"
+      },
+      "polymarket": {
+        "eventId": "74056",
+        "id": "667083",
+        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
+        "title": "Will Zelenskyy and Putin meet next in US before 2027?",
+        "endDate": "2027-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in United States before Dec 31, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -590,6 +1257,50 @@
       "executable": false
     },
     {
+      "category": "other",
+      "eventScore": 1,
+      "contractScore": 0.913,
+      "kalshi": {
+        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
+        "title": "Will Putin and Zelenskyy meet next in Ukraine?",
+        "subtitle": null,
+        "outcomeLabel": "Will Putin and Zelenskyy meet next in Ukraine?",
+        "ticker": "KXPUTINZELENSKYYLOCATION-28-UKR",
+        "eventTitle": "Where will Putin and Zelenskyy next meet?",
+        "closeDate": "2028-12-31"
+      },
+      "polymarket": {
+        "eventId": "74056",
+        "id": "667083",
+        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
+        "title": "Will Zelenskyy and Putin meet next in US before 2027?",
+        "endDate": "2027-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Ukraine before Dec 31, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
       "category": "politics",
       "eventScore": 0.816,
       "contractScore": 0.816,
@@ -631,6 +1342,50 @@
           "explicit_deadline_only_on_polymarket",
           "parliamentary_vote_requirement_unconfirmed"
         ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "other",
+      "eventScore": 1,
+      "contractScore": 0.913,
+      "kalshi": {
+        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
+        "title": "Will Putin and Zelenskyy meet next in Russia?",
+        "subtitle": null,
+        "outcomeLabel": "Will Putin and Zelenskyy meet next in Russia?",
+        "ticker": "KXPUTINZELENSKYYLOCATION-28-RUS",
+        "eventTitle": "Where will Putin and Zelenskyy next meet?",
+        "closeDate": "2028-12-31"
+      },
+      "polymarket": {
+        "eventId": "74056",
+        "id": "667083",
+        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
+        "title": "Will Zelenskyy and Putin meet next in US before 2027?",
+        "endDate": "2027-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Russia before Dec 31, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -684,6 +1439,50 @@
       "executable": false
     },
     {
+      "category": "other",
+      "eventScore": 1,
+      "contractScore": 0.845,
+      "kalshi": {
+        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
+        "title": "Will Putin and Zelenskyy meet next in the United Arab Emirates?",
+        "subtitle": null,
+        "outcomeLabel": "Will Putin and Zelenskyy meet next in the United Arab Emirates?",
+        "ticker": "KXPUTINZELENSKYYLOCATION-28-UAE",
+        "eventTitle": "Where will Putin and Zelenskyy next meet?",
+        "closeDate": "2028-12-31"
+      },
+      "polymarket": {
+        "eventId": "74056",
+        "id": "667083",
+        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
+        "title": "Will Zelenskyy and Putin meet next in US before 2027?",
+        "endDate": "2027-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in United Arab Emirates before Dec 31, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
       "category": "politics",
       "eventScore": 0.816,
       "contractScore": 0.816,
@@ -725,6 +1524,50 @@
           "explicit_deadline_only_on_polymarket",
           "parliamentary_vote_requirement_unconfirmed"
         ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "other",
+      "eventScore": 1,
+      "contractScore": 0.833,
+      "kalshi": {
+        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
+        "title": "Will Putin and Zelenskyy meet next in Hungary?",
+        "subtitle": null,
+        "outcomeLabel": "Will Putin and Zelenskyy meet next in Hungary?",
+        "ticker": "KXPUTINZELENSKYYLOCATION-28-HUNG",
+        "eventTitle": "Where will Putin and Zelenskyy next meet?",
+        "closeDate": "2028-12-31"
+      },
+      "polymarket": {
+        "eventId": "74056",
+        "id": "667076",
+        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
+        "title": "Will Zelenskyy and Putin meet next in Turkey before 2027?",
+        "endDate": "2027-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Hungary before Dec 31, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -778,6 +1621,50 @@
       "executable": false
     },
     {
+      "category": "other",
+      "eventScore": 1,
+      "contractScore": 0.833,
+      "kalshi": {
+        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
+        "title": "Will Putin and Zelenskyy meet next in Hungary?",
+        "subtitle": null,
+        "outcomeLabel": "Will Putin and Zelenskyy meet next in Hungary?",
+        "ticker": "KXPUTINZELENSKYYLOCATION-28-HUNG",
+        "eventTitle": "Where will Putin and Zelenskyy next meet?",
+        "closeDate": "2028-12-31"
+      },
+      "polymarket": {
+        "eventId": "74056",
+        "id": "667077",
+        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
+        "title": "Will Zelenskyy and Putin meet next in Russia before 2027?",
+        "endDate": "2027-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Hungary before Dec 31, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
       "category": "politics",
       "eventScore": 0.816,
       "contractScore": 0.816,
@@ -819,6 +1706,50 @@
           "explicit_deadline_only_on_polymarket",
           "parliamentary_vote_requirement_unconfirmed"
         ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "other",
+      "eventScore": 1,
+      "contractScore": 0.833,
+      "kalshi": {
+        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
+        "title": "Will Putin and Zelenskyy meet next in Hungary?",
+        "subtitle": null,
+        "outcomeLabel": "Will Putin and Zelenskyy meet next in Hungary?",
+        "ticker": "KXPUTINZELENSKYYLOCATION-28-HUNG",
+        "eventTitle": "Where will Putin and Zelenskyy next meet?",
+        "closeDate": "2028-12-31"
+      },
+      "polymarket": {
+        "eventId": "74056",
+        "id": "667079",
+        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
+        "title": "Will Zelenskyy and Putin meet next in Ukraine before 2027?",
+        "endDate": "2027-01-01"
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Hungary before Dec 31, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -872,32 +1803,32 @@
       "executable": false
     },
     {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
+      "category": "other",
+      "eventScore": 1,
+      "contractScore": 0.833,
       "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Vasile Dîncu be the next Prime Minister of Romania?",
-        "subtitle": ":: PSD",
-        "outcomeLabel": "Will Vasile Dîncu be the next Prime Minister of Romania? :: PSD",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-VDIN",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
+        "eventTicker": "KXPUTINZELENSKYYLOCATION-28",
+        "title": "Will Putin and Zelenskyy meet next in Hungary?",
+        "subtitle": null,
+        "outcomeLabel": "Will Putin and Zelenskyy meet next in Hungary?",
+        "ticker": "KXPUTINZELENSKYYLOCATION-28-HUNG",
+        "eventTitle": "Where will Putin and Zelenskyy next meet?",
+        "closeDate": "2028-12-31"
       },
       "polymarket": {
-        "eventId": "452161",
-        "id": "2166680",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Vasile Dîncu be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
+        "eventId": "74056",
+        "id": "667080",
+        "eventTitle": "Where will Zelenskyy and Putin meet next before 2027?",
+        "title": "Will Zelenskyy and Putin meet next in China before 2027?",
+        "endDate": "2027-01-01"
       },
       "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Vasile Dîncu, then the market resolves to Yes.",
+        "kalshiRules": "If the next Putin and Zelenskyy meeting happens in Hungary before Dec 31, 2028, then the market resolves to Yes.",
         "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "polymarketDescription": "This market will resolve according to the location of the next meeting between Volodymyr Zelenskyy and Vladimir Putin by December 31, 2026, 11:59 PM ET. If no meeting takes place by December 31 ET, this market will resolve to \"No meeting before 2027\".\n\nA meeting is defined as any encounter where Zelenskyy and Putin are both present and interact with each other in person.\n\nFor the purpose of this market, a meeting held on Ukrainian territory under the de facto control of Russia (e.g., Crimea) will be considered part of Russia.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
         "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
+        "kalshiClose": "2028-12-31",
+        "polymarketEnd": "2027-01-01",
         "differentEndDates": true,
         "manualChecks": [
           "same_exact_outcome",
@@ -908,528 +1839,8 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Dacian Cioloș be the next Prime Minister of Romania?",
-        "subtitle": ":: REPER",
-        "outcomeLabel": "Will Dacian Cioloș be the next Prime Minister of Romania? :: REPER",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-DCIO",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166681",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Dacian Cioloș be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Dacian Cioloș, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Emil Boc be the next Prime Minister of Romania?",
-        "subtitle": ":: PNL",
-        "outcomeLabel": "Will Emil Boc be the next Prime Minister of Romania? :: PNL",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-EBOC",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166682",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Emil Boc be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Emil Boc, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Dominic Fritz be the next Prime Minister of Romania?",
-        "subtitle": ":: USR",
-        "outcomeLabel": "Will Dominic Fritz be the next Prime Minister of Romania? :: USR",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-DFRI",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166683",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Dominic Fritz be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Dominic Fritz, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Raluca Turcan be the next Prime Minister of Romania?",
-        "subtitle": ":: PNL",
-        "outcomeLabel": "Will Raluca Turcan be the next Prime Minister of Romania? :: PNL",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-RTUR",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166684",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Raluca Turcan be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Raluca Turcan, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Lucian Croitoru be the next Prime Minister of Romania?",
-        "subtitle": ":: Independent",
-        "outcomeLabel": "Will Lucian Croitoru be the next Prime Minister of Romania? :: Independent",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-LCRO",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166685",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Lucian Croitoru be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Lucian Croitoru, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Delia Velculescu be the next Prime Minister of Romania?",
-        "subtitle": ":: Independent",
-        "outcomeLabel": "Will Delia Velculescu be the next Prime Minister of Romania? :: Independent",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-DVEL",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166686",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Delia Velculescu be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Delia Velculescu, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Eugen Tomac be the next Prime Minister of Romania?",
-        "subtitle": ":: PMP",
-        "outcomeLabel": "Will Eugen Tomac be the next Prime Minister of Romania? :: PMP",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-ETOM",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166699",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Eugen Tomac be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Eugen Tomac, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Leonardo Badea be the next Prime Minister of Romania?",
-        "subtitle": ":: Independent",
-        "outcomeLabel": "Will Leonardo Badea be the next Prime Minister of Romania? :: Independent",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-LBAD",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166703",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Leonardo Badea be the next Prime Minister of Romania?",
-        "endDate": "2026-12-31"
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Leonardo Badea, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-12-31",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Luca Niculescu be the next Prime Minister of Romania?",
-        "subtitle": ":: Independent",
-        "outcomeLabel": "Will Luca Niculescu be the next Prime Minister of Romania? :: Independent",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-LNIC",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166702",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Luca Niculescu be the next Prime Minister of Romania?",
-        "endDate": "2026-12-31"
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Luca Niculescu, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-12-31",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Alexandru Rogobete be the next Prime Minister of Romania?",
-        "subtitle": ":: PSD",
-        "outcomeLabel": "Will Alexandru Rogobete be the next Prime Minister of Romania? :: PSD",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-AROG",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166693",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Alexandru Rogobete be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Alexandru Rogobete, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.739,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Alexandru Nazare be the next Prime Minister of Romania?",
-        "subtitle": ":: National Liberal Party",
-        "outcomeLabel": "Will Alexandru Nazare be the next Prime Minister of Romania? :: National Liberal Party",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-ANAZ",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166692",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Alexandru Nazare be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Alexandru Nazare, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
