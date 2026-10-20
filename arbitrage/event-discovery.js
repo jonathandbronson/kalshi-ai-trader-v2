@@ -117,6 +117,20 @@ function settlementConflicts(evidence){
  if(pVote&&!/\bvote of confidence\b/i.test(k))conflicts.push("parliamentary_vote_requirement_unconfirmed");
  return conflicts;
 }
+function semanticConflict(a,b){
+ const x=normalized(a),y=normalized(b);
+ const type=t=>/\b(?:nominated|nomination|nominee)\b/.test(t)?"nomination":/\b(?:win|wins|winner|winning)\b/.test(t)?"win":null;
+ const ax=type(x),by=type(y);
+ if(ax&&by&&ax!==by)return "nomination_vs_win";
+ const names=["putin","zelenskyy","zelensky","trump","biden","macron","erdogan"];
+ const people=t=>names.filter(n=>new RegExp("\\b"+n+"\\b").test(t)).map(n=>n==="zelensky"?"zelenskyy":n).sort().join("|");
+ const px=people(x),py=people(y);
+ if(px&&py&&px!==py)return "different_named_participants";
+ const years=t=>[...new Set((t.match(/\b20\d\d\b/g)??[]))].sort().join("|");
+ const xx=years(x),yy=years(y);
+ if(xx&&yy&&xx!==yy)return "different_explicit_years";
+ return null;
+}
 function compatible(a,b){
  const x=contractFingerprint(a),y=contractFingerprint(b);
  if(x.kind!==y.kind||x.asset!==y.asset||x.strike!==y.strike||x.direction!==y.direction)return false;
@@ -206,6 +220,7 @@ async function collect(){
    if(!hasNamedOutcome(kalshiOutcome,k.title))continue;
    if(/^who will win/i.test(km.title)&&!String(km.subtitle??"").trim())continue;
    if(!compatible(kalshiOutcome,pm.question))continue;
+   if(semanticConflict(kalshiOutcome,pm.question))continue;
    if(!electionCompatible(kalshiOutcome,pm.question))continue;
    if(!scopeCompatible(kalshiOutcome,pm.question))continue;
    if(incompatibleEventIdentity(k.title,p.title,kalshiOutcome,pm.question))continue;
