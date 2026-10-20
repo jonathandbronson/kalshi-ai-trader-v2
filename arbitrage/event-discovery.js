@@ -133,18 +133,41 @@ async function collect(){
   }catch(e){report.errors.push("polymarket events: "+e.message);break}
  }
  report.counts={kalshiEvents:kalshi.length,polymarketEvents:poly.length,kalshiNestedMarkets:kalshi.reduce((n,e)=>n+(e.markets?.length??0),0),polymarketNestedMarkets:poly.reduce((n,e)=>n+(e.markets?.length??0),0),eventPagesRequested:PAGES};
- // Event-level blocking avoids a full market-by-market cross product.
- const eventMatches=[];
- for(const k of kalshi)for(const p of poly){
-  const kt=k.title??"",pt=p.title??"";
-  const overlap=[...words(kt)].filter(w=>words(pt).has(w));
-  if(overlap.length<2)continue;
-  const confidence=score(kt,pt);
-  if(confidence<0.52)continue;
-  eventMatches.push({k,p,confidence});
- }
+ // Bidirectional token-index lookup: discover counterpart events from either venue
+ // without relying on the same event appearing at the same listing position.
+ const index=events=>{
+  const map=new Map();
+  for(const e of events)for(const token of words(e.title)){
+   if(!map.has(token))map.set(token,new Set());
+   map.get(token).add(e);
+  }
+  return map;
+ };
+ const ki=index(kalshi),pi=index(poly),matches=new Map();
+ const search=(sources,targetIndex,kalshiSource)=>{
+  for(const source of sources){
+   const hits=new Map();
+   for(const token of words(source.title)){
+    for(const target of targetIndex.get(token)??[]){
+     hits.set(target,(hits.get(target)??0)+1);
+    }
+   }
+   for(const [target,overlap] of hits){
+    if(overlap<2)continue;
+    const k=kalshiSource?source:target,p=kalshiSource?target:source;
+    const confidence=score(k.title??"",p.title??"");
+    if(confidence<0.52)continue;
+    const key=String(k.event_ticker)+"|"+String(p.id);
+    if(!matches.has(key))matches.set(key,{k,p,confidence});
+   }
+  }
+ };
+ search(kalshi,pi,true);
+ search(poly,ki,false);
+ const eventMatches=[...matches.values()];
  eventMatches.sort((a,b)=>b.confidence-a.confidence);
  report.counts.eventMatches=eventMatches.length;
+ report.counts.discoveryStrategy="bidirectional_inverted_index";
  const seen=new Set(),pool=[];
  for(const {k,p,confidence} of eventMatches){
   for(const km of k.markets??[])for(const pm of p.markets??[]){
