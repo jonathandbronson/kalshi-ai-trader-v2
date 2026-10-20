@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T16:29:36.257Z",
+  "timestamp": "2026-10-20T16:31:12.364Z",
   "rejections": {
     "KXNEXTISRAELPM-45JAN01-NBEN:682706": {
       "reason": "interim_appointment_treatment",
@@ -40,6 +40,1356 @@
       "reason": "interim_appointment_treatment",
       "lastSeen": "2026-10-20T16:09:40.680Z",
       "rulesHash": "e498d562803eb1b9"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667076": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667077": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667078": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667079": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667080": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667081": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667082": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667083": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667084": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667085": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667086": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667087": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667088": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667089": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667091": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667092": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667093": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667094": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667095": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667096": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667097": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667098": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667099": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667100": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667101": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667102": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667906": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667907": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667908": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-HUNG:667911": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "ebb151e7458f63d6"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667076": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667077": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667078": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667079": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667080": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667081": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667082": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667083": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667084": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667085": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667086": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667087": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667088": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667089": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667091": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667092": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667093": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667094": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667095": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667096": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667097": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667098": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667099": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667100": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667101": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667102": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667906": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667907": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667908": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-SWZ:667911": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "01459405b6be76ff"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667076": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667077": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667078": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667079": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667080": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667081": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667082": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667083": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667084": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667085": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667086": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667087": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667088": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667089": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667091": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667092": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667093": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667094": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667095": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667096": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667097": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667098": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667099": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667100": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667101": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667102": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667906": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667907": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667908": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-TUR:667911": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9f3a851485f94b8"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667076": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667077": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667078": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667079": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667080": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667081": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667082": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667083": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667084": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667085": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667086": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667087": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667088": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667089": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667091": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667092": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667093": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667094": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667095": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667096": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667097": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667098": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667099": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667100": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667101": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667102": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667906": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667907": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667908": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-CHI:667911": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "795db51978cedcc4"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667076": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667077": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667078": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667079": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667080": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667081": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667082": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667083": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667084": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667085": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667086": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667087": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667088": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667089": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667091": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667092": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667093": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667094": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667095": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667096": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667097": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667098": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667099": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667100": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667101": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667102": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667906": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667907": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667908": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-GER:667911": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "7c48ba89bc6fd440"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667076": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667077": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667078": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667079": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667080": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667081": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667082": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667083": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667084": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667085": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667086": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667087": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667088": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667089": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667091": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667092": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667093": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667094": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667095": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667096": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667097": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667098": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667099": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667100": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667101": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667102": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667906": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667907": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667908": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UNI:667911": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9b278aeeb1edec2f"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667076": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667077": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667078": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667079": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667080": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667081": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667082": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667083": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667084": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667085": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667086": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667087": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667088": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667089": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667091": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667092": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667093": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667094": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667095": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667096": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667097": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667098": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667099": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667100": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667101": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667102": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667906": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667907": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667908": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UKR:667911": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "a9007763660a9ace"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667076": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667077": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667078": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667079": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667080": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667081": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667082": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667083": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667084": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667085": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667086": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667087": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667088": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667089": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667091": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667092": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667093": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667094": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667095": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667096": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667097": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667098": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667099": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667100": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667101": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667102": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667906": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667907": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667908": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-RUS:667911": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "9d9a7f4c78de49a0"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667076": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667077": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667078": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667079": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667080": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667081": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667082": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667083": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667084": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667085": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667086": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667087": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667088": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667089": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667091": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667092": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667093": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667094": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667095": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667096": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667097": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667098": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667099": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667100": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667101": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667102": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667906": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667907": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667908": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
+    },
+    "KXPUTINZELENSKYYLOCATION-28-UAE:667911": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:31:12.364Z",
+      "rulesHash": "e1de3706edef26b3"
     }
   }
 }
