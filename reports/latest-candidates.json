@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T16:05:13.727Z",
+  "timestamp": "2026-10-20T16:06:02.554Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -12,7 +12,7 @@
     "kalshiSingleOutcomeMarkets": 1239,
     "kalshiMarkets": 1239,
     "polymarketMarkets": 2000,
-    "polymarketBinaryMarkets": 1656,
+    "polymarketBinaryMarkets": 1662,
     "titleCandidates": 0,
     "contractTypePolicy": "strict_same_kind",
     "kalshiPagesRequested": 20,
@@ -24,6 +24,11 @@
   "errors": [],
   "samples": {
     "kalshi": [
+      {
+        "title": "Jake Oettinger: 24+ saves",
+        "subtitle": "",
+        "ticker": "KXNHLSAVE-26OCT20BOSDAL-DALJOETTINGER29-24"
+      },
       {
         "title": "Veljko Simic: First Goalscorer",
         "subtitle": "",
@@ -38,11 +43,6 @@
         "title": "Tymoteusz Puchacz: First Goalscorer",
         "subtitle": "",
         "ticker": "KXUCLFIRSTGOAL-26OCT20SBHBVB-SBHTPUCHA27"
-      },
-      {
-        "title": "Steve Solvet: First Goalscorer",
-        "subtitle": "",
-        "ticker": "KXUCLFIRSTGOAL-26OCT20SBHBVB-SBHSSOLVE3"
       }
     ],
     "polymarket": [
