@@ -10,7 +10,11 @@ export async function runPaperCycle({pairs,portfolio,fetcher=fetch,quantity=10,y
    for(const [direction,yesAsks,noAsks] of [["KALSHI_YES_POLY_NO",b.kalshi.yes,b.polyNo],["POLY_YES_KALSHI_NO",b.polyYes,b.kalshi.no]]){
     const exists=portfolio.positions.some(x=>x.settlementStatus==="OPEN"&&x.pairId===pair.id&&x.direction===direction);
     if(exists){results.push({pairId:pair.id,direction,reason:"DUPLICATE_OPEN_POSITION"});continue}
-    const quote={pairId:pair.id,direction,yesAsks,noAsks,quantity,yesFeeRate,noFeeRate,latencySlippageCents,approved:true,settlementEvidenceVerified:true,minNetRoi};
+    const feeModels=direction==="KALSHI_YES_POLY_NO"
+      ?[pair.kalshiFeeModel,pair.polymarketFeeModel]
+      :[pair.polymarketFeeModel,pair.kalshiFeeModel];
+    if(!feeModels.every(m=>m&&typeof m==="object")){results.push({pairId:pair.id,direction,reason:"VENUE_FEE_MODELS_REQUIRED"});continue}
+    const quote={pairId:pair.id,direction,yesAsks,noAsks,quantity,yesFeeRate,noFeeRate,feeModels,latencySlippageCents,approved:true,settlementEvidenceVerified:true,minNetRoi};
     const result=portfolio.enter(quote);results.push({pairId:pair.id,direction,...result});
    }
   }catch(e){results.push({pairId:pair.id,error:e.message})}
