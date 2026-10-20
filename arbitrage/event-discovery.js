@@ -45,6 +45,14 @@ function hasNamedOutcome(label,eventTitle){
  if(l===e)return false;
  return true;
 }
+function personSelection(text){
+ const t=String(text??"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+ const m=t.match(/\bwill\s+(.+?)\s+(?:be\s+the\s+next|win\s+the|become\s+the)\b/);
+ if(!m)return null;
+ const candidate=m[1].trim().replace(/^the\s+/,"");
+ if(/^(republicans?|democrats?|gop|a|an|someone|person\s+[a-z])$/.test(candidate))return null;
+ return candidate;
+}
 function electionOutcome(text){
  const t=normalized(text);
  const party=/\b(?:republicans?|gop)\b/.test(t)?"republican":/\b(?:democrats?|democratic)\b/.test(t)?"democrat":null;
@@ -112,6 +120,8 @@ async function collect(){
    if(/^who will win/i.test(km.title)&&!String(km.subtitle??"").trim())continue;
    if(!compatible(kalshiOutcome,pm.question))continue;
    if(!electionCompatible(kalshiOutcome,pm.question))continue;
+   const kp=personSelection(kalshiOutcome),pp=personSelection(pm.question);
+   if(kp!==pp&&(kp!==null||pp!==null))continue;
    const scoreValue=score([k.title,kalshiOutcome].join(" "),[p.title,pm.question].join(" "));
    const contractOverlap=[...words(kalshiOutcome)].filter(w=>words(pm.question).has(w));
    if(contractOverlap.length<2)continue;
