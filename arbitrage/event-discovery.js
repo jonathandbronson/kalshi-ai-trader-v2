@@ -222,7 +222,7 @@ async function collect(){
  report.counts.eventMatchCategories=Object.fromEntries(["politics","sports","crypto","economics","finance","other"].map(c=>[c,eventMatches.filter(({k,p})=>eventCategory(k.title+" "+p.title)===c).length]));
  report.counts.sourceEventCategories={kalshi:Object.fromEntries(["politics","sports","crypto","economics","finance","other"].map(c=>[c,kalshi.filter(e=>eventCategory(e.title)===c).length])),polymarket:Object.fromEntries(["politics","sports","crypto","economics","finance","other"].map(c=>[c,poly.filter(e=>eventCategory(e.title)===c).length]))};
  const rejected=await loadRejections(),seen=new Set(),pool=[];
- const rejectReasons={};let cachedRejections=0;
+ const rejectReasons={};let cachedRejections=0;const rejectionCacheLoaded=Object.keys(rejected).length;
  const reject=(key,reason)=>{rejectReasons[reason]=(rejectReasons[reason]??0)+1;rejected[key]={reason,lastSeen:report.timestamp};};
  for(const {k,p,confidence} of eventMatches){
   for(const km of k.markets??[])for(const pm of p.markets??[]){
@@ -284,6 +284,7 @@ async function collect(){
  report.counts.eligibleCandidatePool=pool.length;
  report.counts.rejectedByReason=rejectReasons;
  report.counts.rejectionCacheEntries=Object.keys(rejected).length;
+ report.counts.rejectionCacheLoaded=rejectionCacheLoaded;
  report.counts.cachedRejections=cachedRejections;
  await writeFile(process.env.ARB_REJECTION_OUTPUT??"arbitrage-rejected-pairs.json",JSON.stringify({timestamp:report.timestamp,rejections:rejected},null,2)+"\n");
  report.counts.dateMismatchCandidates=pool.filter(x=>x.reviewEvidence.differentEndDates).length;
