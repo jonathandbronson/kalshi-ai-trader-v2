@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T16:33:07.193Z",
+  "timestamp": "2026-10-20T16:34:58.774Z",
   "rejections": {
     "KXNEXTISRAELPM-45JAN01-NBEN:682706": {
       "reason": "interim_appointment_treatment",
@@ -1390,6 +1390,11 @@
       "reason": "different_meeting_deadline_year",
       "lastSeen": "2026-10-20T16:31:12.364Z",
       "rulesHash": "e1de3706edef26b3"
+    },
+    "SENATESC-28-R:5972006": {
+      "reason": "subregion_vs_statewide_result",
+      "lastSeen": "2026-10-20T16:34:58.774Z",
+      "rulesHash": "867e8942922bfec3"
     }
   }
 }
