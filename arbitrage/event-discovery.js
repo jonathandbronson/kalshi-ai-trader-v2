@@ -251,9 +251,10 @@ async function collect(){
    const key=km.ticker+":"+pm.id;if(seen.has(key))continue;seen.add(key);
    const evidence=reviewEvidence(k,p,km,pm);
    const rulesHash=hash([evidence.kalshiRules,evidence.kalshiSecondaryRules,evidence.polymarketDescription].join("|"));
-   if(rejected[key]?.reason==="interim_appointment_treatment"&&rejected[key]?.rulesHash===rulesHash){cachedRejections++;continue;}
+   if(["interim_appointment_treatment","different_meeting_deadline_year","different_senate_election_cycle"].includes(rejected[key]?.reason)&&rejected[key]?.rulesHash===rulesHash){cachedRejections++;continue;}
    evidence.ruleConflicts=settlementConflicts(evidence);
-   if(evidence.ruleConflicts.some(c=>["interim_appointment_treatment","different_meeting_deadline_year","different_senate_election_cycle"].includes(c))){reject(key,"interim_appointment_treatment");rejected[key].rulesHash=rulesHash;continue;}
+   const hardConflict=evidence.ruleConflicts.find(c=>["interim_appointment_treatment","different_meeting_deadline_year","different_senate_election_cycle"].includes(c));
+   if(hardConflict){reject(key,hardConflict);rejected[key].rulesHash=rulesHash;continue;}
    // Different listed dates require review; they do not alone prove different payouts.
    const outcomes=parse(pm.outcomes),tokens=parse(pm.clobTokenIds);
    if(outcomes.length!==2||tokens.length!==2||!outcomes.includes("Yes")||!outcomes.includes("No"))continue;
