@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-10-20T16:43:12.264Z",
+  "timestamp": "2026-10-20T16:46:06.996Z",
   "status": "SHORTLIST_DIFF_ONLY",
   "currentScanStatus": "COLLECTED",
   "previousScanStatus": "COLLECTED",
-  "previousTimestamp": "2026-10-20T16:34:58.774Z",
+  "previousTimestamp": "2026-10-20T16:43:03.697Z",
   "counts": {
     "previous": 40,
     "current": 40,
