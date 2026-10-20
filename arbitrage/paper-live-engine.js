@@ -5,6 +5,7 @@ export async function runPaperCycle({pairs,portfolio,fetcher=fetch,quantity=10,y
  for(const pair of pairs){
   if(!pair.approved||!pair.settlementReviewed||!pair.yesMeansSameOutcome||pair.settlementEvidenceVerified!==true){results.push({pairId:pair.id,error:"PAIR_NOT_APPROVED"});continue}
   try{
+   if(!pair.kalshiFeeModel||!pair.polymarketFeeModel){results.push({pairId:pair.id,error:"VENUE_FEE_MODELS_REQUIRED"});continue}
    const b=await fetchPairDepth(pair,fetcher);
    if(b.fetchDurationMs>maxFetchMs){results.push({pairId:pair.id,error:"STALE_BOOKS"});continue}
    for(const [direction,yesAsks,noAsks] of [["KALSHI_YES_POLY_NO",b.kalshi.yes,b.polyNo],["POLY_YES_KALSHI_NO",b.polyYes,b.kalshi.no]]){
