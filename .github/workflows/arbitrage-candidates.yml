@@ -83,7 +83,11 @@ jobs:
             const eventReport = fs.existsSync('arbitrage-events.json')
               ? fs.readFileSync('arbitrage-events.json','utf8')
               : JSON.stringify({timestamp:new Date().toISOString(),status:'EVENT_COLLECTOR_FAILED',runId:context.runId});
-            await publish(eventPath,eventReport);
+            if (fs.existsSync('arbitrage-events.json')) {
+              await publish(eventPath,eventReport);
+            } else {
+              await publish('reports/latest-event-failure.json',eventReport);
+            }
             if (fs.existsSync('arbitrage-rejected-pairs.json')) {
               await publish('reports/rejected-pairs.json',fs.readFileSync('arbitrage-rejected-pairs.json','utf8'));
             }
