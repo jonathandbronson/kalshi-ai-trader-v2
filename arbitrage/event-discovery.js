@@ -248,8 +248,7 @@ async function collect(){
    // Different listed dates require review; they do not alone prove different payouts.
    const outcomes=parse(pm.outcomes),tokens=parse(pm.clobTokenIds);
    if(outcomes.length!==2||tokens.length!==2||!outcomes.includes("Yes")||!outcomes.includes("No"))continue;
-   const eventText=normalized(k.title+" "+p.title);
-   const category=/\b(?:election|president|senate|house|prime minister|governor|nomination|parliament|party)\b/.test(eventText)?"politics":/\b(?:football|soccer|nba|nfl|tennis|baseball|championship|world cup|premier league|ufc|f1)\b/.test(eventText)?"sports":/\b(?:bitcoin|ethereum|solana|crypto|btc|eth)\b/.test(eventText)?"crypto":/\b(?:inflation|fed|interest|treasury|gdp|unemployment|cpi|recession)\b/.test(eventText)?"economics":/\b(?:gold|silver|oil|stock|nasdaq|s&p)\b/.test(eventText)?"finance":"other";
+   const category=eventCategory(k.title+" "+p.title);
    if(evidence.ruleConflicts.length)evidence.reviewPriority="RULE_DIFFERENCES_REQUIRE_REVIEW";
    const settlementFingerprint={outcome:normalized(kalshiOutcome),kalshiRuleHash:hash([evidence.kalshiRules,evidence.kalshiSecondaryRules].join("|")),polymarketRuleHash:hash(evidence.polymarketDescription),kalshiClose:evidence.kalshiClose,polymarketEnd:evidence.polymarketEnd,conflicts:evidence.ruleConflicts};
    pool.push({
