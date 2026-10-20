@@ -12,12 +12,14 @@ export function walkAsks(levels,quantity){
  for(const level of normalizeAsks(levels)){const take=Math.min(remaining,level.size);cost+=take*level.price;filled+=take;remaining-=take;if(remaining<=1e-9)break}
  return {filled,unfilled:Math.max(0,remaining),costUsd:round(cost),avgPrice:filled?round(cost/filled):null};
 }
-export function simulatePair({yesAsks,noAsks,quantity,yesFeeRate=0,noFeeRate=0,fixedFeesUsd=0,latencySlippageCents=0,capitalUsd=1000,minNetRoi=.02,approved=false,settlementEvidenceVerified=false,now=new Date().toISOString(),pairId="manual",direction="YES_NO"}){
+export function simulatePair({yesAsks,noAsks,quantity,yesFeeRate=0,noFeeRate=0,fixedFeesUsd=0,latencySlippageCents=0,capitalUsd=1000,minNetRoi=.02,feeModels=null,approved=false,settlementEvidenceVerified=false,now=new Date().toISOString(),pairId="manual",direction="YES_NO"}){
  for(const [key,v] of Object.entries({yesFeeRate,noFeeRate,fixedFeesUsd,latencySlippageCents,capitalUsd,minNetRoi}))if(!Number.isFinite(v)||v<0)throw new RangeError(key+" must be nonnegative");
  if(!approved||!settlementEvidenceVerified)return {accepted:false,reason:"SETTLEMENT_NOT_VERIFIED"};
  const yes=walkAsks(yesAsks,quantity),no=walkAsks(noAsks,quantity);
  if(yes.unfilled>1e-9||no.unfilled>1e-9)return {accepted:false,reason:"INSUFFICIENT_DEPTH",yes,no};
- const fees=round(yes.costUsd*yesFeeRate+no.costUsd*noFeeRate+fixedFeesUsd);
+ const calcFee=(model,fill,rate)=>{if(!model)return fill.costUsd*rate;if(model.type==="flat_rate")return fill.costUsd*model.rate;if(model.type==="kalshi_taker")return Math.ceil(100*model.coefficient*quantity*fill.avgPrice*(1-fill.avgPrice))/100;throw Error("UNKNOWN_FEE_MODEL")};
+ if(feeModels&&(!Array.isArray(feeModels)||feeModels.length!==2))throw Error("INVALID_FEE_MODELS");
+ const fees=round(calcFee(feeModels?.[0],yes,yesFeeRate)+calcFee(feeModels?.[1],no,noFeeRate)+fixedFeesUsd);
  const slippageReserve=round(quantity*2*latencySlippageCents/100);
  const costUsd=round(yes.costUsd+no.costUsd+fees+slippageReserve);
  const netProfitUsd=round(quantity-costUsd);
