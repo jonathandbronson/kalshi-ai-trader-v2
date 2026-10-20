@@ -102,6 +102,20 @@ function reviewEvidence(k,p,km,pm){
   settlementVerified:false,reviewPriority:differentEndDates?"CHECK_DATE_AND_SETTLEMENT_TRIGGER":"CHECK_SETTLEMENT_RULES"
  };
 }
+function settlementConflicts(evidence){
+ const k=String(evidence.kalshiRules??"")+" "+String(evidence.kalshiSecondaryRules??"");
+ const p=String(evidence.polymarketDescription??"");
+ const conflicts=[];
+ if(!k.trim()||!p.trim())return ["missing_rule_text"];
+ const kInterim=/\b(?:acting|interim|caretaker)\b[^.]{0,100}\b(?:count|holding the position)\b/i.test(k);
+ const pInterimExcluded=/\b(?:interim|caretaker)\b[^.]{0,100}\b(?:will not count|do not count|not count)\b/i.test(p);
+ if(kInterim&&pInterimExcluded)conflicts.push("interim_appointment_treatment");
+ const pDeadline=/\b(?:by|before|until)\s+(?:december|january|february|march|april|may|june|july|august|september|october|november)\s+\d{1,2},?\s+20\d\d\b/i.test(p);
+ if(pDeadline&&!/\b(?:by|before|until|expiration|close|deadline)\b/i.test(k))conflicts.push("explicit_deadline_only_on_polymarket");
+ const pVote=/\bvote of confidence\b/i.test(p);
+ if(pVote&&!/\bvote of confidence\b/i.test(k))conflicts.push("parliamentary_vote_requirement_unconfirmed");
+ return conflicts;
+}
 function compatible(a,b){
  const x=contractFingerprint(a),y=contractFingerprint(b);
  if(x.kind!==y.kind||x.asset!==y.asset||x.strike!==y.strike||x.direction!==y.direction)return false;
@@ -186,11 +200,14 @@ async function collect(){
    if(contractOverlap.length<2||scoreValue<0.55)continue;
    const key=km.ticker+":"+pm.id;if(seen.has(key))continue;seen.add(key);
    const evidence=reviewEvidence(k,p,km,pm);
+   evidence.ruleConflicts=settlementConflicts(evidence);
+   if(evidence.ruleConflicts.includes("interim_appointment_treatment"))continue;
    // Different listed dates require review; they do not alone prove different payouts.
    const outcomes=parse(pm.outcomes),tokens=parse(pm.clobTokenIds);
    if(outcomes.length!==2||tokens.length!==2||!outcomes.includes("Yes")||!outcomes.includes("No"))continue;
    const eventText=normalized(k.title+" "+p.title);
    const category=/\b(?:election|president|senate|house|prime minister|governor|nomination|parliament|party)\b/.test(eventText)?"politics":/\b(?:football|soccer|nba|nfl|tennis|baseball|championship|world cup|premier league|ufc|f1)\b/.test(eventText)?"sports":/\b(?:bitcoin|ethereum|solana|crypto|btc|eth)\b/.test(eventText)?"crypto":/\b(?:inflation|fed|interest|treasury|gdp|unemployment|cpi|recession)\b/.test(eventText)?"economics":/\b(?:gold|silver|oil|stock|nasdaq|s&p)\b/.test(eventText)?"finance":"other";
+   if(evidence.ruleConflicts.length)evidence.reviewPriority="RULE_DIFFERENCES_REQUIRE_REVIEW";
    pool.push({
     category,eventScore:Number(confidence.toFixed(3)),contractScore:Number(scoreValue.toFixed(3)),
     kalshi:{eventTicker:k.event_ticker,title:km.title,subtitle:km.subtitle??null,outcomeLabel:kalshiOutcome,ticker:km.ticker,eventTitle:k.title,closeDate:day(km.close_time)},
