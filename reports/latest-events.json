@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T16:06:26.843Z",
+  "timestamp": "2026-10-20T16:07:15.117Z",
   "mode": "EVENT_FIRST_READ_ONLY",
   "status": "COLLECTED",
   "autoApproved": 0,
@@ -7,15 +7,15 @@
   "errors": [],
   "counts": {
     "kalshiEvents": 800,
-    "polymarketEvents": 1198,
+    "polymarketEvents": 1196,
     "kalshiNestedMarkets": 6360,
-    "polymarketNestedMarkets": 20569,
+    "polymarketNestedMarkets": 20298,
     "eventPagesRequested": 8,
     "polymarketDiscoverySources": [
       "volume24hr",
       "recent_id"
     ],
-    "eventMatches": 892,
+    "eventMatches": 893,
     "discoveryStrategy": "bidirectional_inverted_index",
     "eligibleCandidatePool": 458,
     "rejectedByReason": {
