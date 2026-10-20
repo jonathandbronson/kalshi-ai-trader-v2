@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T16:46:53.849Z",
+  "timestamp": "2026-10-20T16:47:48.465Z",
   "rejections": {
     "KXNEXTISRAELPM-45JAN01-NBEN:682706": {
       "reason": "interim_appointment_treatment",
@@ -1395,6 +1395,411 @@
       "reason": "subregion_vs_statewide_result",
       "lastSeen": "2026-10-20T16:34:58.774Z",
       "rulesHash": "867e8942922bfec3"
+    },
+    "KXOAIANTH-40-ANTH:1301184": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "ccc7e8c9ecdccd0c"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-GSX:2315323": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "b8c6e744c5b729e2"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-GSX:2315331": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "b8c6e744c5b729e2"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-GSX:2315332": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "b8c6e744c5b729e2"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-GSX:2315333": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "b8c6e744c5b729e2"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-GSX:2315334": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "b8c6e744c5b729e2"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-GSX:2315335": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "b8c6e744c5b729e2"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-GSX:2315336": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "b8c6e744c5b729e2"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-GSX:2315337": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "b8c6e744c5b729e2"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-GSX:2315338": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "b8c6e744c5b729e2"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-GSX:2315339": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "b8c6e744c5b729e2"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-MSX:2315322": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "785535c8e00c0d5f"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-MSX:2315331": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "785535c8e00c0d5f"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-MSX:2315332": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "785535c8e00c0d5f"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-MSX:2315333": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "785535c8e00c0d5f"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-MSX:2315334": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "785535c8e00c0d5f"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-MSX:2315335": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "785535c8e00c0d5f"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-MSX:2315336": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "785535c8e00c0d5f"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-MSX:2315337": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "785535c8e00c0d5f"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-MSX:2315338": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "785535c8e00c0d5f"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-MSX:2315339": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "785535c8e00c0d5f"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-JPMX:2315324": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "fd36e8f125f46c9b"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-JPMX:2315331": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "fd36e8f125f46c9b"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-JPMX:2315332": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "fd36e8f125f46c9b"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-JPMX:2315333": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "fd36e8f125f46c9b"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-JPMX:2315334": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "fd36e8f125f46c9b"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-JPMX:2315335": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "fd36e8f125f46c9b"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-JPMX:2315336": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "fd36e8f125f46c9b"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-JPMX:2315337": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "fd36e8f125f46c9b"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-JPMX:2315338": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "fd36e8f125f46c9b"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-JPMX:2315339": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "fd36e8f125f46c9b"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-BOAX:2315325": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "37f35d4650f55f69"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-BOAX:2315326": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "37f35d4650f55f69"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-BOAX:2315327": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "37f35d4650f55f69"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-BOAX:2315328": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "37f35d4650f55f69"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-BOAX:2315329": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "37f35d4650f55f69"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-BOAX:2315331": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "37f35d4650f55f69"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-BOAX:2315332": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "37f35d4650f55f69"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-BOAX:2315333": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "37f35d4650f55f69"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-BOAX:2315334": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "37f35d4650f55f69"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-BOAX:2315335": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "37f35d4650f55f69"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-BOAX:2315336": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "37f35d4650f55f69"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-BOAX:2315337": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "37f35d4650f55f69"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-BOAX:2315338": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "37f35d4650f55f69"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-BOAX:2315339": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "37f35d4650f55f69"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-BOAX:2315340": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "37f35d4650f55f69"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-CITIX:2315325": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "6a647eb2d382935a"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-CITIX:2315326": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "6a647eb2d382935a"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-CITIX:2315327": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "6a647eb2d382935a"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-CITIX:2315328": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "6a647eb2d382935a"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-CITIX:2315329": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "6a647eb2d382935a"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-CITIX:2315331": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "6a647eb2d382935a"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-CITIX:2315332": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "6a647eb2d382935a"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-CITIX:2315333": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "6a647eb2d382935a"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-CITIX:2315334": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "6a647eb2d382935a"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-CITIX:2315335": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "6a647eb2d382935a"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-CITIX:2315336": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "6a647eb2d382935a"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-CITIX:2315337": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "6a647eb2d382935a"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-CITIX:2315338": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "6a647eb2d382935a"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-CITIX:2315339": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "6a647eb2d382935a"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-CITIX:2315340": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "6a647eb2d382935a"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-NLOX:2315325": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "9ab0d1919fce6648"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-NLOX:2315326": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "9ab0d1919fce6648"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-NLOX:2315327": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "9ab0d1919fce6648"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-NLOX:2315328": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "9ab0d1919fce6648"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-NLOX:2315329": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "9ab0d1919fce6648"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-NLOX:2315331": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "9ab0d1919fce6648"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-NLOX:2315332": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "9ab0d1919fce6648"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-NLOX:2315333": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "9ab0d1919fce6648"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-NLOX:2315334": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "9ab0d1919fce6648"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-NLOX:2315335": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "9ab0d1919fce6648"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-NLOX:2315336": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "9ab0d1919fce6648"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-NLOX:2315337": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "9ab0d1919fce6648"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-NLOX:2315338": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "9ab0d1919fce6648"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-NLOX:2315339": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "9ab0d1919fce6648"
+    },
+    "KXOPENAILEADLEFT-28JAN01B-NLOX:2315340": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "9ab0d1919fce6648"
+    },
+    "KXANTHROPICLEADLEFT-28JAN01B-GSX:2315323": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "6889c11b367dfa5c"
+    },
+    "KXANTHROPICLEADLEFT-28JAN01B-MSX:2315322": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "b7379879da4f351b"
+    },
+    "KXANTHROPICLEADLEFT-28JAN01B-JPMX:2315324": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "56d3ea4ced72a3bf"
+    },
+    "KXANTHROPICLEADLEFT-28JAN01B-BOAX:2315325": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "1d01f9d2fd8aaef7"
+    },
+    "KXANTHROPICLEADLEFT-28JAN01B-CITIX:2315326": {
+      "reason": "different_meeting_deadline_year",
+      "lastSeen": "2026-10-20T16:47:48.465Z",
+      "rulesHash": "6f4abf8ffdc495ac"
     }
   }
 }
