@@ -1,18 +1,24 @@
 {
-  "timestamp": "2026-10-20T16:07:22.962Z",
+  "timestamp": "2026-10-20T16:08:11.878Z",
   "status": "SHORTLIST_DIFF_ONLY",
   "currentScanStatus": "COLLECTED",
   "previousScanStatus": "COLLECTED",
-  "previousTimestamp": "2026-10-20T16:05:38.053Z",
+  "previousTimestamp": "2026-10-20T16:06:26.843Z",
   "counts": {
     "previous": 40,
     "current": 40,
-    "added": 0,
-    "removed": 0
+    "added": 2,
+    "removed": 2
   },
   "shortlistTruncated": true,
-  "added": [],
-  "removed": [],
+  "added": [
+    "KXNEXTROMANIAPM-45JAN01-VDIN|2166680",
+    "KXPUTINZELENSKYYLOCATION-28-HUNG|667085"
+  ],
+  "removed": [
+    "KXPUTINZELENSKYYLOCATION-28-SWZ|2364952",
+    "KXOSCARSUPACTR-27-PEN|5686242"
+  ],
   "notes": [
     "Only compares the candidate shortlist, not the entire event universe.",
     "Disappearance from the capped shortlist does not mean an event closed or a market disappeared.",
