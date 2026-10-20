@@ -9,8 +9,8 @@ export async function runPaperCycle({pairs,portfolio,fetcher=fetch,quantity=10,y
    const b=await fetchPairDepth(pair,fetcher);
    if(b.fetchDurationMs>maxFetchMs){results.push({pairId:pair.id,error:"STALE_BOOKS"});continue}
    for(const [direction,yesAsks,noAsks] of [["KALSHI_YES_POLY_NO",b.kalshi.yes,b.polyNo],["POLY_YES_KALSHI_NO",b.polyYes,b.kalshi.no]]){
-    const exists=portfolio.positions.some(x=>x.settlementStatus==="OPEN"&&x.pairId===pair.id&&x.direction===direction);
-    if(exists){results.push({pairId:pair.id,direction,reason:"DUPLICATE_OPEN_POSITION"});continue}
+    const exists=portfolio.positions.some(x=>x.settlementStatus==="OPEN"&&x.pairId===pair.id);
+    if(exists){results.push({pairId:pair.id,direction,reason:"PAIR_EXPOSURE_ALREADY_OPEN"});continue}
     const feeModels=direction==="KALSHI_YES_POLY_NO"
       ?[pair.kalshiFeeModel,pair.polymarketFeeModel]
       :[pair.polymarketFeeModel,pair.kalshiFeeModel];
