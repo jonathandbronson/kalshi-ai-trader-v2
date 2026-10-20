@@ -2,7 +2,7 @@ import test from "node:test";import assert from "node:assert/strict";
 import {kalshiDepth,polyDepth,fetchPairDepth} from "./live-adapters.js";
 import {PaperPortfolio} from "./simulator.js";
 import {runPaperCycle} from "./paper-live-engine.js";
-const pair={id:"demo",kalshiTicker:"TEST",polymarketId:"789",polyYesTokenId:"123",polyNoTokenId:"456",approved:true,settlementReviewed:true,yesMeansSameOutcome:true};
+const pair={id:"demo",kalshiTicker:"TEST",polymarketId:"789",polyYesTokenId:"123",polyNoTokenId:"456",approved:true,settlementReviewed:true,yesMeansSameOutcome:true,settlementEvidenceVerified:true};
 const mock=async url=>({ok:true,json:async()=>{
  if(url.includes("kalshi"))return {orderbook_fp:{yes_dollars:[["0.60","20.00"]],no_dollars:[["0.60","20.00"]]}};
  if(url.includes("gamma-api"))return {active:true,closed:false,outcomes:'["Yes","No"]',clobTokenIds:'["123","456"]',conditionId:"0xabc"};
