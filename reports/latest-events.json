@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T16:10:34.482Z",
+  "timestamp": "2026-10-20T16:11:25.553Z",
   "mode": "EVENT_FIRST_READ_ONLY",
   "status": "COLLECTED",
   "autoApproved": 0,
@@ -7,15 +7,19 @@
   "errors": [],
   "counts": {
     "kalshiEvents": 800,
-    "polymarketEvents": 1188,
+    "polymarketEvents": 1187,
     "kalshiNestedMarkets": 6360,
-    "polymarketNestedMarkets": 21255,
+    "polymarketNestedMarkets": 20983,
     "eventPagesRequested": 8,
     "polymarketDiscoverySources": [
       "volume24hr",
       "recent_id"
     ],
     "eventMatches": 893,
+    "eventMatchThreshold": {
+      "minimumSharedTokens": 2,
+      "minimumSimilarity": 0.52
+    },
     "discoveryStrategy": "bidirectional_inverted_index",
     "eventMatchCategories": {
       "politics": 838,
@@ -35,15 +39,27 @@
         "other": 583
       },
       "polymarket": {
-        "politics": 95,
+        "politics": 94,
         "sports": 23,
-        "crypto": 142,
+        "crypto": 146,
         "economics": 11,
         "finance": 11,
-        "other": 906
+        "other": 902
       }
     },
+    "discoveryCoverageWarning": [
+      "crypto",
+      "finance"
+    ],
     "eligibleCandidatePool": 323,
+    "eligiblePoolCategories": {
+      "politics": 53,
+      "sports": 0,
+      "crypto": 0,
+      "economics": 0,
+      "finance": 0,
+      "other": 270
+    },
     "rejectedByReason": {},
     "rejectionCacheEntries": 8,
     "rejectionCacheLoaded": 8,
