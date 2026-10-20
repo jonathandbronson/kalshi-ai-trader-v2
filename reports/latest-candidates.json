@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T15:59:37.512Z",
+  "timestamp": "2026-10-20T16:02:08.595Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -12,7 +12,7 @@
     "kalshiSingleOutcomeMarkets": 1263,
     "kalshiMarkets": 1263,
     "polymarketMarkets": 2000,
-    "polymarketBinaryMarkets": 1653,
+    "polymarketBinaryMarkets": 1655,
     "titleCandidates": 0,
     "contractTypePolicy": "strict_same_kind",
     "kalshiPagesRequested": 20,
@@ -25,24 +25,24 @@
   "samples": {
     "kalshi": [
       {
-        "title": "Olshakov Konstantin wins",
+        "title": "Wiktor Nowak: First Goalscorer",
         "subtitle": "",
-        "ticker": "KXLIGAPROMATCH-26OCT201215OLSKAL-OLS"
+        "ticker": "KXUCLFIRSTGOAL-26OCT20FENSLA-SLAWNOWAK30"
       },
       {
-        "title": "Kalashnikov Evgeny wins",
+        "title": "Tomas Vlcek: First Goalscorer",
         "subtitle": "",
-        "ticker": "KXLIGAPROMATCH-26OCT201215OLSKAL-KAL"
+        "ticker": "KXUCLFIRSTGOAL-26OCT20FENSLA-SLATVLCEK27"
       },
       {
-        "title": "Will Susan Collins receive at least 49% of the popular vote in the first round of the 2026 Maine Senate election?",
+        "title": "Oskar Kubiak: First Goalscorer",
         "subtitle": "",
-        "ticker": "KXVOTEGENERAL-SENATEME-26SCOL-49"
+        "ticker": "KXUCLFIRSTGOAL-26OCT20FENSLA-SLAOKUBIA8"
       },
       {
-        "title": "Will Jon Ossoff receive at least 53% of the popular vote in the first round of the 2026 Georgia Senate election?",
+        "title": "Mubarak Suleiman: First Goalscorer",
         "subtitle": "",
-        "ticker": "KXVOTEGENERAL-SENATEGA-26JOSS-53"
+        "ticker": "KXUCLFIRSTGOAL-26OCT20FENSLA-SLAMSULEI15"
       }
     ],
     "polymarket": [
