@@ -1,6 +1,80 @@
 {
-  "timestamp": "2026-10-21T16:40:46.174Z",
-  "status": "COLLECTOR_FAILED",
-  "runId": 39636896880,
-  "message": "No report generated; inspect workflow logs"
+  "timestamp": "2026-10-21T16:42:36.720Z",
+  "mode": "READ_ONLY_DISCOVERY",
+  "autoApproved": 0,
+  "verifiedPairs": 0,
+  "notes": [
+    "Similarity is only a research lead, NOT settlement equivalence",
+    "No orders, paper entries, or approved pairs are generated"
+  ],
+  "counts": {
+    "kalshiRawMarkets": 1300,
+    "kalshiSingleOutcomeMarkets": 1258,
+    "kalshiMarkets": 1258,
+    "polymarketMarkets": 2000,
+    "polymarketBinaryMarkets": 1603,
+    "titleCandidates": 0,
+    "contractTypePolicy": "strict_same_kind",
+    "kalshiPagesRequested": 20,
+    "kalshiPoolCap": 1200,
+    "polymarketPagesRequested": 20,
+    "orderbooksChecked": 0
+  },
+  "candidates": [],
+  "errors": [],
+  "samples": {
+    "kalshi": [
+      {
+        "title": "Michigan wins 4Q by over 7.5 points",
+        "subtitle": "",
+        "ticker": "KXNCAAF4QSPREAD-26OCT24INDMICH-MICH8"
+      },
+      {
+        "title": "Michigan wins 4Q by over 6.5 points",
+        "subtitle": "",
+        "ticker": "KXNCAAF4QSPREAD-26OCT24INDMICH-MICH7"
+      },
+      {
+        "title": "Michigan wins 4Q by over 3.5 points",
+        "subtitle": "",
+        "ticker": "KXNCAAF4QSPREAD-26OCT24INDMICH-MICH4"
+      },
+      {
+        "title": "Michigan wins 4Q by over 2.5 points",
+        "subtitle": "",
+        "ticker": "KXNCAAF4QSPREAD-26OCT24INDMICH-MICH3"
+      }
+    ],
+    "polymarket": [
+      {
+        "title": "Will FC Bayern München win on 2026-10-21?",
+        "id": "5436896"
+      },
+      {
+        "title": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
+        "id": "601819"
+      },
+      {
+        "title": "Will the Fed decrease interest rates by 25 bps after the October 2026 meeting?",
+        "id": "2589811"
+      },
+      {
+        "title": "2026 Balance of Power: R Senate, R House",
+        "id": "562831"
+      }
+    ]
+  },
+  "matching": {
+    "threshold": 0.48,
+    "minimumSharedTokens": 2,
+    "minimumDistinctiveContextTokens": 2,
+    "eventTypeGate": true,
+    "contractKindGate": true,
+    "dateGate": true,
+    "kalshiExcludedMultiLeg": true,
+    "kalshiApiMveFilter": "exclude",
+    "polymarketOrder": "volume24hr descending",
+    "warning": "Text similarity is not proof of settlement equivalence; all results require manual rules review."
+  },
+  "status": "COLLECTED"
 }
