@@ -53,6 +53,9 @@ on:
       - 'arbitrage/ground-truth.json'
       - 'arbitrage/settlement-triage.js'
       - 'arbitrage/settlement-triage.test.js'
+      - 'arbitrage/semantic-retrieval.js'
+      - 'arbitrage/semantic-retrieval.test.js'
+      - 'arbitrage/contract-extraction.js'
       - '.github/workflows/arbitrage-candidates.yml'
 jobs:
   discovery:
@@ -77,6 +80,8 @@ jobs:
           node --check arbitrage/quality-gates.js
           node --check arbitrage/quality-feedback.js
           node --check arbitrage/settlement-triage.js
+          node --check arbitrage/semantic-retrieval.js
+          node --check arbitrage/contract-extraction.js
           node --check arbitrage/evidence-refresh.js
           node --test arbitrage/*.test.js
       - name: Publish synthetic discovery benchmark
