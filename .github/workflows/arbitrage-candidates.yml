@@ -2,6 +2,12 @@ name: Arbitrage candidate discovery
 # Manual scan request: validate dual-channel candidate discovery on 2026-10-21.
 on:
   workflow_dispatch:
+    inputs:
+      enable_ai:
+        description: 'Opt in to paid AI calls for this manual scan only'
+        type: boolean
+        default: false
+        required: false
   schedule:
     - cron: '17 */6 * * *'
   push:
@@ -97,6 +103,10 @@ jobs:
       - name: Collect and score candidate markets (read only)
         run: node arbitrage/candidate-discovery.js
       - name: Discover event-first candidate pairs (read only)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ARB_ENABLE_NEURAL: ${{ github.event_name == 'workflow_dispatch' && inputs.enable_ai == true }}
+          ARB_NEURAL_PER_VENUE: '300'
         run: node arbitrage/event-discovery.js
       - name: Measure real labeled retrieval precision and recall
         if: success()
@@ -112,6 +122,10 @@ jobs:
         run: node arbitrage/review-queue-cli.js
       - name: Refresh current official contract rules for manual review
         if: success()
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ARB_ENABLE_AI_REVIEW: ${{ github.event_name == 'workflow_dispatch' && inputs.enable_ai == true }}
+          ARB_AI_REVIEW_LIMIT: '8'
         run: node arbitrage/evidence-refresh-cli.js
       - name: Update persistent verified-pair registry
         if: success()
