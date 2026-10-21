@@ -1,3 +1,4 @@
+import {compareContractTerms,qualityScore} from "./quality-gates.js";
 // Event-first cross-venue discovery. Read-only; never approves contracts or places orders.
 import {writeFile,readFile} from "node:fs/promises";
 import {createHash} from "node:crypto";
@@ -245,6 +246,7 @@ async function collect(){
  const pruned=pruneRejections(await loadRejections());
  const rejected=pruned.rejections,seen=new Set(),pool=[];
  report.counts.expiredRejectionCacheEntries=pruned.expired;
+ const qualityRejections={};const rejectQuality=reasons=>{for(const r of reasons)qualityRejections[r]=(qualityRejections[r]??0)+1};
  const rejectReasons={};let cachedRejections=0;const rejectionCacheLoaded=Object.keys(rejected).length;
  const reject=(key,reason)=>{rejectReasons[reason]=(rejectReasons[reason]??0)+1;rejected[key]={reason,lastSeen:report.timestamp};};
  for(const {k,p,confidence} of eventMatches){
@@ -270,6 +272,8 @@ async function collect(){
    evidence.ruleConflicts=settlementConflicts(evidence);
    const hardConflict=evidence.ruleConflicts.find(c=>["interim_appointment_treatment","different_meeting_deadline_year","different_senate_election_cycle","subregion_vs_statewide_result"].includes(c));
    if(hardConflict){reject(key,hardConflict);rejected[key].rulesHash=rulesHash;continue;}
+   const qualityComparison=compareContractTerms(kalshiOutcome,pm.question,[evidence.kalshiRules,evidence.kalshiSecondaryRules].filter(Boolean).join(" "),evidence.polymarketDescription);
+   if(!qualityComparison.compatible){rejectQuality(qualityComparison.hardConflicts);continue}
    // Different listed dates require review; they do not alone prove different payouts.
    const outcomes=parse(pm.outcomes),tokens=parse(pm.clobTokenIds);
    if(outcomes.length!==2||tokens.length!==2||!outcomes.includes("Yes")||!outcomes.includes("No"))continue;
@@ -280,7 +284,7 @@ async function collect(){
     category,eventScore:Number(confidence.toFixed(3)),contractScore:Number(scoreValue.toFixed(3)),
     kalshi:{eventTicker:k.event_ticker,title:km.title,subtitle:km.subtitle??null,outcomeLabel:kalshiOutcome,ticker:km.ticker,eventTitle:k.title,closeDate:day(km.close_time)},
     polymarket:{eventId:p.id,id:String(pm.id),eventTitle:p.title,title:pm.question,endDate:day(pm.endDate)},
-    settlementFingerprint,reviewEvidence:evidence,ruleEvidence:buildRuleEvidence({kalshiMarket:km,polymarketMarket:pm,kalshiEvent:k,polymarketEvent:p}),reviewStatus:"UNVERIFIED_SETTLEMENT_RULES",approved:false,executable:false
+    qualityComparison,settlementFingerprint,reviewEvidence:evidence,ruleEvidence:buildRuleEvidence({kalshiMarket:km,polymarketMarket:pm,kalshiEvent:k,polymarketEvent:p}),reviewStatus:"UNVERIFIED_SETTLEMENT_RULES",approved:false,executable:false
    });
   }
  }
@@ -304,18 +308,21 @@ async function collect(){
   const rulesHash=hash([evidence.kalshiRules,evidence.kalshiSecondaryRules,evidence.polymarketDescription].join("|"));
   const hardConflict=evidence.ruleConflicts.find(c=>["interim_appointment_treatment","different_meeting_deadline_year","different_senate_election_cycle","subregion_vs_statewide_result"].includes(c));
   if(hardConflict){reject(key,hardConflict);rejected[key].rulesHash=rulesHash;continue}
+  const qualityComparison=compareContractTerms(label,pm.question,[evidence.kalshiRules,evidence.kalshiSecondaryRules].filter(Boolean).join(" "),evidence.polymarketDescription);
+  if(!qualityComparison.compatible){rejectQuality(qualityComparison.hardConflicts);continue}
   const outcomes=parse(pm.outcomes),tokens=parse(pm.clobTokenIds);
   if(outcomes.length!==2||tokens.length!==2||!outcomes.includes("Yes")||!outcomes.includes("No"))continue;
   seen.add(key);
   const category=eventCategory([k.title,p.title,km.title,pm.question].join(" "));
   const settlementFingerprint={outcome:normalized(label),kalshiRuleHash:hash([evidence.kalshiRules,evidence.kalshiSecondaryRules].join("|")),polymarketRuleHash:hash(evidence.polymarketDescription),kalshiClose:evidence.kalshiClose,polymarketEnd:evidence.polymarketEnd,conflicts:evidence.ruleConflicts};
   pool.push({category,eventScore:Number(score(k.title,p.title).toFixed(3)),contractScore:match.score,
-   discoverySource:"MARKET_LEVEL",kalshi:{eventTicker:k.event_ticker,title:km.title,subtitle:km.subtitle??null,outcomeLabel:label,ticker:km.ticker,eventTitle:k.title,closeDate:day(km.close_time)},
+   discoverySource:"MARKET_LEVEL",qualityComparison,kalshi:{eventTicker:k.event_ticker,title:km.title,subtitle:km.subtitle??null,outcomeLabel:label,ticker:km.ticker,eventTitle:k.title,closeDate:day(km.close_time)},
    polymarket:{eventId:p.id,id:String(pm.id),eventTitle:p.title,title:pm.question,endDate:day(pm.endDate)},
    settlementFingerprint,reviewEvidence:evidence,ruleEvidence:buildRuleEvidence({kalshiMarket:km,polymarketMarket:pm,kalshiEvent:k,polymarketEvent:p}),reviewStatus:"UNVERIFIED_SETTLEMENT_RULES",approved:false,executable:false});
   marketLevelAdded++;
  }
  report.counts.marketLevelCandidatesAdded=marketLevelAdded;
+ report.counts.qualityRejections=qualityRejections;
  // Round-robin across categories and distinct events before selecting additional
  // contracts from an already represented event.
  pool.sort((a,b)=>b.contractScore-a.contractScore);
