@@ -115,3 +115,15 @@ node arbitrage/review-dashboard-cli.js
 ```
 
 No new strategy or live execution is enabled. The verified-pair watchlist remains empty until explicit human verification.
+
+## Persistent Verified-Pair Database V1
+
+`arbitrage/pair-registry.js` merges each refreshed discovery shortlist with `reports/latest-pair-registry.json` and the explicit `arbitrage/manual-reviews.json` decision file. It retains candidates absent from a capped shortlist and tracks first/last seen timestamps, category, evidence, rule hashes, and status. Possible statuses: `PENDING_REVIEW`, `REJECTED`, `VERIFIED`, `REVERIFY_REQUIRED`.
+
+**Verification is never automatic.** Copy `arbitrage/pair-registry-schema.example.json` to form a human-reviewed entry in `manual-reviews.json`. For each pair the reviewer must explicitly confirm all eight checks, YES outcome equivalence, official rule SHA-256 fingerprints, identity, and review timestamp. An incomplete, expired, or changed review cannot remain verified. Registry entries are always marked `approved:false` and `executable:false`; this database does **not** grant trade permission.
+
+The scheduled workflow builds `arbitrage-pair-registry.json` and publishes `reports/latest-pair-registry.json`. Only registry-`VERIFIED` pairs that are separately configured in `arbitrage/approved-pairs.json` with all orderbook token identifiers and fee models are eligible for the **read-only** spread observer. This prevents discovery results from silently enabling any trading. All existing real-money order paths remain disabled.
+
+`arbitrage/spread-history.js` retains a deduplicated rolling seven days of spread observations (up to 20,000 records), including per-pair counts, positive modeled spread counts, and best modeled ROI. The workflow publishes `reports/latest-spread-history.json` every six hours. Historical samples are *not* proof of executable arbitrage or fill probability. With zero verified pairs the history will correctly remain empty.
+
+To inspect manually: `node --test arbitrage/*.test.js`, `node arbitrage/pair-registry-cli.js`, `node arbitrage/spread-observer-cli.js`, `node arbitrage/spread-history-cli.js`.
