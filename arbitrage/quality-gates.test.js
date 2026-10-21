@@ -8,7 +8,7 @@ test("career rushing yards never matches single season yards",()=>{
 });
 test("different calendar deadlines fail closed",()=>{
  const r=compareContractTerms("Will Indiana enact a moratorium before 2028?","Will Indiana enact a moratorium by December 31 2028?");
- assert.ok(r.hardConflicts.includes("DIFFERENT_DEADLINE"));
+ assert.ok(r.hardConflicts.some(x=>x.startsWith("DIFFERENT_DEADLINE")));
 });
 test("identical explicit numeric thresholds survive",()=>{
  const r=compareContractTerms("Bitcoin above 100000 on October 31 2026","Bitcoin above 100000 on October 31 2026");
