@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T08:01:48.218Z",
+  "timestamp": "2026-10-21T16:06:27.477Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -9,10 +9,10 @@
   ],
   "counts": {
     "kalshiRawMarkets": 1400,
-    "kalshiSingleOutcomeMarkets": 1230,
-    "kalshiMarkets": 1230,
+    "kalshiSingleOutcomeMarkets": 1297,
+    "kalshiMarkets": 1297,
     "polymarketMarkets": 2000,
-    "polymarketBinaryMarkets": 1752,
+    "polymarketBinaryMarkets": 1628,
     "titleCandidates": 0,
     "contractTypePolicy": "strict_same_kind",
     "kalshiPagesRequested": 20,
@@ -25,24 +25,24 @@
   "samples": {
     "kalshi": [
       {
-        "title": "TBB Trier wins",
+        "title": "Will the S&P 500 be above $7753.00 at Oct 21, 2026 at 1pm EDT?",
         "subtitle": "",
-        "ticker": "KXFIBAECUPGAME-26OCT211400SPLTRI-TRI"
+        "ticker": "KXINXHUD-26OCT211300-T7753.00"
       },
       {
-        "title": "Kk Split wins",
+        "title": "Will the NASDAQ-100 be above $29858.69 at Oct 21, 2026 at 1pm EDT?",
         "subtitle": "",
-        "ticker": "KXFIBAECUPGAME-26OCT211400SPLTRI-SPL"
+        "ticker": "KXNDQHUD-26OCT211300-T29858.69"
       },
       {
-        "title": "BC Kalev wins",
+        "title": "Will the temp in Coastal Los Angeles be above 74.99° on Oct 21, 2026 at 1pm EDT?",
         "subtitle": "",
-        "ticker": "KXFIBAECUPGAME-26OCT211230BASKAL-KAL"
+        "ticker": "KXTEMPLAXHS-26OCT2113-T74.99"
       },
       {
-        "title": "KB Bashkimi wins",
+        "title": "Will the temp in Coastal Los Angeles be above 73.99° on Oct 21, 2026 at 1pm EDT?",
         "subtitle": "",
-        "ticker": "KXFIBAECUPGAME-26OCT211230BASKAL-BAS"
+        "ticker": "KXTEMPLAXHS-26OCT2113-T73.99"
       }
     ],
     "polymarket": [
@@ -51,16 +51,16 @@
         "id": "5436896"
       },
       {
-        "title": "2026 Balance of Power: R Senate, R House",
-        "id": "562831"
-      },
-      {
-        "title": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
-        "id": "601826"
-      },
-      {
         "title": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
         "id": "601819"
+      },
+      {
+        "title": "Will the Fed decrease interest rates by 25 bps after the October 2026 meeting?",
+        "id": "2589811"
+      },
+      {
+        "title": "2026 Balance of Power: R Senate, R House",
+        "id": "562831"
       }
     ]
   },
