@@ -51,6 +51,8 @@ on:
       - 'arbitrage/quality-gates.test.js'
       - 'arbitrage/quality-feedback.js'
       - 'arbitrage/ground-truth.json'
+      - 'arbitrage/settlement-triage.js'
+      - 'arbitrage/settlement-triage.test.js'
       - '.github/workflows/arbitrage-candidates.yml'
 jobs:
   discovery:
@@ -74,6 +76,7 @@ jobs:
           node --check arbitrage/market-matcher.js
           node --check arbitrage/quality-gates.js
           node --check arbitrage/quality-feedback.js
+          node --check arbitrage/settlement-triage.js
           node --check arbitrage/evidence-refresh.js
           node --test arbitrage/*.test.js
       - name: Publish synthetic discovery benchmark
