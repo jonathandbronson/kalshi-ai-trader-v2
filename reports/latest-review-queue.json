@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-10-21T16:10:01.089Z",
+  "timestamp": "2026-10-21T16:12:08.932Z",
   "mode": "RESEARCH_ONLY",
   "verifiedPairs": 0,
   "sourceStatus": "COLLECTED",
-  "sourceTimestamp": "2026-10-21T16:09:41.910Z",
+  "sourceTimestamp": "2026-10-21T16:11:45.226Z",
   "categoryCounts": {
     "sports": 8,
     "politics": 8,
@@ -11,1030 +11,6 @@
   },
   "qualityRejections": {},
   "candidates": [
-    {
-      "category": "sports",
-      "kalshiTicker": "KXNFLCAREERPASSYDS-PMAHOMES-40000",
-      "polymarketId": "3959770",
-      "kalshiTitle": "Patrick Mahomes: 40,000+ Passing Yards",
-      "polymarketTitle": "Will Patrick Mahomes be the first QB to 2,000 passing yards in the 2026-27 NFL regular season?",
-      "kalshiEvent": "Patrick Mahomes Career Regular Season Passing Yards",
-      "polymarketEvent": "Pro Football: First QB to 2,000 Passing Yards",
-      "kalshiRules": "If Patrick Mahomes records at least 40,000 career regular season passing yards before Patrick Mahomes or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
-      "polymarketRules": "This market will resolve to \"Yes\" if the listed player is the first quarterback to reach 2,000 passing yards in the 2026-27 NFL regular season. Otherwise, the associated market will resolve to \"No\".\n\nA player reaches 2,000 passing yards at the moment his cumulative 2026-27 NFL regular season passing yards total equals or exceeds 2,000. Only regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf two or more quarterbacks reach 2,000 passing yards within the same game, or in separate games that have the same scheduled kickoff time, the market for each such player who reaches the mark will resolve to \"Yes\".\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined which quarterback first reached 2,000 passing yards within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
-      "kalshiClose": "2040-03-08",
-      "polymarketEnd": "2027-01-27",
-      "differentEndDates": true,
-      "ruleConflicts": [],
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:01.694Z",
-        "kalshi": {
-          "ticker": "KXNFLCAREERPASSYDS-PMAHOMES-40000",
-          "eventTicker": null,
-          "marketTitle": "Patrick Mahomes: 40,000+ Passing Yards",
-          "rulesPrimary": "If Patrick Mahomes records at least 40,000 career regular season passing yards before Patrick Mahomes or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
-          "rulesSecondary": "The market resolves to Yes if Patrick Mahomes records at least 40,000 career regular season passing yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
-          "closeTime": "2040-03-08T15:00:00.000Z",
-          "ruleSha256": "742ab4e591b1ca17f2b7fd7f78404053ff1b445f0a435d3bcc7fc389ad4349a9"
-        },
-        "polymarket": {
-          "id": "3959770",
-          "eventId": null,
-          "question": "Will Patrick Mahomes be the first QB to 2,000 passing yards in the 2026-27 NFL regular season?",
-          "description": "This market will resolve to \"Yes\" if the listed player is the first quarterback to reach 2,000 passing yards in the 2026-27 NFL regular season. Otherwise, the associated market will resolve to \"No\".\n\nA player reaches 2,000 passing yards at the moment his cumulative 2026-27 NFL regular season passing yards total equals or exceeds 2,000. Only regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf two or more quarterbacks reach 2,000 passing yards within the same game, or in separate games that have the same scheduled kickoff time, the market for each such player who reaches the mark will resolve to \"Yes\".\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined which quarterback first reached 2,000 passing yards within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
-          "eventDescription": null,
-          "resolutionSource": null,
-          "endTime": "2027-01-27T04:59:00.000Z",
-          "ruleSha256": "cbb90992f5d85406dd35dfbdf934000f852b1d8fcaf57327c12567d99ce1abce",
-          "conditionId": "0x7bde86c229cc65654df6a49d8d867888bd1bad6485a32f101b9e0fcf82b71e73"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE",
-          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [
-          "PERIOD_UNCONFIRMED"
-        ],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": "passing_yards",
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "polymarket": {
-          "threshold": null,
-          "direction": null,
-          "period": "season",
-          "statistic": "passing_yards",
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [
-            "2000",
-            "2026"
-          ],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "qualityComponents": {
-        "exact": 0.88,
-        "ruleCompleteness": 1,
-        "identifiers": 1,
-        "liquidity": 0,
-        "title": 0.707
-      },
-      "uncertainties": [
-        "PERIOD_UNCONFIRMED"
-      ],
-      "discoverySource": "MARKET_LEVEL",
-      "reviewScore": 0.7933,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
-    },
-    {
-      "category": "sports",
-      "kalshiTicker": "KXNFLCAREERPASSYDS-JALLEN-35000",
-      "polymarketId": "3959749",
-      "kalshiTitle": "Josh Allen: 35,000+ Passing Yards",
-      "polymarketTitle": "Will Josh Allen be the first QB to 2,000 passing yards in the 2026-27 NFL regular season?",
-      "kalshiEvent": "Josh Allen Career Regular Season Passing Yards",
-      "polymarketEvent": "Pro Football: First QB to 2,000 Passing Yards",
-      "kalshiRules": "If Josh Allen records at least 35,000 career regular season passing yards before Josh Allen or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
-      "polymarketRules": "This market will resolve to \"Yes\" if the listed player is the first quarterback to reach 2,000 passing yards in the 2026-27 NFL regular season. Otherwise, the associated market will resolve to \"No\".\n\nA player reaches 2,000 passing yards at the moment his cumulative 2026-27 NFL regular season passing yards total equals or exceeds 2,000. Only regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf two or more quarterbacks reach 2,000 passing yards within the same game, or in separate games that have the same scheduled kickoff time, the market for each such player who reaches the mark will resolve to \"Yes\".\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined which quarterback first reached 2,000 passing yards within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
-      "kalshiClose": "2040-03-08",
-      "polymarketEnd": "2027-01-27",
-      "differentEndDates": true,
-      "ruleConflicts": [],
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:02.284Z",
-        "kalshi": {
-          "ticker": "KXNFLCAREERPASSYDS-JALLEN-35000",
-          "eventTicker": null,
-          "marketTitle": "Josh Allen: 35,000+ Passing Yards",
-          "rulesPrimary": "If Josh Allen records at least 35,000 career regular season passing yards before Josh Allen or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
-          "rulesSecondary": "The market resolves to Yes if Josh Allen records at least 35,000 career regular season passing yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
-          "closeTime": "2040-03-08T15:00:00.000Z",
-          "ruleSha256": "bb1563a2f875e6d48721b7e76483a2aac562954ca8c6b769b986265edf5bbbc7"
-        },
-        "polymarket": {
-          "id": "3959749",
-          "eventId": null,
-          "question": "Will Josh Allen be the first QB to 2,000 passing yards in the 2026-27 NFL regular season?",
-          "description": "This market will resolve to \"Yes\" if the listed player is the first quarterback to reach 2,000 passing yards in the 2026-27 NFL regular season. Otherwise, the associated market will resolve to \"No\".\n\nA player reaches 2,000 passing yards at the moment his cumulative 2026-27 NFL regular season passing yards total equals or exceeds 2,000. Only regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf two or more quarterbacks reach 2,000 passing yards within the same game, or in separate games that have the same scheduled kickoff time, the market for each such player who reaches the mark will resolve to \"Yes\".\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined which quarterback first reached 2,000 passing yards within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
-          "eventDescription": null,
-          "resolutionSource": null,
-          "endTime": "2027-01-27T04:59:00.000Z",
-          "ruleSha256": "cbb90992f5d85406dd35dfbdf934000f852b1d8fcaf57327c12567d99ce1abce",
-          "conditionId": "0x8f7f69efcfe0f8b407efa4abbd3777b0f28b4d058930fd61b6a90fff040f53ad"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE",
-          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [
-          "PERIOD_UNCONFIRMED"
-        ],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": "passing_yards",
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "polymarket": {
-          "threshold": null,
-          "direction": null,
-          "period": "season",
-          "statistic": "passing_yards",
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [
-            "2000",
-            "2026"
-          ],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "qualityComponents": {
-        "exact": 0.88,
-        "ruleCompleteness": 1,
-        "identifiers": 1,
-        "liquidity": 0,
-        "title": 0.707
-      },
-      "uncertainties": [
-        "PERIOD_UNCONFIRMED"
-      ],
-      "discoverySource": "MARKET_LEVEL",
-      "reviewScore": 0.7933,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
-    },
-    {
-      "category": "sports",
-      "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-14000",
-      "polymarketId": "3959677",
-      "kalshiTitle": "Derrick Henry: 14,000+ Rushing Yards",
-      "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
-      "kalshiEvent": "Derrick Henry Career Regular Season Rushing Yards",
-      "polymarketEvent": "Pro Football: 2026-27 1,000+ Rushing Yards",
-      "kalshiRules": "If Derrick Henry records at least 14,000 career regular season rushing yards before Derrick Henry or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
-      "polymarketRules": "This market will resolve to \"Yes\" if the number of rushing yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many rushing yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
-      "kalshiClose": "2040-03-08",
-      "polymarketEnd": "2027-01-27",
-      "differentEndDates": true,
-      "ruleConflicts": [],
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:02.872Z",
-        "kalshi": {
-          "ticker": "KXNFLCAREERRSHYDS-DHENRY-14000",
-          "eventTicker": null,
-          "marketTitle": "Derrick Henry: 14,000+ Rushing Yards",
-          "rulesPrimary": "If Derrick Henry records at least 14,000 career regular season rushing yards before Derrick Henry or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
-          "rulesSecondary": "The market resolves to Yes if Derrick Henry records at least 14,000 career regular season rushing yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
-          "closeTime": "2040-03-08T15:00:00.000Z",
-          "ruleSha256": "e36a0b89072dd16e103e059217dbf13eaf7e63b1c435fddd7c4c3d6beecf83d5"
-        },
-        "polymarket": {
-          "id": "3959677",
-          "eventId": null,
-          "question": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
-          "description": "This market will resolve to \"Yes\" if the number of rushing yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many rushing yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
-          "eventDescription": null,
-          "resolutionSource": null,
-          "endTime": "2027-01-27T04:59:00.000Z",
-          "ruleSha256": "6676d6e21537db5c5740f4d303ceed4c2f8f28a065fcdbd8163cfadab8ac9116",
-          "conditionId": "0xbec8e1e3aec9b465d3cae2374efc4306fc168b10f17f62464434040b9a6c953c"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE",
-          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [
-          "PERIOD_UNCONFIRMED",
-          "THRESHOLD_UNCONFIRMED",
-          "DIRECTION_UNCONFIRMED"
-        ],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": "rushing_yards",
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [
-            "derrick henry"
-          ],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "polymarket": {
-          "threshold": {
-            "value": 1000,
-            "unit": "count"
-          },
-          "direction": "minimum",
-          "period": "season",
-          "statistic": "rushing_yards",
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [
-            "derrick henry"
-          ],
-          "years": [
-            "2026"
-          ],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "qualityComponents": {
-        "exact": 0.64,
-        "ruleCompleteness": 1,
-        "identifiers": 1,
-        "liquidity": 0,
-        "title": 0.707
-      },
-      "uncertainties": [
-        "PERIOD_UNCONFIRMED",
-        "THRESHOLD_UNCONFIRMED",
-        "DIRECTION_UNCONFIRMED"
-      ],
-      "discoverySource": "MARKET_LEVEL",
-      "reviewScore": 0.7094,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
-    },
-    {
-      "category": "sports",
-      "kalshiTicker": "KXNFLCAREERRECYDS-MEVANS-14000",
-      "polymarketId": "3959741",
-      "kalshiTitle": "Mike Evans: 14,000+ Receiving Yards",
-      "polymarketTitle": "Will Mike Evans have 1,000+ receiving yards in the 2026-27 NFL regular season?",
-      "kalshiEvent": "Mike Evans Career Regular Season Receiving Yards",
-      "polymarketEvent": "Pro Football: 2026-27 1,000+ Receiving Yards",
-      "kalshiRules": "If Mike Evans records at least 14,000 career regular season receiving yards before Mike Evans or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
-      "polymarketRules": "This market will resolve to \"Yes\" if the number of receiving yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many receiving yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
-      "kalshiClose": "2040-03-08",
-      "polymarketEnd": "2027-01-27",
-      "differentEndDates": true,
-      "ruleConflicts": [],
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:03.467Z",
-        "kalshi": {
-          "ticker": "KXNFLCAREERRECYDS-MEVANS-14000",
-          "eventTicker": null,
-          "marketTitle": "Mike Evans: 14,000+ Receiving Yards",
-          "rulesPrimary": "If Mike Evans records at least 14,000 career regular season receiving yards before Mike Evans or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
-          "rulesSecondary": "The market resolves to Yes if Mike Evans records at least 14,000 career regular season receiving yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
-          "closeTime": "2040-03-08T15:00:00.000Z",
-          "ruleSha256": "b131a7a38fe97c4061727d86414d188f979dbf11ba468b9589fc75974bcde815"
-        },
-        "polymarket": {
-          "id": "3959741",
-          "eventId": null,
-          "question": "Will Mike Evans have 1,000+ receiving yards in the 2026-27 NFL regular season?",
-          "description": "This market will resolve to \"Yes\" if the number of receiving yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many receiving yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
-          "eventDescription": null,
-          "resolutionSource": null,
-          "endTime": "2027-01-27T04:59:00.000Z",
-          "ruleSha256": "b05400ea6c544a8bde4aeeda16d00104d257594b0e06e9fa79e81d3f17ec1f86",
-          "conditionId": "0xe55d529265d7a6dd3b7fc132092f8eee212995cd1f46fa3c04e3a6bc28ea50b2"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE",
-          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [
-          "PERIOD_UNCONFIRMED",
-          "THRESHOLD_UNCONFIRMED",
-          "DIRECTION_UNCONFIRMED"
-        ],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": "receiving_yards",
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "polymarket": {
-          "threshold": {
-            "value": 1000,
-            "unit": "count"
-          },
-          "direction": "minimum",
-          "period": "season",
-          "statistic": "receiving_yards",
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [
-            "2026"
-          ],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "qualityComponents": {
-        "exact": 0.64,
-        "ruleCompleteness": 1,
-        "identifiers": 1,
-        "liquidity": 0,
-        "title": 0.707
-      },
-      "uncertainties": [
-        "PERIOD_UNCONFIRMED",
-        "THRESHOLD_UNCONFIRMED",
-        "DIRECTION_UNCONFIRMED"
-      ],
-      "discoverySource": "MARKET_LEVEL",
-      "reviewScore": 0.7094,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
-    },
-    {
-      "category": "sports",
-      "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-15000",
-      "polymarketId": "3959677",
-      "kalshiTitle": "Derrick Henry: 15,000+ Rushing Yards",
-      "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
-      "kalshiEvent": "Derrick Henry Career Regular Season Rushing Yards",
-      "polymarketEvent": "Pro Football: 2026-27 1,000+ Rushing Yards",
-      "kalshiRules": "If Derrick Henry records at least 15,000 career regular season rushing yards before Derrick Henry or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
-      "polymarketRules": "This market will resolve to \"Yes\" if the number of rushing yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many rushing yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
-      "kalshiClose": "2040-03-08",
-      "polymarketEnd": "2027-01-27",
-      "differentEndDates": true,
-      "ruleConflicts": [],
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:03.964Z",
-        "kalshi": {
-          "ticker": "KXNFLCAREERRSHYDS-DHENRY-15000",
-          "eventTicker": null,
-          "marketTitle": "Derrick Henry: 15,000+ Rushing Yards",
-          "rulesPrimary": "If Derrick Henry records at least 15,000 career regular season rushing yards before Derrick Henry or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
-          "rulesSecondary": "The market resolves to Yes if Derrick Henry records at least 15,000 career regular season rushing yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
-          "closeTime": "2040-03-08T15:00:00.000Z",
-          "ruleSha256": "ee870de2c067aaad28fb1404057d835093b216d8062abadad28e26e09b15d6df"
-        },
-        "polymarket": {
-          "id": "3959677",
-          "eventId": null,
-          "question": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
-          "description": "This market will resolve to \"Yes\" if the number of rushing yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many rushing yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
-          "eventDescription": null,
-          "resolutionSource": null,
-          "endTime": "2027-01-27T04:59:00.000Z",
-          "ruleSha256": "6676d6e21537db5c5740f4d303ceed4c2f8f28a065fcdbd8163cfadab8ac9116",
-          "conditionId": "0xbec8e1e3aec9b465d3cae2374efc4306fc168b10f17f62464434040b9a6c953c"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE",
-          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [
-          "PERIOD_UNCONFIRMED",
-          "THRESHOLD_UNCONFIRMED",
-          "DIRECTION_UNCONFIRMED"
-        ],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": "rushing_yards",
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [
-            "derrick henry"
-          ],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "polymarket": {
-          "threshold": {
-            "value": 1000,
-            "unit": "count"
-          },
-          "direction": "minimum",
-          "period": "season",
-          "statistic": "rushing_yards",
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [
-            "derrick henry"
-          ],
-          "years": [
-            "2026"
-          ],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "qualityComponents": {
-        "exact": 0.64,
-        "ruleCompleteness": 1,
-        "identifiers": 1,
-        "liquidity": 0,
-        "title": 0.707
-      },
-      "uncertainties": [
-        "PERIOD_UNCONFIRMED",
-        "THRESHOLD_UNCONFIRMED",
-        "DIRECTION_UNCONFIRMED"
-      ],
-      "discoverySource": "MARKET_LEVEL",
-      "reviewScore": 0.7094,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
-    },
-    {
-      "category": "sports",
-      "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-16000",
-      "polymarketId": "3959677",
-      "kalshiTitle": "Derrick Henry: 16,000+ Rushing Yards",
-      "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
-      "kalshiEvent": "Derrick Henry Career Regular Season Rushing Yards",
-      "polymarketEvent": "Pro Football: 2026-27 1,000+ Rushing Yards",
-      "kalshiRules": "If Derrick Henry records at least 16,000 career regular season rushing yards before Derrick Henry or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
-      "polymarketRules": "This market will resolve to \"Yes\" if the number of rushing yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many rushing yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
-      "kalshiClose": "2040-03-08",
-      "polymarketEnd": "2027-01-27",
-      "differentEndDates": true,
-      "ruleConflicts": [],
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:04.433Z",
-        "kalshi": {
-          "ticker": "KXNFLCAREERRSHYDS-DHENRY-16000",
-          "eventTicker": null,
-          "marketTitle": "Derrick Henry: 16,000+ Rushing Yards",
-          "rulesPrimary": "If Derrick Henry records at least 16,000 career regular season rushing yards before Derrick Henry or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
-          "rulesSecondary": "The market resolves to Yes if Derrick Henry records at least 16,000 career regular season rushing yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
-          "closeTime": "2040-03-08T15:00:00.000Z",
-          "ruleSha256": "88adb179fd8a8ca24e3fbdd19970f5988b3f2fec8774d95dcb6f40a5532ebe2b"
-        },
-        "polymarket": {
-          "id": "3959677",
-          "eventId": null,
-          "question": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
-          "description": "This market will resolve to \"Yes\" if the number of rushing yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many rushing yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
-          "eventDescription": null,
-          "resolutionSource": null,
-          "endTime": "2027-01-27T04:59:00.000Z",
-          "ruleSha256": "6676d6e21537db5c5740f4d303ceed4c2f8f28a065fcdbd8163cfadab8ac9116",
-          "conditionId": "0xbec8e1e3aec9b465d3cae2374efc4306fc168b10f17f62464434040b9a6c953c"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE",
-          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [
-          "PERIOD_UNCONFIRMED",
-          "THRESHOLD_UNCONFIRMED",
-          "DIRECTION_UNCONFIRMED"
-        ],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": "rushing_yards",
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [
-            "derrick henry"
-          ],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "polymarket": {
-          "threshold": {
-            "value": 1000,
-            "unit": "count"
-          },
-          "direction": "minimum",
-          "period": "season",
-          "statistic": "rushing_yards",
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [
-            "derrick henry"
-          ],
-          "years": [
-            "2026"
-          ],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "qualityComponents": {
-        "exact": 0.64,
-        "ruleCompleteness": 1,
-        "identifiers": 1,
-        "liquidity": 0,
-        "title": 0.707
-      },
-      "uncertainties": [
-        "PERIOD_UNCONFIRMED",
-        "THRESHOLD_UNCONFIRMED",
-        "DIRECTION_UNCONFIRMED"
-      ],
-      "discoverySource": "MARKET_LEVEL",
-      "reviewScore": 0.7094,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
-    },
-    {
-      "category": "sports",
-      "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-17000",
-      "polymarketId": "3959677",
-      "kalshiTitle": "Derrick Henry: 17,000+ Rushing Yards",
-      "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
-      "kalshiEvent": "Derrick Henry Career Regular Season Rushing Yards",
-      "polymarketEvent": "Pro Football: 2026-27 1,000+ Rushing Yards",
-      "kalshiRules": "If Derrick Henry records at least 17,000 career regular season rushing yards before Derrick Henry or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
-      "polymarketRules": "This market will resolve to \"Yes\" if the number of rushing yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many rushing yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
-      "kalshiClose": "2040-03-08",
-      "polymarketEnd": "2027-01-27",
-      "differentEndDates": true,
-      "ruleConflicts": [],
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:04.900Z",
-        "kalshi": {
-          "ticker": "KXNFLCAREERRSHYDS-DHENRY-17000",
-          "eventTicker": null,
-          "marketTitle": "Derrick Henry: 17,000+ Rushing Yards",
-          "rulesPrimary": "If Derrick Henry records at least 17,000 career regular season rushing yards before Derrick Henry or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
-          "rulesSecondary": "The market resolves to Yes if Derrick Henry records at least 17,000 career regular season rushing yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
-          "closeTime": "2040-03-08T15:00:00.000Z",
-          "ruleSha256": "b3b8b8f4a81f18e86e8e796f21d0fcc3208335df3ee41b1945295c61c4db8da2"
-        },
-        "polymarket": {
-          "id": "3959677",
-          "eventId": null,
-          "question": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
-          "description": "This market will resolve to \"Yes\" if the number of rushing yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many rushing yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
-          "eventDescription": null,
-          "resolutionSource": null,
-          "endTime": "2027-01-27T04:59:00.000Z",
-          "ruleSha256": "6676d6e21537db5c5740f4d303ceed4c2f8f28a065fcdbd8163cfadab8ac9116",
-          "conditionId": "0xbec8e1e3aec9b465d3cae2374efc4306fc168b10f17f62464434040b9a6c953c"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE",
-          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [
-          "PERIOD_UNCONFIRMED",
-          "THRESHOLD_UNCONFIRMED",
-          "DIRECTION_UNCONFIRMED"
-        ],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": "rushing_yards",
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [
-            "derrick henry"
-          ],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "polymarket": {
-          "threshold": {
-            "value": 1000,
-            "unit": "count"
-          },
-          "direction": "minimum",
-          "period": "season",
-          "statistic": "rushing_yards",
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [
-            "derrick henry"
-          ],
-          "years": [
-            "2026"
-          ],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "qualityComponents": {
-        "exact": 0.64,
-        "ruleCompleteness": 1,
-        "identifiers": 1,
-        "liquidity": 0,
-        "title": 0.707
-      },
-      "uncertainties": [
-        "PERIOD_UNCONFIRMED",
-        "THRESHOLD_UNCONFIRMED",
-        "DIRECTION_UNCONFIRMED"
-      ],
-      "discoverySource": "MARKET_LEVEL",
-      "reviewScore": 0.7094,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
-    },
-    {
-      "category": "sports",
-      "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-18000",
-      "polymarketId": "3959677",
-      "kalshiTitle": "Derrick Henry: 18,000+ Rushing Yards",
-      "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
-      "kalshiEvent": "Derrick Henry Career Regular Season Rushing Yards",
-      "polymarketEvent": "Pro Football: 2026-27 1,000+ Rushing Yards",
-      "kalshiRules": "If Derrick Henry records at least 18,000 career regular season rushing yards before Derrick Henry or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
-      "polymarketRules": "This market will resolve to \"Yes\" if the number of rushing yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many rushing yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
-      "kalshiClose": "2040-03-08",
-      "polymarketEnd": "2027-01-27",
-      "differentEndDates": true,
-      "ruleConflicts": [],
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:05.372Z",
-        "kalshi": {
-          "ticker": "KXNFLCAREERRSHYDS-DHENRY-18000",
-          "eventTicker": null,
-          "marketTitle": "Derrick Henry: 18,000+ Rushing Yards",
-          "rulesPrimary": "If Derrick Henry records at least 18,000 career regular season rushing yards before Derrick Henry or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
-          "rulesSecondary": "The market resolves to Yes if Derrick Henry records at least 18,000 career regular season rushing yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
-          "closeTime": "2040-03-08T15:00:00.000Z",
-          "ruleSha256": "5e774bfe14a9d4ae2bf1f0100ed400df61a5da5b727108a262b9d8932589c373"
-        },
-        "polymarket": {
-          "id": "3959677",
-          "eventId": null,
-          "question": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
-          "description": "This market will resolve to \"Yes\" if the number of rushing yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many rushing yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
-          "eventDescription": null,
-          "resolutionSource": null,
-          "endTime": "2027-01-27T04:59:00.000Z",
-          "ruleSha256": "6676d6e21537db5c5740f4d303ceed4c2f8f28a065fcdbd8163cfadab8ac9116",
-          "conditionId": "0xbec8e1e3aec9b465d3cae2374efc4306fc168b10f17f62464434040b9a6c953c"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE",
-          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [
-          "PERIOD_UNCONFIRMED",
-          "THRESHOLD_UNCONFIRMED",
-          "DIRECTION_UNCONFIRMED"
-        ],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": "rushing_yards",
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [
-            "derrick henry"
-          ],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "polymarket": {
-          "threshold": {
-            "value": 1000,
-            "unit": "count"
-          },
-          "direction": "minimum",
-          "period": "season",
-          "statistic": "rushing_yards",
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [
-            "derrick henry"
-          ],
-          "years": [
-            "2026"
-          ],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "qualityComponents": {
-        "exact": 0.64,
-        "ruleCompleteness": 1,
-        "identifiers": 1,
-        "liquidity": 0,
-        "title": 0.707
-      },
-      "uncertainties": [
-        "PERIOD_UNCONFIRMED",
-        "THRESHOLD_UNCONFIRMED",
-        "DIRECTION_UNCONFIRMED"
-      ],
-      "discoverySource": "MARKET_LEVEL",
-      "reviewScore": 0.7094,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
-    },
     {
       "category": "politics",
       "kalshiTicker": "SENATENH-28-R",
@@ -1050,7 +26,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:05.910Z",
+        "fetchedAt": "2026-10-21T16:12:13.561Z",
         "kalshi": {
           "ticker": "SENATENH-28-R",
           "eventTicker": null,
@@ -1148,7 +124,30 @@
       "approved": false,
       "executable": false,
       "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
+      "evidenceRefreshStatus": "REFRESHED",
+      "settlementScreen": {
+        "status": "NEEDS_HUMAN_REVIEW",
+        "reasons": [],
+        "warnings": [
+          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
+          "PERIOD_NOT_ESTABLISHED"
+        ],
+        "terms": {
+          "kalshi": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          },
+          "polymarket": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          }
+        },
+        "settlementVerified": false
+      }
     },
     {
       "category": "politics",
@@ -1165,7 +164,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:06.401Z",
+        "fetchedAt": "2026-10-21T16:12:14.046Z",
         "kalshi": {
           "ticker": "SENATEGA-28-R",
           "eventTicker": null,
@@ -1263,7 +262,30 @@
       "approved": false,
       "executable": false,
       "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
+      "evidenceRefreshStatus": "REFRESHED",
+      "settlementScreen": {
+        "status": "NEEDS_HUMAN_REVIEW",
+        "reasons": [],
+        "warnings": [
+          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
+          "PERIOD_NOT_ESTABLISHED"
+        ],
+        "terms": {
+          "kalshi": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          },
+          "polymarket": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          }
+        },
+        "settlementVerified": false
+      }
     },
     {
       "category": "politics",
@@ -1280,7 +302,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:06.895Z",
+        "fetchedAt": "2026-10-21T16:12:14.531Z",
         "kalshi": {
           "ticker": "SENATEFL-28-R",
           "eventTicker": null,
@@ -1378,7 +400,30 @@
       "approved": false,
       "executable": false,
       "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
+      "evidenceRefreshStatus": "REFRESHED",
+      "settlementScreen": {
+        "status": "NEEDS_HUMAN_REVIEW",
+        "reasons": [],
+        "warnings": [
+          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
+          "PERIOD_NOT_ESTABLISHED"
+        ],
+        "terms": {
+          "kalshi": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          },
+          "polymarket": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          }
+        },
+        "settlementVerified": false
+      }
     },
     {
       "category": "politics",
@@ -1395,7 +440,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:07.389Z",
+        "fetchedAt": "2026-10-21T16:12:15.016Z",
         "kalshi": {
           "ticker": "SENATESD-28-R",
           "eventTicker": null,
@@ -1493,7 +538,30 @@
       "approved": false,
       "executable": false,
       "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
+      "evidenceRefreshStatus": "REFRESHED",
+      "settlementScreen": {
+        "status": "NEEDS_HUMAN_REVIEW",
+        "reasons": [],
+        "warnings": [
+          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
+          "PERIOD_NOT_ESTABLISHED"
+        ],
+        "terms": {
+          "kalshi": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          },
+          "polymarket": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          }
+        },
+        "settlementVerified": false
+      }
     },
     {
       "category": "politics",
@@ -1510,7 +578,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:07.995Z",
+        "fetchedAt": "2026-10-21T16:12:15.500Z",
         "kalshi": {
           "ticker": "SENATESC-28-R",
           "eventTicker": null,
@@ -1608,7 +676,30 @@
       "approved": false,
       "executable": false,
       "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
+      "evidenceRefreshStatus": "REFRESHED",
+      "settlementScreen": {
+        "status": "NEEDS_HUMAN_REVIEW",
+        "reasons": [],
+        "warnings": [
+          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
+          "PERIOD_NOT_ESTABLISHED"
+        ],
+        "terms": {
+          "kalshi": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          },
+          "polymarket": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          }
+        },
+        "settlementVerified": false
+      }
     },
     {
       "category": "politics",
@@ -1625,7 +716,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:08.490Z",
+        "fetchedAt": "2026-10-21T16:12:15.986Z",
         "kalshi": {
           "ticker": "SENATEOH-28-R",
           "eventTicker": null,
@@ -1723,7 +814,30 @@
       "approved": false,
       "executable": false,
       "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
+      "evidenceRefreshStatus": "REFRESHED",
+      "settlementScreen": {
+        "status": "NEEDS_HUMAN_REVIEW",
+        "reasons": [],
+        "warnings": [
+          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
+          "PERIOD_NOT_ESTABLISHED"
+        ],
+        "terms": {
+          "kalshi": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          },
+          "polymarket": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          }
+        },
+        "settlementVerified": false
+      }
     },
     {
       "category": "politics",
@@ -1740,7 +854,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:08.983Z",
+        "fetchedAt": "2026-10-21T16:12:16.471Z",
         "kalshi": {
           "ticker": "SENATEKS-28-R",
           "eventTicker": null,
@@ -1838,7 +952,30 @@
       "approved": false,
       "executable": false,
       "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
+      "evidenceRefreshStatus": "REFRESHED",
+      "settlementScreen": {
+        "status": "NEEDS_HUMAN_REVIEW",
+        "reasons": [],
+        "warnings": [
+          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
+          "PERIOD_NOT_ESTABLISHED"
+        ],
+        "terms": {
+          "kalshi": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          },
+          "polymarket": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          }
+        },
+        "settlementVerified": false
+      }
     },
     {
       "category": "politics",
@@ -1855,7 +992,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:09.476Z",
+        "fetchedAt": "2026-10-21T16:12:17.118Z",
         "kalshi": {
           "ticker": "SENATEIA-28-R",
           "eventTicker": null,
@@ -1953,7 +1090,30 @@
       "approved": false,
       "executable": false,
       "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
+      "evidenceRefreshStatus": "REFRESHED",
+      "settlementScreen": {
+        "status": "NEEDS_HUMAN_REVIEW",
+        "reasons": [],
+        "warnings": [
+          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
+          "PERIOD_NOT_ESTABLISHED"
+        ],
+        "terms": {
+          "kalshi": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          },
+          "polymarket": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          }
+        },
+        "settlementVerified": false
+      }
     },
     {
       "category": "other",
@@ -1970,7 +1130,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:10.065Z",
+        "fetchedAt": "2026-10-21T16:12:17.603Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-SOM",
           "eventTicker": null,
@@ -2070,7 +1230,30 @@
       "approved": false,
       "executable": false,
       "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
+      "evidenceRefreshStatus": "REFRESHED",
+      "settlementScreen": {
+        "status": "NEEDS_HUMAN_REVIEW",
+        "reasons": [],
+        "warnings": [
+          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
+          "PERIOD_NOT_ESTABLISHED"
+        ],
+        "terms": {
+          "kalshi": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          },
+          "polymarket": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          }
+        },
+        "settlementVerified": false
+      }
     },
     {
       "category": "other",
@@ -2087,7 +1270,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:10.654Z",
+        "fetchedAt": "2026-10-21T16:12:18.088Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-ONC",
           "eventTicker": null,
@@ -2187,7 +1370,30 @@
       "approved": false,
       "executable": false,
       "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
+      "evidenceRefreshStatus": "REFRESHED",
+      "settlementScreen": {
+        "status": "NEEDS_HUMAN_REVIEW",
+        "reasons": [],
+        "warnings": [
+          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
+          "PERIOD_NOT_ESTABLISHED"
+        ],
+        "terms": {
+          "kalshi": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          },
+          "polymarket": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          }
+        },
+        "settlementVerified": false
+      }
     },
     {
       "category": "other",
@@ -2204,7 +1410,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:11.244Z",
+        "fetchedAt": "2026-10-21T16:12:18.573Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-YOU",
           "eventTicker": null,
@@ -2304,7 +1510,30 @@
       "approved": false,
       "executable": false,
       "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
+      "evidenceRefreshStatus": "REFRESHED",
+      "settlementScreen": {
+        "status": "NEEDS_HUMAN_REVIEW",
+        "reasons": [],
+        "warnings": [
+          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
+          "PERIOD_NOT_ESTABLISHED"
+        ],
+        "terms": {
+          "kalshi": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          },
+          "polymarket": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          }
+        },
+        "settlementVerified": false
+      }
     },
     {
       "category": "other",
@@ -2321,7 +1550,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:11.837Z",
+        "fetchedAt": "2026-10-21T16:12:19.058Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-NUI",
           "eventTicker": null,
@@ -2421,7 +1650,30 @@
       "approved": false,
       "executable": false,
       "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
+      "evidenceRefreshStatus": "REFRESHED",
+      "settlementScreen": {
+        "status": "NEEDS_HUMAN_REVIEW",
+        "reasons": [],
+        "warnings": [
+          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
+          "PERIOD_NOT_ESTABLISHED"
+        ],
+        "terms": {
+          "kalshi": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          },
+          "polymarket": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          }
+        },
+        "settlementVerified": false
+      }
     },
     {
       "category": "other",
@@ -2438,7 +1690,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:12.429Z",
+        "fetchedAt": "2026-10-21T16:12:19.543Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-ONE",
           "eventTicker": null,
@@ -2538,7 +1790,30 @@
       "approved": false,
       "executable": false,
       "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
+      "evidenceRefreshStatus": "REFRESHED",
+      "settlementScreen": {
+        "status": "NEEDS_HUMAN_REVIEW",
+        "reasons": [],
+        "warnings": [
+          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
+          "PERIOD_NOT_ESTABLISHED"
+        ],
+        "terms": {
+          "kalshi": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          },
+          "polymarket": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          }
+        },
+        "settlementVerified": false
+      }
     },
     {
       "category": "other",
@@ -2555,7 +1830,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:13.021Z",
+        "fetchedAt": "2026-10-21T16:12:20.028Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-AME",
           "eventTicker": null,
@@ -2655,7 +1930,30 @@
       "approved": false,
       "executable": false,
       "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
+      "evidenceRefreshStatus": "REFRESHED",
+      "settlementScreen": {
+        "status": "NEEDS_HUMAN_REVIEW",
+        "reasons": [],
+        "warnings": [
+          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
+          "PERIOD_NOT_ESTABLISHED"
+        ],
+        "terms": {
+          "kalshi": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          },
+          "polymarket": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          }
+        },
+        "settlementVerified": false
+      }
     },
     {
       "category": "other",
@@ -2672,7 +1970,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:13.608Z",
+        "fetchedAt": "2026-10-21T16:12:20.513Z",
         "kalshi": {
           "ticker": "KXOSCARPIC-27-WIL",
           "eventTicker": null,
@@ -2772,7 +2070,30 @@
       "approved": false,
       "executable": false,
       "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
+      "evidenceRefreshStatus": "REFRESHED",
+      "settlementScreen": {
+        "status": "NEEDS_HUMAN_REVIEW",
+        "reasons": [],
+        "warnings": [
+          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
+          "PERIOD_NOT_ESTABLISHED"
+        ],
+        "terms": {
+          "kalshi": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          },
+          "polymarket": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          }
+        },
+        "settlementVerified": false
+      }
     },
     {
       "category": "other",
@@ -2789,7 +2110,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:14.199Z",
+        "fetchedAt": "2026-10-21T16:12:20.998Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-MUS",
           "eventTicker": null,
@@ -2889,12 +2210,36 @@
       "approved": false,
       "executable": false,
       "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED"
+      "evidenceRefreshStatus": "REFRESHED",
+      "settlementScreen": {
+        "status": "NEEDS_HUMAN_REVIEW",
+        "reasons": [],
+        "warnings": [
+          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
+          "PERIOD_NOT_ESTABLISHED"
+        ],
+        "terms": {
+          "kalshi": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          },
+          "polymarket": {
+            "period": null,
+            "metric": null,
+            "threshold": null,
+            "firstTo": false
+          }
+        },
+        "settlementVerified": false
+      }
     }
   ],
   "notes": [
     "No candidate is auto-approved.",
-    "Review complete contract rules, deadlines, void/cancellation behavior and identifiers before adding to approved-pairs.json."
+    "Review complete contract rules, deadlines, void/cancellation behavior and identifiers before adding to approved-pairs.json.",
+    "Post-refresh settlement screen is conservative and never grants verification."
   ],
   "feedback": {
     "reviewedRejections": 0,
@@ -2910,12 +2255,101 @@
     "recall": null,
     "caveat": "Only measures supplied human-adjudicated pairs; unlabeled candidates are excluded."
   },
-  "refreshedAt": "2026-10-21T16:10:14.399Z",
+  "refreshedAt": "2026-10-21T16:12:21.198Z",
   "evidenceRefresh": {
     "attempted": 24,
     "successful": 24,
     "changed": 24,
     "failed": 0,
     "errors": []
+  },
+  "settlementTriage": {
+    "input": 24,
+    "remaining": 16,
+    "rejected": 8,
+    "rejectedPairs": [
+      {
+        "kalshiTicker": "KXNFLCAREERPASSYDS-PMAHOMES-40000",
+        "polymarketId": "3959770",
+        "kalshiTitle": "Patrick Mahomes: 40,000+ Passing Yards",
+        "polymarketTitle": "Will Patrick Mahomes be the first QB to 2,000 passing yards in the 2026-27 NFL regular season?",
+        "reasons": [
+          "CAREER_VS_SEASON_SETTLEMENT",
+          "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD",
+          "FIRST_TO_REACH_VS_INDIVIDUAL_OUTCOME"
+        ]
+      },
+      {
+        "kalshiTicker": "KXNFLCAREERPASSYDS-JALLEN-35000",
+        "polymarketId": "3959749",
+        "kalshiTitle": "Josh Allen: 35,000+ Passing Yards",
+        "polymarketTitle": "Will Josh Allen be the first QB to 2,000 passing yards in the 2026-27 NFL regular season?",
+        "reasons": [
+          "CAREER_VS_SEASON_SETTLEMENT",
+          "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD",
+          "FIRST_TO_REACH_VS_INDIVIDUAL_OUTCOME"
+        ]
+      },
+      {
+        "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-14000",
+        "polymarketId": "3959677",
+        "kalshiTitle": "Derrick Henry: 14,000+ Rushing Yards",
+        "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
+        "reasons": [
+          "CAREER_VS_SEASON_SETTLEMENT",
+          "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD"
+        ]
+      },
+      {
+        "kalshiTicker": "KXNFLCAREERRECYDS-MEVANS-14000",
+        "polymarketId": "3959741",
+        "kalshiTitle": "Mike Evans: 14,000+ Receiving Yards",
+        "polymarketTitle": "Will Mike Evans have 1,000+ receiving yards in the 2026-27 NFL regular season?",
+        "reasons": [
+          "CAREER_VS_SEASON_SETTLEMENT",
+          "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD"
+        ]
+      },
+      {
+        "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-15000",
+        "polymarketId": "3959677",
+        "kalshiTitle": "Derrick Henry: 15,000+ Rushing Yards",
+        "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
+        "reasons": [
+          "CAREER_VS_SEASON_SETTLEMENT",
+          "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD"
+        ]
+      },
+      {
+        "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-16000",
+        "polymarketId": "3959677",
+        "kalshiTitle": "Derrick Henry: 16,000+ Rushing Yards",
+        "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
+        "reasons": [
+          "CAREER_VS_SEASON_SETTLEMENT",
+          "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD"
+        ]
+      },
+      {
+        "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-17000",
+        "polymarketId": "3959677",
+        "kalshiTitle": "Derrick Henry: 17,000+ Rushing Yards",
+        "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
+        "reasons": [
+          "CAREER_VS_SEASON_SETTLEMENT",
+          "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD"
+        ]
+      },
+      {
+        "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-18000",
+        "polymarketId": "3959677",
+        "kalshiTitle": "Derrick Henry: 18,000+ Rushing Yards",
+        "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
+        "reasons": [
+          "CAREER_VS_SEASON_SETTLEMENT",
+          "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD"
+        ]
+      }
+    ]
   }
 }
