@@ -33,6 +33,7 @@ export function compareContractTerms(kTitle,pTitle,kRules="",pRules=""){
  conflict("EXPLICIT_DATE_UNCONFIRMED",Boolean(Boolean(a.titleDates.length)!==Boolean(b.titleDates.length)));
  conflict("DIFFERENT_DEADLINE",Boolean(a.titleDeadline.dates.length&&b.titleDeadline.dates.length&&a.titleDeadline.dates.join("|")!==b.titleDeadline.dates.join("|")||
  a.titleDeadline.years.length&&b.titleDeadline.years.length&&a.titleDeadline.years.join("|")!==b.titleDeadline.years.join("|")));
+ conflict("DIFFERENT_DEADLINE_PRECISION",Boolean((a.titleDeadline.dates.length&&b.titleDeadline.years.length&&!b.titleDeadline.dates.length)||(b.titleDeadline.dates.length&&a.titleDeadline.years.length&&!a.titleDeadline.dates.length)));
  conflict("DEADLINE_UNCONFIRMED",Boolean(Boolean(a.titleDeadline.dates.length||a.titleDeadline.years.length)!==Boolean(b.titleDeadline.dates.length||b.titleDeadline.years.length)));
  conflict("DIFFERENT_RULE_DEADLINE",Boolean(a.ruleDeadline.dates.length&&b.ruleDeadline.dates.length&&a.ruleDeadline.dates.join("|")!==b.ruleDeadline.dates.join("|")));
  conflict("DIFFERENT_ENTITY",Boolean(a.entities.length&&b.entities.length&&!a.entities.some(x=>b.entities.includes(x))));
