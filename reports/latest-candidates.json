@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T07:50:33.814Z",
+  "timestamp": "2026-10-21T07:51:20.595Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -12,7 +12,7 @@
     "kalshiSingleOutcomeMarkets": 1233,
     "kalshiMarkets": 1233,
     "polymarketMarkets": 2000,
-    "polymarketBinaryMarkets": 1748,
+    "polymarketBinaryMarkets": 1747,
     "titleCandidates": 0,
     "contractTypePolicy": "strict_same_kind",
     "kalshiPagesRequested": 20,
@@ -25,6 +25,16 @@
   "samples": {
     "kalshi": [
       {
+        "title": "Chicago (Mace) wins",
+        "subtitle": "",
+        "ticker": "KXEFOOTBALLGAME-26OCT210446JOEYMACE-MACE"
+      },
+      {
+        "title": "Cincinnati (Joey) wins",
+        "subtitle": "",
+        "ticker": "KXEFOOTBALLGAME-26OCT210446JOEYMACE-JOEY"
+      },
+      {
         "title": "Nikola Vučević: 5+ threes",
         "subtitle": "",
         "ticker": "KXNBA3PTPROT-26OCT21ATLORL-ORLNVUCEVIC9-5"
@@ -33,16 +43,6 @@
         "title": "Nikola Vučević: 4+ threes",
         "subtitle": "",
         "ticker": "KXNBA3PTPROT-26OCT21ATLORL-ORLNVUCEVIC9-4"
-      },
-      {
-        "title": "Nikola Vučević: 3+ threes",
-        "subtitle": "",
-        "ticker": "KXNBA3PTPROT-26OCT21ATLORL-ORLNVUCEVIC9-3"
-      },
-      {
-        "title": "Nikola Vučević: 2+ threes",
-        "subtitle": "",
-        "ticker": "KXNBA3PTPROT-26OCT21ATLORL-ORLNVUCEVIC9-2"
       }
     ],
     "polymarket": [
