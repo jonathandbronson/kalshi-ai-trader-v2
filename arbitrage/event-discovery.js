@@ -4,6 +4,7 @@ import {createHash} from "node:crypto";
 import {collectCategoryEvents} from "./category-sources.js";
 import {findMarketCandidates} from "./market-matcher.js";
 import {buildRuleEvidence} from "./rule-evidence.js";
+import {canReuseRejection,pruneRejections} from "./rejection-policy.js";
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const PAGES=Math.max(1,Math.min(20,Number(process.env.ARB_EVENT_PAGES??8)));
 const MAX_PAIRS=Math.max(1,Math.min(100,Number(process.env.ARB_EVENT_CANDIDATES??40)));
