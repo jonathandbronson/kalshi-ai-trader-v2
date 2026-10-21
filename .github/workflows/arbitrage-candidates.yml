@@ -47,6 +47,10 @@ on:
       - 'arbitrage/coverage-history.js'
       - 'arbitrage/coverage-history-cli.js'
       - 'arbitrage/coverage-history.test.js'
+      - 'arbitrage/quality-gates.js'
+      - 'arbitrage/quality-gates.test.js'
+      - 'arbitrage/quality-feedback.js'
+      - 'arbitrage/ground-truth.json'
       - '.github/workflows/arbitrage-candidates.yml'
 jobs:
   discovery:
@@ -68,6 +72,8 @@ jobs:
           node --check arbitrage/event-discovery.js
           node --check arbitrage/event-changes.js
           node --check arbitrage/market-matcher.js
+          node --check arbitrage/quality-gates.js
+          node --check arbitrage/quality-feedback.js
           node --check arbitrage/evidence-refresh.js
           node --test arbitrage/*.test.js
       - name: Publish synthetic discovery benchmark
