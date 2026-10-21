@@ -41,6 +41,9 @@ on:
       - 'arbitrage/manual-reviews.json'
       - 'arbitrage/spread-history.js'
       - 'arbitrage/spread-history-cli.js'
+      - 'arbitrage/candidate-history.js'
+      - 'arbitrage/candidate-history-cli.js'
+      - 'arbitrage/candidate-history.test.js'
       - '.github/workflows/arbitrage-candidates.yml'
 jobs:
   discovery:
@@ -70,6 +73,9 @@ jobs:
         run: node arbitrage/candidate-discovery.js
       - name: Discover event-first candidate pairs (read only)
         run: node arbitrage/event-discovery.js
+      - name: Accumulate 30-day candidate discovery history
+        if: success()
+        run: node arbitrage/candidate-history-cli.js
       - name: Build diversified manual settlement review queue
         if: success()
         run: node arbitrage/review-queue-cli.js
@@ -137,6 +143,9 @@ jobs:
             } else {
               await publish('reports/latest-event-failure.json',eventReport);
             }
+            if (fs.existsSync('arbitrage-candidate-history.json')) {
+              await publish('reports/latest-candidate-history.json',fs.readFileSync('arbitrage-candidate-history.json','utf8'));
+            }
             if (fs.existsSync('arbitrage-pair-registry.json')) {
               await publish('reports/latest-pair-registry.json',fs.readFileSync('arbitrage-pair-registry.json','utf8'));
             }
@@ -177,4 +186,5 @@ jobs:
             arbitrage-discovery-benchmark.json
             arbitrage-pair-registry.json
             arbitrage-spread-history.json
+            arbitrage-candidate-history.json
           if-no-files-found: warn
