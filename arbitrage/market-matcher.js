@@ -1,3 +1,4 @@
+import {compareContractTerms} from "./quality-gates.js";
 // Fail-closed market-level candidate matching, independent of parent event titles.
 // This module NEVER approves a pair or asserts identical settlement.
 const clean=s=>String(s??"").toLowerCase().replace(/[^a-z0-9.]+/g," ").replace(/\s+/g," ").trim();
@@ -64,6 +65,8 @@ export function findMarketCandidates(kalshiEvents,polymarketEvents,{limit=100,mi
    if(score<minimumScore)continue;
    const conflict=contradiction(km.title,pm.title);
    if(conflict){counts.rejectedByReason[conflict]=(counts.rejectedByReason[conflict]??0)+1;continue}
+   const structured=compareContractTerms(km.title,pm.title,[km.market.rules_primary,km.market.rules_secondary].filter(Boolean).join(" "),pm.market.description);
+   if(!structured.compatible){for(const reason of structured.hardConflicts)counts.rejectedByReason[reason]=(counts.rejectedByReason[reason]??0)+1;continue}
    const key=km.market.ticker+"|"+pm.market.id;
    if(seen.has(key))continue;seen.add(key);
    result.push({key,category:categoryOf(km.title+" "+pm.title),score:Number(score.toFixed(3)),kalshi:km,polymarket:pm,approved:false,reviewStatus:"UNVERIFIED_SETTLEMENT_RULES",source:"MARKET_LEVEL"});
