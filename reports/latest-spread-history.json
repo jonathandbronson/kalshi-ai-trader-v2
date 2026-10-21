@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-10-21T16:56:28.159Z",
+  "mode": "READ_ONLY_RESEARCH",
+  "windowDays": 7,
+  "observations": [],
+  "summary": {
+    "samples": 0,
+    "priced": 0,
+    "positive": 0,
+    "positiveRate": null,
+    "byPair": {}
+  },
+  "notes": [
+    "Model estimates are not executable quotes.",
+    "Samples are collected at scheduled intervals, not continuously.",
+    "Missing liquidity, stale quotes, fees and failed fills may invalidate modeled profits."
+  ]
+}
