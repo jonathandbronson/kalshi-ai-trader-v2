@@ -1,15 +1,260 @@
 {
-  "timestamp": "2026-10-21T08:02:32.795Z",
+  "timestamp": "2026-10-21T16:07:19.353Z",
   "mode": "RESEARCH_ONLY",
   "verifiedPairs": 0,
   "sourceStatus": "COLLECTED",
-  "sourceTimestamp": "2026-10-21T08:02:13.610Z",
+  "sourceTimestamp": "2026-10-21T16:06:54.894Z",
   "categoryCounts": {
     "sports": 8,
     "politics": 8,
     "other": 8
   },
+  "qualityRejections": {
+    "DIFFERENT_RULE_DEADLINE": 1
+  },
   "candidates": [
+    {
+      "category": "sports",
+      "kalshiTicker": "KXNFLCAREERPASSYDS-PMAHOMES-40000",
+      "polymarketId": "3959770",
+      "kalshiTitle": "Patrick Mahomes: 40,000+ Passing Yards",
+      "polymarketTitle": "Will Patrick Mahomes be the first QB to 2,000 passing yards in the 2026-27 NFL regular season?",
+      "kalshiEvent": "Patrick Mahomes Career Regular Season Passing Yards",
+      "polymarketEvent": "Pro Football: First QB to 2,000 Passing Yards",
+      "kalshiRules": "If Patrick Mahomes records at least 40,000 career regular season passing yards before Patrick Mahomes or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+      "polymarketRules": "This market will resolve to \"Yes\" if the listed player is the first quarterback to reach 2,000 passing yards in the 2026-27 NFL regular season. Otherwise, the associated market will resolve to \"No\".\n\nA player reaches 2,000 passing yards at the moment his cumulative 2026-27 NFL regular season passing yards total equals or exceeds 2,000. Only regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf two or more quarterbacks reach 2,000 passing yards within the same game, or in separate games that have the same scheduled kickoff time, the market for each such player who reaches the mark will resolve to \"Yes\".\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined which quarterback first reached 2,000 passing yards within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+      "kalshiClose": "2040-03-08",
+      "polymarketEnd": "2027-01-27",
+      "differentEndDates": true,
+      "ruleConflicts": [],
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T16:07:20.054Z",
+        "kalshi": {
+          "ticker": "KXNFLCAREERPASSYDS-PMAHOMES-40000",
+          "eventTicker": null,
+          "marketTitle": "Patrick Mahomes: 40,000+ Passing Yards",
+          "rulesPrimary": "If Patrick Mahomes records at least 40,000 career regular season passing yards before Patrick Mahomes or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+          "rulesSecondary": "The market resolves to Yes if Patrick Mahomes records at least 40,000 career regular season passing yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
+          "closeTime": "2040-03-08T15:00:00.000Z",
+          "ruleSha256": "742ab4e591b1ca17f2b7fd7f78404053ff1b445f0a435d3bcc7fc389ad4349a9"
+        },
+        "polymarket": {
+          "id": "3959770",
+          "eventId": null,
+          "question": "Will Patrick Mahomes be the first QB to 2,000 passing yards in the 2026-27 NFL regular season?",
+          "description": "This market will resolve to \"Yes\" if the listed player is the first quarterback to reach 2,000 passing yards in the 2026-27 NFL regular season. Otherwise, the associated market will resolve to \"No\".\n\nA player reaches 2,000 passing yards at the moment his cumulative 2026-27 NFL regular season passing yards total equals or exceeds 2,000. Only regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf two or more quarterbacks reach 2,000 passing yards within the same game, or in separate games that have the same scheduled kickoff time, the market for each such player who reaches the mark will resolve to \"Yes\".\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined which quarterback first reached 2,000 passing yards within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2027-01-27T04:59:00.000Z",
+          "ruleSha256": "cbb90992f5d85406dd35dfbdf934000f852b1d8fcaf57327c12567d99ce1abce",
+          "conditionId": "0x7bde86c229cc65654df6a49d8d867888bd1bad6485a32f101b9e0fcf82b71e73"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE",
+          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [
+          "PERIOD_UNCONFIRMED"
+        ],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": "passing_yards",
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": "season",
+          "statistic": "passing_yards",
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [
+            "2000",
+            "2026"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 0.88,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.707
+      },
+      "uncertainties": [
+        "PERIOD_UNCONFIRMED"
+      ],
+      "discoverySource": "MARKET_LEVEL",
+      "reviewScore": 0.7933,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": true,
+      "evidenceRefreshStatus": "REFRESHED"
+    },
+    {
+      "category": "sports",
+      "kalshiTicker": "KXNFLCAREERPASSYDS-JALLEN-35000",
+      "polymarketId": "3959749",
+      "kalshiTitle": "Josh Allen: 35,000+ Passing Yards",
+      "polymarketTitle": "Will Josh Allen be the first QB to 2,000 passing yards in the 2026-27 NFL regular season?",
+      "kalshiEvent": "Josh Allen Career Regular Season Passing Yards",
+      "polymarketEvent": "Pro Football: First QB to 2,000 Passing Yards",
+      "kalshiRules": "If Josh Allen records at least 35,000 career regular season passing yards before Josh Allen or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+      "polymarketRules": "This market will resolve to \"Yes\" if the listed player is the first quarterback to reach 2,000 passing yards in the 2026-27 NFL regular season. Otherwise, the associated market will resolve to \"No\".\n\nA player reaches 2,000 passing yards at the moment his cumulative 2026-27 NFL regular season passing yards total equals or exceeds 2,000. Only regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf two or more quarterbacks reach 2,000 passing yards within the same game, or in separate games that have the same scheduled kickoff time, the market for each such player who reaches the mark will resolve to \"Yes\".\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined which quarterback first reached 2,000 passing yards within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+      "kalshiClose": "2040-03-08",
+      "polymarketEnd": "2027-01-27",
+      "differentEndDates": true,
+      "ruleConflicts": [],
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T16:07:20.702Z",
+        "kalshi": {
+          "ticker": "KXNFLCAREERPASSYDS-JALLEN-35000",
+          "eventTicker": null,
+          "marketTitle": "Josh Allen: 35,000+ Passing Yards",
+          "rulesPrimary": "If Josh Allen records at least 35,000 career regular season passing yards before Josh Allen or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+          "rulesSecondary": "The market resolves to Yes if Josh Allen records at least 35,000 career regular season passing yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
+          "closeTime": "2040-03-08T15:00:00.000Z",
+          "ruleSha256": "bb1563a2f875e6d48721b7e76483a2aac562954ca8c6b769b986265edf5bbbc7"
+        },
+        "polymarket": {
+          "id": "3959749",
+          "eventId": null,
+          "question": "Will Josh Allen be the first QB to 2,000 passing yards in the 2026-27 NFL regular season?",
+          "description": "This market will resolve to \"Yes\" if the listed player is the first quarterback to reach 2,000 passing yards in the 2026-27 NFL regular season. Otherwise, the associated market will resolve to \"No\".\n\nA player reaches 2,000 passing yards at the moment his cumulative 2026-27 NFL regular season passing yards total equals or exceeds 2,000. Only regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf two or more quarterbacks reach 2,000 passing yards within the same game, or in separate games that have the same scheduled kickoff time, the market for each such player who reaches the mark will resolve to \"Yes\".\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined which quarterback first reached 2,000 passing yards within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2027-01-27T04:59:00.000Z",
+          "ruleSha256": "cbb90992f5d85406dd35dfbdf934000f852b1d8fcaf57327c12567d99ce1abce",
+          "conditionId": "0x8f7f69efcfe0f8b407efa4abbd3777b0f28b4d058930fd61b6a90fff040f53ad"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE",
+          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [
+          "PERIOD_UNCONFIRMED"
+        ],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": "passing_yards",
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": "season",
+          "statistic": "passing_yards",
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [
+            "2000",
+            "2026"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 0.88,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.707
+      },
+      "uncertainties": [
+        "PERIOD_UNCONFIRMED"
+      ],
+      "discoverySource": "MARKET_LEVEL",
+      "reviewScore": 0.7933,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": true,
+      "evidenceRefreshStatus": "REFRESHED"
+    },
     {
       "category": "sports",
       "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-14000",
@@ -24,13 +269,8 @@
       "polymarketEnd": "2027-01-27",
       "differentEndDates": true,
       "ruleConflicts": [],
-      "reviewScore": 0.272,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": false,
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:33.195Z",
+        "fetchedAt": "2026-10-21T16:07:21.194Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-14000",
           "eventTicker": null,
@@ -69,6 +309,81 @@
         "verified": false,
         "approved": false
       },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [
+          "PERIOD_UNCONFIRMED",
+          "THRESHOLD_UNCONFIRMED",
+          "DIRECTION_UNCONFIRMED"
+        ],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": "rushing_yards",
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [
+            "derrick henry"
+          ],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "polymarket": {
+          "threshold": {
+            "value": 1000,
+            "unit": "count"
+          },
+          "direction": "minimum",
+          "period": "season",
+          "statistic": "rushing_yards",
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [
+            "derrick henry"
+          ],
+          "years": [
+            "2026"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 0.64,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.707
+      },
+      "uncertainties": [
+        "PERIOD_UNCONFIRMED",
+        "THRESHOLD_UNCONFIRMED",
+        "DIRECTION_UNCONFIRMED"
+      ],
+      "discoverySource": "MARKET_LEVEL",
+      "reviewScore": 0.7094,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": true,
       "evidenceRefreshStatus": "REFRESHED"
     },
     {
@@ -85,13 +400,8 @@
       "polymarketEnd": "2027-01-27",
       "differentEndDates": true,
       "ruleConflicts": [],
-      "reviewScore": 0.272,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": false,
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:33.721Z",
+        "fetchedAt": "2026-10-21T16:07:21.845Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-14000",
           "eventTicker": null,
@@ -130,6 +440,77 @@
         "verified": false,
         "approved": false
       },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [
+          "PERIOD_UNCONFIRMED",
+          "THRESHOLD_UNCONFIRMED",
+          "DIRECTION_UNCONFIRMED"
+        ],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": "receiving_yards",
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "polymarket": {
+          "threshold": {
+            "value": 1000,
+            "unit": "count"
+          },
+          "direction": "minimum",
+          "period": "season",
+          "statistic": "receiving_yards",
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [
+            "2026"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 0.64,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.707
+      },
+      "uncertainties": [
+        "PERIOD_UNCONFIRMED",
+        "THRESHOLD_UNCONFIRMED",
+        "DIRECTION_UNCONFIRMED"
+      ],
+      "discoverySource": "MARKET_LEVEL",
+      "reviewScore": 0.7094,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": true,
       "evidenceRefreshStatus": "REFRESHED"
     },
     {
@@ -146,13 +527,8 @@
       "polymarketEnd": "2027-01-27",
       "differentEndDates": true,
       "ruleConflicts": [],
-      "reviewScore": 0.272,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": false,
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:34.155Z",
+        "fetchedAt": "2026-10-21T16:07:22.317Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-15000",
           "eventTicker": null,
@@ -191,6 +567,81 @@
         "verified": false,
         "approved": false
       },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [
+          "PERIOD_UNCONFIRMED",
+          "THRESHOLD_UNCONFIRMED",
+          "DIRECTION_UNCONFIRMED"
+        ],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": "rushing_yards",
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [
+            "derrick henry"
+          ],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "polymarket": {
+          "threshold": {
+            "value": 1000,
+            "unit": "count"
+          },
+          "direction": "minimum",
+          "period": "season",
+          "statistic": "rushing_yards",
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [
+            "derrick henry"
+          ],
+          "years": [
+            "2026"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 0.64,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.707
+      },
+      "uncertainties": [
+        "PERIOD_UNCONFIRMED",
+        "THRESHOLD_UNCONFIRMED",
+        "DIRECTION_UNCONFIRMED"
+      ],
+      "discoverySource": "MARKET_LEVEL",
+      "reviewScore": 0.7094,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": true,
       "evidenceRefreshStatus": "REFRESHED"
     },
     {
@@ -207,13 +658,8 @@
       "polymarketEnd": "2027-01-27",
       "differentEndDates": true,
       "ruleConflicts": [],
-      "reviewScore": 0.272,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": false,
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:34.588Z",
+        "fetchedAt": "2026-10-21T16:07:22.790Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-16000",
           "eventTicker": null,
@@ -252,6 +698,81 @@
         "verified": false,
         "approved": false
       },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [
+          "PERIOD_UNCONFIRMED",
+          "THRESHOLD_UNCONFIRMED",
+          "DIRECTION_UNCONFIRMED"
+        ],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": "rushing_yards",
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [
+            "derrick henry"
+          ],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "polymarket": {
+          "threshold": {
+            "value": 1000,
+            "unit": "count"
+          },
+          "direction": "minimum",
+          "period": "season",
+          "statistic": "rushing_yards",
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [
+            "derrick henry"
+          ],
+          "years": [
+            "2026"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 0.64,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.707
+      },
+      "uncertainties": [
+        "PERIOD_UNCONFIRMED",
+        "THRESHOLD_UNCONFIRMED",
+        "DIRECTION_UNCONFIRMED"
+      ],
+      "discoverySource": "MARKET_LEVEL",
+      "reviewScore": 0.7094,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": true,
       "evidenceRefreshStatus": "REFRESHED"
     },
     {
@@ -268,13 +789,8 @@
       "polymarketEnd": "2027-01-27",
       "differentEndDates": true,
       "ruleConflicts": [],
-      "reviewScore": 0.272,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": false,
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:35.020Z",
+        "fetchedAt": "2026-10-21T16:07:23.262Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-17000",
           "eventTicker": null,
@@ -313,6 +829,81 @@
         "verified": false,
         "approved": false
       },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [
+          "PERIOD_UNCONFIRMED",
+          "THRESHOLD_UNCONFIRMED",
+          "DIRECTION_UNCONFIRMED"
+        ],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": "rushing_yards",
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [
+            "derrick henry"
+          ],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "polymarket": {
+          "threshold": {
+            "value": 1000,
+            "unit": "count"
+          },
+          "direction": "minimum",
+          "period": "season",
+          "statistic": "rushing_yards",
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [
+            "derrick henry"
+          ],
+          "years": [
+            "2026"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 0.64,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.707
+      },
+      "uncertainties": [
+        "PERIOD_UNCONFIRMED",
+        "THRESHOLD_UNCONFIRMED",
+        "DIRECTION_UNCONFIRMED"
+      ],
+      "discoverySource": "MARKET_LEVEL",
+      "reviewScore": 0.7094,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": true,
       "evidenceRefreshStatus": "REFRESHED"
     },
     {
@@ -329,13 +920,8 @@
       "polymarketEnd": "2027-01-27",
       "differentEndDates": true,
       "ruleConflicts": [],
-      "reviewScore": 0.272,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": false,
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:35.456Z",
+        "fetchedAt": "2026-10-21T16:07:23.730Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-18000",
           "eventTicker": null,
@@ -374,128 +960,81 @@
         "verified": false,
         "approved": false
       },
-      "evidenceRefreshStatus": "REFRESHED"
-    },
-    {
-      "category": "sports",
-      "kalshiTicker": "KXNFLCAREERRECYDS-MEVANS-15000",
-      "polymarketId": "3959741",
-      "kalshiTitle": "Mike Evans: 15,000+ Receiving Yards",
-      "polymarketTitle": "Will Mike Evans have 1,000+ receiving yards in the 2026-27 NFL regular season?",
-      "kalshiEvent": "Mike Evans Career Regular Season Receiving Yards",
-      "polymarketEvent": "Pro Football: 2026-27 1,000+ Receiving Yards",
-      "kalshiRules": "If Mike Evans records at least 15,000 career regular season receiving yards before Mike Evans or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
-      "polymarketRules": "This market will resolve to \"Yes\" if the number of receiving yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many receiving yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
-      "kalshiClose": "2040-03-08",
-      "polymarketEnd": "2027-01-27",
-      "differentEndDates": true,
-      "ruleConflicts": [],
-      "reviewScore": 0.272,
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [
+          "PERIOD_UNCONFIRMED",
+          "THRESHOLD_UNCONFIRMED",
+          "DIRECTION_UNCONFIRMED"
+        ],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": "rushing_yards",
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [
+            "derrick henry"
+          ],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "polymarket": {
+          "threshold": {
+            "value": 1000,
+            "unit": "count"
+          },
+          "direction": "minimum",
+          "period": "season",
+          "statistic": "rushing_yards",
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [
+            "derrick henry"
+          ],
+          "years": [
+            "2026"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 0.64,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.707
+      },
+      "uncertainties": [
+        "PERIOD_UNCONFIRMED",
+        "THRESHOLD_UNCONFIRMED",
+        "DIRECTION_UNCONFIRMED"
+      ],
+      "discoverySource": "MARKET_LEVEL",
+      "reviewScore": 0.7094,
       "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
       "approved": false,
       "executable": false,
-      "evidenceChanged": false,
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:35.885Z",
-        "kalshi": {
-          "ticker": "KXNFLCAREERRECYDS-MEVANS-15000",
-          "eventTicker": null,
-          "marketTitle": "Mike Evans: 15,000+ Receiving Yards",
-          "rulesPrimary": "If Mike Evans records at least 15,000 career regular season receiving yards before Mike Evans or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
-          "rulesSecondary": "The market resolves to Yes if Mike Evans records at least 15,000 career regular season receiving yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
-          "closeTime": "2040-03-08T15:00:00.000Z",
-          "ruleSha256": "4becf680bb51d363a9a323f96119ed43b16d1ff99af975e10921b8fad01778f7"
-        },
-        "polymarket": {
-          "id": "3959741",
-          "eventId": null,
-          "question": "Will Mike Evans have 1,000+ receiving yards in the 2026-27 NFL regular season?",
-          "description": "This market will resolve to \"Yes\" if the number of receiving yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many receiving yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
-          "eventDescription": null,
-          "resolutionSource": null,
-          "endTime": "2027-01-27T04:59:00.000Z",
-          "ruleSha256": "b05400ea6c544a8bde4aeeda16d00104d257594b0e06e9fa79e81d3f17ec1f86",
-          "conditionId": "0xe55d529265d7a6dd3b7fc132092f8eee212995cd1f46fa3c04e3a6bc28ea50b2"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE",
-          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "evidenceRefreshStatus": "REFRESHED"
-    },
-    {
-      "category": "sports",
-      "kalshiTicker": "KXNFLCAREERRECYDS-MEVANS-16000",
-      "polymarketId": "3959741",
-      "kalshiTitle": "Mike Evans: 16,000+ Receiving Yards",
-      "polymarketTitle": "Will Mike Evans have 1,000+ receiving yards in the 2026-27 NFL regular season?",
-      "kalshiEvent": "Mike Evans Career Regular Season Receiving Yards",
-      "polymarketEvent": "Pro Football: 2026-27 1,000+ Receiving Yards",
-      "kalshiRules": "If Mike Evans records at least 16,000 career regular season receiving yards before Mike Evans or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
-      "polymarketRules": "This market will resolve to \"Yes\" if the number of receiving yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many receiving yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
-      "kalshiClose": "2040-03-08",
-      "polymarketEnd": "2027-01-27",
-      "differentEndDates": true,
-      "ruleConflicts": [],
-      "reviewScore": 0.272,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": false,
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:36.311Z",
-        "kalshi": {
-          "ticker": "KXNFLCAREERRECYDS-MEVANS-16000",
-          "eventTicker": null,
-          "marketTitle": "Mike Evans: 16,000+ Receiving Yards",
-          "rulesPrimary": "If Mike Evans records at least 16,000 career regular season receiving yards before Mike Evans or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
-          "rulesSecondary": "The market resolves to Yes if Mike Evans records at least 16,000 career regular season receiving yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
-          "closeTime": "2040-03-08T15:00:00.000Z",
-          "ruleSha256": "37ba1b29d45debf569bc908879fe057d56098f9f858a9ba56528ac10d49ec250"
-        },
-        "polymarket": {
-          "id": "3959741",
-          "eventId": null,
-          "question": "Will Mike Evans have 1,000+ receiving yards in the 2026-27 NFL regular season?",
-          "description": "This market will resolve to \"Yes\" if the number of receiving yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many receiving yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
-          "eventDescription": null,
-          "resolutionSource": null,
-          "endTime": "2027-01-27T04:59:00.000Z",
-          "ruleSha256": "b05400ea6c544a8bde4aeeda16d00104d257594b0e06e9fa79e81d3f17ec1f86",
-          "conditionId": "0xe55d529265d7a6dd3b7fc132092f8eee212995cd1f46fa3c04e3a6bc28ea50b2"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE",
-          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
+      "evidenceChanged": true,
       "evidenceRefreshStatus": "REFRESHED"
     },
     {
@@ -512,13 +1051,8 @@
       "polymarketEnd": "2026-11-04",
       "differentEndDates": true,
       "ruleConflicts": [],
-      "reviewScore": 0.66,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": false,
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:36.770Z",
+        "fetchedAt": "2026-10-21T16:07:24.423Z",
         "kalshi": {
           "ticker": "SENATENH-28-R",
           "eventTicker": null,
@@ -556,6 +1090,66 @@
         "verified": false,
         "approved": false
       },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [
+            "2026"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 1,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.926
+      },
+      "uncertainties": [],
+      "discoverySource": "EVENT_LEVEL",
+      "reviewScore": 0.8463,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": true,
       "evidenceRefreshStatus": "REFRESHED"
     },
     {
@@ -572,13 +1166,8 @@
       "polymarketEnd": "2026-11-04",
       "differentEndDates": true,
       "ruleConflicts": [],
-      "reviewScore": 0.64,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": false,
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:37.226Z",
+        "fetchedAt": "2026-10-21T16:07:24.917Z",
         "kalshi": {
           "ticker": "SENATEGA-28-R",
           "eventTicker": null,
@@ -616,6 +1205,66 @@
         "verified": false,
         "approved": false
       },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [
+            "2026"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 1,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.913
+      },
+      "uncertainties": [],
+      "discoverySource": "EVENT_LEVEL",
+      "reviewScore": 0.8456,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": true,
       "evidenceRefreshStatus": "REFRESHED"
     },
     {
@@ -632,13 +1281,8 @@
       "polymarketEnd": "2026-11-04",
       "differentEndDates": true,
       "ruleConflicts": [],
-      "reviewScore": 0.64,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": false,
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:37.653Z",
+        "fetchedAt": "2026-10-21T16:07:25.571Z",
         "kalshi": {
           "ticker": "SENATEFL-28-R",
           "eventTicker": null,
@@ -676,50 +1320,103 @@
         "verified": false,
         "approved": false
       },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [
+            "2026"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 1,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.913
+      },
+      "uncertainties": [],
+      "discoverySource": "EVENT_LEVEL",
+      "reviewScore": 0.8456,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": true,
       "evidenceRefreshStatus": "REFRESHED"
     },
     {
       "category": "politics",
-      "kalshiTicker": "KXONTLIBLEAD-26NOV21-NBAI",
-      "polymarketId": "4031794",
-      "kalshiTitle": "Will Navdeep Bains win the 2026 Ontario Liberal Party leadership election?",
-      "polymarketTitle": "Will Navdeep Bains win the 2026 Ontario Liberal Party leadership election?",
-      "kalshiEvent": "Ontario Liberal Party leadership election winner?",
-      "polymarketEvent": "Ontario Liberal Party Leadership Election Winner",
-      "kalshiRules": "If Navdeep Bains wins the 2026 Ontario Liberal Party leadership election, then the market resolves to Yes.",
-      "polymarketRules": "The 2026 Ontario Liberal Party leadership election is currently scheduled to conclude on November 21, 2026, with voting held from November 9 to November 20, 2026.\n\nThis market will resolve according to the candidate who becomes the next leader of the Ontario Liberal Party as a result of this election.\n\nTemporary, interim, or placeholder leaders appointed before the election will not be considered.\n\nIf the result of this election isn't known by March 31, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThe primary resolution source for this market will be a consensus of credible reporting; however, if there is any ambiguity in the results, this market will resolve according to official information from the Ontario Liberal Party.",
-      "kalshiClose": "2027-11-21",
-      "polymarketEnd": "2026-11-10",
+      "kalshiTicker": "SENATESD-28-R",
+      "polymarketId": "630938",
+      "kalshiTitle": "Will Republicans win the Senate race in South Dakota?",
+      "polymarketTitle": "Will the Republicans win the South Dakota Senate race in 2026?",
+      "kalshiEvent": "South Dakota Senate winner? (2028)",
+      "polymarketEvent": "South Dakota Senate Election Winner",
+      "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of South Dakota for the term beginning in 2029, then the market resolves to Yes.",
+      "polymarketRules": "This market will resolve according to the winner of the 2026 midterm South Dakota U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "kalshiClose": "2029-11-07",
+      "polymarketEnd": "2026-11-04",
       "differentEndDates": true,
-      "ruleConflicts": [
-        "explicit_deadline_only_on_polymarket"
-      ],
-      "reviewScore": 0.57,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": false,
+      "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:38.197Z",
+        "fetchedAt": "2026-10-21T16:07:26.215Z",
         "kalshi": {
-          "ticker": "KXONTLIBLEAD-26NOV21-NBAI",
+          "ticker": "SENATESD-28-R",
           "eventTicker": null,
-          "marketTitle": "Will Navdeep Bains win the 2026 Ontario Liberal Party leadership election?",
-          "rulesPrimary": "If Navdeep Bains wins the 2026 Ontario Liberal Party leadership election, then the market resolves to Yes.",
+          "marketTitle": "Will Republicans win the Senate race in South Dakota? :: Current incumbent: John Thune",
+          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of South Dakota for the term beginning in 2029, then the market resolves to Yes.",
           "rulesSecondary": null,
-          "closeTime": "2027-11-21T15:00:00.000Z",
-          "ruleSha256": "b6a6dc97b7cad1220d8f4a5f56a449521d9232866d161ad25abbc27850e1ea21"
+          "closeTime": "2029-11-07T15:00:00.000Z",
+          "ruleSha256": "571b921e874f401be0c3ec5b4756fce0053323198a5c7da93f52d209534c6816"
         },
         "polymarket": {
-          "id": "4031794",
+          "id": "630938",
           "eventId": null,
-          "question": "Will Navdeep Bains win the 2026 Ontario Liberal Party leadership election?",
-          "description": "The 2026 Ontario Liberal Party leadership election is currently scheduled to conclude on November 21, 2026, with voting held from November 9 to November 20, 2026.\n\nThis market will resolve according to the candidate who becomes the next leader of the Ontario Liberal Party as a result of this election.\n\nTemporary, interim, or placeholder leaders appointed before the election will not be considered.\n\nIf the result of this election isn't known by March 31, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThe primary resolution source for this market will be a consensus of credible reporting; however, if there is any ambiguity in the results, this market will resolve according to official information from the Ontario Liberal Party.",
+          "question": "Will the Republicans win the South Dakota Senate race in 2026?",
+          "description": "This market will resolve according to the winner of the 2026 midterm South Dakota U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
           "eventDescription": null,
           "resolutionSource": null,
-          "endTime": "2026-11-10T04:59:00.000Z",
-          "ruleSha256": "d6d6f86d391d0db70ea12ba73e471fba0c528be7d11953010071bbbe47fb30c6",
-          "conditionId": "0xcd079d958aa6b4dc4eb38ecbc38a6496719ad639ec3e0ab71a268bcb4f3407a7"
+          "endTime": "2026-11-04T04:59:00.000Z",
+          "ruleSha256": "78b01ef5d1e83d09223140b9b400e4d06f2bdc84ad51c9cc53f7f58972d7d31e",
+          "conditionId": "0xeec26e9d0efd895ba65bc3f1f0cbe99f66a56833682430dc266277a6c9e6e60f"
         },
         "warnings": [
           "DIFFERENT_LISTED_END_DATES",
@@ -738,50 +1435,103 @@
         "verified": false,
         "approved": false
       },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [
+            "2026"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 1,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.717
+      },
+      "uncertainties": [],
+      "discoverySource": "EVENT_LEVEL",
+      "reviewScore": 0.8358,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": true,
       "evidenceRefreshStatus": "REFRESHED"
     },
     {
       "category": "politics",
-      "kalshiTicker": "KXONTLIBLEAD-26NOV21-SBOW",
-      "polymarketId": "4031795",
-      "kalshiTitle": "Will Stephanie Bowman win the 2026 Ontario Liberal Party leadership election?",
-      "polymarketTitle": "Will Stephanie Bowman win the 2026 Ontario Liberal Party leadership election?",
-      "kalshiEvent": "Ontario Liberal Party leadership election winner?",
-      "polymarketEvent": "Ontario Liberal Party Leadership Election Winner",
-      "kalshiRules": "If Stephanie Bowman wins the 2026 Ontario Liberal Party leadership election, then the market resolves to Yes.",
-      "polymarketRules": "The 2026 Ontario Liberal Party leadership election is currently scheduled to conclude on November 21, 2026, with voting held from November 9 to November 20, 2026.\n\nThis market will resolve according to the candidate who becomes the next leader of the Ontario Liberal Party as a result of this election.\n\nTemporary, interim, or placeholder leaders appointed before the election will not be considered.\n\nIf the result of this election isn't known by March 31, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThe primary resolution source for this market will be a consensus of credible reporting; however, if there is any ambiguity in the results, this market will resolve according to official information from the Ontario Liberal Party.",
-      "kalshiClose": "2027-11-21",
-      "polymarketEnd": "2026-11-10",
+      "kalshiTicker": "SENATESC-28-R",
+      "polymarketId": "630925",
+      "kalshiTitle": "Will Republicans win the Senate race in South Carolina?",
+      "polymarketTitle": "Will the Republicans win the South Carolina Senate race in 2026?",
+      "kalshiEvent": "South Carolina Senate winner? (2028)",
+      "polymarketEvent": "South Carolina Senate Election Winner",
+      "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of South Carolina for the term beginning in 2029, then the market resolves to Yes.",
+      "polymarketRules": "This market will resolve according to the winner of the 2026 midterm South Carolina U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "kalshiClose": "2029-11-07",
+      "polymarketEnd": "2026-11-04",
       "differentEndDates": true,
-      "ruleConflicts": [
-        "explicit_deadline_only_on_polymarket"
-      ],
-      "reviewScore": 0.57,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": false,
+      "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:38.646Z",
+        "fetchedAt": "2026-10-21T16:07:26.708Z",
         "kalshi": {
-          "ticker": "KXONTLIBLEAD-26NOV21-SBOW",
+          "ticker": "SENATESC-28-R",
           "eventTicker": null,
-          "marketTitle": "Will Stephanie Bowman win the 2026 Ontario Liberal Party leadership election? ::",
-          "rulesPrimary": "If Stephanie Bowman wins the 2026 Ontario Liberal Party leadership election, then the market resolves to Yes.",
+          "marketTitle": "Will Republicans win the Senate race in South Carolina? :: Current incumbent: Tim Scott",
+          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of South Carolina for the term beginning in 2029, then the market resolves to Yes.",
           "rulesSecondary": null,
-          "closeTime": "2027-11-21T15:00:00.000Z",
-          "ruleSha256": "2155a9b7b096113b9d5b0dcd89ee522e12bb20e0b54811abcce9ab7f5cfc5496"
+          "closeTime": "2029-11-07T15:00:00.000Z",
+          "ruleSha256": "3df562a76f298a78be5e77e79251b81faddcc1c2d4f289c724da2c28bbf330e4"
         },
         "polymarket": {
-          "id": "4031795",
+          "id": "630925",
           "eventId": null,
-          "question": "Will Stephanie Bowman win the 2026 Ontario Liberal Party leadership election?",
-          "description": "The 2026 Ontario Liberal Party leadership election is currently scheduled to conclude on November 21, 2026, with voting held from November 9 to November 20, 2026.\n\nThis market will resolve according to the candidate who becomes the next leader of the Ontario Liberal Party as a result of this election.\n\nTemporary, interim, or placeholder leaders appointed before the election will not be considered.\n\nIf the result of this election isn't known by March 31, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThe primary resolution source for this market will be a consensus of credible reporting; however, if there is any ambiguity in the results, this market will resolve according to official information from the Ontario Liberal Party.",
+          "question": "Will the Republicans win the South Carolina Senate race in 2026?",
+          "description": "This market will resolve according to the winner of the 2026 midterm South Carolina U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
           "eventDescription": null,
           "resolutionSource": null,
-          "endTime": "2026-11-10T04:59:00.000Z",
-          "ruleSha256": "d6d6f86d391d0db70ea12ba73e471fba0c528be7d11953010071bbbe47fb30c6",
-          "conditionId": "0x6454a35f48b523b97312a30ed7e8d8e7d6647f93bcb41d97fc41e86c2ee4461d"
+          "endTime": "2026-11-04T04:59:00.000Z",
+          "ruleSha256": "8194e81ff39d309088624af1535c0929e3024d9c65de1ce0e9ad8037b06d0bc4",
+          "conditionId": "0x1c017cbb38a9d0ab233ebb265b25c78290317e6a2470657ca18a73a112397b55"
         },
         "warnings": [
           "DIFFERENT_LISTED_END_DATES",
@@ -800,50 +1550,103 @@
         "verified": false,
         "approved": false
       },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [
+            "2026"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 1,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.717
+      },
+      "uncertainties": [],
+      "discoverySource": "EVENT_LEVEL",
+      "reviewScore": 0.8358,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": true,
       "evidenceRefreshStatus": "REFRESHED"
     },
     {
       "category": "politics",
-      "kalshiTicker": "KXONTLIBLEAD-26NOV21-LFAI",
-      "polymarketId": "4031796",
-      "kalshiTitle": "Will Lee Fairclough win the 2026 Ontario Liberal Party leadership election?",
-      "polymarketTitle": "Will Lee Fairclough win the 2026 Ontario Liberal Party leadership election?",
-      "kalshiEvent": "Ontario Liberal Party leadership election winner?",
-      "polymarketEvent": "Ontario Liberal Party Leadership Election Winner",
-      "kalshiRules": "If Lee Fairclough wins the 2026 Ontario Liberal Party leadership election, then the market resolves to Yes.",
-      "polymarketRules": "The 2026 Ontario Liberal Party leadership election is currently scheduled to conclude on November 21, 2026, with voting held from November 9 to November 20, 2026.\n\nThis market will resolve according to the candidate who becomes the next leader of the Ontario Liberal Party as a result of this election.\n\nTemporary, interim, or placeholder leaders appointed before the election will not be considered.\n\nIf the result of this election isn't known by March 31, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThe primary resolution source for this market will be a consensus of credible reporting; however, if there is any ambiguity in the results, this market will resolve according to official information from the Ontario Liberal Party.",
-      "kalshiClose": "2027-11-21",
-      "polymarketEnd": "2026-11-10",
+      "kalshiTicker": "SENATEOH-28-R",
+      "polymarketId": "631058",
+      "kalshiTitle": "Will Republicans win the Senate race in Ohio?",
+      "polymarketTitle": "Will the Republicans win the Ohio Senate race in 2026?",
+      "kalshiEvent": "Ohio Senate winner? (2028)",
+      "polymarketEvent": "Ohio Senate Election Winner",
+      "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Ohio for the term beginning in 2029, then the market resolves to Yes.",
+      "polymarketRules": "This market will resolve according to the winner of the 2026 Ohio U.S. Senate special election currently scheduled for November 3, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "kalshiClose": "2029-11-07",
+      "polymarketEnd": "2026-11-04",
       "differentEndDates": true,
-      "ruleConflicts": [
-        "explicit_deadline_only_on_polymarket"
-      ],
-      "reviewScore": 0.57,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": false,
+      "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:39.165Z",
+        "fetchedAt": "2026-10-21T16:07:27.442Z",
         "kalshi": {
-          "ticker": "KXONTLIBLEAD-26NOV21-LFAI",
+          "ticker": "SENATEOH-28-R",
           "eventTicker": null,
-          "marketTitle": "Will Lee Fairclough win the 2026 Ontario Liberal Party leadership election? ::",
-          "rulesPrimary": "If Lee Fairclough wins the 2026 Ontario Liberal Party leadership election, then the market resolves to Yes.",
+          "marketTitle": "Will Republicans win the Senate race in Ohio? :: Current incumbent: Jon Husted",
+          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Ohio for the term beginning in 2029, then the market resolves to Yes.",
           "rulesSecondary": null,
-          "closeTime": "2027-11-21T15:00:00.000Z",
-          "ruleSha256": "42ba1318386041e6904d5143fc50fdc446bc06fda75e12526d46c5388959c73a"
+          "closeTime": "2029-11-07T15:00:00.000Z",
+          "ruleSha256": "b1fcaa69f6ea707a68850942d42fd0e6785f77f4d0dd476285556f0ec674528d"
         },
         "polymarket": {
-          "id": "4031796",
+          "id": "631058",
           "eventId": null,
-          "question": "Will Lee Fairclough win the 2026 Ontario Liberal Party leadership election?",
-          "description": "The 2026 Ontario Liberal Party leadership election is currently scheduled to conclude on November 21, 2026, with voting held from November 9 to November 20, 2026.\n\nThis market will resolve according to the candidate who becomes the next leader of the Ontario Liberal Party as a result of this election.\n\nTemporary, interim, or placeholder leaders appointed before the election will not be considered.\n\nIf the result of this election isn't known by March 31, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThe primary resolution source for this market will be a consensus of credible reporting; however, if there is any ambiguity in the results, this market will resolve according to official information from the Ontario Liberal Party.",
+          "question": "Will the Republicans win the Ohio Senate race in 2026?",
+          "description": "This market will resolve according to the winner of the 2026 Ohio U.S. Senate special election currently scheduled for November 3, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
           "eventDescription": null,
           "resolutionSource": null,
-          "endTime": "2026-11-10T04:59:00.000Z",
-          "ruleSha256": "d6d6f86d391d0db70ea12ba73e471fba0c528be7d11953010071bbbe47fb30c6",
-          "conditionId": "0xc9dc08383f5c524d8d661cc198993d05e2744ab087db9f947c4e746af800f34d"
+          "endTime": "2026-11-04T04:59:00.000Z",
+          "ruleSha256": "bf934fe9a18e4cb3b4d4ff72edb4834614488d0cd9e91253ce32260c850e2577",
+          "conditionId": "0x771873c365f87bffd990644e4b688aebc1be7f18396d2eab64b996ff66e88669"
         },
         "warnings": [
           "DIFFERENT_LISTED_END_DATES",
@@ -862,50 +1665,103 @@
         "verified": false,
         "approved": false
       },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [
+            "2026"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 1,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.68
+      },
+      "uncertainties": [],
+      "discoverySource": "EVENT_LEVEL",
+      "reviewScore": 0.834,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": true,
       "evidenceRefreshStatus": "REFRESHED"
     },
     {
       "category": "politics",
-      "kalshiTicker": "KXONTLIBLEAD-26NOV21-ELOM",
-      "polymarketId": "4031797",
-      "kalshiTitle": "Will Eric Lombardi win the 2026 Ontario Liberal Party leadership election?",
-      "polymarketTitle": "Will Eric Lombardi win the 2026 Ontario Liberal Party leadership election?",
-      "kalshiEvent": "Ontario Liberal Party leadership election winner?",
-      "polymarketEvent": "Ontario Liberal Party Leadership Election Winner",
-      "kalshiRules": "If Eric Lombardi wins the 2026 Ontario Liberal Party leadership election, then the market resolves to Yes.",
-      "polymarketRules": "The 2026 Ontario Liberal Party leadership election is currently scheduled to conclude on November 21, 2026, with voting held from November 9 to November 20, 2026.\n\nThis market will resolve according to the candidate who becomes the next leader of the Ontario Liberal Party as a result of this election.\n\nTemporary, interim, or placeholder leaders appointed before the election will not be considered.\n\nIf the result of this election isn't known by March 31, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThe primary resolution source for this market will be a consensus of credible reporting; however, if there is any ambiguity in the results, this market will resolve according to official information from the Ontario Liberal Party.",
-      "kalshiClose": "2027-11-21",
-      "polymarketEnd": "2026-11-10",
+      "kalshiTicker": "SENATEKS-28-R",
+      "polymarketId": "630747",
+      "kalshiTitle": "Will Republicans win the Senate race in Kansas?",
+      "polymarketTitle": "Will the Republicans win the Kansas Senate race in 2026?",
+      "kalshiEvent": "Kansas Senate winner? (2028)",
+      "polymarketEvent": "Kansas Senate Election Winner",
+      "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Kansas for the term beginning in 2029, then the market resolves to Yes.",
+      "polymarketRules": "This market will resolve according to the winner of the 2026 midterm Kansas U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "kalshiClose": "2029-11-07",
+      "polymarketEnd": "2026-11-04",
       "differentEndDates": true,
-      "ruleConflicts": [
-        "explicit_deadline_only_on_polymarket"
-      ],
-      "reviewScore": 0.57,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": false,
+      "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:39.698Z",
+        "fetchedAt": "2026-10-21T16:07:27.935Z",
         "kalshi": {
-          "ticker": "KXONTLIBLEAD-26NOV21-ELOM",
+          "ticker": "SENATEKS-28-R",
           "eventTicker": null,
-          "marketTitle": "Will Eric Lombardi win the 2026 Ontario Liberal Party leadership election? ::",
-          "rulesPrimary": "If Eric Lombardi wins the 2026 Ontario Liberal Party leadership election, then the market resolves to Yes.",
+          "marketTitle": "Will Republicans win the Senate race in Kansas? :: Current incumbent: Jerry Moran",
+          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Kansas for the term beginning in 2029, then the market resolves to Yes.",
           "rulesSecondary": null,
-          "closeTime": "2027-11-21T15:00:00.000Z",
-          "ruleSha256": "c7940559aedc0fb8a31e576ddc27d6867f9e23c52eb06f446c26ce9e3f7b73f7"
+          "closeTime": "2029-11-07T15:00:00.000Z",
+          "ruleSha256": "ade3a8e4e968a8e99a0812c12f8c6ae276a5577dcb596b6e1cbad211275d4008"
         },
         "polymarket": {
-          "id": "4031797",
+          "id": "630747",
           "eventId": null,
-          "question": "Will Eric Lombardi win the 2026 Ontario Liberal Party leadership election?",
-          "description": "The 2026 Ontario Liberal Party leadership election is currently scheduled to conclude on November 21, 2026, with voting held from November 9 to November 20, 2026.\n\nThis market will resolve according to the candidate who becomes the next leader of the Ontario Liberal Party as a result of this election.\n\nTemporary, interim, or placeholder leaders appointed before the election will not be considered.\n\nIf the result of this election isn't known by March 31, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThe primary resolution source for this market will be a consensus of credible reporting; however, if there is any ambiguity in the results, this market will resolve according to official information from the Ontario Liberal Party.",
+          "question": "Will the Republicans win the Kansas Senate race in 2026?",
+          "description": "This market will resolve according to the winner of the 2026 midterm Kansas U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
           "eventDescription": null,
           "resolutionSource": null,
-          "endTime": "2026-11-10T04:59:00.000Z",
-          "ruleSha256": "d6d6f86d391d0db70ea12ba73e471fba0c528be7d11953010071bbbe47fb30c6",
-          "conditionId": "0x86573bc5f8fc2779e59ce6b1edb2f08bd22602d5ff6affb0552436b2cff2f910"
+          "endTime": "2026-11-04T04:59:00.000Z",
+          "ruleSha256": "cdb2e7fff6164951e1b9f0ec72defaf528faf96055962f00348d20fee341e737",
+          "conditionId": "0xb8b5349814450b8bba2ecdda2eeb9f48bd3c795bfb858bedf7a383712b877743"
         },
         "warnings": [
           "DIFFERENT_LISTED_END_DATES",
@@ -924,50 +1780,103 @@
         "verified": false,
         "approved": false
       },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [
+            "2026"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 1,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.68
+      },
+      "uncertainties": [],
+      "discoverySource": "EVENT_LEVEL",
+      "reviewScore": 0.834,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": true,
       "evidenceRefreshStatus": "REFRESHED"
     },
     {
       "category": "politics",
-      "kalshiTicker": "KXONTLIBLEAD-26NOV21-DMAR",
-      "polymarketId": "4031798",
-      "kalshiTitle": "Will Dylan Marando win the 2026 Ontario Liberal Party leadership election?",
-      "polymarketTitle": "Will Dylan Marando win the 2026 Ontario Liberal Party leadership election?",
-      "kalshiEvent": "Ontario Liberal Party leadership election winner?",
-      "polymarketEvent": "Ontario Liberal Party Leadership Election Winner",
-      "kalshiRules": "If Dylan Marando wins the 2026 Ontario Liberal Party leadership election, then the market resolves to Yes.",
-      "polymarketRules": "The 2026 Ontario Liberal Party leadership election is currently scheduled to conclude on November 21, 2026, with voting held from November 9 to November 20, 2026.\n\nThis market will resolve according to the candidate who becomes the next leader of the Ontario Liberal Party as a result of this election.\n\nTemporary, interim, or placeholder leaders appointed before the election will not be considered.\n\nIf the result of this election isn't known by March 31, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThe primary resolution source for this market will be a consensus of credible reporting; however, if there is any ambiguity in the results, this market will resolve according to official information from the Ontario Liberal Party.",
-      "kalshiClose": "2027-11-21",
-      "polymarketEnd": "2026-11-10",
+      "kalshiTicker": "SENATEIA-28-R",
+      "polymarketId": "630734",
+      "kalshiTitle": "Will Republicans win the Senate race in Iowa?",
+      "polymarketTitle": "Will the Republicans win the Iowa Senate race in 2026?",
+      "kalshiEvent": "Iowa Senate winner? (2028)",
+      "polymarketEvent": "Iowa Senate Election Winner",
+      "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Iowa for the term beginning in 2029, then the market resolves to Yes.",
+      "polymarketRules": "This market will resolve according to the winner of the 2026 midterm Iowa U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "kalshiClose": "2029-11-07",
+      "polymarketEnd": "2026-11-04",
       "differentEndDates": true,
-      "ruleConflicts": [
-        "explicit_deadline_only_on_polymarket"
-      ],
-      "reviewScore": 0.57,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": false,
+      "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:40.222Z",
+        "fetchedAt": "2026-10-21T16:07:28.429Z",
         "kalshi": {
-          "ticker": "KXONTLIBLEAD-26NOV21-DMAR",
+          "ticker": "SENATEIA-28-R",
           "eventTicker": null,
-          "marketTitle": "Will Dylan Marando win the 2026 Ontario Liberal Party leadership election? ::",
-          "rulesPrimary": "If Dylan Marando wins the 2026 Ontario Liberal Party leadership election, then the market resolves to Yes.",
+          "marketTitle": "Will Republicans win the Senate race in Iowa? :: Current incumbent: Chuck Grassley",
+          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Iowa for the term beginning in 2029, then the market resolves to Yes.",
           "rulesSecondary": null,
-          "closeTime": "2027-11-21T15:00:00.000Z",
-          "ruleSha256": "4ad4c23c1a6f28297a5a67eca14262db422651fbd0f68d57fb9a5dad98bd34a1"
+          "closeTime": "2029-11-07T15:00:00.000Z",
+          "ruleSha256": "4a7c827b70652375c2454b50fe415e079dc2811d3e535442732a401fac563ec9"
         },
         "polymarket": {
-          "id": "4031798",
+          "id": "630734",
           "eventId": null,
-          "question": "Will Dylan Marando win the 2026 Ontario Liberal Party leadership election?",
-          "description": "The 2026 Ontario Liberal Party leadership election is currently scheduled to conclude on November 21, 2026, with voting held from November 9 to November 20, 2026.\n\nThis market will resolve according to the candidate who becomes the next leader of the Ontario Liberal Party as a result of this election.\n\nTemporary, interim, or placeholder leaders appointed before the election will not be considered.\n\nIf the result of this election isn't known by March 31, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThe primary resolution source for this market will be a consensus of credible reporting; however, if there is any ambiguity in the results, this market will resolve according to official information from the Ontario Liberal Party.",
+          "question": "Will the Republicans win the Iowa Senate race in 2026?",
+          "description": "This market will resolve according to the winner of the 2026 midterm Iowa U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
           "eventDescription": null,
           "resolutionSource": null,
-          "endTime": "2026-11-10T04:59:00.000Z",
-          "ruleSha256": "d6d6f86d391d0db70ea12ba73e471fba0c528be7d11953010071bbbe47fb30c6",
-          "conditionId": "0x890827955e6004d20445bcd25487aeaa75593fe63361e444e143dbdbc02f7a1b"
+          "endTime": "2026-11-04T04:59:00.000Z",
+          "ruleSha256": "58f62beb03999f98d3f056b12e6586ee5b82454aec960a937df5c4d4728e0d59",
+          "conditionId": "0x38a1025bfc56539ed1ff8fdd468283d55cf9002412decd61aa8d6c578c7d01a2"
         },
         "warnings": [
           "DIFFERENT_LISTED_END_DATES",
@@ -986,6 +1895,66 @@
         "verified": false,
         "approved": false
       },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [
+            "2026"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 1,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.68
+      },
+      "uncertainties": [],
+      "discoverySource": "EVENT_LEVEL",
+      "reviewScore": 0.834,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": true,
       "evidenceRefreshStatus": "REFRESHED"
     },
     {
@@ -1002,13 +1971,8 @@
       "polymarketEnd": "2027-07-01",
       "differentEndDates": true,
       "ruleConflicts": [],
-      "reviewScore": 0.591,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": false,
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:40.756Z",
+        "fetchedAt": "2026-10-21T16:07:29.076Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-SOM",
           "eventTicker": null,
@@ -1045,6 +2009,69 @@
         "verified": false,
         "approved": false
       },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [
+              "2027-03-14",
+              "2027-06-30"
+            ],
+            "years": [
+              "2027"
+            ]
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 1,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.849
+      },
+      "uncertainties": [],
+      "discoverySource": "EVENT_LEVEL",
+      "reviewScore": 0.8424,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": true,
       "evidenceRefreshStatus": "REFRESHED"
     },
     {
@@ -1061,13 +2088,8 @@
       "polymarketEnd": "2027-03-14",
       "differentEndDates": true,
       "ruleConflicts": [],
-      "reviewScore": 0.585,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": false,
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:41.313Z",
+        "fetchedAt": "2026-10-21T16:07:29.726Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-ONC",
           "eventTicker": null,
@@ -1104,6 +2126,69 @@
         "verified": false,
         "approved": false
       },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [
+              "2027-03-14",
+              "2027-06-30"
+            ],
+            "years": [
+              "2027"
+            ]
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 1,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.836
+      },
+      "uncertainties": [],
+      "discoverySource": "EVENT_LEVEL",
+      "reviewScore": 0.8418,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": true,
       "evidenceRefreshStatus": "REFRESHED"
     },
     {
@@ -1120,13 +2205,8 @@
       "polymarketEnd": "2027-03-14",
       "differentEndDates": true,
       "ruleConflicts": [],
-      "reviewScore": 0.585,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": false,
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:41.836Z",
+        "fetchedAt": "2026-10-21T16:07:30.414Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-YOU",
           "eventTicker": null,
@@ -1163,124 +2243,69 @@
         "verified": false,
         "approved": false
       },
-      "evidenceRefreshStatus": "REFRESHED"
-    },
-    {
-      "category": "other",
-      "kalshiTicker": "KXOSCARINTLFILM-27-POS",
-      "polymarketId": "3377309",
-      "kalshiTitle": "Will Possible Love win Best International Feature Film at the Oscars?",
-      "polymarketTitle": "Will Possible Love win Best International Feature Film at the 99th Academy Awards?",
-      "kalshiEvent": "Oscar Winner: Best International Feature Film",
-      "polymarketEvent": "Oscars 2027: Best International Feature Film Winner",
-      "kalshiRules": "If Possible Love has won Best International Feature Film at the 99th Academy Awards, then the market resolves to Yes.",
-      "polymarketRules": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best International Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best International Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
-      "kalshiClose": "2027-12-31",
-      "polymarketEnd": "2027-03-14",
-      "differentEndDates": true,
-      "ruleConflicts": [],
-      "reviewScore": 0.569,
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [
+              "2027-03-14",
+              "2027-06-30"
+            ],
+            "years": [
+              "2027"
+            ]
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 1,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.836
+      },
+      "uncertainties": [],
+      "discoverySource": "EVENT_LEVEL",
+      "reviewScore": 0.8418,
       "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
       "approved": false,
       "executable": false,
-      "evidenceChanged": false,
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:42.391Z",
-        "kalshi": {
-          "ticker": "KXOSCARINTLFILM-27-POS",
-          "eventTicker": null,
-          "marketTitle": "Will Possible Love win Best International Feature Film at the Oscars? Possible Love::",
-          "rulesPrimary": "If Possible Love has won Best International Feature Film at the 99th Academy Awards, then the market resolves to Yes.",
-          "rulesSecondary": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
-          "closeTime": "2027-12-31T15:00:00.000Z",
-          "ruleSha256": "bf9a95f0e60bf5074378e5812688ff03a81c89e4c1cdb773afbb2b449ef25022"
-        },
-        "polymarket": {
-          "id": "3377309",
-          "eventId": null,
-          "question": "Will Possible Love win Best International Feature Film at the 99th Academy Awards?",
-          "description": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best International Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best International Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
-          "eventDescription": null,
-          "resolutionSource": "https://www.oscars.org/",
-          "endTime": "2027-03-14T23:59:00.000Z",
-          "ruleSha256": "7c5dc64bb42c3abddfa3e2bc9ca5bd7d3a133fa806ed28ad63b56da554b01409",
-          "conditionId": "0x6b3ffc8e00e0cf40f62149ce959b3ca196b3afe7e9a1ff09d9ea336da11aa338"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "evidenceRefreshStatus": "REFRESHED"
-    },
-    {
-      "category": "other",
-      "kalshiTicker": "KXOSCARINTLFILM-27-ALL",
-      "polymarketId": "3377305",
-      "kalshiTitle": "Will All of a Sudden win Best International Feature Film at the Oscars?",
-      "polymarketTitle": "Will All of a Sudden win Best International Feature Film at the 99th Academy Awards?",
-      "kalshiEvent": "Oscar Winner: Best International Feature Film",
-      "polymarketEvent": "Oscars 2027: Best International Feature Film Winner",
-      "kalshiRules": "If All of a Sudden has won Best International Feature Film at the 99th Academy Awards, then the market resolves to Yes.",
-      "polymarketRules": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best International Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best International Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
-      "kalshiClose": "2027-12-31",
-      "polymarketEnd": "2027-03-14",
-      "differentEndDates": true,
-      "ruleConflicts": [],
-      "reviewScore": 0.569,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": false,
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:42.925Z",
-        "kalshi": {
-          "ticker": "KXOSCARINTLFILM-27-ALL",
-          "eventTicker": null,
-          "marketTitle": "Will All of a Sudden win Best International Feature Film at the Oscars? All of a Sudden::",
-          "rulesPrimary": "If All of a Sudden has won Best International Feature Film at the 99th Academy Awards, then the market resolves to Yes.",
-          "rulesSecondary": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
-          "closeTime": "2027-12-31T15:00:00.000Z",
-          "ruleSha256": "287d4d68cfc25552368eca20f2da8826360c36161a7098322c615fbeb25ec372"
-        },
-        "polymarket": {
-          "id": "3377305",
-          "eventId": null,
-          "question": "Will All of a Sudden win Best International Feature Film at the 99th Academy Awards?",
-          "description": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best International Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best International Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
-          "eventDescription": null,
-          "resolutionSource": "https://www.oscars.org/",
-          "endTime": "2027-03-14T23:59:00.000Z",
-          "ruleSha256": "7c5dc64bb42c3abddfa3e2bc9ca5bd7d3a133fa806ed28ad63b56da554b01409",
-          "conditionId": "0x08e04dbdfa142bfca6f4cec3e6083043263859e7dfad636563d322c077a57a4a"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
+      "evidenceChanged": true,
       "evidenceRefreshStatus": "REFRESHED"
     },
     {
@@ -1297,13 +2322,8 @@
       "polymarketEnd": "2027-03-14",
       "differentEndDates": true,
       "ruleConflicts": [],
-      "reviewScore": 0.569,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": false,
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:43.470Z",
+        "fetchedAt": "2026-10-21T16:07:31.060Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-NUI",
           "eventTicker": null,
@@ -1340,6 +2360,69 @@
         "verified": false,
         "approved": false
       },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [
+              "2027-03-14",
+              "2027-06-30"
+            ],
+            "years": [
+              "2027"
+            ]
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 1,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.804
+      },
+      "uncertainties": [],
+      "discoverySource": "EVENT_LEVEL",
+      "reviewScore": 0.8402,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": true,
       "evidenceRefreshStatus": "REFRESHED"
     },
     {
@@ -1356,13 +2439,8 @@
       "polymarketEnd": "2027-03-14",
       "differentEndDates": true,
       "ruleConflicts": [],
-      "reviewScore": 0.569,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": false,
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:44.038Z",
+        "fetchedAt": "2026-10-21T16:07:31.706Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-ONE",
           "eventTicker": null,
@@ -1399,6 +2477,69 @@
         "verified": false,
         "approved": false
       },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [
+              "2027-03-14",
+              "2027-06-30"
+            ],
+            "years": [
+              "2027"
+            ]
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 1,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.804
+      },
+      "uncertainties": [],
+      "discoverySource": "EVENT_LEVEL",
+      "reviewScore": 0.8402,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": true,
       "evidenceRefreshStatus": "REFRESHED"
     },
     {
@@ -1415,13 +2556,8 @@
       "polymarketEnd": "2027-03-14",
       "differentEndDates": true,
       "ruleConflicts": [],
-      "reviewScore": 0.569,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": false,
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:02:44.578Z",
+        "fetchedAt": "2026-10-21T16:07:32.351Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-AME",
           "eventTicker": null,
@@ -1458,6 +2594,303 @@
         "verified": false,
         "approved": false
       },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [
+              "2027-03-14",
+              "2027-06-30"
+            ],
+            "years": [
+              "2027"
+            ]
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 1,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.804
+      },
+      "uncertainties": [],
+      "discoverySource": "EVENT_LEVEL",
+      "reviewScore": 0.8402,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": true,
+      "evidenceRefreshStatus": "REFRESHED"
+    },
+    {
+      "category": "other",
+      "kalshiTicker": "KXOSCARPIC-27-WIL",
+      "polymarketId": "3145013",
+      "kalshiTitle": "Will Wild Horse Nine win Best Picture at the Oscars?",
+      "polymarketTitle": "Will Wild Horse Nine win Best Picture at the 99th Academy Awards?",
+      "kalshiEvent": "Oscar Winner: Best Picture",
+      "polymarketEvent": "Oscars 2027: Best Picture Winner",
+      "kalshiRules": "If Wild Horse Nine has won Best Picture at the 99th Academy Awards, then the market resolves to Yes.",
+      "polymarketRules": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best Picture. \n\nIf a film is not officially nominated for the Academy Award for Best Picture when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+      "kalshiClose": "2027-12-31",
+      "polymarketEnd": "2027-03-14",
+      "differentEndDates": true,
+      "ruleConflicts": [],
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T16:07:33.002Z",
+        "kalshi": {
+          "ticker": "KXOSCARPIC-27-WIL",
+          "eventTicker": null,
+          "marketTitle": "Will Wild Horse Nine win Best Picture at the Oscars? Wild Horse Nine::",
+          "rulesPrimary": "If Wild Horse Nine has won Best Picture at the 99th Academy Awards, then the market resolves to Yes.",
+          "rulesSecondary": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+          "closeTime": "2027-12-31T15:00:00.000Z",
+          "ruleSha256": "fadf416bccb44a8f62374a6523a8bc3af25542bfcfcfed302cd64a05035e74c4"
+        },
+        "polymarket": {
+          "id": "3145013",
+          "eventId": null,
+          "question": "Will Wild Horse Nine win Best Picture at the 99th Academy Awards?",
+          "description": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best Picture. \n\nIf a film is not officially nominated for the Academy Award for Best Picture when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": "https://www.oscars.org/",
+          "endTime": "2027-03-14T23:59:00.000Z",
+          "ruleSha256": "8fe55ccd80d74a64fcd6306c947381871d0a7d9e79b154a376d6b384a5f238cc",
+          "conditionId": "0x19522fdccfa33e80238f6687c32870ef8013b1bf896440043888add9989151c4"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [
+              "2027-03-14",
+              "2027-06-30"
+            ],
+            "years": [
+              "2027"
+            ]
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 1,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.783
+      },
+      "uncertainties": [],
+      "discoverySource": "EVENT_LEVEL",
+      "reviewScore": 0.8391,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": true,
+      "evidenceRefreshStatus": "REFRESHED"
+    },
+    {
+      "category": "other",
+      "kalshiTicker": "KXOSCARDOCU-27-MUS",
+      "polymarketId": "3377271",
+      "kalshiTitle": "Will Musk win Best Documentary Feature Film at the Oscars?",
+      "polymarketTitle": "Will Musk win Best Documentary Feature Film at the 99th Academy Awards?",
+      "kalshiEvent": "Oscar Winner: Best Documentary Feature Film",
+      "polymarketEvent": "Oscars 2027: Best Documentary Feature Film Winner",
+      "kalshiRules": "If Musk has won Best Documentary Feature Film at the 99th Academy Awards, then the market resolves to Yes.",
+      "polymarketRules": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best Documentary Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best Documentary Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+      "kalshiClose": "2027-12-31",
+      "polymarketEnd": "2027-03-14",
+      "differentEndDates": true,
+      "ruleConflicts": [],
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T16:07:33.686Z",
+        "kalshi": {
+          "ticker": "KXOSCARDOCU-27-MUS",
+          "eventTicker": null,
+          "marketTitle": "Will Musk win Best Documentary Feature Film at the Oscars? Musk::",
+          "rulesPrimary": "If Musk has won Best Documentary Feature Film at the 99th Academy Awards, then the market resolves to Yes.",
+          "rulesSecondary": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+          "closeTime": "2027-12-31T15:00:00.000Z",
+          "ruleSha256": "dcddc4e015a2a60ed6ce4f8fdaea0be2d31de29cf2a4b4f1282ac6975a9deae6"
+        },
+        "polymarket": {
+          "id": "3377271",
+          "eventId": null,
+          "question": "Will Musk win Best Documentary Feature Film at the 99th Academy Awards?",
+          "description": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best Documentary Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best Documentary Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": "https://www.oscars.org/",
+          "endTime": "2027-03-14T23:59:00.000Z",
+          "ruleSha256": "4a793e59bcecf30044f686c851de5f878af74cc6c28091d267b67d15b480ba2e",
+          "conditionId": "0x5f9de829d19177a19653e11c48bc4d9c40b4caae697e44105179b6a9d11828d9"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [
+              "2027-03-14",
+              "2027-06-30"
+            ],
+            "years": [
+              "2027"
+            ]
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "qualityComponents": {
+        "exact": 1,
+        "ruleCompleteness": 1,
+        "identifiers": 1,
+        "liquidity": 0,
+        "title": 0.783
+      },
+      "uncertainties": [],
+      "discoverySource": "EVENT_LEVEL",
+      "reviewScore": 0.8391,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": true,
       "evidenceRefreshStatus": "REFRESHED"
     }
   ],
@@ -1465,11 +2898,11 @@
     "No candidate is auto-approved.",
     "Review complete contract rules, deadlines, void/cancellation behavior and identifiers before adding to approved-pairs.json."
   ],
-  "refreshedAt": "2026-10-21T08:02:44.779Z",
+  "refreshedAt": "2026-10-21T16:07:33.886Z",
   "evidenceRefresh": {
     "attempted": 24,
     "successful": 24,
-    "changed": 0,
+    "changed": 24,
     "failed": 0,
     "errors": []
   }
