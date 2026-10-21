@@ -20,3 +20,12 @@ test("triage preserves rejection reasons and never approves",()=>{
  const q=triageRefreshedQueue({candidates:[make("Derrick Henry: 14,000+ Rushing Yards","Derrick Henry 1,000+ rushing yards season","at least 14,000 career regular season rushing yards","equals or exceeds 1,000 regular season rushing yards")]});
  assert.equal(q.settlementTriage.rejected,1);assert.equal(q.candidates.length,0);
 });
+
+test("rejects 2029 Senate term against 2026 election",()=>{
+ const r=screenSettlementRisk(make("Will Republicans win the Senate race in New Hampshire?","Will the Republicans win the New Hampshire Senate race in 2026?","If a Republican is sworn in as a Senator of New Hampshire for the term beginning in 2029, resolves Yes.","This market resolves according to the winner of the 2026 midterm New Hampshire U.S. Senate election."));
+ assert.ok(r.reasons.includes("SENATE_TERM_YEAR_VS_ELECTION_YEAR"));
+});
+test("does not reject aligned 2027 Senate term and 2026 election on year alone",()=>{
+ const r=screenSettlementRisk(make("Will Republicans win the Senate race in New Hampshire?","Will the Republicans win the New Hampshire Senate race in 2026?","If a Republican is sworn in for the term beginning in 2027, resolves Yes.","Winner of the 2026 midterm New Hampshire U.S. Senate election."));
+ assert.ok(!r.reasons.includes("SENATE_TERM_YEAR_VS_ELECTION_YEAR"));
+});
