@@ -127,3 +127,17 @@ The scheduled workflow builds `arbitrage-pair-registry.json` and publishes `repo
 `arbitrage/spread-history.js` retains a deduplicated rolling seven days of spread observations (up to 20,000 records), including per-pair counts, positive modeled spread counts, and best modeled ROI. The workflow publishes `reports/latest-spread-history.json` every six hours. Historical samples are *not* proof of executable arbitrage or fill probability. With zero verified pairs the history will correctly remain empty.
 
 To inspect manually: `node --test arbitrage/*.test.js`, `node arbitrage/pair-registry-cli.js`, `node arbitrage/spread-observer-cli.js`, `node arbitrage/spread-history-cli.js`.
+
+## Expanded data collection (October 2026)
+
+Discovery now defaults to 12 event pages (previously 8), up to 6 Kalshi series and 3 Polymarket tags per category, and up to 60 output candidates. A Polymarket tag fallback bug that previously collected as many as 50 tags for one category was fixed; category coverage now respects configured limits. The missing rejection-cache import that interrupted a previous collector run was also repaired.
+
+The scheduled read-only workflow writes:
+- `reports/latest-events.json`: current discovery scan, including source coverage and mismatch counts.
+- `reports/latest-candidate-history.json`: deduplicated rolling 30-day candidate history with repeat sightings.
+- `reports/latest-coverage-history.json`: rolling 30-day scanner counts and error diagnostics.
+- `reports/latest-review-queue.json`: current human review queue and refreshed official evidence.
+- `reports/latest-pair-registry.json`: persistent manual verification status.
+- `reports/latest-spread-history.json`: seven-day modeled spreads **only for explicitly verified, configured pairs**.
+
+The history and coverage reports are created on successful runs and are not backfilled from unseen historical scans. The absence of a report is not evidence that data were collected. Candidate count and title similarity must never be represented as verified arbitrage opportunities.
