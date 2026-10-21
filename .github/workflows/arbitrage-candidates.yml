@@ -35,6 +35,12 @@ on:
       - 'arbitrage/discovery-benchmark.test.js'
       - 'arbitrage/review-dashboard-cli.js'
       - 'arbitrage/discovery-benchmark-cli.js'
+      - 'arbitrage/pair-registry.js'
+      - 'arbitrage/pair-registry-cli.js'
+      - 'arbitrage/pair-registry.test.js'
+      - 'arbitrage/manual-reviews.json'
+      - 'arbitrage/spread-history.js'
+      - 'arbitrage/spread-history-cli.js'
       - '.github/workflows/arbitrage-candidates.yml'
 jobs:
   discovery:
@@ -70,12 +76,18 @@ jobs:
       - name: Refresh current official contract rules for manual review
         if: success()
         run: node arbitrage/evidence-refresh-cli.js
+      - name: Update persistent verified-pair registry
+        if: success()
+        run: node arbitrage/pair-registry-cli.js
       - name: Render manual settlement review dashboard
         if: success()
         run: node arbitrage/review-dashboard-cli.js
       - name: Observe spreads on manually verified watchlist (read only)
         if: success()
         run: node arbitrage/spread-observer-cli.js
+      - name: Accumulate seven-day spread observation history
+        if: success()
+        run: node arbitrage/spread-history-cli.js
       - name: Compare new event candidates with previous report
         if: success()
         run: node arbitrage/event-changes.js
@@ -125,6 +137,12 @@ jobs:
             } else {
               await publish('reports/latest-event-failure.json',eventReport);
             }
+            if (fs.existsSync('arbitrage-pair-registry.json')) {
+              await publish('reports/latest-pair-registry.json',fs.readFileSync('arbitrage-pair-registry.json','utf8'));
+            }
+            if (fs.existsSync('arbitrage-spread-history.json')) {
+              await publish('reports/latest-spread-history.json',fs.readFileSync('arbitrage-spread-history.json','utf8'));
+            }
             if (fs.existsSync('arbitrage-discovery-benchmark.json')) {
               await publish('reports/latest-discovery-benchmark.json',fs.readFileSync('arbitrage-discovery-benchmark.json','utf8'));
             }
@@ -157,4 +175,6 @@ jobs:
             arbitrage-review-queue.json
             arbitrage-review-dashboard.md
             arbitrage-discovery-benchmark.json
+            arbitrage-pair-registry.json
+            arbitrage-spread-history.json
           if-no-files-found: warn
