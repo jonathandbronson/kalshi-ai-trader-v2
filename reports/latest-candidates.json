@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T17:09:22.817Z",
+  "timestamp": "2026-10-21T17:10:47.937Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -47,7 +47,7 @@
         "kalshiYesAskSize": 11035.01,
         "kalshiNoAskSize": 11300.01,
         "polymarketYesAskSize": 300,
-        "polymarketNoAskSize": 350
+        "polymarketNoAskSize": 250
       },
       "illustrativeBeforeFees": [
         {
@@ -89,7 +89,7 @@
         "kalshiYesAskSize": 11035.01,
         "kalshiNoAskSize": 11300.01,
         "polymarketYesAskSize": 300,
-        "polymarketNoAskSize": 350
+        "polymarketNoAskSize": 250
       },
       "illustrativeBeforeFees": [
         {
@@ -128,10 +128,10 @@
         "kalshiNoAsk": 0.99,
         "polymarketYesAsk": 0.84,
         "polymarketNoAsk": 0.19,
-        "kalshiYesAskSize": 7785,
-        "kalshiNoAskSize": 7785,
+        "kalshiYesAskSize": 8035,
+        "kalshiNoAskSize": 8035,
         "polymarketYesAskSize": 300,
-        "polymarketNoAskSize": 350
+        "polymarketNoAskSize": 250
       },
       "illustrativeBeforeFees": [
         {
@@ -173,7 +173,7 @@
         "kalshiYesAskSize": 10785.01,
         "kalshiNoAskSize": 10785.01,
         "polymarketYesAskSize": 300,
-        "polymarketNoAskSize": 350
+        "polymarketNoAskSize": 250
       },
       "illustrativeBeforeFees": [
         {
@@ -215,7 +215,7 @@
         "kalshiYesAskSize": 10785.01,
         "kalshiNoAskSize": 10785.01,
         "polymarketYesAskSize": 300,
-        "polymarketNoAskSize": 350
+        "polymarketNoAskSize": 250
       },
       "illustrativeBeforeFees": [
         {
@@ -257,7 +257,7 @@
         "kalshiYesAskSize": 3035,
         "kalshiNoAskSize": 3035,
         "polymarketYesAskSize": 300,
-        "polymarketNoAskSize": 350
+        "polymarketNoAskSize": 250
       },
       "illustrativeBeforeFees": [
         {
@@ -299,7 +299,7 @@
         "kalshiYesAskSize": 3035,
         "kalshiNoAskSize": 3600,
         "polymarketYesAskSize": 300,
-        "polymarketNoAskSize": 350
+        "polymarketNoAskSize": 250
       },
       "illustrativeBeforeFees": [
         {
