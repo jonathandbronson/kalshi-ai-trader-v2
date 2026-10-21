@@ -336,7 +336,7 @@ async function collect(){
    const generated=await generateEmbeddings(inputs);
    Object.assign(vectors,generated.vectors);
    embeddingGeneration={status:"GENERATED",generated:inputs.length,calls:generated.calls};
-   await writeFile(process.env.ARB_EMBEDDING_CACHE_OUTPUT??"arbitrage-embedding-cache.json",JSON.stringify({schemaVersion:1,vectors},null,2)+"\\n");
+   await writeFile(process.env.ARB_EMBEDDING_CACHE_OUTPUT??"arbitrage-embedding-cache.json",JSON.stringify({schemaVersion:1,vectors},null,2)+"\n");
   }catch(e){embeddingGeneration={status:"FAILED",generated:0,error:String(e.message).slice(0,180)};report.errors.push("optional neural embedding: "+e.message)}
  }
  const neural=embeddingCandidates(kalshi,poly,vectors,{limit:Math.max(100,Math.min(1000,Number(process.env.ARB_NEURAL_LIMIT??300)))});
@@ -403,7 +403,7 @@ async function collect(){
    polymarketTitle:x.polymarket.title,category:x.category,discoverySource:x.discoverySource,
    score:x.contractScore,approved:false,executable:false,settlementVerified:false
   }))};
- await writeFile(process.env.ARB_DISCOVERY_ARCHIVE??"arbitrage-discovery-archive.json",JSON.stringify(discoveryArchive,null,2)+"\\n");
+ await writeFile(process.env.ARB_DISCOVERY_ARCHIVE??"arbitrage-discovery-archive.json",JSON.stringify(discoveryArchive,null,2)+"\n");
  report.counts.discoveryArchive={total:discoveryArchive.total,saved:discoveryArchive.candidates.length};
  report.counts.eligibleCandidatePool=pool.length;
  report.counts.eligibleDistinctKalshiMarkets=new Set(pool.map(x=>x.kalshi.ticker)).size;
