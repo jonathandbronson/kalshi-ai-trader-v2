@@ -23,6 +23,16 @@ on:
       - 'arbitrage/review-queue.js'
       - 'arbitrage/review-queue.test.js'
       - 'arbitrage/review-queue-cli.js'
+      - 'arbitrage/market-matcher.js'
+      - 'arbitrage/market-matcher.test.js'
+      - 'arbitrage/rule-evidence.js'
+      - 'arbitrage/rule-evidence.test.js'
+      - 'arbitrage/rejection-policy.js'
+      - 'arbitrage/evidence-refresh.js'
+      - 'arbitrage/evidence-refresh.test.js'
+      - 'arbitrage/evidence-refresh-cli.js'
+      - 'arbitrage/discovery-benchmark.js'
+      - 'arbitrage/discovery-benchmark.test.js'
       - '.github/workflows/arbitrage-candidates.yml'
 jobs:
   discovery:
@@ -43,6 +53,8 @@ jobs:
           node --check arbitrage/candidate-discovery.js
           node --check arbitrage/event-discovery.js
           node --check arbitrage/event-changes.js
+          node --check arbitrage/market-matcher.js
+          node --check arbitrage/evidence-refresh.js
           node --test arbitrage/*.test.js
       - name: Collect and score candidate markets (read only)
         run: node arbitrage/candidate-discovery.js
@@ -51,6 +63,9 @@ jobs:
       - name: Build diversified manual settlement review queue
         if: success()
         run: node arbitrage/review-queue-cli.js
+      - name: Refresh current official contract rules for manual review
+        if: success()
+        run: node arbitrage/evidence-refresh-cli.js
       - name: Observe spreads on manually verified watchlist (read only)
         if: success()
         run: node arbitrage/spread-observer-cli.js
