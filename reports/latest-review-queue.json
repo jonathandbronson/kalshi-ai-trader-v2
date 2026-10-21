@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-10-21T16:13:18.709Z",
+  "timestamp": "2026-10-21T16:43:12.101Z",
   "mode": "RESEARCH_ONLY",
   "verifiedPairs": 0,
   "sourceStatus": "COLLECTED",
-  "sourceTimestamp": "2026-10-21T16:13:02.665Z",
+  "sourceTimestamp": "2026-10-21T16:42:49.771Z",
   "categoryCounts": {
     "sports": 8,
     "politics": 8,
@@ -11,1110 +11,6 @@
   },
   "qualityRejections": {},
   "candidates": [
-    {
-      "category": "politics",
-      "kalshiTicker": "SENATENH-28-R",
-      "polymarketId": "630845",
-      "kalshiTitle": "Will Republicans win the Senate race in New Hampshire?",
-      "polymarketTitle": "Will the Republicans win the New Hampshire Senate race in 2026?",
-      "kalshiEvent": "New Hampshire Senate winner? (2028)",
-      "polymarketEvent": "New Hampshire Senate Election Winner",
-      "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of New Hampshire for the term beginning in 2029, then the market resolves to Yes.",
-      "polymarketRules": "This market will resolve according to the winner of the 2026 midterm New Hampshire U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-      "kalshiClose": "2029-11-07",
-      "polymarketEnd": "2026-11-04",
-      "differentEndDates": true,
-      "ruleConflicts": [],
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:13:23.115Z",
-        "kalshi": {
-          "ticker": "SENATENH-28-R",
-          "eventTicker": null,
-          "marketTitle": "Will Republicans win the Senate race in New Hampshire? ::",
-          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of New Hampshire for the term beginning in 2029, then the market resolves to Yes.",
-          "rulesSecondary": null,
-          "closeTime": "2029-11-07T15:00:00.000Z",
-          "ruleSha256": "75c5fdda5c6334a030cd0401c1c609de35f95ee788bfff9ade7f6686b51d3562"
-        },
-        "polymarket": {
-          "id": "630845",
-          "eventId": null,
-          "question": "Will the Republicans win the New Hampshire Senate race in 2026?",
-          "description": "This market will resolve according to the winner of the 2026 midterm New Hampshire U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-          "eventDescription": null,
-          "resolutionSource": null,
-          "endTime": "2026-11-04T04:59:00.000Z",
-          "ruleSha256": "e7a8afd74a29d281fc9217bd8c5db9ad1b9fa4870b552ade49649533c82a0ee0",
-          "conditionId": "0x57599a84bf50c94b958adb020aa2a25bf02e26453e500d3b739d86e6b783774c"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": false
-        },
-        "polymarket": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [
-            "2026"
-          ],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "qualityComponents": {
-        "exact": 1,
-        "ruleCompleteness": 1,
-        "identifiers": 1,
-        "liquidity": 0,
-        "title": 0.926
-      },
-      "uncertainties": [],
-      "discoverySource": "EVENT_LEVEL",
-      "reviewScore": 0.8463,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED",
-      "settlementScreen": {
-        "status": "NEEDS_HUMAN_REVIEW",
-        "reasons": [],
-        "warnings": [
-          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
-          "PERIOD_NOT_ESTABLISHED"
-        ],
-        "terms": {
-          "kalshi": {
-            "period": null,
-            "metric": null,
-            "threshold": null,
-            "firstTo": false
-          },
-          "polymarket": {
-            "period": null,
-            "metric": null,
-            "threshold": null,
-            "firstTo": false
-          }
-        },
-        "settlementVerified": false
-      }
-    },
-    {
-      "category": "politics",
-      "kalshiTicker": "SENATEGA-28-R",
-      "polymarketId": "630693",
-      "kalshiTitle": "Will Republicans win the Senate race in Georgia?",
-      "polymarketTitle": "Will the Republicans win the Georgia Senate race in 2026?",
-      "kalshiEvent": "Georgia Senate winner? (2028)",
-      "polymarketEvent": "Georgia Senate Election Winner",
-      "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Georgia for the term beginning in 2029, then the market resolves to Yes.",
-      "polymarketRules": "This market will resolve according to the winner of the 2026 midterm Georgia U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-      "kalshiClose": "2029-11-07",
-      "polymarketEnd": "2026-11-04",
-      "differentEndDates": true,
-      "ruleConflicts": [],
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:13:23.585Z",
-        "kalshi": {
-          "ticker": "SENATEGA-28-R",
-          "eventTicker": null,
-          "marketTitle": "Will Republicans win the Senate race in Georgia? ::",
-          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Georgia for the term beginning in 2029, then the market resolves to Yes.",
-          "rulesSecondary": null,
-          "closeTime": "2029-11-07T15:00:00.000Z",
-          "ruleSha256": "881e41cf424cda0b7c18ac4a85982fb04f1003ebd2d0dc8c74c38d4b403f575c"
-        },
-        "polymarket": {
-          "id": "630693",
-          "eventId": null,
-          "question": "Will the Republicans win the Georgia Senate race in 2026?",
-          "description": "This market will resolve according to the winner of the 2026 midterm Georgia U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-          "eventDescription": null,
-          "resolutionSource": null,
-          "endTime": "2026-11-04T04:59:00.000Z",
-          "ruleSha256": "d9337001920aae6055a1a6db4d04a43149b1ccfc3adcfc190d3f45510c111494",
-          "conditionId": "0x54e4e816cc5868e2f933c6bbc597e3313bdad382be3ecf7eaa4d8fa5c3f1a1bd"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": false
-        },
-        "polymarket": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [
-            "2026"
-          ],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "qualityComponents": {
-        "exact": 1,
-        "ruleCompleteness": 1,
-        "identifiers": 1,
-        "liquidity": 0,
-        "title": 0.913
-      },
-      "uncertainties": [],
-      "discoverySource": "EVENT_LEVEL",
-      "reviewScore": 0.8456,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED",
-      "settlementScreen": {
-        "status": "NEEDS_HUMAN_REVIEW",
-        "reasons": [],
-        "warnings": [
-          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
-          "PERIOD_NOT_ESTABLISHED"
-        ],
-        "terms": {
-          "kalshi": {
-            "period": null,
-            "metric": null,
-            "threshold": null,
-            "firstTo": false
-          },
-          "polymarket": {
-            "period": null,
-            "metric": null,
-            "threshold": null,
-            "firstTo": false
-          }
-        },
-        "settlementVerified": false
-      }
-    },
-    {
-      "category": "politics",
-      "kalshiTicker": "SENATEFL-28-R",
-      "polymarketId": "631045",
-      "kalshiTitle": "Will Republicans win the Senate race in Florida?",
-      "polymarketTitle": "Will the Republicans win the Florida Senate race in 2026?",
-      "kalshiEvent": "Florida Senate winner? (2028)",
-      "polymarketEvent": "Florida Senate Election Winner",
-      "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Florida for the term beginning in 2029, then the market resolves to Yes.",
-      "polymarketRules": "This market will resolve according to the winner of the 2026 Florida U.S. Senate special election currently scheduled for November 3, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-      "kalshiClose": "2029-11-07",
-      "polymarketEnd": "2026-11-04",
-      "differentEndDates": true,
-      "ruleConflicts": [],
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:13:24.122Z",
-        "kalshi": {
-          "ticker": "SENATEFL-28-R",
-          "eventTicker": null,
-          "marketTitle": "Will Republicans win the Senate race in Florida? ::",
-          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Florida for the term beginning in 2029, then the market resolves to Yes.",
-          "rulesSecondary": null,
-          "closeTime": "2029-11-07T15:00:00.000Z",
-          "ruleSha256": "ad69a2d45d26ca7c07816a5dd1d54118c7284385dd1498feb873b8dd613bc96c"
-        },
-        "polymarket": {
-          "id": "631045",
-          "eventId": null,
-          "question": "Will the Republicans win the Florida Senate race in 2026?",
-          "description": "This market will resolve according to the winner of the 2026 Florida U.S. Senate special election currently scheduled for November 3, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-          "eventDescription": null,
-          "resolutionSource": null,
-          "endTime": "2026-11-04T04:59:00.000Z",
-          "ruleSha256": "abee5a06f7ce6d3ce6e0365565f6b7e600c56cf9949a93677416ee50e7ac7159",
-          "conditionId": "0xe655180a65e17b6959aa722821312de23513cba6c6d2e3a55f47f198977316bf"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": false
-        },
-        "polymarket": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [
-            "2026"
-          ],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "qualityComponents": {
-        "exact": 1,
-        "ruleCompleteness": 1,
-        "identifiers": 1,
-        "liquidity": 0,
-        "title": 0.913
-      },
-      "uncertainties": [],
-      "discoverySource": "EVENT_LEVEL",
-      "reviewScore": 0.8456,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED",
-      "settlementScreen": {
-        "status": "NEEDS_HUMAN_REVIEW",
-        "reasons": [],
-        "warnings": [
-          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
-          "PERIOD_NOT_ESTABLISHED"
-        ],
-        "terms": {
-          "kalshi": {
-            "period": null,
-            "metric": null,
-            "threshold": null,
-            "firstTo": false
-          },
-          "polymarket": {
-            "period": null,
-            "metric": null,
-            "threshold": null,
-            "firstTo": false
-          }
-        },
-        "settlementVerified": false
-      }
-    },
-    {
-      "category": "politics",
-      "kalshiTicker": "SENATESD-28-R",
-      "polymarketId": "630938",
-      "kalshiTitle": "Will Republicans win the Senate race in South Dakota?",
-      "polymarketTitle": "Will the Republicans win the South Dakota Senate race in 2026?",
-      "kalshiEvent": "South Dakota Senate winner? (2028)",
-      "polymarketEvent": "South Dakota Senate Election Winner",
-      "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of South Dakota for the term beginning in 2029, then the market resolves to Yes.",
-      "polymarketRules": "This market will resolve according to the winner of the 2026 midterm South Dakota U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-      "kalshiClose": "2029-11-07",
-      "polymarketEnd": "2026-11-04",
-      "differentEndDates": true,
-      "ruleConflicts": [],
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:13:24.616Z",
-        "kalshi": {
-          "ticker": "SENATESD-28-R",
-          "eventTicker": null,
-          "marketTitle": "Will Republicans win the Senate race in South Dakota? :: Current incumbent: John Thune",
-          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of South Dakota for the term beginning in 2029, then the market resolves to Yes.",
-          "rulesSecondary": null,
-          "closeTime": "2029-11-07T15:00:00.000Z",
-          "ruleSha256": "571b921e874f401be0c3ec5b4756fce0053323198a5c7da93f52d209534c6816"
-        },
-        "polymarket": {
-          "id": "630938",
-          "eventId": null,
-          "question": "Will the Republicans win the South Dakota Senate race in 2026?",
-          "description": "This market will resolve according to the winner of the 2026 midterm South Dakota U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-          "eventDescription": null,
-          "resolutionSource": null,
-          "endTime": "2026-11-04T04:59:00.000Z",
-          "ruleSha256": "78b01ef5d1e83d09223140b9b400e4d06f2bdc84ad51c9cc53f7f58972d7d31e",
-          "conditionId": "0xeec26e9d0efd895ba65bc3f1f0cbe99f66a56833682430dc266277a6c9e6e60f"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": false
-        },
-        "polymarket": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [
-            "2026"
-          ],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "qualityComponents": {
-        "exact": 1,
-        "ruleCompleteness": 1,
-        "identifiers": 1,
-        "liquidity": 0,
-        "title": 0.717
-      },
-      "uncertainties": [],
-      "discoverySource": "EVENT_LEVEL",
-      "reviewScore": 0.8358,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED",
-      "settlementScreen": {
-        "status": "NEEDS_HUMAN_REVIEW",
-        "reasons": [],
-        "warnings": [
-          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
-          "PERIOD_NOT_ESTABLISHED"
-        ],
-        "terms": {
-          "kalshi": {
-            "period": null,
-            "metric": null,
-            "threshold": null,
-            "firstTo": false
-          },
-          "polymarket": {
-            "period": null,
-            "metric": null,
-            "threshold": null,
-            "firstTo": false
-          }
-        },
-        "settlementVerified": false
-      }
-    },
-    {
-      "category": "politics",
-      "kalshiTicker": "SENATESC-28-R",
-      "polymarketId": "630925",
-      "kalshiTitle": "Will Republicans win the Senate race in South Carolina?",
-      "polymarketTitle": "Will the Republicans win the South Carolina Senate race in 2026?",
-      "kalshiEvent": "South Carolina Senate winner? (2028)",
-      "polymarketEvent": "South Carolina Senate Election Winner",
-      "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of South Carolina for the term beginning in 2029, then the market resolves to Yes.",
-      "polymarketRules": "This market will resolve according to the winner of the 2026 midterm South Carolina U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-      "kalshiClose": "2029-11-07",
-      "polymarketEnd": "2026-11-04",
-      "differentEndDates": true,
-      "ruleConflicts": [],
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:13:25.111Z",
-        "kalshi": {
-          "ticker": "SENATESC-28-R",
-          "eventTicker": null,
-          "marketTitle": "Will Republicans win the Senate race in South Carolina? :: Current incumbent: Tim Scott",
-          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of South Carolina for the term beginning in 2029, then the market resolves to Yes.",
-          "rulesSecondary": null,
-          "closeTime": "2029-11-07T15:00:00.000Z",
-          "ruleSha256": "3df562a76f298a78be5e77e79251b81faddcc1c2d4f289c724da2c28bbf330e4"
-        },
-        "polymarket": {
-          "id": "630925",
-          "eventId": null,
-          "question": "Will the Republicans win the South Carolina Senate race in 2026?",
-          "description": "This market will resolve according to the winner of the 2026 midterm South Carolina U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-          "eventDescription": null,
-          "resolutionSource": null,
-          "endTime": "2026-11-04T04:59:00.000Z",
-          "ruleSha256": "8194e81ff39d309088624af1535c0929e3024d9c65de1ce0e9ad8037b06d0bc4",
-          "conditionId": "0x1c017cbb38a9d0ab233ebb265b25c78290317e6a2470657ca18a73a112397b55"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": false
-        },
-        "polymarket": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [
-            "2026"
-          ],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "qualityComponents": {
-        "exact": 1,
-        "ruleCompleteness": 1,
-        "identifiers": 1,
-        "liquidity": 0,
-        "title": 0.717
-      },
-      "uncertainties": [],
-      "discoverySource": "EVENT_LEVEL",
-      "reviewScore": 0.8358,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED",
-      "settlementScreen": {
-        "status": "NEEDS_HUMAN_REVIEW",
-        "reasons": [],
-        "warnings": [
-          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
-          "PERIOD_NOT_ESTABLISHED"
-        ],
-        "terms": {
-          "kalshi": {
-            "period": null,
-            "metric": null,
-            "threshold": null,
-            "firstTo": false
-          },
-          "polymarket": {
-            "period": null,
-            "metric": null,
-            "threshold": null,
-            "firstTo": false
-          }
-        },
-        "settlementVerified": false
-      }
-    },
-    {
-      "category": "politics",
-      "kalshiTicker": "SENATEOH-28-R",
-      "polymarketId": "631058",
-      "kalshiTitle": "Will Republicans win the Senate race in Ohio?",
-      "polymarketTitle": "Will the Republicans win the Ohio Senate race in 2026?",
-      "kalshiEvent": "Ohio Senate winner? (2028)",
-      "polymarketEvent": "Ohio Senate Election Winner",
-      "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Ohio for the term beginning in 2029, then the market resolves to Yes.",
-      "polymarketRules": "This market will resolve according to the winner of the 2026 Ohio U.S. Senate special election currently scheduled for November 3, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-      "kalshiClose": "2029-11-07",
-      "polymarketEnd": "2026-11-04",
-      "differentEndDates": true,
-      "ruleConflicts": [],
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:13:25.579Z",
-        "kalshi": {
-          "ticker": "SENATEOH-28-R",
-          "eventTicker": null,
-          "marketTitle": "Will Republicans win the Senate race in Ohio? :: Current incumbent: Jon Husted",
-          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Ohio for the term beginning in 2029, then the market resolves to Yes.",
-          "rulesSecondary": null,
-          "closeTime": "2029-11-07T15:00:00.000Z",
-          "ruleSha256": "b1fcaa69f6ea707a68850942d42fd0e6785f77f4d0dd476285556f0ec674528d"
-        },
-        "polymarket": {
-          "id": "631058",
-          "eventId": null,
-          "question": "Will the Republicans win the Ohio Senate race in 2026?",
-          "description": "This market will resolve according to the winner of the 2026 Ohio U.S. Senate special election currently scheduled for November 3, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-          "eventDescription": null,
-          "resolutionSource": null,
-          "endTime": "2026-11-04T04:59:00.000Z",
-          "ruleSha256": "bf934fe9a18e4cb3b4d4ff72edb4834614488d0cd9e91253ce32260c850e2577",
-          "conditionId": "0x771873c365f87bffd990644e4b688aebc1be7f18396d2eab64b996ff66e88669"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": false
-        },
-        "polymarket": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [
-            "2026"
-          ],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "qualityComponents": {
-        "exact": 1,
-        "ruleCompleteness": 1,
-        "identifiers": 1,
-        "liquidity": 0,
-        "title": 0.68
-      },
-      "uncertainties": [],
-      "discoverySource": "EVENT_LEVEL",
-      "reviewScore": 0.834,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED",
-      "settlementScreen": {
-        "status": "NEEDS_HUMAN_REVIEW",
-        "reasons": [],
-        "warnings": [
-          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
-          "PERIOD_NOT_ESTABLISHED"
-        ],
-        "terms": {
-          "kalshi": {
-            "period": null,
-            "metric": null,
-            "threshold": null,
-            "firstTo": false
-          },
-          "polymarket": {
-            "period": null,
-            "metric": null,
-            "threshold": null,
-            "firstTo": false
-          }
-        },
-        "settlementVerified": false
-      }
-    },
-    {
-      "category": "politics",
-      "kalshiTicker": "SENATEKS-28-R",
-      "polymarketId": "630747",
-      "kalshiTitle": "Will Republicans win the Senate race in Kansas?",
-      "polymarketTitle": "Will the Republicans win the Kansas Senate race in 2026?",
-      "kalshiEvent": "Kansas Senate winner? (2028)",
-      "polymarketEvent": "Kansas Senate Election Winner",
-      "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Kansas for the term beginning in 2029, then the market resolves to Yes.",
-      "polymarketRules": "This market will resolve according to the winner of the 2026 midterm Kansas U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-      "kalshiClose": "2029-11-07",
-      "polymarketEnd": "2026-11-04",
-      "differentEndDates": true,
-      "ruleConflicts": [],
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:13:26.047Z",
-        "kalshi": {
-          "ticker": "SENATEKS-28-R",
-          "eventTicker": null,
-          "marketTitle": "Will Republicans win the Senate race in Kansas? :: Current incumbent: Jerry Moran",
-          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Kansas for the term beginning in 2029, then the market resolves to Yes.",
-          "rulesSecondary": null,
-          "closeTime": "2029-11-07T15:00:00.000Z",
-          "ruleSha256": "ade3a8e4e968a8e99a0812c12f8c6ae276a5577dcb596b6e1cbad211275d4008"
-        },
-        "polymarket": {
-          "id": "630747",
-          "eventId": null,
-          "question": "Will the Republicans win the Kansas Senate race in 2026?",
-          "description": "This market will resolve according to the winner of the 2026 midterm Kansas U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-          "eventDescription": null,
-          "resolutionSource": null,
-          "endTime": "2026-11-04T04:59:00.000Z",
-          "ruleSha256": "cdb2e7fff6164951e1b9f0ec72defaf528faf96055962f00348d20fee341e737",
-          "conditionId": "0xb8b5349814450b8bba2ecdda2eeb9f48bd3c795bfb858bedf7a383712b877743"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": false
-        },
-        "polymarket": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [
-            "2026"
-          ],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "qualityComponents": {
-        "exact": 1,
-        "ruleCompleteness": 1,
-        "identifiers": 1,
-        "liquidity": 0,
-        "title": 0.68
-      },
-      "uncertainties": [],
-      "discoverySource": "EVENT_LEVEL",
-      "reviewScore": 0.834,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED",
-      "settlementScreen": {
-        "status": "NEEDS_HUMAN_REVIEW",
-        "reasons": [],
-        "warnings": [
-          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
-          "PERIOD_NOT_ESTABLISHED"
-        ],
-        "terms": {
-          "kalshi": {
-            "period": null,
-            "metric": null,
-            "threshold": null,
-            "firstTo": false
-          },
-          "polymarket": {
-            "period": null,
-            "metric": null,
-            "threshold": null,
-            "firstTo": false
-          }
-        },
-        "settlementVerified": false
-      }
-    },
-    {
-      "category": "politics",
-      "kalshiTicker": "SENATEIA-28-R",
-      "polymarketId": "630734",
-      "kalshiTitle": "Will Republicans win the Senate race in Iowa?",
-      "polymarketTitle": "Will the Republicans win the Iowa Senate race in 2026?",
-      "kalshiEvent": "Iowa Senate winner? (2028)",
-      "polymarketEvent": "Iowa Senate Election Winner",
-      "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Iowa for the term beginning in 2029, then the market resolves to Yes.",
-      "polymarketRules": "This market will resolve according to the winner of the 2026 midterm Iowa U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-      "kalshiClose": "2029-11-07",
-      "polymarketEnd": "2026-11-04",
-      "differentEndDates": true,
-      "ruleConflicts": [],
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:13:26.538Z",
-        "kalshi": {
-          "ticker": "SENATEIA-28-R",
-          "eventTicker": null,
-          "marketTitle": "Will Republicans win the Senate race in Iowa? :: Current incumbent: Chuck Grassley",
-          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Iowa for the term beginning in 2029, then the market resolves to Yes.",
-          "rulesSecondary": null,
-          "closeTime": "2029-11-07T15:00:00.000Z",
-          "ruleSha256": "4a7c827b70652375c2454b50fe415e079dc2811d3e535442732a401fac563ec9"
-        },
-        "polymarket": {
-          "id": "630734",
-          "eventId": null,
-          "question": "Will the Republicans win the Iowa Senate race in 2026?",
-          "description": "This market will resolve according to the winner of the 2026 midterm Iowa U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-          "eventDescription": null,
-          "resolutionSource": null,
-          "endTime": "2026-11-04T04:59:00.000Z",
-          "ruleSha256": "58f62beb03999f98d3f056b12e6586ee5b82454aec960a937df5c4d4728e0d59",
-          "conditionId": "0x38a1025bfc56539ed1ff8fdd468283d55cf9002412decd61aa8d6c578c7d01a2"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": false
-        },
-        "polymarket": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [
-            "2026"
-          ],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "qualityComponents": {
-        "exact": 1,
-        "ruleCompleteness": 1,
-        "identifiers": 1,
-        "liquidity": 0,
-        "title": 0.68
-      },
-      "uncertainties": [],
-      "discoverySource": "EVENT_LEVEL",
-      "reviewScore": 0.834,
-      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false,
-      "executable": false,
-      "evidenceChanged": true,
-      "evidenceRefreshStatus": "REFRESHED",
-      "settlementScreen": {
-        "status": "NEEDS_HUMAN_REVIEW",
-        "reasons": [],
-        "warnings": [
-          "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
-          "PERIOD_NOT_ESTABLISHED"
-        ],
-        "terms": {
-          "kalshi": {
-            "period": null,
-            "metric": null,
-            "threshold": null,
-            "firstTo": false
-          },
-          "polymarket": {
-            "period": null,
-            "metric": null,
-            "threshold": null,
-            "firstTo": false
-          }
-        },
-        "settlementVerified": false
-      }
-    },
     {
       "category": "other",
       "kalshiTicker": "KXOSCARDOCU-27-SOM",
@@ -1130,7 +26,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:13:27.032Z",
+        "fetchedAt": "2026-10-21T16:43:20.094Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-SOM",
           "eventTicker": null,
@@ -1235,9 +131,47 @@
         "status": "NEEDS_HUMAN_REVIEW",
         "reasons": [],
         "warnings": [
+          "NOMINATION_TREATMENT_DIFFERS",
           "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
           "PERIOD_NOT_ESTABLISHED"
         ],
+        "structuredExtraction": {
+          "kalshi": {
+            "period": null,
+            "settlementSources": [
+              "academy awards"
+            ],
+            "payouts": {
+              "firstToReach": false,
+              "nominationRequirement": false,
+              "tieBreakAlphabetical": false,
+              "splitOutcome": false,
+              "voidOrCancel": false
+            },
+            "explicitIsoDates": [],
+            "hasRules": true,
+            "extractor": "DETERMINISTIC_V1",
+            "verified": false
+          },
+          "polymarket": {
+            "period": null,
+            "settlementSources": [
+              "academy awards",
+              "ampas"
+            ],
+            "payouts": {
+              "firstToReach": false,
+              "nominationRequirement": true,
+              "tieBreakAlphabetical": false,
+              "splitOutcome": false,
+              "voidOrCancel": false
+            },
+            "explicitIsoDates": [],
+            "hasRules": true,
+            "extractor": "DETERMINISTIC_V1",
+            "verified": false
+          }
+        },
         "terms": {
           "kalshi": {
             "period": null,
@@ -1253,6 +187,10 @@
           }
         },
         "settlementVerified": false
+      },
+      "reviewedAiExtraction": {
+        "kalshi": null,
+        "polymarket": null
       }
     },
     {
@@ -1270,7 +208,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:13:27.573Z",
+        "fetchedAt": "2026-10-21T16:43:20.622Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-ONC",
           "eventTicker": null,
@@ -1375,9 +313,47 @@
         "status": "NEEDS_HUMAN_REVIEW",
         "reasons": [],
         "warnings": [
+          "NOMINATION_TREATMENT_DIFFERS",
           "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
           "PERIOD_NOT_ESTABLISHED"
         ],
+        "structuredExtraction": {
+          "kalshi": {
+            "period": null,
+            "settlementSources": [
+              "academy awards"
+            ],
+            "payouts": {
+              "firstToReach": false,
+              "nominationRequirement": false,
+              "tieBreakAlphabetical": false,
+              "splitOutcome": false,
+              "voidOrCancel": false
+            },
+            "explicitIsoDates": [],
+            "hasRules": true,
+            "extractor": "DETERMINISTIC_V1",
+            "verified": false
+          },
+          "polymarket": {
+            "period": null,
+            "settlementSources": [
+              "academy awards",
+              "ampas"
+            ],
+            "payouts": {
+              "firstToReach": false,
+              "nominationRequirement": true,
+              "tieBreakAlphabetical": false,
+              "splitOutcome": false,
+              "voidOrCancel": false
+            },
+            "explicitIsoDates": [],
+            "hasRules": true,
+            "extractor": "DETERMINISTIC_V1",
+            "verified": false
+          }
+        },
         "terms": {
           "kalshi": {
             "period": null,
@@ -1393,6 +369,10 @@
           }
         },
         "settlementVerified": false
+      },
+      "reviewedAiExtraction": {
+        "kalshi": null,
+        "polymarket": null
       }
     },
     {
@@ -1410,7 +390,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:13:28.066Z",
+        "fetchedAt": "2026-10-21T16:43:21.143Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-YOU",
           "eventTicker": null,
@@ -1515,9 +495,47 @@
         "status": "NEEDS_HUMAN_REVIEW",
         "reasons": [],
         "warnings": [
+          "NOMINATION_TREATMENT_DIFFERS",
           "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
           "PERIOD_NOT_ESTABLISHED"
         ],
+        "structuredExtraction": {
+          "kalshi": {
+            "period": null,
+            "settlementSources": [
+              "academy awards"
+            ],
+            "payouts": {
+              "firstToReach": false,
+              "nominationRequirement": false,
+              "tieBreakAlphabetical": false,
+              "splitOutcome": false,
+              "voidOrCancel": false
+            },
+            "explicitIsoDates": [],
+            "hasRules": true,
+            "extractor": "DETERMINISTIC_V1",
+            "verified": false
+          },
+          "polymarket": {
+            "period": null,
+            "settlementSources": [
+              "academy awards",
+              "ampas"
+            ],
+            "payouts": {
+              "firstToReach": false,
+              "nominationRequirement": true,
+              "tieBreakAlphabetical": false,
+              "splitOutcome": false,
+              "voidOrCancel": false
+            },
+            "explicitIsoDates": [],
+            "hasRules": true,
+            "extractor": "DETERMINISTIC_V1",
+            "verified": false
+          }
+        },
         "terms": {
           "kalshi": {
             "period": null,
@@ -1533,6 +551,10 @@
           }
         },
         "settlementVerified": false
+      },
+      "reviewedAiExtraction": {
+        "kalshi": null,
+        "polymarket": null
       }
     },
     {
@@ -1550,7 +572,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:13:28.558Z",
+        "fetchedAt": "2026-10-21T16:43:21.677Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-NUI",
           "eventTicker": null,
@@ -1655,9 +677,47 @@
         "status": "NEEDS_HUMAN_REVIEW",
         "reasons": [],
         "warnings": [
+          "NOMINATION_TREATMENT_DIFFERS",
           "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
           "PERIOD_NOT_ESTABLISHED"
         ],
+        "structuredExtraction": {
+          "kalshi": {
+            "period": null,
+            "settlementSources": [
+              "academy awards"
+            ],
+            "payouts": {
+              "firstToReach": false,
+              "nominationRequirement": false,
+              "tieBreakAlphabetical": false,
+              "splitOutcome": false,
+              "voidOrCancel": false
+            },
+            "explicitIsoDates": [],
+            "hasRules": true,
+            "extractor": "DETERMINISTIC_V1",
+            "verified": false
+          },
+          "polymarket": {
+            "period": null,
+            "settlementSources": [
+              "academy awards",
+              "ampas"
+            ],
+            "payouts": {
+              "firstToReach": false,
+              "nominationRequirement": true,
+              "tieBreakAlphabetical": false,
+              "splitOutcome": false,
+              "voidOrCancel": false
+            },
+            "explicitIsoDates": [],
+            "hasRules": true,
+            "extractor": "DETERMINISTIC_V1",
+            "verified": false
+          }
+        },
         "terms": {
           "kalshi": {
             "period": null,
@@ -1673,6 +733,10 @@
           }
         },
         "settlementVerified": false
+      },
+      "reviewedAiExtraction": {
+        "kalshi": null,
+        "polymarket": null
       }
     },
     {
@@ -1690,7 +754,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:13:29.048Z",
+        "fetchedAt": "2026-10-21T16:43:22.203Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-ONE",
           "eventTicker": null,
@@ -1795,9 +859,47 @@
         "status": "NEEDS_HUMAN_REVIEW",
         "reasons": [],
         "warnings": [
+          "NOMINATION_TREATMENT_DIFFERS",
           "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
           "PERIOD_NOT_ESTABLISHED"
         ],
+        "structuredExtraction": {
+          "kalshi": {
+            "period": null,
+            "settlementSources": [
+              "academy awards"
+            ],
+            "payouts": {
+              "firstToReach": false,
+              "nominationRequirement": false,
+              "tieBreakAlphabetical": false,
+              "splitOutcome": false,
+              "voidOrCancel": false
+            },
+            "explicitIsoDates": [],
+            "hasRules": true,
+            "extractor": "DETERMINISTIC_V1",
+            "verified": false
+          },
+          "polymarket": {
+            "period": null,
+            "settlementSources": [
+              "academy awards",
+              "ampas"
+            ],
+            "payouts": {
+              "firstToReach": false,
+              "nominationRequirement": true,
+              "tieBreakAlphabetical": false,
+              "splitOutcome": false,
+              "voidOrCancel": false
+            },
+            "explicitIsoDates": [],
+            "hasRules": true,
+            "extractor": "DETERMINISTIC_V1",
+            "verified": false
+          }
+        },
         "terms": {
           "kalshi": {
             "period": null,
@@ -1813,6 +915,10 @@
           }
         },
         "settlementVerified": false
+      },
+      "reviewedAiExtraction": {
+        "kalshi": null,
+        "polymarket": null
       }
     },
     {
@@ -1830,7 +936,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:13:29.541Z",
+        "fetchedAt": "2026-10-21T16:43:22.736Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-AME",
           "eventTicker": null,
@@ -1935,9 +1041,47 @@
         "status": "NEEDS_HUMAN_REVIEW",
         "reasons": [],
         "warnings": [
+          "NOMINATION_TREATMENT_DIFFERS",
           "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
           "PERIOD_NOT_ESTABLISHED"
         ],
+        "structuredExtraction": {
+          "kalshi": {
+            "period": null,
+            "settlementSources": [
+              "academy awards"
+            ],
+            "payouts": {
+              "firstToReach": false,
+              "nominationRequirement": false,
+              "tieBreakAlphabetical": false,
+              "splitOutcome": false,
+              "voidOrCancel": false
+            },
+            "explicitIsoDates": [],
+            "hasRules": true,
+            "extractor": "DETERMINISTIC_V1",
+            "verified": false
+          },
+          "polymarket": {
+            "period": null,
+            "settlementSources": [
+              "academy awards",
+              "ampas"
+            ],
+            "payouts": {
+              "firstToReach": false,
+              "nominationRequirement": true,
+              "tieBreakAlphabetical": false,
+              "splitOutcome": false,
+              "voidOrCancel": false
+            },
+            "explicitIsoDates": [],
+            "hasRules": true,
+            "extractor": "DETERMINISTIC_V1",
+            "verified": false
+          }
+        },
         "terms": {
           "kalshi": {
             "period": null,
@@ -1953,6 +1097,10 @@
           }
         },
         "settlementVerified": false
+      },
+      "reviewedAiExtraction": {
+        "kalshi": null,
+        "polymarket": null
       }
     },
     {
@@ -1970,7 +1118,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:13:30.036Z",
+        "fetchedAt": "2026-10-21T16:43:23.175Z",
         "kalshi": {
           "ticker": "KXOSCARPIC-27-WIL",
           "eventTicker": null,
@@ -2075,9 +1223,47 @@
         "status": "NEEDS_HUMAN_REVIEW",
         "reasons": [],
         "warnings": [
+          "NOMINATION_TREATMENT_DIFFERS",
           "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
           "PERIOD_NOT_ESTABLISHED"
         ],
+        "structuredExtraction": {
+          "kalshi": {
+            "period": null,
+            "settlementSources": [
+              "academy awards"
+            ],
+            "payouts": {
+              "firstToReach": false,
+              "nominationRequirement": false,
+              "tieBreakAlphabetical": false,
+              "splitOutcome": false,
+              "voidOrCancel": false
+            },
+            "explicitIsoDates": [],
+            "hasRules": true,
+            "extractor": "DETERMINISTIC_V1",
+            "verified": false
+          },
+          "polymarket": {
+            "period": null,
+            "settlementSources": [
+              "academy awards",
+              "ampas"
+            ],
+            "payouts": {
+              "firstToReach": false,
+              "nominationRequirement": true,
+              "tieBreakAlphabetical": false,
+              "splitOutcome": false,
+              "voidOrCancel": false
+            },
+            "explicitIsoDates": [],
+            "hasRules": true,
+            "extractor": "DETERMINISTIC_V1",
+            "verified": false
+          }
+        },
         "terms": {
           "kalshi": {
             "period": null,
@@ -2093,6 +1279,10 @@
           }
         },
         "settlementVerified": false
+      },
+      "reviewedAiExtraction": {
+        "kalshi": null,
+        "polymarket": null
       }
     },
     {
@@ -2110,7 +1300,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:13:30.532Z",
+        "fetchedAt": "2026-10-21T16:43:23.702Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-MUS",
           "eventTicker": null,
@@ -2215,9 +1405,47 @@
         "status": "NEEDS_HUMAN_REVIEW",
         "reasons": [],
         "warnings": [
+          "NOMINATION_TREATMENT_DIFFERS",
           "NUMERIC_THRESHOLD_NOT_ESTABLISHED",
           "PERIOD_NOT_ESTABLISHED"
         ],
+        "structuredExtraction": {
+          "kalshi": {
+            "period": null,
+            "settlementSources": [
+              "academy awards"
+            ],
+            "payouts": {
+              "firstToReach": false,
+              "nominationRequirement": false,
+              "tieBreakAlphabetical": false,
+              "splitOutcome": false,
+              "voidOrCancel": false
+            },
+            "explicitIsoDates": [],
+            "hasRules": true,
+            "extractor": "DETERMINISTIC_V1",
+            "verified": false
+          },
+          "polymarket": {
+            "period": null,
+            "settlementSources": [
+              "academy awards",
+              "ampas"
+            ],
+            "payouts": {
+              "firstToReach": false,
+              "nominationRequirement": true,
+              "tieBreakAlphabetical": false,
+              "splitOutcome": false,
+              "voidOrCancel": false
+            },
+            "explicitIsoDates": [],
+            "hasRules": true,
+            "extractor": "DETERMINISTIC_V1",
+            "verified": false
+          }
+        },
         "terms": {
           "kalshi": {
             "period": null,
@@ -2233,6 +1461,10 @@
           }
         },
         "settlementVerified": false
+      },
+      "reviewedAiExtraction": {
+        "kalshi": null,
+        "polymarket": null
       }
     }
   ],
@@ -2255,7 +1487,7 @@
     "recall": null,
     "caveat": "Only measures supplied human-adjudicated pairs; unlabeled candidates are excluded."
   },
-  "refreshedAt": "2026-10-21T16:13:30.732Z",
+  "refreshedAt": "2026-10-21T16:43:23.902Z",
   "evidenceRefresh": {
     "attempted": 24,
     "successful": 24,
@@ -2265,8 +1497,8 @@
   },
   "settlementTriage": {
     "input": 24,
-    "remaining": 16,
-    "rejected": 8,
+    "remaining": 8,
+    "rejected": 16,
     "rejectedPairs": [
       {
         "kalshiTicker": "KXNFLCAREERPASSYDS-PMAHOMES-40000",
@@ -2274,6 +1506,8 @@
         "kalshiTitle": "Patrick Mahomes: 40,000+ Passing Yards",
         "polymarketTitle": "Will Patrick Mahomes be the first QB to 2,000 passing yards in the 2026-27 NFL regular season?",
         "reasons": [
+          "DIFFERENT_MEASUREMENT_PERIOD",
+          "DIFFERENT_FIRST_TO_REACH_PAYOFF",
           "CAREER_VS_SEASON_SETTLEMENT",
           "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD",
           "FIRST_TO_REACH_VS_INDIVIDUAL_OUTCOME"
@@ -2285,6 +1519,8 @@
         "kalshiTitle": "Josh Allen: 35,000+ Passing Yards",
         "polymarketTitle": "Will Josh Allen be the first QB to 2,000 passing yards in the 2026-27 NFL regular season?",
         "reasons": [
+          "DIFFERENT_MEASUREMENT_PERIOD",
+          "DIFFERENT_FIRST_TO_REACH_PAYOFF",
           "CAREER_VS_SEASON_SETTLEMENT",
           "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD",
           "FIRST_TO_REACH_VS_INDIVIDUAL_OUTCOME"
@@ -2296,6 +1532,7 @@
         "kalshiTitle": "Derrick Henry: 14,000+ Rushing Yards",
         "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
         "reasons": [
+          "DIFFERENT_MEASUREMENT_PERIOD",
           "CAREER_VS_SEASON_SETTLEMENT",
           "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD"
         ]
@@ -2306,6 +1543,7 @@
         "kalshiTitle": "Mike Evans: 14,000+ Receiving Yards",
         "polymarketTitle": "Will Mike Evans have 1,000+ receiving yards in the 2026-27 NFL regular season?",
         "reasons": [
+          "DIFFERENT_MEASUREMENT_PERIOD",
           "CAREER_VS_SEASON_SETTLEMENT",
           "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD"
         ]
@@ -2316,6 +1554,7 @@
         "kalshiTitle": "Derrick Henry: 15,000+ Rushing Yards",
         "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
         "reasons": [
+          "DIFFERENT_MEASUREMENT_PERIOD",
           "CAREER_VS_SEASON_SETTLEMENT",
           "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD"
         ]
@@ -2326,6 +1565,7 @@
         "kalshiTitle": "Derrick Henry: 16,000+ Rushing Yards",
         "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
         "reasons": [
+          "DIFFERENT_MEASUREMENT_PERIOD",
           "CAREER_VS_SEASON_SETTLEMENT",
           "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD"
         ]
@@ -2336,6 +1576,7 @@
         "kalshiTitle": "Derrick Henry: 17,000+ Rushing Yards",
         "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
         "reasons": [
+          "DIFFERENT_MEASUREMENT_PERIOD",
           "CAREER_VS_SEASON_SETTLEMENT",
           "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD"
         ]
@@ -2346,8 +1587,81 @@
         "kalshiTitle": "Derrick Henry: 18,000+ Rushing Yards",
         "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
         "reasons": [
+          "DIFFERENT_MEASUREMENT_PERIOD",
           "CAREER_VS_SEASON_SETTLEMENT",
           "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD"
+        ]
+      },
+      {
+        "kalshiTicker": "SENATENH-28-R",
+        "polymarketId": "630845",
+        "kalshiTitle": "Will Republicans win the Senate race in New Hampshire?",
+        "polymarketTitle": "Will the Republicans win the New Hampshire Senate race in 2026?",
+        "reasons": [
+          "SENATE_TERM_YEAR_VS_ELECTION_YEAR"
+        ]
+      },
+      {
+        "kalshiTicker": "SENATEGA-28-R",
+        "polymarketId": "630693",
+        "kalshiTitle": "Will Republicans win the Senate race in Georgia?",
+        "polymarketTitle": "Will the Republicans win the Georgia Senate race in 2026?",
+        "reasons": [
+          "SENATE_TERM_YEAR_VS_ELECTION_YEAR"
+        ]
+      },
+      {
+        "kalshiTicker": "SENATEFL-28-R",
+        "polymarketId": "631045",
+        "kalshiTitle": "Will Republicans win the Senate race in Florida?",
+        "polymarketTitle": "Will the Republicans win the Florida Senate race in 2026?",
+        "reasons": [
+          "SENATE_TERM_YEAR_VS_ELECTION_YEAR"
+        ]
+      },
+      {
+        "kalshiTicker": "SENATESD-28-R",
+        "polymarketId": "630938",
+        "kalshiTitle": "Will Republicans win the Senate race in South Dakota?",
+        "polymarketTitle": "Will the Republicans win the South Dakota Senate race in 2026?",
+        "reasons": [
+          "SENATE_TERM_YEAR_VS_ELECTION_YEAR"
+        ]
+      },
+      {
+        "kalshiTicker": "SENATESC-28-R",
+        "polymarketId": "630925",
+        "kalshiTitle": "Will Republicans win the Senate race in South Carolina?",
+        "polymarketTitle": "Will the Republicans win the South Carolina Senate race in 2026?",
+        "reasons": [
+          "SENATE_TERM_YEAR_VS_ELECTION_YEAR"
+        ]
+      },
+      {
+        "kalshiTicker": "SENATEOH-28-R",
+        "polymarketId": "631058",
+        "kalshiTitle": "Will Republicans win the Senate race in Ohio?",
+        "polymarketTitle": "Will the Republicans win the Ohio Senate race in 2026?",
+        "reasons": [
+          "SENATE_TERM_YEAR_VS_ELECTION_YEAR"
+        ]
+      },
+      {
+        "kalshiTicker": "SENATEKS-28-R",
+        "polymarketId": "630747",
+        "kalshiTitle": "Will Republicans win the Senate race in Kansas?",
+        "polymarketTitle": "Will the Republicans win the Kansas Senate race in 2026?",
+        "reasons": [
+          "SENATE_TERM_YEAR_VS_ELECTION_YEAR"
+        ]
+      },
+      {
+        "kalshiTicker": "SENATEIA-28-R",
+        "polymarketId": "630734",
+        "kalshiTitle": "Will Republicans win the Senate race in Iowa?",
+        "polymarketTitle": "Will the Republicans win the Iowa Senate race in 2026?",
+        "reasons": [
+          "SENATE_TERM_YEAR_VS_ELECTION_YEAR"
         ]
       }
     ]
