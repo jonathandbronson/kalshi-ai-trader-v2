@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "timestamp": "2026-10-21T08:01:27.899Z",
+  "timestamp": "2026-10-21T08:02:44.837Z",
   "mode": "RESEARCH_ONLY",
   "counts": {
-    "PENDING_REVIEW": 19,
+    "PENDING_REVIEW": 33,
     "REJECTED": 0,
     "VERIFIED": 0,
     "REVERIFY_REQUIRED": 0
@@ -235,11 +235,11 @@
       "polymarketId": "3959741",
       "category": "sports",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T08:01:27.899Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
       "kalshiTitle": "Mike Evans: 14,000+ Receiving Yards",
       "polymarketTitle": "Will Mike Evans have 1,000+ receiving yards in the 2026-27 NFL regular season?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:01:18.916Z",
+        "fetchedAt": "2026-10-21T08:02:33.721Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-14000",
           "eventTicker": null,
@@ -291,11 +291,11 @@
       "polymarketId": "3959741",
       "category": "sports",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T08:01:27.899Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
       "kalshiTitle": "Mike Evans: 15,000+ Receiving Yards",
       "polymarketTitle": "Will Mike Evans have 1,000+ receiving yards in the 2026-27 NFL regular season?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:01:21.349Z",
+        "fetchedAt": "2026-10-21T08:02:35.885Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-15000",
           "eventTicker": null,
@@ -347,11 +347,11 @@
       "polymarketId": "3959741",
       "category": "sports",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T08:01:27.899Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
       "kalshiTitle": "Mike Evans: 16,000+ Receiving Yards",
       "polymarketTitle": "Will Mike Evans have 1,000+ receiving yards in the 2026-27 NFL regular season?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:01:21.834Z",
+        "fetchedAt": "2026-10-21T08:02:36.311Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-16000",
           "eventTicker": null,
@@ -403,11 +403,11 @@
       "polymarketId": "3959677",
       "category": "sports",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T08:01:27.899Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
       "kalshiTitle": "Derrick Henry: 14,000+ Rushing Yards",
       "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:01:18.248Z",
+        "fetchedAt": "2026-10-21T08:02:33.195Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-14000",
           "eventTicker": null,
@@ -459,11 +459,11 @@
       "polymarketId": "3959677",
       "category": "sports",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T08:01:27.899Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
       "kalshiTitle": "Derrick Henry: 15,000+ Rushing Yards",
       "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:01:19.407Z",
+        "fetchedAt": "2026-10-21T08:02:34.155Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-15000",
           "eventTicker": null,
@@ -515,11 +515,11 @@
       "polymarketId": "3959677",
       "category": "sports",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T08:01:27.899Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
       "kalshiTitle": "Derrick Henry: 16,000+ Rushing Yards",
       "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:01:19.892Z",
+        "fetchedAt": "2026-10-21T08:02:34.588Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-16000",
           "eventTicker": null,
@@ -571,11 +571,11 @@
       "polymarketId": "3959677",
       "category": "sports",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T08:01:27.899Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
       "kalshiTitle": "Derrick Henry: 17,000+ Rushing Yards",
       "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:01:20.376Z",
+        "fetchedAt": "2026-10-21T08:02:35.020Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-17000",
           "eventTicker": null,
@@ -627,11 +627,11 @@
       "polymarketId": "3959677",
       "category": "sports",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T08:01:27.899Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
       "kalshiTitle": "Derrick Henry: 18,000+ Rushing Yards",
       "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:01:20.863Z",
+        "fetchedAt": "2026-10-21T08:02:35.456Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-18000",
           "eventTicker": null,
@@ -678,16 +678,733 @@
       "notes": []
     },
     {
+      "id": "KXONTLIBLEAD-26NOV21-DMAR|4031798",
+      "kalshiTicker": "KXONTLIBLEAD-26NOV21-DMAR",
+      "polymarketId": "4031798",
+      "category": "politics",
+      "firstSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "kalshiTitle": "Will Dylan Marando win the 2026 Ontario Liberal Party leadership election?",
+      "polymarketTitle": "Will Dylan Marando win the 2026 Ontario Liberal Party leadership election?",
+      "evidence": {
+        "fetchedAt": "2026-10-21T08:02:40.222Z",
+        "kalshi": {
+          "ticker": "KXONTLIBLEAD-26NOV21-DMAR",
+          "eventTicker": null,
+          "marketTitle": "Will Dylan Marando win the 2026 Ontario Liberal Party leadership election? ::",
+          "rulesPrimary": "If Dylan Marando wins the 2026 Ontario Liberal Party leadership election, then the market resolves to Yes.",
+          "rulesSecondary": null,
+          "closeTime": "2027-11-21T15:00:00.000Z",
+          "ruleSha256": "4ad4c23c1a6f28297a5a67eca14262db422651fbd0f68d57fb9a5dad98bd34a1"
+        },
+        "polymarket": {
+          "id": "4031798",
+          "eventId": null,
+          "question": "Will Dylan Marando win the 2026 Ontario Liberal Party leadership election?",
+          "description": "The 2026 Ontario Liberal Party leadership election is currently scheduled to conclude on November 21, 2026, with voting held from November 9 to November 20, 2026.\n\nThis market will resolve according to the candidate who becomes the next leader of the Ontario Liberal Party as a result of this election.\n\nTemporary, interim, or placeholder leaders appointed before the election will not be considered.\n\nIf the result of this election isn't known by March 31, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThe primary resolution source for this market will be a consensus of credible reporting; however, if there is any ambiguity in the results, this market will resolve according to official information from the Ontario Liberal Party.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2026-11-10T04:59:00.000Z",
+          "ruleSha256": "d6d6f86d391d0db70ea12ba73e471fba0c528be7d11953010071bbbe47fb30c6",
+          "conditionId": "0x890827955e6004d20445bcd25487aeaa75593fe63361e444e143dbdbc02f7a1b"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "review": null,
+      "status": "PENDING_REVIEW",
+      "approved": false,
+      "executable": false,
+      "settlementVerified": false,
+      "notes": [
+        "explicit_deadline_only_on_polymarket"
+      ]
+    },
+    {
+      "id": "KXONTLIBLEAD-26NOV21-ELOM|4031797",
+      "kalshiTicker": "KXONTLIBLEAD-26NOV21-ELOM",
+      "polymarketId": "4031797",
+      "category": "politics",
+      "firstSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "kalshiTitle": "Will Eric Lombardi win the 2026 Ontario Liberal Party leadership election?",
+      "polymarketTitle": "Will Eric Lombardi win the 2026 Ontario Liberal Party leadership election?",
+      "evidence": {
+        "fetchedAt": "2026-10-21T08:02:39.698Z",
+        "kalshi": {
+          "ticker": "KXONTLIBLEAD-26NOV21-ELOM",
+          "eventTicker": null,
+          "marketTitle": "Will Eric Lombardi win the 2026 Ontario Liberal Party leadership election? ::",
+          "rulesPrimary": "If Eric Lombardi wins the 2026 Ontario Liberal Party leadership election, then the market resolves to Yes.",
+          "rulesSecondary": null,
+          "closeTime": "2027-11-21T15:00:00.000Z",
+          "ruleSha256": "c7940559aedc0fb8a31e576ddc27d6867f9e23c52eb06f446c26ce9e3f7b73f7"
+        },
+        "polymarket": {
+          "id": "4031797",
+          "eventId": null,
+          "question": "Will Eric Lombardi win the 2026 Ontario Liberal Party leadership election?",
+          "description": "The 2026 Ontario Liberal Party leadership election is currently scheduled to conclude on November 21, 2026, with voting held from November 9 to November 20, 2026.\n\nThis market will resolve according to the candidate who becomes the next leader of the Ontario Liberal Party as a result of this election.\n\nTemporary, interim, or placeholder leaders appointed before the election will not be considered.\n\nIf the result of this election isn't known by March 31, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThe primary resolution source for this market will be a consensus of credible reporting; however, if there is any ambiguity in the results, this market will resolve according to official information from the Ontario Liberal Party.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2026-11-10T04:59:00.000Z",
+          "ruleSha256": "d6d6f86d391d0db70ea12ba73e471fba0c528be7d11953010071bbbe47fb30c6",
+          "conditionId": "0x86573bc5f8fc2779e59ce6b1edb2f08bd22602d5ff6affb0552436b2cff2f910"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "review": null,
+      "status": "PENDING_REVIEW",
+      "approved": false,
+      "executable": false,
+      "settlementVerified": false,
+      "notes": [
+        "explicit_deadline_only_on_polymarket"
+      ]
+    },
+    {
+      "id": "KXONTLIBLEAD-26NOV21-LFAI|4031796",
+      "kalshiTicker": "KXONTLIBLEAD-26NOV21-LFAI",
+      "polymarketId": "4031796",
+      "category": "politics",
+      "firstSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "kalshiTitle": "Will Lee Fairclough win the 2026 Ontario Liberal Party leadership election?",
+      "polymarketTitle": "Will Lee Fairclough win the 2026 Ontario Liberal Party leadership election?",
+      "evidence": {
+        "fetchedAt": "2026-10-21T08:02:39.165Z",
+        "kalshi": {
+          "ticker": "KXONTLIBLEAD-26NOV21-LFAI",
+          "eventTicker": null,
+          "marketTitle": "Will Lee Fairclough win the 2026 Ontario Liberal Party leadership election? ::",
+          "rulesPrimary": "If Lee Fairclough wins the 2026 Ontario Liberal Party leadership election, then the market resolves to Yes.",
+          "rulesSecondary": null,
+          "closeTime": "2027-11-21T15:00:00.000Z",
+          "ruleSha256": "42ba1318386041e6904d5143fc50fdc446bc06fda75e12526d46c5388959c73a"
+        },
+        "polymarket": {
+          "id": "4031796",
+          "eventId": null,
+          "question": "Will Lee Fairclough win the 2026 Ontario Liberal Party leadership election?",
+          "description": "The 2026 Ontario Liberal Party leadership election is currently scheduled to conclude on November 21, 2026, with voting held from November 9 to November 20, 2026.\n\nThis market will resolve according to the candidate who becomes the next leader of the Ontario Liberal Party as a result of this election.\n\nTemporary, interim, or placeholder leaders appointed before the election will not be considered.\n\nIf the result of this election isn't known by March 31, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThe primary resolution source for this market will be a consensus of credible reporting; however, if there is any ambiguity in the results, this market will resolve according to official information from the Ontario Liberal Party.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2026-11-10T04:59:00.000Z",
+          "ruleSha256": "d6d6f86d391d0db70ea12ba73e471fba0c528be7d11953010071bbbe47fb30c6",
+          "conditionId": "0xc9dc08383f5c524d8d661cc198993d05e2744ab087db9f947c4e746af800f34d"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "review": null,
+      "status": "PENDING_REVIEW",
+      "approved": false,
+      "executable": false,
+      "settlementVerified": false,
+      "notes": [
+        "explicit_deadline_only_on_polymarket"
+      ]
+    },
+    {
+      "id": "KXONTLIBLEAD-26NOV21-NBAI|4031794",
+      "kalshiTicker": "KXONTLIBLEAD-26NOV21-NBAI",
+      "polymarketId": "4031794",
+      "category": "politics",
+      "firstSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "kalshiTitle": "Will Navdeep Bains win the 2026 Ontario Liberal Party leadership election?",
+      "polymarketTitle": "Will Navdeep Bains win the 2026 Ontario Liberal Party leadership election?",
+      "evidence": {
+        "fetchedAt": "2026-10-21T08:02:38.197Z",
+        "kalshi": {
+          "ticker": "KXONTLIBLEAD-26NOV21-NBAI",
+          "eventTicker": null,
+          "marketTitle": "Will Navdeep Bains win the 2026 Ontario Liberal Party leadership election?",
+          "rulesPrimary": "If Navdeep Bains wins the 2026 Ontario Liberal Party leadership election, then the market resolves to Yes.",
+          "rulesSecondary": null,
+          "closeTime": "2027-11-21T15:00:00.000Z",
+          "ruleSha256": "b6a6dc97b7cad1220d8f4a5f56a449521d9232866d161ad25abbc27850e1ea21"
+        },
+        "polymarket": {
+          "id": "4031794",
+          "eventId": null,
+          "question": "Will Navdeep Bains win the 2026 Ontario Liberal Party leadership election?",
+          "description": "The 2026 Ontario Liberal Party leadership election is currently scheduled to conclude on November 21, 2026, with voting held from November 9 to November 20, 2026.\n\nThis market will resolve according to the candidate who becomes the next leader of the Ontario Liberal Party as a result of this election.\n\nTemporary, interim, or placeholder leaders appointed before the election will not be considered.\n\nIf the result of this election isn't known by March 31, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThe primary resolution source for this market will be a consensus of credible reporting; however, if there is any ambiguity in the results, this market will resolve according to official information from the Ontario Liberal Party.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2026-11-10T04:59:00.000Z",
+          "ruleSha256": "d6d6f86d391d0db70ea12ba73e471fba0c528be7d11953010071bbbe47fb30c6",
+          "conditionId": "0xcd079d958aa6b4dc4eb38ecbc38a6496719ad639ec3e0ab71a268bcb4f3407a7"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "review": null,
+      "status": "PENDING_REVIEW",
+      "approved": false,
+      "executable": false,
+      "settlementVerified": false,
+      "notes": [
+        "explicit_deadline_only_on_polymarket"
+      ]
+    },
+    {
+      "id": "KXONTLIBLEAD-26NOV21-SBOW|4031795",
+      "kalshiTicker": "KXONTLIBLEAD-26NOV21-SBOW",
+      "polymarketId": "4031795",
+      "category": "politics",
+      "firstSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "kalshiTitle": "Will Stephanie Bowman win the 2026 Ontario Liberal Party leadership election?",
+      "polymarketTitle": "Will Stephanie Bowman win the 2026 Ontario Liberal Party leadership election?",
+      "evidence": {
+        "fetchedAt": "2026-10-21T08:02:38.646Z",
+        "kalshi": {
+          "ticker": "KXONTLIBLEAD-26NOV21-SBOW",
+          "eventTicker": null,
+          "marketTitle": "Will Stephanie Bowman win the 2026 Ontario Liberal Party leadership election? ::",
+          "rulesPrimary": "If Stephanie Bowman wins the 2026 Ontario Liberal Party leadership election, then the market resolves to Yes.",
+          "rulesSecondary": null,
+          "closeTime": "2027-11-21T15:00:00.000Z",
+          "ruleSha256": "2155a9b7b096113b9d5b0dcd89ee522e12bb20e0b54811abcce9ab7f5cfc5496"
+        },
+        "polymarket": {
+          "id": "4031795",
+          "eventId": null,
+          "question": "Will Stephanie Bowman win the 2026 Ontario Liberal Party leadership election?",
+          "description": "The 2026 Ontario Liberal Party leadership election is currently scheduled to conclude on November 21, 2026, with voting held from November 9 to November 20, 2026.\n\nThis market will resolve according to the candidate who becomes the next leader of the Ontario Liberal Party as a result of this election.\n\nTemporary, interim, or placeholder leaders appointed before the election will not be considered.\n\nIf the result of this election isn't known by March 31, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThe primary resolution source for this market will be a consensus of credible reporting; however, if there is any ambiguity in the results, this market will resolve according to official information from the Ontario Liberal Party.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2026-11-10T04:59:00.000Z",
+          "ruleSha256": "d6d6f86d391d0db70ea12ba73e471fba0c528be7d11953010071bbbe47fb30c6",
+          "conditionId": "0x6454a35f48b523b97312a30ed7e8d8e7d6647f93bcb41d97fc41e86c2ee4461d"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "review": null,
+      "status": "PENDING_REVIEW",
+      "approved": false,
+      "executable": false,
+      "settlementVerified": false,
+      "notes": [
+        "explicit_deadline_only_on_polymarket"
+      ]
+    },
+    {
+      "id": "KXOSCARDOCU-27-AME|3377268",
+      "kalshiTicker": "KXOSCARDOCU-27-AME",
+      "polymarketId": "3377268",
+      "category": "other",
+      "firstSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "kalshiTitle": "Will American Doctor win Best Documentary Feature Film at the Oscars?",
+      "polymarketTitle": "Will American Doctor win Best Documentary Feature Film at the 99th Academy Awards?",
+      "evidence": {
+        "fetchedAt": "2026-10-21T08:02:44.578Z",
+        "kalshi": {
+          "ticker": "KXOSCARDOCU-27-AME",
+          "eventTicker": null,
+          "marketTitle": "Will American Doctor win Best Documentary Feature Film at the Oscars? American Doctor::",
+          "rulesPrimary": "If American Doctor has won Best Documentary Feature Film at the 99th Academy Awards, then the market resolves to Yes.",
+          "rulesSecondary": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+          "closeTime": "2027-12-31T15:00:00.000Z",
+          "ruleSha256": "adc382972011b56977287c5aa0172b68ac72ad3b78f47e94d7fff0935c4ed7a3"
+        },
+        "polymarket": {
+          "id": "3377268",
+          "eventId": null,
+          "question": "Will American Doctor win Best Documentary Feature Film at the 99th Academy Awards?",
+          "description": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best Documentary Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best Documentary Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": "https://www.oscars.org/",
+          "endTime": "2027-03-14T23:59:00.000Z",
+          "ruleSha256": "4a793e59bcecf30044f686c851de5f878af74cc6c28091d267b67d15b480ba2e",
+          "conditionId": "0x07a5bea5217d93c5f6672fbbabe1234e34912359df33540817a6a86dbd8c0b58"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "review": null,
+      "status": "PENDING_REVIEW",
+      "approved": false,
+      "executable": false,
+      "settlementVerified": false,
+      "notes": []
+    },
+    {
+      "id": "KXOSCARDOCU-27-NUI|3377269",
+      "kalshiTicker": "KXOSCARDOCU-27-NUI",
+      "polymarketId": "3377269",
+      "category": "other",
+      "firstSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "kalshiTitle": "Will Nuisance Bear win Best Documentary Feature Film at the Oscars?",
+      "polymarketTitle": "Will Nuisance Bear win Best Documentary Feature Film at the 99th Academy Awards?",
+      "evidence": {
+        "fetchedAt": "2026-10-21T08:02:43.470Z",
+        "kalshi": {
+          "ticker": "KXOSCARDOCU-27-NUI",
+          "eventTicker": null,
+          "marketTitle": "Will Nuisance Bear win Best Documentary Feature Film at the Oscars? Nuisance Bear::",
+          "rulesPrimary": "If Nuisance Bear has won Best Documentary Feature Film at the 99th Academy Awards, then the market resolves to Yes.",
+          "rulesSecondary": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+          "closeTime": "2027-12-31T15:00:00.000Z",
+          "ruleSha256": "8f77cfa6813160ed393fcfdc510b874d2f1d77a044aeb9f2c1784baf28ea4835"
+        },
+        "polymarket": {
+          "id": "3377269",
+          "eventId": null,
+          "question": "Will Nuisance Bear win Best Documentary Feature Film at the 99th Academy Awards?",
+          "description": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best Documentary Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best Documentary Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": "https://www.oscars.org/",
+          "endTime": "2027-03-14T23:59:00.000Z",
+          "ruleSha256": "4a793e59bcecf30044f686c851de5f878af74cc6c28091d267b67d15b480ba2e",
+          "conditionId": "0x9ae1925c911c493a95587d1caef2591af3caa7a6608bfb85204946be47e31c1f"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "review": null,
+      "status": "PENDING_REVIEW",
+      "approved": false,
+      "executable": false,
+      "settlementVerified": false,
+      "notes": []
+    },
+    {
+      "id": "KXOSCARDOCU-27-ONC|3377274",
+      "kalshiTicker": "KXOSCARDOCU-27-ONC",
+      "polymarketId": "3377274",
+      "category": "other",
+      "firstSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "kalshiTitle": "Will Once Upon a Time in Harlem win Best Documentary Feature Film at the Oscars?",
+      "polymarketTitle": "Will Once Upon a Time in Harlem win Best Documentary Feature Film at the 99th Academy Awards?",
+      "evidence": {
+        "fetchedAt": "2026-10-21T08:02:41.313Z",
+        "kalshi": {
+          "ticker": "KXOSCARDOCU-27-ONC",
+          "eventTicker": null,
+          "marketTitle": "Will Once Upon a Time in Harlem win Best Documentary Feature Film at the Oscars? Once Upon a Time in Harlem::",
+          "rulesPrimary": "If Once Upon a Time in Harlem has won Best Documentary Feature Film at the 99th Academy Awards, then the market resolves to Yes.",
+          "rulesSecondary": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+          "closeTime": "2027-12-31T15:00:00.000Z",
+          "ruleSha256": "20b602f19f31a16bed6cf662af4c197b1a428176642cdbb116e79c023ac6584d"
+        },
+        "polymarket": {
+          "id": "3377274",
+          "eventId": null,
+          "question": "Will Once Upon a Time in Harlem win Best Documentary Feature Film at the 99th Academy Awards?",
+          "description": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best Documentary Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best Documentary Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": "https://www.oscars.org/",
+          "endTime": "2027-03-14T23:59:00.000Z",
+          "ruleSha256": "4a793e59bcecf30044f686c851de5f878af74cc6c28091d267b67d15b480ba2e",
+          "conditionId": "0x601e77fa4db320678da5b4b4b46d7a3433335167e5707b7086ade710996ef9c8"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "review": null,
+      "status": "PENDING_REVIEW",
+      "approved": false,
+      "executable": false,
+      "settlementVerified": false,
+      "notes": []
+    },
+    {
+      "id": "KXOSCARDOCU-27-ONE|3377270",
+      "kalshiTicker": "KXOSCARDOCU-27-ONE",
+      "polymarketId": "3377270",
+      "category": "other",
+      "firstSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "kalshiTitle": "Will One in a Million win Best Documentary Feature Film at the Oscars?",
+      "polymarketTitle": "Will One in a Million win Best Documentary Feature Film at the 99th Academy Awards?",
+      "evidence": {
+        "fetchedAt": "2026-10-21T08:02:44.038Z",
+        "kalshi": {
+          "ticker": "KXOSCARDOCU-27-ONE",
+          "eventTicker": null,
+          "marketTitle": "Will One in a Million win Best Documentary Feature Film at the Oscars? One in a Million::",
+          "rulesPrimary": "If One in a Million has won Best Documentary Feature Film at the 99th Academy Awards, then the market resolves to Yes.",
+          "rulesSecondary": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+          "closeTime": "2027-12-31T15:00:00.000Z",
+          "ruleSha256": "f96f6e86d20aa06c71797b7b694f9b18429cf64474dc79c9a18f8cf59bc2b6f9"
+        },
+        "polymarket": {
+          "id": "3377270",
+          "eventId": null,
+          "question": "Will One in a Million win Best Documentary Feature Film at the 99th Academy Awards?",
+          "description": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best Documentary Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best Documentary Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": "https://www.oscars.org/",
+          "endTime": "2027-03-14T23:59:00.000Z",
+          "ruleSha256": "4a793e59bcecf30044f686c851de5f878af74cc6c28091d267b67d15b480ba2e",
+          "conditionId": "0x980ddc2c848cf10cc228d15d506f83ef56ccff093cb3485adce5a040a12a306a"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "review": null,
+      "status": "PENDING_REVIEW",
+      "approved": false,
+      "executable": false,
+      "settlementVerified": false,
+      "notes": []
+    },
+    {
+      "id": "KXOSCARDOCU-27-SOM|3377272",
+      "kalshiTicker": "KXOSCARDOCU-27-SOM",
+      "polymarketId": "3377272",
+      "category": "other",
+      "firstSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "kalshiTitle": "Will Sometimes, I Imagine Them All at a Party win Best Documentary Feature Film at the Oscars?",
+      "polymarketTitle": "Will Sometimes, I Imagine Them All at a Party win Best Documentary Feature Film at the 99th Academy Awards?",
+      "evidence": {
+        "fetchedAt": "2026-10-21T08:02:40.756Z",
+        "kalshi": {
+          "ticker": "KXOSCARDOCU-27-SOM",
+          "eventTicker": null,
+          "marketTitle": "Will Sometimes, I Imagine Them All at a Party win Best Documentary Feature Film at the Oscars? Sometimes, I Imagine Them All at a Party::",
+          "rulesPrimary": "If Sometimes, I Imagine Them All at a Party has won Best Documentary Feature Film at the 99th Academy Awards, then the market resolves to Yes.",
+          "rulesSecondary": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+          "closeTime": "2027-12-31T15:00:00.000Z",
+          "ruleSha256": "f62ec7edcfa0e6b173df1f09a18b720d0afca22c8b998ed50d952027ad497df9"
+        },
+        "polymarket": {
+          "id": "3377272",
+          "eventId": null,
+          "question": "Will Sometimes, I Imagine Them All at a Party win Best Documentary Feature Film at the 99th Academy Awards?",
+          "description": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best Documentary Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best Documentary Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": "https://www.oscars.org/",
+          "endTime": "2027-07-01T03:59:00.000Z",
+          "ruleSha256": "4a793e59bcecf30044f686c851de5f878af74cc6c28091d267b67d15b480ba2e",
+          "conditionId": "0x773edb87217f27d420936f556a2ee9944958abdada899ccd2dd2c7d5524c34a9"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "review": null,
+      "status": "PENDING_REVIEW",
+      "approved": false,
+      "executable": false,
+      "settlementVerified": false,
+      "notes": []
+    },
+    {
+      "id": "KXOSCARDOCU-27-YOU|3377276",
+      "kalshiTicker": "KXOSCARDOCU-27-YOU",
+      "polymarketId": "3377276",
+      "category": "other",
+      "firstSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "kalshiTitle": "Will You Can See Everything win Best Documentary Feature Film at the Oscars?",
+      "polymarketTitle": "Will You Can See Everything win Best Documentary Feature Film at the 99th Academy Awards?",
+      "evidence": {
+        "fetchedAt": "2026-10-21T08:02:41.836Z",
+        "kalshi": {
+          "ticker": "KXOSCARDOCU-27-YOU",
+          "eventTicker": null,
+          "marketTitle": "Will You Can See Everything win Best Documentary Feature Film at the Oscars? You Can See Everything",
+          "rulesPrimary": "If You Can See Everything has won Best Documentary Feature Film at the 99th Academy Awards, then the market resolves to Yes.",
+          "rulesSecondary": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+          "closeTime": "2027-12-31T15:00:00.000Z",
+          "ruleSha256": "63e50185a451e951d45aac39280a5d2560f3cb450ab7d966e9cb586fe9a0587f"
+        },
+        "polymarket": {
+          "id": "3377276",
+          "eventId": null,
+          "question": "Will You Can See Everything win Best Documentary Feature Film at the 99th Academy Awards?",
+          "description": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best Documentary Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best Documentary Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": "https://www.oscars.org/",
+          "endTime": "2027-03-14T23:59:00.000Z",
+          "ruleSha256": "4a793e59bcecf30044f686c851de5f878af74cc6c28091d267b67d15b480ba2e",
+          "conditionId": "0xb80a1c20e18a3a2babaf682c70df6d3a090ba8f1e9e7cfed4451842eb3f680b0"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "review": null,
+      "status": "PENDING_REVIEW",
+      "approved": false,
+      "executable": false,
+      "settlementVerified": false,
+      "notes": []
+    },
+    {
+      "id": "KXOSCARINTLFILM-27-ALL|3377305",
+      "kalshiTicker": "KXOSCARINTLFILM-27-ALL",
+      "polymarketId": "3377305",
+      "category": "other",
+      "firstSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "kalshiTitle": "Will All of a Sudden win Best International Feature Film at the Oscars?",
+      "polymarketTitle": "Will All of a Sudden win Best International Feature Film at the 99th Academy Awards?",
+      "evidence": {
+        "fetchedAt": "2026-10-21T08:02:42.925Z",
+        "kalshi": {
+          "ticker": "KXOSCARINTLFILM-27-ALL",
+          "eventTicker": null,
+          "marketTitle": "Will All of a Sudden win Best International Feature Film at the Oscars? All of a Sudden::",
+          "rulesPrimary": "If All of a Sudden has won Best International Feature Film at the 99th Academy Awards, then the market resolves to Yes.",
+          "rulesSecondary": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+          "closeTime": "2027-12-31T15:00:00.000Z",
+          "ruleSha256": "287d4d68cfc25552368eca20f2da8826360c36161a7098322c615fbeb25ec372"
+        },
+        "polymarket": {
+          "id": "3377305",
+          "eventId": null,
+          "question": "Will All of a Sudden win Best International Feature Film at the 99th Academy Awards?",
+          "description": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best International Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best International Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": "https://www.oscars.org/",
+          "endTime": "2027-03-14T23:59:00.000Z",
+          "ruleSha256": "7c5dc64bb42c3abddfa3e2bc9ca5bd7d3a133fa806ed28ad63b56da554b01409",
+          "conditionId": "0x08e04dbdfa142bfca6f4cec3e6083043263859e7dfad636563d322c077a57a4a"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "review": null,
+      "status": "PENDING_REVIEW",
+      "approved": false,
+      "executable": false,
+      "settlementVerified": false,
+      "notes": []
+    },
+    {
+      "id": "KXOSCARINTLFILM-27-POS|3377309",
+      "kalshiTicker": "KXOSCARINTLFILM-27-POS",
+      "polymarketId": "3377309",
+      "category": "other",
+      "firstSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "kalshiTitle": "Will Possible Love win Best International Feature Film at the Oscars?",
+      "polymarketTitle": "Will Possible Love win Best International Feature Film at the 99th Academy Awards?",
+      "evidence": {
+        "fetchedAt": "2026-10-21T08:02:42.391Z",
+        "kalshi": {
+          "ticker": "KXOSCARINTLFILM-27-POS",
+          "eventTicker": null,
+          "marketTitle": "Will Possible Love win Best International Feature Film at the Oscars? Possible Love::",
+          "rulesPrimary": "If Possible Love has won Best International Feature Film at the 99th Academy Awards, then the market resolves to Yes.",
+          "rulesSecondary": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+          "closeTime": "2027-12-31T15:00:00.000Z",
+          "ruleSha256": "bf9a95f0e60bf5074378e5812688ff03a81c89e4c1cdb773afbb2b449ef25022"
+        },
+        "polymarket": {
+          "id": "3377309",
+          "eventId": null,
+          "question": "Will Possible Love win Best International Feature Film at the 99th Academy Awards?",
+          "description": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best International Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best International Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": "https://www.oscars.org/",
+          "endTime": "2027-03-14T23:59:00.000Z",
+          "ruleSha256": "7c5dc64bb42c3abddfa3e2bc9ca5bd7d3a133fa806ed28ad63b56da554b01409",
+          "conditionId": "0x6b3ffc8e00e0cf40f62149ce959b3ca196b3afe7e9a1ff09d9ea336da11aa338"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "review": null,
+      "status": "PENDING_REVIEW",
+      "approved": false,
+      "executable": false,
+      "settlementVerified": false,
+      "notes": []
+    },
+    {
       "id": "SENATEFL-28-R|631045",
       "kalshiTicker": "SENATEFL-28-R",
       "polymarketId": "631045",
       "category": "politics",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T08:01:27.899Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
       "kalshiTitle": "Will Republicans win the Senate race in Florida?",
       "polymarketTitle": "Will the Republicans win the Florida Senate race in 2026?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:01:22.852Z",
+        "fetchedAt": "2026-10-21T08:02:37.653Z",
         "kalshi": {
           "ticker": "SENATEFL-28-R",
           "eventTicker": null,
@@ -707,6 +1424,61 @@
           "endTime": "2026-11-04T04:59:00.000Z",
           "ruleSha256": "abee5a06f7ce6d3ce6e0365565f6b7e600c56cf9949a93677416ee50e7ac7159",
           "conditionId": "0xe655180a65e17b6959aa722821312de23513cba6c6d2e3a55f47f198977316bf"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "review": null,
+      "status": "PENDING_REVIEW",
+      "approved": false,
+      "executable": false,
+      "settlementVerified": false,
+      "notes": []
+    },
+    {
+      "id": "SENATEGA-28-R|630693",
+      "kalshiTicker": "SENATEGA-28-R",
+      "polymarketId": "630693",
+      "category": "politics",
+      "firstSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "kalshiTitle": "Will Republicans win the Senate race in Georgia?",
+      "polymarketTitle": "Will the Republicans win the Georgia Senate race in 2026?",
+      "evidence": {
+        "fetchedAt": "2026-10-21T08:02:37.226Z",
+        "kalshi": {
+          "ticker": "SENATEGA-28-R",
+          "eventTicker": null,
+          "marketTitle": "Will Republicans win the Senate race in Georgia? ::",
+          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Georgia for the term beginning in 2029, then the market resolves to Yes.",
+          "rulesSecondary": null,
+          "closeTime": "2029-11-07T15:00:00.000Z",
+          "ruleSha256": "881e41cf424cda0b7c18ac4a85982fb04f1003ebd2d0dc8c74c38d4b403f575c"
+        },
+        "polymarket": {
+          "id": "630693",
+          "eventId": null,
+          "question": "Will the Republicans win the Georgia Senate race in 2026?",
+          "description": "This market will resolve according to the winner of the 2026 midterm Georgia U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2026-11-04T04:59:00.000Z",
+          "ruleSha256": "d9337001920aae6055a1a6db4d04a43149b1ccfc3adcfc190d3f45510c111494",
+          "conditionId": "0x54e4e816cc5868e2f933c6bbc597e3313bdad382be3ecf7eaa4d8fa5c3f1a1bd"
         },
         "warnings": [
           "DIFFERENT_LISTED_END_DATES",
@@ -903,11 +1675,11 @@
       "polymarketId": "630845",
       "category": "politics",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T08:01:27.899Z",
+      "lastSeen": "2026-10-21T08:02:44.837Z",
       "kalshiTitle": "Will Republicans win the Senate race in New Hampshire?",
       "polymarketTitle": "Will the Republicans win the New Hampshire Senate race in 2026?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:01:22.320Z",
+        "fetchedAt": "2026-10-21T08:02:36.770Z",
         "kalshi": {
           "ticker": "SENATENH-28-R",
           "eventTicker": null,
