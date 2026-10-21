@@ -3,6 +3,7 @@ import {writeFile,readFile} from "node:fs/promises";
 import {createHash} from "node:crypto";
 import {collectCategoryEvents} from "./category-sources.js";
 import {findMarketCandidates} from "./market-matcher.js";
+import {buildRuleEvidence} from "./rule-evidence.js";
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const PAGES=Math.max(1,Math.min(20,Number(process.env.ARB_EVENT_PAGES??8)));
 const MAX_PAIRS=Math.max(1,Math.min(100,Number(process.env.ARB_EVENT_CANDIDATES??40)));
@@ -276,7 +277,7 @@ async function collect(){
     category,eventScore:Number(confidence.toFixed(3)),contractScore:Number(scoreValue.toFixed(3)),
     kalshi:{eventTicker:k.event_ticker,title:km.title,subtitle:km.subtitle??null,outcomeLabel:kalshiOutcome,ticker:km.ticker,eventTitle:k.title,closeDate:day(km.close_time)},
     polymarket:{eventId:p.id,id:String(pm.id),eventTitle:p.title,title:pm.question,endDate:day(pm.endDate)},
-    settlementFingerprint,reviewEvidence:evidence,reviewStatus:"UNVERIFIED_SETTLEMENT_RULES",approved:false,executable:false
+    settlementFingerprint,reviewEvidence:evidence,ruleEvidence:buildRuleEvidence({kalshiMarket:km,polymarketMarket:pm,kalshiEvent:k,polymarketEvent:p}),reviewStatus:"UNVERIFIED_SETTLEMENT_RULES",approved:false,executable:false
    });
   }
  }
