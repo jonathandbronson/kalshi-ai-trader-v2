@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T16:12:08.871Z",
+  "timestamp": "2026-10-21T16:13:18.667Z",
   "mode": "RESEARCH_ONLY",
   "windowDays": 30,
   "totalDistinctPairs": 96,
@@ -15,7 +15,7 @@
     {
       "id": "SENATENH-28-R|630845",
       "firstSeen": "2026-10-21T08:01:17.504Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 5,
       "category": "politics",
       "kalshiTicker": "SENATENH-28-R",
@@ -33,7 +33,7 @@
     {
       "id": "KXNFLCAREERRSHYDS-DHENRY-14000|3959677",
       "firstSeen": "2026-10-21T08:01:17.504Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 5,
       "category": "sports",
       "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-14000",
@@ -51,7 +51,7 @@
     {
       "id": "KXNFLCAREERRECYDS-MEVANS-14000|3959741",
       "firstSeen": "2026-10-21T08:01:17.504Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 5,
       "category": "sports",
       "kalshiTicker": "KXNFLCAREERRECYDS-MEVANS-14000",
@@ -69,7 +69,7 @@
     {
       "id": "SENATEFL-28-R|631045",
       "firstSeen": "2026-10-21T08:01:17.504Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 5,
       "category": "politics",
       "kalshiTicker": "SENATEFL-28-R",
@@ -87,7 +87,7 @@
     {
       "id": "SENATESC-28-R|630925",
       "firstSeen": "2026-10-21T08:01:17.504Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 5,
       "category": "politics",
       "kalshiTicker": "SENATESC-28-R",
@@ -105,7 +105,7 @@
     {
       "id": "KXFRPRESADVANCE-26APR18-JMEL|2371057",
       "firstSeen": "2026-10-21T08:01:17.504Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 5,
       "category": "politics",
       "kalshiTicker": "KXFRPRESADVANCE-26APR18-JMEL",
@@ -125,7 +125,7 @@
     {
       "id": "SENATEOH-28-R|631058",
       "firstSeen": "2026-10-21T08:01:17.504Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 5,
       "category": "politics",
       "kalshiTicker": "SENATEOH-28-R",
@@ -143,7 +143,7 @@
     {
       "id": "SENATEKS-28-R|630747",
       "firstSeen": "2026-10-21T08:01:17.504Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 5,
       "category": "politics",
       "kalshiTicker": "SENATEKS-28-R",
@@ -161,7 +161,7 @@
     {
       "id": "SENATEIA-28-R|630734",
       "firstSeen": "2026-10-21T08:01:17.504Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 5,
       "category": "politics",
       "kalshiTicker": "SENATEIA-28-R",
@@ -179,7 +179,7 @@
     {
       "id": "KXNFLCAREERRSHYDS-DHENRY-15000|3959677",
       "firstSeen": "2026-10-21T08:01:17.504Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 5,
       "category": "sports",
       "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-15000",
@@ -197,7 +197,7 @@
     {
       "id": "KXNFLCAREERRSHYDS-DHENRY-16000|3959677",
       "firstSeen": "2026-10-21T08:01:17.504Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 5,
       "category": "sports",
       "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-16000",
@@ -215,7 +215,7 @@
     {
       "id": "KXNFLCAREERRSHYDS-DHENRY-17000|3959677",
       "firstSeen": "2026-10-21T08:01:17.504Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 5,
       "category": "sports",
       "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-17000",
@@ -233,7 +233,7 @@
     {
       "id": "KXNFLCAREERRSHYDS-DHENRY-18000|3959677",
       "firstSeen": "2026-10-21T08:01:17.504Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 5,
       "category": "sports",
       "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-18000",
@@ -251,7 +251,7 @@
     {
       "id": "KXNFLCAREERRECYDS-MEVANS-15000|3959741",
       "firstSeen": "2026-10-21T08:01:17.504Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 5,
       "category": "sports",
       "kalshiTicker": "KXNFLCAREERRECYDS-MEVANS-15000",
@@ -269,7 +269,7 @@
     {
       "id": "KXNFLCAREERRECYDS-MEVANS-16000|3959741",
       "firstSeen": "2026-10-21T08:01:17.504Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 5,
       "category": "sports",
       "kalshiTicker": "KXNFLCAREERRECYDS-MEVANS-16000",
@@ -287,7 +287,7 @@
     {
       "id": "KXNFLCAREERRECYDS-MEVANS-17000|3959741",
       "firstSeen": "2026-10-21T08:01:17.504Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 5,
       "category": "sports",
       "kalshiTicker": "KXNFLCAREERRECYDS-MEVANS-17000",
@@ -305,7 +305,7 @@
     {
       "id": "KXNFLCAREERRECYDS-MEVANS-18000|3959741",
       "firstSeen": "2026-10-21T08:01:17.504Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 5,
       "category": "sports",
       "kalshiTicker": "KXNFLCAREERRECYDS-MEVANS-18000",
@@ -323,7 +323,7 @@
     {
       "id": "KXONTLIBLEAD-26NOV21-NBAI|4031794",
       "firstSeen": "2026-10-21T08:02:32.741Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 4,
       "category": "politics",
       "kalshiTicker": "KXONTLIBLEAD-26NOV21-NBAI",
@@ -343,7 +343,7 @@
     {
       "id": "KXNFLCAREERPASSYDS-PMAHOMES-40000|3959770",
       "firstSeen": "2026-10-21T08:02:32.741Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 4,
       "category": "sports",
       "kalshiTicker": "KXNFLCAREERPASSYDS-PMAHOMES-40000",
@@ -361,7 +361,7 @@
     {
       "id": "SENATEGA-28-R|630693",
       "firstSeen": "2026-10-21T08:02:32.741Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 4,
       "category": "politics",
       "kalshiTicker": "SENATEGA-28-R",
@@ -379,7 +379,7 @@
     {
       "id": "KXNFLCAREERPASSYDS-JALLEN-35000|3959749",
       "firstSeen": "2026-10-21T08:02:32.741Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 4,
       "category": "sports",
       "kalshiTicker": "KXNFLCAREERPASSYDS-JALLEN-35000",
@@ -397,7 +397,7 @@
     {
       "id": "KXOSCARDOCU-27-SOM|3377272",
       "firstSeen": "2026-10-21T08:02:32.741Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 4,
       "category": "other",
       "kalshiTicker": "KXOSCARDOCU-27-SOM",
@@ -415,7 +415,7 @@
     {
       "id": "SENATESD-28-R|630938",
       "firstSeen": "2026-10-21T08:02:32.741Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 4,
       "category": "politics",
       "kalshiTicker": "SENATESD-28-R",
@@ -433,7 +433,7 @@
     {
       "id": "KXOSCARPIC-27-WIL|3145013",
       "firstSeen": "2026-10-21T08:02:32.741Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 4,
       "category": "other",
       "kalshiTicker": "KXOSCARPIC-27-WIL",
@@ -451,7 +451,7 @@
     {
       "id": "KXMUSICREPORT-TOPDIGSALE27DEC31-DIE|2929168",
       "firstSeen": "2026-10-21T08:02:32.741Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 4,
       "category": "other",
       "kalshiTicker": "KXMUSICREPORT-TOPDIGSALE27DEC31-DIE",
@@ -469,7 +469,7 @@
     {
       "id": "KXOSCARINTLFILM-27-FJO|3377271",
       "firstSeen": "2026-10-21T08:02:32.741Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 4,
       "category": "other",
       "kalshiTicker": "KXOSCARINTLFILM-27-FJO",
@@ -487,7 +487,7 @@
     {
       "id": "KXNHSENGOVCOMBO-26NOV-DEMDEM|630844",
       "firstSeen": "2026-10-21T08:02:32.741Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 4,
       "category": "politics",
       "kalshiTicker": "KXNHSENGOVCOMBO-26NOV-DEMDEM",
@@ -505,7 +505,7 @@
     {
       "id": "KXOSCARANIMATED-27-TIE|3377271",
       "firstSeen": "2026-10-21T08:02:32.741Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 4,
       "category": "other",
       "kalshiTicker": "KXOSCARANIMATED-27-TIE",
@@ -523,7 +523,7 @@
     {
       "id": "KXOSCARANIMATED-27-TIE|5686628",
       "firstSeen": "2026-10-21T08:02:32.741Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 4,
       "category": "other",
       "kalshiTicker": "KXOSCARANIMATED-27-TIE",
@@ -541,7 +541,7 @@
     {
       "id": "KXONTLIBLEAD-26NOV21-SBOW|4031795",
       "firstSeen": "2026-10-21T08:02:32.741Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 4,
       "category": "politics",
       "kalshiTicker": "KXONTLIBLEAD-26NOV21-SBOW",
@@ -561,7 +561,7 @@
     {
       "id": "KXOSCARDOCU-27-ONC|3377274",
       "firstSeen": "2026-10-21T08:02:32.741Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 4,
       "category": "other",
       "kalshiTicker": "KXOSCARDOCU-27-ONC",
@@ -579,7 +579,7 @@
     {
       "id": "KXONTLIBLEAD-26NOV21-LFAI|4031796",
       "firstSeen": "2026-10-21T08:02:32.741Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 4,
       "category": "politics",
       "kalshiTicker": "KXONTLIBLEAD-26NOV21-LFAI",
@@ -599,7 +599,7 @@
     {
       "id": "KXOSCARDOCU-27-YOU|3377276",
       "firstSeen": "2026-10-21T08:02:32.741Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 4,
       "category": "other",
       "kalshiTicker": "KXOSCARDOCU-27-YOU",
@@ -617,7 +617,7 @@
     {
       "id": "KXONTLIBLEAD-26NOV21-ELOM|4031797",
       "firstSeen": "2026-10-21T08:02:32.741Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 4,
       "category": "politics",
       "kalshiTicker": "KXONTLIBLEAD-26NOV21-ELOM",
@@ -637,7 +637,7 @@
     {
       "id": "KXONTLIBLEAD-26NOV21-DMAR|4031798",
       "firstSeen": "2026-10-21T08:02:32.741Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 4,
       "category": "politics",
       "kalshiTicker": "KXONTLIBLEAD-26NOV21-DMAR",
@@ -657,7 +657,7 @@
     {
       "id": "KXOSCARDOCU-27-NUI|3377269",
       "firstSeen": "2026-10-21T08:02:32.741Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 4,
       "category": "other",
       "kalshiTicker": "KXOSCARDOCU-27-NUI",
@@ -675,7 +675,7 @@
     {
       "id": "KXOSCARDOCU-27-ONE|3377270",
       "firstSeen": "2026-10-21T08:02:32.741Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 4,
       "category": "other",
       "kalshiTicker": "KXOSCARDOCU-27-ONE",
@@ -693,7 +693,7 @@
     {
       "id": "KXOSCARDOCU-27-AME|3377268",
       "firstSeen": "2026-10-21T08:02:32.741Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 4,
       "category": "other",
       "kalshiTicker": "KXOSCARDOCU-27-AME",
@@ -711,7 +711,7 @@
     {
       "id": "KXFRPRESADVANCE-26APR18-JMEL|2054235",
       "firstSeen": "2026-10-21T16:07:19.289Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 3,
       "category": "politics",
       "kalshiTicker": "KXFRPRESADVANCE-26APR18-JMEL",
@@ -731,7 +731,7 @@
     {
       "id": "KXJOHANNESBURGMAYOR-26DEC31-HMAS|2486556",
       "firstSeen": "2026-10-21T16:07:19.289Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 3,
       "category": "other",
       "kalshiTicker": "KXJOHANNESBURGMAYOR-26DEC31-HMAS",
@@ -749,7 +749,7 @@
     {
       "id": "KXOSCARNOMSBANIMATEDF-27-MIN|5686382",
       "firstSeen": "2026-10-21T16:07:19.289Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 3,
       "category": "other",
       "kalshiTicker": "KXOSCARNOMSBANIMATEDF-27-MIN",
@@ -767,7 +767,7 @@
     {
       "id": "KXOSCARNOMSPLAY-27-TEE|5686288",
       "firstSeen": "2026-10-21T16:07:19.289Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 3,
       "category": "other",
       "kalshiTicker": "KXOSCARNOMSPLAY-27-TEE",
@@ -785,7 +785,7 @@
     {
       "id": "SENATELA-28-R|634879",
       "firstSeen": "2026-10-21T16:07:19.289Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 3,
       "category": "politics",
       "kalshiTicker": "SENATELA-28-R",
@@ -803,7 +803,7 @@
     {
       "id": "KXFRPRESADVANCE-26APR18-FHOL|2054233",
       "firstSeen": "2026-10-21T16:07:19.289Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 3,
       "category": "politics",
       "kalshiTicker": "KXFRPRESADVANCE-26APR18-FHOL",
@@ -823,7 +823,7 @@
     {
       "id": "KXFRPRESADVANCE-26APR18-MLEP|2054223",
       "firstSeen": "2026-10-21T16:07:19.289Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 3,
       "category": "politics",
       "kalshiTicker": "KXFRPRESADVANCE-26APR18-MLEP",
@@ -843,7 +843,7 @@
     {
       "id": "KXOSCARDOCU-27-MUS|3377271",
       "firstSeen": "2026-10-21T16:07:19.289Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 3,
       "category": "other",
       "kalshiTicker": "KXOSCARDOCU-27-MUS",
@@ -861,7 +861,7 @@
     {
       "id": "KXFRPRESADVANCE-26APR18-EPHI|2054226",
       "firstSeen": "2026-10-21T16:07:19.289Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 3,
       "category": "politics",
       "kalshiTicker": "KXFRPRESADVANCE-26APR18-EPHI",
@@ -881,7 +881,7 @@
     {
       "id": "KXOSCARDOCU-27-TUT|3377273",
       "firstSeen": "2026-10-21T16:07:19.289Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 3,
       "category": "other",
       "kalshiTicker": "KXOSCARDOCU-27-TUT",
@@ -899,7 +899,7 @@
     {
       "id": "KXFRPRESADVANCE-26APR18-RGLU|2054234",
       "firstSeen": "2026-10-21T16:07:19.289Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 3,
       "category": "politics",
       "kalshiTicker": "KXFRPRESADVANCE-26APR18-RGLU",
@@ -919,7 +919,7 @@
     {
       "id": "KXOSCARDOCU-27-NAZ|3377275",
       "firstSeen": "2026-10-21T16:07:19.289Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 3,
       "category": "other",
       "kalshiTicker": "KXOSCARDOCU-27-NAZ",
@@ -937,7 +937,7 @@
     {
       "id": "KXFRPRESADVANCE-26APR18-GATT|2054231",
       "firstSeen": "2026-10-21T16:07:19.289Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 3,
       "category": "politics",
       "kalshiTicker": "KXFRPRESADVANCE-26APR18-GATT",
@@ -957,7 +957,7 @@
     {
       "id": "KXOSCARPIC-27-PRO|3145021",
       "firstSeen": "2026-10-21T16:07:19.289Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 3,
       "category": "other",
       "kalshiTicker": "KXOSCARPIC-27-PRO",
@@ -975,7 +975,7 @@
     {
       "id": "KXNFLCAREERRECYDS-MEVANS-19000|3959741",
       "firstSeen": "2026-10-21T08:01:17.504Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 4,
       "category": "sports",
       "kalshiTicker": "KXNFLCAREERRECYDS-MEVANS-19000",
@@ -993,7 +993,7 @@
     {
       "id": "KXFRPRESADVANCE-26APR18-BRET|2054232",
       "firstSeen": "2026-10-21T16:10:01.047Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 2,
       "category": "politics",
       "kalshiTicker": "KXFRPRESADVANCE-26APR18-BRET",
@@ -1013,7 +1013,7 @@
     {
       "id": "KXOSCARPIC-27-DUN|3145010",
       "firstSeen": "2026-10-21T16:10:01.047Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 2,
       "category": "other",
       "kalshiTicker": "KXOSCARPIC-27-DUN",
@@ -1031,7 +1031,7 @@
     {
       "id": "KXOSCARACTO-27-TOM|3156928",
       "firstSeen": "2026-10-21T08:02:32.741Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 3,
       "category": "other",
       "kalshiTicker": "KXOSCARACTO-27-TOM",
@@ -1049,7 +1049,7 @@
     {
       "id": "KXOSCARSUPACTO-27-JER|3156936",
       "firstSeen": "2026-10-21T08:02:32.741Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 3,
       "category": "other",
       "kalshiTicker": "KXOSCARSUPACTO-27-JER",
@@ -1067,7 +1067,7 @@
     {
       "id": "KXNFLCAREERRECYDS-MEVANS-20000|3959741",
       "firstSeen": "2026-10-21T08:01:17.504Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 2,
       "category": "sports",
       "kalshiTicker": "KXNFLCAREERRECYDS-MEVANS-20000",
@@ -1083,27 +1083,9 @@
       "status": "UNVERIFIED_CANDIDATE"
     },
     {
-      "id": "KXDKS-26NOVCOMP-4|5730355",
-      "firstSeen": "2026-10-21T16:12:08.871Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
-      "seenCount": 1,
-      "category": "other",
-      "kalshiTicker": "KXDKS-26NOVCOMP-4",
-      "polymarketId": "5730355",
-      "kalshiTitle": "Will Dick's Sporting Goods Inc report Above 4% comparable store sales in Q3 2026?",
-      "polymarketTitle": "Will DICK'S Sporting Goods Q3 Dick's business comparable sales growth be above 4%?",
-      "eventScore": 0.655,
-      "contractScore": 0.668,
-      "discoverySource": "EVENT_LEVEL",
-      "ruleConflicts": [],
-      "approved": false,
-      "executable": false,
-      "status": "UNVERIFIED_CANDIDATE"
-    },
-    {
       "id": "KXFRPRESADVANCE-26APR18-DVIL|2054239",
-      "firstSeen": "2026-10-21T16:12:08.871Z",
-      "lastSeen": "2026-10-21T16:12:08.871Z",
+      "firstSeen": "2026-10-21T16:13:18.667Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
       "seenCount": 1,
       "category": "politics",
       "kalshiTicker": "KXFRPRESADVANCE-26APR18-DVIL",
@@ -1116,6 +1098,24 @@
       "ruleConflicts": [
         "explicit_deadline_only_on_polymarket"
       ],
+      "approved": false,
+      "executable": false,
+      "status": "UNVERIFIED_CANDIDATE"
+    },
+    {
+      "id": "KXOSCARPIC-27-DIS|3145023",
+      "firstSeen": "2026-10-21T16:13:18.667Z",
+      "lastSeen": "2026-10-21T16:13:18.667Z",
+      "seenCount": 1,
+      "category": "other",
+      "kalshiTicker": "KXOSCARPIC-27-DIS",
+      "polymarketId": "3145023",
+      "kalshiTitle": "Will Disclosure Day win Best Picture at the Oscars?",
+      "polymarketTitle": "Will Disclosure Day win Best Picture at the 99th Academy Awards?",
+      "eventScore": 0.75,
+      "contractScore": 0.756,
+      "discoverySource": "EVENT_LEVEL",
+      "ruleConflicts": [],
       "approved": false,
       "executable": false,
       "status": "UNVERIFIED_CANDIDATE"
