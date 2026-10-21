@@ -40,10 +40,16 @@ export function findMarketCandidates(kalshiEvents,polymarketEvents,{limit=100,mi
  }
  const index=new Map();
  for(const item of p)for(const t of terms(item.title)){if(!index.has(t))index.set(t,[]);index.get(t).push(item)}
- const result=[],seen=new Set(),counts={kalshiMarkets:k.length,polymarketMarkets:p.length,comparisons:0,rejectedByReason:{}};
+ const result=[],seen=new Set(),counts={kalshiMarkets:k.length,polymarketMarkets:p.length,comparisons:0,rejectedByReason:{},maxPostingsPerToken};
  for(const km of k){
   const possible=new Map();
-  for(const t of terms(km.title))for(const pm of index.get(t)??[])possible.set(String(pm.market.id),pm);
+  const hitCounts=new Map();
+  for(const t of terms(km.title)){
+   const postings=index.get(t)??[];
+   if(postings.length>maxPostingsPerToken)continue;
+   for(const pm of postings){const key=String(pm.market.id);const entry=hitCounts.get(key)??{pm,hits:0};entry.hits++;hitCounts.set(key,entry)}
+  }
+  for(const [key,entry] of hitCounts)if(entry.hits>=2)possible.set(key,entry.pm);
   for(const pm of possible.values()){
    counts.comparisons++;
    const score=overlap(km.title,pm.title);
