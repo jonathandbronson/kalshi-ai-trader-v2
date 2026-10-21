@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T17:11:52.225Z",
+  "timestamp": "2026-10-21T17:15:07.994Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -9,10 +9,10 @@
   ],
   "counts": {
     "kalshiRawMarkets": 1300,
-    "kalshiSingleOutcomeMarkets": 1262,
-    "kalshiMarkets": 1262,
+    "kalshiSingleOutcomeMarkets": 1254,
+    "kalshiMarkets": 1254,
     "polymarketMarkets": 2000,
-    "polymarketBinaryMarkets": 1584,
+    "polymarketBinaryMarkets": 1587,
     "titleCandidates": 7,
     "contractTypePolicy": "strict_same_kind",
     "kalshiPagesRequested": 20,
@@ -170,8 +170,8 @@
         "kalshiNoAsk": 0.99,
         "polymarketYesAsk": 0.84,
         "polymarketNoAsk": 0.19,
-        "kalshiYesAskSize": 10785.01,
-        "kalshiNoAskSize": 10785.01,
+        "kalshiYesAskSize": 11035,
+        "kalshiNoAskSize": 11035,
         "polymarketYesAskSize": 300,
         "polymarketNoAskSize": 250
       },
@@ -212,8 +212,8 @@
         "kalshiNoAsk": 0.99,
         "polymarketYesAsk": 0.84,
         "polymarketNoAsk": 0.19,
-        "kalshiYesAskSize": 10785.01,
-        "kalshiNoAskSize": 10785.01,
+        "kalshiYesAskSize": 11035,
+        "kalshiNoAskSize": 11035,
         "polymarketYesAskSize": 300,
         "polymarketNoAskSize": 250
       },
@@ -320,24 +320,24 @@
   "samples": {
     "kalshi": [
       {
-        "title": "Both Teams To Score",
+        "title": "J.J. McCarthy: 350+ passing yards",
         "subtitle": "",
-        "ticker": "KXQSTARSBTTS-26OCT22ALGAHL-BTTS"
+        "ticker": "KXNFLPASSYDS-26OCT25NYGHOU-NYGJMCCARTHY9-350"
       },
       {
-        "title": "Will over 5.5 goals be scored?",
+        "title": "J.J. McCarthy: 325+ passing yards",
         "subtitle": "",
-        "ticker": "KXQSTARSTOTAL-26OCT22ALGAHL-6"
+        "ticker": "KXNFLPASSYDS-26OCT25NYGHOU-NYGJMCCARTHY9-325"
       },
       {
-        "title": "Will over 4.5 goals be scored?",
+        "title": "J.J. McCarthy: 300+ passing yards",
         "subtitle": "",
-        "ticker": "KXQSTARSTOTAL-26OCT22ALGAHL-5"
+        "ticker": "KXNFLPASSYDS-26OCT25NYGHOU-NYGJMCCARTHY9-300"
       },
       {
-        "title": "Will over 3.5 goals be scored?",
+        "title": "J.J. McCarthy: 275+ passing yards",
         "subtitle": "",
-        "ticker": "KXQSTARSTOTAL-26OCT22ALGAHL-4"
+        "ticker": "KXNFLPASSYDS-26OCT25NYGHOU-NYGJMCCARTHY9-275"
       }
     ],
     "polymarket": [
