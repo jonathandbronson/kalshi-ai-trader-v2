@@ -26,6 +26,9 @@ export function screenSettlementRisk(row){
  const kn=threshold(kr)??threshold(row.kalshiTitle),pn=threshold(pr)??threshold(row.polymarketTitle);
  if(kn!==null&&pn!==null&&kn!==pn)reasons.push("DIFFERENT_NUMERIC_PAYOUT_THRESHOLD");
  if(firstTo(pt)!==firstTo(kt))reasons.push("FIRST_TO_REACH_VS_INDIVIDUAL_OUTCOME");
+ const kTerm=senateTermYear(kr),pTerm=senateTermYear(pr),kElection=senateElectionYear(kt),pElection=senateElectionYear(pt);
+ if(kTerm&&pElection&&kTerm!==pElection+1)reasons.push("SENATE_TERM_YEAR_VS_ELECTION_YEAR");
+ if(pTerm&&kElection&&pTerm!==kElection+1)reasons.push("SENATE_TERM_YEAR_VS_ELECTION_YEAR");
  const kv=voidTreatment(kr),pv=voidTreatment(pr);
  if(kv&&pv&&kv!==pv)warnings.push("POSSIBLE_VOID_RULE_MISMATCH");
  if((kv===null)!==(pv===null))warnings.push("VOID_TREATMENT_NOT_CONFIRMED");
