@@ -58,9 +58,16 @@ export function findMarketCandidates(kalshiEvents,polymarketEvents,{limit=100,mi
    if(conflict){counts.rejectedByReason[conflict]=(counts.rejectedByReason[conflict]??0)+1;continue}
    const key=km.market.ticker+"|"+pm.market.id;
    if(seen.has(key))continue;seen.add(key);
-   result.push({key,score:Number(score.toFixed(3)),kalshi:km,polymarket:pm,approved:false,reviewStatus:"UNVERIFIED_SETTLEMENT_RULES",source:"MARKET_LEVEL"});
+   result.push({key,category:categoryOf(km.title+" "+pm.title),score:Number(score.toFixed(3)),kalshi:km,polymarket:pm,approved:false,reviewStatus:"UNVERIFIED_SETTLEMENT_RULES",source:"MARKET_LEVEL"});
   }
  }
  result.sort((a,b)=>b.score-a.score);
- return {candidates:result.slice(0,Math.max(0,limit)),counts:{...counts,matchedBeforeCap:result.length,truncated:result.length>limit}};
+ const categories=["sports","crypto","economics","finance","politics","other"],chosen=[],used=new Set();
+ const buckets=new Map(categories.map(c=>[c,result.filter(r=>r.category===c)]));
+ let progress=true;
+ while(progress&&chosen.length<limit){progress=false;for(const category of categories){
+  const next=buckets.get(category).find(r=>!used.has(r.key));
+  if(!next)continue;chosen.push(next);used.add(next.key);progress=true;if(chosen.length>=limit)break;
+ }}
+ return {candidates:chosen,counts:{...counts,matchedBeforeCap:result.length,truncated:result.length>limit,selectedCategories:Object.fromEntries(categories.map(c=>[c,chosen.filter(x=>x.category===c).length]))}};
 }
