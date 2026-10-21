@@ -241,7 +241,9 @@ async function collect(){
  report.counts.eventMatchCategories=Object.fromEntries(["politics","sports","crypto","economics","finance","other"].map(c=>[c,eventMatches.filter(({k,p})=>eventCategory(k.title+" "+p.title)===c).length]));
  report.counts.sourceEventCategories={kalshi:Object.fromEntries(["politics","sports","crypto","economics","finance","other"].map(c=>[c,kalshi.filter(e=>eventCategory(e.title)===c).length])),polymarket:Object.fromEntries(["politics","sports","crypto","economics","finance","other"].map(c=>[c,poly.filter(e=>eventCategory(e.title)===c).length]))};
  report.counts.discoveryCoverageWarning=["sports","crypto","economics","finance"].filter(c=>report.counts.eventMatchCategories[c]===0);
- const rejected=await loadRejections(),seen=new Set(),pool=[];
+ const pruned=pruneRejections(await loadRejections());
+ const rejected=pruned.rejections,seen=new Set(),pool=[];
+ report.counts.expiredRejectionCacheEntries=pruned.expired;
  const rejectReasons={};let cachedRejections=0;const rejectionCacheLoaded=Object.keys(rejected).length;
  const reject=(key,reason)=>{rejectReasons[reason]=(rejectReasons[reason]??0)+1;rejected[key]={reason,lastSeen:report.timestamp};};
  for(const {k,p,confidence} of eventMatches){
@@ -263,7 +265,7 @@ async function collect(){
    const key=km.ticker+":"+pm.id;if(seen.has(key))continue;seen.add(key);
    const evidence=reviewEvidence(k,p,km,pm);
    const rulesHash=hash([evidence.kalshiRules,evidence.kalshiSecondaryRules,evidence.polymarketDescription].join("|"));
-   if(["interim_appointment_treatment","different_meeting_deadline_year","different_senate_election_cycle","subregion_vs_statewide_result"].includes(rejected[key]?.reason)&&rejected[key]?.rulesHash===rulesHash){cachedRejections++;continue;}
+   if(canReuseRejection(rejected[key],{ruleHash:rulesHash})){cachedRejections++;continue;}
    evidence.ruleConflicts=settlementConflicts(evidence);
    const hardConflict=evidence.ruleConflicts.find(c=>["interim_appointment_treatment","different_meeting_deadline_year","different_senate_election_cycle","subregion_vs_statewide_result"].includes(c));
    if(hardConflict){reject(key,hardConflict);rejected[key].rulesHash=rulesHash;continue;}
