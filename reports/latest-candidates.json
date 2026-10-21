@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T16:11:21.622Z",
+  "timestamp": "2026-10-21T16:12:46.657Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -86,7 +86,7 @@
         "kalshiNoAsk": null,
         "polymarketYesAsk": 0.012,
         "polymarketNoAsk": 0.99,
-        "kalshiYesAskSize": 6,
+        "kalshiYesAskSize": 575,
         "kalshiNoAskSize": 0,
         "polymarketYesAskSize": 65.92,
         "polymarketNoAskSize": 20
@@ -105,6 +105,16 @@
   "samples": {
     "kalshi": [
       {
+        "title": "Rudenko Vasiliy wins",
+        "subtitle": "",
+        "ticker": "KXLIGAPROMATCH-26OCT211230DEMRUD-RUD"
+      },
+      {
+        "title": "Demchenko Vitaly wins",
+        "subtitle": "",
+        "ticker": "KXLIGAPROMATCH-26OCT211230DEMRUD-DEM"
+      },
+      {
         "title": "Samford wins by over 5.5 points",
         "subtitle": "",
         "ticker": "KXNCAAFSPREAD-26OCT24SAMFUR-SAM6"
@@ -113,16 +123,6 @@
         "title": "Samford wins by over 1.5 points",
         "subtitle": "",
         "ticker": "KXNCAAFSPREAD-26OCT24SAMFUR-SAM2"
-      },
-      {
-        "title": "Samford wins by over 13.5 points",
-        "subtitle": "",
-        "ticker": "KXNCAAFSPREAD-26OCT24SAMFUR-SAM14"
-      },
-      {
-        "title": "Samford wins by over 9.5 points",
-        "subtitle": "",
-        "ticker": "KXNCAAFSPREAD-26OCT24SAMFUR-SAM10"
       }
     ],
     "polymarket": [
