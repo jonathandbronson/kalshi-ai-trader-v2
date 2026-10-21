@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-10-21T16:56:15.373Z",
+  "timestamp": "2026-10-21T17:12:23.987Z",
   "mode": "RESEARCH_ONLY",
   "verifiedPairs": 0,
   "sourceStatus": "COLLECTED",
-  "sourceTimestamp": "2026-10-21T16:55:52.290Z",
+  "sourceTimestamp": "2026-10-21T17:12:03.872Z",
   "categoryCounts": {
     "sports": 8,
     "politics": 8,
@@ -26,7 +26,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:56:23.864Z",
+        "fetchedAt": "2026-10-21T17:12:32.478Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-SOM",
           "eventTicker": null,
@@ -208,7 +208,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:56:24.419Z",
+        "fetchedAt": "2026-10-21T17:12:33.082Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-ONC",
           "eventTicker": null,
@@ -390,7 +390,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:56:24.973Z",
+        "fetchedAt": "2026-10-21T17:12:33.654Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-YOU",
           "eventTicker": null,
@@ -572,7 +572,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:56:25.529Z",
+        "fetchedAt": "2026-10-21T17:12:34.226Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-NUI",
           "eventTicker": null,
@@ -754,7 +754,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:56:26.080Z",
+        "fetchedAt": "2026-10-21T17:12:34.798Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-ONE",
           "eventTicker": null,
@@ -936,7 +936,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:56:26.652Z",
+        "fetchedAt": "2026-10-21T17:12:35.377Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-AME",
           "eventTicker": null,
@@ -1118,7 +1118,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:56:27.209Z",
+        "fetchedAt": "2026-10-21T17:12:35.948Z",
         "kalshi": {
           "ticker": "KXOSCARPIC-27-WIL",
           "eventTicker": null,
@@ -1300,7 +1300,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:56:27.767Z",
+        "fetchedAt": "2026-10-21T17:12:36.518Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-MUS",
           "eventTicker": null,
@@ -1487,7 +1487,7 @@
     "recall": null,
     "caveat": "Only measures supplied human-adjudicated pairs; unlabeled candidates are excluded."
   },
-  "refreshedAt": "2026-10-21T16:56:27.968Z",
+  "refreshedAt": "2026-10-21T17:12:36.717Z",
   "evidenceRefresh": {
     "attempted": 24,
     "successful": 24,
@@ -1527,69 +1527,81 @@
         ]
       },
       {
-        "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-14000",
-        "polymarketId": "3959677",
-        "kalshiTitle": "Derrick Henry: 14,000+ Rushing Yards",
-        "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
+        "kalshiTicker": "KXNFLCAREERPASSYDS-PMAHOMES-50000",
+        "polymarketId": "3959770",
+        "kalshiTitle": "Patrick Mahomes: 50,000+ Passing Yards",
+        "polymarketTitle": "Will Patrick Mahomes be the first QB to 2,000 passing yards in the 2026-27 NFL regular season?",
         "reasons": [
           "DIFFERENT_MEASUREMENT_PERIOD",
+          "DIFFERENT_FIRST_TO_REACH_PAYOFF",
           "CAREER_VS_SEASON_SETTLEMENT",
-          "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD"
+          "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD",
+          "FIRST_TO_REACH_VS_INDIVIDUAL_OUTCOME"
         ]
       },
       {
-        "kalshiTicker": "KXNFLCAREERRECYDS-MEVANS-14000",
-        "polymarketId": "3959741",
-        "kalshiTitle": "Mike Evans: 14,000+ Receiving Yards",
-        "polymarketTitle": "Will Mike Evans have 1,000+ receiving yards in the 2026-27 NFL regular season?",
+        "kalshiTicker": "KXNFLCAREERPASSYDS-PMAHOMES-60000",
+        "polymarketId": "3959770",
+        "kalshiTitle": "Patrick Mahomes: 60,000+ Passing Yards",
+        "polymarketTitle": "Will Patrick Mahomes be the first QB to 2,000 passing yards in the 2026-27 NFL regular season?",
         "reasons": [
           "DIFFERENT_MEASUREMENT_PERIOD",
+          "DIFFERENT_FIRST_TO_REACH_PAYOFF",
           "CAREER_VS_SEASON_SETTLEMENT",
-          "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD"
+          "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD",
+          "FIRST_TO_REACH_VS_INDIVIDUAL_OUTCOME"
         ]
       },
       {
-        "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-15000",
-        "polymarketId": "3959677",
-        "kalshiTitle": "Derrick Henry: 15,000+ Rushing Yards",
-        "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
+        "kalshiTicker": "KXNFLCAREERPASSYDS-PMAHOMES-70000",
+        "polymarketId": "3959770",
+        "kalshiTitle": "Patrick Mahomes: 70,000+ Passing Yards",
+        "polymarketTitle": "Will Patrick Mahomes be the first QB to 2,000 passing yards in the 2026-27 NFL regular season?",
         "reasons": [
           "DIFFERENT_MEASUREMENT_PERIOD",
+          "DIFFERENT_FIRST_TO_REACH_PAYOFF",
           "CAREER_VS_SEASON_SETTLEMENT",
-          "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD"
+          "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD",
+          "FIRST_TO_REACH_VS_INDIVIDUAL_OUTCOME"
         ]
       },
       {
-        "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-16000",
-        "polymarketId": "3959677",
-        "kalshiTitle": "Derrick Henry: 16,000+ Rushing Yards",
-        "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
+        "kalshiTicker": "KXNFLCAREERPASSYDS-PMAHOMES-80000",
+        "polymarketId": "3959770",
+        "kalshiTitle": "Patrick Mahomes: 80,000+ Passing Yards",
+        "polymarketTitle": "Will Patrick Mahomes be the first QB to 2,000 passing yards in the 2026-27 NFL regular season?",
         "reasons": [
           "DIFFERENT_MEASUREMENT_PERIOD",
+          "DIFFERENT_FIRST_TO_REACH_PAYOFF",
           "CAREER_VS_SEASON_SETTLEMENT",
-          "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD"
+          "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD",
+          "FIRST_TO_REACH_VS_INDIVIDUAL_OUTCOME"
         ]
       },
       {
-        "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-17000",
-        "polymarketId": "3959677",
-        "kalshiTitle": "Derrick Henry: 17,000+ Rushing Yards",
-        "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
+        "kalshiTicker": "KXNFLCAREERPASSYDS-JALLEN-40000",
+        "polymarketId": "3959749",
+        "kalshiTitle": "Josh Allen: 40,000+ Passing Yards",
+        "polymarketTitle": "Will Josh Allen be the first QB to 2,000 passing yards in the 2026-27 NFL regular season?",
         "reasons": [
           "DIFFERENT_MEASUREMENT_PERIOD",
+          "DIFFERENT_FIRST_TO_REACH_PAYOFF",
           "CAREER_VS_SEASON_SETTLEMENT",
-          "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD"
+          "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD",
+          "FIRST_TO_REACH_VS_INDIVIDUAL_OUTCOME"
         ]
       },
       {
-        "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-18000",
-        "polymarketId": "3959677",
-        "kalshiTitle": "Derrick Henry: 18,000+ Rushing Yards",
-        "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
+        "kalshiTicker": "KXNFLCAREERPASSYDS-JALLEN-50000",
+        "polymarketId": "3959749",
+        "kalshiTitle": "Josh Allen: 50,000+ Passing Yards",
+        "polymarketTitle": "Will Josh Allen be the first QB to 2,000 passing yards in the 2026-27 NFL regular season?",
         "reasons": [
           "DIFFERENT_MEASUREMENT_PERIOD",
+          "DIFFERENT_FIRST_TO_REACH_PAYOFF",
           "CAREER_VS_SEASON_SETTLEMENT",
-          "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD"
+          "DIFFERENT_NUMERIC_PAYOUT_THRESHOLD",
+          "FIRST_TO_REACH_VS_INDIVIDUAL_OUTCOME"
         ]
       },
       {
