@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T16:09:25.335Z",
+  "timestamp": "2026-10-21T16:11:21.622Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -8,41 +8,121 @@
     "No orders, paper entries, or approved pairs are generated"
   ],
   "counts": {
-    "kalshiRawMarkets": 1400,
-    "kalshiSingleOutcomeMarkets": 1297,
-    "kalshiMarkets": 1297,
+    "kalshiRawMarkets": 1300,
+    "kalshiSingleOutcomeMarkets": 1243,
+    "kalshiMarkets": 1243,
     "polymarketMarkets": 2000,
     "polymarketBinaryMarkets": 1618,
-    "titleCandidates": 0,
+    "titleCandidates": 2,
     "contractTypePolicy": "strict_same_kind",
     "kalshiPagesRequested": 20,
     "kalshiPoolCap": 1200,
     "polymarketPagesRequested": 20,
-    "orderbooksChecked": 0
+    "orderbooksChecked": 2
   },
-  "candidates": [],
+  "candidates": [
+    {
+      "score": 0.816,
+      "kalshi": {
+        "ticker": "KXLALIGATCORNERS-26OCT25BARRMA-RMA4",
+        "title": "Real Madrid: 4+ corners",
+        "subtitle": "",
+        "rulesPrimary": "If Real Madrid records at least 4+ corners taken during the entire game (regulation, stoppage and any extra time periods) of the Barcelona vs Real Madrid professional La Liga soccer game originally scheduled for Oct 25, 2026, then the marke",
+        "rulesSecondary": "Only corner kicks that are actually taken will count toward this market. Corner kicks that are awarded but not taken will not count.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the",
+        "closeDate": "2026-10-27"
+      },
+      "polymarket": {
+        "id": "5598481",
+        "title": "Will Real Madrid CF win on 2026-10-25?",
+        "description": "In the upcoming game, scheduled for October 25, 2026\nIf Real Madrid CF wins, this market will resolve to \"Yes\".\nOtherwise, this market will resolve to \"No\".\nIf the game is postponed, this market will remain open until the game has been comp",
+        "resolutionSource": "https://www.laliga.com/",
+        "endDate": "2026-10-25"
+      },
+      "dateDifferenceDays": 2,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": 0.99,
+        "polymarketYesAsk": 0.25,
+        "polymarketNoAsk": 0.77,
+        "kalshiYesAskSize": 781,
+        "kalshiNoAskSize": 1000,
+        "polymarketYesAskSize": 18694.5,
+        "polymarketNoAskSize": 19636.89
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.76,
+          "grossSpreadPerShare": -0.76
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.24,
+          "grossSpreadPerShare": -0.24
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.577,
+      "kalshi": {
+        "ticker": "KXNFLFFWEEKTOP-2026W7WRT5-CGODWIN14",
+        "title": "Chris Godwin Jr.: Top 5 WR in fantasy points for Week 7?",
+        "subtitle": "",
+        "rulesPrimary": "If Chris Godwin Jr. finishes within the top 5 highest in total full-PPR fantasy points for all WRs in Week 7 of the 2026 Pro Football regular season, then the market resolves to Yes.",
+        "rulesSecondary": "This market uses Sleeper's total full-PPR fantasy points for Week 7 of the 2026 Pro Football regular season, including overtime. It ranks all WRs, including eligible players without a listed market. Player-group membership is determined by ",
+        "closeDate": "2026-10-27"
+      },
+      "polymarket": {
+        "id": "3959764",
+        "title": "Will Chris Godwin have 1,000+ receiving yards in the 2026-27 NFL regular season?",
+        "description": "This market will resolve to \"Yes\" if the number of receiving yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games co",
+        "resolutionSource": "",
+        "endDate": "2027-01-27"
+      },
+      "dateDifferenceDays": 92,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": null,
+        "polymarketYesAsk": 0.012,
+        "polymarketNoAsk": 0.99,
+        "kalshiYesAskSize": 6,
+        "kalshiNoAskSize": 0,
+        "polymarketYesAskSize": 65.92,
+        "polymarketNoAskSize": 20
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.98,
+          "grossSpreadPerShare": -0.98
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    }
+  ],
   "errors": [],
   "samples": {
     "kalshi": [
       {
-        "title": "Full Game: Over 75.5 points scored",
+        "title": "Samford wins by over 5.5 points",
         "subtitle": "",
-        "ticker": "KXNCAAFTOTAL-26OCT24NHCCCSU-76"
+        "ticker": "KXNCAAFSPREAD-26OCT24SAMFUR-SAM6"
       },
       {
-        "title": "Full Game: Over 71.5 points scored",
+        "title": "Samford wins by over 1.5 points",
         "subtitle": "",
-        "ticker": "KXNCAAFTOTAL-26OCT24NHCCCSU-72"
+        "ticker": "KXNCAAFSPREAD-26OCT24SAMFUR-SAM2"
       },
       {
-        "title": "Full Game: Over 67.5 points scored",
+        "title": "Samford wins by over 13.5 points",
         "subtitle": "",
-        "ticker": "KXNCAAFTOTAL-26OCT24NHCCCSU-68"
+        "ticker": "KXNCAAFSPREAD-26OCT24SAMFUR-SAM14"
       },
       {
-        "title": "Full Game: Over 63.5 points scored",
+        "title": "Samford wins by over 9.5 points",
         "subtitle": "",
-        "ticker": "KXNCAAFTOTAL-26OCT24NHCCCSU-64"
+        "ticker": "KXNCAAFSPREAD-26OCT24SAMFUR-SAM10"
       }
     ],
     "polymarket": [
