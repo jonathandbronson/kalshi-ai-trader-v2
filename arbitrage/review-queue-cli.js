@@ -1,8 +1,15 @@
+import {applyReviewFeedback,evaluateLabeledBatch} from "./quality-feedback.js";
 import {readFile,writeFile} from "node:fs/promises";
 import {rankForManualReview} from "./review-queue.js";
 const source=process.env.ARB_EVENT_OUTPUT??"arbitrage-events.json";
 const dest=process.env.ARB_REVIEW_QUEUE_OUTPUT??"arbitrage-review-queue.json";
 const report=JSON.parse(await readFile(source,"utf8"));
-const queue=rankForManualReview(report);
+const readOptional=async path=>{try{return JSON.parse(await readFile(path,"utf8"))}catch(e){if(e.code==="ENOENT")return [];throw e}};
+const reviews=await readOptional(process.env.ARB_MANUAL_REVIEWS??"arbitrage/manual-reviews.json");
+const labels=await readOptional(process.env.ARB_GROUND_TRUTH??"arbitrage/ground-truth.json");
+const filtered=applyReviewFeedback(report.candidates,reviews);
+const queue=rankForManualReview({...report,candidates:filtered.candidates});
+queue.feedback=filtered.counts;
+queue.labeledBenchmark=evaluateLabeledBatch(queue.candidates,labels);
 await writeFile(dest,JSON.stringify(queue,null,2)+"\n");
 console.log(JSON.stringify({reviewCandidates:queue.candidates.length,categoryCounts:queue.categoryCounts}));
