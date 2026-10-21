@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T16:55:38.249Z",
+  "timestamp": "2026-10-21T17:09:22.817Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -9,40 +9,335 @@
   ],
   "counts": {
     "kalshiRawMarkets": 1300,
-    "kalshiSingleOutcomeMarkets": 1276,
-    "kalshiMarkets": 1276,
+    "kalshiSingleOutcomeMarkets": 1262,
+    "kalshiMarkets": 1262,
     "polymarketMarkets": 2000,
-    "polymarketBinaryMarkets": 1600,
-    "titleCandidates": 0,
+    "polymarketBinaryMarkets": 1584,
+    "titleCandidates": 7,
     "contractTypePolicy": "strict_same_kind",
     "kalshiPagesRequested": 20,
     "kalshiPoolCap": 1200,
     "polymarketPagesRequested": 20,
-    "orderbooksChecked": 0
+    "orderbooksChecked": 7
   },
-  "candidates": [],
+  "candidates": [
+    {
+      "score": 0.535,
+      "kalshi": {
+        "ticker": "KXSARETAIL-26NOV18-T-2.5",
+        "title": "Will South Africa retail sales MoM for September 2026 be above -2.5%?",
+        "subtitle": "",
+        "rulesPrimary": "If the South Africa retail sales MoM for September 2026 is above -2.5%, then the market resolves to Yes.",
+        "rulesSecondary": "",
+        "closeDate": "2026-11-18"
+      },
+      "polymarket": {
+        "id": "5541301",
+        "title": "Will South Africa win?",
+        "description": "This market refers to the cricket match between South Africa and Australia scheduled for October 18 2026 at 4:00 AM ET in Test Match.\n\nDLS/DRS, over-rate penalties, forfeit/walkover, or any other on-field ruling that leads the competition t",
+        "resolutionSource": "https://www.espncricinfo.com/",
+        "endDate": "2026-10-25"
+      },
+      "dateDifferenceDays": 24,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": 0.99,
+        "polymarketYesAsk": 0.84,
+        "polymarketNoAsk": 0.19,
+        "kalshiYesAskSize": 11035.01,
+        "kalshiNoAskSize": 11300.01,
+        "polymarketYesAskSize": 300,
+        "polymarketNoAskSize": 350
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.18,
+          "grossSpreadPerShare": -0.18
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.83,
+          "grossSpreadPerShare": -0.83
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.535,
+      "kalshi": {
+        "ticker": "KXSARETAIL-26NOV18-T-2.0",
+        "title": "Will South Africa retail sales MoM for September 2026 be above -2.0%?",
+        "subtitle": "",
+        "rulesPrimary": "If the South Africa retail sales MoM for September 2026 is above -2.0%, then the market resolves to Yes.",
+        "rulesSecondary": "",
+        "closeDate": "2026-11-18"
+      },
+      "polymarket": {
+        "id": "5541301",
+        "title": "Will South Africa win?",
+        "description": "This market refers to the cricket match between South Africa and Australia scheduled for October 18 2026 at 4:00 AM ET in Test Match.\n\nDLS/DRS, over-rate penalties, forfeit/walkover, or any other on-field ruling that leads the competition t",
+        "resolutionSource": "https://www.espncricinfo.com/",
+        "endDate": "2026-10-25"
+      },
+      "dateDifferenceDays": 24,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": 0.99,
+        "polymarketYesAsk": 0.84,
+        "polymarketNoAsk": 0.19,
+        "kalshiYesAskSize": 11035.01,
+        "kalshiNoAskSize": 11300.01,
+        "polymarketYesAskSize": 300,
+        "polymarketNoAskSize": 350
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.18,
+          "grossSpreadPerShare": -0.18
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.83,
+          "grossSpreadPerShare": -0.83
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.535,
+      "kalshi": {
+        "ticker": "KXSARETAIL-26NOV18-T-1.5",
+        "title": "Will South Africa retail sales MoM for September 2026 be above -1.5%?",
+        "subtitle": "",
+        "rulesPrimary": "If the South Africa retail sales MoM for September 2026 is above -1.5%, then the market resolves to Yes.",
+        "rulesSecondary": "",
+        "closeDate": "2026-11-18"
+      },
+      "polymarket": {
+        "id": "5541301",
+        "title": "Will South Africa win?",
+        "description": "This market refers to the cricket match between South Africa and Australia scheduled for October 18 2026 at 4:00 AM ET in Test Match.\n\nDLS/DRS, over-rate penalties, forfeit/walkover, or any other on-field ruling that leads the competition t",
+        "resolutionSource": "https://www.espncricinfo.com/",
+        "endDate": "2026-10-25"
+      },
+      "dateDifferenceDays": 24,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": 0.99,
+        "polymarketYesAsk": 0.84,
+        "polymarketNoAsk": 0.19,
+        "kalshiYesAskSize": 7785,
+        "kalshiNoAskSize": 7785,
+        "polymarketYesAskSize": 300,
+        "polymarketNoAskSize": 350
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.18,
+          "grossSpreadPerShare": -0.18
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.83,
+          "grossSpreadPerShare": -0.83
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.535,
+      "kalshi": {
+        "ticker": "KXSARETAIL-26NOV18-T-1.0",
+        "title": "Will South Africa retail sales MoM for September 2026 be above -1.0%?",
+        "subtitle": "",
+        "rulesPrimary": "If the South Africa retail sales MoM for September 2026 is above -1.0%, then the market resolves to Yes.",
+        "rulesSecondary": "",
+        "closeDate": "2026-11-18"
+      },
+      "polymarket": {
+        "id": "5541301",
+        "title": "Will South Africa win?",
+        "description": "This market refers to the cricket match between South Africa and Australia scheduled for October 18 2026 at 4:00 AM ET in Test Match.\n\nDLS/DRS, over-rate penalties, forfeit/walkover, or any other on-field ruling that leads the competition t",
+        "resolutionSource": "https://www.espncricinfo.com/",
+        "endDate": "2026-10-25"
+      },
+      "dateDifferenceDays": 24,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": 0.99,
+        "polymarketYesAsk": 0.84,
+        "polymarketNoAsk": 0.19,
+        "kalshiYesAskSize": 10785.01,
+        "kalshiNoAskSize": 10785.01,
+        "polymarketYesAskSize": 300,
+        "polymarketNoAskSize": 350
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.18,
+          "grossSpreadPerShare": -0.18
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.83,
+          "grossSpreadPerShare": -0.83
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.535,
+      "kalshi": {
+        "ticker": "KXSARETAIL-26NOV18-T-0.5",
+        "title": "Will South Africa retail sales MoM for September 2026 be above -0.5%?",
+        "subtitle": "",
+        "rulesPrimary": "If the South Africa retail sales MoM for September 2026 is above -0.5%, then the market resolves to Yes.",
+        "rulesSecondary": "",
+        "closeDate": "2026-11-18"
+      },
+      "polymarket": {
+        "id": "5541301",
+        "title": "Will South Africa win?",
+        "description": "This market refers to the cricket match between South Africa and Australia scheduled for October 18 2026 at 4:00 AM ET in Test Match.\n\nDLS/DRS, over-rate penalties, forfeit/walkover, or any other on-field ruling that leads the competition t",
+        "resolutionSource": "https://www.espncricinfo.com/",
+        "endDate": "2026-10-25"
+      },
+      "dateDifferenceDays": 24,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": 0.99,
+        "polymarketYesAsk": 0.84,
+        "polymarketNoAsk": 0.19,
+        "kalshiYesAskSize": 10785.01,
+        "kalshiNoAskSize": 10785.01,
+        "polymarketYesAskSize": 300,
+        "polymarketNoAskSize": 350
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.18,
+          "grossSpreadPerShare": -0.18
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.83,
+          "grossSpreadPerShare": -0.83
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.535,
+      "kalshi": {
+        "ticker": "KXSAMOMINF-26NOV18-T-0.4",
+        "title": "Will South Africa inflation rate MoM for October 2026 be above -0.4%?",
+        "subtitle": "",
+        "rulesPrimary": "If the South Africa inflation rate MoM for October 2026 is above -0.4%, then the market resolves to Yes.",
+        "rulesSecondary": "",
+        "closeDate": "2026-11-18"
+      },
+      "polymarket": {
+        "id": "5541301",
+        "title": "Will South Africa win?",
+        "description": "This market refers to the cricket match between South Africa and Australia scheduled for October 18 2026 at 4:00 AM ET in Test Match.\n\nDLS/DRS, over-rate penalties, forfeit/walkover, or any other on-field ruling that leads the competition t",
+        "resolutionSource": "https://www.espncricinfo.com/",
+        "endDate": "2026-10-25"
+      },
+      "dateDifferenceDays": 24,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": 0.99,
+        "polymarketYesAsk": 0.84,
+        "polymarketNoAsk": 0.19,
+        "kalshiYesAskSize": 3035,
+        "kalshiNoAskSize": 3035,
+        "polymarketYesAskSize": 300,
+        "polymarketNoAskSize": 350
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.18,
+          "grossSpreadPerShare": -0.18
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.83,
+          "grossSpreadPerShare": -0.83
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    },
+    {
+      "score": 0.535,
+      "kalshi": {
+        "ticker": "KXSAMOMINF-26NOV18-T-0.2",
+        "title": "Will South Africa inflation rate MoM for October 2026 be above -0.2%?",
+        "subtitle": "",
+        "rulesPrimary": "If the South Africa inflation rate MoM for October 2026 is above -0.2%, then the market resolves to Yes.",
+        "rulesSecondary": "",
+        "closeDate": "2026-11-18"
+      },
+      "polymarket": {
+        "id": "5541301",
+        "title": "Will South Africa win?",
+        "description": "This market refers to the cricket match between South Africa and Australia scheduled for October 18 2026 at 4:00 AM ET in Test Match.\n\nDLS/DRS, over-rate penalties, forfeit/walkover, or any other on-field ruling that leads the competition t",
+        "resolutionSource": "https://www.espncricinfo.com/",
+        "endDate": "2026-10-25"
+      },
+      "dateDifferenceDays": 24,
+      "topOfBook": {
+        "kalshiYesAsk": 0.99,
+        "kalshiNoAsk": 0.99,
+        "polymarketYesAsk": 0.84,
+        "polymarketNoAsk": 0.19,
+        "kalshiYesAskSize": 3035,
+        "kalshiNoAskSize": 3600,
+        "polymarketYesAskSize": 300,
+        "polymarketNoAskSize": 350
+      },
+      "illustrativeBeforeFees": [
+        {
+          "direction": "KALSHI_YES_POLY_NO",
+          "combinedAsk": 1.18,
+          "grossSpreadPerShare": -0.18
+        },
+        {
+          "direction": "POLY_YES_KALSHI_NO",
+          "combinedAsk": 1.83,
+          "grossSpreadPerShare": -0.83
+        }
+      ],
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES"
+    }
+  ],
   "errors": [],
   "samples": {
     "kalshi": [
       {
-        "title": "Will Lille score over 3.5 goals?",
+        "title": "Both Teams To Score",
         "subtitle": "",
-        "ticker": "KXUCLTEAMTOTAL-26OCT21LILGAL-LIL4"
+        "ticker": "KXQSTARSBTTS-26OCT22ALGAHL-BTTS"
       },
       {
-        "title": "Will over 7.5 goals be scored?",
+        "title": "Will over 5.5 goals be scored?",
         "subtitle": "",
-        "ticker": "KXUCLTOTAL-26OCT21LILGAL-8"
+        "ticker": "KXQSTARSTOTAL-26OCT22ALGAHL-6"
       },
       {
-        "title": "MORROW wins",
+        "title": "Will over 4.5 goals be scored?",
         "subtitle": "",
-        "ticker": "KXCS2GAME-26OCT211300MORDM-MOR"
+        "ticker": "KXQSTARSTOTAL-26OCT22ALGAHL-5"
       },
       {
-        "title": "Dark Moon wins",
+        "title": "Will over 3.5 goals be scored?",
         "subtitle": "",
-        "ticker": "KXCS2GAME-26OCT211300MORDM-DM"
+        "ticker": "KXQSTARSTOTAL-26OCT22ALGAHL-4"
       }
     ],
     "polymarket": [
@@ -51,16 +346,16 @@
         "id": "5436896"
       },
       {
+        "title": "Will Como 1907 win on 2026-10-21?",
+        "id": "5409727"
+      },
+      {
         "title": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
         "id": "601819"
       },
       {
         "title": "Will the Fed decrease interest rates by 25 bps after the October 2026 meeting?",
         "id": "2589811"
-      },
-      {
-        "title": "2026 Balance of Power: R Senate, R House",
-        "id": "562831"
       }
     ]
   },
