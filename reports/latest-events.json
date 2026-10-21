@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T16:11:45.226Z",
+  "timestamp": "2026-10-21T16:13:02.665Z",
   "mode": "EVENT_FIRST_READ_ONLY",
   "status": "COLLECTED",
   "autoApproved": 0,
@@ -9,19 +9,19 @@
     "categorySourceCoverage": {
       "Sports": {
         "kalshiSeries": 6,
-        "kalshiEvents": 1,
+        "kalshiEvents": 3,
         "polyTags": 2,
         "polyEvents": 2
       },
       "Economics": {
         "kalshiSeries": 6,
-        "kalshiEvents": 2,
+        "kalshiEvents": 5,
         "polyTags": 2,
         "polyEvents": 18
       },
       "Financials": {
         "kalshiSeries": 6,
-        "kalshiEvents": 4,
+        "kalshiEvents": 0,
         "polyTags": 2,
         "polyEvents": 346
       },
@@ -34,9 +34,9 @@
     },
     "categorySourceErrors": 0,
     "kalshiEvents": 1208,
-    "polymarketEvents": 2057,
-    "kalshiNestedMarkets": 10312,
-    "polymarketNestedMarkets": 32753,
+    "polymarketEvents": 2058,
+    "kalshiNestedMarkets": 10316,
+    "polymarketNestedMarkets": 32707,
     "eventPagesRequested": 12,
     "polymarketDiscoverySources": [
       "volume24hr",
@@ -47,36 +47,36 @@
       "open_cursor_pagination",
       "series_ticker"
     ],
-    "eventMatches": 2326,
+    "eventMatches": 2337,
     "eventMatchThreshold": {
       "minimumSharedTokens": 2,
       "minimumSimilarity": 0.52
     },
     "discoveryStrategy": "bidirectional_inverted_index",
     "eventMatchCategories": {
-      "politics": 1960,
+      "politics": 1970,
       "sports": 19,
       "crypto": 1,
       "economics": 244,
       "finance": 0,
-      "other": 102
+      "other": 103
     },
     "sourceEventCategories": {
       "kalshi": {
-        "politics": 476,
+        "politics": 477,
         "sports": 14,
-        "crypto": 1,
+        "crypto": 2,
         "economics": 64,
-        "finance": 0,
-        "other": 653
+        "finance": 1,
+        "other": 650
       },
       "polymarket": {
-        "politics": 194,
+        "politics": 195,
         "sports": 47,
-        "crypto": 299,
+        "crypto": 306,
         "economics": 48,
         "finance": 15,
-        "other": 1454
+        "other": 1447
       }
     },
     "discoveryCoverageWarning": [
@@ -84,9 +84,9 @@
     ],
     "expiredRejectionCacheEntries": 0,
     "marketLevelDiscovery": {
-      "kalshiMarkets": 10312,
-      "polymarketMarkets": 32753,
-      "comparisons": 174677,
+      "kalshiMarkets": 10316,
+      "polymarketMarkets": 32707,
+      "comparisons": 172705,
       "rejectedByReason": {
         "DIFFERENT_RULE_DEADLINE": 4699,
         "DIFFERENT_THRESHOLD": 70,
@@ -112,33 +112,33 @@
     "qualityRejections": {
       "DIFFERENT_THRESHOLD": 4
     },
-    "eligibleCandidatePool": 1680,
-    "eligibleDistinctKalshiMarkets": 142,
-    "eligibleDistinctPolymarketMarkets": 242,
+    "eligibleCandidatePool": 1679,
+    "eligibleDistinctKalshiMarkets": 141,
+    "eligibleDistinctPolymarketMarkets": 241,
     "eligiblePoolCategories": {
       "politics": 448,
       "sports": 25,
       "crypto": 0,
       "economics": 0,
       "finance": 0,
-      "other": 1207
+      "other": 1206
     },
     "rejectedByReason": {},
     "rejectionCacheEntries": 735,
     "rejectionCacheLoaded": 735,
     "cachedRejections": 621,
-    "dateMismatchCandidates": 1680,
+    "dateMismatchCandidates": 1679,
     "ruleWarningCandidates": 438,
-    "noRuleWarningCandidates": 1242,
+    "noRuleWarningCandidates": 1241,
     "settlementVerifiedCandidates": 0,
-    "manualSettlementReviewRequired": 1680,
-    "uniqueEligibleEventPairs": 29,
+    "manualSettlementReviewRequired": 1679,
+    "uniqueEligibleEventPairs": 28,
     "candidateCategories": {
       "politics": 24,
       "other": 22,
       "sports": 14
     },
-    "uniqueMatchedEventPairs": 29,
+    "uniqueMatchedEventPairs": 28,
     "candidates": 60
   },
   "candidates": [
@@ -251,7 +251,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:11:59.603Z",
+        "fetchedAt": "2026-10-21T16:13:13.447Z",
         "kalshi": {
           "ticker": "KXONTLIBLEAD-26NOV21-NBAI",
           "eventTicker": "KXONTLIBLEAD-26NOV21",
@@ -391,7 +391,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:11:59.909Z",
+        "fetchedAt": "2026-10-21T16:13:13.614Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-SOM",
           "eventTicker": "KXOSCARDOCU-27",
@@ -539,7 +539,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:08.617Z",
+        "fetchedAt": "2026-10-21T16:13:18.469Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-14000",
           "eventTicker": "KXNFLCAREERRSHYDS-DHENRY",
@@ -677,7 +677,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:11:59.616Z",
+        "fetchedAt": "2026-10-21T16:13:13.454Z",
         "kalshi": {
           "ticker": "SENATENH-28-R",
           "eventTicker": "SENATENH-28",
@@ -817,7 +817,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:00.896Z",
+        "fetchedAt": "2026-10-21T16:13:14.141Z",
         "kalshi": {
           "ticker": "KXOSCARPIC-27-WIL",
           "eventTicker": "KXOSCARPIC-27",
@@ -961,7 +961,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:08.618Z",
+        "fetchedAt": "2026-10-21T16:13:18.470Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-14000",
           "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
@@ -1099,7 +1099,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:11:59.689Z",
+        "fetchedAt": "2026-10-21T16:13:13.497Z",
         "kalshi": {
           "ticker": "SENATEGA-28-R",
           "eventTicker": "SENATEGA-28",
@@ -1239,7 +1239,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:01.127Z",
+        "fetchedAt": "2026-10-21T16:13:14.255Z",
         "kalshi": {
           "ticker": "KXOSCARACTO-27-TOM",
           "eventTicker": "KXOSCARACTO-27",
@@ -1379,7 +1379,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:08.621Z",
+        "fetchedAt": "2026-10-21T16:13:18.471Z",
         "kalshi": {
           "ticker": "KXNFLCAREERPASSYDS-PMAHOMES-40000",
           "eventTicker": "KXNFLCAREERPASSYDS-PMAHOMES",
@@ -1517,7 +1517,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:11:59.689Z",
+        "fetchedAt": "2026-10-21T16:13:13.497Z",
         "kalshi": {
           "ticker": "SENATEFL-28-R",
           "eventTicker": "SENATEFL-28",
@@ -1658,7 +1658,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:04.817Z",
+        "fetchedAt": "2026-10-21T16:13:16.256Z",
         "kalshi": {
           "ticker": "KXJOHANNESBURGMAYOR-26DEC31-HMAS",
           "eventTicker": "KXJOHANNESBURGMAYOR-26DEC31",
@@ -1798,7 +1798,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:08.622Z",
+        "fetchedAt": "2026-10-21T16:13:18.472Z",
         "kalshi": {
           "ticker": "KXNFLCAREERPASSYDS-JALLEN-35000",
           "eventTicker": "KXNFLCAREERPASSYDS-JALLEN",
@@ -1946,7 +1946,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:00.264Z",
+        "fetchedAt": "2026-10-21T16:13:13.805Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-JMEL",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -1966,290 +1966,6 @@
           "endTime": "2027-07-01T03:59:00.000Z",
           "ruleSha256": "2f1f8f9b09f49e3b13713aa6606563b52c9ffa562e9d4feb332dc64dc677968a",
           "conditionId": "0xc86ceab1f863c01c5c56939ce1d8d4a8d5b306dbbc5f22e8ab032b8da2498020"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "other",
-      "eventScore": 0.655,
-      "contractScore": 0.668,
-      "kalshi": {
-        "eventTicker": "KXDKS-26NOVCOMP",
-        "title": "Will Dick's Sporting Goods Inc report Above 4% comparable store sales in Q3 2026?",
-        "subtitle": null,
-        "outcomeLabel": "Will Dick's Sporting Goods Inc report Above 4% comparable store sales in Q3 2026?",
-        "ticker": "KXDKS-26NOVCOMP-4",
-        "eventTitle": "Dick's comparable sales in Q3",
-        "closeDate": "2027-03-24"
-      },
-      "polymarket": {
-        "eventId": "1194150",
-        "id": "5730355",
-        "eventTitle": "DICK'S Sporting Goods Q3 Dick's business comparable sales growth?",
-        "title": "Will DICK'S Sporting Goods Q3 Dick's business comparable sales growth be above 4%?",
-        "endDate": "2026-11-24"
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [],
-        "kalshi": {
-          "threshold": {
-            "value": 4,
-            "unit": "count"
-          },
-          "direction": "above",
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [
-            "2026"
-          ],
-          "ruleAvailable": true,
-          "sourceMentioned": false
-        },
-        "polymarket": {
-          "threshold": {
-            "value": 4,
-            "unit": "count"
-          },
-          "direction": "above",
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [
-              "2026-12-31"
-            ],
-            "years": [
-              "2026"
-            ]
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "settlementFingerprint": {
-        "outcome": "will dick s sporting goods inc report above 4 comparable store sales in q3 2026",
-        "kalshiRuleHash": "56c0e1d8b5749e0f",
-        "polymarketRuleHash": "cb3f717a955bda39",
-        "kalshiClose": "2027-03-24",
-        "polymarketEnd": "2026-11-24",
-        "conflicts": []
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If Dick's Sporting Goods Inc reports Above 4% comparable store sales in Q3 2026, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "Kalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the underlying company. All trademarks, logos, and brand names are the property of their respective owners.",
-        "polymarketDescription": "This market will resolve according to DICK'S Sporting Goods' announced Dick's business comparable sales growth for the third fiscal quarter of 2026, as reported in its official company earnings materials.\n\nThe specified metric will be considered as reported in the company's official earnings materials. Subsequent revisions will not be considered.\n\nIf the specified company's official earnings materials for the specified quarter are released, and the specified metric is not included, this market will resolve to the lowest bracket.\n\nIf the specified company does not release quarterly earnings materials for the specified quarter by December 31, 2026, 11:59 PM ET, this market will resolve to the lowest bracket.\n\nIf the reported value falls exactly between two brackets, this market will resolve to the higher range bracket.\n\nIf the specified metric is reported as a range rather than a specific number, the midpoint of the range will be used for resolution of this market.\n\nThe resolution source for this market is Dick's Sporting Goods' official company earnings materials, including press releases, investor presentations, and regulatory filings. If the specified metric is not reported in these materials, recordings or transcripts of the company's earnings webcast may also be used.\n\nNote: This market will resolve based on the most numerically precise version of the specified metric reported in the company's official earnings materials. Only the Dick's business comparable sales growth figure will be considered; alternate versions that differ in definition or scope from the specified metric will not be considered.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2027-03-24",
-        "polymarketEnd": "2026-11-24",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
-        "ruleConflicts": []
-      },
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:02.593Z",
-        "kalshi": {
-          "ticker": "KXDKS-26NOVCOMP-4",
-          "eventTicker": "KXDKS-26NOVCOMP",
-          "marketTitle": "Will Dick's Sporting Goods Inc report Above 4% comparable store sales in Q3 2026?",
-          "rulesPrimary": "If Dick's Sporting Goods Inc reports Above 4% comparable store sales in Q3 2026, then the market resolves to Yes.",
-          "rulesSecondary": "Kalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the underlying company. All trademarks, logos, and brand names are the property of their respective owners.",
-          "closeTime": "2027-03-24T05:00:00.000Z",
-          "ruleSha256": "a6b8b5d55dc5a4aea01c7a8d0b41dc336cc8421a0f647521906f614c138f4818"
-        },
-        "polymarket": {
-          "id": "5730355",
-          "eventId": "1194150",
-          "question": "Will DICK'S Sporting Goods Q3 Dick's business comparable sales growth be above 4%?",
-          "description": "This market will resolve according to DICK'S Sporting Goods' announced Dick's business comparable sales growth for the third fiscal quarter of 2026, as reported in its official company earnings materials.\n\nThe specified metric will be considered as reported in the company's official earnings materials. Subsequent revisions will not be considered.\n\nIf the specified company's official earnings materials for the specified quarter are released, and the specified metric is not included, this market will resolve to the lowest bracket.\n\nIf the specified company does not release quarterly earnings materials for the specified quarter by December 31, 2026, 11:59 PM ET, this market will resolve to the lowest bracket.\n\nIf the reported value falls exactly between two brackets, this market will resolve to the higher range bracket.\n\nIf the specified metric is reported as a range rather than a specific number, the midpoint of the range will be used for resolution of this market.\n\nThe resolution source for this market is Dick's Sporting Goods' official company earnings materials, including press releases, investor presentations, and regulatory filings. If the specified metric is not reported in these materials, recordings or transcripts of the company's earnings webcast may also be used.\n\nNote: This market will resolve based on the most numerically precise version of the specified metric reported in the company's official earnings materials. Only the Dick's business comparable sales growth figure will be considered; alternate versions that differ in definition or scope from the specified metric will not be considered.",
-          "eventDescription": "This market will resolve according to DICK'S Sporting Goods' announced Dick's business comparable sales growth for the third fiscal quarter of 2026, as reported in its official company earnings materials.\n\nThe specified metric will be considered as reported in the company's official earnings materials. Subsequent revisions will not be considered.\n\nIf the specified company's official earnings materials for the specified quarter are released, and the specified metric is not included, this market will resolve to the lowest bracket.\n\nIf the specified company does not release quarterly earnings materials for the specified quarter by December 31, 2026, 11:59 PM ET, this market will resolve to the lowest bracket.\n\nIf the reported value falls exactly between two brackets, this market will resolve to the higher range bracket.\n\nIf the specified metric is reported as a range rather than a specific number, the midpoint of the range will be used for resolution of this market.\n\nThe resolution source for this market is Dick's Sporting Goods' official company earnings materials, including press releases, investor presentations, and regulatory filings. If the specified metric is not reported in these materials, recordings or transcripts of the company's earnings webcast may also be used.\n\nNote: This market will resolve based on the most numerically precise version of the specified metric reported in the company's official earnings materials. Only the Dick's business comparable sales growth figure will be considered; alternate versions that differ in definition or scope from the specified metric will not be considered.",
-          "resolutionSource": null,
-          "endTime": "2026-11-24T14:30:00.000Z",
-          "ruleSha256": "441faa260cc38c0a1525194230e192554cd95bee44030f0c1f3e600f3566f707",
-          "conditionId": "0x4e275999af6be0df9f62ac35428d478026765b820a0bb8df782e906c5d7324ec"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.894,
-      "contractScore": 0.717,
-      "kalshi": {
-        "eventTicker": "SENATESD-28",
-        "title": "Will Republicans win the Senate race in South Dakota?",
-        "subtitle": ":: Current incumbent: John Thune",
-        "outcomeLabel": "Will Republicans win the Senate race in South Dakota? :: Current incumbent: John Thune",
-        "ticker": "SENATESD-28-R",
-        "eventTitle": "South Dakota Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57670",
-        "id": "630938",
-        "eventTitle": "South Dakota Senate Election Winner",
-        "title": "Will the Republicans win the South Dakota Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": false
-        },
-        "polymarket": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [
-            "2026"
-          ],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "settlementFingerprint": {
-        "outcome": "will republicans win the senate race in south dakota current incumbent john thune",
-        "kalshiRuleHash": "558b1c97bafca03d",
-        "polymarketRuleHash": "78b01ef5d1e83d09",
-        "kalshiClose": "2029-11-07",
-        "polymarketEnd": "2026-11-04",
-        "conflicts": []
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of South Dakota for the term beginning in 2029, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm South Dakota U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-        "polymarketResolutionSource": null,
-        "kalshiClose": "2029-11-07",
-        "polymarketEnd": "2026-11-04",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
-        "ruleConflicts": []
-      },
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:11:59.614Z",
-        "kalshi": {
-          "ticker": "SENATESD-28-R",
-          "eventTicker": "SENATESD-28",
-          "marketTitle": "Will Republicans win the Senate race in South Dakota? :: Current incumbent: John Thune",
-          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of South Dakota for the term beginning in 2029, then the market resolves to Yes.",
-          "rulesSecondary": null,
-          "closeTime": "2029-11-07T15:00:00.000Z",
-          "ruleSha256": "571b921e874f401be0c3ec5b4756fce0053323198a5c7da93f52d209534c6816"
-        },
-        "polymarket": {
-          "id": "630938",
-          "eventId": "57670",
-          "question": "Will the Republicans win the South Dakota Senate race in 2026?",
-          "description": "This market will resolve according to the winner of the 2026 midterm South Dakota U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-          "eventDescription": "This market will resolve according to the winner of the 2026 midterm South Dakota U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-          "resolutionSource": null,
-          "endTime": "2026-11-04T04:59:00.000Z",
-          "ruleSha256": "7c6f6a779064fa145ba4f0c600429d06db5c1d32266517b0b7df436701f5f499",
-          "conditionId": "0xeec26e9d0efd895ba65bc3f1f0cbe99f66a56833682430dc266277a6c9e6e60f"
         },
         "warnings": [
           "DIFFERENT_LISTED_END_DATES",
@@ -2371,7 +2087,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:02.420Z",
+        "fetchedAt": "2026-10-21T16:13:14.983Z",
         "kalshi": {
           "ticker": "KXOSCARNOMSBANIMATEDF-27-MIN",
           "eventTicker": "KXOSCARNOMSBANIMATEDF-27",
@@ -2418,19 +2134,19 @@
       "eventScore": 0.894,
       "contractScore": 0.717,
       "kalshi": {
-        "eventTicker": "SENATESC-28",
-        "title": "Will Republicans win the Senate race in South Carolina?",
-        "subtitle": ":: Current incumbent: Tim Scott",
-        "outcomeLabel": "Will Republicans win the Senate race in South Carolina? :: Current incumbent: Tim Scott",
-        "ticker": "SENATESC-28-R",
-        "eventTitle": "South Carolina Senate winner? (2028)",
+        "eventTicker": "SENATESD-28",
+        "title": "Will Republicans win the Senate race in South Dakota?",
+        "subtitle": ":: Current incumbent: John Thune",
+        "outcomeLabel": "Will Republicans win the Senate race in South Dakota? :: Current incumbent: John Thune",
+        "ticker": "SENATESD-28-R",
+        "eventTitle": "South Dakota Senate winner? (2028)",
         "closeDate": "2029-11-07"
       },
       "polymarket": {
-        "eventId": "57669",
-        "id": "630925",
-        "eventTitle": "South Carolina Senate Election Winner",
-        "title": "Will the Republicans win the South Carolina Senate race in 2026?",
+        "eventId": "57670",
+        "id": "630938",
+        "eventTitle": "South Dakota Senate Election Winner",
+        "title": "Will the Republicans win the South Dakota Senate race in 2026?",
         "endDate": "2026-11-04"
       },
       "qualityComparison": {
@@ -2480,17 +2196,17 @@
         "verified": false
       },
       "settlementFingerprint": {
-        "outcome": "will republicans win the senate race in south carolina current incumbent tim scott",
-        "kalshiRuleHash": "7ff2964e81ebb7cd",
-        "polymarketRuleHash": "8194e81ff39d3090",
+        "outcome": "will republicans win the senate race in south dakota current incumbent john thune",
+        "kalshiRuleHash": "558b1c97bafca03d",
+        "polymarketRuleHash": "78b01ef5d1e83d09",
         "kalshiClose": "2029-11-07",
         "polymarketEnd": "2026-11-04",
         "conflicts": []
       },
       "reviewEvidence": {
-        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of South Carolina for the term beginning in 2029, then the market resolves to Yes.",
+        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of South Dakota for the term beginning in 2029, then the market resolves to Yes.",
         "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm South Carolina U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm South Dakota U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
         "polymarketResolutionSource": null,
         "kalshiClose": "2029-11-07",
         "polymarketEnd": "2026-11-04",
@@ -2508,26 +2224,26 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:11:59.615Z",
+        "fetchedAt": "2026-10-21T16:13:13.453Z",
         "kalshi": {
-          "ticker": "SENATESC-28-R",
-          "eventTicker": "SENATESC-28",
-          "marketTitle": "Will Republicans win the Senate race in South Carolina? :: Current incumbent: Tim Scott",
-          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of South Carolina for the term beginning in 2029, then the market resolves to Yes.",
+          "ticker": "SENATESD-28-R",
+          "eventTicker": "SENATESD-28",
+          "marketTitle": "Will Republicans win the Senate race in South Dakota? :: Current incumbent: John Thune",
+          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of South Dakota for the term beginning in 2029, then the market resolves to Yes.",
           "rulesSecondary": null,
           "closeTime": "2029-11-07T15:00:00.000Z",
-          "ruleSha256": "3df562a76f298a78be5e77e79251b81faddcc1c2d4f289c724da2c28bbf330e4"
+          "ruleSha256": "571b921e874f401be0c3ec5b4756fce0053323198a5c7da93f52d209534c6816"
         },
         "polymarket": {
-          "id": "630925",
-          "eventId": "57669",
-          "question": "Will the Republicans win the South Carolina Senate race in 2026?",
-          "description": "This market will resolve according to the winner of the 2026 midterm South Carolina U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-          "eventDescription": "This market will resolve according to the winner of the 2026 midterm South Carolina U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "id": "630938",
+          "eventId": "57670",
+          "question": "Will the Republicans win the South Dakota Senate race in 2026?",
+          "description": "This market will resolve according to the winner of the 2026 midterm South Dakota U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "eventDescription": "This market will resolve according to the winner of the 2026 midterm South Dakota U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
           "resolutionSource": null,
           "endTime": "2026-11-04T04:59:00.000Z",
-          "ruleSha256": "58df35610469edcc2d223836e5808a089f55715a5b20e43f8588f1c052cce3b3",
-          "conditionId": "0x1c017cbb38a9d0ab233ebb265b25c78290317e6a2470657ca18a73a112397b55"
+          "ruleSha256": "7c6f6a779064fa145ba4f0c600429d06db5c1d32266517b0b7df436701f5f499",
+          "conditionId": "0xeec26e9d0efd895ba65bc3f1f0cbe99f66a56833682430dc266277a6c9e6e60f"
         },
         "warnings": [
           "DIFFERENT_LISTED_END_DATES",
@@ -2649,7 +2365,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:03.108Z",
+        "fetchedAt": "2026-10-21T16:13:15.345Z",
         "kalshi": {
           "ticker": "KXOSCARNOMSPLAY-27-TEE",
           "eventTicker": "KXOSCARNOMSPLAY-27",
@@ -2673,6 +2389,282 @@
         "warnings": [
           "DIFFERENT_LISTED_END_DATES",
           "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.894,
+      "contractScore": 0.717,
+      "kalshi": {
+        "eventTicker": "SENATESC-28",
+        "title": "Will Republicans win the Senate race in South Carolina?",
+        "subtitle": ":: Current incumbent: Tim Scott",
+        "outcomeLabel": "Will Republicans win the Senate race in South Carolina? :: Current incumbent: Tim Scott",
+        "ticker": "SENATESC-28-R",
+        "eventTitle": "South Carolina Senate winner? (2028)",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "57669",
+        "id": "630925",
+        "eventTitle": "South Carolina Senate Election Winner",
+        "title": "Will the Republicans win the South Carolina Senate race in 2026?",
+        "endDate": "2026-11-04"
+      },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [
+            "2026"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "settlementFingerprint": {
+        "outcome": "will republicans win the senate race in south carolina current incumbent tim scott",
+        "kalshiRuleHash": "7ff2964e81ebb7cd",
+        "polymarketRuleHash": "8194e81ff39d3090",
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of South Carolina for the term beginning in 2029, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm South Carolina U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+        "polymarketResolutionSource": null,
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T16:13:13.454Z",
+        "kalshi": {
+          "ticker": "SENATESC-28-R",
+          "eventTicker": "SENATESC-28",
+          "marketTitle": "Will Republicans win the Senate race in South Carolina? :: Current incumbent: Tim Scott",
+          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of South Carolina for the term beginning in 2029, then the market resolves to Yes.",
+          "rulesSecondary": null,
+          "closeTime": "2029-11-07T15:00:00.000Z",
+          "ruleSha256": "3df562a76f298a78be5e77e79251b81faddcc1c2d4f289c724da2c28bbf330e4"
+        },
+        "polymarket": {
+          "id": "630925",
+          "eventId": "57669",
+          "question": "Will the Republicans win the South Carolina Senate race in 2026?",
+          "description": "This market will resolve according to the winner of the 2026 midterm South Carolina U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "eventDescription": "This market will resolve according to the winner of the 2026 midterm South Carolina U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "resolutionSource": null,
+          "endTime": "2026-11-04T04:59:00.000Z",
+          "ruleSha256": "58df35610469edcc2d223836e5808a089f55715a5b20e43f8588f1c052cce3b3",
+          "conditionId": "0x1c017cbb38a9d0ab233ebb265b25c78290317e6a2470657ca18a73a112397b55"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "other",
+      "eventScore": 0.671,
+      "contractScore": 0.632,
+      "kalshi": {
+        "eventTicker": "KXOSCARSUPACTO-27",
+        "title": "Will Jeremy Strong win Best Supporting Actor at the Oscars?",
+        "subtitle": "Jeremy Strong:: The Social Reckoning",
+        "outcomeLabel": "Will Jeremy Strong win Best Supporting Actor at the Oscars? Jeremy Strong:: The Social Reckoning",
+        "ticker": "KXOSCARSUPACTO-27-JER",
+        "eventTitle": "Oscar winner: Best Supporting Actor",
+        "closeDate": "2027-12-31"
+      },
+      "polymarket": {
+        "eventId": "761666",
+        "id": "3156936",
+        "eventTitle": "Oscars 2027: Best Actor Winner",
+        "title": "Will Jeremy Strong win Best Actor at the 99th Academy Awards?",
+        "endDate": "2027-07-01"
+      },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [
+              "2027-03-14",
+              "2027-06-30"
+            ],
+            "years": [
+              "2027"
+            ]
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "settlementFingerprint": {
+        "outcome": "will jeremy strong win best supporting actor at the oscars jeremy strong the social reckoning",
+        "kalshiRuleHash": "2d96b5893e607c96",
+        "polymarketRuleHash": "d746dd039dc18c67",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-07-01",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Jeremy Strong has won Best Supporting Actor at the 99th Academy Awards, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+        "polymarketDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed actor who wins the 99th Academy Award for Best Actor. \n\nIf an actor is not officially nominated for the Academy Award for Best Actor when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated actor whose listed last name comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "https://www.oscars.org/",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-07-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T16:13:14.733Z",
+        "kalshi": {
+          "ticker": "KXOSCARSUPACTO-27-JER",
+          "eventTicker": "KXOSCARSUPACTO-27",
+          "marketTitle": "Will Jeremy Strong win Best Supporting Actor at the Oscars? Jeremy Strong:: The Social Reckoning",
+          "rulesPrimary": "If Jeremy Strong has won Best Supporting Actor at the 99th Academy Awards, then the market resolves to Yes.",
+          "rulesSecondary": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+          "closeTime": "2027-12-31T15:00:00.000Z",
+          "ruleSha256": "5036e0a2ee18595cfde7cc3b462b943792da284b7f13748159774556b16574df"
+        },
+        "polymarket": {
+          "id": "3156936",
+          "eventId": "761666",
+          "question": "Will Jeremy Strong win Best Actor at the 99th Academy Awards?",
+          "description": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed actor who wins the 99th Academy Award for Best Actor. \n\nIf an actor is not officially nominated for the Academy Award for Best Actor when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated actor whose listed last name comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+          "eventDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed actor who wins the 99th Academy Award for Best Actor. \n\nIf an actor is not officially nominated for the Academy Award for Best Actor when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated actor whose listed last name comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+          "resolutionSource": "https://www.oscars.org/",
+          "endTime": "2027-07-01T03:59:00.000Z",
+          "ruleSha256": "0ed6de51e1b5a81d43e61601f96b487da989cc690e56f2d28a5f5cb5c02b3c93",
+          "conditionId": "0x20026de6880a2202f649ad8eaa7cf9bb4415cbb0f913aadf93cb2aba5aa99d1d"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES"
         ],
         "reviewChecklist": [
           "IDENTICAL_PAYOFF",
@@ -2794,7 +2786,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:00.411Z",
+        "fetchedAt": "2026-10-21T16:13:13.877Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-JMEL",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -2817,282 +2809,6 @@
         },
         "warnings": [
           "DIFFERENT_LISTED_END_DATES"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "other",
-      "eventScore": 0.671,
-      "contractScore": 0.632,
-      "kalshi": {
-        "eventTicker": "KXOSCARSUPACTO-27",
-        "title": "Will Jeremy Strong win Best Supporting Actor at the Oscars?",
-        "subtitle": "Jeremy Strong:: The Social Reckoning",
-        "outcomeLabel": "Will Jeremy Strong win Best Supporting Actor at the Oscars? Jeremy Strong:: The Social Reckoning",
-        "ticker": "KXOSCARSUPACTO-27-JER",
-        "eventTitle": "Oscar winner: Best Supporting Actor",
-        "closeDate": "2027-12-31"
-      },
-      "polymarket": {
-        "eventId": "761666",
-        "id": "3156936",
-        "eventTitle": "Oscars 2027: Best Actor Winner",
-        "title": "Will Jeremy Strong win Best Actor at the 99th Academy Awards?",
-        "endDate": "2027-07-01"
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": false
-        },
-        "polymarket": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [
-              "2027-03-14",
-              "2027-06-30"
-            ],
-            "years": [
-              "2027"
-            ]
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "settlementFingerprint": {
-        "outcome": "will jeremy strong win best supporting actor at the oscars jeremy strong the social reckoning",
-        "kalshiRuleHash": "2d96b5893e607c96",
-        "polymarketRuleHash": "d746dd039dc18c67",
-        "kalshiClose": "2027-12-31",
-        "polymarketEnd": "2027-07-01",
-        "conflicts": []
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If Jeremy Strong has won Best Supporting Actor at the 99th Academy Awards, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
-        "polymarketDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed actor who wins the 99th Academy Award for Best Actor. \n\nIf an actor is not officially nominated for the Academy Award for Best Actor when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated actor whose listed last name comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "https://www.oscars.org/",
-        "kalshiClose": "2027-12-31",
-        "polymarketEnd": "2027-07-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
-        "ruleConflicts": []
-      },
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:01.955Z",
-        "kalshi": {
-          "ticker": "KXOSCARSUPACTO-27-JER",
-          "eventTicker": "KXOSCARSUPACTO-27",
-          "marketTitle": "Will Jeremy Strong win Best Supporting Actor at the Oscars? Jeremy Strong:: The Social Reckoning",
-          "rulesPrimary": "If Jeremy Strong has won Best Supporting Actor at the 99th Academy Awards, then the market resolves to Yes.",
-          "rulesSecondary": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
-          "closeTime": "2027-12-31T15:00:00.000Z",
-          "ruleSha256": "5036e0a2ee18595cfde7cc3b462b943792da284b7f13748159774556b16574df"
-        },
-        "polymarket": {
-          "id": "3156936",
-          "eventId": "761666",
-          "question": "Will Jeremy Strong win Best Actor at the 99th Academy Awards?",
-          "description": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed actor who wins the 99th Academy Award for Best Actor. \n\nIf an actor is not officially nominated for the Academy Award for Best Actor when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated actor whose listed last name comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
-          "eventDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed actor who wins the 99th Academy Award for Best Actor. \n\nIf an actor is not officially nominated for the Academy Award for Best Actor when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated actor whose listed last name comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
-          "resolutionSource": "https://www.oscars.org/",
-          "endTime": "2027-07-01T03:59:00.000Z",
-          "ruleSha256": "0ed6de51e1b5a81d43e61601f96b487da989cc690e56f2d28a5f5cb5c02b3c93",
-          "conditionId": "0x20026de6880a2202f649ad8eaa7cf9bb4415cbb0f913aadf93cb2aba5aa99d1d"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.866,
-      "contractScore": 0.68,
-      "kalshi": {
-        "eventTicker": "SENATEOH-28",
-        "title": "Will Republicans win the Senate race in Ohio?",
-        "subtitle": ":: Current incumbent: Jon Husted",
-        "outcomeLabel": "Will Republicans win the Senate race in Ohio? :: Current incumbent: Jon Husted",
-        "ticker": "SENATEOH-28-R",
-        "eventTitle": "Ohio Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57682",
-        "id": "631058",
-        "eventTitle": "Ohio Senate Election Winner",
-        "title": "Will the Republicans win the Ohio Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": false
-        },
-        "polymarket": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [
-            "2026"
-          ],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "settlementFingerprint": {
-        "outcome": "will republicans win the senate race in ohio current incumbent jon husted",
-        "kalshiRuleHash": "9edf08d6fe9ecb32",
-        "polymarketRuleHash": "bf934fe9a18e4cb3",
-        "kalshiClose": "2029-11-07",
-        "polymarketEnd": "2026-11-04",
-        "conflicts": []
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Ohio for the term beginning in 2029, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve according to the winner of the 2026 Ohio U.S. Senate special election currently scheduled for November 3, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2029-11-07",
-        "polymarketEnd": "2026-11-04",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
-        "ruleConflicts": []
-      },
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:11:59.686Z",
-        "kalshi": {
-          "ticker": "SENATEOH-28-R",
-          "eventTicker": "SENATEOH-28",
-          "marketTitle": "Will Republicans win the Senate race in Ohio? :: Current incumbent: Jon Husted",
-          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Ohio for the term beginning in 2029, then the market resolves to Yes.",
-          "rulesSecondary": null,
-          "closeTime": "2029-11-07T15:00:00.000Z",
-          "ruleSha256": "b1fcaa69f6ea707a68850942d42fd0e6785f77f4d0dd476285556f0ec674528d"
-        },
-        "polymarket": {
-          "id": "631058",
-          "eventId": "57682",
-          "question": "Will the Republicans win the Ohio Senate race in 2026?",
-          "description": "This market will resolve according to the winner of the 2026 Ohio U.S. Senate special election currently scheduled for November 3, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-          "eventDescription": "This market will resolve according to the winner of the 2026 Ohio U.S. Senate special election currently scheduled for November 3, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-          "resolutionSource": null,
-          "endTime": "2026-11-04T04:59:00.000Z",
-          "ruleSha256": "a7f5200e2e62acf51fab8d2a728fd0e0721a7c16591097e4fb0de641bbb31a10",
-          "conditionId": "0x771873c365f87bffd990644e4b688aebc1be7f18396d2eab64b996ff66e88669"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
         ],
         "reviewChecklist": [
           "IDENTICAL_PAYOFF",
@@ -3213,7 +2929,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:04.664Z",
+        "fetchedAt": "2026-10-21T16:13:16.177Z",
         "kalshi": {
           "ticker": "KXMUSICREPORT-TOPDIGSALE27DEC31-DIE",
           "eventTicker": "KXMUSICREPORT-TOPDIGSALE27DEC31",
@@ -3259,19 +2975,19 @@
       "eventScore": 0.866,
       "contractScore": 0.68,
       "kalshi": {
-        "eventTicker": "SENATEKS-28",
-        "title": "Will Republicans win the Senate race in Kansas?",
-        "subtitle": ":: Current incumbent: Jerry Moran",
-        "outcomeLabel": "Will Republicans win the Senate race in Kansas? :: Current incumbent: Jerry Moran",
-        "ticker": "SENATEKS-28-R",
-        "eventTitle": "Kansas Senate winner? (2028)",
+        "eventTicker": "SENATEOH-28",
+        "title": "Will Republicans win the Senate race in Ohio?",
+        "subtitle": ":: Current incumbent: Jon Husted",
+        "outcomeLabel": "Will Republicans win the Senate race in Ohio? :: Current incumbent: Jon Husted",
+        "ticker": "SENATEOH-28-R",
+        "eventTitle": "Ohio Senate winner? (2028)",
         "closeDate": "2029-11-07"
       },
       "polymarket": {
-        "eventId": "57648",
-        "id": "630747",
-        "eventTitle": "Kansas Senate Election Winner",
-        "title": "Will the Republicans win the Kansas Senate race in 2026?",
+        "eventId": "57682",
+        "id": "631058",
+        "eventTitle": "Ohio Senate Election Winner",
+        "title": "Will the Republicans win the Ohio Senate race in 2026?",
         "endDate": "2026-11-04"
       },
       "qualityComparison": {
@@ -3321,18 +3037,18 @@
         "verified": false
       },
       "settlementFingerprint": {
-        "outcome": "will republicans win the senate race in kansas current incumbent jerry moran",
-        "kalshiRuleHash": "3c996d5c03f2b8b7",
-        "polymarketRuleHash": "cdb2e7fff6164951",
+        "outcome": "will republicans win the senate race in ohio current incumbent jon husted",
+        "kalshiRuleHash": "9edf08d6fe9ecb32",
+        "polymarketRuleHash": "bf934fe9a18e4cb3",
         "kalshiClose": "2029-11-07",
         "polymarketEnd": "2026-11-04",
         "conflicts": []
       },
       "reviewEvidence": {
-        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Kansas for the term beginning in 2029, then the market resolves to Yes.",
+        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Ohio for the term beginning in 2029, then the market resolves to Yes.",
         "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm Kansas U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-        "polymarketResolutionSource": null,
+        "polymarketDescription": "This market will resolve according to the winner of the 2026 Ohio U.S. Senate special election currently scheduled for November 3, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+        "polymarketResolutionSource": "",
         "kalshiClose": "2029-11-07",
         "polymarketEnd": "2026-11-04",
         "differentEndDates": true,
@@ -3349,26 +3065,26 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:11:59.687Z",
+        "fetchedAt": "2026-10-21T16:13:13.495Z",
         "kalshi": {
-          "ticker": "SENATEKS-28-R",
-          "eventTicker": "SENATEKS-28",
-          "marketTitle": "Will Republicans win the Senate race in Kansas? :: Current incumbent: Jerry Moran",
-          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Kansas for the term beginning in 2029, then the market resolves to Yes.",
+          "ticker": "SENATEOH-28-R",
+          "eventTicker": "SENATEOH-28",
+          "marketTitle": "Will Republicans win the Senate race in Ohio? :: Current incumbent: Jon Husted",
+          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Ohio for the term beginning in 2029, then the market resolves to Yes.",
           "rulesSecondary": null,
           "closeTime": "2029-11-07T15:00:00.000Z",
-          "ruleSha256": "ade3a8e4e968a8e99a0812c12f8c6ae276a5577dcb596b6e1cbad211275d4008"
+          "ruleSha256": "b1fcaa69f6ea707a68850942d42fd0e6785f77f4d0dd476285556f0ec674528d"
         },
         "polymarket": {
-          "id": "630747",
-          "eventId": "57648",
-          "question": "Will the Republicans win the Kansas Senate race in 2026?",
-          "description": "This market will resolve according to the winner of the 2026 midterm Kansas U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-          "eventDescription": "This market will resolve according to the winner of the 2026 midterm Kansas U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "id": "631058",
+          "eventId": "57682",
+          "question": "Will the Republicans win the Ohio Senate race in 2026?",
+          "description": "This market will resolve according to the winner of the 2026 Ohio U.S. Senate special election currently scheduled for November 3, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "eventDescription": "This market will resolve according to the winner of the 2026 Ohio U.S. Senate special election currently scheduled for November 3, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
           "resolutionSource": null,
           "endTime": "2026-11-04T04:59:00.000Z",
-          "ruleSha256": "8ce367fc2c5b70babf2745516aa6e83f1f1fc84ead3bcbc48cf355db1da8b823",
-          "conditionId": "0xb8b5349814450b8bba2ecdda2eeb9f48bd3c795bfb858bedf7a383712b877743"
+          "ruleSha256": "a7f5200e2e62acf51fab8d2a728fd0e0721a7c16591097e4fb0de641bbb31a10",
+          "conditionId": "0x771873c365f87bffd990644e4b688aebc1be7f18396d2eab64b996ff66e88669"
         },
         "warnings": [
           "DIFFERENT_LISTED_END_DATES",
@@ -3489,7 +3205,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:02.425Z",
+        "fetchedAt": "2026-10-21T16:13:14.986Z",
         "kalshi": {
           "ticker": "KXOSCARINTLFILM-27-FJO",
           "eventTicker": "KXOSCARINTLFILM-27",
@@ -3498,6 +3214,282 @@
           "rulesSecondary": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
           "closeTime": "2027-12-31T15:00:00.000Z",
           "ruleSha256": "de061e5798cdb0210466f27005ebdc4db8e4b42bb6570a3b0c7856a60f6ebb94"
+        },
+        "polymarket": {
+          "id": "3377271",
+          "eventId": "805189",
+          "question": "Will Musk win Best Documentary Feature Film at the 99th Academy Awards?",
+          "description": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best Documentary Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best Documentary Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+          "eventDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best Documentary Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best Documentary Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+          "resolutionSource": "https://www.oscars.org/",
+          "endTime": "2027-03-14T23:59:00.000Z",
+          "ruleSha256": "2a5a17f87706669d48b4403bb0bae4be5228cddf306081054b832eb40e1eabe1",
+          "conditionId": "0x5f9de829d19177a19653e11c48bc4d9c40b4caae697e44105179b6a9d11828d9"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.866,
+      "contractScore": 0.68,
+      "kalshi": {
+        "eventTicker": "SENATEKS-28",
+        "title": "Will Republicans win the Senate race in Kansas?",
+        "subtitle": ":: Current incumbent: Jerry Moran",
+        "outcomeLabel": "Will Republicans win the Senate race in Kansas? :: Current incumbent: Jerry Moran",
+        "ticker": "SENATEKS-28-R",
+        "eventTitle": "Kansas Senate winner? (2028)",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "57648",
+        "id": "630747",
+        "eventTitle": "Kansas Senate Election Winner",
+        "title": "Will the Republicans win the Kansas Senate race in 2026?",
+        "endDate": "2026-11-04"
+      },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [
+            "2026"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "settlementFingerprint": {
+        "outcome": "will republicans win the senate race in kansas current incumbent jerry moran",
+        "kalshiRuleHash": "3c996d5c03f2b8b7",
+        "polymarketRuleHash": "cdb2e7fff6164951",
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Kansas for the term beginning in 2029, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm Kansas U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+        "polymarketResolutionSource": null,
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T16:13:13.496Z",
+        "kalshi": {
+          "ticker": "SENATEKS-28-R",
+          "eventTicker": "SENATEKS-28",
+          "marketTitle": "Will Republicans win the Senate race in Kansas? :: Current incumbent: Jerry Moran",
+          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Kansas for the term beginning in 2029, then the market resolves to Yes.",
+          "rulesSecondary": null,
+          "closeTime": "2029-11-07T15:00:00.000Z",
+          "ruleSha256": "ade3a8e4e968a8e99a0812c12f8c6ae276a5577dcb596b6e1cbad211275d4008"
+        },
+        "polymarket": {
+          "id": "630747",
+          "eventId": "57648",
+          "question": "Will the Republicans win the Kansas Senate race in 2026?",
+          "description": "This market will resolve according to the winner of the 2026 midterm Kansas U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "eventDescription": "This market will resolve according to the winner of the 2026 midterm Kansas U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "resolutionSource": null,
+          "endTime": "2026-11-04T04:59:00.000Z",
+          "ruleSha256": "8ce367fc2c5b70babf2745516aa6e83f1f1fc84ead3bcbc48cf355db1da8b823",
+          "conditionId": "0xb8b5349814450b8bba2ecdda2eeb9f48bd3c795bfb858bedf7a383712b877743"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "other",
+      "eventScore": 0.667,
+      "contractScore": 0.559,
+      "kalshi": {
+        "eventTicker": "KXOSCARANIMATED-27",
+        "title": "Will Tie win Best Animated Feature Film at the Oscars?",
+        "subtitle": "Tie::",
+        "outcomeLabel": "Will Tie win Best Animated Feature Film at the Oscars? Tie::",
+        "ticker": "KXOSCARANIMATED-27-TIE",
+        "eventTitle": "Oscar Winner: Best Animated Feature Film",
+        "closeDate": "2027-12-31"
+      },
+      "polymarket": {
+        "eventId": "805189",
+        "id": "3377271",
+        "eventTitle": "Oscars 2027: Best Documentary Feature Film Winner",
+        "title": "Will Musk win Best Documentary Feature Film at the 99th Academy Awards?",
+        "endDate": "2027-03-14"
+      },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [
+              "2027-03-14",
+              "2027-06-30"
+            ],
+            "years": [
+              "2027"
+            ]
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "settlementFingerprint": {
+        "outcome": "will tie win best animated feature film at the oscars tie",
+        "kalshiRuleHash": "50a7204c037383dc",
+        "polymarketRuleHash": "4a793e59bcecf300",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-03-14",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Tie has won Best Animated Feature Film at the 99th Academy Awards, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+        "polymarketDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best Documentary Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best Documentary Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "https://www.oscars.org/",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-03-14",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T16:13:15.036Z",
+        "kalshi": {
+          "ticker": "KXOSCARANIMATED-27-TIE",
+          "eventTicker": "KXOSCARANIMATED-27",
+          "marketTitle": "Will Tie win Best Animated Feature Film at the Oscars? Tie::",
+          "rulesPrimary": "If Tie has won Best Animated Feature Film at the 99th Academy Awards, then the market resolves to Yes.",
+          "rulesSecondary": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+          "closeTime": "2027-12-31T15:00:00.000Z",
+          "ruleSha256": "d9df9a149982522301b7143a8f170837eaa21cea6be19a92bb270baba30b53f0"
         },
         "polymarket": {
           "id": "3377271",
@@ -3625,7 +3617,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:11:59.688Z",
+        "fetchedAt": "2026-10-21T16:13:13.496Z",
         "kalshi": {
           "ticker": "SENATEIA-28-R",
           "eventTicker": "SENATEIA-28",
@@ -3645,282 +3637,6 @@
           "endTime": "2026-11-04T04:59:00.000Z",
           "ruleSha256": "7fb37105cf0d3ddb41ea26e671edad414f58ddf14d05e19b43e738d1b2b331c5",
           "conditionId": "0x38a1025bfc56539ed1ff8fdd468283d55cf9002412decd61aa8d6c578c7d01a2"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "other",
-      "eventScore": 0.667,
-      "contractScore": 0.559,
-      "kalshi": {
-        "eventTicker": "KXOSCARANIMATED-27",
-        "title": "Will Tie win Best Animated Feature Film at the Oscars?",
-        "subtitle": "Tie::",
-        "outcomeLabel": "Will Tie win Best Animated Feature Film at the Oscars? Tie::",
-        "ticker": "KXOSCARANIMATED-27-TIE",
-        "eventTitle": "Oscar Winner: Best Animated Feature Film",
-        "closeDate": "2027-12-31"
-      },
-      "polymarket": {
-        "eventId": "805189",
-        "id": "3377271",
-        "eventTitle": "Oscars 2027: Best Documentary Feature Film Winner",
-        "title": "Will Musk win Best Documentary Feature Film at the 99th Academy Awards?",
-        "endDate": "2027-03-14"
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": false
-        },
-        "polymarket": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [
-              "2027-03-14",
-              "2027-06-30"
-            ],
-            "years": [
-              "2027"
-            ]
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "settlementFingerprint": {
-        "outcome": "will tie win best animated feature film at the oscars tie",
-        "kalshiRuleHash": "50a7204c037383dc",
-        "polymarketRuleHash": "4a793e59bcecf300",
-        "kalshiClose": "2027-12-31",
-        "polymarketEnd": "2027-03-14",
-        "conflicts": []
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If Tie has won Best Animated Feature Film at the 99th Academy Awards, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
-        "polymarketDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best Documentary Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best Documentary Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "https://www.oscars.org/",
-        "kalshiClose": "2027-12-31",
-        "polymarketEnd": "2027-03-14",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
-        "ruleConflicts": []
-      },
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:02.526Z",
-        "kalshi": {
-          "ticker": "KXOSCARANIMATED-27-TIE",
-          "eventTicker": "KXOSCARANIMATED-27",
-          "marketTitle": "Will Tie win Best Animated Feature Film at the Oscars? Tie::",
-          "rulesPrimary": "If Tie has won Best Animated Feature Film at the 99th Academy Awards, then the market resolves to Yes.",
-          "rulesSecondary": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
-          "closeTime": "2027-12-31T15:00:00.000Z",
-          "ruleSha256": "d9df9a149982522301b7143a8f170837eaa21cea6be19a92bb270baba30b53f0"
-        },
-        "polymarket": {
-          "id": "3377271",
-          "eventId": "805189",
-          "question": "Will Musk win Best Documentary Feature Film at the 99th Academy Awards?",
-          "description": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best Documentary Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best Documentary Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
-          "eventDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best Documentary Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best Documentary Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
-          "resolutionSource": "https://www.oscars.org/",
-          "endTime": "2027-03-14T23:59:00.000Z",
-          "ruleSha256": "2a5a17f87706669d48b4403bb0bae4be5228cddf306081054b832eb40e1eabe1",
-          "conditionId": "0x5f9de829d19177a19653e11c48bc4d9c40b4caae697e44105179b6a9d11828d9"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.866,
-      "contractScore": 0.615,
-      "kalshi": {
-        "eventTicker": "SENATELA-28",
-        "title": "Will Republicans win the Senate race in Louisiana?",
-        "subtitle": "Republican party:: Current incumbent: John Kennedy",
-        "outcomeLabel": "Will Republicans win the Senate race in Louisiana? Republican party:: Current incumbent: John Kennedy",
-        "ticker": "SENATELA-28-R",
-        "eventTitle": "Louisiana Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "59203",
-        "id": "634879",
-        "eventTitle": "Louisiana Senate Election Winner",
-        "title": "Will the Republicans win the Louisiana Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": false
-        },
-        "polymarket": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [
-            "2026"
-          ],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "settlementFingerprint": {
-        "outcome": "will republicans win the senate race in louisiana republican party current incumbent john kennedy",
-        "kalshiRuleHash": "2aa2babd2ca1b4e6",
-        "polymarketRuleHash": "238985e0e1953bab",
-        "kalshiClose": "2029-11-07",
-        "polymarketEnd": "2026-11-04",
-        "conflicts": []
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Louisiana for the term beginning in 2029, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "This market is eligible for accelerated determination after a consensus of media organizations project the winner. See full rules for details.",
-        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm Louisiana U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-        "polymarketResolutionSource": null,
-        "kalshiClose": "2029-11-07",
-        "polymarketEnd": "2026-11-04",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
-        "ruleConflicts": []
-      },
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:11:59.686Z",
-        "kalshi": {
-          "ticker": "SENATELA-28-R",
-          "eventTicker": "SENATELA-28",
-          "marketTitle": "Will Republicans win the Senate race in Louisiana? Republican party:: Current incumbent: John Kennedy",
-          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Louisiana for the term beginning in 2029, then the market resolves to Yes.",
-          "rulesSecondary": "This market is eligible for accelerated determination after a consensus of media organizations project the winner. See full rules for details.",
-          "closeTime": "2029-11-07T15:00:00.000Z",
-          "ruleSha256": "adbf055a70fdbf4172bf1ff650584f90370750bdad8900a429a21956c169d6ca"
-        },
-        "polymarket": {
-          "id": "634879",
-          "eventId": "59203",
-          "question": "Will the Republicans win the Louisiana Senate race in 2026?",
-          "description": "This market will resolve according to the winner of the 2026 midterm Louisiana U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-          "eventDescription": "This market will resolve according to the winner of the 2026 midterm Louisiana U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-          "resolutionSource": null,
-          "endTime": "2026-11-04T04:59:00.000Z",
-          "ruleSha256": "5904dd761b02130c714fe0239f034bf46b2a71f3aa30422de711d725f394e369",
-          "conditionId": "0x3bb59c17b8ec156f8ef55d6de522c53c8bcc8fc708bfba00e1c7820c208ee28b"
         },
         "warnings": [
           "DIFFERENT_LISTED_END_DATES",
@@ -4041,7 +3757,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:02.568Z",
+        "fetchedAt": "2026-10-21T16:13:15.058Z",
         "kalshi": {
           "ticker": "KXOSCARANIMATED-27-TIE",
           "eventTicker": "KXOSCARANIMATED-27",
@@ -4061,6 +3777,143 @@
           "endTime": "2027-03-14T23:59:00.000Z",
           "ruleSha256": "b5e8fa6c686eb0f3b384a8225f5e962eb0509fa658900e6a08ad8b8d2a0e8e42",
           "conditionId": "0x5a685b6e2f07a8feef195a339bc94e9d320af5f8d1a6f926b394e8561d96834b"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.866,
+      "contractScore": 0.615,
+      "kalshi": {
+        "eventTicker": "SENATELA-28",
+        "title": "Will Republicans win the Senate race in Louisiana?",
+        "subtitle": "Republican party:: Current incumbent: John Kennedy",
+        "outcomeLabel": "Will Republicans win the Senate race in Louisiana? Republican party:: Current incumbent: John Kennedy",
+        "ticker": "SENATELA-28-R",
+        "eventTitle": "Louisiana Senate winner? (2028)",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "59203",
+        "id": "634879",
+        "eventTitle": "Louisiana Senate Election Winner",
+        "title": "Will the Republicans win the Louisiana Senate race in 2026?",
+        "endDate": "2026-11-04"
+      },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [
+            "2026"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "settlementFingerprint": {
+        "outcome": "will republicans win the senate race in louisiana republican party current incumbent john kennedy",
+        "kalshiRuleHash": "2aa2babd2ca1b4e6",
+        "polymarketRuleHash": "238985e0e1953bab",
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Louisiana for the term beginning in 2029, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "This market is eligible for accelerated determination after a consensus of media organizations project the winner. See full rules for details.",
+        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm Louisiana U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+        "polymarketResolutionSource": null,
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T16:13:13.495Z",
+        "kalshi": {
+          "ticker": "SENATELA-28-R",
+          "eventTicker": "SENATELA-28",
+          "marketTitle": "Will Republicans win the Senate race in Louisiana? Republican party:: Current incumbent: John Kennedy",
+          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Louisiana for the term beginning in 2029, then the market resolves to Yes.",
+          "rulesSecondary": "This market is eligible for accelerated determination after a consensus of media organizations project the winner. See full rules for details.",
+          "closeTime": "2029-11-07T15:00:00.000Z",
+          "ruleSha256": "adbf055a70fdbf4172bf1ff650584f90370750bdad8900a429a21956c169d6ca"
+        },
+        "polymarket": {
+          "id": "634879",
+          "eventId": "59203",
+          "question": "Will the Republicans win the Louisiana Senate race in 2026?",
+          "description": "This market will resolve according to the winner of the 2026 midterm Louisiana U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "eventDescription": "This market will resolve according to the winner of the 2026 midterm Louisiana U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "resolutionSource": null,
+          "endTime": "2026-11-04T04:59:00.000Z",
+          "ruleSha256": "5904dd761b02130c714fe0239f034bf46b2a71f3aa30422de711d725f394e369",
+          "conditionId": "0x3bb59c17b8ec156f8ef55d6de522c53c8bcc8fc708bfba00e1c7820c208ee28b"
         },
         "warnings": [
           "DIFFERENT_LISTED_END_DATES",
@@ -4178,7 +4031,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:03.163Z",
+        "fetchedAt": "2026-10-21T16:13:15.373Z",
         "kalshi": {
           "ticker": "KXNHSENGOVCOMBO-26NOV-DEMDEM",
           "eventTicker": "KXNHSENGOVCOMBO-26NOV",
@@ -4325,7 +4178,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:11:59.605Z",
+        "fetchedAt": "2026-10-21T16:13:13.448Z",
         "kalshi": {
           "ticker": "KXONTLIBLEAD-26NOV21-SBOW",
           "eventTicker": "KXONTLIBLEAD-26NOV21",
@@ -4465,7 +4318,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:11:59.924Z",
+        "fetchedAt": "2026-10-21T16:13:13.621Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-ONC",
           "eventTicker": "KXOSCARDOCU-27",
@@ -4613,7 +4466,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:08.617Z",
+        "fetchedAt": "2026-10-21T16:13:18.470Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-15000",
           "eventTicker": "KXNFLCAREERRSHYDS-DHENRY",
@@ -4761,7 +4614,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:11:59.606Z",
+        "fetchedAt": "2026-10-21T16:13:13.449Z",
         "kalshi": {
           "ticker": "KXONTLIBLEAD-26NOV21-LFAI",
           "eventTicker": "KXONTLIBLEAD-26NOV21",
@@ -4901,7 +4754,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:11:59.955Z",
+        "fetchedAt": "2026-10-21T16:13:13.635Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-YOU",
           "eventTicker": "KXOSCARDOCU-27",
@@ -5049,7 +4902,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:08.617Z",
+        "fetchedAt": "2026-10-21T16:13:18.470Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-16000",
           "eventTicker": "KXNFLCAREERRSHYDS-DHENRY",
@@ -5197,7 +5050,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:11:59.607Z",
+        "fetchedAt": "2026-10-21T16:13:13.449Z",
         "kalshi": {
           "ticker": "KXONTLIBLEAD-26NOV21-ELOM",
           "eventTicker": "KXONTLIBLEAD-26NOV21",
@@ -5337,7 +5190,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:11:59.888Z",
+        "fetchedAt": "2026-10-21T16:13:13.605Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-NUI",
           "eventTicker": "KXOSCARDOCU-27",
@@ -5485,7 +5338,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:08.618Z",
+        "fetchedAt": "2026-10-21T16:13:18.470Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-17000",
           "eventTicker": "KXNFLCAREERRSHYDS-DHENRY",
@@ -5633,7 +5486,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:11:59.608Z",
+        "fetchedAt": "2026-10-21T16:13:13.450Z",
         "kalshi": {
           "ticker": "KXONTLIBLEAD-26NOV21-DMAR",
           "eventTicker": "KXONTLIBLEAD-26NOV21",
@@ -5773,7 +5626,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:11:59.898Z",
+        "fetchedAt": "2026-10-21T16:13:13.609Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-ONE",
           "eventTicker": "KXOSCARDOCU-27",
@@ -5921,7 +5774,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:08.618Z",
+        "fetchedAt": "2026-10-21T16:13:18.470Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-18000",
           "eventTicker": "KXNFLCAREERRSHYDS-DHENRY",
@@ -6069,7 +5922,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:00.335Z",
+        "fetchedAt": "2026-10-21T16:13:13.841Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-FHOL",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -6209,7 +6062,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:11:59.932Z",
+        "fetchedAt": "2026-10-21T16:13:13.625Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-AME",
           "eventTicker": "KXOSCARDOCU-27",
@@ -6353,7 +6206,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:08.618Z",
+        "fetchedAt": "2026-10-21T16:13:18.470Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-15000",
           "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
@@ -6501,7 +6354,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:00.234Z",
+        "fetchedAt": "2026-10-21T16:13:13.790Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-MLEP",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -6641,7 +6494,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:11:59.878Z",
+        "fetchedAt": "2026-10-21T16:13:13.600Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-MUS",
           "eventTicker": "KXOSCARDOCU-27",
@@ -6785,7 +6638,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:08.619Z",
+        "fetchedAt": "2026-10-21T16:13:18.470Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-16000",
           "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
@@ -6933,7 +6786,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:00.251Z",
+        "fetchedAt": "2026-10-21T16:13:13.799Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-EPHI",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -7073,7 +6926,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:11:59.914Z",
+        "fetchedAt": "2026-10-21T16:13:13.617Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-TUT",
           "eventTicker": "KXOSCARDOCU-27",
@@ -7217,7 +7070,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:08.619Z",
+        "fetchedAt": "2026-10-21T16:13:18.470Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-17000",
           "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
@@ -7365,7 +7218,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:00.272Z",
+        "fetchedAt": "2026-10-21T16:13:13.809Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-RGLU",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -7505,7 +7358,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:11:59.966Z",
+        "fetchedAt": "2026-10-21T16:13:13.639Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-NAZ",
           "eventTicker": "KXOSCARDOCU-27",
@@ -7649,7 +7502,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:08.619Z",
+        "fetchedAt": "2026-10-21T16:13:18.470Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-18000",
           "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
@@ -7797,7 +7650,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:00.284Z",
+        "fetchedAt": "2026-10-21T16:13:13.815Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-GATT",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -7937,7 +7790,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:00.900Z",
+        "fetchedAt": "2026-10-21T16:13:14.143Z",
         "kalshi": {
           "ticker": "KXOSCARPIC-27-PRO",
           "eventTicker": "KXOSCARPIC-27",
@@ -8081,7 +7934,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:08.620Z",
+        "fetchedAt": "2026-10-21T16:13:18.471Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-19000",
           "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
@@ -8229,7 +8082,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:00.300Z",
+        "fetchedAt": "2026-10-21T16:13:13.823Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-BRET",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -8369,7 +8222,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:00.903Z",
+        "fetchedAt": "2026-10-21T16:13:14.145Z",
         "kalshi": {
           "ticker": "KXOSCARPIC-27-DUN",
           "eventTicker": "KXOSCARPIC-27",
@@ -8513,7 +8366,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:08.620Z",
+        "fetchedAt": "2026-10-21T16:13:18.471Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-20000",
           "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
@@ -8661,7 +8514,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:12:00.313Z",
+        "fetchedAt": "2026-10-21T16:13:13.831Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-DVIL",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -8685,6 +8538,145 @@
         "warnings": [
           "DIFFERENT_LISTED_END_DATES",
           "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "other",
+      "eventScore": 0.75,
+      "contractScore": 0.756,
+      "kalshi": {
+        "eventTicker": "KXOSCARPIC-27",
+        "title": "Will Disclosure Day win Best Picture at the Oscars?",
+        "subtitle": "Disclosure Day::",
+        "outcomeLabel": "Will Disclosure Day win Best Picture at the Oscars? Disclosure Day::",
+        "ticker": "KXOSCARPIC-27-DIS",
+        "eventTitle": "Oscar Winner: Best Picture",
+        "closeDate": "2027-12-31"
+      },
+      "polymarket": {
+        "eventId": "759150",
+        "id": "3145023",
+        "eventTitle": "Oscars 2027: Best Picture Winner",
+        "title": "Will Disclosure Day win Best Picture at the 99th Academy Awards?",
+        "endDate": "2027-03-14"
+      },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [
+              "2027-03-14",
+              "2027-06-30"
+            ],
+            "years": [
+              "2027"
+            ]
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "settlementFingerprint": {
+        "outcome": "will disclosure day win best picture at the oscars disclosure day",
+        "kalshiRuleHash": "5bd06c054c3a9a75",
+        "polymarketRuleHash": "8fe55ccd80d74a64",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-03-14",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Disclosure Day has won Best Picture at the 99th Academy Awards, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+        "polymarketDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best Picture. \n\nIf a film is not officially nominated for the Academy Award for Best Picture when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "https://www.oscars.org/",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-03-14",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T16:13:14.147Z",
+        "kalshi": {
+          "ticker": "KXOSCARPIC-27-DIS",
+          "eventTicker": "KXOSCARPIC-27",
+          "marketTitle": "Will Disclosure Day win Best Picture at the Oscars? Disclosure Day::",
+          "rulesPrimary": "If Disclosure Day has won Best Picture at the 99th Academy Awards, then the market resolves to Yes.",
+          "rulesSecondary": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+          "closeTime": "2027-12-31T15:00:00.000Z",
+          "ruleSha256": "9b8c04a9c7c2d85eccc07cb14135864e914391b0ee9d42d05262e1b570c00e2d"
+        },
+        "polymarket": {
+          "id": "3145023",
+          "eventId": "759150",
+          "question": "Will Disclosure Day win Best Picture at the 99th Academy Awards?",
+          "description": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best Picture. \n\nIf a film is not officially nominated for the Academy Award for Best Picture when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+          "eventDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best Picture. \n\nIf a film is not officially nominated for the Academy Award for Best Picture when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+          "resolutionSource": "https://www.oscars.org/",
+          "endTime": "2027-03-14T23:59:00.000Z",
+          "ruleSha256": "8dd3a73b0c61c3c12d09ded29bb3a63b932da0a5e35858924bc3f9a6969e2a5a",
+          "conditionId": "0x6ab9b4aaa8ab76d2792e37e631babeb0f78d167d0b6e800e9e9fe59073ee43ba"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES"
         ],
         "reviewChecklist": [
           "IDENTICAL_PAYOFF",
