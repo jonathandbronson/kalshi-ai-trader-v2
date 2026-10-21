@@ -141,3 +141,14 @@ The scheduled read-only workflow writes:
 - `reports/latest-spread-history.json`: seven-day modeled spreads **only for explicitly verified, configured pairs**.
 
 The history and coverage reports are created on successful runs and are not backfilled from unseen historical scans. The absence of a report is not evidence that data were collected. Candidate count and title similarity must never be represented as verified arbitrage opportunities.
+
+## Batch Quality V2: six improvements
+
+1. **Settlement-first triage:** `quality-gates.js` checks structured terms before a pair enters the candidate pool and again before it enters the review queue. It rejects conflicting statistics, career-versus-season periods, thresholds, directions, explicit dates, and deadline precision. These deterministic checks are intentionally incomplete: passing them is NOT settlement verification.
+2. **Structured contract representation:** `extractContractTerms` records threshold, direction, time period, statistical unit, named underlying (when recognized), title dates, explicit rule deadlines, and whether rules mention a source. Unrecognized terms are flagged as uncertain; never inferred as matching.
+3. **Higher-activity sampling:** category discovery prefers source-reported volume/activity and Polymarket volume-sorted events. Activity is a sourcing heuristic, not confirmed orderbook depth.
+4. **Evidence-weighted ranking:** 35% structured match, 30% rule completeness, 15% identifiers, 15% **observed** depth, 5% title similarity. Unknown liquidity scores zero rather than receiving fabricated depth. The weights are research heuristics, not calibrated probabilities.
+5. **Human-review feedback:** `quality-feedback.js` suppresses explicitly rejected pairs only while their official rule fingerprints match. Changed rules restore review eligibility. Previous verification does not auto-approve or authorize trading.
+6. **Accuracy tests:** `quality-gates.test.js` includes regression fixtures based on observed false-positive patterns (career vs season rushing yards; different moratorium deadlines). `ground-truth.json` is deliberately empty until humans adjudicate real contracts; reported real-label precision/recall is `null` with zero labels. The existing synthetic benchmark remains separate.
+
+**Important limitations:** No classifier can establish legal settlement equivalence from titles alone. A market close date can differ from a resolution deadline. Real liquidity requires live, fee-aware orderbook measurements on both venues. The six changes do not create verified pairs or enable live orders.
