@@ -1,4 +1,5 @@
 import {compareContractTerms,qualityScore} from "./quality-gates.js";
+import {lexicalSemanticCandidates,embeddingCandidates,loadEmbeddingCache} from "./semantic-retrieval.js";
 // Event-first cross-venue discovery. Read-only; never approves contracts or places orders.
 import {writeFile,readFile} from "node:fs/promises";
 import {createHash} from "node:crypto";
@@ -322,6 +323,44 @@ async function collect(){
   marketLevelAdded++;
  }
  report.counts.marketLevelCandidatesAdded=marketLevelAdded;
+
+ // A separate retrieval channel finds pairs that do not share enough exact word tokens.
+ // Neural embeddings are optional precomputed vectors; no provider or paid API is required.
+ const tfidf=lexicalSemanticCandidates(kalshi,poly,{limit:Math.max(1,Math.min(250,Number(process.env.ARB_SEMANTIC_LIMIT??100)))});
+ const vectors=await loadEmbeddingCache(process.env.ARB_EMBEDDING_CACHE??"arbitrage/embedding-cache.json");
+ const neural=embeddingCandidates(kalshi,poly,vectors,{limit:100});
+ report.counts.semanticRetrieval={tfidf:tfidf.counts,neural:neural.counts,accepted:0,rejectedByRule:0};
+ for(const match of [...neural.candidates,...tfidf.candidates]){
+  const k=match.kalshi.event,p=match.polymarket.event,km=match.kalshi.market,pm=match.polymarket.market;
+  if(!km.ticker||!pm.id||!pm.question)continue;
+  const key=km.ticker+":"+pm.id;
+  if(seen.has(key))continue;
+  const label=outcomeLabel(km,k.title);
+  if(!hasNamedOutcome(label,k.title)||semanticConflict(label,pm.question)||!electionCompatible(label,pm.question)||!scopeCompatible(label,pm.question))continue;
+  if(incompatibleEventIdentity(k.title,p.title,label,pm.question))continue;
+  const kp=personSelection(label),pp=personSelection(pm.question);
+  if(kp!==pp&&(kp!==null||pp!==null))continue;
+  const evidence=reviewEvidence(k,p,km,pm);
+  evidence.ruleConflicts=settlementConflicts(evidence);
+  const hard=evidence.ruleConflicts.find(c=>["interim_appointment_treatment","different_meeting_deadline_year","different_senate_election_cycle","subregion_vs_statewide_result"].includes(c));
+  if(hard){report.counts.semanticRetrieval.rejectedByRule++;continue}
+  const qualityComparison=compareContractTerms(label,pm.question,[evidence.kalshiRules,evidence.kalshiSecondaryRules].filter(Boolean).join(" "),evidence.polymarketDescription);
+  if(!qualityComparison.compatible){rejectQuality(qualityComparison.hardConflicts);report.counts.semanticRetrieval.rejectedByRule++;continue}
+  const outcomes=parse(pm.outcomes),tokens=parse(pm.clobTokenIds);
+  if(outcomes.length!==2||tokens.length!==2||!outcomes.includes("Yes")||!outcomes.includes("No"))continue;
+  const rulesHash=hash([evidence.kalshiRules,evidence.kalshiSecondaryRules,evidence.polymarketDescription].join("|"));
+  if(canReuseRejection(rejected[key],{ruleHash:rulesHash})){cachedRejections++;continue}
+  seen.add(key);
+  const category=eventCategory([k.title,p.title,km.title,pm.question].join(" "));
+  const settlementFingerprint={outcome:normalized(label),kalshiRuleHash:hash([evidence.kalshiRules,evidence.kalshiSecondaryRules].join("|")),polymarketRuleHash:hash(evidence.polymarketDescription),kalshiClose:evidence.kalshiClose,polymarketEnd:evidence.polymarketEnd,conflicts:evidence.ruleConflicts};
+  pool.push({category,eventScore:Number(score(k.title,p.title).toFixed(3)),contractScore:match.score,discoverySource:match.source,qualityComparison,
+   kalshi:{eventTicker:k.event_ticker,title:km.title,subtitle:km.subtitle??null,outcomeLabel:label,ticker:km.ticker,eventTitle:k.title,closeDate:day(km.close_time)},
+   polymarket:{eventId:p.id,id:String(pm.id),eventTitle:p.title,title:pm.question,endDate:day(pm.endDate)},
+   settlementFingerprint,reviewEvidence:evidence,ruleEvidence:buildRuleEvidence({kalshiMarket:km,polymarketMarket:pm,kalshiEvent:k,polymarketEvent:p}),
+   reviewStatus:"UNVERIFIED_SETTLEMENT_RULES",approved:false,executable:false});
+  report.counts.semanticRetrieval.accepted++;
+ }
+
  report.counts.qualityRejections=qualityRejections;
  // Round-robin across categories and distinct events before selecting additional
  // contracts from an already represented event.
