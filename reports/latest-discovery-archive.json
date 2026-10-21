@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T17:11:05.721Z",
+  "timestamp": "2026-10-21T17:12:03.872Z",
   "status": "UNVERIFIED_DISCOVERY",
   "total": 1679,
   "candidates": [
@@ -18498,4 +18498,4 @@
       "settlementVerified": false
     }
   ]
-}\n
+}
