@@ -15,7 +15,7 @@ export function rankForManualReview(report,{limit=30,perCategory=8}={}){
    kalshiClose:e.kalshiClose??null,polymarketEnd:e.polymarketEnd??null,
    differentEndDates:Boolean(e.differentEndDates),ruleConflicts:conflicts,
    reviewScore:Math.max(0,Math.round((titleMatch-penalties)*1000)/1000),
-   status:"MANUAL_SETTLEMENT_REVIEW_REQUIRED",approved:false};
+   status:"MANUAL_SETTLEMENT_REVIEW_REQUIRED",approved:false,executable:false};
  }).filter(x=>x.kalshiTicker&&x.polymarketId);
  const selected=[],seen=new Set(),counts={};
  for(const category of categories){
