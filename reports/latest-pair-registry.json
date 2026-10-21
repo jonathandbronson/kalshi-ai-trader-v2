@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "timestamp": "2026-10-21T16:12:21.267Z",
+  "timestamp": "2026-10-21T16:13:30.784Z",
   "mode": "RESEARCH_ONLY",
   "counts": {
     "PENDING_REVIEW": 38,
@@ -1080,11 +1080,11 @@
       "polymarketId": "3377268",
       "category": "other",
       "firstSeen": "2026-10-21T08:02:44.837Z",
-      "lastSeen": "2026-10-21T16:12:21.267Z",
+      "lastSeen": "2026-10-21T16:13:30.784Z",
       "kalshiTitle": "Will American Doctor win Best Documentary Feature Film at the Oscars?",
       "polymarketTitle": "Will American Doctor win Best Documentary Feature Film at the 99th Academy Awards?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:12:20.028Z",
+        "fetchedAt": "2026-10-21T16:13:29.541Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-AME",
           "eventTicker": null,
@@ -1134,11 +1134,11 @@
       "polymarketId": "3377271",
       "category": "other",
       "firstSeen": "2026-10-21T16:07:33.938Z",
-      "lastSeen": "2026-10-21T16:12:21.267Z",
+      "lastSeen": "2026-10-21T16:13:30.784Z",
       "kalshiTitle": "Will Musk win Best Documentary Feature Film at the Oscars?",
       "polymarketTitle": "Will Musk win Best Documentary Feature Film at the 99th Academy Awards?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:12:20.998Z",
+        "fetchedAt": "2026-10-21T16:13:30.532Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-MUS",
           "eventTicker": null,
@@ -1188,11 +1188,11 @@
       "polymarketId": "3377269",
       "category": "other",
       "firstSeen": "2026-10-21T08:02:44.837Z",
-      "lastSeen": "2026-10-21T16:12:21.267Z",
+      "lastSeen": "2026-10-21T16:13:30.784Z",
       "kalshiTitle": "Will Nuisance Bear win Best Documentary Feature Film at the Oscars?",
       "polymarketTitle": "Will Nuisance Bear win Best Documentary Feature Film at the 99th Academy Awards?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:12:19.058Z",
+        "fetchedAt": "2026-10-21T16:13:28.558Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-NUI",
           "eventTicker": null,
@@ -1242,11 +1242,11 @@
       "polymarketId": "3377274",
       "category": "other",
       "firstSeen": "2026-10-21T08:02:44.837Z",
-      "lastSeen": "2026-10-21T16:12:21.267Z",
+      "lastSeen": "2026-10-21T16:13:30.784Z",
       "kalshiTitle": "Will Once Upon a Time in Harlem win Best Documentary Feature Film at the Oscars?",
       "polymarketTitle": "Will Once Upon a Time in Harlem win Best Documentary Feature Film at the 99th Academy Awards?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:12:18.088Z",
+        "fetchedAt": "2026-10-21T16:13:27.573Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-ONC",
           "eventTicker": null,
@@ -1296,11 +1296,11 @@
       "polymarketId": "3377270",
       "category": "other",
       "firstSeen": "2026-10-21T08:02:44.837Z",
-      "lastSeen": "2026-10-21T16:12:21.267Z",
+      "lastSeen": "2026-10-21T16:13:30.784Z",
       "kalshiTitle": "Will One in a Million win Best Documentary Feature Film at the Oscars?",
       "polymarketTitle": "Will One in a Million win Best Documentary Feature Film at the 99th Academy Awards?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:12:19.543Z",
+        "fetchedAt": "2026-10-21T16:13:29.048Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-ONE",
           "eventTicker": null,
@@ -1350,11 +1350,11 @@
       "polymarketId": "3377272",
       "category": "other",
       "firstSeen": "2026-10-21T08:02:44.837Z",
-      "lastSeen": "2026-10-21T16:12:21.267Z",
+      "lastSeen": "2026-10-21T16:13:30.784Z",
       "kalshiTitle": "Will Sometimes, I Imagine Them All at a Party win Best Documentary Feature Film at the Oscars?",
       "polymarketTitle": "Will Sometimes, I Imagine Them All at a Party win Best Documentary Feature Film at the 99th Academy Awards?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:12:17.603Z",
+        "fetchedAt": "2026-10-21T16:13:27.032Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-SOM",
           "eventTicker": null,
@@ -1404,11 +1404,11 @@
       "polymarketId": "3377276",
       "category": "other",
       "firstSeen": "2026-10-21T08:02:44.837Z",
-      "lastSeen": "2026-10-21T16:12:21.267Z",
+      "lastSeen": "2026-10-21T16:13:30.784Z",
       "kalshiTitle": "Will You Can See Everything win Best Documentary Feature Film at the Oscars?",
       "polymarketTitle": "Will You Can See Everything win Best Documentary Feature Film at the 99th Academy Awards?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:12:18.573Z",
+        "fetchedAt": "2026-10-21T16:13:28.066Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-YOU",
           "eventTicker": null,
@@ -1566,11 +1566,11 @@
       "polymarketId": "3145013",
       "category": "other",
       "firstSeen": "2026-10-21T16:07:33.938Z",
-      "lastSeen": "2026-10-21T16:12:21.267Z",
+      "lastSeen": "2026-10-21T16:13:30.784Z",
       "kalshiTitle": "Will Wild Horse Nine win Best Picture at the Oscars?",
       "polymarketTitle": "Will Wild Horse Nine win Best Picture at the 99th Academy Awards?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:12:20.513Z",
+        "fetchedAt": "2026-10-21T16:13:30.036Z",
         "kalshi": {
           "ticker": "KXOSCARPIC-27-WIL",
           "eventTicker": null,
@@ -1620,11 +1620,11 @@
       "polymarketId": "631045",
       "category": "politics",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T16:12:21.267Z",
+      "lastSeen": "2026-10-21T16:13:30.784Z",
       "kalshiTitle": "Will Republicans win the Senate race in Florida?",
       "polymarketTitle": "Will the Republicans win the Florida Senate race in 2026?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:12:14.531Z",
+        "fetchedAt": "2026-10-21T16:13:24.122Z",
         "kalshi": {
           "ticker": "SENATEFL-28-R",
           "eventTicker": null,
@@ -1675,11 +1675,11 @@
       "polymarketId": "630693",
       "category": "politics",
       "firstSeen": "2026-10-21T08:02:44.837Z",
-      "lastSeen": "2026-10-21T16:12:21.267Z",
+      "lastSeen": "2026-10-21T16:13:30.784Z",
       "kalshiTitle": "Will Republicans win the Senate race in Georgia?",
       "polymarketTitle": "Will the Republicans win the Georgia Senate race in 2026?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:12:14.046Z",
+        "fetchedAt": "2026-10-21T16:13:23.585Z",
         "kalshi": {
           "ticker": "SENATEGA-28-R",
           "eventTicker": null,
@@ -1730,11 +1730,11 @@
       "polymarketId": "630734",
       "category": "politics",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T16:12:21.267Z",
+      "lastSeen": "2026-10-21T16:13:30.784Z",
       "kalshiTitle": "Will Republicans win the Senate race in Iowa?",
       "polymarketTitle": "Will the Republicans win the Iowa Senate race in 2026?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:12:17.118Z",
+        "fetchedAt": "2026-10-21T16:13:26.538Z",
         "kalshi": {
           "ticker": "SENATEIA-28-R",
           "eventTicker": null,
@@ -1840,11 +1840,11 @@
       "polymarketId": "630747",
       "category": "politics",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T16:12:21.267Z",
+      "lastSeen": "2026-10-21T16:13:30.784Z",
       "kalshiTitle": "Will Republicans win the Senate race in Kansas?",
       "polymarketTitle": "Will the Republicans win the Kansas Senate race in 2026?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:12:16.471Z",
+        "fetchedAt": "2026-10-21T16:13:26.047Z",
         "kalshi": {
           "ticker": "SENATEKS-28-R",
           "eventTicker": null,
@@ -1895,11 +1895,11 @@
       "polymarketId": "630845",
       "category": "politics",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T16:12:21.267Z",
+      "lastSeen": "2026-10-21T16:13:30.784Z",
       "kalshiTitle": "Will Republicans win the Senate race in New Hampshire?",
       "polymarketTitle": "Will the Republicans win the New Hampshire Senate race in 2026?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:12:13.561Z",
+        "fetchedAt": "2026-10-21T16:13:23.115Z",
         "kalshi": {
           "ticker": "SENATENH-28-R",
           "eventTicker": null,
@@ -1950,11 +1950,11 @@
       "polymarketId": "631058",
       "category": "politics",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T16:12:21.267Z",
+      "lastSeen": "2026-10-21T16:13:30.784Z",
       "kalshiTitle": "Will Republicans win the Senate race in Ohio?",
       "polymarketTitle": "Will the Republicans win the Ohio Senate race in 2026?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:12:15.986Z",
+        "fetchedAt": "2026-10-21T16:13:25.579Z",
         "kalshi": {
           "ticker": "SENATEOH-28-R",
           "eventTicker": null,
@@ -2005,11 +2005,11 @@
       "polymarketId": "630925",
       "category": "politics",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T16:12:21.267Z",
+      "lastSeen": "2026-10-21T16:13:30.784Z",
       "kalshiTitle": "Will Republicans win the Senate race in South Carolina?",
       "polymarketTitle": "Will the Republicans win the South Carolina Senate race in 2026?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:12:15.500Z",
+        "fetchedAt": "2026-10-21T16:13:25.111Z",
         "kalshi": {
           "ticker": "SENATESC-28-R",
           "eventTicker": null,
@@ -2060,11 +2060,11 @@
       "polymarketId": "630938",
       "category": "politics",
       "firstSeen": "2026-10-21T16:07:33.938Z",
-      "lastSeen": "2026-10-21T16:12:21.267Z",
+      "lastSeen": "2026-10-21T16:13:30.784Z",
       "kalshiTitle": "Will Republicans win the Senate race in South Dakota?",
       "polymarketTitle": "Will the Republicans win the South Dakota Senate race in 2026?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:12:15.016Z",
+        "fetchedAt": "2026-10-21T16:13:24.616Z",
         "kalshi": {
           "ticker": "SENATESD-28-R",
           "eventTicker": null,
