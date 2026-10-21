@@ -1,0 +1,109 @@
+{
+  "timestamp": "2026-10-21T08:02:32.687Z",
+  "mode": "RESEARCH_ONLY",
+  "windowDays": 30,
+  "snapshots": [
+    {
+      "timestamp": "2026-10-21T08:02:13.610Z",
+      "status": "COLLECTED",
+      "kalshiEvents": 1211,
+      "polymarketEvents": 2133,
+      "kalshiMarkets": 10779,
+      "polymarketMarkets": 30826,
+      "eventMatches": 2267,
+      "marketMatches": 11337,
+      "marketComparisons": 199628,
+      "eligiblePairs": 1923,
+      "shortlistedPairs": 60,
+      "verifiedPairs": 0,
+      "sourceErrors": 0,
+      "categoryCoverage": {
+        "Sports": {
+          "kalshiSeries": 6,
+          "kalshiEvents": 0,
+          "polyTags": 2,
+          "polyEvents": 2
+        },
+        "Economics": {
+          "kalshiSeries": 6,
+          "kalshiEvents": 4,
+          "polyTags": 2,
+          "polyEvents": 18
+        },
+        "Financials": {
+          "kalshiSeries": 6,
+          "kalshiEvents": 3,
+          "polyTags": 2,
+          "polyEvents": 320
+        },
+        "Crypto": {
+          "kalshiSeries": 6,
+          "kalshiEvents": 6,
+          "polyTags": 2,
+          "polyEvents": 400
+        }
+      },
+      "candidateCategories": {
+        "politics": 33,
+        "sports": 25,
+        "crypto": 0,
+        "economics": 0,
+        "finance": 0,
+        "other": 1865
+      }
+    }
+  ],
+  "latest": {
+    "timestamp": "2026-10-21T08:02:13.610Z",
+    "status": "COLLECTED",
+    "kalshiEvents": 1211,
+    "polymarketEvents": 2133,
+    "kalshiMarkets": 10779,
+    "polymarketMarkets": 30826,
+    "eventMatches": 2267,
+    "marketMatches": 11337,
+    "marketComparisons": 199628,
+    "eligiblePairs": 1923,
+    "shortlistedPairs": 60,
+    "verifiedPairs": 0,
+    "sourceErrors": 0,
+    "categoryCoverage": {
+      "Sports": {
+        "kalshiSeries": 6,
+        "kalshiEvents": 0,
+        "polyTags": 2,
+        "polyEvents": 2
+      },
+      "Economics": {
+        "kalshiSeries": 6,
+        "kalshiEvents": 4,
+        "polyTags": 2,
+        "polyEvents": 18
+      },
+      "Financials": {
+        "kalshiSeries": 6,
+        "kalshiEvents": 3,
+        "polyTags": 2,
+        "polyEvents": 320
+      },
+      "Crypto": {
+        "kalshiSeries": 6,
+        "kalshiEvents": 6,
+        "polyTags": 2,
+        "polyEvents": 400
+      }
+    },
+    "candidateCategories": {
+      "politics": 33,
+      "sports": 25,
+      "crypto": 0,
+      "economics": 0,
+      "finance": 0,
+      "other": 1865
+    }
+  },
+  "notes": [
+    "Event/market counts represent sampled discovery coverage, not the full venue universe.",
+    "Unverified candidates are not profitable or risk-free arbitrage opportunities."
+  ]
+}
