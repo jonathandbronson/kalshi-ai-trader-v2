@@ -1,0 +1,22 @@
+[
+  {
+    "kalshiTicker": "KALSHI_MARKET_TICKER",
+    "polymarketId": "POLYMARKET_MARKET_ID",
+    "decision": "VERIFIED",
+    "reviewer": "REVIEWER_ID",
+    "reviewedAt": "2026-10-21T00:00:00Z",
+    "yesMeansSameOutcome": true,
+    "kalshiRuleSha256": "COPY_FROM_LATEST_EVIDENCE",
+    "polymarketRuleSha256": "COPY_FROM_LATEST_EVIDENCE",
+    "checks": {
+      "IDENTICAL_PAYOFF": true,
+      "IDENTICAL_OUTCOME": true,
+      "IDENTICAL_SETTLEMENT_SOURCE": true,
+      "IDENTICAL_SETTLEMENT_TIME": true,
+      "CANCELLATION_AND_VOID_RULES": true,
+      "TRADING_ELIGIBILITY": true,
+      "CURRENT_FEES": true,
+      "AVAILABLE_LIQUIDITY": true
+    }
+  }
+]
