@@ -309,7 +309,7 @@ async function collect(){
   pool.push({category,eventScore:Number(score(k.title,p.title).toFixed(3)),contractScore:match.score,
    discoverySource:"MARKET_LEVEL",kalshi:{eventTicker:k.event_ticker,title:km.title,subtitle:km.subtitle??null,outcomeLabel:label,ticker:km.ticker,eventTitle:k.title,closeDate:day(km.close_time)},
    polymarket:{eventId:p.id,id:String(pm.id),eventTitle:p.title,title:pm.question,endDate:day(pm.endDate)},
-   settlementFingerprint,reviewEvidence:evidence,reviewStatus:"UNVERIFIED_SETTLEMENT_RULES",approved:false,executable:false});
+   settlementFingerprint,reviewEvidence:evidence,ruleEvidence:buildRuleEvidence({kalshiMarket:km,polymarketMarket:pm,kalshiEvent:k,polymarketEvent:p}),reviewStatus:"UNVERIFIED_SETTLEMENT_RULES",approved:false,executable:false});
   marketLevelAdded++;
  }
  report.counts.marketLevelCandidatesAdded=marketLevelAdded;
