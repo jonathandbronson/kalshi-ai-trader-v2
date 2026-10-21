@@ -34,6 +34,7 @@ on:
       - 'arbitrage/discovery-benchmark.js'
       - 'arbitrage/discovery-benchmark.test.js'
       - 'arbitrage/review-dashboard-cli.js'
+      - 'arbitrage/discovery-benchmark-cli.js'
       - '.github/workflows/arbitrage-candidates.yml'
 jobs:
   discovery:
@@ -57,6 +58,8 @@ jobs:
           node --check arbitrage/market-matcher.js
           node --check arbitrage/evidence-refresh.js
           node --test arbitrage/*.test.js
+      - name: Publish synthetic discovery benchmark
+        run: node arbitrage/discovery-benchmark-cli.js
       - name: Collect and score candidate markets (read only)
         run: node arbitrage/candidate-discovery.js
       - name: Discover event-first candidate pairs (read only)
@@ -122,6 +125,9 @@ jobs:
             } else {
               await publish('reports/latest-event-failure.json',eventReport);
             }
+            if (fs.existsSync('arbitrage-discovery-benchmark.json')) {
+              await publish('reports/latest-discovery-benchmark.json',fs.readFileSync('arbitrage-discovery-benchmark.json','utf8'));
+            }
             if (fs.existsSync('arbitrage-review-dashboard.md')) {
               await publish('reports/latest-review-dashboard.md',fs.readFileSync('arbitrage-review-dashboard.md','utf8'));
             }
@@ -150,4 +156,5 @@ jobs:
             arbitrage-spread-observations.json
             arbitrage-review-queue.json
             arbitrage-review-dashboard.md
+            arbitrage-discovery-benchmark.json
           if-no-files-found: warn
