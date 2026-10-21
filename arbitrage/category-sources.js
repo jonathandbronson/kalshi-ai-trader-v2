@@ -30,7 +30,9 @@ export async function collectCategoryEvents({fetcher=fetch,seriesPerCategory=3,t
   u.searchParams.set("category",category);
   const seriesData=await safe(u.toString(),"kalshi series "+category);
   const series=Array.isArray(seriesData?.series)?seriesData.series:[];
-  for(const item of series.slice(0,Math.max(0,seriesPerCategory))){
+  // Prefer series with activity indicators when available; do not assume API order is relevant.
+  const ranked=[...series].sort((a,b)=>Number(b.volume_24h??b.volume24h??b.volume??0)-Number(a.volume_24h??a.volume24h??a.volume??0));
+  for(const item of ranked.slice(0,Math.max(0,seriesPerCategory))){
    if(!item.ticker)continue;
    record.kalshiSeries++;
    let cursor="";
