@@ -6,8 +6,8 @@ import {findMarketCandidates} from "./market-matcher.js";
 import {buildRuleEvidence} from "./rule-evidence.js";
 import {canReuseRejection,pruneRejections} from "./rejection-policy.js";
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
-const PAGES=Math.max(1,Math.min(20,Number(process.env.ARB_EVENT_PAGES??8)));
-const MAX_PAIRS=Math.max(1,Math.min(100,Number(process.env.ARB_EVENT_CANDIDATES??40)));
+const PAGES=Math.max(1,Math.min(20,Number(process.env.ARB_EVENT_PAGES??12)));
+const MAX_PAIRS=Math.max(1,Math.min(100,Number(process.env.ARB_EVENT_CANDIDATES??60)));
 async function json(url){
  for(let n=0;n<4;n++){
   const ctrl=new AbortController(),timer=setTimeout(()=>ctrl.abort(),12000);
@@ -195,7 +195,7 @@ async function collect(){
   }catch(e){report.errors.push("polymarket recent events: "+e.message);break}
  }
  // Category-targeted supplementation avoids a volume/recency-only sampling bias.
- const targeted=await collectCategoryEvents({seriesPerCategory:Math.max(1,Math.min(10,Number(process.env.ARB_CATEGORY_SERIES??5))),tagsPerCategory:Math.max(1,Math.min(4,Number(process.env.ARB_CATEGORY_TAGS??2))),pagesPerSource:Math.max(1,Math.min(3,Number(process.env.ARB_CATEGORY_PAGES??2)))});
+ const targeted=await collectCategoryEvents({seriesPerCategory:Math.max(1,Math.min(10,Number(process.env.ARB_CATEGORY_SERIES??6))),tagsPerCategory:Math.max(1,Math.min(4,Number(process.env.ARB_CATEGORY_TAGS??3))),pagesPerSource:Math.max(1,Math.min(3,Number(process.env.ARB_CATEGORY_PAGES??2)))});
  const kalshiIds=new Set(kalshi.map(e=>String(e.event_ticker)));
  for(const e of targeted.kalshi)if(!kalshiIds.has(String(e.event_ticker))){kalshiIds.add(String(e.event_ticker));kalshi.push(e)}
  for(const e of targeted.poly)if(!existingPoly.has(String(e.id))){existingPoly.add(String(e.id));poly.push(e)}
