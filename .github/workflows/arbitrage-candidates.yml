@@ -57,6 +57,10 @@ on:
       - 'arbitrage/semantic-retrieval.js'
       - 'arbitrage/semantic-retrieval.test.js'
       - 'arbitrage/contract-extraction.js'
+      - 'arbitrage/neural-embedding-provider.js'
+      - 'arbitrage/ai-settlement-review.js'
+      - 'arbitrage/ai-discovery.test.js'
+      - 'arbitrage/labeled-discovery-benchmark-cli.js'
       - '.github/workflows/arbitrage-candidates.yml'
 jobs:
   discovery:
@@ -83,6 +87,9 @@ jobs:
           node --check arbitrage/settlement-triage.js
           node --check arbitrage/semantic-retrieval.js
           node --check arbitrage/contract-extraction.js
+          node --check arbitrage/neural-embedding-provider.js
+          node --check arbitrage/ai-settlement-review.js
+          node --check arbitrage/labeled-discovery-benchmark-cli.js
           node --check arbitrage/evidence-refresh.js
           node --test arbitrage/*.test.js
       - name: Publish synthetic discovery benchmark
@@ -91,6 +98,9 @@ jobs:
         run: node arbitrage/candidate-discovery.js
       - name: Discover event-first candidate pairs (read only)
         run: node arbitrage/event-discovery.js
+      - name: Measure real labeled retrieval precision and recall
+        if: success()
+        run: node arbitrage/labeled-discovery-benchmark-cli.js
       - name: Accumulate 30-day discovery coverage telemetry
         if: success()
         run: node arbitrage/coverage-history-cli.js
@@ -181,6 +191,12 @@ jobs:
             }
             if (fs.existsSync('arbitrage-review-dashboard.md')) {
               await publish('reports/latest-review-dashboard.md',fs.readFileSync('arbitrage-review-dashboard.md','utf8'));
+            }
+            if (fs.existsSync('arbitrage-discovery-archive.json')) {
+              await publish('reports/latest-discovery-archive.json',fs.readFileSync('arbitrage-discovery-archive.json','utf8'));
+            }
+            if (fs.existsSync('arbitrage-labeled-benchmark.json')) {
+              await publish('reports/latest-labeled-benchmark.json',fs.readFileSync('arbitrage-labeled-benchmark.json','utf8'));
             }
             if (fs.existsSync('arbitrage-review-queue.json')) {
               await publish('reports/latest-review-queue.json',fs.readFileSync('arbitrage-review-queue.json','utf8'));
