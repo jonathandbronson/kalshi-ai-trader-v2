@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T16:47:48.465Z",
+  "timestamp": "2026-10-21T07:47:44.784Z",
   "mode": "EVENT_FIRST_READ_ONLY",
   "status": "COLLECTED",
   "autoApproved": 0,
@@ -15,28 +15,28 @@
       },
       "Economics": {
         "kalshiSeries": 3,
-        "kalshiEvents": 2,
+        "kalshiEvents": 1,
         "polyTags": 2,
         "polyEvents": 18
       },
       "Financials": {
         "kalshiSeries": 3,
-        "kalshiEvents": 1,
+        "kalshiEvents": 0,
         "polyTags": 50,
-        "polyEvents": 166
+        "polyEvents": 167
       },
       "Crypto": {
         "kalshiSeries": 3,
-        "kalshiEvents": 1,
+        "kalshiEvents": 0,
         "polyTags": 50,
-        "polyEvents": 166
+        "polyEvents": 167
       }
     },
     "categorySourceErrors": 0,
-    "kalshiEvents": 804,
-    "polymarketEvents": 1357,
-    "kalshiNestedMarkets": 6418,
-    "polymarketNestedMarkets": 22297,
+    "kalshiEvents": 801,
+    "polymarketEvents": 1354,
+    "kalshiNestedMarkets": 6342,
+    "polymarketNestedMarkets": 21849,
     "eventPagesRequested": 8,
     "polymarketDiscoverySources": [
       "volume24hr",
@@ -47,72 +47,301 @@
       "open_cursor_pagination",
       "series_ticker"
     ],
-    "eventMatches": 1101,
+    "eventMatches": 1327,
     "eventMatchThreshold": {
       "minimumSharedTokens": 2,
       "minimumSimilarity": 0.52
     },
     "discoveryStrategy": "bidirectional_inverted_index",
     "eventMatchCategories": {
-      "politics": 814,
+      "politics": 1034,
       "sports": 1,
       "crypto": 0,
-      "economics": 216,
+      "economics": 220,
       "finance": 0,
-      "other": 70
+      "other": 72
     },
     "sourceEventCategories": {
       "kalshi": {
-        "politics": 141,
+        "politics": 140,
         "sports": 13,
         "crypto": 1,
         "economics": 62,
         "finance": 0,
-        "other": 587
+        "other": 585
       },
       "polymarket": {
-        "politics": 98,
-        "sports": 22,
-        "crypto": 150,
+        "politics": 119,
+        "sports": 19,
+        "crypto": 165,
         "economics": 31,
-        "finance": 11,
-        "other": 1045
+        "finance": 8,
+        "other": 1012
       }
     },
     "discoveryCoverageWarning": [
       "crypto",
       "finance"
     ],
-    "eligibleCandidatePool": 51,
-    "eligibleDistinctKalshiMarkets": 47,
-    "eligibleDistinctPolymarketMarkets": 51,
+    "marketLevelDiscovery": {
+      "kalshiMarkets": 6342,
+      "polymarketMarkets": 21849,
+      "comparisons": 9804896,
+      "rejectedByReason": {
+        "DIFFERENT_EXPLICIT_YEAR": 545,
+        "DIFFERENT_THRESHOLD": 138,
+        "DIFFERENT_DIRECTION": 22,
+        "DIFFERENT_EXPLICIT_DATE": 240,
+        "DIFFERENT_UNDERLYING": 49,
+        "NOMINATION_MISMATCH": 537
+      },
+      "matchedBeforeCap": 28842,
+      "truncated": true
+    },
+    "marketLevelCandidatesAdded": 4,
+    "eligibleCandidatePool": 28,
+    "eligibleDistinctKalshiMarkets": 23,
+    "eligibleDistinctPolymarketMarkets": 28,
     "eligiblePoolCategories": {
-      "politics": 51,
+      "politics": 26,
       "sports": 0,
       "crypto": 0,
       "economics": 0,
       "finance": 0,
-      "other": 0
+      "other": 2
     },
     "rejectedByReason": {
-      "different_meeting_deadline_year": 81
+      "subregion_vs_statewide_result": 1,
+      "different_meeting_deadline_year": 33
     },
-    "rejectionCacheEntries": 360,
-    "rejectionCacheLoaded": 279,
-    "cachedRejections": 279,
-    "dateMismatchCandidates": 51,
-    "ruleWarningCandidates": 47,
-    "noRuleWarningCandidates": 4,
+    "rejectionCacheEntries": 394,
+    "rejectionCacheLoaded": 360,
+    "cachedRejections": 359,
+    "dateMismatchCandidates": 28,
+    "ruleWarningCandidates": 17,
+    "noRuleWarningCandidates": 11,
     "settlementVerifiedCandidates": 0,
-    "manualSettlementReviewRequired": 51,
-    "uniqueEligibleEventPairs": 6,
+    "manualSettlementReviewRequired": 28,
+    "uniqueEligibleEventPairs": 11,
     "candidateCategories": {
-      "politics": 40
+      "politics": 26,
+      "other": 2
     },
-    "uniqueMatchedEventPairs": 6,
-    "candidates": 40
+    "uniqueMatchedEventPairs": 11,
+    "candidates": 28
   },
   "candidates": [
+    {
+      "category": "politics",
+      "eventScore": 0.894,
+      "contractScore": 0.926,
+      "kalshi": {
+        "eventTicker": "SENATENH-28",
+        "title": "Will Republicans win the Senate race in New Hampshire?",
+        "subtitle": "::",
+        "outcomeLabel": "Will Republicans win the Senate race in New Hampshire? ::",
+        "ticker": "SENATENH-28-R",
+        "eventTitle": "New Hampshire Senate winner? (2028)",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "57661",
+        "id": "630845",
+        "eventTitle": "New Hampshire Senate Election Winner",
+        "title": "Will the Republicans win the New Hampshire Senate race in 2026?",
+        "endDate": "2026-11-04"
+      },
+      "settlementFingerprint": {
+        "outcome": "will republicans win the senate race in new hampshire",
+        "kalshiRuleHash": "167231426bab027c",
+        "polymarketRuleHash": "e7a8afd74a29d281",
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of New Hampshire for the term beginning in 2029, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm New Hampshire U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+        "polymarketResolutionSource": null,
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "other",
+      "eventScore": 0.447,
+      "contractScore": 0.926,
+      "discoverySource": "MARKET_LEVEL",
+      "kalshi": {
+        "eventTicker": "KXDCMORATORIUMSTATES-28",
+        "title": "Will Louisiana enact a data center moratorium before 2028?",
+        "subtitle": null,
+        "outcomeLabel": "Will Louisiana enact a data center moratorium before 2028?",
+        "ticker": "KXDCMORATORIUMSTATES-28-LA",
+        "eventTitle": "Which states will enact data center moratoriums before 2028?",
+        "closeDate": "2028-01-01"
+      },
+      "polymarket": {
+        "eventId": "1103971",
+        "id": "5179176",
+        "eventTitle": "Louisiana enacts data center moratorium by...?",
+        "title": "Will Louisiana enact a data center moratorium by December 31, 2028?",
+        "endDate": "2029-01-01"
+      },
+      "settlementFingerprint": {
+        "outcome": "will louisiana enact a data center moratorium before 2028",
+        "kalshiRuleHash": "b64603c1d4b8420f",
+        "polymarketRuleHash": "d9f5ca8da6f76586",
+        "kalshiClose": "2028-01-01",
+        "polymarketEnd": "2029-01-01",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If a data center moratorium is enacted in Louisiana before Jan 1, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "A data center moratorium is a legally binding state action, such as a statute, executive order, regulation, or agency or utility-commission order, that categorically prohibits or suspends at least one approval, permit, utility interconnection, or other pathway that new or expanded data centers need to proceed.\n\nIt must apply throughout the state, not only in particular localities or regions. A utility-commission order counts if it covers every utility the commission regulates. It may cover only a defined class of data centers, such as by power demand, water use, size, or new versus expanded status, and may exempt existing facilities, approved projects, or applications past a specified stage. It need not be called a moratorium, and a permanent prohibition also qualifies.\n\nIt counts once it is operative and mandatory for the agencies, regulators, or utilities responsible for the affected pathway, even if it later expires, is repealed, or is enjoined.\n\nThe following do NOT qualify:\n\nHolds or denials affecting a single project or developer\nRestrictions on the sale, lease, or other disposition of state-owned property\nChanges to tax exemptions, subsidies, or other financial incentives\nStudies, reports, task forces, or nonbinding requests\nNew requirements that a project can proceed by satisfying\nMeasures that only slow or add review to applications",
+        "polymarketDescription": "This market will resolve to \"Yes\" if the State of Louisiana enacts a law or constitutional provision that establishes a statewide moratorium on new data centers between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA statewide moratorium on new data centers refers to a binding policy with legal force that generally prohibits or suspends the approval, permitting, construction, grid interconnection, or operation of all new data centers, or a subset of data centers that includes all new data centers with an interconnection capacity above 100 MW per facility (requested or nameplate), throughout the state. Suspensions of tax incentives, exemption certifications, or economic development awards alone will not qualify, nor will a moratorium adopted by a local government or limited to part of the state. Specific exemptions (e.g., for specified applications, executed agreements, or interconnection requests) do not prevent a measure from generally applying to all new data centers, or a qualifying subset of new data centers, provided that data center approval, permitting, construction, grid interconnection, or operation is prohibited by default, rather than permitted subject to conditions or restrictions. Conditions on the resumption or termination of a suspension do not make a measure one that permits subject to conditions; a measure that suspends approvals, permitting, construction, or interconnection until a specified condition is satisfied qualifies.\n\nEnactment occurs when a bill becomes law under the state's constitution and laws, whether by gubernatorial signature, veto override, becoming law without signature, approval at a statewide referendum election, or any other legal mechanism by which statutes can be enacted. For an initiated or referred statute or constitutional amendment, or other voter referendum, the relevant law is considered to have been enacted on the election day on which it was approved, as reflected in the certified results, regardless of when the measure is certified or takes effect. Passage by one or both chambers, or a Governor's announced intent to sign, is not enactment.\n\nExecutive orders, agency orders, and other measures which are not statutory or constitutional do not qualify as enactment regardless of legal force. A provision removed by line-item veto is not enacted unless the veto is overridden as to that item. The operative text of the measure at enactment controls; provisions amended out before enactment do not qualify.\n\nThe moratorium provision must be mandatory on its face. A statute that merely authorizes a state agency or the Governor to impose a moratorium at their discretion does not qualify. A statute that directs suspension of approvals or interconnection upon a specified condition qualifies only if the condition is objectively determinable and is not deferred to be determined by the implementing agency's findings, certifications, or completion of its own proceedings.\n\nThis market resolves based on the date of enactment, not the effective date. Resolution will not be affected by failure to implement a law, judicial invalidation, repeal, or expiry that follows a relevant enactment, or an effective date that comes after the date of enactment.\n\nThe primary resolution source will be official information from the state government of Louisiana; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2028-01-01",
+        "polymarketEnd": "2029-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.5,
+      "contractScore": 0.926,
+      "discoverySource": "MARKET_LEVEL",
+      "kalshi": {
+        "eventTicker": "KXAOCSENATE-28",
+        "title": "Will Alexandria Ocasio-Cortez run for Senate in 2028 before Apr 1, 2028?",
+        "subtitle": null,
+        "outcomeLabel": "Will Alexandria Ocasio-Cortez run for Senate in 2028 before Apr 1, 2028?",
+        "ticker": "KXAOCSENATE-28",
+        "eventTitle": "Will Alexandria Ocasio-Cortez run for Senate in 2028?",
+        "closeDate": "2028-04-01"
+      },
+      "polymarket": {
+        "eventId": "872248",
+        "id": "3708349",
+        "eventTitle": "Will AOC announce a run for Senate or President before 2028?",
+        "title": "Will Alexandria Ocasio-Cortez run for Senate in 2028?",
+        "endDate": "2027-12-31"
+      },
+      "settlementFingerprint": {
+        "outcome": "will alexandria ocasio cortez run for senate in 2028 before apr 1 2028",
+        "kalshiRuleHash": "0c5397cf7fe0fb25",
+        "polymarketRuleHash": "4f80e3e14073009b",
+        "kalshiClose": "2028-04-01",
+        "polymarketEnd": "2027-12-31",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Alexandria Ocasio-Cortez runs for Senate in 2028 before Apr 1, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "Note: FEC filings alone do not resolve this market to Yes.",
+        "polymarketDescription": "This market will resolve based on the office, between United States Senator and President of the United States, that Rep. Alexandria Ocasio-Cortez first officially announces that she is running for in the 2028 election cycle by December 31, 2027, 11:59 PM ET. \n\nAn announcement by the listed individual will be sufficient to resolve this market in favor of the corresponding outcome, regardless of whether they actually filed a nomination to run, or whether they actually file a nomination to run in the future.\n\nA qualifying announcement must be explicit and unambiguous. Conditional statements, or statements that are clearly sarcastic, made in jest, or immediately clarified as not being genuine will not count.\n\nThe formation of an exploratory committee, or a statement that she is exploring or considering a run, will not qualify, nor will any filing that is not accompanied by an announcement. \n\nIf the listed individual does not announce that she is running for either listed office by December 31, 2027 at 11:59PM ET, this market will resolve to \"Neither\". An announcement of a run for the US House of Representatives will not be relevant for purposes of this market. \n\nThe primary resolution source for this market will be official statements by the listed individual (ex: via speech, social media, etc.), however a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2028-04-01",
+        "polymarketEnd": "2027-12-31",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "other",
+      "eventScore": 0.447,
+      "contractScore": 0.926,
+      "discoverySource": "MARKET_LEVEL",
+      "kalshi": {
+        "eventTicker": "KXDCMORATORIUMSTATES-28",
+        "title": "Will Missouri enact a data center moratorium before 2028?",
+        "subtitle": null,
+        "outcomeLabel": "Will Missouri enact a data center moratorium before 2028?",
+        "ticker": "KXDCMORATORIUMSTATES-28-MO",
+        "eventTitle": "Which states will enact data center moratoriums before 2028?",
+        "closeDate": "2028-01-01"
+      },
+      "polymarket": {
+        "eventId": "1103970",
+        "id": "5179177",
+        "eventTitle": "Missouri enacts data center moratorium by...?",
+        "title": "Will Missouri enact a data center moratorium by December 31, 2028?",
+        "endDate": "2029-01-01"
+      },
+      "settlementFingerprint": {
+        "outcome": "will missouri enact a data center moratorium before 2028",
+        "kalshiRuleHash": "cc8cc65a25fdbc19",
+        "polymarketRuleHash": "a30267c967469d5b",
+        "kalshiClose": "2028-01-01",
+        "polymarketEnd": "2029-01-01",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If a data center moratorium is enacted in Missouri before Jan 1, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "A data center moratorium is a legally binding state action, such as a statute, executive order, regulation, or agency or utility-commission order, that categorically prohibits or suspends at least one approval, permit, utility interconnection, or other pathway that new or expanded data centers need to proceed.\n\nIt must apply throughout the state, not only in particular localities or regions. A utility-commission order counts if it covers every utility the commission regulates. It may cover only a defined class of data centers, such as by power demand, water use, size, or new versus expanded status, and may exempt existing facilities, approved projects, or applications past a specified stage. It need not be called a moratorium, and a permanent prohibition also qualifies.\n\nIt counts once it is operative and mandatory for the agencies, regulators, or utilities responsible for the affected pathway, even if it later expires, is repealed, or is enjoined.\n\nThe following do NOT qualify:\n\nHolds or denials affecting a single project or developer\nRestrictions on the sale, lease, or other disposition of state-owned property\nChanges to tax exemptions, subsidies, or other financial incentives\nStudies, reports, task forces, or nonbinding requests\nNew requirements that a project can proceed by satisfying\nMeasures that only slow or add review to applications",
+        "polymarketDescription": "This market will resolve to \"Yes\" if the State of Missouri enacts a law or constitutional provision that establishes a statewide moratorium on new data centers between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA statewide moratorium on new data centers refers to a binding policy with legal force that generally prohibits or suspends the approval, permitting, construction, grid interconnection, or operation of all new data centers, or a subset of data centers that includes all new data centers with an interconnection capacity above 100 MW per facility (requested or nameplate), throughout the state. Suspensions of tax incentives, exemption certifications, or economic development awards alone will not qualify, nor will a moratorium adopted by a local government or limited to part of the state. Specific exemptions (e.g., for specified applications, executed agreements, or interconnection requests) do not prevent a measure from generally applying to all new data centers, or a qualifying subset of new data centers, provided that data center approval, permitting, construction, grid interconnection, or operation is prohibited by default, rather than permitted subject to conditions or restrictions. Conditions on the resumption or termination of a suspension do not make a measure one that permits subject to conditions; a measure that suspends approvals, permitting, construction, or interconnection until a specified condition is satisfied qualifies.\n\nEnactment occurs when a bill becomes law under the state's constitution and laws, whether by gubernatorial signature, veto override, becoming law without signature, approval at a statewide referendum election, or any other legal mechanism by which statutes can be enacted. For an initiated or referred statute or constitutional amendment, or other voter referendum, the relevant law is considered to have been enacted on the election day on which it was approved, as reflected in the certified results, regardless of when the measure is certified or takes effect. Passage by one or both chambers, or a Governor's announced intent to sign, is not enactment.\n\nExecutive orders, agency orders, and other measures which are not statutory or constitutional do not qualify as enactment regardless of legal force. A provision removed by line-item veto is not enacted unless the veto is overridden as to that item. The operative text of the measure at enactment controls; provisions amended out before enactment do not qualify.\n\nThe moratorium provision must be mandatory on its face. A statute that merely authorizes a state agency or the Governor to impose a moratorium at their discretion does not qualify. A statute that directs suspension of approvals or interconnection upon a specified condition qualifies only if the condition is objectively determinable and is not deferred to be determined by the implementing agency's findings, certifications, or completion of its own proceedings.\n\nThis market resolves based on the date of enactment, not the effective date. Resolution will not be affected by failure to implement a law, judicial invalidation, repeal, or expiry that follows a relevant enactment, or an effective date that comes after the date of enactment.\n\nThe primary resolution source will be official information from the state government of Missouri; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2028-01-01",
+        "polymarketEnd": "2029-01-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
     {
       "category": "politics",
       "eventScore": 0.866,
@@ -160,64 +389,6 @@
         "settlementVerified": false,
         "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
         "ruleConflicts": []
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.866,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Șerban Matei be the next Prime Minister of Romania?",
-        "subtitle": null,
-        "outcomeLabel": "Will Șerban Matei be the next Prime Minister of Romania?",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-SMAT",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166691",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Șerban Matei be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will erban matei be the next prime minister of romania",
-        "kalshiRuleHash": "d143759c80cc4179",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Șerban Matei, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -437,42 +608,144 @@
     },
     {
       "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.866,
+      "eventScore": 0.866,
+      "contractScore": 0.68,
       "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Radu Burnete be the next Prime Minister of Romania?",
+        "eventTicker": "SENATEID-28",
+        "title": "Will Republicans win the Senate race in Idaho?",
+        "subtitle": ":: Current incumbent: Mike Crapo",
+        "outcomeLabel": "Will Republicans win the Senate race in Idaho? :: Current incumbent: Mike Crapo",
+        "ticker": "SENATEID-28-R",
+        "eventTitle": "Idaho Senate winner? (2028)",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "57643",
+        "id": "630706",
+        "eventTitle": "Idaho Senate Election Winner",
+        "title": "Will the Republicans win the Idaho Senate race in 2026?",
+        "endDate": "2026-11-04"
+      },
+      "settlementFingerprint": {
+        "outcome": "will republicans win the senate race in idaho current incumbent mike crapo",
+        "kalshiRuleHash": "0aecf605847317bd",
+        "polymarketRuleHash": "555fa2d3e564887b",
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Idaho for the term beginning in 2029, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm Idaho U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+        "polymarketResolutionSource": null,
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.866,
+      "contractScore": 0.68,
+      "kalshi": {
+        "eventTicker": "SENATEIA-28",
+        "title": "Will Republicans win the Senate race in Iowa?",
+        "subtitle": ":: Current incumbent: Chuck Grassley",
+        "outcomeLabel": "Will Republicans win the Senate race in Iowa? :: Current incumbent: Chuck Grassley",
+        "ticker": "SENATEIA-28-R",
+        "eventTitle": "Iowa Senate winner? (2028)",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "57647",
+        "id": "630734",
+        "eventTitle": "Iowa Senate Election Winner",
+        "title": "Will the Republicans win the Iowa Senate race in 2026?",
+        "endDate": "2026-11-04"
+      },
+      "settlementFingerprint": {
+        "outcome": "will republicans win the senate race in iowa current incumbent chuck grassley",
+        "kalshiRuleHash": "17305ae1c506b860",
+        "polymarketRuleHash": "58f62beb03999f98",
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Iowa for the term beginning in 2029, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm Iowa U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+        "polymarketResolutionSource": null,
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.5,
+      "contractScore": 0.802,
+      "discoverySource": "MARKET_LEVEL",
+      "kalshi": {
+        "eventTicker": "KXAOCSENATE-28",
+        "title": "Will Alexandria Ocasio-Cortez run for Senate in 2028 before Apr 1, 2028?",
         "subtitle": null,
-        "outcomeLabel": "Will Radu Burnete be the next Prime Minister of Romania?",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-RBUR",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
+        "outcomeLabel": "Will Alexandria Ocasio-Cortez run for Senate in 2028 before Apr 1, 2028?",
+        "ticker": "KXAOCSENATE-28",
+        "eventTitle": "Will Alexandria Ocasio-Cortez run for Senate in 2028?",
+        "closeDate": "2028-04-01"
       },
       "polymarket": {
-        "eventId": "452161",
-        "id": "2166690",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Radu Burnete be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
+        "eventId": "872248",
+        "id": "3708351",
+        "eventTitle": "Will AOC announce a run for Senate or President before 2028?",
+        "title": "Will Alexandria Ocasio-Cortez not run for Senate or President in 2028?",
+        "endDate": "2027-12-31"
       },
       "settlementFingerprint": {
-        "outcome": "will radu burnete be the next prime minister of romania",
-        "kalshiRuleHash": "579a27f41bf86ee4",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
+        "outcome": "will alexandria ocasio cortez run for senate in 2028 before apr 1 2028",
+        "kalshiRuleHash": "0c5397cf7fe0fb25",
+        "polymarketRuleHash": "4f80e3e14073009b",
+        "kalshiClose": "2028-04-01",
+        "polymarketEnd": "2027-12-31",
+        "conflicts": []
       },
       "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Radu Burnete, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
+        "kalshiRules": "If Alexandria Ocasio-Cortez runs for Senate in 2028 before Apr 1, 2028, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "Note: FEC filings alone do not resolve this market to Yes.",
+        "polymarketDescription": "This market will resolve based on the office, between United States Senator and President of the United States, that Rep. Alexandria Ocasio-Cortez first officially announces that she is running for in the 2028 election cycle by December 31, 2027, 11:59 PM ET. \n\nAn announcement by the listed individual will be sufficient to resolve this market in favor of the corresponding outcome, regardless of whether they actually filed a nomination to run, or whether they actually file a nomination to run in the future.\n\nA qualifying announcement must be explicit and unambiguous. Conditional statements, or statements that are clearly sarcastic, made in jest, or immediately clarified as not being genuine will not count.\n\nThe formation of an exploratory committee, or a statement that she is exploring or considering a run, will not qualify, nor will any filing that is not accompanied by an announcement. \n\nIf the listed individual does not announce that she is running for either listed office by December 31, 2027 at 11:59PM ET, this market will resolve to \"Neither\". An announcement of a run for the US House of Representatives will not be relevant for purposes of this market. \n\nThe primary resolution source for this market will be official statements by the listed individual (ex: via speech, social media, etc.), however a consensus of credible reporting may also be used.",
         "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
+        "kalshiClose": "2028-04-01",
+        "polymarketEnd": "2027-12-31",
         "differentEndDates": true,
         "manualChecks": [
           "same_exact_outcome",
@@ -483,1635 +756,8 @@
           "fee_and_orderbook_depth"
         ],
         "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.866,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Victor Ponta be the next Prime Minister of Romania?",
-        "subtitle": null,
-        "outcomeLabel": "Will Victor Ponta be the next Prime Minister of Romania?",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-VPON",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166697",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Victor Ponta be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will victor ponta be the next prime minister of romania",
-        "kalshiRuleHash": "8dc226df459bd383",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Victor Ponta, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.866,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Siegfried Mureșan be the next Prime Minister of Romania?",
-        "subtitle": null,
-        "outcomeLabel": "Will Siegfried Mureșan be the next Prime Minister of Romania?",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-SMUR",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166700",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Siegfried Mureșan be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will siegfried mure an be the next prime minister of romania",
-        "kalshiRuleHash": "7fc472a5223c5e4e",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Siegfried Mureșan, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Mugur Isărescu be the next Prime Minister of Romania?",
-        "subtitle": ":: Independent",
-        "outcomeLabel": "Will Mugur Isărescu be the next Prime Minister of Romania? :: Independent",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-MISA",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166666",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Mugur Isărescu be the next Prime Minister of Romania?",
-        "endDate": "2026-12-31"
-      },
-      "settlementFingerprint": {
-        "outcome": "will mugur is rescu be the next prime minister of romania independent",
-        "kalshiRuleHash": "6c548fc3eee25a36",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-12-31",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Mugur Isărescu, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-12-31",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Mircea Geoană be the next Prime Minister of Romania?",
-        "subtitle": ":: Independent",
-        "outcomeLabel": "Will Mircea Geoană be the next Prime Minister of Romania? :: Independent",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-MGEO",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166667",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Mircea Geoană be the next Prime Minister of Romania?",
-        "endDate": "2026-12-31"
-      },
-      "settlementFingerprint": {
-        "outcome": "will mircea geoan be the next prime minister of romania independent",
-        "kalshiRuleHash": "3ba906cc19372831",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-12-31",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Mircea Geoană, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-12-31",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Anca Dragu be the next Prime Minister of Romania?",
-        "subtitle": ":: USR",
-        "outcomeLabel": "Will Anca Dragu be the next Prime Minister of Romania? :: USR",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-ADRA",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166668",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Anca Dragu be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will anca dragu be the next prime minister of romania usr",
-        "kalshiRuleHash": "fb0fb02d6e73118d",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Anca Dragu, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Lucian Isar be the next Prime Minister of Romania?",
-        "subtitle": ":: Independent",
-        "outcomeLabel": "Will Lucian Isar be the next Prime Minister of Romania? :: Independent",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-LISA",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166669",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Lucian Isar be the next Prime Minister of Romania?",
-        "endDate": "2026-12-31"
-      },
-      "settlementFingerprint": {
-        "outcome": "will lucian isar be the next prime minister of romania independent",
-        "kalshiRuleHash": "e5334060bdb0fd8f",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-12-31",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Lucian Isar, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-12-31",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Cătălin Predoiu be the next Prime Minister of Romania?",
-        "subtitle": ":: PNL",
-        "outcomeLabel": "Will Cătălin Predoiu be the next Prime Minister of Romania? :: PNL",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-CPRE",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166670",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Cătălin Predoiu be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will c t lin predoiu be the next prime minister of romania pnl",
-        "kalshiRuleHash": "937e74a9803e45ed",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Cătălin Predoiu, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Sorin Grindeanu be the next Prime Minister of Romania?",
-        "subtitle": ":: PSD",
-        "outcomeLabel": "Will Sorin Grindeanu be the next Prime Minister of Romania? :: PSD",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-SGRI",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166671",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Sorin Grindeanu be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will sorin grindeanu be the next prime minister of romania psd",
-        "kalshiRuleHash": "b7b84deaf7755554",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Sorin Grindeanu, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will George Simion be the next Prime Minister of Romania?",
-        "subtitle": ":: AUR",
-        "outcomeLabel": "Will George Simion be the next Prime Minister of Romania? :: AUR",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-GSIM",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166672",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will George Simion be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will george simion be the next prime minister of romania aur",
-        "kalshiRuleHash": "c9fdd79f6b48599e",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is George Simion, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Nicolae Ciucă be the next Prime Minister of Romania?",
-        "subtitle": ":: PNL",
-        "outcomeLabel": "Will Nicolae Ciucă be the next Prime Minister of Romania? :: PNL",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-NCIU",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166687",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Nicolae Ciucă be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will nicolae ciuc be the next prime minister of romania pnl",
-        "kalshiRuleHash": "36500f26ab831e9d",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Nicolae Ciucă, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Marcel Ciolacu be the next Prime Minister of Romania?",
-        "subtitle": ":: PSD",
-        "outcomeLabel": "Will Marcel Ciolacu be the next Prime Minister of Romania? :: PSD",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-MCIO",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166674",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Marcel Ciolacu be the next Prime Minister of Romania?",
-        "endDate": "2026-12-31"
-      },
-      "settlementFingerprint": {
-        "outcome": "will marcel ciolacu be the next prime minister of romania psd",
-        "kalshiRuleHash": "8a9963ad8937b6fb",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-12-31",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Marcel Ciolacu, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-12-31",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Alexandru Rafila be the next Prime Minister of Romania?",
-        "subtitle": ":: PSD",
-        "outcomeLabel": "Will Alexandru Rafila be the next Prime Minister of Romania? :: PSD",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-ARAF",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166675",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Alexandru Rafila be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will alexandru rafila be the next prime minister of romania psd",
-        "kalshiRuleHash": "6bf055c358178966",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Alexandru Rafila, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Sebastian Burduja be the next Prime Minister of Romania?",
-        "subtitle": ":: PNL",
-        "outcomeLabel": "Will Sebastian Burduja be the next Prime Minister of Romania? :: PNL",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-SBUR",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166676",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Sebastian Burduja be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will sebastian burduja be the next prime minister of romania pnl",
-        "kalshiRuleHash": "6a584e9f3f358073",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Sebastian Burduja, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Ionuț Dumitru be the next Prime Minister of Romania?",
-        "subtitle": ":: Independent",
-        "outcomeLabel": "Will Ionuț Dumitru be the next Prime Minister of Romania? :: Independent",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-IDUM",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166677",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Ionuț Dumitru be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will ionu dumitru be the next prime minister of romania independent",
-        "kalshiRuleHash": "52d472c6785c2ed0",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Ionuț Dumitru, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Elena Lasconi be the next Prime Minister of Romania?",
-        "subtitle": ":: USR",
-        "outcomeLabel": "Will Elena Lasconi be the next Prime Minister of Romania? :: USR",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-ELAS",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166678",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Elena Lasconi be the next Prime Minister of Romania?",
-        "endDate": "2026-12-31"
-      },
-      "settlementFingerprint": {
-        "outcome": "will elena lasconi be the next prime minister of romania usr",
-        "kalshiRuleHash": "b650fc324bff69e9",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-12-31",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Elena Lasconi, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-12-31",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Cătălin Drulă be the next Prime Minister of Romania?",
-        "subtitle": ":: USR",
-        "outcomeLabel": "Will Cătălin Drulă be the next Prime Minister of Romania? :: USR",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-CDRU",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166679",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Cătălin Drulă be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will c t lin drul be the next prime minister of romania usr",
-        "kalshiRuleHash": "0ed80c78fdb4beec",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Cătălin Drulă, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Vasile Dîncu be the next Prime Minister of Romania?",
-        "subtitle": ":: PSD",
-        "outcomeLabel": "Will Vasile Dîncu be the next Prime Minister of Romania? :: PSD",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-VDIN",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166680",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Vasile Dîncu be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will vasile d ncu be the next prime minister of romania psd",
-        "kalshiRuleHash": "a04f781666d19cc1",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Vasile Dîncu, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Dacian Cioloș be the next Prime Minister of Romania?",
-        "subtitle": ":: REPER",
-        "outcomeLabel": "Will Dacian Cioloș be the next Prime Minister of Romania? :: REPER",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-DCIO",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166681",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Dacian Cioloș be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will dacian ciolo be the next prime minister of romania reper",
-        "kalshiRuleHash": "5666f8015e480a69",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Dacian Cioloș, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Emil Boc be the next Prime Minister of Romania?",
-        "subtitle": ":: PNL",
-        "outcomeLabel": "Will Emil Boc be the next Prime Minister of Romania? :: PNL",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-EBOC",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166682",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Emil Boc be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will emil boc be the next prime minister of romania pnl",
-        "kalshiRuleHash": "a8ad96efa6fcb274",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Emil Boc, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Dominic Fritz be the next Prime Minister of Romania?",
-        "subtitle": ":: USR",
-        "outcomeLabel": "Will Dominic Fritz be the next Prime Minister of Romania? :: USR",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-DFRI",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166683",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Dominic Fritz be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will dominic fritz be the next prime minister of romania usr",
-        "kalshiRuleHash": "d5283d8079d016d9",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Dominic Fritz, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Raluca Turcan be the next Prime Minister of Romania?",
-        "subtitle": ":: PNL",
-        "outcomeLabel": "Will Raluca Turcan be the next Prime Minister of Romania? :: PNL",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-RTUR",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166684",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Raluca Turcan be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will raluca turcan be the next prime minister of romania pnl",
-        "kalshiRuleHash": "4c9eff4fb3f2628e",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Raluca Turcan, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Lucian Croitoru be the next Prime Minister of Romania?",
-        "subtitle": ":: Independent",
-        "outcomeLabel": "Will Lucian Croitoru be the next Prime Minister of Romania? :: Independent",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-LCRO",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166685",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Lucian Croitoru be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will lucian croitoru be the next prime minister of romania independent",
-        "kalshiRuleHash": "41d699dc8eb763a0",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Lucian Croitoru, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Delia Velculescu be the next Prime Minister of Romania?",
-        "subtitle": ":: Independent",
-        "outcomeLabel": "Will Delia Velculescu be the next Prime Minister of Romania? :: Independent",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-DVEL",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166686",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Delia Velculescu be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will delia velculescu be the next prime minister of romania independent",
-        "kalshiRuleHash": "5e9fe5dcf99df0f7",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Delia Velculescu, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Eugen Tomac be the next Prime Minister of Romania?",
-        "subtitle": ":: PMP",
-        "outcomeLabel": "Will Eugen Tomac be the next Prime Minister of Romania? :: PMP",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-ETOM",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166699",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Eugen Tomac be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will eugen tomac be the next prime minister of romania pmp",
-        "kalshiRuleHash": "3c27061d44f3d072",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Eugen Tomac, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Leonardo Badea be the next Prime Minister of Romania?",
-        "subtitle": ":: Independent",
-        "outcomeLabel": "Will Leonardo Badea be the next Prime Minister of Romania? :: Independent",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-LBAD",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166703",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Leonardo Badea be the next Prime Minister of Romania?",
-        "endDate": "2026-12-31"
-      },
-      "settlementFingerprint": {
-        "outcome": "will leonardo badea be the next prime minister of romania independent",
-        "kalshiRuleHash": "a40feaf2eeba741e",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-12-31",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Leonardo Badea, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-12-31",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Luca Niculescu be the next Prime Minister of Romania?",
-        "subtitle": ":: Independent",
-        "outcomeLabel": "Will Luca Niculescu be the next Prime Minister of Romania? :: Independent",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-LNIC",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166702",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Luca Niculescu be the next Prime Minister of Romania?",
-        "endDate": "2026-12-31"
-      },
-      "settlementFingerprint": {
-        "outcome": "will luca niculescu be the next prime minister of romania independent",
-        "kalshiRuleHash": "6eae0fd1228673c8",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-12-31",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Luca Niculescu, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2026-12-31",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.816,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Alexandru Rogobete be the next Prime Minister of Romania?",
-        "subtitle": ":: PSD",
-        "outcomeLabel": "Will Alexandru Rogobete be the next Prime Minister of Romania? :: PSD",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-AROG",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166693",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Alexandru Rogobete be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will alexandru rogobete be the next prime minister of romania psd",
-        "kalshiRuleHash": "c0afb2346b3d87e0",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Alexandru Rogobete, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.816,
-      "contractScore": 0.739,
-      "kalshi": {
-        "eventTicker": "KXNEXTROMANIAPM-45JAN01",
-        "title": "Will Alexandru Nazare be the next Prime Minister of Romania?",
-        "subtitle": ":: National Liberal Party",
-        "outcomeLabel": "Will Alexandru Nazare be the next Prime Minister of Romania? :: National Liberal Party",
-        "ticker": "KXNEXTROMANIAPM-45JAN01-ANAZ",
-        "eventTitle": "Who will be the next new Prime Minister of Romania?",
-        "closeDate": "2045-01-01"
-      },
-      "polymarket": {
-        "eventId": "452161",
-        "id": "2166692",
-        "eventTitle": "Next Prime Minister of Romania?",
-        "title": "Will Alexandru Nazare be the next Prime Minister of Romania?",
-        "endDate": "2028-01-01"
-      },
-      "settlementFingerprint": {
-        "outcome": "will alexandru nazare be the next prime minister of romania national liberal party",
-        "kalshiRuleHash": "1ed1cba6944140e9",
-        "polymarketRuleHash": "b5e031cd02f873a7",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "conflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If the first new person to hold Prime Minister of Romania after Issuance is Alexandru Nazare, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Romania by December 31, 2027, 11:59 PM ET.\n\nTo count for resolution, the individual must be formally appointed by the President of Romania and receive a vote of confidence from Parliament, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Romania; however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "",
-        "kalshiClose": "2045-01-01",
-        "polymarketEnd": "2028-01-01",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
-        "ruleConflicts": [
-          "explicit_deadline_only_on_polymarket",
-          "parliamentary_vote_requirement_unconfirmed"
-        ]
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
       },
       "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
       "approved": false,
@@ -2373,6 +1019,622 @@
       },
       "reviewEvidence": {
         "kalshiRules": "If Gabriel Attal is announced to qualify for the runoff in the 2027 French presidential election, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "If a candidate wins the first round outright, and no runoff occurs, the market for that winning candidate will resolve Yes and all other markets will resolve to No.\n\nThis is determined at the time qualification is announced; subsequent withdrawals, disqualifications, or changes in eligibility do not affect whether the candidate qualified. If a candidate is announced to not qualify, the market will immediately resolve to No.",
+        "polymarketDescription": "The next French presidential election is currently expected to be held around April 2027. This market pertains to the outcome of the next French presidential election, regardless of whether it follows the scheduled end of the current term or is held earlier.\n\nThe President of France is elected via a two-round system; a candidate must secure over 50% of the vote to win outright in the first round. If no candidate achieves this, the top two contenders advance to a runoff second round.\n\nThis market will resolve to \"Yes\" if the listed candidate advances to the second round of the next French presidential election or wins the election outright in the first round. Otherwise, this market will resolve to \"No\".\n\nIf no such election occurs or the results of the first round of this election are not known by December 31, 2027, 11:59 PM ET, this market will resolve to \"No\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the French Government, specifically the Ministry of the Interior (https://www.interieur.gouv.fr/).",
+        "polymarketResolutionSource": "https://www.interieur.gouv.fr/",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.791,
+      "contractScore": 0.667,
+      "kalshi": {
+        "eventTicker": "KXFRPRESADVANCE-26APR18",
+        "title": "Will Bruno Retailleau qualify for the runoff in the 2027 French presidential election?",
+        "subtitle": null,
+        "outcomeLabel": "Will Bruno Retailleau qualify for the runoff in the 2027 French presidential election?",
+        "ticker": "KXFRPRESADVANCE-26APR18-BRET",
+        "eventTitle": "French presidential election: who will advance?",
+        "closeDate": "2028-04-17"
+      },
+      "polymarket": {
+        "eventId": "531333",
+        "id": "2371054",
+        "eventTitle": "Next French Presidential Election: who will advance to the 2nd round?",
+        "title": "Will Bruno Retailleau advance to the second round of the next French presidential election?",
+        "endDate": "2027-04-19"
+      },
+      "settlementFingerprint": {
+        "outcome": "will bruno retailleau qualify for the runoff in the 2027 french presidential election",
+        "kalshiRuleHash": "2936236b05057392",
+        "polymarketRuleHash": "ae49a52662279851",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Bruno Retailleau is announced to qualify for the runoff in the 2027 French presidential election, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "If a candidate wins the first round outright, and no runoff occurs, the market for that winning candidate will resolve Yes and all other markets will resolve to No.\n\nThis is determined at the time qualification is announced; subsequent withdrawals, disqualifications, or changes in eligibility do not affect whether the candidate qualified. If a candidate is announced to not qualify, the market will immediately resolve to No.",
+        "polymarketDescription": "The next French presidential election is currently expected to be held around April 2027. This market pertains to the outcome of the next French presidential election, regardless of whether it follows the scheduled end of the current term or is held earlier.\n\nThe President of France is elected via a two-round system; a candidate must secure over 50% of the vote to win outright in the first round. If no candidate achieves this, the top two contenders advance to a runoff second round.\n\nThis market will resolve to \"Yes\" if the listed candidate advances to the second round of the next French presidential election or wins the election outright in the first round. Otherwise, this market will resolve to \"No\".\n\nIf no such election occurs or the results of the first round of this election are not known by December 31, 2027, 11:59 PM ET, this market will resolve to \"No\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the French Government, specifically the Ministry of the Interior (https://www.interieur.gouv.fr/).",
+        "polymarketResolutionSource": "https://www.interieur.gouv.fr/",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.791,
+      "contractScore": 0.667,
+      "kalshi": {
+        "eventTicker": "KXFRPRESADVANCE-26APR18",
+        "title": "Will Dominique de Villepin qualify for the runoff in the 2027 French presidential election?",
+        "subtitle": null,
+        "outcomeLabel": "Will Dominique de Villepin qualify for the runoff in the 2027 French presidential election?",
+        "ticker": "KXFRPRESADVANCE-26APR18-DVIL",
+        "eventTitle": "French presidential election: who will advance?",
+        "closeDate": "2028-04-17"
+      },
+      "polymarket": {
+        "eventId": "531333",
+        "id": "2371061",
+        "eventTitle": "Next French Presidential Election: who will advance to the 2nd round?",
+        "title": "Will Dominique de Villepin advance to the second round of the next French presidential election?",
+        "endDate": "2027-04-19"
+      },
+      "settlementFingerprint": {
+        "outcome": "will dominique de villepin qualify for the runoff in the 2027 french presidential election",
+        "kalshiRuleHash": "14e1efe135e1fc41",
+        "polymarketRuleHash": "ae49a52662279851",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Dominique de Villepin is announced to qualify for the runoff in the 2027 French presidential election, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "If a candidate wins the first round outright, and no runoff occurs, the market for that winning candidate will resolve Yes and all other markets will resolve to No.\n\nThis is determined at the time qualification is announced; subsequent withdrawals, disqualifications, or changes in eligibility do not affect whether the candidate qualified. If a candidate is announced to not qualify, the market will immediately resolve to No.",
+        "polymarketDescription": "The next French presidential election is currently expected to be held around April 2027. This market pertains to the outcome of the next French presidential election, regardless of whether it follows the scheduled end of the current term or is held earlier.\n\nThe President of France is elected via a two-round system; a candidate must secure over 50% of the vote to win outright in the first round. If no candidate achieves this, the top two contenders advance to a runoff second round.\n\nThis market will resolve to \"Yes\" if the listed candidate advances to the second round of the next French presidential election or wins the election outright in the first round. Otherwise, this market will resolve to \"No\".\n\nIf no such election occurs or the results of the first round of this election are not known by December 31, 2027, 11:59 PM ET, this market will resolve to \"No\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the French Government, specifically the Ministry of the Interior (https://www.interieur.gouv.fr/).",
+        "polymarketResolutionSource": "https://www.interieur.gouv.fr/",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.791,
+      "contractScore": 0.667,
+      "kalshi": {
+        "eventTicker": "KXFRPRESADVANCE-26APR18",
+        "title": "Will Jordan Bardella qualify for the runoff in the 2027 French presidential election?",
+        "subtitle": null,
+        "outcomeLabel": "Will Jordan Bardella qualify for the runoff in the 2027 French presidential election?",
+        "ticker": "KXFRPRESADVANCE-26APR18-JBAR",
+        "eventTitle": "French presidential election: who will advance?",
+        "closeDate": "2028-04-17"
+      },
+      "polymarket": {
+        "eventId": "531333",
+        "id": "2371046",
+        "eventTitle": "Next French Presidential Election: who will advance to the 2nd round?",
+        "title": "Will Jordan Bardella advance to the second round of the next French presidential election?",
+        "endDate": "2027-04-19"
+      },
+      "settlementFingerprint": {
+        "outcome": "will jordan bardella qualify for the runoff in the 2027 french presidential election",
+        "kalshiRuleHash": "365c7034eee05752",
+        "polymarketRuleHash": "ae49a52662279851",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Jordan Bardella is announced to qualify for the runoff in the 2027 French presidential election, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "If a candidate wins the first round outright, and no runoff occurs, the market for that winning candidate will resolve Yes and all other markets will resolve to No.\n\nThis is determined at the time qualification is announced; subsequent withdrawals, disqualifications, or changes in eligibility do not affect whether the candidate qualified. If a candidate is announced to not qualify, the market will immediately resolve to No.",
+        "polymarketDescription": "The next French presidential election is currently expected to be held around April 2027. This market pertains to the outcome of the next French presidential election, regardless of whether it follows the scheduled end of the current term or is held earlier.\n\nThe President of France is elected via a two-round system; a candidate must secure over 50% of the vote to win outright in the first round. If no candidate achieves this, the top two contenders advance to a runoff second round.\n\nThis market will resolve to \"Yes\" if the listed candidate advances to the second round of the next French presidential election or wins the election outright in the first round. Otherwise, this market will resolve to \"No\".\n\nIf no such election occurs or the results of the first round of this election are not known by December 31, 2027, 11:59 PM ET, this market will resolve to \"No\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the French Government, specifically the Ministry of the Interior (https://www.interieur.gouv.fr/).",
+        "polymarketResolutionSource": "https://www.interieur.gouv.fr/",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.791,
+      "contractScore": 0.667,
+      "kalshi": {
+        "eventTicker": "KXFRPRESADVANCE-26APR18",
+        "title": "Will Sébastien Lecornu qualify for the runoff in the 2027 French presidential election?",
+        "subtitle": null,
+        "outcomeLabel": "Will Sébastien Lecornu qualify for the runoff in the 2027 French presidential election?",
+        "ticker": "KXFRPRESADVANCE-26APR18-SLEC",
+        "eventTitle": "French presidential election: who will advance?",
+        "closeDate": "2028-04-17"
+      },
+      "polymarket": {
+        "eventId": "531333",
+        "id": "2371101",
+        "eventTitle": "Next French Presidential Election: who will advance to the 2nd round?",
+        "title": "Will Sébastien Lecornu advance to the second round of the next French presidential election?",
+        "endDate": "2027-04-19"
+      },
+      "settlementFingerprint": {
+        "outcome": "will s bastien lecornu qualify for the runoff in the 2027 french presidential election",
+        "kalshiRuleHash": "fca6b46d968530f0",
+        "polymarketRuleHash": "ae49a52662279851",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Sébastien Lecornu is announced to qualify for the runoff in the 2027 French presidential election, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "If a candidate wins the first round outright, and no runoff occurs, the market for that winning candidate will resolve Yes and all other markets will resolve to No.\n\nThis is determined at the time qualification is announced; subsequent withdrawals, disqualifications, or changes in eligibility do not affect whether the candidate qualified. If a candidate is announced to not qualify, the market will immediately resolve to No.",
+        "polymarketDescription": "The next French presidential election is currently expected to be held around April 2027. This market pertains to the outcome of the next French presidential election, regardless of whether it follows the scheduled end of the current term or is held earlier.\n\nThe President of France is elected via a two-round system; a candidate must secure over 50% of the vote to win outright in the first round. If no candidate achieves this, the top two contenders advance to a runoff second round.\n\nThis market will resolve to \"Yes\" if the listed candidate advances to the second round of the next French presidential election or wins the election outright in the first round. Otherwise, this market will resolve to \"No\".\n\nIf no such election occurs or the results of the first round of this election are not known by December 31, 2027, 11:59 PM ET, this market will resolve to \"No\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the French Government, specifically the Ministry of the Interior (https://www.interieur.gouv.fr/).",
+        "polymarketResolutionSource": "https://www.interieur.gouv.fr/",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.791,
+      "contractScore": 0.667,
+      "kalshi": {
+        "eventTicker": "KXFRPRESADVANCE-26APR18",
+        "title": "Will Bernard Cazeneuve qualify for the runoff in the 2027 French presidential election?",
+        "subtitle": null,
+        "outcomeLabel": "Will Bernard Cazeneuve qualify for the runoff in the 2027 French presidential election?",
+        "ticker": "KXFRPRESADVANCE-26APR18-BCAZ",
+        "eventTitle": "French presidential election: who will advance?",
+        "closeDate": "2028-04-17"
+      },
+      "polymarket": {
+        "eventId": "531333",
+        "id": "2371087",
+        "eventTitle": "Next French Presidential Election: who will advance to the 2nd round?",
+        "title": "Will Bernard Cazeneuve advance to the second round of the next French presidential election?",
+        "endDate": "2027-04-19"
+      },
+      "settlementFingerprint": {
+        "outcome": "will bernard cazeneuve qualify for the runoff in the 2027 french presidential election",
+        "kalshiRuleHash": "e87637d362136adb",
+        "polymarketRuleHash": "ae49a52662279851",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Bernard Cazeneuve is announced to qualify for the runoff in the 2027 French presidential election, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "If a candidate wins the first round outright, and no runoff occurs, the market for that winning candidate will resolve Yes and all other markets will resolve to No.\n\nThis is determined at the time qualification is announced; subsequent withdrawals, disqualifications, or changes in eligibility do not affect whether the candidate qualified. If a candidate is announced to not qualify, the market will immediately resolve to No.",
+        "polymarketDescription": "The next French presidential election is currently expected to be held around April 2027. This market pertains to the outcome of the next French presidential election, regardless of whether it follows the scheduled end of the current term or is held earlier.\n\nThe President of France is elected via a two-round system; a candidate must secure over 50% of the vote to win outright in the first round. If no candidate achieves this, the top two contenders advance to a runoff second round.\n\nThis market will resolve to \"Yes\" if the listed candidate advances to the second round of the next French presidential election or wins the election outright in the first round. Otherwise, this market will resolve to \"No\".\n\nIf no such election occurs or the results of the first round of this election are not known by December 31, 2027, 11:59 PM ET, this market will resolve to \"No\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the French Government, specifically the Ministry of the Interior (https://www.interieur.gouv.fr/).",
+        "polymarketResolutionSource": "https://www.interieur.gouv.fr/",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.791,
+      "contractScore": 0.667,
+      "kalshi": {
+        "eventTicker": "KXFRPRESADVANCE-26APR18",
+        "title": "Will Olivier Faure qualify for the runoff in the 2027 French presidential election?",
+        "subtitle": null,
+        "outcomeLabel": "Will Olivier Faure qualify for the runoff in the 2027 French presidential election?",
+        "ticker": "KXFRPRESADVANCE-26APR18-OFAU",
+        "eventTitle": "French presidential election: who will advance?",
+        "closeDate": "2028-04-17"
+      },
+      "polymarket": {
+        "eventId": "531333",
+        "id": "2371060",
+        "eventTitle": "Next French Presidential Election: who will advance to the 2nd round?",
+        "title": "Will Olivier Faure advance to the second round of the next French presidential election?",
+        "endDate": "2027-04-19"
+      },
+      "settlementFingerprint": {
+        "outcome": "will olivier faure qualify for the runoff in the 2027 french presidential election",
+        "kalshiRuleHash": "cdd52a29cf03bc3a",
+        "polymarketRuleHash": "ae49a52662279851",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Olivier Faure is announced to qualify for the runoff in the 2027 French presidential election, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "If a candidate wins the first round outright, and no runoff occurs, the market for that winning candidate will resolve Yes and all other markets will resolve to No.\n\nThis is determined at the time qualification is announced; subsequent withdrawals, disqualifications, or changes in eligibility do not affect whether the candidate qualified. If a candidate is announced to not qualify, the market will immediately resolve to No.",
+        "polymarketDescription": "The next French presidential election is currently expected to be held around April 2027. This market pertains to the outcome of the next French presidential election, regardless of whether it follows the scheduled end of the current term or is held earlier.\n\nThe President of France is elected via a two-round system; a candidate must secure over 50% of the vote to win outright in the first round. If no candidate achieves this, the top two contenders advance to a runoff second round.\n\nThis market will resolve to \"Yes\" if the listed candidate advances to the second round of the next French presidential election or wins the election outright in the first round. Otherwise, this market will resolve to \"No\".\n\nIf no such election occurs or the results of the first round of this election are not known by December 31, 2027, 11:59 PM ET, this market will resolve to \"No\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the French Government, specifically the Ministry of the Interior (https://www.interieur.gouv.fr/).",
+        "polymarketResolutionSource": "https://www.interieur.gouv.fr/",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.791,
+      "contractScore": 0.667,
+      "kalshi": {
+        "eventTicker": "KXFRPRESADVANCE-26APR18",
+        "title": "Will Élisabeth Borne qualify for the runoff in the 2027 French presidential election?",
+        "subtitle": null,
+        "outcomeLabel": "Will Élisabeth Borne qualify for the runoff in the 2027 French presidential election?",
+        "ticker": "KXFRPRESADVANCE-26APR18-EBOR",
+        "eventTitle": "French presidential election: who will advance?",
+        "closeDate": "2028-04-17"
+      },
+      "polymarket": {
+        "eventId": "531333",
+        "id": "2371077",
+        "eventTitle": "Next French Presidential Election: who will advance to the 2nd round?",
+        "title": "Will Élisabeth Borne advance to the second round of the next French presidential election?",
+        "endDate": "2027-04-19"
+      },
+      "settlementFingerprint": {
+        "outcome": "will lisabeth borne qualify for the runoff in the 2027 french presidential election",
+        "kalshiRuleHash": "0c6f767d428deafe",
+        "polymarketRuleHash": "ae49a52662279851",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Élisabeth Borne is announced to qualify for the runoff in the 2027 French presidential election, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "If a candidate wins the first round outright, and no runoff occurs, the market for that winning candidate will resolve Yes and all other markets will resolve to No.\n\nThis is determined at the time qualification is announced; subsequent withdrawals, disqualifications, or changes in eligibility do not affect whether the candidate qualified. If a candidate is announced to not qualify, the market will immediately resolve to No.",
+        "polymarketDescription": "The next French presidential election is currently expected to be held around April 2027. This market pertains to the outcome of the next French presidential election, regardless of whether it follows the scheduled end of the current term or is held earlier.\n\nThe President of France is elected via a two-round system; a candidate must secure over 50% of the vote to win outright in the first round. If no candidate achieves this, the top two contenders advance to a runoff second round.\n\nThis market will resolve to \"Yes\" if the listed candidate advances to the second round of the next French presidential election or wins the election outright in the first round. Otherwise, this market will resolve to \"No\".\n\nIf no such election occurs or the results of the first round of this election are not known by December 31, 2027, 11:59 PM ET, this market will resolve to \"No\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the French Government, specifically the Ministry of the Interior (https://www.interieur.gouv.fr/).",
+        "polymarketResolutionSource": "https://www.interieur.gouv.fr/",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.791,
+      "contractScore": 0.609,
+      "kalshi": {
+        "eventTicker": "KXFRPRESADVANCE-26APR18",
+        "title": "Will François Hollande qualify for the runoff in the 2027 French presidential election?",
+        "subtitle": null,
+        "outcomeLabel": "Will François Hollande qualify for the runoff in the 2027 French presidential election?",
+        "ticker": "KXFRPRESADVANCE-26APR18-FHOL",
+        "eventTitle": "French presidential election: who will advance?",
+        "closeDate": "2028-04-17"
+      },
+      "polymarket": {
+        "eventId": "531333",
+        "id": "2371052",
+        "eventTitle": "Next French Presidential Election: who will advance to the 2nd round?",
+        "title": "Will François Ruffin advance to the second round of the next French presidential election?",
+        "endDate": "2027-04-19"
+      },
+      "settlementFingerprint": {
+        "outcome": "will fran ois hollande qualify for the runoff in the 2027 french presidential election",
+        "kalshiRuleHash": "c260510cb2e8bb44",
+        "polymarketRuleHash": "ae49a52662279851",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If François Hollande is announced to qualify for the runoff in the 2027 French presidential election, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "If a candidate wins the first round outright, and no runoff occurs, the market for that winning candidate will resolve Yes and all other markets will resolve to No.\n\nThis is determined at the time qualification is announced; subsequent withdrawals, disqualifications, or changes in eligibility do not affect whether the candidate qualified. If a candidate is announced to not qualify, the market will immediately resolve to No.",
+        "polymarketDescription": "The next French presidential election is currently expected to be held around April 2027. This market pertains to the outcome of the next French presidential election, regardless of whether it follows the scheduled end of the current term or is held earlier.\n\nThe President of France is elected via a two-round system; a candidate must secure over 50% of the vote to win outright in the first round. If no candidate achieves this, the top two contenders advance to a runoff second round.\n\nThis market will resolve to \"Yes\" if the listed candidate advances to the second round of the next French presidential election or wins the election outright in the first round. Otherwise, this market will resolve to \"No\".\n\nIf no such election occurs or the results of the first round of this election are not known by December 31, 2027, 11:59 PM ET, this market will resolve to \"No\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the French Government, specifically the Ministry of the Interior (https://www.interieur.gouv.fr/).",
+        "polymarketResolutionSource": "https://www.interieur.gouv.fr/",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.791,
+      "contractScore": 0.609,
+      "kalshi": {
+        "eventTicker": "KXFRPRESADVANCE-26APR18",
+        "title": "Will François Hollande qualify for the runoff in the 2027 French presidential election?",
+        "subtitle": null,
+        "outcomeLabel": "Will François Hollande qualify for the runoff in the 2027 French presidential election?",
+        "ticker": "KXFRPRESADVANCE-26APR18-FHOL",
+        "eventTitle": "French presidential election: who will advance?",
+        "closeDate": "2028-04-17"
+      },
+      "polymarket": {
+        "eventId": "531333",
+        "id": "2371065",
+        "eventTitle": "Next French Presidential Election: who will advance to the 2nd round?",
+        "title": "Will François Asselineau advance to the second round of the next French presidential election?",
+        "endDate": "2027-04-19"
+      },
+      "settlementFingerprint": {
+        "outcome": "will fran ois hollande qualify for the runoff in the 2027 french presidential election",
+        "kalshiRuleHash": "c260510cb2e8bb44",
+        "polymarketRuleHash": "ae49a52662279851",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If François Hollande is announced to qualify for the runoff in the 2027 French presidential election, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "If a candidate wins the first round outright, and no runoff occurs, the market for that winning candidate will resolve Yes and all other markets will resolve to No.\n\nThis is determined at the time qualification is announced; subsequent withdrawals, disqualifications, or changes in eligibility do not affect whether the candidate qualified. If a candidate is announced to not qualify, the market will immediately resolve to No.",
+        "polymarketDescription": "The next French presidential election is currently expected to be held around April 2027. This market pertains to the outcome of the next French presidential election, regardless of whether it follows the scheduled end of the current term or is held earlier.\n\nThe President of France is elected via a two-round system; a candidate must secure over 50% of the vote to win outright in the first round. If no candidate achieves this, the top two contenders advance to a runoff second round.\n\nThis market will resolve to \"Yes\" if the listed candidate advances to the second round of the next French presidential election or wins the election outright in the first round. Otherwise, this market will resolve to \"No\".\n\nIf no such election occurs or the results of the first round of this election are not known by December 31, 2027, 11:59 PM ET, this market will resolve to \"No\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the French Government, specifically the Ministry of the Interior (https://www.interieur.gouv.fr/).",
+        "polymarketResolutionSource": "https://www.interieur.gouv.fr/",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.791,
+      "contractScore": 0.609,
+      "kalshi": {
+        "eventTicker": "KXFRPRESADVANCE-26APR18",
+        "title": "Will François Hollande qualify for the runoff in the 2027 French presidential election?",
+        "subtitle": null,
+        "outcomeLabel": "Will François Hollande qualify for the runoff in the 2027 French presidential election?",
+        "ticker": "KXFRPRESADVANCE-26APR18-FHOL",
+        "eventTitle": "French presidential election: who will advance?",
+        "closeDate": "2028-04-17"
+      },
+      "polymarket": {
+        "eventId": "531333",
+        "id": "2371075",
+        "eventTitle": "Next French Presidential Election: who will advance to the 2nd round?",
+        "title": "Will François Bayrou advance to the second round of the next French presidential election?",
+        "endDate": "2027-04-19"
+      },
+      "settlementFingerprint": {
+        "outcome": "will fran ois hollande qualify for the runoff in the 2027 french presidential election",
+        "kalshiRuleHash": "c260510cb2e8bb44",
+        "polymarketRuleHash": "ae49a52662279851",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If François Hollande is announced to qualify for the runoff in the 2027 French presidential election, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "If a candidate wins the first round outright, and no runoff occurs, the market for that winning candidate will resolve Yes and all other markets will resolve to No.\n\nThis is determined at the time qualification is announced; subsequent withdrawals, disqualifications, or changes in eligibility do not affect whether the candidate qualified. If a candidate is announced to not qualify, the market will immediately resolve to No.",
+        "polymarketDescription": "The next French presidential election is currently expected to be held around April 2027. This market pertains to the outcome of the next French presidential election, regardless of whether it follows the scheduled end of the current term or is held earlier.\n\nThe President of France is elected via a two-round system; a candidate must secure over 50% of the vote to win outright in the first round. If no candidate achieves this, the top two contenders advance to a runoff second round.\n\nThis market will resolve to \"Yes\" if the listed candidate advances to the second round of the next French presidential election or wins the election outright in the first round. Otherwise, this market will resolve to \"No\".\n\nIf no such election occurs or the results of the first round of this election are not known by December 31, 2027, 11:59 PM ET, this market will resolve to \"No\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the French Government, specifically the Ministry of the Interior (https://www.interieur.gouv.fr/).",
+        "polymarketResolutionSource": "https://www.interieur.gouv.fr/",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.791,
+      "contractScore": 0.572,
+      "kalshi": {
+        "eventTicker": "KXFRPRESADVANCE-26APR18",
+        "title": "Will Marine Le Pen qualify for the runoff in the 2027 French presidential election?",
+        "subtitle": null,
+        "outcomeLabel": "Will Marine Le Pen qualify for the runoff in the 2027 French presidential election?",
+        "ticker": "KXFRPRESADVANCE-26APR18-MLEP",
+        "eventTitle": "French presidential election: who will advance?",
+        "closeDate": "2028-04-17"
+      },
+      "polymarket": {
+        "eventId": "531333",
+        "id": "2371058",
+        "eventTitle": "Next French Presidential Election: who will advance to the 2nd round?",
+        "title": "Will Marine Tondelier advance to the second round of the next French presidential election?",
+        "endDate": "2027-04-19"
+      },
+      "settlementFingerprint": {
+        "outcome": "will marine le pen qualify for the runoff in the 2027 french presidential election",
+        "kalshiRuleHash": "681e60838e2ad310",
+        "polymarketRuleHash": "ae49a52662279851",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-04-19",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Marine Le Pen is announced to qualify for the runoff in the 2027 French presidential election, then the market resolves to Yes.",
         "kalshiSecondaryRules": "If a candidate wins the first round outright, and no runoff occurs, the market for that winning candidate will resolve Yes and all other markets will resolve to No.\n\nThis is determined at the time qualification is announced; subsequent withdrawals, disqualifications, or changes in eligibility do not affect whether the candidate qualified. If a candidate is announced to not qualify, the market will immediately resolve to No.",
         "polymarketDescription": "The next French presidential election is currently expected to be held around April 2027. This market pertains to the outcome of the next French presidential election, regardless of whether it follows the scheduled end of the current term or is held earlier.\n\nThe President of France is elected via a two-round system; a candidate must secure over 50% of the vote to win outright in the first round. If no candidate achieves this, the top two contenders advance to a runoff second round.\n\nThis market will resolve to \"Yes\" if the listed candidate advances to the second round of the next French presidential election or wins the election outright in the first round. Otherwise, this market will resolve to \"No\".\n\nIf no such election occurs or the results of the first round of this election are not known by December 31, 2027, 11:59 PM ET, this market will resolve to \"No\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the French Government, specifically the Ministry of the Interior (https://www.interieur.gouv.fr/).",
         "polymarketResolutionSource": "https://www.interieur.gouv.fr/",
