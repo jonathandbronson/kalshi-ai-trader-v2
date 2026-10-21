@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T16:09:41.910Z",
+  "timestamp": "2026-10-21T16:11:45.226Z",
   "mode": "EVENT_FIRST_READ_ONLY",
   "status": "COLLECTED",
   "autoApproved": 0,
@@ -9,34 +9,34 @@
     "categorySourceCoverage": {
       "Sports": {
         "kalshiSeries": 6,
-        "kalshiEvents": 18,
+        "kalshiEvents": 1,
         "polyTags": 2,
         "polyEvents": 2
       },
       "Economics": {
         "kalshiSeries": 6,
-        "kalshiEvents": 1,
+        "kalshiEvents": 2,
         "polyTags": 2,
         "polyEvents": 18
       },
       "Financials": {
         "kalshiSeries": 6,
-        "kalshiEvents": 2,
+        "kalshiEvents": 4,
         "polyTags": 2,
         "polyEvents": 346
       },
       "Crypto": {
         "kalshiSeries": 6,
-        "kalshiEvents": 4,
+        "kalshiEvents": 1,
         "polyTags": 2,
         "polyEvents": 400
       }
     },
     "categorySourceErrors": 0,
-    "kalshiEvents": 1224,
-    "polymarketEvents": 2061,
-    "kalshiNestedMarkets": 10673,
-    "polymarketNestedMarkets": 32927,
+    "kalshiEvents": 1208,
+    "polymarketEvents": 2057,
+    "kalshiNestedMarkets": 10312,
+    "polymarketNestedMarkets": 32753,
     "eventPagesRequested": 12,
     "polymarketDiscoverySources": [
       "volume24hr",
@@ -47,36 +47,36 @@
       "open_cursor_pagination",
       "series_ticker"
     ],
-    "eventMatches": 2321,
+    "eventMatches": 2326,
     "eventMatchThreshold": {
       "minimumSharedTokens": 2,
       "minimumSimilarity": 0.52
     },
     "discoveryStrategy": "bidirectional_inverted_index",
     "eventMatchCategories": {
-      "politics": 1949,
+      "politics": 1960,
       "sports": 19,
       "crypto": 1,
       "economics": 244,
       "finance": 0,
-      "other": 108
+      "other": 102
     },
     "sourceEventCategories": {
       "kalshi": {
-        "politics": 483,
+        "politics": 476,
         "sports": 14,
-        "crypto": 2,
+        "crypto": 1,
         "economics": 64,
-        "finance": 1,
-        "other": 660
+        "finance": 0,
+        "other": 653
       },
       "polymarket": {
-        "politics": 199,
+        "politics": 194,
         "sports": 47,
-        "crypto": 306,
+        "crypto": 299,
         "economics": 48,
         "finance": 15,
-        "other": 1446
+        "other": 1454
       }
     },
     "discoveryCoverageWarning": [
@@ -84,20 +84,20 @@
     ],
     "expiredRejectionCacheEntries": 0,
     "marketLevelDiscovery": {
-      "kalshiMarkets": 10673,
-      "polymarketMarkets": 32927,
-      "comparisons": 189869,
+      "kalshiMarkets": 10312,
+      "polymarketMarkets": 32753,
+      "comparisons": 174677,
       "rejectedByReason": {
         "DIFFERENT_RULE_DEADLINE": 4699,
         "DIFFERENT_THRESHOLD": 70,
-        "DIFFERENT_EXPLICIT_YEAR": 33,
         "DIFFERENT_DEADLINE_PRECISION": 325,
         "DIFFERENT_EXPLICIT_DATE": 33,
         "DIFFERENT_DIRECTION": 2,
-        "NOMINATION_MISMATCH": 177
+        "NOMINATION_MISMATCH": 177,
+        "DIFFERENT_EXPLICIT_YEAR": 25
       },
       "maxPostingsPerToken": 400,
-      "matchedBeforeCap": 6737,
+      "matchedBeforeCap": 6726,
       "truncated": true,
       "selectedCategories": {
         "sports": 25,
@@ -112,35 +112,33 @@
     "qualityRejections": {
       "DIFFERENT_THRESHOLD": 4
     },
-    "eligibleCandidatePool": 2649,
-    "eligibleDistinctKalshiMarkets": 193,
-    "eligibleDistinctPolymarketMarkets": 240,
+    "eligibleCandidatePool": 1680,
+    "eligibleDistinctKalshiMarkets": 142,
+    "eligibleDistinctPolymarketMarkets": 242,
     "eligiblePoolCategories": {
       "politics": 448,
       "sports": 25,
       "crypto": 0,
       "economics": 0,
       "finance": 0,
-      "other": 2176
+      "other": 1207
     },
-    "rejectedByReason": {
-      "different_meeting_deadline_year": 8
-    },
+    "rejectedByReason": {},
     "rejectionCacheEntries": 735,
-    "rejectionCacheLoaded": 727,
-    "cachedRejections": 613,
-    "dateMismatchCandidates": 2649,
+    "rejectionCacheLoaded": 735,
+    "cachedRejections": 621,
+    "dateMismatchCandidates": 1680,
     "ruleWarningCandidates": 438,
-    "noRuleWarningCandidates": 2211,
+    "noRuleWarningCandidates": 1242,
     "settlementVerifiedCandidates": 0,
-    "manualSettlementReviewRequired": 2649,
-    "uniqueEligibleEventPairs": 31,
+    "manualSettlementReviewRequired": 1680,
+    "uniqueEligibleEventPairs": 29,
     "candidateCategories": {
-      "politics": 23,
-      "other": 24,
-      "sports": 13
+      "politics": 24,
+      "other": 22,
+      "sports": 14
     },
-    "uniqueMatchedEventPairs": 31,
+    "uniqueMatchedEventPairs": 29,
     "candidates": 60
   },
   "candidates": [
@@ -253,7 +251,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:55.795Z",
+        "fetchedAt": "2026-10-21T16:11:59.603Z",
         "kalshi": {
           "ticker": "KXONTLIBLEAD-26NOV21-NBAI",
           "eventTicker": "KXONTLIBLEAD-26NOV21",
@@ -393,7 +391,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:55.982Z",
+        "fetchedAt": "2026-10-21T16:11:59.909Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-SOM",
           "eventTicker": "KXOSCARDOCU-27",
@@ -541,7 +539,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:00.867Z",
+        "fetchedAt": "2026-10-21T16:12:08.617Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-14000",
           "eventTicker": "KXNFLCAREERRSHYDS-DHENRY",
@@ -679,7 +677,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:55.802Z",
+        "fetchedAt": "2026-10-21T16:11:59.616Z",
         "kalshi": {
           "ticker": "SENATENH-28-R",
           "eventTicker": "SENATENH-28",
@@ -819,7 +817,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:56.569Z",
+        "fetchedAt": "2026-10-21T16:12:00.896Z",
         "kalshi": {
           "ticker": "KXOSCARPIC-27-WIL",
           "eventTicker": "KXOSCARPIC-27",
@@ -963,7 +961,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:00.868Z",
+        "fetchedAt": "2026-10-21T16:12:08.618Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-14000",
           "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
@@ -1101,7 +1099,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:55.848Z",
+        "fetchedAt": "2026-10-21T16:11:59.689Z",
         "kalshi": {
           "ticker": "SENATEGA-28-R",
           "eventTicker": "SENATEGA-28",
@@ -1145,23 +1143,23 @@
     },
     {
       "category": "other",
-      "eventScore": 0.833,
-      "contractScore": 0.714,
+      "eventScore": 0.75,
+      "contractScore": 0.707,
       "kalshi": {
-        "eventTicker": "KXLIGAMXSCORE-26OCT21SLAPUM",
-        "title": "Final score Pumas UNAM wins 1-0?",
-        "subtitle": null,
-        "outcomeLabel": "Final score Pumas UNAM wins 1-0?",
-        "ticker": "KXLIGAMXSCORE-26OCT21SLAPUM-SLA0PUM1",
-        "eventTitle": "Club Santos Laguna vs Pumas UNAM: Correct Score",
-        "closeDate": "2026-10-24"
+        "eventTicker": "KXOSCARACTO-27",
+        "title": "Will Tom Cruise win Best Actor at the Oscars?",
+        "subtitle": "Tom Cruise:: Digger",
+        "outcomeLabel": "Will Tom Cruise win Best Actor at the Oscars? Tom Cruise:: Digger",
+        "ticker": "KXOSCARACTO-27-TOM",
+        "eventTitle": "Oscar Winner: Best Actor",
+        "closeDate": "2027-12-31"
       },
       "polymarket": {
-        "eventId": "1158148",
-        "id": "5451820",
-        "eventTitle": "Club Santos Laguna vs. Pumas de la UNAM - More Markets",
-        "title": "Club Santos Laguna vs. Pumas de la UNAM: Both Teams to Score",
-        "endDate": "2026-10-22"
+        "eventId": "761666",
+        "id": "3156928",
+        "eventTitle": "Oscars 2027: Best Actor Winner",
+        "title": "Will Tom Cruise win Best Actor at the 99th Academy Awards?",
+        "endDate": "2027-07-01"
       },
       "qualityComparison": {
         "compatible": true,
@@ -1197,8 +1195,13 @@
             "years": []
           },
           "ruleDeadline": {
-            "dates": [],
-            "years": []
+            "dates": [
+              "2027-03-14",
+              "2027-06-30"
+            ],
+            "years": [
+              "2027"
+            ]
           },
           "entities": [],
           "years": [],
@@ -1208,20 +1211,20 @@
         "verified": false
       },
       "settlementFingerprint": {
-        "outcome": "final score pumas unam wins 1 0",
-        "kalshiRuleHash": "0d9c0e518d743659",
-        "polymarketRuleHash": "53bbba999d6649a7",
-        "kalshiClose": "2026-10-24",
-        "polymarketEnd": "2026-10-22",
+        "outcome": "will tom cruise win best actor at the oscars tom cruise digger",
+        "kalshiRuleHash": "ef2e53a4a641c986",
+        "polymarketRuleHash": "d746dd039dc18c67",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-07-01",
         "conflicts": []
       },
       "reviewEvidence": {
-        "kalshiRules": "If Pumas UNAM wins 1-0 in the Club Santos Laguna vs Pumas UNAM professional Liga MX soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "In the upcoming Liga MX game between Club Santos Laguna and Pumas de la UNAM, scheduled for October 21 at 11:00 PM ET:\n\nThis market will resolve to \"Yes\" if both Club Santos Laguna and Pumas de la UNAM each score at least one goal during the game.\n\nThis market will resolve to \"No\" if either team fails to score (i.e., if one or both teams finish with zero goals).\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nIf the game is started but not completed, this market will resolve according to the official final score published on ligamx.net. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
-        "polymarketResolutionSource": "https://ligamx.net/cancha/partidos",
-        "kalshiClose": "2026-10-24",
-        "polymarketEnd": "2026-10-22",
+        "kalshiRules": "If Tom Cruise has won Best Actor at the 99th Academy Awards, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+        "polymarketDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed actor who wins the 99th Academy Award for Best Actor. \n\nIf an actor is not officially nominated for the Academy Award for Best Actor when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated actor whose listed last name comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "https://www.oscars.org/",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-07-01",
         "differentEndDates": true,
         "manualChecks": [
           "same_exact_outcome",
@@ -1236,30 +1239,29 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:56.020Z",
+        "fetchedAt": "2026-10-21T16:12:01.127Z",
         "kalshi": {
-          "ticker": "KXLIGAMXSCORE-26OCT21SLAPUM-SLA0PUM1",
-          "eventTicker": "KXLIGAMXSCORE-26OCT21SLAPUM",
-          "marketTitle": "Final score Pumas UNAM wins 1-0?",
-          "rulesPrimary": "If Pumas UNAM wins 1-0 in the Club Santos Laguna vs Pumas UNAM professional Liga MX soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
-          "rulesSecondary": null,
-          "closeTime": "2026-10-24T09:10:00.000Z",
-          "ruleSha256": "59e638b5ab3250d20a2f5462e53e9555864bfeabfea24800ef76af968afd2b8b"
+          "ticker": "KXOSCARACTO-27-TOM",
+          "eventTicker": "KXOSCARACTO-27",
+          "marketTitle": "Will Tom Cruise win Best Actor at the Oscars? Tom Cruise:: Digger",
+          "rulesPrimary": "If Tom Cruise has won Best Actor at the 99th Academy Awards, then the market resolves to Yes.",
+          "rulesSecondary": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+          "closeTime": "2027-12-31T15:00:00.000Z",
+          "ruleSha256": "066393244575342c5632f94ce37d3b518d2c148b2bdd0a5b5e95ecec5d4c337c"
         },
         "polymarket": {
-          "id": "5451820",
-          "eventId": "1158148",
-          "question": "Club Santos Laguna vs. Pumas de la UNAM: Both Teams to Score",
-          "description": "In the upcoming Liga MX game between Club Santos Laguna and Pumas de la UNAM, scheduled for October 21 at 11:00 PM ET:\n\nThis market will resolve to \"Yes\" if both Club Santos Laguna and Pumas de la UNAM each score at least one goal during the game.\n\nThis market will resolve to \"No\" if either team fails to score (i.e., if one or both teams finish with zero goals).\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nIf the game is started but not completed, this market will resolve according to the official final score published on ligamx.net. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
-          "eventDescription": "More markets for the Liga MX game, scheduled for October 21 at 11:00 PM ET.",
-          "resolutionSource": "https://ligamx.net/cancha/partidos",
-          "endTime": "2026-10-22T03:10:00.000Z",
-          "ruleSha256": "3eed1f5f2054b4fc7635fec597907425ea04f3e263613e9be951f73fe25d7a3f",
-          "conditionId": "0xa22345205caf3a674d83f3bbeeaf869da2b64159830017da9f1fe3b3bfa5323b"
+          "id": "3156928",
+          "eventId": "761666",
+          "question": "Will Tom Cruise win Best Actor at the 99th Academy Awards?",
+          "description": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed actor who wins the 99th Academy Award for Best Actor. \n\nIf an actor is not officially nominated for the Academy Award for Best Actor when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated actor whose listed last name comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+          "eventDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed actor who wins the 99th Academy Award for Best Actor. \n\nIf an actor is not officially nominated for the Academy Award for Best Actor when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated actor whose listed last name comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+          "resolutionSource": "https://www.oscars.org/",
+          "endTime": "2027-07-01T03:59:00.000Z",
+          "ruleSha256": "0ed6de51e1b5a81d43e61601f96b487da989cc690e56f2d28a5f5cb5c02b3c93",
+          "conditionId": "0x998847cb1fa27670394c912caccf642e06b93f849f08e604921362cc41357105"
         },
         "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
+          "DIFFERENT_LISTED_END_DATES"
         ],
         "reviewChecklist": [
           "IDENTICAL_PAYOFF",
@@ -1377,7 +1379,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:00.869Z",
+        "fetchedAt": "2026-10-21T16:12:08.621Z",
         "kalshi": {
           "ticker": "KXNFLCAREERPASSYDS-PMAHOMES-40000",
           "eventTicker": "KXNFLCAREERPASSYDS-PMAHOMES",
@@ -1515,7 +1517,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:55.848Z",
+        "fetchedAt": "2026-10-21T16:11:59.689Z",
         "kalshi": {
           "ticker": "SENATEFL-28-R",
           "eventTicker": "SENATEFL-28",
@@ -1559,23 +1561,23 @@
     },
     {
       "category": "other",
-      "eventScore": 0.73,
-      "contractScore": 0.676,
+      "eventScore": 0.577,
+      "contractScore": 0.674,
       "kalshi": {
-        "eventTicker": "KXLIGAMXSCORE-26OCT21TOLTIJ",
-        "title": "Final score Club Tijuana de Caliente wins 1-0?",
-        "subtitle": null,
-        "outcomeLabel": "Final score Club Tijuana de Caliente wins 1-0?",
-        "ticker": "KXLIGAMXSCORE-26OCT21TOLTIJ-TOL0TIJ1",
-        "eventTitle": "Deportivo Toluca FC vs Club Tijuana de Caliente: Correct Score",
-        "closeDate": "2026-10-24"
+        "eventTicker": "KXJOHANNESBURGMAYOR-26DEC31",
+        "title": "Will Herman Mashaba win the next Johannesburg mayoral election following the 2026 municipal elections?",
+        "subtitle": ":: ActionSA",
+        "outcomeLabel": "Will Herman Mashaba win the next Johannesburg mayoral election following the 2026 municipal elections? :: ActionSA",
+        "ticker": "KXJOHANNESBURGMAYOR-26DEC31-HMAS",
+        "eventTitle": "Mayor of Johannesburg after municipal elections?",
+        "closeDate": "2027-12-31"
       },
       "polymarket": {
-        "eventId": "1154451",
-        "id": "5433452",
-        "eventTitle": "Deportivo Toluca FC vs. Club Tijuana - Exact Score",
-        "title": "Exact Score: Deportivo Toluca FC 0 - 0 Club Tijuana?",
-        "endDate": "2026-10-22"
+        "eventId": "578085",
+        "id": "2486556",
+        "eventTitle": "Next Mayor of Johannesburg?",
+        "title": "Will Herman Mashaba be the next mayor of Johannesburg?",
+        "endDate": "2026-11-17"
       },
       "qualityComparison": {
         "compatible": true,
@@ -1596,7 +1598,9 @@
             "years": []
           },
           "entities": [],
-          "years": [],
+          "years": [
+            "2026"
+          ],
           "ruleAvailable": true,
           "sourceMentioned": false
         },
@@ -1611,8 +1615,12 @@
             "years": []
           },
           "ruleDeadline": {
-            "dates": [],
-            "years": []
+            "dates": [
+              "2027-06-30"
+            ],
+            "years": [
+              "2027"
+            ]
           },
           "entities": [],
           "years": [],
@@ -1622,20 +1630,20 @@
         "verified": false
       },
       "settlementFingerprint": {
-        "outcome": "final score club tijuana de caliente wins 1 0",
-        "kalshiRuleHash": "616f127a09c77b57",
-        "polymarketRuleHash": "2614be882cbdcb3c",
-        "kalshiClose": "2026-10-24",
-        "polymarketEnd": "2026-10-22",
+        "outcome": "will herman mashaba win the next johannesburg mayoral election following the 2026 municipal elections actionsa",
+        "kalshiRuleHash": "60b4ba67884b2e24",
+        "polymarketRuleHash": "f1d0c8eb292d09aa",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2026-11-17",
         "conflicts": []
       },
       "reviewEvidence": {
-        "kalshiRules": "If Club Tijuana de Caliente wins 1-0 in the Deportivo Toluca FC vs Club Tijuana de Caliente professional Liga MX soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "In the upcoming Liga MX game between Deportivo Toluca FC and Club Tijuana, scheduled for October 21, 2026 at 9:00 PM ET: This market will resolve based on the final score of the Deportivo Toluca FC vs. Club Tijuana match originally scheduled for October 21, 2026 at 9:00 PM ET, considering only the result at the end of 90 minutes of regulation plus stoppage time; extra time and penalty shoot-outs are excluded. If the actual score is not one of the explicitly listed outcomes, the market resolves to \"Any Other Score.\" If the match is postponed, the market will remain open until it is completed; if it is canceled with no make-up game, the market resolves to \"0-0.\" The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
-        "polymarketResolutionSource": null,
-        "kalshiClose": "2026-10-24",
-        "polymarketEnd": "2026-10-22",
+        "kalshiRules": "If Herman Mashaba wins the next Johannesburg mayoral election following the 2026 municipal elections, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "Note: Johannesburg voters elect the municipal council, and the executive mayor is then chosen indirectly by a vote of that council\n\nThis market is eligible for accelerated resolution by a consensus of media calls. See full rules for details.",
+        "polymarketDescription": "Municipal elections are currently scheduled to be held in South Africa on November 4, 2026.\n\nThis market will resolve to the first individual who officially assumes the role of Mayor of Johannesburg following the 2026 South African municipal elections.\n\nA qualifying individual must be elected mayor by the Johannesburg City Council. Temporary, interim, or placeholder mayors appointed before the election will not be considered.\n \nIf the result of this election isn't known by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the government of South Africa, including the Electoral Commission of South Africa (https://elections.org.za); however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "https://elections.org.za",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2026-11-17",
         "differentEndDates": true,
         "manualChecks": [
           "same_exact_outcome",
@@ -1650,30 +1658,29 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:56.812Z",
+        "fetchedAt": "2026-10-21T16:12:04.817Z",
         "kalshi": {
-          "ticker": "KXLIGAMXSCORE-26OCT21TOLTIJ-TOL0TIJ1",
-          "eventTicker": "KXLIGAMXSCORE-26OCT21TOLTIJ",
-          "marketTitle": "Final score Club Tijuana de Caliente wins 1-0?",
-          "rulesPrimary": "If Club Tijuana de Caliente wins 1-0 in the Deportivo Toluca FC vs Club Tijuana de Caliente professional Liga MX soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
-          "rulesSecondary": null,
-          "closeTime": "2026-10-24T07:00:00.000Z",
-          "ruleSha256": "7915fd8936492e752169c6408ff9cf8d521121a71307f61840ac675877f8efe9"
+          "ticker": "KXJOHANNESBURGMAYOR-26DEC31-HMAS",
+          "eventTicker": "KXJOHANNESBURGMAYOR-26DEC31",
+          "marketTitle": "Will Herman Mashaba win the next Johannesburg mayoral election following the 2026 municipal elections? :: ActionSA",
+          "rulesPrimary": "If Herman Mashaba wins the next Johannesburg mayoral election following the 2026 municipal elections, then the market resolves to Yes.",
+          "rulesSecondary": "Note: Johannesburg voters elect the municipal council, and the executive mayor is then chosen indirectly by a vote of that council\n\nThis market is eligible for accelerated resolution by a consensus of media calls. See full rules for details.",
+          "closeTime": "2027-12-31T15:00:00.000Z",
+          "ruleSha256": "105eed50deb9033d7c8538e70674c7964c51be64e59b126dadfd6dff35731a68"
         },
         "polymarket": {
-          "id": "5433452",
-          "eventId": "1154451",
-          "question": "Exact Score: Deportivo Toluca FC 0 - 0 Club Tijuana?",
-          "description": "In the upcoming Liga MX game between Deportivo Toluca FC and Club Tijuana, scheduled for October 21, 2026 at 9:00 PM ET: This market will resolve based on the final score of the Deportivo Toluca FC vs. Club Tijuana match originally scheduled for October 21, 2026 at 9:00 PM ET, considering only the result at the end of 90 minutes of regulation plus stoppage time; extra time and penalty shoot-outs are excluded. If the actual score is not one of the explicitly listed outcomes, the market resolves to \"Any Other Score.\" If the match is postponed, the market will remain open until it is completed; if it is canceled with no make-up game, the market resolves to \"0-0.\" The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
-          "eventDescription": "In the upcoming Liga MX game between Deportivo Toluca FC and Club Tijuana, scheduled for October 21, 2026 at 9:00 PM ET: This market will resolve based on the final score of the Deportivo Toluca FC vs. Club Tijuana match originally scheduled for October 21, 2026 at 9:00 PM ET, considering only the result at the end of 90 minutes of regulation plus stoppage time; extra time and penalty shoot-outs are excluded. If the actual score is not one of the explicitly listed outcomes, the market resolves to \"Any Other Score.\" If the match is postponed, the market will remain open until it is completed; if it is canceled with no make-up game, the market resolves to \"0-0.\" The primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
-          "resolutionSource": "https://ligamx.net/cancha/partidos",
-          "endTime": "2026-10-22T01:00:00.000Z",
-          "ruleSha256": "bc3a7a4e573bee23e68040494c804e21c9853d628c39ee6d561f5d83f8e2c319",
-          "conditionId": "0x792b4f597c5f47a7ff297c3269538b06bbe32fa71f3cbab29bf9ba30b98c4eb7"
+          "id": "2486556",
+          "eventId": "578085",
+          "question": "Will Herman Mashaba be the next mayor of Johannesburg?",
+          "description": "Municipal elections are currently scheduled to be held in South Africa on November 4, 2026.\n\nThis market will resolve to the first individual who officially assumes the role of Mayor of Johannesburg following the 2026 South African municipal elections.\n\nA qualifying individual must be elected mayor by the Johannesburg City Council. Temporary, interim, or placeholder mayors appointed before the election will not be considered.\n \nIf the result of this election isn't known by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the government of South Africa, including the Electoral Commission of South Africa (https://elections.org.za); however, a consensus of credible reporting may also be used.",
+          "eventDescription": "Municipal elections are currently scheduled to be held in South Africa on November 4, 2026.\n\nThis market will resolve to the first individual who officially assumes the role of Mayor of Johannesburg following the 2026 South African municipal elections.\n\nA qualifying individual must be elected mayor by the Johannesburg City Council. Temporary, interim, or placeholder mayors appointed before the election will not be considered.\n \nIf the result of this election isn't known by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the government of South Africa, including the Electoral Commission of South Africa (https://elections.org.za); however, a consensus of credible reporting may also be used.",
+          "resolutionSource": "https://elections.org.za",
+          "endTime": "2026-11-17T23:59:00.000Z",
+          "ruleSha256": "bc83bab107ab9b7a44c256daff46a8b78955490ad977d52fa23756a079faa2c6",
+          "conditionId": "0x386c3462fc6f3c3de787eec9cf58af8fe04d81768453f88875e40a62eabdcc6a"
         },
         "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
+          "DIFFERENT_LISTED_END_DATES"
         ],
         "reviewChecklist": [
           "IDENTICAL_PAYOFF",
@@ -1791,7 +1798,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:00.870Z",
+        "fetchedAt": "2026-10-21T16:12:08.622Z",
         "kalshi": {
           "ticker": "KXNFLCAREERPASSYDS-JALLEN-35000",
           "eventTicker": "KXNFLCAREERPASSYDS-JALLEN",
@@ -1939,7 +1946,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:56.242Z",
+        "fetchedAt": "2026-10-21T16:12:00.264Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-JMEL",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -1983,31 +1990,34 @@
     },
     {
       "category": "other",
-      "eventScore": 0.577,
-      "contractScore": 0.674,
+      "eventScore": 0.655,
+      "contractScore": 0.668,
       "kalshi": {
-        "eventTicker": "KXJOHANNESBURGMAYOR-26DEC31",
-        "title": "Will Herman Mashaba win the next Johannesburg mayoral election following the 2026 municipal elections?",
-        "subtitle": ":: ActionSA",
-        "outcomeLabel": "Will Herman Mashaba win the next Johannesburg mayoral election following the 2026 municipal elections? :: ActionSA",
-        "ticker": "KXJOHANNESBURGMAYOR-26DEC31-HMAS",
-        "eventTitle": "Mayor of Johannesburg after municipal elections?",
-        "closeDate": "2027-12-31"
+        "eventTicker": "KXDKS-26NOVCOMP",
+        "title": "Will Dick's Sporting Goods Inc report Above 4% comparable store sales in Q3 2026?",
+        "subtitle": null,
+        "outcomeLabel": "Will Dick's Sporting Goods Inc report Above 4% comparable store sales in Q3 2026?",
+        "ticker": "KXDKS-26NOVCOMP-4",
+        "eventTitle": "Dick's comparable sales in Q3",
+        "closeDate": "2027-03-24"
       },
       "polymarket": {
-        "eventId": "578085",
-        "id": "2486556",
-        "eventTitle": "Next Mayor of Johannesburg?",
-        "title": "Will Herman Mashaba be the next mayor of Johannesburg?",
-        "endDate": "2026-11-17"
+        "eventId": "1194150",
+        "id": "5730355",
+        "eventTitle": "DICK'S Sporting Goods Q3 Dick's business comparable sales growth?",
+        "title": "Will DICK'S Sporting Goods Q3 Dick's business comparable sales growth be above 4%?",
+        "endDate": "2026-11-24"
       },
       "qualityComparison": {
         "compatible": true,
         "hardConflicts": [],
         "uncertainties": [],
         "kalshi": {
-          "threshold": null,
-          "direction": null,
+          "threshold": {
+            "value": 4,
+            "unit": "count"
+          },
+          "direction": "above",
           "period": null,
           "statistic": null,
           "titleDates": [],
@@ -2027,8 +2037,11 @@
           "sourceMentioned": false
         },
         "polymarket": {
-          "threshold": null,
-          "direction": null,
+          "threshold": {
+            "value": 4,
+            "unit": "count"
+          },
+          "direction": "above",
           "period": null,
           "statistic": null,
           "titleDates": [],
@@ -2038,10 +2051,10 @@
           },
           "ruleDeadline": {
             "dates": [
-              "2027-06-30"
+              "2026-12-31"
             ],
             "years": [
-              "2027"
+              "2026"
             ]
           },
           "entities": [],
@@ -2052,20 +2065,20 @@
         "verified": false
       },
       "settlementFingerprint": {
-        "outcome": "will herman mashaba win the next johannesburg mayoral election following the 2026 municipal elections actionsa",
-        "kalshiRuleHash": "60b4ba67884b2e24",
-        "polymarketRuleHash": "f1d0c8eb292d09aa",
-        "kalshiClose": "2027-12-31",
-        "polymarketEnd": "2026-11-17",
+        "outcome": "will dick s sporting goods inc report above 4 comparable store sales in q3 2026",
+        "kalshiRuleHash": "56c0e1d8b5749e0f",
+        "polymarketRuleHash": "cb3f717a955bda39",
+        "kalshiClose": "2027-03-24",
+        "polymarketEnd": "2026-11-24",
         "conflicts": []
       },
       "reviewEvidence": {
-        "kalshiRules": "If Herman Mashaba wins the next Johannesburg mayoral election following the 2026 municipal elections, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "Note: Johannesburg voters elect the municipal council, and the executive mayor is then chosen indirectly by a vote of that council\n\nThis market is eligible for accelerated resolution by a consensus of media calls. See full rules for details.",
-        "polymarketDescription": "Municipal elections are currently scheduled to be held in South Africa on November 4, 2026.\n\nThis market will resolve to the first individual who officially assumes the role of Mayor of Johannesburg following the 2026 South African municipal elections.\n\nA qualifying individual must be elected mayor by the Johannesburg City Council. Temporary, interim, or placeholder mayors appointed before the election will not be considered.\n \nIf the result of this election isn't known by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the government of South Africa, including the Electoral Commission of South Africa (https://elections.org.za); however, a consensus of credible reporting may also be used.",
-        "polymarketResolutionSource": "https://elections.org.za",
-        "kalshiClose": "2027-12-31",
-        "polymarketEnd": "2026-11-17",
+        "kalshiRules": "If Dick's Sporting Goods Inc reports Above 4% comparable store sales in Q3 2026, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "Kalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the underlying company. All trademarks, logos, and brand names are the property of their respective owners.",
+        "polymarketDescription": "This market will resolve according to DICK'S Sporting Goods' announced Dick's business comparable sales growth for the third fiscal quarter of 2026, as reported in its official company earnings materials.\n\nThe specified metric will be considered as reported in the company's official earnings materials. Subsequent revisions will not be considered.\n\nIf the specified company's official earnings materials for the specified quarter are released, and the specified metric is not included, this market will resolve to the lowest bracket.\n\nIf the specified company does not release quarterly earnings materials for the specified quarter by December 31, 2026, 11:59 PM ET, this market will resolve to the lowest bracket.\n\nIf the reported value falls exactly between two brackets, this market will resolve to the higher range bracket.\n\nIf the specified metric is reported as a range rather than a specific number, the midpoint of the range will be used for resolution of this market.\n\nThe resolution source for this market is Dick's Sporting Goods' official company earnings materials, including press releases, investor presentations, and regulatory filings. If the specified metric is not reported in these materials, recordings or transcripts of the company's earnings webcast may also be used.\n\nNote: This market will resolve based on the most numerically precise version of the specified metric reported in the company's official earnings materials. Only the Dick's business comparable sales growth figure will be considered; alternate versions that differ in definition or scope from the specified metric will not be considered.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2027-03-24",
+        "polymarketEnd": "2026-11-24",
         "differentEndDates": true,
         "manualChecks": [
           "same_exact_outcome",
@@ -2080,29 +2093,30 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:58.767Z",
+        "fetchedAt": "2026-10-21T16:12:02.593Z",
         "kalshi": {
-          "ticker": "KXJOHANNESBURGMAYOR-26DEC31-HMAS",
-          "eventTicker": "KXJOHANNESBURGMAYOR-26DEC31",
-          "marketTitle": "Will Herman Mashaba win the next Johannesburg mayoral election following the 2026 municipal elections? :: ActionSA",
-          "rulesPrimary": "If Herman Mashaba wins the next Johannesburg mayoral election following the 2026 municipal elections, then the market resolves to Yes.",
-          "rulesSecondary": "Note: Johannesburg voters elect the municipal council, and the executive mayor is then chosen indirectly by a vote of that council\n\nThis market is eligible for accelerated resolution by a consensus of media calls. See full rules for details.",
-          "closeTime": "2027-12-31T15:00:00.000Z",
-          "ruleSha256": "105eed50deb9033d7c8538e70674c7964c51be64e59b126dadfd6dff35731a68"
+          "ticker": "KXDKS-26NOVCOMP-4",
+          "eventTicker": "KXDKS-26NOVCOMP",
+          "marketTitle": "Will Dick's Sporting Goods Inc report Above 4% comparable store sales in Q3 2026?",
+          "rulesPrimary": "If Dick's Sporting Goods Inc reports Above 4% comparable store sales in Q3 2026, then the market resolves to Yes.",
+          "rulesSecondary": "Kalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the underlying company. All trademarks, logos, and brand names are the property of their respective owners.",
+          "closeTime": "2027-03-24T05:00:00.000Z",
+          "ruleSha256": "a6b8b5d55dc5a4aea01c7a8d0b41dc336cc8421a0f647521906f614c138f4818"
         },
         "polymarket": {
-          "id": "2486556",
-          "eventId": "578085",
-          "question": "Will Herman Mashaba be the next mayor of Johannesburg?",
-          "description": "Municipal elections are currently scheduled to be held in South Africa on November 4, 2026.\n\nThis market will resolve to the first individual who officially assumes the role of Mayor of Johannesburg following the 2026 South African municipal elections.\n\nA qualifying individual must be elected mayor by the Johannesburg City Council. Temporary, interim, or placeholder mayors appointed before the election will not be considered.\n \nIf the result of this election isn't known by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the government of South Africa, including the Electoral Commission of South Africa (https://elections.org.za); however, a consensus of credible reporting may also be used.",
-          "eventDescription": "Municipal elections are currently scheduled to be held in South Africa on November 4, 2026.\n\nThis market will resolve to the first individual who officially assumes the role of Mayor of Johannesburg following the 2026 South African municipal elections.\n\nA qualifying individual must be elected mayor by the Johannesburg City Council. Temporary, interim, or placeholder mayors appointed before the election will not be considered.\n \nIf the result of this election isn't known by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the government of South Africa, including the Electoral Commission of South Africa (https://elections.org.za); however, a consensus of credible reporting may also be used.",
-          "resolutionSource": "https://elections.org.za",
-          "endTime": "2026-11-17T23:59:00.000Z",
-          "ruleSha256": "bc83bab107ab9b7a44c256daff46a8b78955490ad977d52fa23756a079faa2c6",
-          "conditionId": "0x386c3462fc6f3c3de787eec9cf58af8fe04d81768453f88875e40a62eabdcc6a"
+          "id": "5730355",
+          "eventId": "1194150",
+          "question": "Will DICK'S Sporting Goods Q3 Dick's business comparable sales growth be above 4%?",
+          "description": "This market will resolve according to DICK'S Sporting Goods' announced Dick's business comparable sales growth for the third fiscal quarter of 2026, as reported in its official company earnings materials.\n\nThe specified metric will be considered as reported in the company's official earnings materials. Subsequent revisions will not be considered.\n\nIf the specified company's official earnings materials for the specified quarter are released, and the specified metric is not included, this market will resolve to the lowest bracket.\n\nIf the specified company does not release quarterly earnings materials for the specified quarter by December 31, 2026, 11:59 PM ET, this market will resolve to the lowest bracket.\n\nIf the reported value falls exactly between two brackets, this market will resolve to the higher range bracket.\n\nIf the specified metric is reported as a range rather than a specific number, the midpoint of the range will be used for resolution of this market.\n\nThe resolution source for this market is Dick's Sporting Goods' official company earnings materials, including press releases, investor presentations, and regulatory filings. If the specified metric is not reported in these materials, recordings or transcripts of the company's earnings webcast may also be used.\n\nNote: This market will resolve based on the most numerically precise version of the specified metric reported in the company's official earnings materials. Only the Dick's business comparable sales growth figure will be considered; alternate versions that differ in definition or scope from the specified metric will not be considered.",
+          "eventDescription": "This market will resolve according to DICK'S Sporting Goods' announced Dick's business comparable sales growth for the third fiscal quarter of 2026, as reported in its official company earnings materials.\n\nThe specified metric will be considered as reported in the company's official earnings materials. Subsequent revisions will not be considered.\n\nIf the specified company's official earnings materials for the specified quarter are released, and the specified metric is not included, this market will resolve to the lowest bracket.\n\nIf the specified company does not release quarterly earnings materials for the specified quarter by December 31, 2026, 11:59 PM ET, this market will resolve to the lowest bracket.\n\nIf the reported value falls exactly between two brackets, this market will resolve to the higher range bracket.\n\nIf the specified metric is reported as a range rather than a specific number, the midpoint of the range will be used for resolution of this market.\n\nThe resolution source for this market is Dick's Sporting Goods' official company earnings materials, including press releases, investor presentations, and regulatory filings. If the specified metric is not reported in these materials, recordings or transcripts of the company's earnings webcast may also be used.\n\nNote: This market will resolve based on the most numerically precise version of the specified metric reported in the company's official earnings materials. Only the Dick's business comparable sales growth figure will be considered; alternate versions that differ in definition or scope from the specified metric will not be considered.",
+          "resolutionSource": null,
+          "endTime": "2026-11-24T14:30:00.000Z",
+          "ruleSha256": "441faa260cc38c0a1525194230e192554cd95bee44030f0c1f3e600f3566f707",
+          "conditionId": "0x4e275999af6be0df9f62ac35428d478026765b820a0bb8df782e906c5d7324ec"
         },
         "warnings": [
-          "DIFFERENT_LISTED_END_DATES"
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
         ],
         "reviewChecklist": [
           "IDENTICAL_PAYOFF",
@@ -2216,7 +2230,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:55.801Z",
+        "fetchedAt": "2026-10-21T16:11:59.614Z",
         "kalshi": {
           "ticker": "SENATESD-28-R",
           "eventTicker": "SENATESD-28",
@@ -2357,7 +2371,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:57.523Z",
+        "fetchedAt": "2026-10-21T16:12:02.420Z",
         "kalshi": {
           "ticker": "KXOSCARNOMSBANIMATEDF-27-MIN",
           "eventTicker": "KXOSCARNOMSBANIMATEDF-27",
@@ -2494,7 +2508,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:55.802Z",
+        "fetchedAt": "2026-10-21T16:11:59.615Z",
         "kalshi": {
           "ticker": "SENATESC-28-R",
           "eventTicker": "SENATESC-28",
@@ -2635,7 +2649,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:57.874Z",
+        "fetchedAt": "2026-10-21T16:12:03.108Z",
         "kalshi": {
           "ticker": "KXOSCARNOMSPLAY-27-TEE",
           "eventTicker": "KXOSCARNOMSPLAY-27",
@@ -2780,7 +2794,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:56.309Z",
+        "fetchedAt": "2026-10-21T16:12:00.411Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-JMEL",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -2823,23 +2837,23 @@
     },
     {
       "category": "other",
-      "eventScore": 0.73,
-      "contractScore": 0.617,
+      "eventScore": 0.671,
+      "contractScore": 0.632,
       "kalshi": {
-        "eventTicker": "KXLIGAMXSCORE-26OCT21TOLTIJ",
-        "title": "Final score Club Tijuana de Caliente wins 1-0?",
-        "subtitle": null,
-        "outcomeLabel": "Final score Club Tijuana de Caliente wins 1-0?",
-        "ticker": "KXLIGAMXSCORE-26OCT21TOLTIJ-TOL0TIJ1",
-        "eventTitle": "Deportivo Toluca FC vs Club Tijuana de Caliente: Correct Score",
-        "closeDate": "2026-10-24"
+        "eventTicker": "KXOSCARSUPACTO-27",
+        "title": "Will Jeremy Strong win Best Supporting Actor at the Oscars?",
+        "subtitle": "Jeremy Strong:: The Social Reckoning",
+        "outcomeLabel": "Will Jeremy Strong win Best Supporting Actor at the Oscars? Jeremy Strong:: The Social Reckoning",
+        "ticker": "KXOSCARSUPACTO-27-JER",
+        "eventTitle": "Oscar winner: Best Supporting Actor",
+        "closeDate": "2027-12-31"
       },
       "polymarket": {
-        "eventId": "1158155",
-        "id": "5452007",
-        "eventTitle": "Deportivo Toluca FC vs. Club Tijuana - More Markets",
-        "title": "Deportivo Toluca FC vs. Club Tijuana: Both Teams to Score",
-        "endDate": "2026-10-22"
+        "eventId": "761666",
+        "id": "3156936",
+        "eventTitle": "Oscars 2027: Best Actor Winner",
+        "title": "Will Jeremy Strong win Best Actor at the 99th Academy Awards?",
+        "endDate": "2027-07-01"
       },
       "qualityComparison": {
         "compatible": true,
@@ -2875,8 +2889,13 @@
             "years": []
           },
           "ruleDeadline": {
-            "dates": [],
-            "years": []
+            "dates": [
+              "2027-03-14",
+              "2027-06-30"
+            ],
+            "years": [
+              "2027"
+            ]
           },
           "entities": [],
           "years": [],
@@ -2886,20 +2905,20 @@
         "verified": false
       },
       "settlementFingerprint": {
-        "outcome": "final score club tijuana de caliente wins 1 0",
-        "kalshiRuleHash": "616f127a09c77b57",
-        "polymarketRuleHash": "a9c8db0cb3694a7a",
-        "kalshiClose": "2026-10-24",
-        "polymarketEnd": "2026-10-22",
+        "outcome": "will jeremy strong win best supporting actor at the oscars jeremy strong the social reckoning",
+        "kalshiRuleHash": "2d96b5893e607c96",
+        "polymarketRuleHash": "d746dd039dc18c67",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-07-01",
         "conflicts": []
       },
       "reviewEvidence": {
-        "kalshiRules": "If Club Tijuana de Caliente wins 1-0 in the Deportivo Toluca FC vs Club Tijuana de Caliente professional Liga MX soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "In the upcoming Liga MX game between Deportivo Toluca FC and Club Tijuana, scheduled for October 21 at 9:00 PM ET:\n\nThis market will resolve to \"Yes\" if both Deportivo Toluca FC and Club Tijuana each score at least one goal during the game.\n\nThis market will resolve to \"No\" if either team fails to score (i.e., if one or both teams finish with zero goals).\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nIf the game is started but not completed, this market will resolve according to the official final score published on ligamx.net. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
-        "polymarketResolutionSource": "https://ligamx.net/cancha/partidos",
-        "kalshiClose": "2026-10-24",
-        "polymarketEnd": "2026-10-22",
+        "kalshiRules": "If Jeremy Strong has won Best Supporting Actor at the 99th Academy Awards, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+        "polymarketDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed actor who wins the 99th Academy Award for Best Actor. \n\nIf an actor is not officially nominated for the Academy Award for Best Actor when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated actor whose listed last name comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "https://www.oscars.org/",
+        "kalshiClose": "2027-12-31",
+        "polymarketEnd": "2027-07-01",
         "differentEndDates": true,
         "manualChecks": [
           "same_exact_outcome",
@@ -2914,30 +2933,29 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:56.761Z",
+        "fetchedAt": "2026-10-21T16:12:01.955Z",
         "kalshi": {
-          "ticker": "KXLIGAMXSCORE-26OCT21TOLTIJ-TOL0TIJ1",
-          "eventTicker": "KXLIGAMXSCORE-26OCT21TOLTIJ",
-          "marketTitle": "Final score Club Tijuana de Caliente wins 1-0?",
-          "rulesPrimary": "If Club Tijuana de Caliente wins 1-0 in the Deportivo Toluca FC vs Club Tijuana de Caliente professional Liga MX soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
-          "rulesSecondary": null,
-          "closeTime": "2026-10-24T07:00:00.000Z",
-          "ruleSha256": "7915fd8936492e752169c6408ff9cf8d521121a71307f61840ac675877f8efe9"
+          "ticker": "KXOSCARSUPACTO-27-JER",
+          "eventTicker": "KXOSCARSUPACTO-27",
+          "marketTitle": "Will Jeremy Strong win Best Supporting Actor at the Oscars? Jeremy Strong:: The Social Reckoning",
+          "rulesPrimary": "If Jeremy Strong has won Best Supporting Actor at the 99th Academy Awards, then the market resolves to Yes.",
+          "rulesSecondary": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+          "closeTime": "2027-12-31T15:00:00.000Z",
+          "ruleSha256": "5036e0a2ee18595cfde7cc3b462b943792da284b7f13748159774556b16574df"
         },
         "polymarket": {
-          "id": "5452007",
-          "eventId": "1158155",
-          "question": "Deportivo Toluca FC vs. Club Tijuana: Both Teams to Score",
-          "description": "In the upcoming Liga MX game between Deportivo Toluca FC and Club Tijuana, scheduled for October 21 at 9:00 PM ET:\n\nThis market will resolve to \"Yes\" if both Deportivo Toluca FC and Club Tijuana each score at least one goal during the game.\n\nThis market will resolve to \"No\" if either team fails to score (i.e., if one or both teams finish with zero goals).\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nIf the game is started but not completed, this market will resolve according to the official final score published on ligamx.net. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
-          "eventDescription": "More markets for the Liga MX game, scheduled for October 21 at 9:00 PM ET.",
-          "resolutionSource": "https://ligamx.net/cancha/partidos",
-          "endTime": "2026-10-22T01:00:00.000Z",
-          "ruleSha256": "7237844c764aefe070de412848979173fb566e149410784aab6649f1f8fcccc4",
-          "conditionId": "0xbefc26067e449144f611848040ae073862bd545c8b979e53972fcd25ccca74fa"
+          "id": "3156936",
+          "eventId": "761666",
+          "question": "Will Jeremy Strong win Best Actor at the 99th Academy Awards?",
+          "description": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed actor who wins the 99th Academy Award for Best Actor. \n\nIf an actor is not officially nominated for the Academy Award for Best Actor when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated actor whose listed last name comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+          "eventDescription": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed actor who wins the 99th Academy Award for Best Actor. \n\nIf an actor is not officially nominated for the Academy Award for Best Actor when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated actor whose listed last name comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+          "resolutionSource": "https://www.oscars.org/",
+          "endTime": "2027-07-01T03:59:00.000Z",
+          "ruleSha256": "0ed6de51e1b5a81d43e61601f96b487da989cc690e56f2d28a5f5cb5c02b3c93",
+          "conditionId": "0x20026de6880a2202f649ad8eaa7cf9bb4415cbb0f913aadf93cb2aba5aa99d1d"
         },
         "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
+          "DIFFERENT_LISTED_END_DATES"
         ],
         "reviewChecklist": [
           "IDENTICAL_PAYOFF",
@@ -3051,7 +3069,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:55.846Z",
+        "fetchedAt": "2026-10-21T16:11:59.686Z",
         "kalshi": {
           "ticker": "SENATEOH-28-R",
           "eventTicker": "SENATEOH-28",
@@ -3071,550 +3089,6 @@
           "endTime": "2026-11-04T04:59:00.000Z",
           "ruleSha256": "a7f5200e2e62acf51fab8d2a728fd0e0721a7c16591097e4fb0de641bbb31a10",
           "conditionId": "0x771873c365f87bffd990644e4b688aebc1be7f18396d2eab64b996ff66e88669"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "other",
-      "eventScore": 0.75,
-      "contractScore": 0.6,
-      "kalshi": {
-        "eventTicker": "KXLIGAMXSCORE-26OCT21PUEMON",
-        "title": "Final score Club Puebla wins 1-0?",
-        "subtitle": null,
-        "outcomeLabel": "Final score Club Puebla wins 1-0?",
-        "ticker": "KXLIGAMXSCORE-26OCT21PUEMON-PUE1MON0",
-        "eventTitle": "Club Puebla vs CF Monterrey: Correct Score",
-        "closeDate": "2026-10-24"
-      },
-      "polymarket": {
-        "eventId": "1158154",
-        "id": "5451961",
-        "eventTitle": "Club Puebla vs. CF Monterrey - More Markets",
-        "title": "Club Puebla vs. CF Monterrey: Both Teams to Score",
-        "endDate": "2026-10-22"
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": false
-        },
-        "polymarket": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "settlementFingerprint": {
-        "outcome": "final score club puebla wins 1 0",
-        "kalshiRuleHash": "88f8b70863ac2cc6",
-        "polymarketRuleHash": "f90f2272cbe65ff2",
-        "kalshiClose": "2026-10-24",
-        "polymarketEnd": "2026-10-22",
-        "conflicts": []
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If Club Puebla wins 1-0 in the Club Puebla vs CF Monterrey professional Liga MX soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "In the upcoming Liga MX game between Club Puebla and CF Monterrey, scheduled for October 21 at 9:00 PM ET:\n\nThis market will resolve to \"Yes\" if both Club Puebla and CF Monterrey each score at least one goal during the game.\n\nThis market will resolve to \"No\" if either team fails to score (i.e., if one or both teams finish with zero goals).\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nIf the game is started but not completed, this market will resolve according to the official final score published on ligamx.net. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
-        "polymarketResolutionSource": "https://ligamx.net/cancha/partidos",
-        "kalshiClose": "2026-10-24",
-        "polymarketEnd": "2026-10-22",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
-        "ruleConflicts": []
-      },
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:56.710Z",
-        "kalshi": {
-          "ticker": "KXLIGAMXSCORE-26OCT21PUEMON-PUE1MON0",
-          "eventTicker": "KXLIGAMXSCORE-26OCT21PUEMON",
-          "marketTitle": "Final score Club Puebla wins 1-0?",
-          "rulesPrimary": "If Club Puebla wins 1-0 in the Club Puebla vs CF Monterrey professional Liga MX soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
-          "rulesSecondary": null,
-          "closeTime": "2026-10-24T07:00:00.000Z",
-          "ruleSha256": "0145446d547c07b21087551ec2f0b2ecea55422f0cb5e4380506d1767e08c3d4"
-        },
-        "polymarket": {
-          "id": "5451961",
-          "eventId": "1158154",
-          "question": "Club Puebla vs. CF Monterrey: Both Teams to Score",
-          "description": "In the upcoming Liga MX game between Club Puebla and CF Monterrey, scheduled for October 21 at 9:00 PM ET:\n\nThis market will resolve to \"Yes\" if both Club Puebla and CF Monterrey each score at least one goal during the game.\n\nThis market will resolve to \"No\" if either team fails to score (i.e., if one or both teams finish with zero goals).\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nIf the game is started but not completed, this market will resolve according to the official final score published on ligamx.net. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
-          "eventDescription": "More markets for the Liga MX game, scheduled for October 21 at 9:00 PM ET.",
-          "resolutionSource": "https://ligamx.net/cancha/partidos",
-          "endTime": "2026-10-22T01:00:00.000Z",
-          "ruleSha256": "dfc152a0c9c7a91a6aee5911cd6b9396b7711d398c834325dc6766efcaa90cc6",
-          "conditionId": "0xcb36beda37cb966fab72b225f28b5184c52b5d36a860b2fd7a49eedb068d43ef"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.866,
-      "contractScore": 0.68,
-      "kalshi": {
-        "eventTicker": "SENATEKS-28",
-        "title": "Will Republicans win the Senate race in Kansas?",
-        "subtitle": ":: Current incumbent: Jerry Moran",
-        "outcomeLabel": "Will Republicans win the Senate race in Kansas? :: Current incumbent: Jerry Moran",
-        "ticker": "SENATEKS-28-R",
-        "eventTitle": "Kansas Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57648",
-        "id": "630747",
-        "eventTitle": "Kansas Senate Election Winner",
-        "title": "Will the Republicans win the Kansas Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": false
-        },
-        "polymarket": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [
-            "2026"
-          ],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "settlementFingerprint": {
-        "outcome": "will republicans win the senate race in kansas current incumbent jerry moran",
-        "kalshiRuleHash": "3c996d5c03f2b8b7",
-        "polymarketRuleHash": "cdb2e7fff6164951",
-        "kalshiClose": "2029-11-07",
-        "polymarketEnd": "2026-11-04",
-        "conflicts": []
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Kansas for the term beginning in 2029, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm Kansas U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-        "polymarketResolutionSource": null,
-        "kalshiClose": "2029-11-07",
-        "polymarketEnd": "2026-11-04",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
-        "ruleConflicts": []
-      },
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:55.847Z",
-        "kalshi": {
-          "ticker": "SENATEKS-28-R",
-          "eventTicker": "SENATEKS-28",
-          "marketTitle": "Will Republicans win the Senate race in Kansas? :: Current incumbent: Jerry Moran",
-          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Kansas for the term beginning in 2029, then the market resolves to Yes.",
-          "rulesSecondary": null,
-          "closeTime": "2029-11-07T15:00:00.000Z",
-          "ruleSha256": "ade3a8e4e968a8e99a0812c12f8c6ae276a5577dcb596b6e1cbad211275d4008"
-        },
-        "polymarket": {
-          "id": "630747",
-          "eventId": "57648",
-          "question": "Will the Republicans win the Kansas Senate race in 2026?",
-          "description": "This market will resolve according to the winner of the 2026 midterm Kansas U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-          "eventDescription": "This market will resolve according to the winner of the 2026 midterm Kansas U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-          "resolutionSource": null,
-          "endTime": "2026-11-04T04:59:00.000Z",
-          "ruleSha256": "8ce367fc2c5b70babf2745516aa6e83f1f1fc84ead3bcbc48cf355db1da8b823",
-          "conditionId": "0xb8b5349814450b8bba2ecdda2eeb9f48bd3c795bfb858bedf7a383712b877743"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "other",
-      "eventScore": 0.75,
-      "contractScore": 0.6,
-      "kalshi": {
-        "eventTicker": "KXLIGAMXSCORE-26OCT21PACCRA",
-        "title": "Final score CF Cruz Azul wins 1-0?",
-        "subtitle": null,
-        "outcomeLabel": "Final score CF Cruz Azul wins 1-0?",
-        "ticker": "KXLIGAMXSCORE-26OCT21PACCRA-PAC0CRA1",
-        "eventTitle": "CF Pachuca vs CF Cruz Azul: Correct Score",
-        "closeDate": "2026-10-24"
-      },
-      "polymarket": {
-        "eventId": "1158149",
-        "id": "5451866",
-        "eventTitle": "CF Pachuca vs. CF Cruz Azul - More Markets",
-        "title": "CF Pachuca vs. CF Cruz Azul: Both Teams to Score",
-        "endDate": "2026-10-22"
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": false
-        },
-        "polymarket": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "settlementFingerprint": {
-        "outcome": "final score cf cruz azul wins 1 0",
-        "kalshiRuleHash": "2700b9feb83f018d",
-        "polymarketRuleHash": "ddd017256175be54",
-        "kalshiClose": "2026-10-24",
-        "polymarketEnd": "2026-10-22",
-        "conflicts": []
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If CF Cruz Azul wins 1-0 in the CF Pachuca vs CF Cruz Azul professional Liga MX soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "In the upcoming Liga MX game between CF Pachuca and CF Cruz Azul, scheduled for October 21 at 11:00 PM ET:\n\nThis market will resolve to \"Yes\" if both CF Pachuca and CF Cruz Azul each score at least one goal during the game.\n\nThis market will resolve to \"No\" if either team fails to score (i.e., if one or both teams finish with zero goals).\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nIf the game is started but not completed, this market will resolve according to the official final score published on ligamx.net. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
-        "polymarketResolutionSource": "https://ligamx.net/cancha/partidos",
-        "kalshiClose": "2026-10-24",
-        "polymarketEnd": "2026-10-22",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
-        "ruleConflicts": []
-      },
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:56.732Z",
-        "kalshi": {
-          "ticker": "KXLIGAMXSCORE-26OCT21PACCRA-PAC0CRA1",
-          "eventTicker": "KXLIGAMXSCORE-26OCT21PACCRA",
-          "marketTitle": "Final score CF Cruz Azul wins 1-0?",
-          "rulesPrimary": "If CF Cruz Azul wins 1-0 in the CF Pachuca vs CF Cruz Azul professional Liga MX soccer game originally scheduled for Oct 21, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
-          "rulesSecondary": null,
-          "closeTime": "2026-10-24T09:00:00.000Z",
-          "ruleSha256": "8e3d7525d16fc8fe3ab3d3d54f8dd64b90bd6b2b5fb084ccd3778b4225fde185"
-        },
-        "polymarket": {
-          "id": "5451866",
-          "eventId": "1158149",
-          "question": "CF Pachuca vs. CF Cruz Azul: Both Teams to Score",
-          "description": "In the upcoming Liga MX game between CF Pachuca and CF Cruz Azul, scheduled for October 21 at 11:00 PM ET:\n\nThis market will resolve to \"Yes\" if both CF Pachuca and CF Cruz Azul each score at least one goal during the game.\n\nThis market will resolve to \"No\" if either team fails to score (i.e., if one or both teams finish with zero goals).\n\nIf the game is postponed, this market will remain open until the game has been completed. If the game is canceled entirely, with no make-up game, this market will resolve 50–50.\n\nIf the game is started but not completed, this market will resolve according to the official final score published on ligamx.net. This market refers only to the outcome within the first 90 minutes of regular play plus stoppage time.\n\nThe primary resolution source for this market is the official statistics of the event as recognized by the governing body or event organizers. However, if the governing body or event organizers have not published final match statistics within 2 hours after the event's conclusion, data from Flashscore may be used; if Flashscore data is unavailable, data from Sofascore may be used; if neither is available, a consensus of credible reporting may be used instead. All markets will settle based on the official final result as recognized by the governing body or event organizers. Revisions to officially declared final scores made after market resolution will not be accounted for in determining the outcome. If no acceptable data is available within 24 hours of the event's conclusion, this market will resolve 50-50, or to \"Draw\" where applicable.",
-          "eventDescription": "More markets for the Liga MX game, scheduled for October 21 at 11:00 PM ET.",
-          "resolutionSource": "https://ligamx.net/cancha/partidos",
-          "endTime": "2026-10-22T03:10:00.000Z",
-          "ruleSha256": "fe92726945e438bc3982c227d3c37ac05585e4d4d479e0b750b766642323e310",
-          "conditionId": "0x7595793e7784740ffbeccb871c5124e5fc58f5879b916dbf825fdfabeed85dfc"
-        },
-        "warnings": [
-          "DIFFERENT_LISTED_END_DATES",
-          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
-        ],
-        "reviewChecklist": [
-          "IDENTICAL_PAYOFF",
-          "IDENTICAL_OUTCOME",
-          "IDENTICAL_SETTLEMENT_SOURCE",
-          "IDENTICAL_SETTLEMENT_TIME",
-          "CANCELLATION_AND_VOID_RULES",
-          "TRADING_ELIGIBILITY",
-          "CURRENT_FEES",
-          "AVAILABLE_LIQUIDITY"
-        ],
-        "verified": false,
-        "approved": false
-      },
-      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
-      "approved": false,
-      "executable": false
-    },
-    {
-      "category": "politics",
-      "eventScore": 0.866,
-      "contractScore": 0.68,
-      "kalshi": {
-        "eventTicker": "SENATEIA-28",
-        "title": "Will Republicans win the Senate race in Iowa?",
-        "subtitle": ":: Current incumbent: Chuck Grassley",
-        "outcomeLabel": "Will Republicans win the Senate race in Iowa? :: Current incumbent: Chuck Grassley",
-        "ticker": "SENATEIA-28-R",
-        "eventTitle": "Iowa Senate winner? (2028)",
-        "closeDate": "2029-11-07"
-      },
-      "polymarket": {
-        "eventId": "57647",
-        "id": "630734",
-        "eventTitle": "Iowa Senate Election Winner",
-        "title": "Will the Republicans win the Iowa Senate race in 2026?",
-        "endDate": "2026-11-04"
-      },
-      "qualityComparison": {
-        "compatible": true,
-        "hardConflicts": [],
-        "uncertainties": [],
-        "kalshi": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [],
-          "ruleAvailable": true,
-          "sourceMentioned": false
-        },
-        "polymarket": {
-          "threshold": null,
-          "direction": null,
-          "period": null,
-          "statistic": null,
-          "titleDates": [],
-          "titleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "ruleDeadline": {
-            "dates": [],
-            "years": []
-          },
-          "entities": [],
-          "years": [
-            "2026"
-          ],
-          "ruleAvailable": true,
-          "sourceMentioned": true
-        },
-        "verified": false
-      },
-      "settlementFingerprint": {
-        "outcome": "will republicans win the senate race in iowa current incumbent chuck grassley",
-        "kalshiRuleHash": "17305ae1c506b860",
-        "polymarketRuleHash": "58f62beb03999f98",
-        "kalshiClose": "2029-11-07",
-        "polymarketEnd": "2026-11-04",
-        "conflicts": []
-      },
-      "reviewEvidence": {
-        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Iowa for the term beginning in 2029, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "",
-        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm Iowa U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-        "polymarketResolutionSource": null,
-        "kalshiClose": "2029-11-07",
-        "polymarketEnd": "2026-11-04",
-        "differentEndDates": true,
-        "manualChecks": [
-          "same_exact_outcome",
-          "same_resolution_trigger",
-          "same_measurement_source",
-          "same_void_and_cancellation_rules",
-          "same_settlement_deadline",
-          "fee_and_orderbook_depth"
-        ],
-        "settlementVerified": false,
-        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
-        "ruleConflicts": []
-      },
-      "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:55.848Z",
-        "kalshi": {
-          "ticker": "SENATEIA-28-R",
-          "eventTicker": "SENATEIA-28",
-          "marketTitle": "Will Republicans win the Senate race in Iowa? :: Current incumbent: Chuck Grassley",
-          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Iowa for the term beginning in 2029, then the market resolves to Yes.",
-          "rulesSecondary": null,
-          "closeTime": "2029-11-07T15:00:00.000Z",
-          "ruleSha256": "4a7c827b70652375c2454b50fe415e079dc2811d3e535442732a401fac563ec9"
-        },
-        "polymarket": {
-          "id": "630734",
-          "eventId": "57647",
-          "question": "Will the Republicans win the Iowa Senate race in 2026?",
-          "description": "This market will resolve according to the winner of the 2026 midterm Iowa U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-          "eventDescription": "This market will resolve according to the winner of the 2026 midterm Iowa U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-          "resolutionSource": null,
-          "endTime": "2026-11-04T04:59:00.000Z",
-          "ruleSha256": "7fb37105cf0d3ddb41ea26e671edad414f58ddf14d05e19b43e738d1b2b331c5",
-          "conditionId": "0x38a1025bfc56539ed1ff8fdd468283d55cf9002412decd61aa8d6c578c7d01a2"
         },
         "warnings": [
           "DIFFERENT_LISTED_END_DATES",
@@ -3739,7 +3213,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:58.689Z",
+        "fetchedAt": "2026-10-21T16:12:04.664Z",
         "kalshi": {
           "ticker": "KXMUSICREPORT-TOPDIGSALE27DEC31-DIE",
           "eventTicker": "KXMUSICREPORT-TOPDIGSALE27DEC31",
@@ -3783,21 +3257,21 @@
     {
       "category": "politics",
       "eventScore": 0.866,
-      "contractScore": 0.615,
+      "contractScore": 0.68,
       "kalshi": {
-        "eventTicker": "SENATELA-28",
-        "title": "Will Republicans win the Senate race in Louisiana?",
-        "subtitle": "Republican party:: Current incumbent: John Kennedy",
-        "outcomeLabel": "Will Republicans win the Senate race in Louisiana? Republican party:: Current incumbent: John Kennedy",
-        "ticker": "SENATELA-28-R",
-        "eventTitle": "Louisiana Senate winner? (2028)",
+        "eventTicker": "SENATEKS-28",
+        "title": "Will Republicans win the Senate race in Kansas?",
+        "subtitle": ":: Current incumbent: Jerry Moran",
+        "outcomeLabel": "Will Republicans win the Senate race in Kansas? :: Current incumbent: Jerry Moran",
+        "ticker": "SENATEKS-28-R",
+        "eventTitle": "Kansas Senate winner? (2028)",
         "closeDate": "2029-11-07"
       },
       "polymarket": {
-        "eventId": "59203",
-        "id": "634879",
-        "eventTitle": "Louisiana Senate Election Winner",
-        "title": "Will the Republicans win the Louisiana Senate race in 2026?",
+        "eventId": "57648",
+        "id": "630747",
+        "eventTitle": "Kansas Senate Election Winner",
+        "title": "Will the Republicans win the Kansas Senate race in 2026?",
         "endDate": "2026-11-04"
       },
       "qualityComparison": {
@@ -3847,17 +3321,17 @@
         "verified": false
       },
       "settlementFingerprint": {
-        "outcome": "will republicans win the senate race in louisiana republican party current incumbent john kennedy",
-        "kalshiRuleHash": "2aa2babd2ca1b4e6",
-        "polymarketRuleHash": "238985e0e1953bab",
+        "outcome": "will republicans win the senate race in kansas current incumbent jerry moran",
+        "kalshiRuleHash": "3c996d5c03f2b8b7",
+        "polymarketRuleHash": "cdb2e7fff6164951",
         "kalshiClose": "2029-11-07",
         "polymarketEnd": "2026-11-04",
         "conflicts": []
       },
       "reviewEvidence": {
-        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Louisiana for the term beginning in 2029, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "This market is eligible for accelerated determination after a consensus of media organizations project the winner. See full rules for details.",
-        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm Louisiana U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Kansas for the term beginning in 2029, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm Kansas U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
         "polymarketResolutionSource": null,
         "kalshiClose": "2029-11-07",
         "polymarketEnd": "2026-11-04",
@@ -3875,26 +3349,26 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:55.847Z",
+        "fetchedAt": "2026-10-21T16:11:59.687Z",
         "kalshi": {
-          "ticker": "SENATELA-28-R",
-          "eventTicker": "SENATELA-28",
-          "marketTitle": "Will Republicans win the Senate race in Louisiana? Republican party:: Current incumbent: John Kennedy",
-          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Louisiana for the term beginning in 2029, then the market resolves to Yes.",
-          "rulesSecondary": "This market is eligible for accelerated determination after a consensus of media organizations project the winner. See full rules for details.",
+          "ticker": "SENATEKS-28-R",
+          "eventTicker": "SENATEKS-28",
+          "marketTitle": "Will Republicans win the Senate race in Kansas? :: Current incumbent: Jerry Moran",
+          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Kansas for the term beginning in 2029, then the market resolves to Yes.",
+          "rulesSecondary": null,
           "closeTime": "2029-11-07T15:00:00.000Z",
-          "ruleSha256": "adbf055a70fdbf4172bf1ff650584f90370750bdad8900a429a21956c169d6ca"
+          "ruleSha256": "ade3a8e4e968a8e99a0812c12f8c6ae276a5577dcb596b6e1cbad211275d4008"
         },
         "polymarket": {
-          "id": "634879",
-          "eventId": "59203",
-          "question": "Will the Republicans win the Louisiana Senate race in 2026?",
-          "description": "This market will resolve according to the winner of the 2026 midterm Louisiana U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-          "eventDescription": "This market will resolve according to the winner of the 2026 midterm Louisiana U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "id": "630747",
+          "eventId": "57648",
+          "question": "Will the Republicans win the Kansas Senate race in 2026?",
+          "description": "This market will resolve according to the winner of the 2026 midterm Kansas U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "eventDescription": "This market will resolve according to the winner of the 2026 midterm Kansas U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
           "resolutionSource": null,
           "endTime": "2026-11-04T04:59:00.000Z",
-          "ruleSha256": "5904dd761b02130c714fe0239f034bf46b2a71f3aa30422de711d725f394e369",
-          "conditionId": "0x3bb59c17b8ec156f8ef55d6de522c53c8bcc8fc708bfba00e1c7820c208ee28b"
+          "ruleSha256": "8ce367fc2c5b70babf2745516aa6e83f1f1fc84ead3bcbc48cf355db1da8b823",
+          "conditionId": "0xb8b5349814450b8bba2ecdda2eeb9f48bd3c795bfb858bedf7a383712b877743"
         },
         "warnings": [
           "DIFFERENT_LISTED_END_DATES",
@@ -4015,7 +3489,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:57.526Z",
+        "fetchedAt": "2026-10-21T16:12:02.425Z",
         "kalshi": {
           "ticker": "KXOSCARINTLFILM-27-FJO",
           "eventTicker": "KXOSCARINTLFILM-27",
@@ -4058,22 +3532,22 @@
     },
     {
       "category": "politics",
-      "eventScore": 0.6,
-      "contractScore": 0.598,
+      "eventScore": 0.866,
+      "contractScore": 0.68,
       "kalshi": {
-        "eventTicker": "KXNHSENGOVCOMBO-26NOV",
-        "title": "Will New Hampshire Governor winner be Democratic party and New Hampshire Senate winner be Democratic party?",
-        "subtitle": "Democrats sweep",
-        "outcomeLabel": "Will New Hampshire Governor winner be Democratic party and New Hampshire Senate winner be Democratic party? Democrats sweep",
-        "ticker": "KXNHSENGOVCOMBO-26NOV-DEMDEM",
-        "eventTitle": "New Hampshire Governor-Senate combo",
-        "closeDate": "2027-11-03"
+        "eventTicker": "SENATEIA-28",
+        "title": "Will Republicans win the Senate race in Iowa?",
+        "subtitle": ":: Current incumbent: Chuck Grassley",
+        "outcomeLabel": "Will Republicans win the Senate race in Iowa? :: Current incumbent: Chuck Grassley",
+        "ticker": "SENATEIA-28-R",
+        "eventTitle": "Iowa Senate winner? (2028)",
+        "closeDate": "2029-11-07"
       },
       "polymarket": {
-        "eventId": "57661",
-        "id": "630844",
-        "eventTitle": "New Hampshire Senate Election Winner",
-        "title": "Will the Democrats win the New Hampshire Senate race in 2026?",
+        "eventId": "57647",
+        "id": "630734",
+        "eventTitle": "Iowa Senate Election Winner",
+        "title": "Will the Republicans win the Iowa Senate race in 2026?",
         "endDate": "2026-11-04"
       },
       "qualityComparison": {
@@ -4097,7 +3571,7 @@
           "entities": [],
           "years": [],
           "ruleAvailable": true,
-          "sourceMentioned": true
+          "sourceMentioned": false
         },
         "polymarket": {
           "threshold": null,
@@ -4123,19 +3597,19 @@
         "verified": false
       },
       "settlementFingerprint": {
-        "outcome": "will new hampshire governor winner be democratic party and new hampshire senate winner be democratic party democrats sweep",
-        "kalshiRuleHash": "d556dfb11ffa3838",
-        "polymarketRuleHash": "e7a8afd74a29d281",
-        "kalshiClose": "2027-11-03",
+        "outcome": "will republicans win the senate race in iowa current incumbent chuck grassley",
+        "kalshiRuleHash": "17305ae1c506b860",
+        "polymarketRuleHash": "58f62beb03999f98",
+        "kalshiClose": "2029-11-07",
         "polymarketEnd": "2026-11-04",
         "conflicts": []
       },
       "reviewEvidence": {
-        "kalshiRules": "If ALL of the following occur: New Hampshire Governor winner: Democratic party, New Hampshire Senate winner: Democratic party, then the market resolves to Yes.",
-        "kalshiSecondaryRules": "This is a combination market requiring ALL specified outcomes to occur for the contract to pay out. If ANY single component resolves to No or becomes impossible, the entire contract immediately resolves to No. Each component is resolved according to its corresponding Kalshi ruleset: New Hampshire Governor winner (GOVPARTY), New Hampshire Senate winner (SENATEPARTY).",
-        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm New Hampshire U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Iowa for the term beginning in 2029, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "",
+        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm Iowa U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
         "polymarketResolutionSource": null,
-        "kalshiClose": "2027-11-03",
+        "kalshiClose": "2029-11-07",
         "polymarketEnd": "2026-11-04",
         "differentEndDates": true,
         "manualChecks": [
@@ -4151,26 +3625,26 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:57.902Z",
+        "fetchedAt": "2026-10-21T16:11:59.688Z",
         "kalshi": {
-          "ticker": "KXNHSENGOVCOMBO-26NOV-DEMDEM",
-          "eventTicker": "KXNHSENGOVCOMBO-26NOV",
-          "marketTitle": "Will New Hampshire Governor winner be Democratic party and New Hampshire Senate winner be Democratic party? Democrats sweep",
-          "rulesPrimary": "If ALL of the following occur: New Hampshire Governor winner: Democratic party, New Hampshire Senate winner: Democratic party, then the market resolves to Yes.",
-          "rulesSecondary": "This is a combination market requiring ALL specified outcomes to occur for the contract to pay out. If ANY single component resolves to No or becomes impossible, the entire contract immediately resolves to No. Each component is resolved according to its corresponding Kalshi ruleset: New Hampshire Governor winner (GOVPARTY), New Hampshire Senate winner (SENATEPARTY).",
-          "closeTime": "2027-11-03T15:00:00.000Z",
-          "ruleSha256": "97624d8e711a843932ad6e9eb72b1ae6789765191633d805c0ed6df0884e80ee"
+          "ticker": "SENATEIA-28-R",
+          "eventTicker": "SENATEIA-28",
+          "marketTitle": "Will Republicans win the Senate race in Iowa? :: Current incumbent: Chuck Grassley",
+          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Iowa for the term beginning in 2029, then the market resolves to Yes.",
+          "rulesSecondary": null,
+          "closeTime": "2029-11-07T15:00:00.000Z",
+          "ruleSha256": "4a7c827b70652375c2454b50fe415e079dc2811d3e535442732a401fac563ec9"
         },
         "polymarket": {
-          "id": "630844",
-          "eventId": "57661",
-          "question": "Will the Democrats win the New Hampshire Senate race in 2026?",
-          "description": "This market will resolve according to the winner of the 2026 midterm New Hampshire U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
-          "eventDescription": "This market will resolve according to the winner of the 2026 midterm New Hampshire U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "id": "630734",
+          "eventId": "57647",
+          "question": "Will the Republicans win the Iowa Senate race in 2026?",
+          "description": "This market will resolve according to the winner of the 2026 midterm Iowa U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "eventDescription": "This market will resolve according to the winner of the 2026 midterm Iowa U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
           "resolutionSource": null,
           "endTime": "2026-11-04T04:59:00.000Z",
-          "ruleSha256": "d58edfa3bc9232ec55506767f66e998acf4399f72112b2acafcb8bb2cf6c7131",
-          "conditionId": "0xfc5c740e4617eb9908ceada7c91bfbe1cd41f172d703ef811d544e60a7a70bb5"
+          "ruleSha256": "7fb37105cf0d3ddb41ea26e671edad414f58ddf14d05e19b43e738d1b2b331c5",
+          "conditionId": "0x38a1025bfc56539ed1ff8fdd468283d55cf9002412decd61aa8d6c578c7d01a2"
         },
         "warnings": [
           "DIFFERENT_LISTED_END_DATES",
@@ -4291,7 +3765,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:57.572Z",
+        "fetchedAt": "2026-10-21T16:12:02.526Z",
         "kalshi": {
           "ticker": "KXOSCARANIMATED-27-TIE",
           "eventTicker": "KXOSCARANIMATED-27",
@@ -4314,6 +3788,143 @@
         },
         "warnings": [
           "DIFFERENT_LISTED_END_DATES"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.866,
+      "contractScore": 0.615,
+      "kalshi": {
+        "eventTicker": "SENATELA-28",
+        "title": "Will Republicans win the Senate race in Louisiana?",
+        "subtitle": "Republican party:: Current incumbent: John Kennedy",
+        "outcomeLabel": "Will Republicans win the Senate race in Louisiana? Republican party:: Current incumbent: John Kennedy",
+        "ticker": "SENATELA-28-R",
+        "eventTitle": "Louisiana Senate winner? (2028)",
+        "closeDate": "2029-11-07"
+      },
+      "polymarket": {
+        "eventId": "59203",
+        "id": "634879",
+        "eventTitle": "Louisiana Senate Election Winner",
+        "title": "Will the Republicans win the Louisiana Senate race in 2026?",
+        "endDate": "2026-11-04"
+      },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [
+            "2026"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "settlementFingerprint": {
+        "outcome": "will republicans win the senate race in louisiana republican party current incumbent john kennedy",
+        "kalshiRuleHash": "2aa2babd2ca1b4e6",
+        "polymarketRuleHash": "238985e0e1953bab",
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If a representative of the Republican party is sworn in as a Senator of Louisiana for the term beginning in 2029, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "This market is eligible for accelerated determination after a consensus of media organizations project the winner. See full rules for details.",
+        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm Louisiana U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+        "polymarketResolutionSource": null,
+        "kalshiClose": "2029-11-07",
+        "polymarketEnd": "2026-11-04",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T16:11:59.686Z",
+        "kalshi": {
+          "ticker": "SENATELA-28-R",
+          "eventTicker": "SENATELA-28",
+          "marketTitle": "Will Republicans win the Senate race in Louisiana? Republican party:: Current incumbent: John Kennedy",
+          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Louisiana for the term beginning in 2029, then the market resolves to Yes.",
+          "rulesSecondary": "This market is eligible for accelerated determination after a consensus of media organizations project the winner. See full rules for details.",
+          "closeTime": "2029-11-07T15:00:00.000Z",
+          "ruleSha256": "adbf055a70fdbf4172bf1ff650584f90370750bdad8900a429a21956c169d6ca"
+        },
+        "polymarket": {
+          "id": "634879",
+          "eventId": "59203",
+          "question": "Will the Republicans win the Louisiana Senate race in 2026?",
+          "description": "This market will resolve according to the winner of the 2026 midterm Louisiana U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "eventDescription": "This market will resolve according to the winner of the 2026 midterm Louisiana U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "resolutionSource": null,
+          "endTime": "2026-11-04T04:59:00.000Z",
+          "ruleSha256": "5904dd761b02130c714fe0239f034bf46b2a71f3aa30422de711d725f394e369",
+          "conditionId": "0x3bb59c17b8ec156f8ef55d6de522c53c8bcc8fc708bfba00e1c7820c208ee28b"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
         ],
         "reviewChecklist": [
           "IDENTICAL_PAYOFF",
@@ -4430,7 +4041,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:57.594Z",
+        "fetchedAt": "2026-10-21T16:12:02.568Z",
         "kalshi": {
           "ticker": "KXOSCARANIMATED-27-TIE",
           "eventTicker": "KXOSCARANIMATED-27",
@@ -4450,6 +4061,143 @@
           "endTime": "2027-03-14T23:59:00.000Z",
           "ruleSha256": "b5e8fa6c686eb0f3b384a8225f5e962eb0509fa658900e6a08ad8b8d2a0e8e42",
           "conditionId": "0x5a685b6e2f07a8feef195a339bc94e9d320af5f8d1a6f926b394e8561d96834b"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.6,
+      "contractScore": 0.598,
+      "kalshi": {
+        "eventTicker": "KXNHSENGOVCOMBO-26NOV",
+        "title": "Will New Hampshire Governor winner be Democratic party and New Hampshire Senate winner be Democratic party?",
+        "subtitle": "Democrats sweep",
+        "outcomeLabel": "Will New Hampshire Governor winner be Democratic party and New Hampshire Senate winner be Democratic party? Democrats sweep",
+        "ticker": "KXNHSENGOVCOMBO-26NOV-DEMDEM",
+        "eventTitle": "New Hampshire Governor-Senate combo",
+        "closeDate": "2027-11-03"
+      },
+      "polymarket": {
+        "eventId": "57661",
+        "id": "630844",
+        "eventTitle": "New Hampshire Senate Election Winner",
+        "title": "Will the Democrats win the New Hampshire Senate race in 2026?",
+        "endDate": "2026-11-04"
+      },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [
+            "2026"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "settlementFingerprint": {
+        "outcome": "will new hampshire governor winner be democratic party and new hampshire senate winner be democratic party democrats sweep",
+        "kalshiRuleHash": "d556dfb11ffa3838",
+        "polymarketRuleHash": "e7a8afd74a29d281",
+        "kalshiClose": "2027-11-03",
+        "polymarketEnd": "2026-11-04",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If ALL of the following occur: New Hampshire Governor winner: Democratic party, New Hampshire Senate winner: Democratic party, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "This is a combination market requiring ALL specified outcomes to occur for the contract to pay out. If ANY single component resolves to No or becomes impossible, the entire contract immediately resolves to No. Each component is resolved according to its corresponding Kalshi ruleset: New Hampshire Governor winner (GOVPARTY), New Hampshire Senate winner (SENATEPARTY).",
+        "polymarketDescription": "This market will resolve according to the winner of the 2026 midterm New Hampshire U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+        "polymarketResolutionSource": null,
+        "kalshiClose": "2027-11-03",
+        "polymarketEnd": "2026-11-04",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T16:12:03.163Z",
+        "kalshi": {
+          "ticker": "KXNHSENGOVCOMBO-26NOV-DEMDEM",
+          "eventTicker": "KXNHSENGOVCOMBO-26NOV",
+          "marketTitle": "Will New Hampshire Governor winner be Democratic party and New Hampshire Senate winner be Democratic party? Democrats sweep",
+          "rulesPrimary": "If ALL of the following occur: New Hampshire Governor winner: Democratic party, New Hampshire Senate winner: Democratic party, then the market resolves to Yes.",
+          "rulesSecondary": "This is a combination market requiring ALL specified outcomes to occur for the contract to pay out. If ANY single component resolves to No or becomes impossible, the entire contract immediately resolves to No. Each component is resolved according to its corresponding Kalshi ruleset: New Hampshire Governor winner (GOVPARTY), New Hampshire Senate winner (SENATEPARTY).",
+          "closeTime": "2027-11-03T15:00:00.000Z",
+          "ruleSha256": "97624d8e711a843932ad6e9eb72b1ae6789765191633d805c0ed6df0884e80ee"
+        },
+        "polymarket": {
+          "id": "630844",
+          "eventId": "57661",
+          "question": "Will the Democrats win the New Hampshire Senate race in 2026?",
+          "description": "This market will resolve according to the winner of the 2026 midterm New Hampshire U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "eventDescription": "This market will resolve according to the winner of the 2026 midterm New Hampshire U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "resolutionSource": null,
+          "endTime": "2026-11-04T04:59:00.000Z",
+          "ruleSha256": "d58edfa3bc9232ec55506767f66e998acf4399f72112b2acafcb8bb2cf6c7131",
+          "conditionId": "0xfc5c740e4617eb9908ceada7c91bfbe1cd41f172d703ef811d544e60a7a70bb5"
         },
         "warnings": [
           "DIFFERENT_LISTED_END_DATES",
@@ -4577,7 +4325,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:55.796Z",
+        "fetchedAt": "2026-10-21T16:11:59.605Z",
         "kalshi": {
           "ticker": "KXONTLIBLEAD-26NOV21-SBOW",
           "eventTicker": "KXONTLIBLEAD-26NOV21",
@@ -4717,7 +4465,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:55.990Z",
+        "fetchedAt": "2026-10-21T16:11:59.924Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-ONC",
           "eventTicker": "KXOSCARDOCU-27",
@@ -4865,7 +4613,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:00.867Z",
+        "fetchedAt": "2026-10-21T16:12:08.617Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-15000",
           "eventTicker": "KXNFLCAREERRSHYDS-DHENRY",
@@ -5013,7 +4761,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:55.796Z",
+        "fetchedAt": "2026-10-21T16:11:59.606Z",
         "kalshi": {
           "ticker": "KXONTLIBLEAD-26NOV21-LFAI",
           "eventTicker": "KXONTLIBLEAD-26NOV21",
@@ -5153,7 +4901,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:56.004Z",
+        "fetchedAt": "2026-10-21T16:11:59.955Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-YOU",
           "eventTicker": "KXOSCARDOCU-27",
@@ -5301,7 +5049,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:00.867Z",
+        "fetchedAt": "2026-10-21T16:12:08.617Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-16000",
           "eventTicker": "KXNFLCAREERRSHYDS-DHENRY",
@@ -5449,7 +5197,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:55.797Z",
+        "fetchedAt": "2026-10-21T16:11:59.607Z",
         "kalshi": {
           "ticker": "KXONTLIBLEAD-26NOV21-ELOM",
           "eventTicker": "KXONTLIBLEAD-26NOV21",
@@ -5589,7 +5337,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:55.972Z",
+        "fetchedAt": "2026-10-21T16:11:59.888Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-NUI",
           "eventTicker": "KXOSCARDOCU-27",
@@ -5737,7 +5485,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:00.868Z",
+        "fetchedAt": "2026-10-21T16:12:08.618Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-17000",
           "eventTicker": "KXNFLCAREERRSHYDS-DHENRY",
@@ -5885,7 +5633,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:55.797Z",
+        "fetchedAt": "2026-10-21T16:11:59.608Z",
         "kalshi": {
           "ticker": "KXONTLIBLEAD-26NOV21-DMAR",
           "eventTicker": "KXONTLIBLEAD-26NOV21",
@@ -6025,7 +5773,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:55.977Z",
+        "fetchedAt": "2026-10-21T16:11:59.898Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-ONE",
           "eventTicker": "KXOSCARDOCU-27",
@@ -6173,7 +5921,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:00.868Z",
+        "fetchedAt": "2026-10-21T16:12:08.618Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-18000",
           "eventTicker": "KXNFLCAREERRSHYDS-DHENRY",
@@ -6321,7 +6069,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:56.273Z",
+        "fetchedAt": "2026-10-21T16:12:00.335Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-FHOL",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -6461,7 +6209,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:55.994Z",
+        "fetchedAt": "2026-10-21T16:11:59.932Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-AME",
           "eventTicker": "KXOSCARDOCU-27",
@@ -6605,7 +6353,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:00.868Z",
+        "fetchedAt": "2026-10-21T16:12:08.618Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-15000",
           "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
@@ -6753,7 +6501,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:56.230Z",
+        "fetchedAt": "2026-10-21T16:12:00.234Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-MLEP",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -6893,7 +6641,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:55.967Z",
+        "fetchedAt": "2026-10-21T16:11:59.878Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-MUS",
           "eventTicker": "KXOSCARDOCU-27",
@@ -7037,7 +6785,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:00.868Z",
+        "fetchedAt": "2026-10-21T16:12:08.619Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-16000",
           "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
@@ -7185,7 +6933,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:56.235Z",
+        "fetchedAt": "2026-10-21T16:12:00.251Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-EPHI",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -7325,7 +7073,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:55.985Z",
+        "fetchedAt": "2026-10-21T16:11:59.914Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-TUT",
           "eventTicker": "KXOSCARDOCU-27",
@@ -7469,7 +7217,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:00.868Z",
+        "fetchedAt": "2026-10-21T16:12:08.619Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-17000",
           "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
@@ -7617,7 +7365,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:56.245Z",
+        "fetchedAt": "2026-10-21T16:12:00.272Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-RGLU",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -7757,7 +7505,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:56.010Z",
+        "fetchedAt": "2026-10-21T16:11:59.966Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-NAZ",
           "eventTicker": "KXOSCARDOCU-27",
@@ -7901,7 +7649,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:00.868Z",
+        "fetchedAt": "2026-10-21T16:12:08.619Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-18000",
           "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
@@ -8049,7 +7797,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:56.251Z",
+        "fetchedAt": "2026-10-21T16:12:00.284Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-GATT",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -8189,7 +7937,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:56.571Z",
+        "fetchedAt": "2026-10-21T16:12:00.900Z",
         "kalshi": {
           "ticker": "KXOSCARPIC-27-PRO",
           "eventTicker": "KXOSCARPIC-27",
@@ -8333,7 +8081,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:10:00.868Z",
+        "fetchedAt": "2026-10-21T16:12:08.620Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-19000",
           "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
@@ -8481,7 +8229,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:56.256Z",
+        "fetchedAt": "2026-10-21T16:12:00.300Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-BRET",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -8621,7 +8369,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:09:56.573Z",
+        "fetchedAt": "2026-10-21T16:12:00.903Z",
         "kalshi": {
           "ticker": "KXOSCARPIC-27-DUN",
           "eventTicker": "KXOSCARPIC-27",
@@ -8644,6 +8392,299 @@
         },
         "warnings": [
           "DIFFERENT_LISTED_END_DATES"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "sports",
+      "eventScore": 0.338,
+      "contractScore": 0.707,
+      "discoverySource": "MARKET_LEVEL",
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [
+          "PERIOD_UNCONFIRMED",
+          "THRESHOLD_UNCONFIRMED",
+          "DIRECTION_UNCONFIRMED"
+        ],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": "receiving_yards",
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "polymarket": {
+          "threshold": {
+            "value": 1000,
+            "unit": "count"
+          },
+          "direction": "minimum",
+          "period": "season",
+          "statistic": "receiving_yards",
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [
+            "2026"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "kalshi": {
+        "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
+        "title": "Mike Evans: 20,000+ Receiving Yards",
+        "subtitle": null,
+        "outcomeLabel": "Mike Evans: 20,000+ Receiving Yards",
+        "ticker": "KXNFLCAREERRECYDS-MEVANS-20000",
+        "eventTitle": "Mike Evans Career Regular Season Receiving Yards",
+        "closeDate": "2040-03-08"
+      },
+      "polymarket": {
+        "eventId": "927517",
+        "id": "3959741",
+        "eventTitle": "Pro Football: 2026-27 1,000+ Receiving Yards",
+        "title": "Will Mike Evans have 1,000+ receiving yards in the 2026-27 NFL regular season?",
+        "endDate": "2027-01-27"
+      },
+      "settlementFingerprint": {
+        "outcome": "mike evans 20 000 receiving yards",
+        "kalshiRuleHash": "2b1d360f7bc4153e",
+        "polymarketRuleHash": "b05400ea6c544a8b",
+        "kalshiClose": "2040-03-08",
+        "polymarketEnd": "2027-01-27",
+        "conflicts": []
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Mike Evans records at least 20,000 career regular season receiving yards before Mike Evans or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "The market resolves to Yes if Mike Evans records at least 20,000 career regular season receiving yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
+        "polymarketDescription": "This market will resolve to \"Yes\" if the number of receiving yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many receiving yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": "",
+        "kalshiClose": "2040-03-08",
+        "polymarketEnd": "2027-01-27",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "CHECK_DATE_AND_SETTLEMENT_TRIGGER",
+        "ruleConflicts": []
+      },
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T16:12:08.620Z",
+        "kalshi": {
+          "ticker": "KXNFLCAREERRECYDS-MEVANS-20000",
+          "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
+          "marketTitle": "Mike Evans: 20,000+ Receiving Yards",
+          "rulesPrimary": "If Mike Evans records at least 20,000 career regular season receiving yards before Mike Evans or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+          "rulesSecondary": "The market resolves to Yes if Mike Evans records at least 20,000 career regular season receiving yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
+          "closeTime": "2040-03-08T15:00:00.000Z",
+          "ruleSha256": "49566d7e8432b2dc7d20a1d5a3cd7f25f3a5bfe26a6180e2fc5fedfb323d7a23"
+        },
+        "polymarket": {
+          "id": "3959741",
+          "eventId": "927517",
+          "question": "Will Mike Evans have 1,000+ receiving yards in the 2026-27 NFL regular season?",
+          "description": "This market will resolve to \"Yes\" if the number of receiving yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many receiving yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+          "eventDescription": "This market will resolve to \"Yes\" if the number of receiving yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many receiving yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+          "resolutionSource": null,
+          "endTime": "2027-01-27T04:59:00.000Z",
+          "ruleSha256": "530999612c2ee0ede0b4521932684d6147235fc94b385215d9a414aa46a703b6",
+          "conditionId": "0xe55d529265d7a6dd3b7fc132092f8eee212995cd1f46fa3c04e3a6bc28ea50b2"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE",
+          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "reviewStatus": "UNVERIFIED_SETTLEMENT_RULES",
+      "approved": false,
+      "executable": false
+    },
+    {
+      "category": "politics",
+      "eventScore": 0.8,
+      "contractScore": 0.783,
+      "kalshi": {
+        "eventTicker": "KXFRPRESADVANCE-26APR18",
+        "title": "Will Dominique de Villepin qualify for the runoff in the 2027 French presidential election?",
+        "subtitle": null,
+        "outcomeLabel": "Will Dominique de Villepin qualify for the runoff in the 2027 French presidential election?",
+        "ticker": "KXFRPRESADVANCE-26APR18-DVIL",
+        "eventTitle": "French presidential election: who will advance?",
+        "closeDate": "2028-04-17"
+      },
+      "polymarket": {
+        "eventId": "407284",
+        "id": "2054239",
+        "eventTitle": "2027 French Presidential Election: who will be on the ballot?",
+        "title": "Will Dominique de Villepin be on the ballot for the 2027 French presidential election?",
+        "endDate": "2027-07-01"
+      },
+      "qualityComparison": {
+        "compatible": true,
+        "hardConflicts": [],
+        "uncertainties": [],
+        "kalshi": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "entities": [],
+          "years": [
+            "2027"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": false
+        },
+        "polymarket": {
+          "threshold": null,
+          "direction": null,
+          "period": null,
+          "statistic": null,
+          "titleDates": [],
+          "titleDeadline": {
+            "dates": [],
+            "years": []
+          },
+          "ruleDeadline": {
+            "dates": [
+              "2027-06-30"
+            ],
+            "years": [
+              "2027"
+            ]
+          },
+          "entities": [],
+          "years": [
+            "2027"
+          ],
+          "ruleAvailable": true,
+          "sourceMentioned": true
+        },
+        "verified": false
+      },
+      "settlementFingerprint": {
+        "outcome": "will dominique de villepin qualify for the runoff in the 2027 french presidential election",
+        "kalshiRuleHash": "14e1efe135e1fc41",
+        "polymarketRuleHash": "9d0b89dae67b4941",
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-07-01",
+        "conflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "reviewEvidence": {
+        "kalshiRules": "If Dominique de Villepin is announced to qualify for the runoff in the 2027 French presidential election, then the market resolves to Yes.",
+        "kalshiSecondaryRules": "If a candidate wins the first round outright, and no runoff occurs, the market for that winning candidate will resolve Yes and all other markets will resolve to No.\n\nThis is determined at the time qualification is announced; subsequent withdrawals, disqualifications, or changes in eligibility do not affect whether the candidate qualified. If a candidate is announced to not qualify, the market will immediately resolve to No.",
+        "polymarketDescription": "The next French presidential election is currently expected to be held in April 2027. Prior to the election, the French Constitutional Council is expected to publish the official list of candidates to be included on the ballot for the first round of this election.\n\nThis market will resolve to “Yes” if the listed individual is included on the official candidate list for the first round of the 2027 French presidential election. Otherwise, this market will resolve to “No”.\n\nIf no such candidate list is published prior to the election, this market will resolve based on which candidates actually appear on the ballot when the election takes place. If no list is published and the specified election does not take place by June 30, 2027, 11:59 PM ET, this market will resolve to “No”.\n\nThe primary resolution source for this market will be the official candidate list published by the French Constitutional Council; however, a consensus of credible reporting may also be used.",
+        "polymarketResolutionSource": null,
+        "kalshiClose": "2028-04-17",
+        "polymarketEnd": "2027-07-01",
+        "differentEndDates": true,
+        "manualChecks": [
+          "same_exact_outcome",
+          "same_resolution_trigger",
+          "same_measurement_source",
+          "same_void_and_cancellation_rules",
+          "same_settlement_deadline",
+          "fee_and_orderbook_depth"
+        ],
+        "settlementVerified": false,
+        "reviewPriority": "RULE_DIFFERENCES_REQUIRE_REVIEW",
+        "ruleConflicts": [
+          "explicit_deadline_only_on_polymarket"
+        ]
+      },
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T16:12:00.313Z",
+        "kalshi": {
+          "ticker": "KXFRPRESADVANCE-26APR18-DVIL",
+          "eventTicker": "KXFRPRESADVANCE-26APR18",
+          "marketTitle": "Will Dominique de Villepin qualify for the runoff in the 2027 French presidential election?",
+          "rulesPrimary": "If Dominique de Villepin is announced to qualify for the runoff in the 2027 French presidential election, then the market resolves to Yes.",
+          "rulesSecondary": "If a candidate wins the first round outright, and no runoff occurs, the market for that winning candidate will resolve Yes and all other markets will resolve to No.\n\nThis is determined at the time qualification is announced; subsequent withdrawals, disqualifications, or changes in eligibility do not affect whether the candidate qualified. If a candidate is announced to not qualify, the market will immediately resolve to No.",
+          "closeTime": "2028-04-17T14:00:00.000Z",
+          "ruleSha256": "8967cd8b8050058d80fabd4883f80c454a25c6366a024ea300c42ed22168029d"
+        },
+        "polymarket": {
+          "id": "2054239",
+          "eventId": "407284",
+          "question": "Will Dominique de Villepin be on the ballot for the 2027 French presidential election?",
+          "description": "The next French presidential election is currently expected to be held in April 2027. Prior to the election, the French Constitutional Council is expected to publish the official list of candidates to be included on the ballot for the first round of this election.\n\nThis market will resolve to “Yes” if the listed individual is included on the official candidate list for the first round of the 2027 French presidential election. Otherwise, this market will resolve to “No”.\n\nIf no such candidate list is published prior to the election, this market will resolve based on which candidates actually appear on the ballot when the election takes place. If no list is published and the specified election does not take place by June 30, 2027, 11:59 PM ET, this market will resolve to “No”.\n\nThe primary resolution source for this market will be the official candidate list published by the French Constitutional Council; however, a consensus of credible reporting may also be used.",
+          "eventDescription": "The next French presidential election is currently expected to be held in April 2027. Prior to the election, the French Constitutional Council is expected to publish the official list of candidates to be included on the ballot for the first round of this election.\n\nThis market will resolve to “Yes” if the listed individual is included on the official candidate list for the first round of the 2027 French presidential election. Otherwise, this market will resolve to “No”.\n\nIf no such candidate list is published prior to the election, this market will resolve based on which candidates actually appear on the ballot when the election takes place. If no list is published and the specified election does not take place by June 30, 2027, 11:59 PM ET, this market will resolve to “No”.\n\nThe primary resolution source for this market will be the official candidate list published by the French Constitutional Council; however, a consensus of credible reporting may also be used.",
+          "resolutionSource": null,
+          "endTime": "2027-07-01T03:59:00.000Z",
+          "ruleSha256": "2f1f8f9b09f49e3b13713aa6606563b52c9ffa562e9d4feb332dc64dc677968a",
+          "conditionId": "0xe90a8546106f5cc5642c08cd1601e7645d93fa5b21ff4bfd84b2d4aa13593d07"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
         ],
         "reviewChecklist": [
           "IDENTICAL_PAYOFF",
