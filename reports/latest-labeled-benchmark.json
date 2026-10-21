@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-10-21T17:12:23.835Z",
+  "kind": "HUMAN_LABELED_DISCOVERY",
+  "labels": 0,
+  "all": {
+    "groundTruthPairs": 0,
+    "truePositive": 0,
+    "falsePositive": 0,
+    "falseNegative": 0,
+    "trueNegative": 0,
+    "precision": null,
+    "recall": null,
+    "caveat": "Only measures supplied human-adjudicated pairs; unlabeled candidates are excluded."
+  },
+  "bySource": {
+    "MARKET_LEVEL": {
+      "groundTruthPairs": 0,
+      "truePositive": 0,
+      "falsePositive": 0,
+      "falseNegative": 0,
+      "trueNegative": 0,
+      "precision": null,
+      "recall": null,
+      "caveat": "Only measures supplied human-adjudicated pairs; unlabeled candidates are excluded."
+    }
+  },
+  "warning": "NO_HUMAN_GROUND_TRUTH_YET",
+  "notes": [
+    "Discovery recall is measured before settlement triage; no candidate is verified by this report.",
+    "Ground truth labels must be manually adjudicated and include both positive and negative examples."
+  ]
+}
