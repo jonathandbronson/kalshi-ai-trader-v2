@@ -1,6 +1,80 @@
 {
-  "timestamp": "2026-10-21T07:50:22.605Z",
-  "status": "COLLECTOR_FAILED",
-  "runId": 39564790320,
-  "message": "No report generated; inspect workflow logs"
+  "timestamp": "2026-10-21T07:50:33.814Z",
+  "mode": "READ_ONLY_DISCOVERY",
+  "autoApproved": 0,
+  "verifiedPairs": 0,
+  "notes": [
+    "Similarity is only a research lead, NOT settlement equivalence",
+    "No orders, paper entries, or approved pairs are generated"
+  ],
+  "counts": {
+    "kalshiRawMarkets": 1400,
+    "kalshiSingleOutcomeMarkets": 1233,
+    "kalshiMarkets": 1233,
+    "polymarketMarkets": 2000,
+    "polymarketBinaryMarkets": 1748,
+    "titleCandidates": 0,
+    "contractTypePolicy": "strict_same_kind",
+    "kalshiPagesRequested": 20,
+    "kalshiPoolCap": 1200,
+    "polymarketPagesRequested": 20,
+    "orderbooksChecked": 0
+  },
+  "candidates": [],
+  "errors": [],
+  "samples": {
+    "kalshi": [
+      {
+        "title": "Nikola Vučević: 5+ threes",
+        "subtitle": "",
+        "ticker": "KXNBA3PTPROT-26OCT21ATLORL-ORLNVUCEVIC9-5"
+      },
+      {
+        "title": "Nikola Vučević: 4+ threes",
+        "subtitle": "",
+        "ticker": "KXNBA3PTPROT-26OCT21ATLORL-ORLNVUCEVIC9-4"
+      },
+      {
+        "title": "Nikola Vučević: 3+ threes",
+        "subtitle": "",
+        "ticker": "KXNBA3PTPROT-26OCT21ATLORL-ORLNVUCEVIC9-3"
+      },
+      {
+        "title": "Nikola Vučević: 2+ threes",
+        "subtitle": "",
+        "ticker": "KXNBA3PTPROT-26OCT21ATLORL-ORLNVUCEVIC9-2"
+      }
+    ],
+    "polymarket": [
+      {
+        "title": "Will FC Bayern München win on 2026-10-21?",
+        "id": "5436896"
+      },
+      {
+        "title": "2026 Balance of Power: R Senate, R House",
+        "id": "562831"
+      },
+      {
+        "title": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
+        "id": "601826"
+      },
+      {
+        "title": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
+        "id": "601819"
+      }
+    ]
+  },
+  "matching": {
+    "threshold": 0.48,
+    "minimumSharedTokens": 2,
+    "minimumDistinctiveContextTokens": 2,
+    "eventTypeGate": true,
+    "contractKindGate": true,
+    "dateGate": true,
+    "kalshiExcludedMultiLeg": true,
+    "kalshiApiMveFilter": "exclude",
+    "polymarketOrder": "volume24hr descending",
+    "warning": "Text similarity is not proof of settlement equivalence; all results require manual rules review."
+  },
+  "status": "COLLECTED"
 }
