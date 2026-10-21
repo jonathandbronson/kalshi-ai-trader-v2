@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T16:07:58.222Z",
+  "timestamp": "2026-10-21T16:09:25.335Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -25,24 +25,24 @@
   "samples": {
     "kalshi": [
       {
-        "title": "Full Game: Over 66.5 points scored",
+        "title": "Full Game: Over 75.5 points scored",
         "subtitle": "",
-        "ticker": "KXNCAAFTOTAL-26OCT24UNHMRMK-67"
+        "ticker": "KXNCAAFTOTAL-26OCT24NHCCCSU-76"
       },
       {
-        "title": "Full Game: Over 62.5 points scored",
+        "title": "Full Game: Over 71.5 points scored",
         "subtitle": "",
-        "ticker": "KXNCAAFTOTAL-26OCT24UNHMRMK-63"
+        "ticker": "KXNCAAFTOTAL-26OCT24NHCCCSU-72"
       },
       {
-        "title": "Full Game: Over 58.5 points scored",
+        "title": "Full Game: Over 67.5 points scored",
         "subtitle": "",
-        "ticker": "KXNCAAFTOTAL-26OCT24UNHMRMK-59"
+        "ticker": "KXNCAAFTOTAL-26OCT24NHCCCSU-68"
       },
       {
-        "title": "Full Game: Over 54.5 points scored",
+        "title": "Full Game: Over 63.5 points scored",
         "subtitle": "",
-        "ticker": "KXNCAAFTOTAL-26OCT24UNHMRMK-55"
+        "ticker": "KXNCAAFTOTAL-26OCT24NHCCCSU-64"
       }
     ],
     "polymarket": [
