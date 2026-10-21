@@ -1,3 +1,4 @@
+import {extractSettlementFields,compareSettlementFields} from "./contract-extraction.js";
 // Post-refresh settlement risk screen. Conservative: flags evident mismatches,
 // and leaves ambiguous cases for human review. Never marks pairs VERIFIED.
 const normalized=s=>String(s??"").toLowerCase().replace(/,/g,"").replace(/\s+/g," ");
@@ -19,6 +20,9 @@ export function screenSettlementRisk(row){
  const pr=[row.ruleEvidence?.polymarket?.description,row.polymarketRules].filter(Boolean).join(" ");
  const kt=[row.kalshiTitle,kr].filter(Boolean).join(" "),pt=[row.polymarketTitle,pr].filter(Boolean).join(" ");
  const reasons=[],warnings=[];
+ const extractedKalshi=extractSettlementFields(row.kalshiTitle,kr),extractedPolymarket=extractSettlementFields(row.polymarketTitle,pr);
+ const extractedComparison=compareSettlementFields(extractedKalshi,extractedPolymarket);
+ reasons.push(...extractedComparison.hardConflicts);warnings.push(...extractedComparison.warnings);
  const kPeriod=period(kr)||period(row.kalshiTitle),pPeriod=period(pr)||period(row.polymarketTitle);
  if(kPeriod&&pPeriod&&kPeriod!==pPeriod)reasons.push("CAREER_VS_SEASON_SETTLEMENT");
  const km=metric(kt),pm=metric(pt);
@@ -35,7 +39,7 @@ export function screenSettlementRisk(row){
  if(!kr.trim()||!pr.trim())warnings.push("MISSING_OFFICIAL_RULES");
  if(kn===null||pn===null)warnings.push("NUMERIC_THRESHOLD_NOT_ESTABLISHED");
  if(!kPeriod||!pPeriod)warnings.push("PERIOD_NOT_ESTABLISHED");
- return {status:reasons.length?"REJECT_AS_INCOMPATIBLE":"NEEDS_HUMAN_REVIEW",reasons,warnings,terms:{kalshi:{period:kPeriod,metric:km,threshold:kn,firstTo:firstTo(kt)},polymarket:{period:pPeriod,metric:pm,threshold:pn,firstTo:firstTo(pt)}},settlementVerified:false};
+ return {status:reasons.length?"REJECT_AS_INCOMPATIBLE":"NEEDS_HUMAN_REVIEW",reasons,warnings,structuredExtraction:{kalshi:extractedKalshi,polymarket:extractedPolymarket},terms:{kalshi:{period:kPeriod,metric:km,threshold:kn,firstTo:firstTo(kt)},polymarket:{period:pPeriod,metric:pm,threshold:pn,firstTo:firstTo(pt)}},settlementVerified:false};
 }
 export function triageRefreshedQueue(queue){
  if(!Array.isArray(queue?.candidates))throw TypeError("Invalid review queue");
