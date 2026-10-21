@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "timestamp": "2026-10-21T16:13:30.784Z",
+  "timestamp": "2026-10-21T16:43:23.970Z",
   "mode": "RESEARCH_ONLY",
   "counts": {
     "PENDING_REVIEW": 38,
@@ -1080,11 +1080,11 @@
       "polymarketId": "3377268",
       "category": "other",
       "firstSeen": "2026-10-21T08:02:44.837Z",
-      "lastSeen": "2026-10-21T16:13:30.784Z",
+      "lastSeen": "2026-10-21T16:43:23.970Z",
       "kalshiTitle": "Will American Doctor win Best Documentary Feature Film at the Oscars?",
       "polymarketTitle": "Will American Doctor win Best Documentary Feature Film at the 99th Academy Awards?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:13:29.541Z",
+        "fetchedAt": "2026-10-21T16:43:22.736Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-AME",
           "eventTicker": null,
@@ -1134,11 +1134,11 @@
       "polymarketId": "3377271",
       "category": "other",
       "firstSeen": "2026-10-21T16:07:33.938Z",
-      "lastSeen": "2026-10-21T16:13:30.784Z",
+      "lastSeen": "2026-10-21T16:43:23.970Z",
       "kalshiTitle": "Will Musk win Best Documentary Feature Film at the Oscars?",
       "polymarketTitle": "Will Musk win Best Documentary Feature Film at the 99th Academy Awards?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:13:30.532Z",
+        "fetchedAt": "2026-10-21T16:43:23.702Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-MUS",
           "eventTicker": null,
@@ -1188,11 +1188,11 @@
       "polymarketId": "3377269",
       "category": "other",
       "firstSeen": "2026-10-21T08:02:44.837Z",
-      "lastSeen": "2026-10-21T16:13:30.784Z",
+      "lastSeen": "2026-10-21T16:43:23.970Z",
       "kalshiTitle": "Will Nuisance Bear win Best Documentary Feature Film at the Oscars?",
       "polymarketTitle": "Will Nuisance Bear win Best Documentary Feature Film at the 99th Academy Awards?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:13:28.558Z",
+        "fetchedAt": "2026-10-21T16:43:21.677Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-NUI",
           "eventTicker": null,
@@ -1242,11 +1242,11 @@
       "polymarketId": "3377274",
       "category": "other",
       "firstSeen": "2026-10-21T08:02:44.837Z",
-      "lastSeen": "2026-10-21T16:13:30.784Z",
+      "lastSeen": "2026-10-21T16:43:23.970Z",
       "kalshiTitle": "Will Once Upon a Time in Harlem win Best Documentary Feature Film at the Oscars?",
       "polymarketTitle": "Will Once Upon a Time in Harlem win Best Documentary Feature Film at the 99th Academy Awards?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:13:27.573Z",
+        "fetchedAt": "2026-10-21T16:43:20.622Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-ONC",
           "eventTicker": null,
@@ -1296,11 +1296,11 @@
       "polymarketId": "3377270",
       "category": "other",
       "firstSeen": "2026-10-21T08:02:44.837Z",
-      "lastSeen": "2026-10-21T16:13:30.784Z",
+      "lastSeen": "2026-10-21T16:43:23.970Z",
       "kalshiTitle": "Will One in a Million win Best Documentary Feature Film at the Oscars?",
       "polymarketTitle": "Will One in a Million win Best Documentary Feature Film at the 99th Academy Awards?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:13:29.048Z",
+        "fetchedAt": "2026-10-21T16:43:22.203Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-ONE",
           "eventTicker": null,
@@ -1350,11 +1350,11 @@
       "polymarketId": "3377272",
       "category": "other",
       "firstSeen": "2026-10-21T08:02:44.837Z",
-      "lastSeen": "2026-10-21T16:13:30.784Z",
+      "lastSeen": "2026-10-21T16:43:23.970Z",
       "kalshiTitle": "Will Sometimes, I Imagine Them All at a Party win Best Documentary Feature Film at the Oscars?",
       "polymarketTitle": "Will Sometimes, I Imagine Them All at a Party win Best Documentary Feature Film at the 99th Academy Awards?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:13:27.032Z",
+        "fetchedAt": "2026-10-21T16:43:20.094Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-SOM",
           "eventTicker": null,
@@ -1404,11 +1404,11 @@
       "polymarketId": "3377276",
       "category": "other",
       "firstSeen": "2026-10-21T08:02:44.837Z",
-      "lastSeen": "2026-10-21T16:13:30.784Z",
+      "lastSeen": "2026-10-21T16:43:23.970Z",
       "kalshiTitle": "Will You Can See Everything win Best Documentary Feature Film at the Oscars?",
       "polymarketTitle": "Will You Can See Everything win Best Documentary Feature Film at the 99th Academy Awards?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:13:28.066Z",
+        "fetchedAt": "2026-10-21T16:43:21.143Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-YOU",
           "eventTicker": null,
@@ -1566,11 +1566,11 @@
       "polymarketId": "3145013",
       "category": "other",
       "firstSeen": "2026-10-21T16:07:33.938Z",
-      "lastSeen": "2026-10-21T16:13:30.784Z",
+      "lastSeen": "2026-10-21T16:43:23.970Z",
       "kalshiTitle": "Will Wild Horse Nine win Best Picture at the Oscars?",
       "polymarketTitle": "Will Wild Horse Nine win Best Picture at the 99th Academy Awards?",
       "evidence": {
-        "fetchedAt": "2026-10-21T16:13:30.036Z",
+        "fetchedAt": "2026-10-21T16:43:23.175Z",
         "kalshi": {
           "ticker": "KXOSCARPIC-27-WIL",
           "eventTicker": null,
