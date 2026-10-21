@@ -1,3 +1,4 @@
+import {requestAdvisoryReview} from "./ai-settlement-review.js";
 import {loadAiExtractionCache,cachedAiExtraction} from "./contract-extraction.js";
 import {triageRefreshedQueue} from "./settlement-triage.js";
 import {readFile,writeFile} from "node:fs/promises";
@@ -11,6 +12,12 @@ for(const row of screened.candidates){
  const kRules=[row.ruleEvidence?.kalshi?.rulesPrimary,row.ruleEvidence?.kalshi?.rulesSecondary].filter(Boolean).join(" ");
  const pRules=row.ruleEvidence?.polymarket?.description??"";
  row.reviewedAiExtraction={kalshi:cachedAiExtraction(aiCache,"kalshi:"+row.kalshiTicker,kRules,row.kalshiTitle),polymarket:cachedAiExtraction(aiCache,"polymarket:"+row.polymarketId,pRules,row.polymarketTitle)};
+}
+if(process.env.ARB_ENABLE_AI_REVIEW==="true"&&process.env.OPENAI_API_KEY){
+ const limit=Math.max(0,Math.min(30,Number(process.env.ARB_AI_REVIEW_LIMIT??8)));
+ for(const row of screened.candidates.slice(0,limit)){
+  try{row.aiSettlementReview=await requestAdvisoryReview(row)}catch(e){row.aiSettlementReview={status:"AI_REVIEW_FAILED",error:String(e.message).slice(0,150),settlementVerified:false}}
+ }
 }
 await writeFile(source,JSON.stringify(screened,null,2)+"\n");
 console.log(JSON.stringify({evidenceRefresh:refreshed.evidenceRefresh,settlementTriage:screened.settlementTriage}));
