@@ -1,6 +1,6 @@
 # Cross-exchange arbitrage: manual settlement review
 
-Generated: 2026-10-21T17:10:22.255Z
+Generated: 2026-10-21T17:12:36.811Z
 
 **Research only. Zero contracts auto-approved. Similar market titles are not settlement evidence.**
 
