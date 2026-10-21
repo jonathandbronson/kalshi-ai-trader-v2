@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T16:10:00.999Z",
+  "timestamp": "2026-10-21T16:12:08.806Z",
   "mode": "RESEARCH_ONLY",
   "windowDays": 30,
   "snapshots": [
@@ -149,44 +149,93 @@
         "finance": 0,
         "other": 2176
       }
+    },
+    {
+      "timestamp": "2026-10-21T16:11:45.226Z",
+      "status": "COLLECTED",
+      "kalshiEvents": 1208,
+      "polymarketEvents": 2057,
+      "kalshiMarkets": 10312,
+      "polymarketMarkets": 32753,
+      "eventMatches": 2326,
+      "marketMatches": 6726,
+      "marketComparisons": 174677,
+      "eligiblePairs": 1680,
+      "shortlistedPairs": 60,
+      "verifiedPairs": 0,
+      "sourceErrors": 0,
+      "categoryCoverage": {
+        "Sports": {
+          "kalshiSeries": 6,
+          "kalshiEvents": 1,
+          "polyTags": 2,
+          "polyEvents": 2
+        },
+        "Economics": {
+          "kalshiSeries": 6,
+          "kalshiEvents": 2,
+          "polyTags": 2,
+          "polyEvents": 18
+        },
+        "Financials": {
+          "kalshiSeries": 6,
+          "kalshiEvents": 4,
+          "polyTags": 2,
+          "polyEvents": 346
+        },
+        "Crypto": {
+          "kalshiSeries": 6,
+          "kalshiEvents": 1,
+          "polyTags": 2,
+          "polyEvents": 400
+        }
+      },
+      "candidateCategories": {
+        "politics": 448,
+        "sports": 25,
+        "crypto": 0,
+        "economics": 0,
+        "finance": 0,
+        "other": 1207
+      }
     }
   ],
   "latest": {
-    "timestamp": "2026-10-21T16:09:41.910Z",
+    "timestamp": "2026-10-21T16:11:45.226Z",
     "status": "COLLECTED",
-    "kalshiEvents": 1224,
-    "polymarketEvents": 2061,
-    "kalshiMarkets": 10673,
-    "polymarketMarkets": 32927,
-    "eventMatches": 2321,
-    "marketMatches": 6737,
-    "marketComparisons": 189869,
-    "eligiblePairs": 2649,
+    "kalshiEvents": 1208,
+    "polymarketEvents": 2057,
+    "kalshiMarkets": 10312,
+    "polymarketMarkets": 32753,
+    "eventMatches": 2326,
+    "marketMatches": 6726,
+    "marketComparisons": 174677,
+    "eligiblePairs": 1680,
     "shortlistedPairs": 60,
     "verifiedPairs": 0,
     "sourceErrors": 0,
     "categoryCoverage": {
       "Sports": {
         "kalshiSeries": 6,
-        "kalshiEvents": 18,
+        "kalshiEvents": 1,
         "polyTags": 2,
         "polyEvents": 2
       },
       "Economics": {
         "kalshiSeries": 6,
-        "kalshiEvents": 1,
+        "kalshiEvents": 2,
         "polyTags": 2,
         "polyEvents": 18
       },
       "Financials": {
         "kalshiSeries": 6,
-        "kalshiEvents": 2,
+        "kalshiEvents": 4,
         "polyTags": 2,
         "polyEvents": 346
       },
       "Crypto": {
         "kalshiSeries": 6,
-        "kalshiEvents": 4,
+        "kalshiEvents": 1,
         "polyTags": 2,
         "polyEvents": 400
       }
@@ -197,7 +246,7 @@
       "crypto": 0,
       "economics": 0,
       "finance": 0,
-      "other": 2176
+      "other": 1207
     }
   },
   "notes": [
