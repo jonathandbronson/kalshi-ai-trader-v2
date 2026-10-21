@@ -95,3 +95,23 @@ The event scanner now supplements general volume/recent-event pagination with Ka
 After discovery, `node arbitrage/review-queue-cli.js` produces `arbitrage-review-queue.json`; GitHub Actions publishes `reports/latest-review-queue.json`. This queue contains full rule snippets, title comparisons, closing dates, rule warnings, and a research-only review score. **A high review score is not settlement equivalence.** The watchlist remains empty until independent manual verification and eligibility checks. The existing `arbitrage/approved-pairs.json` is the sole input for spread observation.
 
 These category searches improve coverage but do not guarantee all active markets have been indexed. They are a candidate-sourcing tool, not an autonomous settlement verifier.
+
+## Discovery hardening: market-level matching and review workflow
+
+The scanner now has an independent market-level inverted index (`market-matcher.js`) so it can surface contracts under differently titled events. It requires two informative shared tokens, caps high-frequency postings, checks numerical threshold/direction, underlying asset, explicit date/year, and nomination mismatches, and balances shortlisted candidates across categories. These are **conservative candidate filters**, not a complete semantic proof of settlement equivalence. Event-level matching remains active.
+
+`rule-evidence.js` stores official text, listed dates, settlement source metadata, and SHA-256 rule fingerprints; `evidence-refresh-cli.js` re-fetches exact contract details from Kalshi and Polymarket for up to 30 review candidates. Missing venue responses are flagged as incomplete, never silently approved. `rejection-policy.js` expires old rejections and invalidates changed-rule hashes. `review-dashboard-cli.js` writes a Markdown table of candidates, exact API record links, and warning flags; the scheduled workflow publishes `reports/latest-review-dashboard.md`.
+
+`discovery-benchmark.test.js` contains a small **synthetic** labeled precision/recall regression test. Its scores are not estimates of accuracy on real contracts. Genuine ground-truth pairs require independently adjudicated settlement evidence. The workflow runs all `arbitrage/*.test.js` before discovery and publishes diagnostics.
+
+To run manually:
+
+```bash
+node --test arbitrage/*.test.js
+node arbitrage/event-discovery.js
+node arbitrage/review-queue-cli.js
+node arbitrage/evidence-refresh-cli.js
+node arbitrage/review-dashboard-cli.js
+```
+
+No new strategy or live execution is enabled. The verified-pair watchlist remains empty until explicit human verification.
