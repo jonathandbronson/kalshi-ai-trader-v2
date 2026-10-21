@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T16:42:36.720Z",
+  "timestamp": "2026-10-21T16:55:38.249Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -9,10 +9,10 @@
   ],
   "counts": {
     "kalshiRawMarkets": 1300,
-    "kalshiSingleOutcomeMarkets": 1258,
-    "kalshiMarkets": 1258,
+    "kalshiSingleOutcomeMarkets": 1276,
+    "kalshiMarkets": 1276,
     "polymarketMarkets": 2000,
-    "polymarketBinaryMarkets": 1603,
+    "polymarketBinaryMarkets": 1600,
     "titleCandidates": 0,
     "contractTypePolicy": "strict_same_kind",
     "kalshiPagesRequested": 20,
@@ -25,24 +25,24 @@
   "samples": {
     "kalshi": [
       {
-        "title": "Michigan wins 4Q by over 7.5 points",
+        "title": "Will Lille score over 3.5 goals?",
         "subtitle": "",
-        "ticker": "KXNCAAF4QSPREAD-26OCT24INDMICH-MICH8"
+        "ticker": "KXUCLTEAMTOTAL-26OCT21LILGAL-LIL4"
       },
       {
-        "title": "Michigan wins 4Q by over 6.5 points",
+        "title": "Will over 7.5 goals be scored?",
         "subtitle": "",
-        "ticker": "KXNCAAF4QSPREAD-26OCT24INDMICH-MICH7"
+        "ticker": "KXUCLTOTAL-26OCT21LILGAL-8"
       },
       {
-        "title": "Michigan wins 4Q by over 3.5 points",
+        "title": "MORROW wins",
         "subtitle": "",
-        "ticker": "KXNCAAF4QSPREAD-26OCT24INDMICH-MICH4"
+        "ticker": "KXCS2GAME-26OCT211300MORDM-MOR"
       },
       {
-        "title": "Michigan wins 4Q by over 2.5 points",
+        "title": "Dark Moon wins",
         "subtitle": "",
-        "ticker": "KXNCAAF4QSPREAD-26OCT24INDMICH-MICH3"
+        "ticker": "KXCS2GAME-26OCT211300MORDM-DM"
       }
     ],
     "polymarket": [
