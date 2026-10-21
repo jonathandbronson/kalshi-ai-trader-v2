@@ -14,6 +14,8 @@ function threshold(s){
 }
 function period(s){const t=normalized(s);return /\b(?:career|lifetime|all time)\b/.test(t)?"CAREER":/\b(?:regular season|single season|during the 20\d\d|20\d\d[-/]20\d\d nfl)\b/.test(t)?"SEASON":null}
 function firstTo(s){return /\b(?:first (?:qb|quarterback|player|person)|first to reach|first .* to \d|first .* to reach)\b/.test(normalized(s))}
+function senateTermYear(s){const m=normalized(s).match(/\bterm\s+beginning\s+in\s+(20\d\d)\b/);return m?Number(m[1]):null}
+function senateElectionYear(s){const t=normalized(s);const m=t.match(/\b(20\d\d)\s+(?:midterm\s+)?(?:[a-z ]{0,40})?(?:u\.s\.\s+)?senate\s+(?:special\s+)?election\b/)||t.match(/\bsenate\s+(?:special\s+)?election\s+in\s+(20\d\d)\b/);return m?Number(m[1]):null}
 function voidTreatment(s){const t=normalized(s);return /\b(?:50-50|50\/50|half|split evenly)\b/.test(t)?"SPLIT":/\b(?:refund|void|cancel(?:led|ed)?)\b/.test(t)?"VOID_OR_CANCEL":null}
 export function screenSettlementRisk(row){
  const kr=[row.ruleEvidence?.kalshi?.rulesPrimary,row.ruleEvidence?.kalshi?.rulesSecondary,row.kalshiRules].filter(Boolean).join(" ");
