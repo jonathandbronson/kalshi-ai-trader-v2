@@ -44,6 +44,9 @@ on:
       - 'arbitrage/candidate-history.js'
       - 'arbitrage/candidate-history-cli.js'
       - 'arbitrage/candidate-history.test.js'
+      - 'arbitrage/coverage-history.js'
+      - 'arbitrage/coverage-history-cli.js'
+      - 'arbitrage/coverage-history.test.js'
       - '.github/workflows/arbitrage-candidates.yml'
 jobs:
   discovery:
@@ -73,6 +76,9 @@ jobs:
         run: node arbitrage/candidate-discovery.js
       - name: Discover event-first candidate pairs (read only)
         run: node arbitrage/event-discovery.js
+      - name: Accumulate 30-day discovery coverage telemetry
+        if: success()
+        run: node arbitrage/coverage-history-cli.js
       - name: Accumulate 30-day candidate discovery history
         if: success()
         run: node arbitrage/candidate-history-cli.js
@@ -143,6 +149,9 @@ jobs:
             } else {
               await publish('reports/latest-event-failure.json',eventReport);
             }
+            if (fs.existsSync('arbitrage-coverage-history.json')) {
+              await publish('reports/latest-coverage-history.json',fs.readFileSync('arbitrage-coverage-history.json','utf8'));
+            }
             if (fs.existsSync('arbitrage-candidate-history.json')) {
               await publish('reports/latest-candidate-history.json',fs.readFileSync('arbitrage-candidate-history.json','utf8'));
             }
@@ -187,4 +196,5 @@ jobs:
             arbitrage-pair-registry.json
             arbitrage-spread-history.json
             arbitrage-candidate-history.json
+            arbitrage-coverage-history.json
           if-no-files-found: warn
