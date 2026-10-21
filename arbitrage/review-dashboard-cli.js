@@ -7,8 +7,8 @@ const safe=s=>String(s??"").replace(/\|/g,"\\|").replace(/[\r\n]+/g," ").slice(0
 const rows=(queue.candidates??[]).map((c,i)=>{
  const flags=[...(c.ruleConflicts??[]),...(c.ruleEvidence?.warnings??[])];
  const k=c.kalshiTicker,p=c.polymarketId;
- const kLink=k?"[Kalshi](https://kalshi.com/markets/"+encodeURIComponent(k)+")":"n/a";
- const pLink=p?"[Polymarket](https://polymarket.com/market/"+encodeURIComponent(p)+")":"n/a";
+ const kLink=k?"[Kalshi](https://external-api.kalshi.com/trade-api/v2/markets/"+encodeURIComponent(k)+")":"n/a";
+ const pLink=p?"[Polymarket](https://gamma-api.polymarket.com/markets/"+encodeURIComponent(p)+")":"n/a";
  return "| "+[i+1,safe(c.category),safe(c.reviewScore),safe(c.kalshiTitle),safe(c.polymarketTitle),kLink,pLink,safe(c.evidenceRefreshStatus??"NOT_REFRESHED"),safe(flags.join("; ")||"Manual rule comparison required")].join(" | ")+" |";
 });
 const content=[
