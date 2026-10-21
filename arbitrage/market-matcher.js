@@ -29,7 +29,15 @@ export function contradiction(a,b){
  if(/\b(?:nominat(?:ed|ion)|nominee)\b/.test(ax)!==/\b(?:nominat(?:ed|ion)|nominee)\b/.test(by))return "NOMINATION_MISMATCH";
  return null;
 }
-export function findMarketCandidates(kalshiEvents,polymarketEvents,{limit=100,minimumScore=.56}={}){
+const categoryOf=s=>{const t=clean(s);
+ if(/\b(?:bitcoin|ethereum|solana|crypto|btc|eth)\b/.test(t))return "crypto";
+ if(/\b(?:cpi|inflation|fed|gdp|unemployment|jobs report|interest rate)\b/.test(t))return "economics";
+ if(/\b(?:gold|silver|oil|nasdaq|stock|s p 500)\b/.test(t))return "finance";
+ if(/\b(?:nba|nfl|soccer|football|tennis|baseball|championship|world cup)\b/.test(t))return "sports";
+ if(/\b(?:election|president|senate|governor|congress|parliament)\b/.test(t))return "politics";
+ return "other";
+};
+export function findMarketCandidates(kalshiEvents,polymarketEvents,{limit=100,minimumScore=.65,maxPostingsPerToken=400}={}){
  const k=[],p=[];
  for(const event of kalshiEvents??[])for(const market of event.markets??[]){
   const title=[market.title,market.subtitle].filter(Boolean).join(" ");
