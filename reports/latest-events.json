@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T07:59:57.990Z",
+  "timestamp": "2026-10-21T08:01:02.382Z",
   "mode": "EVENT_FIRST_READ_ONLY",
   "status": "COLLECTED",
   "autoApproved": 0,
@@ -9,7 +9,7 @@
     "categorySourceCoverage": {
       "Sports": {
         "kalshiSeries": 5,
-        "kalshiEvents": 7,
+        "kalshiEvents": 27,
         "polyTags": 2,
         "polyEvents": 2
       },
@@ -22,21 +22,21 @@
       "Financials": {
         "kalshiSeries": 5,
         "kalshiEvents": 2,
-        "polyTags": 50,
-        "polyEvents": 167
+        "polyTags": 2,
+        "polyEvents": 320
       },
       "Crypto": {
         "kalshiSeries": 5,
-        "kalshiEvents": 4,
-        "polyTags": 50,
-        "polyEvents": 167
+        "kalshiEvents": 1,
+        "polyTags": 2,
+        "polyEvents": 400
       }
     },
     "categorySourceErrors": 0,
-    "kalshiEvents": 817,
-    "polymarketEvents": 1357,
-    "kalshiNestedMarkets": 6748,
-    "polymarketNestedMarkets": 21966,
+    "kalshiEvents": 833,
+    "polymarketEvents": 1774,
+    "kalshiNestedMarkets": 6449,
+    "polymarketNestedMarkets": 23988,
     "eventPagesRequested": 8,
     "polymarketDiscoverySources": [
       "volume24hr",
@@ -47,7 +47,7 @@
       "open_cursor_pagination",
       "series_ticker"
     ],
-    "eventMatches": 1342,
+    "eventMatches": 1347,
     "eventMatchThreshold": {
       "minimumSharedTokens": 2,
       "minimumSimilarity": 0.52
@@ -56,8 +56,8 @@
     "eventMatchCategories": {
       "politics": 1034,
       "sports": 1,
-      "crypto": 0,
-      "economics": 235,
+      "crypto": 1,
+      "economics": 239,
       "finance": 0,
       "other": 72
     },
@@ -65,33 +65,32 @@
       "kalshi": {
         "politics": 140,
         "sports": 13,
-        "crypto": 5,
-        "economics": 63,
+        "crypto": 1,
+        "economics": 62,
         "finance": 0,
-        "other": 596
+        "other": 617
       },
       "polymarket": {
-        "politics": 119,
+        "politics": 117,
         "sports": 19,
-        "crypto": 165,
-        "economics": 33,
-        "finance": 8,
-        "other": 1013
+        "crypto": 363,
+        "economics": 41,
+        "finance": 10,
+        "other": 1224
       }
     },
     "discoveryCoverageWarning": [
-      "crypto",
       "finance"
     ],
     "expiredRejectionCacheEntries": 0,
     "marketLevelDiscovery": {
-      "kalshiMarkets": 6748,
-      "polymarketMarkets": 21966,
-      "comparisons": 194272,
+      "kalshiMarkets": 6449,
+      "polymarketMarkets": 23988,
+      "comparisons": 172109,
       "rejectedByReason": {
         "DIFFERENT_THRESHOLD": 70,
         "DIFFERENT_EXPLICIT_YEAR": 37,
-        "DIFFERENT_EXPLICIT_DATE": 23,
+        "DIFFERENT_EXPLICIT_DATE": 17,
         "DIFFERENT_DIRECTION": 2,
         "NOMINATION_MISMATCH": 169
       },
@@ -120,11 +119,11 @@
       "other": 3
     },
     "rejectedByReason": {
-      "different_meeting_deadline_year": 32
+      "different_meeting_deadline_year": 112
     },
-    "rejectionCacheEntries": 394,
+    "rejectionCacheEntries": 474,
     "rejectionCacheLoaded": 394,
-    "cachedRejections": 360,
+    "cachedRejections": 280,
     "dateMismatchCandidates": 46,
     "ruleWarningCandidates": 17,
     "noRuleWarningCandidates": 29,
@@ -189,7 +188,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:06.295Z",
+        "fetchedAt": "2026-10-21T08:01:12.593Z",
         "kalshi": {
           "ticker": "SENATENH-28-R",
           "eventTicker": "SENATENH-28",
@@ -281,7 +280,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:10.826Z",
+        "fetchedAt": "2026-10-21T08:01:17.355Z",
         "kalshi": {
           "ticker": "KXDCMORATORIUMSTATES-28-LA",
           "eventTicker": "KXDCMORATORIUMSTATES-28",
@@ -373,7 +372,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:10.824Z",
+        "fetchedAt": "2026-10-21T08:01:17.353Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-14000",
           "eventTicker": "KXNFLCAREERRSHYDS-DHENRY",
@@ -466,7 +465,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:10.824Z",
+        "fetchedAt": "2026-10-21T08:01:17.353Z",
         "kalshi": {
           "ticker": "KXAOCSENATE-28",
           "eventTicker": "KXAOCSENATE-28",
@@ -558,7 +557,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:10.826Z",
+        "fetchedAt": "2026-10-21T08:01:17.355Z",
         "kalshi": {
           "ticker": "KXDCMORATORIUMSTATES-28-MO",
           "eventTicker": "KXDCMORATORIUMSTATES-28",
@@ -650,7 +649,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:10.825Z",
+        "fetchedAt": "2026-10-21T08:01:17.354Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-14000",
           "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
@@ -742,7 +741,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:06.353Z",
+        "fetchedAt": "2026-10-21T08:01:12.652Z",
         "kalshi": {
           "ticker": "SENATEFL-28-R",
           "eventTicker": "SENATEFL-28",
@@ -834,7 +833,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:10.827Z",
+        "fetchedAt": "2026-10-21T08:01:17.356Z",
         "kalshi": {
           "ticker": "KXDCMORATORIUMSTATES-28-OK",
           "eventTicker": "KXDCMORATORIUMSTATES-28",
@@ -926,7 +925,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:10.830Z",
+        "fetchedAt": "2026-10-21T08:01:17.359Z",
         "kalshi": {
           "ticker": "KXPRESRUN-28-28NOV07-MGRE",
           "eventTicker": "KXPRESRUN-28",
@@ -1017,7 +1016,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:06.294Z",
+        "fetchedAt": "2026-10-21T08:01:12.592Z",
         "kalshi": {
           "ticker": "SENATESC-28-R",
           "eventTicker": "SENATESC-28",
@@ -1112,7 +1111,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:06.692Z",
+        "fetchedAt": "2026-10-21T08:01:13.004Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-JMEL",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -1202,7 +1201,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:06.349Z",
+        "fetchedAt": "2026-10-21T08:01:12.650Z",
         "kalshi": {
           "ticker": "SENATEOH-28-R",
           "eventTicker": "SENATEOH-28",
@@ -1293,7 +1292,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:06.350Z",
+        "fetchedAt": "2026-10-21T08:01:12.650Z",
         "kalshi": {
           "ticker": "SENATEKS-28-R",
           "eventTicker": "SENATEKS-28",
@@ -1384,7 +1383,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:06.351Z",
+        "fetchedAt": "2026-10-21T08:01:12.650Z",
         "kalshi": {
           "ticker": "SENATEID-28-R",
           "eventTicker": "SENATEID-28",
@@ -1475,7 +1474,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:06.352Z",
+        "fetchedAt": "2026-10-21T08:01:12.651Z",
         "kalshi": {
           "ticker": "SENATEIA-28-R",
           "eventTicker": "SENATEIA-28",
@@ -1567,7 +1566,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:10.828Z",
+        "fetchedAt": "2026-10-21T08:01:17.356Z",
         "kalshi": {
           "ticker": "KXAOCSENATE-28",
           "eventTicker": "KXAOCSENATE-28",
@@ -1659,7 +1658,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:10.824Z",
+        "fetchedAt": "2026-10-21T08:01:17.353Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-15000",
           "eventTicker": "KXNFLCAREERRSHYDS-DHENRY",
@@ -1752,7 +1751,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:10.830Z",
+        "fetchedAt": "2026-10-21T08:01:17.359Z",
         "kalshi": {
           "ticker": "KXPRESRUN-28-28NOV07-DJOH",
           "eventTicker": "KXPRESRUN-28",
@@ -1844,7 +1843,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:10.824Z",
+        "fetchedAt": "2026-10-21T08:01:17.353Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-16000",
           "eventTicker": "KXNFLCAREERRSHYDS-DHENRY",
@@ -1937,7 +1936,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:10.830Z",
+        "fetchedAt": "2026-10-21T08:01:17.359Z",
         "kalshi": {
           "ticker": "KXPRESRUN-28-28NOV07-RFKJ",
           "eventTicker": "KXPRESRUN-28",
@@ -2029,7 +2028,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:10.824Z",
+        "fetchedAt": "2026-10-21T08:01:17.353Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-17000",
           "eventTicker": "KXNFLCAREERRSHYDS-DHENRY",
@@ -2125,7 +2124,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:06.711Z",
+        "fetchedAt": "2026-10-21T08:01:13.026Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-FHOL",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -2216,7 +2215,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:10.825Z",
+        "fetchedAt": "2026-10-21T08:01:17.353Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-18000",
           "eventTicker": "KXNFLCAREERRSHYDS-DHENRY",
@@ -2312,7 +2311,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:06.684Z",
+        "fetchedAt": "2026-10-21T08:01:12.995Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-MLEP",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -2403,7 +2402,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:10.825Z",
+        "fetchedAt": "2026-10-21T08:01:17.354Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-15000",
           "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
@@ -2499,7 +2498,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:06.688Z",
+        "fetchedAt": "2026-10-21T08:01:12.999Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-EPHI",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -2590,7 +2589,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:10.825Z",
+        "fetchedAt": "2026-10-21T08:01:17.354Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-16000",
           "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
@@ -2686,7 +2685,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:06.695Z",
+        "fetchedAt": "2026-10-21T08:01:13.009Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-RGLU",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -2777,7 +2776,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:10.825Z",
+        "fetchedAt": "2026-10-21T08:01:17.354Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-17000",
           "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
@@ -2873,7 +2872,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:06.698Z",
+        "fetchedAt": "2026-10-21T08:01:13.012Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-GATT",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -2964,7 +2963,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:10.825Z",
+        "fetchedAt": "2026-10-21T08:01:17.354Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-18000",
           "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
@@ -3060,7 +3059,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:06.701Z",
+        "fetchedAt": "2026-10-21T08:01:13.016Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-BRET",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -3151,7 +3150,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:10.826Z",
+        "fetchedAt": "2026-10-21T08:01:17.355Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-19000",
           "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
@@ -3247,7 +3246,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:06.704Z",
+        "fetchedAt": "2026-10-21T08:01:13.020Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-DVIL",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -3338,7 +3337,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:10.826Z",
+        "fetchedAt": "2026-10-21T08:01:17.355Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-20000",
           "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
@@ -3434,7 +3433,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:06.706Z",
+        "fetchedAt": "2026-10-21T08:01:13.022Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-JBAR",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -3525,7 +3524,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:10.826Z",
+        "fetchedAt": "2026-10-21T08:01:17.355Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-21000",
           "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
@@ -3621,7 +3620,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:06.716Z",
+        "fetchedAt": "2026-10-21T08:01:13.033Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-SLEC",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
@@ -3712,7 +3711,7 @@
         "ruleConflicts": []
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:10.826Z",
+        "fetchedAt": "2026-10-21T08:01:17.355Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-22000",
           "eventTicker": "KXNFLCAREERRECYDS-MEVANS",
@@ -3808,7 +3807,7 @@
         ]
       },
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T08:00:06.718Z",
+        "fetchedAt": "2026-10-21T08:01:13.035Z",
         "kalshi": {
           "ticker": "KXFRPRESADVANCE-26APR18-BCAZ",
           "eventTicker": "KXFRPRESADVANCE-26APR18",
