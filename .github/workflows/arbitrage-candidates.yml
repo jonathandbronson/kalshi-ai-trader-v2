@@ -33,6 +33,7 @@ on:
       - 'arbitrage/evidence-refresh-cli.js'
       - 'arbitrage/discovery-benchmark.js'
       - 'arbitrage/discovery-benchmark.test.js'
+      - 'arbitrage/review-dashboard-cli.js'
       - '.github/workflows/arbitrage-candidates.yml'
 jobs:
   discovery:
@@ -66,6 +67,9 @@ jobs:
       - name: Refresh current official contract rules for manual review
         if: success()
         run: node arbitrage/evidence-refresh-cli.js
+      - name: Render manual settlement review dashboard
+        if: success()
+        run: node arbitrage/review-dashboard-cli.js
       - name: Observe spreads on manually verified watchlist (read only)
         if: success()
         run: node arbitrage/spread-observer-cli.js
@@ -118,6 +122,9 @@ jobs:
             } else {
               await publish('reports/latest-event-failure.json',eventReport);
             }
+            if (fs.existsSync('arbitrage-review-dashboard.md')) {
+              await publish('reports/latest-review-dashboard.md',fs.readFileSync('arbitrage-review-dashboard.md','utf8'));
+            }
             if (fs.existsSync('arbitrage-review-queue.json')) {
               await publish('reports/latest-review-queue.json',fs.readFileSync('arbitrage-review-queue.json','utf8'));
             }
@@ -142,4 +149,5 @@ jobs:
             arbitrage-rejected-pairs.json
             arbitrage-spread-observations.json
             arbitrage-review-queue.json
+            arbitrage-review-dashboard.md
           if-no-files-found: warn
