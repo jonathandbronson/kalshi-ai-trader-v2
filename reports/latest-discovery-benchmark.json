@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-10-21T07:51:20.540Z",
+  "kind": "SYNTHETIC_FIXTURES_ONLY",
+  "total": 8,
+  "truePositive": 4,
+  "falsePositive": 0,
+  "falseNegative": 0,
+  "trueNegative": 4,
+  "precision": 1,
+  "recall": 1,
+  "notes": [
+    "Synthetic fixture metrics only; not evidence of real-market matching precision.",
+    "Human settlement verification is required before any pair can be approved."
+  ]
+}
