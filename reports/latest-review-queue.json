@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-10-21T16:43:12.101Z",
+  "timestamp": "2026-10-21T16:56:15.373Z",
   "mode": "RESEARCH_ONLY",
   "verifiedPairs": 0,
   "sourceStatus": "COLLECTED",
-  "sourceTimestamp": "2026-10-21T16:42:49.771Z",
+  "sourceTimestamp": "2026-10-21T16:55:52.290Z",
   "categoryCounts": {
     "sports": 8,
     "politics": 8,
@@ -26,7 +26,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:43:20.094Z",
+        "fetchedAt": "2026-10-21T16:56:23.864Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-SOM",
           "eventTicker": null,
@@ -208,7 +208,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:43:20.622Z",
+        "fetchedAt": "2026-10-21T16:56:24.419Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-ONC",
           "eventTicker": null,
@@ -390,7 +390,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:43:21.143Z",
+        "fetchedAt": "2026-10-21T16:56:24.973Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-YOU",
           "eventTicker": null,
@@ -572,7 +572,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:43:21.677Z",
+        "fetchedAt": "2026-10-21T16:56:25.529Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-NUI",
           "eventTicker": null,
@@ -754,7 +754,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:43:22.203Z",
+        "fetchedAt": "2026-10-21T16:56:26.080Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-ONE",
           "eventTicker": null,
@@ -936,7 +936,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:43:22.736Z",
+        "fetchedAt": "2026-10-21T16:56:26.652Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-AME",
           "eventTicker": null,
@@ -1118,7 +1118,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:43:23.175Z",
+        "fetchedAt": "2026-10-21T16:56:27.209Z",
         "kalshi": {
           "ticker": "KXOSCARPIC-27-WIL",
           "eventTicker": null,
@@ -1300,7 +1300,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:43:23.702Z",
+        "fetchedAt": "2026-10-21T16:56:27.767Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-MUS",
           "eventTicker": null,
@@ -1487,7 +1487,7 @@
     "recall": null,
     "caveat": "Only measures supplied human-adjudicated pairs; unlabeled candidates are excluded."
   },
-  "refreshedAt": "2026-10-21T16:43:23.902Z",
+  "refreshedAt": "2026-10-21T16:56:27.968Z",
   "evidenceRefresh": {
     "attempted": 24,
     "successful": 24,
