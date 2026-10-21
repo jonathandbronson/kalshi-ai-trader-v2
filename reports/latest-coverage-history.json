@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T16:43:11.629Z",
+  "timestamp": "2026-10-21T16:56:15.106Z",
   "mode": "RESEARCH_ONLY",
   "windowDays": 30,
   "snapshots": [
@@ -247,18 +247,67 @@
         "finance": 0,
         "other": 1206
       }
+    },
+    {
+      "timestamp": "2026-10-21T16:55:52.290Z",
+      "status": "COLLECTED",
+      "kalshiEvents": 1211,
+      "polymarketEvents": 2070,
+      "kalshiMarkets": 10619,
+      "polymarketMarkets": 32830,
+      "eventMatches": 2318,
+      "marketMatches": 6727,
+      "marketComparisons": 193477,
+      "eligiblePairs": 1679,
+      "shortlistedPairs": 60,
+      "verifiedPairs": 0,
+      "sourceErrors": 0,
+      "categoryCoverage": {
+        "Sports": {
+          "kalshiSeries": 6,
+          "kalshiEvents": 3,
+          "polyTags": 2,
+          "polyEvents": 2
+        },
+        "Economics": {
+          "kalshiSeries": 6,
+          "kalshiEvents": 2,
+          "polyTags": 2,
+          "polyEvents": 18
+        },
+        "Financials": {
+          "kalshiSeries": 6,
+          "kalshiEvents": 7,
+          "polyTags": 2,
+          "polyEvents": 346
+        },
+        "Crypto": {
+          "kalshiSeries": 6,
+          "kalshiEvents": 0,
+          "polyTags": 2,
+          "polyEvents": 400
+        }
+      },
+      "candidateCategories": {
+        "politics": 448,
+        "sports": 25,
+        "crypto": 0,
+        "economics": 0,
+        "finance": 0,
+        "other": 1206
+      }
     }
   ],
   "latest": {
-    "timestamp": "2026-10-21T16:42:49.771Z",
+    "timestamp": "2026-10-21T16:55:52.290Z",
     "status": "COLLECTED",
-    "kalshiEvents": 1214,
-    "polymarketEvents": 2068,
-    "kalshiMarkets": 10772,
-    "polymarketMarkets": 33397,
-    "eventMatches": 2326,
-    "marketMatches": 6695,
-    "marketComparisons": 178024,
+    "kalshiEvents": 1211,
+    "polymarketEvents": 2070,
+    "kalshiMarkets": 10619,
+    "polymarketMarkets": 32830,
+    "eventMatches": 2318,
+    "marketMatches": 6727,
+    "marketComparisons": 193477,
     "eligiblePairs": 1679,
     "shortlistedPairs": 60,
     "verifiedPairs": 0,
@@ -272,19 +321,19 @@
       },
       "Economics": {
         "kalshiSeries": 6,
-        "kalshiEvents": 3,
+        "kalshiEvents": 2,
         "polyTags": 2,
         "polyEvents": 18
       },
       "Financials": {
         "kalshiSeries": 6,
-        "kalshiEvents": 6,
+        "kalshiEvents": 7,
         "polyTags": 2,
         "polyEvents": 346
       },
       "Crypto": {
         "kalshiSeries": 6,
-        "kalshiEvents": 4,
+        "kalshiEvents": 0,
         "polyTags": 2,
         "polyEvents": 400
       }
