@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T07:47:44.784Z",
+  "timestamp": "2026-10-21T07:59:57.990Z",
   "rejections": {
     "KXNEXTISRAELPM-45JAN01-NBEN:682706": {
       "reason": "interim_appointment_treatment",
@@ -1808,157 +1808,157 @@
     },
     "KXAOCSENATE-28-28JAN01:3708349": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "40cbbec7e07df9e9"
     },
     "KXNEXTPRESSECPERM-29JAN20-RCAM:5782530": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "675a1f71b0b85025"
     },
     "KXNEXTPRESSECPERM-29JAN20-BHAR:5782532": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "94b6379e6ccdb078"
     },
     "KXNEXTPRESSECPERM-29JAN20-AHAB:5782523": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "bc625b5c9aba81cb"
     },
     "KXNEXTPRESSECPERM-29JAN20-SCHE:5782534": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "eaa3bfa58d32b14f"
     },
     "KXNEXTPRESSECPERM-29JAN20-SJEN:5782520": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "3458610b3d90698d"
     },
     "KXNEXTPRESSECPERM-29JAN20-KLAK:5782521": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "77e481dfe64d7f9d"
     },
     "KXNEXTPRESSECPERM-29JAN20-AKEL:5782508": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "e195ae162fa13745"
     },
     "KXNEXTPRESSECPERM-29JAN20-LHUS:5782513": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "a843b8b748fd817e"
     },
     "KXNEXTPRESSECPERM-29JAN20-NHAR:5782524": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "d7ea85f580be1c0f"
     },
     "KXNEXTPRESSECPERM-29JAN20-SPRA:5782528": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "65cc3ea497007162"
     },
     "KXNEXTPRESSECPERM-29JAN20-LTRU:5782529": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "ba4770896d3a78bf"
     },
     "KXNEXTPRESSECPERM-29JAN20-EPIP:5782533": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "67ec97a575e379fd"
     },
     "KXNEXTPRESSECPERM-29JAN20-LLOO:5782537": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "4bf8ed4917fb26a0"
     },
     "KXNEXTPRESSECPERM-29JAN20-MBOY:5782527": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "7f9cd08745a948cb"
     },
     "KXNEXTPRESSECPERM-29JAN20-KMIL:5782526": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "b844eb14f5b6ac10"
     },
     "KXNEXTPRESSECPERM-29JAN20-MCRO:5782522": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "ca917a3c724ed32e"
     },
     "KXNEXTPRESSECPERM-29JAN20-TMCL:5782516": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "9f0a1d5e9a6fce20"
     },
     "KXNEXTPRESSECPERM-29JAN20-KDES:5782509": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "60c1dca17127450b"
     },
     "KXNEXTPRESSECPERM-29JAN20-MMAR:5782507": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "eeac0dcea7ae1445"
     },
     "KXNEXTPRESSECPERM-29JAN20-AFLE:5782525": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "c6a51e8ffc070fac"
     },
     "KXNEXTPRESSECPERM-29JAN20-MBAR:5782531": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "8d198fc961d9b4e4"
     },
     "KXNEXTPRESSECPERM-29JAN20-KMCE:5782519": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "8733306c628dd1ca"
     },
     "KXNEXTPRESSECPERM-29JAN20-HFIE:5782518": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "0242b7ce54dfd95f"
     },
     "KXNEXTPRESSECPERM-29JAN20-TROG:5782510": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "0af3475b42707064"
     },
     "KXNEXTPRESSECPERM-29JAN20-HGID:5782517": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "fc169fad6fd51d2b"
     },
     "KXNEXTPRESSECPERM-29JAN20-KPAV:5782515": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "7e51139a7718b7bc"
     },
     "KXNEXTPRESSECPERM-29JAN20-LBIS:5782512": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "834ed526ffbf7b86"
     },
     "KXNEXTPRESSECPERM-29JAN20-PADA:5782511": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "80db2f3d17b66d95"
     },
     "KXNEXTPRESSECPERM-29JAN20-KDOR:5782514": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "ce42a030abd516af"
     },
     "KXNEXTPRESSECPERM-29JAN20-JPAU:5782536": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "e1920f06d08d5657"
     },
     "KXNEXTPRESSECPERM-29JAN20-KLEA:5782535": {
@@ -1968,7 +1968,7 @@
     },
     "KXAOCSENATE-28-28JAN01:3708351": {
       "reason": "different_meeting_deadline_year",
-      "lastSeen": "2026-10-21T07:47:44.784Z",
+      "lastSeen": "2026-10-21T07:59:57.990Z",
       "rulesHash": "40cbbec7e07df9e9"
     }
   }
