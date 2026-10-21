@@ -48,7 +48,9 @@ export async function collectCategoryEvents({fetcher=fetch,seriesPerCategory=3,t
     cursor=data.cursor??"";if(!cursor)break;
    }
   }
-  const selected=tags.filter(t=>TAG_KEYWORDS[category].test(String(t.slug??"")+" "+String(t.label??""))).slice(0,Math.max(0,tagsPerCategory));
+  const selected=tags.filter(t=>TAG_KEYWORDS[category].test(String(t.slug??"")+" "+String(t.label??"")))
+   .sort((a,b)=>Number(b.volume24hr??b.volume24h??b.volume??0)-Number(a.volume24hr??a.volume24h??a.volume??0))
+   .slice(0,Math.max(0,tagsPerCategory));
   // /tags may return a truncated list; query high-value slugs directly when absent.
   const fallbackSlugs={Sports:["sports"],Economics:["economics","macro"],Financials:["finance","stocks"],Crypto:["crypto","bitcoin"]}[category]??[];
   if(selected.length===0)for(const slug of fallbackSlugs){
@@ -64,6 +66,7 @@ export async function collectCategoryEvents({fetcher=fetch,seriesPerCategory=3,t
     const v=new URL("https://gamma-api.polymarket.com/events");
     v.searchParams.set("tag_id",String(tag.id));v.searchParams.set("active","true");v.searchParams.set("closed","false");
     v.searchParams.set("limit","100");v.searchParams.set("offset",String(page*100));
+    v.searchParams.set("order","volume24hr");v.searchParams.set("ascending","false");
     const data=await safe(v.toString(),"polymarket events "+tag.slug);
     if(!Array.isArray(data))break;
     poly.push(...data);record.polyEvents+=data.length;
