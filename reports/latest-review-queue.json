@@ -1,14 +1,503 @@
 {
-  "timestamp": "2026-10-21T07:49:16.121Z",
+  "timestamp": "2026-10-21T08:00:10.927Z",
   "mode": "RESEARCH_ONLY",
   "verifiedPairs": 0,
   "sourceStatus": "COLLECTED",
-  "sourceTimestamp": "2026-10-21T07:47:44.784Z",
+  "sourceTimestamp": "2026-10-21T07:59:57.990Z",
   "categoryCounts": {
+    "sports": 8,
     "politics": 8,
-    "other": 2
+    "other": 3
   },
   "candidates": [
+    {
+      "category": "sports",
+      "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-14000",
+      "polymarketId": "3959677",
+      "kalshiTitle": "Derrick Henry: 14,000+ Rushing Yards",
+      "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
+      "kalshiEvent": "Derrick Henry Career Regular Season Rushing Yards",
+      "polymarketEvent": "Pro Football: 2026-27 1,000+ Rushing Yards",
+      "kalshiRules": "If Derrick Henry records at least 14,000 career regular season rushing yards before Derrick Henry or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+      "polymarketRules": "This market will resolve to \"Yes\" if the number of rushing yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many rushing yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+      "kalshiClose": "2040-03-08",
+      "polymarketEnd": "2027-01-27",
+      "differentEndDates": true,
+      "ruleConflicts": [],
+      "reviewScore": 0.272,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": false,
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T08:00:11.447Z",
+        "kalshi": {
+          "ticker": "KXNFLCAREERRSHYDS-DHENRY-14000",
+          "eventTicker": null,
+          "marketTitle": "Derrick Henry: 14,000+ Rushing Yards",
+          "rulesPrimary": "If Derrick Henry records at least 14,000 career regular season rushing yards before Derrick Henry or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+          "rulesSecondary": "The market resolves to Yes if Derrick Henry records at least 14,000 career regular season rushing yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
+          "closeTime": "2040-03-08T15:00:00.000Z",
+          "ruleSha256": "e36a0b89072dd16e103e059217dbf13eaf7e63b1c435fddd7c4c3d6beecf83d5"
+        },
+        "polymarket": {
+          "id": "3959677",
+          "eventId": null,
+          "question": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
+          "description": "This market will resolve to \"Yes\" if the number of rushing yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many rushing yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2027-01-27T04:59:00.000Z",
+          "ruleSha256": "6676d6e21537db5c5740f4d303ceed4c2f8f28a065fcdbd8163cfadab8ac9116",
+          "conditionId": "0xbec8e1e3aec9b465d3cae2374efc4306fc168b10f17f62464434040b9a6c953c"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE",
+          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "evidenceRefreshStatus": "REFRESHED"
+    },
+    {
+      "category": "sports",
+      "kalshiTicker": "KXNFLCAREERRECYDS-MEVANS-14000",
+      "polymarketId": "3959741",
+      "kalshiTitle": "Mike Evans: 14,000+ Receiving Yards",
+      "polymarketTitle": "Will Mike Evans have 1,000+ receiving yards in the 2026-27 NFL regular season?",
+      "kalshiEvent": "Mike Evans Career Regular Season Receiving Yards",
+      "polymarketEvent": "Pro Football: 2026-27 1,000+ Receiving Yards",
+      "kalshiRules": "If Mike Evans records at least 14,000 career regular season receiving yards before Mike Evans or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+      "polymarketRules": "This market will resolve to \"Yes\" if the number of receiving yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many receiving yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+      "kalshiClose": "2040-03-08",
+      "polymarketEnd": "2027-01-27",
+      "differentEndDates": true,
+      "ruleConflicts": [],
+      "reviewScore": 0.272,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": false,
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T08:00:12.030Z",
+        "kalshi": {
+          "ticker": "KXNFLCAREERRECYDS-MEVANS-14000",
+          "eventTicker": null,
+          "marketTitle": "Mike Evans: 14,000+ Receiving Yards",
+          "rulesPrimary": "If Mike Evans records at least 14,000 career regular season receiving yards before Mike Evans or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+          "rulesSecondary": "The market resolves to Yes if Mike Evans records at least 14,000 career regular season receiving yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
+          "closeTime": "2040-03-08T15:00:00.000Z",
+          "ruleSha256": "b131a7a38fe97c4061727d86414d188f979dbf11ba468b9589fc75974bcde815"
+        },
+        "polymarket": {
+          "id": "3959741",
+          "eventId": null,
+          "question": "Will Mike Evans have 1,000+ receiving yards in the 2026-27 NFL regular season?",
+          "description": "This market will resolve to \"Yes\" if the number of receiving yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many receiving yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2027-01-27T04:59:00.000Z",
+          "ruleSha256": "b05400ea6c544a8bde4aeeda16d00104d257594b0e06e9fa79e81d3f17ec1f86",
+          "conditionId": "0xe55d529265d7a6dd3b7fc132092f8eee212995cd1f46fa3c04e3a6bc28ea50b2"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE",
+          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "evidenceRefreshStatus": "REFRESHED"
+    },
+    {
+      "category": "sports",
+      "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-15000",
+      "polymarketId": "3959677",
+      "kalshiTitle": "Derrick Henry: 15,000+ Rushing Yards",
+      "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
+      "kalshiEvent": "Derrick Henry Career Regular Season Rushing Yards",
+      "polymarketEvent": "Pro Football: 2026-27 1,000+ Rushing Yards",
+      "kalshiRules": "If Derrick Henry records at least 15,000 career regular season rushing yards before Derrick Henry or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+      "polymarketRules": "This market will resolve to \"Yes\" if the number of rushing yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many rushing yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+      "kalshiClose": "2040-03-08",
+      "polymarketEnd": "2027-01-27",
+      "differentEndDates": true,
+      "ruleConflicts": [],
+      "reviewScore": 0.272,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": false,
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T08:00:12.471Z",
+        "kalshi": {
+          "ticker": "KXNFLCAREERRSHYDS-DHENRY-15000",
+          "eventTicker": null,
+          "marketTitle": "Derrick Henry: 15,000+ Rushing Yards",
+          "rulesPrimary": "If Derrick Henry records at least 15,000 career regular season rushing yards before Derrick Henry or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+          "rulesSecondary": "The market resolves to Yes if Derrick Henry records at least 15,000 career regular season rushing yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
+          "closeTime": "2040-03-08T15:00:00.000Z",
+          "ruleSha256": "ee870de2c067aaad28fb1404057d835093b216d8062abadad28e26e09b15d6df"
+        },
+        "polymarket": {
+          "id": "3959677",
+          "eventId": null,
+          "question": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
+          "description": "This market will resolve to \"Yes\" if the number of rushing yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many rushing yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2027-01-27T04:59:00.000Z",
+          "ruleSha256": "6676d6e21537db5c5740f4d303ceed4c2f8f28a065fcdbd8163cfadab8ac9116",
+          "conditionId": "0xbec8e1e3aec9b465d3cae2374efc4306fc168b10f17f62464434040b9a6c953c"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE",
+          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "evidenceRefreshStatus": "REFRESHED"
+    },
+    {
+      "category": "sports",
+      "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-16000",
+      "polymarketId": "3959677",
+      "kalshiTitle": "Derrick Henry: 16,000+ Rushing Yards",
+      "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
+      "kalshiEvent": "Derrick Henry Career Regular Season Rushing Yards",
+      "polymarketEvent": "Pro Football: 2026-27 1,000+ Rushing Yards",
+      "kalshiRules": "If Derrick Henry records at least 16,000 career regular season rushing yards before Derrick Henry or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+      "polymarketRules": "This market will resolve to \"Yes\" if the number of rushing yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many rushing yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+      "kalshiClose": "2040-03-08",
+      "polymarketEnd": "2027-01-27",
+      "differentEndDates": true,
+      "ruleConflicts": [],
+      "reviewScore": 0.272,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": false,
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T08:00:12.910Z",
+        "kalshi": {
+          "ticker": "KXNFLCAREERRSHYDS-DHENRY-16000",
+          "eventTicker": null,
+          "marketTitle": "Derrick Henry: 16,000+ Rushing Yards",
+          "rulesPrimary": "If Derrick Henry records at least 16,000 career regular season rushing yards before Derrick Henry or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+          "rulesSecondary": "The market resolves to Yes if Derrick Henry records at least 16,000 career regular season rushing yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
+          "closeTime": "2040-03-08T15:00:00.000Z",
+          "ruleSha256": "88adb179fd8a8ca24e3fbdd19970f5988b3f2fec8774d95dcb6f40a5532ebe2b"
+        },
+        "polymarket": {
+          "id": "3959677",
+          "eventId": null,
+          "question": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
+          "description": "This market will resolve to \"Yes\" if the number of rushing yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many rushing yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2027-01-27T04:59:00.000Z",
+          "ruleSha256": "6676d6e21537db5c5740f4d303ceed4c2f8f28a065fcdbd8163cfadab8ac9116",
+          "conditionId": "0xbec8e1e3aec9b465d3cae2374efc4306fc168b10f17f62464434040b9a6c953c"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE",
+          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "evidenceRefreshStatus": "REFRESHED"
+    },
+    {
+      "category": "sports",
+      "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-17000",
+      "polymarketId": "3959677",
+      "kalshiTitle": "Derrick Henry: 17,000+ Rushing Yards",
+      "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
+      "kalshiEvent": "Derrick Henry Career Regular Season Rushing Yards",
+      "polymarketEvent": "Pro Football: 2026-27 1,000+ Rushing Yards",
+      "kalshiRules": "If Derrick Henry records at least 17,000 career regular season rushing yards before Derrick Henry or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+      "polymarketRules": "This market will resolve to \"Yes\" if the number of rushing yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many rushing yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+      "kalshiClose": "2040-03-08",
+      "polymarketEnd": "2027-01-27",
+      "differentEndDates": true,
+      "ruleConflicts": [],
+      "reviewScore": 0.272,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": false,
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T08:00:13.351Z",
+        "kalshi": {
+          "ticker": "KXNFLCAREERRSHYDS-DHENRY-17000",
+          "eventTicker": null,
+          "marketTitle": "Derrick Henry: 17,000+ Rushing Yards",
+          "rulesPrimary": "If Derrick Henry records at least 17,000 career regular season rushing yards before Derrick Henry or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+          "rulesSecondary": "The market resolves to Yes if Derrick Henry records at least 17,000 career regular season rushing yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
+          "closeTime": "2040-03-08T15:00:00.000Z",
+          "ruleSha256": "b3b8b8f4a81f18e86e8e796f21d0fcc3208335df3ee41b1945295c61c4db8da2"
+        },
+        "polymarket": {
+          "id": "3959677",
+          "eventId": null,
+          "question": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
+          "description": "This market will resolve to \"Yes\" if the number of rushing yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many rushing yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2027-01-27T04:59:00.000Z",
+          "ruleSha256": "6676d6e21537db5c5740f4d303ceed4c2f8f28a065fcdbd8163cfadab8ac9116",
+          "conditionId": "0xbec8e1e3aec9b465d3cae2374efc4306fc168b10f17f62464434040b9a6c953c"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE",
+          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "evidenceRefreshStatus": "REFRESHED"
+    },
+    {
+      "category": "sports",
+      "kalshiTicker": "KXNFLCAREERRSHYDS-DHENRY-18000",
+      "polymarketId": "3959677",
+      "kalshiTitle": "Derrick Henry: 18,000+ Rushing Yards",
+      "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
+      "kalshiEvent": "Derrick Henry Career Regular Season Rushing Yards",
+      "polymarketEvent": "Pro Football: 2026-27 1,000+ Rushing Yards",
+      "kalshiRules": "If Derrick Henry records at least 18,000 career regular season rushing yards before Derrick Henry or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+      "polymarketRules": "This market will resolve to \"Yes\" if the number of rushing yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many rushing yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+      "kalshiClose": "2040-03-08",
+      "polymarketEnd": "2027-01-27",
+      "differentEndDates": true,
+      "ruleConflicts": [],
+      "reviewScore": 0.272,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": false,
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T08:00:13.792Z",
+        "kalshi": {
+          "ticker": "KXNFLCAREERRSHYDS-DHENRY-18000",
+          "eventTicker": null,
+          "marketTitle": "Derrick Henry: 18,000+ Rushing Yards",
+          "rulesPrimary": "If Derrick Henry records at least 18,000 career regular season rushing yards before Derrick Henry or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+          "rulesSecondary": "The market resolves to Yes if Derrick Henry records at least 18,000 career regular season rushing yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
+          "closeTime": "2040-03-08T15:00:00.000Z",
+          "ruleSha256": "5e774bfe14a9d4ae2bf1f0100ed400df61a5da5b727108a262b9d8932589c373"
+        },
+        "polymarket": {
+          "id": "3959677",
+          "eventId": null,
+          "question": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
+          "description": "This market will resolve to \"Yes\" if the number of rushing yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many rushing yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2027-01-27T04:59:00.000Z",
+          "ruleSha256": "6676d6e21537db5c5740f4d303ceed4c2f8f28a065fcdbd8163cfadab8ac9116",
+          "conditionId": "0xbec8e1e3aec9b465d3cae2374efc4306fc168b10f17f62464434040b9a6c953c"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE",
+          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "evidenceRefreshStatus": "REFRESHED"
+    },
+    {
+      "category": "sports",
+      "kalshiTicker": "KXNFLCAREERRECYDS-MEVANS-15000",
+      "polymarketId": "3959741",
+      "kalshiTitle": "Mike Evans: 15,000+ Receiving Yards",
+      "polymarketTitle": "Will Mike Evans have 1,000+ receiving yards in the 2026-27 NFL regular season?",
+      "kalshiEvent": "Mike Evans Career Regular Season Receiving Yards",
+      "polymarketEvent": "Pro Football: 2026-27 1,000+ Receiving Yards",
+      "kalshiRules": "If Mike Evans records at least 15,000 career regular season receiving yards before Mike Evans or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+      "polymarketRules": "This market will resolve to \"Yes\" if the number of receiving yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many receiving yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+      "kalshiClose": "2040-03-08",
+      "polymarketEnd": "2027-01-27",
+      "differentEndDates": true,
+      "ruleConflicts": [],
+      "reviewScore": 0.272,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": false,
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T08:00:14.231Z",
+        "kalshi": {
+          "ticker": "KXNFLCAREERRECYDS-MEVANS-15000",
+          "eventTicker": null,
+          "marketTitle": "Mike Evans: 15,000+ Receiving Yards",
+          "rulesPrimary": "If Mike Evans records at least 15,000 career regular season receiving yards before Mike Evans or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+          "rulesSecondary": "The market resolves to Yes if Mike Evans records at least 15,000 career regular season receiving yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
+          "closeTime": "2040-03-08T15:00:00.000Z",
+          "ruleSha256": "4becf680bb51d363a9a323f96119ed43b16d1ff99af975e10921b8fad01778f7"
+        },
+        "polymarket": {
+          "id": "3959741",
+          "eventId": null,
+          "question": "Will Mike Evans have 1,000+ receiving yards in the 2026-27 NFL regular season?",
+          "description": "This market will resolve to \"Yes\" if the number of receiving yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many receiving yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2027-01-27T04:59:00.000Z",
+          "ruleSha256": "b05400ea6c544a8bde4aeeda16d00104d257594b0e06e9fa79e81d3f17ec1f86",
+          "conditionId": "0xe55d529265d7a6dd3b7fc132092f8eee212995cd1f46fa3c04e3a6bc28ea50b2"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE",
+          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "evidenceRefreshStatus": "REFRESHED"
+    },
+    {
+      "category": "sports",
+      "kalshiTicker": "KXNFLCAREERRECYDS-MEVANS-16000",
+      "polymarketId": "3959741",
+      "kalshiTitle": "Mike Evans: 16,000+ Receiving Yards",
+      "polymarketTitle": "Will Mike Evans have 1,000+ receiving yards in the 2026-27 NFL regular season?",
+      "kalshiEvent": "Mike Evans Career Regular Season Receiving Yards",
+      "polymarketEvent": "Pro Football: 2026-27 1,000+ Receiving Yards",
+      "kalshiRules": "If Mike Evans records at least 16,000 career regular season receiving yards before Mike Evans or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+      "polymarketRules": "This market will resolve to \"Yes\" if the number of receiving yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many receiving yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+      "kalshiClose": "2040-03-08",
+      "polymarketEnd": "2027-01-27",
+      "differentEndDates": true,
+      "ruleConflicts": [],
+      "reviewScore": 0.272,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": false,
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T08:00:14.668Z",
+        "kalshi": {
+          "ticker": "KXNFLCAREERRECYDS-MEVANS-16000",
+          "eventTicker": null,
+          "marketTitle": "Mike Evans: 16,000+ Receiving Yards",
+          "rulesPrimary": "If Mike Evans records at least 16,000 career regular season receiving yards before Mike Evans or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+          "rulesSecondary": "The market resolves to Yes if Mike Evans records at least 16,000 career regular season receiving yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
+          "closeTime": "2040-03-08T15:00:00.000Z",
+          "ruleSha256": "37ba1b29d45debf569bc908879fe057d56098f9f858a9ba56528ac10d49ec250"
+        },
+        "polymarket": {
+          "id": "3959741",
+          "eventId": null,
+          "question": "Will Mike Evans have 1,000+ receiving yards in the 2026-27 NFL regular season?",
+          "description": "This market will resolve to \"Yes\" if the number of receiving yards the listed player records during the 2026-27 NFL regular season equals or exceeds 1,000. Otherwise, the associated market will resolve to \"No\".\n\nOnly regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined how many receiving yards the listed player recorded within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2027-01-27T04:59:00.000Z",
+          "ruleSha256": "b05400ea6c544a8bde4aeeda16d00104d257594b0e06e9fa79e81d3f17ec1f86",
+          "conditionId": "0xe55d529265d7a6dd3b7fc132092f8eee212995cd1f46fa3c04e3a6bc28ea50b2"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE",
+          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "evidenceRefreshStatus": "REFRESHED"
+    },
     {
       "category": "politics",
       "kalshiTicker": "SENATENH-28-R",
@@ -25,7 +514,49 @@
       "ruleConflicts": [],
       "reviewScore": 0.66,
       "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": false,
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T08:00:15.106Z",
+        "kalshi": {
+          "ticker": "SENATENH-28-R",
+          "eventTicker": null,
+          "marketTitle": "Will Republicans win the Senate race in New Hampshire? ::",
+          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of New Hampshire for the term beginning in 2029, then the market resolves to Yes.",
+          "rulesSecondary": null,
+          "closeTime": "2029-11-07T15:00:00.000Z",
+          "ruleSha256": "75c5fdda5c6334a030cd0401c1c609de35f95ee788bfff9ade7f6686b51d3562"
+        },
+        "polymarket": {
+          "id": "630845",
+          "eventId": null,
+          "question": "Will the Republicans win the New Hampshire Senate race in 2026?",
+          "description": "This market will resolve according to the winner of the 2026 midterm New Hampshire U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2026-11-04T04:59:00.000Z",
+          "ruleSha256": "e7a8afd74a29d281fc9217bd8c5db9ad1b9fa4870b552ade49649533c82a0ee0",
+          "conditionId": "0x57599a84bf50c94b958adb020aa2a25bf02e26453e500d3b739d86e6b783774c"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "evidenceRefreshStatus": "REFRESHED"
     },
     {
       "category": "politics",
@@ -43,7 +574,49 @@
       "ruleConflicts": [],
       "reviewScore": 0.64,
       "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": false,
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T08:00:15.544Z",
+        "kalshi": {
+          "ticker": "SENATEFL-28-R",
+          "eventTicker": null,
+          "marketTitle": "Will Republicans win the Senate race in Florida? ::",
+          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Florida for the term beginning in 2029, then the market resolves to Yes.",
+          "rulesSecondary": null,
+          "closeTime": "2029-11-07T15:00:00.000Z",
+          "ruleSha256": "ad69a2d45d26ca7c07816a5dd1d54118c7284385dd1498feb873b8dd613bc96c"
+        },
+        "polymarket": {
+          "id": "631045",
+          "eventId": null,
+          "question": "Will the Republicans win the Florida Senate race in 2026?",
+          "description": "This market will resolve according to the winner of the 2026 Florida U.S. Senate special election currently scheduled for November 3, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2026-11-04T04:59:00.000Z",
+          "ruleSha256": "abee5a06f7ce6d3ce6e0365565f6b7e600c56cf9949a93677416ee50e7ac7159",
+          "conditionId": "0xe655180a65e17b6959aa722821312de23513cba6c6d2e3a55f47f198977316bf"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "evidenceRefreshStatus": "REFRESHED"
     },
     {
       "category": "politics",
@@ -61,7 +634,49 @@
       "ruleConflicts": [],
       "reviewScore": 0.556,
       "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": false,
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T08:00:15.983Z",
+        "kalshi": {
+          "ticker": "SENATESC-28-R",
+          "eventTicker": null,
+          "marketTitle": "Will Republicans win the Senate race in South Carolina? :: Current incumbent: Tim Scott",
+          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of South Carolina for the term beginning in 2029, then the market resolves to Yes.",
+          "rulesSecondary": null,
+          "closeTime": "2029-11-07T15:00:00.000Z",
+          "ruleSha256": "3df562a76f298a78be5e77e79251b81faddcc1c2d4f289c724da2c28bbf330e4"
+        },
+        "polymarket": {
+          "id": "630925",
+          "eventId": null,
+          "question": "Will the Republicans win the South Carolina Senate race in 2026?",
+          "description": "This market will resolve according to the winner of the 2026 midterm South Carolina U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2026-11-04T04:59:00.000Z",
+          "ruleSha256": "8194e81ff39d309088624af1535c0929e3024d9c65de1ce0e9ad8037b06d0bc4",
+          "conditionId": "0x1c017cbb38a9d0ab233ebb265b25c78290317e6a2470657ca18a73a112397b55"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "evidenceRefreshStatus": "REFRESHED"
     },
     {
       "category": "politics",
@@ -79,7 +694,49 @@
       "ruleConflicts": [],
       "reviewScore": 0.523,
       "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": false,
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T08:00:16.428Z",
+        "kalshi": {
+          "ticker": "SENATEOH-28-R",
+          "eventTicker": null,
+          "marketTitle": "Will Republicans win the Senate race in Ohio? :: Current incumbent: Jon Husted",
+          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Ohio for the term beginning in 2029, then the market resolves to Yes.",
+          "rulesSecondary": null,
+          "closeTime": "2029-11-07T15:00:00.000Z",
+          "ruleSha256": "b1fcaa69f6ea707a68850942d42fd0e6785f77f4d0dd476285556f0ec674528d"
+        },
+        "polymarket": {
+          "id": "631058",
+          "eventId": null,
+          "question": "Will the Republicans win the Ohio Senate race in 2026?",
+          "description": "This market will resolve according to the winner of the 2026 Ohio U.S. Senate special election currently scheduled for November 3, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2026-11-04T04:59:00.000Z",
+          "ruleSha256": "bf934fe9a18e4cb3b4d4ff72edb4834614488d0cd9e91253ce32260c850e2577",
+          "conditionId": "0x771873c365f87bffd990644e4b688aebc1be7f18396d2eab64b996ff66e88669"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "evidenceRefreshStatus": "REFRESHED"
     },
     {
       "category": "politics",
@@ -97,7 +754,49 @@
       "ruleConflicts": [],
       "reviewScore": 0.523,
       "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": false,
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T08:00:16.864Z",
+        "kalshi": {
+          "ticker": "SENATEKS-28-R",
+          "eventTicker": null,
+          "marketTitle": "Will Republicans win the Senate race in Kansas? :: Current incumbent: Jerry Moran",
+          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Kansas for the term beginning in 2029, then the market resolves to Yes.",
+          "rulesSecondary": null,
+          "closeTime": "2029-11-07T15:00:00.000Z",
+          "ruleSha256": "ade3a8e4e968a8e99a0812c12f8c6ae276a5577dcb596b6e1cbad211275d4008"
+        },
+        "polymarket": {
+          "id": "630747",
+          "eventId": null,
+          "question": "Will the Republicans win the Kansas Senate race in 2026?",
+          "description": "This market will resolve according to the winner of the 2026 midterm Kansas U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2026-11-04T04:59:00.000Z",
+          "ruleSha256": "cdb2e7fff6164951e1b9f0ec72defaf528faf96055962f00348d20fee341e737",
+          "conditionId": "0xb8b5349814450b8bba2ecdda2eeb9f48bd3c795bfb858bedf7a383712b877743"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "evidenceRefreshStatus": "REFRESHED"
     },
     {
       "category": "politics",
@@ -115,7 +814,49 @@
       "ruleConflicts": [],
       "reviewScore": 0.523,
       "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": false,
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T08:00:17.305Z",
+        "kalshi": {
+          "ticker": "SENATEID-28-R",
+          "eventTicker": null,
+          "marketTitle": "Will Republicans win the Senate race in Idaho? :: Current incumbent: Mike Crapo",
+          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Idaho for the term beginning in 2029, then the market resolves to Yes.",
+          "rulesSecondary": null,
+          "closeTime": "2029-11-07T15:00:00.000Z",
+          "ruleSha256": "955da553ba33ea6e35a998a9956118bb0f4d2283d3c68a3b85a18f03f121b5e4"
+        },
+        "polymarket": {
+          "id": "630706",
+          "eventId": null,
+          "question": "Will the Republicans win the Idaho Senate race in 2026?",
+          "description": "This market will resolve according to the winner of the 2026 midterm Idaho U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2026-11-04T04:59:00.000Z",
+          "ruleSha256": "555fa2d3e564887bae977251e7561e3adc185578280884313fa9e83f26361dfe",
+          "conditionId": "0x22e986868fae24a9e7b6fff86e063cc90843c85c4a9dd65b2628bbf5663997c7"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "evidenceRefreshStatus": "REFRESHED"
     },
     {
       "category": "politics",
@@ -133,7 +874,49 @@
       "ruleConflicts": [],
       "reviewScore": 0.523,
       "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": false,
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T08:00:17.744Z",
+        "kalshi": {
+          "ticker": "SENATEIA-28-R",
+          "eventTicker": null,
+          "marketTitle": "Will Republicans win the Senate race in Iowa? :: Current incumbent: Chuck Grassley",
+          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of Iowa for the term beginning in 2029, then the market resolves to Yes.",
+          "rulesSecondary": null,
+          "closeTime": "2029-11-07T15:00:00.000Z",
+          "ruleSha256": "4a7c827b70652375c2454b50fe415e079dc2811d3e535442732a401fac563ec9"
+        },
+        "polymarket": {
+          "id": "630734",
+          "eventId": null,
+          "question": "Will the Republicans win the Iowa Senate race in 2026?",
+          "description": "This market will resolve according to the winner of the 2026 midterm Iowa U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2026-11-04T04:59:00.000Z",
+          "ruleSha256": "58f62beb03999f98d3f056b12e6586ee5b82454aec960a937df5c4d4728e0d59",
+          "conditionId": "0x38a1025bfc56539ed1ff8fdd468283d55cf9002412decd61aa8d6c578c7d01a2"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "evidenceRefreshStatus": "REFRESHED"
     },
     {
       "category": "politics",
@@ -151,7 +934,49 @@
       "ruleConflicts": [],
       "reviewScore": 0.463,
       "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": false,
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T08:00:18.182Z",
+        "kalshi": {
+          "ticker": "KXAOCSENATE-28",
+          "eventTicker": null,
+          "marketTitle": "Will Alexandria Ocasio-Cortez run for Senate in 2028 before Apr 1, 2028?",
+          "rulesPrimary": "If Alexandria Ocasio-Cortez runs for Senate in 2028 before Apr 1, 2028, then the market resolves to Yes.",
+          "rulesSecondary": "Note: FEC filings alone do not resolve this market to Yes.",
+          "closeTime": "2028-04-01T14:00:00.000Z",
+          "ruleSha256": "100848cbc1acdf43511dde8a31b8765319b77873060c7ce5882d6c0cb231c532"
+        },
+        "polymarket": {
+          "id": "3708349",
+          "eventId": null,
+          "question": "Will Alexandria Ocasio-Cortez run for Senate in 2028?",
+          "description": "This market will resolve based on the office, between United States Senator and President of the United States, that Rep. Alexandria Ocasio-Cortez first officially announces that she is running for in the 2028 election cycle by December 31, 2027, 11:59 PM ET. \n\nAn announcement by the listed individual will be sufficient to resolve this market in favor of the corresponding outcome, regardless of whether they actually filed a nomination to run, or whether they actually file a nomination to run in the future.\n\nA qualifying announcement must be explicit and unambiguous. Conditional statements, or statements that are clearly sarcastic, made in jest, or immediately clarified as not being genuine will not count.\n\nThe formation of an exploratory committee, or a statement that she is exploring or considering a run, will not qualify, nor will any filing that is not accompanied by an announcement. \n\nIf the listed individual does not announce that she is running for either listed office by December 31, 2027 at 11:59PM ET, this market will resolve to \"Neither\". An announcement of a run for the US House of Representatives will not be relevant for purposes of this market. \n\nThe primary resolution source for this market will be official statements by the listed individual (ex: via speech, social media, etc.), however a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2027-12-31T23:59:00.000Z",
+          "ruleSha256": "4f80e3e14073009bc23863be3095c7250d133de2b75b314f2395cf9c35583092",
+          "conditionId": "0xc45a45f69c812ce413bff2243fbf0bf6b2ac27d24556f3ad4fd61c6a26e68349"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "evidenceRefreshStatus": "REFRESHED"
     },
     {
       "category": "other",
@@ -169,7 +994,49 @@
       "ruleConflicts": [],
       "reviewScore": 0.437,
       "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": false,
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T08:00:18.729Z",
+        "kalshi": {
+          "ticker": "KXDCMORATORIUMSTATES-28-LA",
+          "eventTicker": null,
+          "marketTitle": "Will Louisiana enact a data center moratorium before 2028?",
+          "rulesPrimary": "If a data center moratorium is enacted in Louisiana before Jan 1, 2028, then the market resolves to Yes.",
+          "rulesSecondary": "A data center moratorium is a legally binding state action, such as a statute, executive order, regulation, or agency or utility-commission order, that categorically prohibits or suspends at least one approval, permit, utility interconnection, or other pathway that new or expanded data centers need to proceed.\n\nIt must apply throughout the state, not only in particular localities or regions. A utility-commission order counts if it covers every utility the commission regulates. It may cover only a defined class of data centers, such as by power demand, water use, size, or new versus expanded status, and may exempt existing facilities, approved projects, or applications past a specified stage. It need not be called a moratorium, and a permanent prohibition also qualifies.\n\nIt counts once it is operative and mandatory for the agencies, regulators, or utilities responsible for the affected pathway, even if it later expires, is repealed, or is enjoined.\n\nThe following do NOT qualify:\n\nHolds or denials affecting a single project or developer\nRestrictions on the sale, lease, or other disposition of state-owned property\nChanges to tax exemptions, subsidies, or other financial incentives\nStudies, reports, task forces, or nonbinding requests\nNew requirements that a project can proceed by satisfying\nMeasures that only slow or add review to applications",
+          "closeTime": "2028-01-01T04:59:00.000Z",
+          "ruleSha256": "02ddb3935259b21222ff38e6eeaa097902e78dfa2277a314275d864077ebac91"
+        },
+        "polymarket": {
+          "id": "5179176",
+          "eventId": null,
+          "question": "Will Louisiana enact a data center moratorium by December 31, 2028?",
+          "description": "This market will resolve to \"Yes\" if the State of Louisiana enacts a law or constitutional provision that establishes a statewide moratorium on new data centers between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA statewide moratorium on new data centers refers to a binding policy with legal force that generally prohibits or suspends the approval, permitting, construction, grid interconnection, or operation of all new data centers, or a subset of data centers that includes all new data centers with an interconnection capacity above 100 MW per facility (requested or nameplate), throughout the state. Suspensions of tax incentives, exemption certifications, or economic development awards alone will not qualify, nor will a moratorium adopted by a local government or limited to part of the state. Specific exemptions (e.g., for specified applications, executed agreements, or interconnection requests) do not prevent a measure from generally applying to all new data centers, or a qualifying subset of new data centers, provided that data center approval, permitting, construction, grid interconnection, or operation is prohibited by default, rather than permitted subject to conditions or restrictions. Conditions on the resumption or termination of a suspension do not make a measure one that permits subject to conditions; a measure that suspends approvals, permitting, construction, or interconnection until a specified condition is satisfied qualifies.\n\nEnactment occurs when a bill becomes law under the state's constitution and laws, whether by gubernatorial signature, veto override, becoming law without signature, approval at a statewide referendum election, or any other legal mechanism by which statutes can be enacted. For an initiated or referred statute or constitutional amendment, or other voter referendum, the relevant law is considered to have been enacted on the election day on which it was approved, as reflected in the certified results, regardless of when the measure is certified or takes effect. Passage by one or both chambers, or a Governor's announced intent to sign, is not enactment.\n\nExecutive orders, agency orders, and other measures which are not statutory or constitutional do not qualify as enactment regardless of legal force. A provision removed by line-item veto is not enacted unless the veto is overridden as to that item. The operative text of the measure at enactment controls; provisions amended out before enactment do not qualify.\n\nThe moratorium provision must be mandatory on its face. A statute that merely authorizes a state agency or the Governor to impose a moratorium at their discretion does not qualify. A statute that directs suspension of approvals or interconnection upon a specified condition qualifies only if the condition is objectively determinable and is not deferred to be determined by the implementing agency's findings, certifications, or completion of its own proceedings.\n\nThis market resolves based on the date of enactment, not the effective date. Resolution will not be affected by failure to implement a law, judicial invalidation, repeal, or expiry that follows a relevant enactment, or an effective date that comes after the date of enactment.\n\nThe primary resolution source will be official information from the state government of Louisiana; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2029-01-01T04:59:00.000Z",
+          "ruleSha256": "d9f5ca8da6f76586b10b2e19313d12fb9e1f1f61e2433daf0be8adca4b3b84be",
+          "conditionId": "0xac589acdb3583b37429b9a0413bda570950e523103868a43f3136011fe5fd084"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "evidenceRefreshStatus": "REFRESHED"
     },
     {
       "category": "other",
@@ -187,11 +1054,121 @@
       "ruleConflicts": [],
       "reviewScore": 0.437,
       "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
-      "approved": false
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": false,
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T08:00:19.291Z",
+        "kalshi": {
+          "ticker": "KXDCMORATORIUMSTATES-28-MO",
+          "eventTicker": null,
+          "marketTitle": "Will Missouri enact a data center moratorium before 2028?",
+          "rulesPrimary": "If a data center moratorium is enacted in Missouri before Jan 1, 2028, then the market resolves to Yes.",
+          "rulesSecondary": "A data center moratorium is a legally binding state action, such as a statute, executive order, regulation, or agency or utility-commission order, that categorically prohibits or suspends at least one approval, permit, utility interconnection, or other pathway that new or expanded data centers need to proceed.\n\nIt must apply throughout the state, not only in particular localities or regions. A utility-commission order counts if it covers every utility the commission regulates. It may cover only a defined class of data centers, such as by power demand, water use, size, or new versus expanded status, and may exempt existing facilities, approved projects, or applications past a specified stage. It need not be called a moratorium, and a permanent prohibition also qualifies.\n\nIt counts once it is operative and mandatory for the agencies, regulators, or utilities responsible for the affected pathway, even if it later expires, is repealed, or is enjoined.\n\nThe following do NOT qualify:\n\nHolds or denials affecting a single project or developer\nRestrictions on the sale, lease, or other disposition of state-owned property\nChanges to tax exemptions, subsidies, or other financial incentives\nStudies, reports, task forces, or nonbinding requests\nNew requirements that a project can proceed by satisfying\nMeasures that only slow or add review to applications",
+          "closeTime": "2028-01-01T04:59:00.000Z",
+          "ruleSha256": "598858cf3194db371673585033869bbfb80ecb4297636fb7acad4284e658b8f4"
+        },
+        "polymarket": {
+          "id": "5179177",
+          "eventId": null,
+          "question": "Will Missouri enact a data center moratorium by December 31, 2028?",
+          "description": "This market will resolve to \"Yes\" if the State of Missouri enacts a law or constitutional provision that establishes a statewide moratorium on new data centers between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA statewide moratorium on new data centers refers to a binding policy with legal force that generally prohibits or suspends the approval, permitting, construction, grid interconnection, or operation of all new data centers, or a subset of data centers that includes all new data centers with an interconnection capacity above 100 MW per facility (requested or nameplate), throughout the state. Suspensions of tax incentives, exemption certifications, or economic development awards alone will not qualify, nor will a moratorium adopted by a local government or limited to part of the state. Specific exemptions (e.g., for specified applications, executed agreements, or interconnection requests) do not prevent a measure from generally applying to all new data centers, or a qualifying subset of new data centers, provided that data center approval, permitting, construction, grid interconnection, or operation is prohibited by default, rather than permitted subject to conditions or restrictions. Conditions on the resumption or termination of a suspension do not make a measure one that permits subject to conditions; a measure that suspends approvals, permitting, construction, or interconnection until a specified condition is satisfied qualifies.\n\nEnactment occurs when a bill becomes law under the state's constitution and laws, whether by gubernatorial signature, veto override, becoming law without signature, approval at a statewide referendum election, or any other legal mechanism by which statutes can be enacted. For an initiated or referred statute or constitutional amendment, or other voter referendum, the relevant law is considered to have been enacted on the election day on which it was approved, as reflected in the certified results, regardless of when the measure is certified or takes effect. Passage by one or both chambers, or a Governor's announced intent to sign, is not enactment.\n\nExecutive orders, agency orders, and other measures which are not statutory or constitutional do not qualify as enactment regardless of legal force. A provision removed by line-item veto is not enacted unless the veto is overridden as to that item. The operative text of the measure at enactment controls; provisions amended out before enactment do not qualify.\n\nThe moratorium provision must be mandatory on its face. A statute that merely authorizes a state agency or the Governor to impose a moratorium at their discretion does not qualify. A statute that directs suspension of approvals or interconnection upon a specified condition qualifies only if the condition is objectively determinable and is not deferred to be determined by the implementing agency's findings, certifications, or completion of its own proceedings.\n\nThis market resolves based on the date of enactment, not the effective date. Resolution will not be affected by failure to implement a law, judicial invalidation, repeal, or expiry that follows a relevant enactment, or an effective date that comes after the date of enactment.\n\nThe primary resolution source will be official information from the state government of Missouri; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2029-01-01T04:59:00.000Z",
+          "ruleSha256": "a30267c967469d5b636d2114e83654697f4128fd2ef2135d8b113c5445c4a831",
+          "conditionId": "0x7b51c54dd98817ae9d733a8f3262801be9e4255069aec460d1236a82a3fa9c28"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "evidenceRefreshStatus": "REFRESHED"
+    },
+    {
+      "category": "other",
+      "kalshiTicker": "KXDCMORATORIUMSTATES-28-OK",
+      "polymarketId": "5179175",
+      "kalshiTitle": "Will Oklahoma enact a data center moratorium before 2028?",
+      "polymarketTitle": "Will Oklahoma enact a data center moratorium by December 31, 2028?",
+      "kalshiEvent": "Which states will enact data center moratoriums before 2028?",
+      "polymarketEvent": "Oklahoma enacts data center moratorium by...?",
+      "kalshiRules": "If a data center moratorium is enacted in Oklahoma before Jan 1, 2028, then the market resolves to Yes.",
+      "polymarketRules": "This market will resolve to \"Yes\" if the State of Oklahoma enacts a law or constitutional provision that establishes a statewide moratorium on new data centers between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA statewide moratorium on new data centers refers to a binding policy with legal force that generally prohibits or suspends the approval, permitting, construction, grid interconnection, or operation of all new data centers, or a subset of data centers that includes all new data centers with an interconnection capacity above 100 MW per facility (requested or nameplate), throughout the state. Suspensions of tax incentives, exemption certifications, or economic development awards alone will not qualify, nor will a moratorium adopted by a local government or limited to part of the state. Specific exemptions (e.g., for specified applications, executed agreements, or interconnection requests) do not prevent a measure from generally applying to all new data centers, or a qualifying subset of new data centers, provided that data center approval, permitting, construction, grid interconnection, or operation is prohibited by default, rather than permitted subject to conditions or restrictions. Conditions on the resumption or termination of a suspension do not make a measure one that permits subject to conditions; a measure that suspends approvals, permitting, construction, or interconnection until a specified condition is satisfied qualifies.\n\nEnactment occurs when a bill becomes law under the state's constitution and laws, whether by gubernatorial signature, veto override, becoming law without signature, approval at a statewide referendum election, or any other legal mechanism by which statutes can be enacted. For an initiated or referred statute or constitutional amendment, or other voter referendum, the relevant law is considered to have been enacted on the election day on which it was approved, as reflected in the certified results, regardless of when the measure is certified or takes effect. Passage by one or both chambers, or a Governor's announced intent to sign, is not enactment.\n\nExecutive orders, agency orders, and other measures which are not statutory or constitutional do not qualify as enactment regardless of legal force. A provision removed by line-item veto is not enacted unless the veto is overridden as to that item. The operative text of the measure at enactment controls; provisions amended out before enactment do not qualify.\n\nThe moratorium provision must be mandatory on its face. A statute that merely authorizes a state agency or the Governor to impose a moratorium at their discretion does not qualify. A statute that directs suspension of approvals or interconnection upon a specified condition qualifies only if the condition is objectively determinable and is not deferred to be determined by the implementing agency's findings, certifications, or completion of its own proceedings.\n\nThis market resolves based on the date of enactment, not the effective date. Resolution will not be affected by failure to implement a law, judicial invalidation, repeal, or expiry that follows a relevant enactment, or an effective date that comes after the date of enactment.\n\nThe primary resolution source will be official information from the state government of Oklahoma; however, a consensus of credible reporting may also be used.",
+      "kalshiClose": "2028-01-01",
+      "polymarketEnd": "2029-01-01",
+      "differentEndDates": true,
+      "ruleConflicts": [],
+      "reviewScore": 0.437,
+      "status": "MANUAL_SETTLEMENT_REVIEW_REQUIRED",
+      "approved": false,
+      "executable": false,
+      "evidenceChanged": false,
+      "ruleEvidence": {
+        "fetchedAt": "2026-10-21T08:00:19.731Z",
+        "kalshi": {
+          "ticker": "KXDCMORATORIUMSTATES-28-OK",
+          "eventTicker": null,
+          "marketTitle": "Will Oklahoma enact a data center moratorium before 2028?",
+          "rulesPrimary": "If a data center moratorium is enacted in Oklahoma before Jan 1, 2028, then the market resolves to Yes.",
+          "rulesSecondary": "A data center moratorium is a legally binding state action, such as a statute, executive order, regulation, or agency or utility-commission order, that categorically prohibits or suspends at least one approval, permit, utility interconnection, or other pathway that new or expanded data centers need to proceed.\n\nIt must apply throughout the state, not only in particular localities or regions. A utility-commission order counts if it covers every utility the commission regulates. It may cover only a defined class of data centers, such as by power demand, water use, size, or new versus expanded status, and may exempt existing facilities, approved projects, or applications past a specified stage. It need not be called a moratorium, and a permanent prohibition also qualifies.\n\nIt counts once it is operative and mandatory for the agencies, regulators, or utilities responsible for the affected pathway, even if it later expires, is repealed, or is enjoined.\n\nThe following do NOT qualify:\n\nHolds or denials affecting a single project or developer\nRestrictions on the sale, lease, or other disposition of state-owned property\nChanges to tax exemptions, subsidies, or other financial incentives\nStudies, reports, task forces, or nonbinding requests\nNew requirements that a project can proceed by satisfying\nMeasures that only slow or add review to applications",
+          "closeTime": "2028-01-01T04:59:00.000Z",
+          "ruleSha256": "b908d8f5ed90e40d6223c13fff1b0f2d4538c32fef6ddab51f7781fcf238e47b"
+        },
+        "polymarket": {
+          "id": "5179175",
+          "eventId": null,
+          "question": "Will Oklahoma enact a data center moratorium by December 31, 2028?",
+          "description": "This market will resolve to \"Yes\" if the State of Oklahoma enacts a law or constitutional provision that establishes a statewide moratorium on new data centers between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA statewide moratorium on new data centers refers to a binding policy with legal force that generally prohibits or suspends the approval, permitting, construction, grid interconnection, or operation of all new data centers, or a subset of data centers that includes all new data centers with an interconnection capacity above 100 MW per facility (requested or nameplate), throughout the state. Suspensions of tax incentives, exemption certifications, or economic development awards alone will not qualify, nor will a moratorium adopted by a local government or limited to part of the state. Specific exemptions (e.g., for specified applications, executed agreements, or interconnection requests) do not prevent a measure from generally applying to all new data centers, or a qualifying subset of new data centers, provided that data center approval, permitting, construction, grid interconnection, or operation is prohibited by default, rather than permitted subject to conditions or restrictions. Conditions on the resumption or termination of a suspension do not make a measure one that permits subject to conditions; a measure that suspends approvals, permitting, construction, or interconnection until a specified condition is satisfied qualifies.\n\nEnactment occurs when a bill becomes law under the state's constitution and laws, whether by gubernatorial signature, veto override, becoming law without signature, approval at a statewide referendum election, or any other legal mechanism by which statutes can be enacted. For an initiated or referred statute or constitutional amendment, or other voter referendum, the relevant law is considered to have been enacted on the election day on which it was approved, as reflected in the certified results, regardless of when the measure is certified or takes effect. Passage by one or both chambers, or a Governor's announced intent to sign, is not enactment.\n\nExecutive orders, agency orders, and other measures which are not statutory or constitutional do not qualify as enactment regardless of legal force. A provision removed by line-item veto is not enacted unless the veto is overridden as to that item. The operative text of the measure at enactment controls; provisions amended out before enactment do not qualify.\n\nThe moratorium provision must be mandatory on its face. A statute that merely authorizes a state agency or the Governor to impose a moratorium at their discretion does not qualify. A statute that directs suspension of approvals or interconnection upon a specified condition qualifies only if the condition is objectively determinable and is not deferred to be determined by the implementing agency's findings, certifications, or completion of its own proceedings.\n\nThis market resolves based on the date of enactment, not the effective date. Resolution will not be affected by failure to implement a law, judicial invalidation, repeal, or expiry that follows a relevant enactment, or an effective date that comes after the date of enactment.\n\nThe primary resolution source will be official information from the state government of Oklahoma; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2029-01-01T04:59:00.000Z",
+          "ruleSha256": "53ac31cbb076be953fa5c421f866861e570851defafdee4b15a9d61efcad586f",
+          "conditionId": "0x33142532adccf2b77c8e11fa6517d632d4d12aa363bdd61d74765a2c6f3a1797"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "evidenceRefreshStatus": "REFRESHED"
     }
   ],
   "notes": [
     "No candidate is auto-approved.",
     "Review complete contract rules, deadlines, void/cancellation behavior and identifiers before adding to approved-pairs.json."
-  ]
+  ],
+  "refreshedAt": "2026-10-21T08:00:19.931Z",
+  "evidenceRefresh": {
+    "attempted": 19,
+    "successful": 19,
+    "changed": 0,
+    "failed": 0,
+    "errors": []
+  }
 }
