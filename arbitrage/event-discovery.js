@@ -395,6 +395,16 @@ async function collect(){
    }
   }
  }
+ // Preserve pre-review discovery candidates independently from the capped review queue.
+ // This archive is never approved or executable, even when an AI suggests equivalence.
+ const discoveryArchive={timestamp:report.timestamp,status:"UNVERIFIED_DISCOVERY",total:pool.length,
+  candidates:pool.slice(0,Math.max(100,Math.min(10000,Number(process.env.ARB_DISCOVERY_ARCHIVE_CAP??5000)))).map(x=>({
+   kalshiTicker:x.kalshi.ticker,polymarketId:x.polymarket.id,kalshiTitle:x.kalshi.title,
+   polymarketTitle:x.polymarket.title,category:x.category,discoverySource:x.discoverySource,
+   score:x.contractScore,approved:false,executable:false,settlementVerified:false
+  }))};
+ await writeFile(process.env.ARB_DISCOVERY_ARCHIVE??"arbitrage-discovery-archive.json",JSON.stringify(discoveryArchive,null,2)+"\\n");
+ report.counts.discoveryArchive={total:discoveryArchive.total,saved:discoveryArchive.candidates.length};
  report.counts.eligibleCandidatePool=pool.length;
  report.counts.eligibleDistinctKalshiMarkets=new Set(pool.map(x=>x.kalshi.ticker)).size;
  report.counts.eligibleDistinctPolymarketMarkets=new Set(pool.map(x=>x.polymarket.id)).size;
