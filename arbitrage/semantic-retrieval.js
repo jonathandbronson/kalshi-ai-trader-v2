@@ -2,7 +2,7 @@
 // Offline fallback uses character n-gram TF-IDF; it is NOT a neural embedding.
 // No network requests, credentials, trading or settlement approval.
 import {createHash} from "node:crypto";
-import {readFile,writeFile} from "node:fs/promises";
+import {readFile} from "node:fs/promises";
 const normalize=s=>String(s??"").toLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g," ").replace(/\s+/g," ").trim();
 export const marketText=(market,event)=>[market.question??market.title,market.subtitle??"",event?.title??""].filter(Boolean).join(" ");
 export const marketId=(venue,market)=>venue+":"+String(market.ticker??market.id);
@@ -11,7 +11,8 @@ function grams(s){const t="  "+normalize(s)+"  ",v=new Map();for(let i=0;i<t.len
 const cosine=(a,b)=>{let dot=0,aa=0,bb=0;for(const x of a.values())aa+=x*x;for(const x of b.values())bb+=x*x;for(const [k,v] of a)dot+=v*(b.get(k)??0);return aa&&bb?dot/Math.sqrt(aa*bb):0};
 export function lexicalSemanticCandidates(kalshiEvents,polymarketEvents,{limit=120,minScore=.46,perKalshi=3,maxPostings=250}={}){
  const build=(events,venue)=>events.flatMap(event=>(event.markets??[]).filter(m=>m.ticker||m.id).map(m=>({venue,event,market:m,id:marketId(venue,m),text:marketText(m,event)}))).filter(x=>x.text.length>=8);
- const kalshi=build(kalshiEvents,"kalshi"),poly=build(polymarketEvents,"polymarket");
+ const kalshi=build(kalshiEvents,"kalshi").slice(0,Math.max(1,Math.min(6000,Number(process.env.ARB_SEMANTIC_KALSHI_CAP??2500))));
+ const poly=build(polymarketEvents,"polymarket").slice(0,Math.max(1,Math.min(8000,Number(process.env.ARB_SEMANTIC_POLY_CAP??3500))));
  const df=new Map(),polyGrams=poly.map(x=>grams(x.text)),kGrams=kalshi.map(x=>grams(x.text));
  for(const v of [...kGrams,...polyGrams])for(const g of v.keys())df.set(g,(df.get(g)??0)+1);
  const n=kalshi.length+poly.length,weight=v=>new Map([...v].map(([g,count])=>[g,(1+Math.log(count))*(1+Math.log((n+1)/((df.get(g)??0)+1)))]));
