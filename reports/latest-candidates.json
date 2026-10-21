@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T16:06:27.477Z",
+  "timestamp": "2026-10-21T16:07:58.222Z",
   "mode": "READ_ONLY_DISCOVERY",
   "autoApproved": 0,
   "verifiedPairs": 0,
@@ -12,7 +12,7 @@
     "kalshiSingleOutcomeMarkets": 1297,
     "kalshiMarkets": 1297,
     "polymarketMarkets": 2000,
-    "polymarketBinaryMarkets": 1628,
+    "polymarketBinaryMarkets": 1618,
     "titleCandidates": 0,
     "contractTypePolicy": "strict_same_kind",
     "kalshiPagesRequested": 20,
@@ -25,24 +25,24 @@
   "samples": {
     "kalshi": [
       {
-        "title": "Will the S&P 500 be above $7753.00 at Oct 21, 2026 at 1pm EDT?",
+        "title": "Full Game: Over 66.5 points scored",
         "subtitle": "",
-        "ticker": "KXINXHUD-26OCT211300-T7753.00"
+        "ticker": "KXNCAAFTOTAL-26OCT24UNHMRMK-67"
       },
       {
-        "title": "Will the NASDAQ-100 be above $29858.69 at Oct 21, 2026 at 1pm EDT?",
+        "title": "Full Game: Over 62.5 points scored",
         "subtitle": "",
-        "ticker": "KXNDQHUD-26OCT211300-T29858.69"
+        "ticker": "KXNCAAFTOTAL-26OCT24UNHMRMK-63"
       },
       {
-        "title": "Will the temp in Coastal Los Angeles be above 74.99° on Oct 21, 2026 at 1pm EDT?",
+        "title": "Full Game: Over 58.5 points scored",
         "subtitle": "",
-        "ticker": "KXTEMPLAXHS-26OCT2113-T74.99"
+        "ticker": "KXNCAAFTOTAL-26OCT24UNHMRMK-59"
       },
       {
-        "title": "Will the temp in Coastal Los Angeles be above 73.99° on Oct 21, 2026 at 1pm EDT?",
+        "title": "Full Game: Over 54.5 points scored",
         "subtitle": "",
-        "ticker": "KXTEMPLAXHS-26OCT2113-T73.99"
+        "ticker": "KXNCAAFTOTAL-26OCT24UNHMRMK-55"
       }
     ],
     "polymarket": [
