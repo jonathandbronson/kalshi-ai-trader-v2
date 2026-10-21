@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "timestamp": "2026-10-21T08:02:44.837Z",
+  "timestamp": "2026-10-21T16:07:33.938Z",
   "mode": "RESEARCH_ONLY",
   "counts": {
-    "PENDING_REVIEW": 33,
+    "PENDING_REVIEW": 38,
     "REJECTED": 0,
     "VERIFIED": 0,
     "REVERIFY_REQUIRED": 0
@@ -230,16 +230,128 @@
       "notes": []
     },
     {
+      "id": "KXNFLCAREERPASSYDS-JALLEN-35000|3959749",
+      "kalshiTicker": "KXNFLCAREERPASSYDS-JALLEN-35000",
+      "polymarketId": "3959749",
+      "category": "sports",
+      "firstSeen": "2026-10-21T16:07:33.938Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
+      "kalshiTitle": "Josh Allen: 35,000+ Passing Yards",
+      "polymarketTitle": "Will Josh Allen be the first QB to 2,000 passing yards in the 2026-27 NFL regular season?",
+      "evidence": {
+        "fetchedAt": "2026-10-21T16:07:20.702Z",
+        "kalshi": {
+          "ticker": "KXNFLCAREERPASSYDS-JALLEN-35000",
+          "eventTicker": null,
+          "marketTitle": "Josh Allen: 35,000+ Passing Yards",
+          "rulesPrimary": "If Josh Allen records at least 35,000 career regular season passing yards before Josh Allen or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+          "rulesSecondary": "The market resolves to Yes if Josh Allen records at least 35,000 career regular season passing yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
+          "closeTime": "2040-03-08T15:00:00.000Z",
+          "ruleSha256": "bb1563a2f875e6d48721b7e76483a2aac562954ca8c6b769b986265edf5bbbc7"
+        },
+        "polymarket": {
+          "id": "3959749",
+          "eventId": null,
+          "question": "Will Josh Allen be the first QB to 2,000 passing yards in the 2026-27 NFL regular season?",
+          "description": "This market will resolve to \"Yes\" if the listed player is the first quarterback to reach 2,000 passing yards in the 2026-27 NFL regular season. Otherwise, the associated market will resolve to \"No\".\n\nA player reaches 2,000 passing yards at the moment his cumulative 2026-27 NFL regular season passing yards total equals or exceeds 2,000. Only regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf two or more quarterbacks reach 2,000 passing yards within the same game, or in separate games that have the same scheduled kickoff time, the market for each such player who reaches the mark will resolve to \"Yes\".\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined which quarterback first reached 2,000 passing yards within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2027-01-27T04:59:00.000Z",
+          "ruleSha256": "cbb90992f5d85406dd35dfbdf934000f852b1d8fcaf57327c12567d99ce1abce",
+          "conditionId": "0x8f7f69efcfe0f8b407efa4abbd3777b0f28b4d058930fd61b6a90fff040f53ad"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE",
+          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "review": null,
+      "status": "PENDING_REVIEW",
+      "approved": false,
+      "executable": false,
+      "settlementVerified": false,
+      "notes": []
+    },
+    {
+      "id": "KXNFLCAREERPASSYDS-PMAHOMES-40000|3959770",
+      "kalshiTicker": "KXNFLCAREERPASSYDS-PMAHOMES-40000",
+      "polymarketId": "3959770",
+      "category": "sports",
+      "firstSeen": "2026-10-21T16:07:33.938Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
+      "kalshiTitle": "Patrick Mahomes: 40,000+ Passing Yards",
+      "polymarketTitle": "Will Patrick Mahomes be the first QB to 2,000 passing yards in the 2026-27 NFL regular season?",
+      "evidence": {
+        "fetchedAt": "2026-10-21T16:07:20.054Z",
+        "kalshi": {
+          "ticker": "KXNFLCAREERPASSYDS-PMAHOMES-40000",
+          "eventTicker": null,
+          "marketTitle": "Patrick Mahomes: 40,000+ Passing Yards",
+          "rulesPrimary": "If Patrick Mahomes records at least 40,000 career regular season passing yards before Patrick Mahomes or any of the Source Agencies formally announce his retirement from Pro Football, then the market resolves to Yes.",
+          "rulesSecondary": "The market resolves to Yes if Patrick Mahomes records at least 40,000 career regular season passing yards before he or any of the Source Agencies formally announce his retirement from Pro Football.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the NFL. All trademarks, logos, and brand names are the property of their respective owners.",
+          "closeTime": "2040-03-08T15:00:00.000Z",
+          "ruleSha256": "742ab4e591b1ca17f2b7fd7f78404053ff1b445f0a435d3bcc7fc389ad4349a9"
+        },
+        "polymarket": {
+          "id": "3959770",
+          "eventId": null,
+          "question": "Will Patrick Mahomes be the first QB to 2,000 passing yards in the 2026-27 NFL regular season?",
+          "description": "This market will resolve to \"Yes\" if the listed player is the first quarterback to reach 2,000 passing yards in the 2026-27 NFL regular season. Otherwise, the associated market will resolve to \"No\".\n\nA player reaches 2,000 passing yards at the moment his cumulative 2026-27 NFL regular season passing yards total equals or exceeds 2,000. Only regular season games count. Playoff games, including Wild Card, Divisional, Conference Championship, and Pro Football Championship games, do not count.\n\nIf two or more quarterbacks reach 2,000 passing yards within the same game, or in separate games that have the same scheduled kickoff time, the market for each such player who reaches the mark will resolve to \"Yes\".\n\nIf the listed player does not play in the 2026-27 NFL regular season for any reason, the associated market will resolve to \"No\".\n\nIf the 2026-27 NFL regular season is shortened, truncated, or ends early for any reason, the outcome shall be determined using available official data for completed games.\n\nIf the 2026-27 NFL regular season is cancelled, postponed after January 26, 2027, 11:59 PM ET, or it cannot be determined which quarterback first reached 2,000 passing yards within that timeframe, this market will resolve to \"50-50\".\n\nThe resolution source for this market will be official information from the NFL; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2027-01-27T04:59:00.000Z",
+          "ruleSha256": "cbb90992f5d85406dd35dfbdf934000f852b1d8fcaf57327c12567d99ce1abce",
+          "conditionId": "0x7bde86c229cc65654df6a49d8d867888bd1bad6485a32f101b9e0fcf82b71e73"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE",
+          "SPECIAL_VOID_OR_POSTPONEMENT_REVIEW"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "review": null,
+      "status": "PENDING_REVIEW",
+      "approved": false,
+      "executable": false,
+      "settlementVerified": false,
+      "notes": []
+    },
+    {
       "id": "KXNFLCAREERRECYDS-MEVANS-14000|3959741",
       "kalshiTicker": "KXNFLCAREERRECYDS-MEVANS-14000",
       "polymarketId": "3959741",
       "category": "sports",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
       "kalshiTitle": "Mike Evans: 14,000+ Receiving Yards",
       "polymarketTitle": "Will Mike Evans have 1,000+ receiving yards in the 2026-27 NFL regular season?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:02:33.721Z",
+        "fetchedAt": "2026-10-21T16:07:21.845Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-14000",
           "eventTicker": null,
@@ -403,11 +515,11 @@
       "polymarketId": "3959677",
       "category": "sports",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
       "kalshiTitle": "Derrick Henry: 14,000+ Rushing Yards",
       "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:02:33.195Z",
+        "fetchedAt": "2026-10-21T16:07:21.194Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-14000",
           "eventTicker": null,
@@ -459,11 +571,11 @@
       "polymarketId": "3959677",
       "category": "sports",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
       "kalshiTitle": "Derrick Henry: 15,000+ Rushing Yards",
       "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:02:34.155Z",
+        "fetchedAt": "2026-10-21T16:07:22.317Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-15000",
           "eventTicker": null,
@@ -515,11 +627,11 @@
       "polymarketId": "3959677",
       "category": "sports",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
       "kalshiTitle": "Derrick Henry: 16,000+ Rushing Yards",
       "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:02:34.588Z",
+        "fetchedAt": "2026-10-21T16:07:22.790Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-16000",
           "eventTicker": null,
@@ -571,11 +683,11 @@
       "polymarketId": "3959677",
       "category": "sports",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
       "kalshiTitle": "Derrick Henry: 17,000+ Rushing Yards",
       "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:02:35.020Z",
+        "fetchedAt": "2026-10-21T16:07:23.262Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-17000",
           "eventTicker": null,
@@ -627,11 +739,11 @@
       "polymarketId": "3959677",
       "category": "sports",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
       "kalshiTitle": "Derrick Henry: 18,000+ Rushing Yards",
       "polymarketTitle": "Will Derrick Henry have 1,000+ rushing yards in the 2026-27 NFL regular season?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:02:35.456Z",
+        "fetchedAt": "2026-10-21T16:07:23.730Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-18000",
           "eventTicker": null,
@@ -968,11 +1080,11 @@
       "polymarketId": "3377268",
       "category": "other",
       "firstSeen": "2026-10-21T08:02:44.837Z",
-      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
       "kalshiTitle": "Will American Doctor win Best Documentary Feature Film at the Oscars?",
       "polymarketTitle": "Will American Doctor win Best Documentary Feature Film at the 99th Academy Awards?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:02:44.578Z",
+        "fetchedAt": "2026-10-21T16:07:32.351Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-AME",
           "eventTicker": null,
@@ -1017,16 +1129,70 @@
       "notes": []
     },
     {
+      "id": "KXOSCARDOCU-27-MUS|3377271",
+      "kalshiTicker": "KXOSCARDOCU-27-MUS",
+      "polymarketId": "3377271",
+      "category": "other",
+      "firstSeen": "2026-10-21T16:07:33.938Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
+      "kalshiTitle": "Will Musk win Best Documentary Feature Film at the Oscars?",
+      "polymarketTitle": "Will Musk win Best Documentary Feature Film at the 99th Academy Awards?",
+      "evidence": {
+        "fetchedAt": "2026-10-21T16:07:33.686Z",
+        "kalshi": {
+          "ticker": "KXOSCARDOCU-27-MUS",
+          "eventTicker": null,
+          "marketTitle": "Will Musk win Best Documentary Feature Film at the Oscars? Musk::",
+          "rulesPrimary": "If Musk has won Best Documentary Feature Film at the 99th Academy Awards, then the market resolves to Yes.",
+          "rulesSecondary": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+          "closeTime": "2027-12-31T15:00:00.000Z",
+          "ruleSha256": "dcddc4e015a2a60ed6ce4f8fdaea0be2d31de29cf2a4b4f1282ac6975a9deae6"
+        },
+        "polymarket": {
+          "id": "3377271",
+          "eventId": null,
+          "question": "Will Musk win Best Documentary Feature Film at the 99th Academy Awards?",
+          "description": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best Documentary Feature Film.\n\nIf a film is not officially nominated for the Academy Award for Best Documentary Feature Film when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": "https://www.oscars.org/",
+          "endTime": "2027-03-14T23:59:00.000Z",
+          "ruleSha256": "4a793e59bcecf30044f686c851de5f878af74cc6c28091d267b67d15b480ba2e",
+          "conditionId": "0x5f9de829d19177a19653e11c48bc4d9c40b4caae697e44105179b6a9d11828d9"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "review": null,
+      "status": "PENDING_REVIEW",
+      "approved": false,
+      "executable": false,
+      "settlementVerified": false,
+      "notes": []
+    },
+    {
       "id": "KXOSCARDOCU-27-NUI|3377269",
       "kalshiTicker": "KXOSCARDOCU-27-NUI",
       "polymarketId": "3377269",
       "category": "other",
       "firstSeen": "2026-10-21T08:02:44.837Z",
-      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
       "kalshiTitle": "Will Nuisance Bear win Best Documentary Feature Film at the Oscars?",
       "polymarketTitle": "Will Nuisance Bear win Best Documentary Feature Film at the 99th Academy Awards?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:02:43.470Z",
+        "fetchedAt": "2026-10-21T16:07:31.060Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-NUI",
           "eventTicker": null,
@@ -1076,11 +1242,11 @@
       "polymarketId": "3377274",
       "category": "other",
       "firstSeen": "2026-10-21T08:02:44.837Z",
-      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
       "kalshiTitle": "Will Once Upon a Time in Harlem win Best Documentary Feature Film at the Oscars?",
       "polymarketTitle": "Will Once Upon a Time in Harlem win Best Documentary Feature Film at the 99th Academy Awards?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:02:41.313Z",
+        "fetchedAt": "2026-10-21T16:07:29.726Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-ONC",
           "eventTicker": null,
@@ -1130,11 +1296,11 @@
       "polymarketId": "3377270",
       "category": "other",
       "firstSeen": "2026-10-21T08:02:44.837Z",
-      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
       "kalshiTitle": "Will One in a Million win Best Documentary Feature Film at the Oscars?",
       "polymarketTitle": "Will One in a Million win Best Documentary Feature Film at the 99th Academy Awards?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:02:44.038Z",
+        "fetchedAt": "2026-10-21T16:07:31.706Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-ONE",
           "eventTicker": null,
@@ -1184,11 +1350,11 @@
       "polymarketId": "3377272",
       "category": "other",
       "firstSeen": "2026-10-21T08:02:44.837Z",
-      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
       "kalshiTitle": "Will Sometimes, I Imagine Them All at a Party win Best Documentary Feature Film at the Oscars?",
       "polymarketTitle": "Will Sometimes, I Imagine Them All at a Party win Best Documentary Feature Film at the 99th Academy Awards?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:02:40.756Z",
+        "fetchedAt": "2026-10-21T16:07:29.076Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-SOM",
           "eventTicker": null,
@@ -1238,11 +1404,11 @@
       "polymarketId": "3377276",
       "category": "other",
       "firstSeen": "2026-10-21T08:02:44.837Z",
-      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
       "kalshiTitle": "Will You Can See Everything win Best Documentary Feature Film at the Oscars?",
       "polymarketTitle": "Will You Can See Everything win Best Documentary Feature Film at the 99th Academy Awards?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:02:41.836Z",
+        "fetchedAt": "2026-10-21T16:07:30.414Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-YOU",
           "eventTicker": null,
@@ -1395,16 +1561,70 @@
       "notes": []
     },
     {
+      "id": "KXOSCARPIC-27-WIL|3145013",
+      "kalshiTicker": "KXOSCARPIC-27-WIL",
+      "polymarketId": "3145013",
+      "category": "other",
+      "firstSeen": "2026-10-21T16:07:33.938Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
+      "kalshiTitle": "Will Wild Horse Nine win Best Picture at the Oscars?",
+      "polymarketTitle": "Will Wild Horse Nine win Best Picture at the 99th Academy Awards?",
+      "evidence": {
+        "fetchedAt": "2026-10-21T16:07:33.002Z",
+        "kalshi": {
+          "ticker": "KXOSCARPIC-27-WIL",
+          "eventTicker": null,
+          "marketTitle": "Will Wild Horse Nine win Best Picture at the Oscars? Wild Horse Nine::",
+          "rulesPrimary": "If Wild Horse Nine has won Best Picture at the 99th Academy Awards, then the market resolves to Yes.",
+          "rulesSecondary": "The 99th Academy Awards are expected to be held in March 2027.\n\nThis market and these products have not been endorsed by the Oscars. Any references to Oscars, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Oscars and Kalshi.",
+          "closeTime": "2027-12-31T15:00:00.000Z",
+          "ruleSha256": "fadf416bccb44a8f62374a6523a8bc3af25542bfcfcfed302cd64a05035e74c4"
+        },
+        "polymarket": {
+          "id": "3145013",
+          "eventId": null,
+          "question": "Will Wild Horse Nine win Best Picture at the 99th Academy Awards?",
+          "description": "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) to honor outstanding artistic and technical achievements in film. For the 99th Academy Awards in 2027, nominations are scheduled to be announced on January 21, followed by the ceremony on March 14, 2027.\n\nThis market will resolve according to the listed film that wins the 99th Academy Award for Best Picture. \n\nIf a film is not officially nominated for the Academy Award for Best Picture when the 2027 nominees are announced, the corresponding market will immediately resolve to \"No\".\n\nIn case of a tie for the winner, this market will resolve in favor of the nominated film whose listed title comes first in alphabetical order.\n\nIf, for any reason, no winner is declared by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from the Academy Awards and AMPAS, including data from their website (e.g., https://www.oscars.org/) and the live broadcast of the award ceremony; however, a consensus of credible reporting may also be used.",
+          "eventDescription": null,
+          "resolutionSource": "https://www.oscars.org/",
+          "endTime": "2027-03-14T23:59:00.000Z",
+          "ruleSha256": "8fe55ccd80d74a64fcd6306c947381871d0a7d9e79b154a376d6b384a5f238cc",
+          "conditionId": "0x19522fdccfa33e80238f6687c32870ef8013b1bf896440043888add9989151c4"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "review": null,
+      "status": "PENDING_REVIEW",
+      "approved": false,
+      "executable": false,
+      "settlementVerified": false,
+      "notes": []
+    },
+    {
       "id": "SENATEFL-28-R|631045",
       "kalshiTicker": "SENATEFL-28-R",
       "polymarketId": "631045",
       "category": "politics",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
       "kalshiTitle": "Will Republicans win the Senate race in Florida?",
       "polymarketTitle": "Will the Republicans win the Florida Senate race in 2026?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:02:37.653Z",
+        "fetchedAt": "2026-10-21T16:07:25.571Z",
         "kalshi": {
           "ticker": "SENATEFL-28-R",
           "eventTicker": null,
@@ -1455,11 +1675,11 @@
       "polymarketId": "630693",
       "category": "politics",
       "firstSeen": "2026-10-21T08:02:44.837Z",
-      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
       "kalshiTitle": "Will Republicans win the Senate race in Georgia?",
       "polymarketTitle": "Will the Republicans win the Georgia Senate race in 2026?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:02:37.226Z",
+        "fetchedAt": "2026-10-21T16:07:24.917Z",
         "kalshi": {
           "ticker": "SENATEGA-28-R",
           "eventTicker": null,
@@ -1510,11 +1730,11 @@
       "polymarketId": "630734",
       "category": "politics",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T08:01:27.899Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
       "kalshiTitle": "Will Republicans win the Senate race in Iowa?",
       "polymarketTitle": "Will the Republicans win the Iowa Senate race in 2026?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:01:25.367Z",
+        "fetchedAt": "2026-10-21T16:07:28.429Z",
         "kalshi": {
           "ticker": "SENATEIA-28-R",
           "eventTicker": null,
@@ -1620,11 +1840,11 @@
       "polymarketId": "630747",
       "category": "politics",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T08:01:27.899Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
       "kalshiTitle": "Will Republicans win the Senate race in Kansas?",
       "polymarketTitle": "Will the Republicans win the Kansas Senate race in 2026?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:01:24.361Z",
+        "fetchedAt": "2026-10-21T16:07:27.935Z",
         "kalshi": {
           "ticker": "SENATEKS-28-R",
           "eventTicker": null,
@@ -1675,11 +1895,11 @@
       "polymarketId": "630845",
       "category": "politics",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T08:02:44.837Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
       "kalshiTitle": "Will Republicans win the Senate race in New Hampshire?",
       "polymarketTitle": "Will the Republicans win the New Hampshire Senate race in 2026?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:02:36.770Z",
+        "fetchedAt": "2026-10-21T16:07:24.423Z",
         "kalshi": {
           "ticker": "SENATENH-28-R",
           "eventTicker": null,
@@ -1730,11 +1950,11 @@
       "polymarketId": "631058",
       "category": "politics",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T08:01:27.899Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
       "kalshiTitle": "Will Republicans win the Senate race in Ohio?",
       "polymarketTitle": "Will the Republicans win the Ohio Senate race in 2026?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:01:23.860Z",
+        "fetchedAt": "2026-10-21T16:07:27.442Z",
         "kalshi": {
           "ticker": "SENATEOH-28-R",
           "eventTicker": null,
@@ -1785,11 +2005,11 @@
       "polymarketId": "630925",
       "category": "politics",
       "firstSeen": "2026-10-21T08:01:27.899Z",
-      "lastSeen": "2026-10-21T08:01:27.899Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
       "kalshiTitle": "Will Republicans win the Senate race in South Carolina?",
       "polymarketTitle": "Will the Republicans win the South Carolina Senate race in 2026?",
       "evidence": {
-        "fetchedAt": "2026-10-21T08:01:23.376Z",
+        "fetchedAt": "2026-10-21T16:07:26.708Z",
         "kalshi": {
           "ticker": "SENATESC-28-R",
           "eventTicker": null,
@@ -1809,6 +2029,61 @@
           "endTime": "2026-11-04T04:59:00.000Z",
           "ruleSha256": "8194e81ff39d309088624af1535c0929e3024d9c65de1ce0e9ad8037b06d0bc4",
           "conditionId": "0x1c017cbb38a9d0ab233ebb265b25c78290317e6a2470657ca18a73a112397b55"
+        },
+        "warnings": [
+          "DIFFERENT_LISTED_END_DATES",
+          "MISSING_POLYMARKET_RESOLUTION_SOURCE"
+        ],
+        "reviewChecklist": [
+          "IDENTICAL_PAYOFF",
+          "IDENTICAL_OUTCOME",
+          "IDENTICAL_SETTLEMENT_SOURCE",
+          "IDENTICAL_SETTLEMENT_TIME",
+          "CANCELLATION_AND_VOID_RULES",
+          "TRADING_ELIGIBILITY",
+          "CURRENT_FEES",
+          "AVAILABLE_LIQUIDITY"
+        ],
+        "verified": false,
+        "approved": false
+      },
+      "review": null,
+      "status": "PENDING_REVIEW",
+      "approved": false,
+      "executable": false,
+      "settlementVerified": false,
+      "notes": []
+    },
+    {
+      "id": "SENATESD-28-R|630938",
+      "kalshiTicker": "SENATESD-28-R",
+      "polymarketId": "630938",
+      "category": "politics",
+      "firstSeen": "2026-10-21T16:07:33.938Z",
+      "lastSeen": "2026-10-21T16:07:33.938Z",
+      "kalshiTitle": "Will Republicans win the Senate race in South Dakota?",
+      "polymarketTitle": "Will the Republicans win the South Dakota Senate race in 2026?",
+      "evidence": {
+        "fetchedAt": "2026-10-21T16:07:26.215Z",
+        "kalshi": {
+          "ticker": "SENATESD-28-R",
+          "eventTicker": null,
+          "marketTitle": "Will Republicans win the Senate race in South Dakota? :: Current incumbent: John Thune",
+          "rulesPrimary": "If a representative of the Republican party is sworn in as a Senator of South Dakota for the term beginning in 2029, then the market resolves to Yes.",
+          "rulesSecondary": null,
+          "closeTime": "2029-11-07T15:00:00.000Z",
+          "ruleSha256": "571b921e874f401be0c3ec5b4756fce0053323198a5c7da93f52d209534c6816"
+        },
+        "polymarket": {
+          "id": "630938",
+          "eventId": null,
+          "question": "Will the Republicans win the South Dakota Senate race in 2026?",
+          "description": "This market will resolve according to the winner of the 2026 midterm South Dakota U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+          "eventDescription": null,
+          "resolutionSource": null,
+          "endTime": "2026-11-04T04:59:00.000Z",
+          "ruleSha256": "78b01ef5d1e83d09223140b9b400e4d06f2bdc84ad51c9cc53f7f58972d7d31e",
+          "conditionId": "0xeec26e9d0efd895ba65bc3f1f0cbe99f66a56833682430dc266277a6c9e6e60f"
         },
         "warnings": [
           "DIFFERENT_LISTED_END_DATES",
