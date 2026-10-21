@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T17:12:23.880Z",
+  "timestamp": "2026-10-21T17:15:55.860Z",
   "mode": "RESEARCH_ONLY",
   "windowDays": 30,
   "snapshots": [
@@ -394,18 +394,67 @@
         "finance": 0,
         "other": 1206
       }
+    },
+    {
+      "timestamp": "2026-10-21T17:15:26.937Z",
+      "status": "COLLECTED",
+      "kalshiEvents": 1212,
+      "polymarketEvents": 2067,
+      "kalshiMarkets": 10735,
+      "polymarketMarkets": 32545,
+      "eventMatches": 2322,
+      "marketMatches": 6695,
+      "marketComparisons": 165204,
+      "eligiblePairs": 1679,
+      "shortlistedPairs": 120,
+      "verifiedPairs": 0,
+      "sourceErrors": 0,
+      "categoryCoverage": {
+        "Sports": {
+          "kalshiSeries": 6,
+          "kalshiEvents": 2,
+          "polyTags": 2,
+          "polyEvents": 2
+        },
+        "Economics": {
+          "kalshiSeries": 6,
+          "kalshiEvents": 5,
+          "polyTags": 2,
+          "polyEvents": 18
+        },
+        "Financials": {
+          "kalshiSeries": 6,
+          "kalshiEvents": 2,
+          "polyTags": 2,
+          "polyEvents": 346
+        },
+        "Crypto": {
+          "kalshiSeries": 6,
+          "kalshiEvents": 5,
+          "polyTags": 2,
+          "polyEvents": 400
+        }
+      },
+      "candidateCategories": {
+        "politics": 448,
+        "sports": 25,
+        "crypto": 0,
+        "economics": 0,
+        "finance": 0,
+        "other": 1206
+      }
     }
   ],
   "latest": {
-    "timestamp": "2026-10-21T17:12:03.872Z",
+    "timestamp": "2026-10-21T17:15:26.937Z",
     "status": "COLLECTED",
     "kalshiEvents": 1212,
     "polymarketEvents": 2067,
-    "kalshiMarkets": 10693,
-    "polymarketMarkets": 33427,
-    "eventMatches": 2323,
-    "marketMatches": 6711,
-    "marketComparisons": 183652,
+    "kalshiMarkets": 10735,
+    "polymarketMarkets": 32545,
+    "eventMatches": 2322,
+    "marketMatches": 6695,
+    "marketComparisons": 165204,
     "eligiblePairs": 1679,
     "shortlistedPairs": 120,
     "verifiedPairs": 0,
@@ -413,19 +462,19 @@
     "categoryCoverage": {
       "Sports": {
         "kalshiSeries": 6,
-        "kalshiEvents": 0,
+        "kalshiEvents": 2,
         "polyTags": 2,
         "polyEvents": 2
       },
       "Economics": {
         "kalshiSeries": 6,
-        "kalshiEvents": 2,
+        "kalshiEvents": 5,
         "polyTags": 2,
         "polyEvents": 18
       },
       "Financials": {
         "kalshiSeries": 6,
-        "kalshiEvents": 5,
+        "kalshiEvents": 2,
         "polyTags": 2,
         "polyEvents": 346
       },
