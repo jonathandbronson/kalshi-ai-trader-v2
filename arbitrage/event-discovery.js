@@ -1,4 +1,5 @@
 import {compareContractTerms,qualityScore} from "./quality-gates.js";
+import {selectEmbeddingInputs,generateEmbeddings} from "./neural-embedding-provider.js";
 import {lexicalSemanticCandidates,embeddingCandidates,loadEmbeddingCache} from "./semantic-retrieval.js";
 // Event-first cross-venue discovery. Read-only; never approves contracts or places orders.
 import {writeFile,readFile} from "node:fs/promises";
@@ -9,7 +10,7 @@ import {buildRuleEvidence} from "./rule-evidence.js";
 import {canReuseRejection,pruneRejections} from "./rejection-policy.js";
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const PAGES=Math.max(1,Math.min(20,Number(process.env.ARB_EVENT_PAGES??12)));
-const MAX_PAIRS=Math.max(1,Math.min(100,Number(process.env.ARB_EVENT_CANDIDATES??60)));
+const MAX_PAIRS=Math.max(1,Math.min(500,Number(process.env.ARB_EVENT_CANDIDATES??120)));
 async function json(url){
  for(let n=0;n<4;n++){
   const ctrl=new AbortController(),timer=setTimeout(()=>ctrl.abort(),12000);
@@ -328,7 +329,18 @@ async function collect(){
  // Neural embeddings are optional precomputed vectors; no provider or paid API is required.
  const tfidf=lexicalSemanticCandidates(kalshi,poly,{limit:Math.max(1,Math.min(250,Number(process.env.ARB_SEMANTIC_LIMIT??100)))});
  const vectors=await loadEmbeddingCache(process.env.ARB_EMBEDDING_CACHE??"arbitrage/embedding-cache.json");
- const neural=embeddingCandidates(kalshi,poly,vectors,{limit:100});
+ let embeddingGeneration={status:"DISABLED",generated:0,calls:0};
+ if(process.env.ARB_ENABLE_NEURAL==="true"&&process.env.OPENAI_API_KEY){
+  const inputs=selectEmbeddingInputs(kalshi,poly,vectors,Math.max(1,Math.min(1500,Number(process.env.ARB_NEURAL_PER_VENUE??300))));
+  try{
+   const generated=await generateEmbeddings(inputs);
+   Object.assign(vectors,generated.vectors);
+   embeddingGeneration={status:"GENERATED",generated:inputs.length,calls:generated.calls};
+   await writeFile(process.env.ARB_EMBEDDING_CACHE_OUTPUT??"arbitrage-embedding-cache.json",JSON.stringify({schemaVersion:1,vectors},null,2)+"\\n");
+  }catch(e){embeddingGeneration={status:"FAILED",generated:0,error:String(e.message).slice(0,180)};report.errors.push("optional neural embedding: "+e.message)}
+ }
+ const neural=embeddingCandidates(kalshi,poly,vectors,{limit:Math.max(100,Math.min(1000,Number(process.env.ARB_NEURAL_LIMIT??300)))});
+ report.counts.embeddingGeneration=embeddingGeneration;
  report.counts.semanticRetrieval={tfidf:tfidf.counts,neural:neural.counts,accepted:0,rejectedByRule:0};
  for(const match of [...neural.candidates,...tfidf.candidates]){
   const k=match.kalshi.event,p=match.polymarket.event,km=match.kalshi.market,pm=match.polymarket.market;
