@@ -1,17 +1,15 @@
 {
-  "timestamp": "2026-10-21T16:07:19.353Z",
+  "timestamp": "2026-10-21T16:08:44.158Z",
   "mode": "RESEARCH_ONLY",
   "verifiedPairs": 0,
   "sourceStatus": "COLLECTED",
-  "sourceTimestamp": "2026-10-21T16:06:54.894Z",
+  "sourceTimestamp": "2026-10-21T16:08:24.103Z",
   "categoryCounts": {
     "sports": 8,
     "politics": 8,
     "other": 8
   },
-  "qualityRejections": {
-    "DIFFERENT_RULE_DEADLINE": 1
-  },
+  "qualityRejections": {},
   "candidates": [
     {
       "category": "sports",
@@ -28,7 +26,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:20.054Z",
+        "fetchedAt": "2026-10-21T16:08:44.677Z",
         "kalshi": {
           "ticker": "KXNFLCAREERPASSYDS-PMAHOMES-40000",
           "eventTicker": null,
@@ -149,7 +147,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:20.702Z",
+        "fetchedAt": "2026-10-21T16:08:45.152Z",
         "kalshi": {
           "ticker": "KXNFLCAREERPASSYDS-JALLEN-35000",
           "eventTicker": null,
@@ -270,7 +268,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:21.194Z",
+        "fetchedAt": "2026-10-21T16:08:45.626Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-14000",
           "eventTicker": null,
@@ -401,7 +399,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:21.845Z",
+        "fetchedAt": "2026-10-21T16:08:46.101Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRECYDS-MEVANS-14000",
           "eventTicker": null,
@@ -528,7 +526,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:22.317Z",
+        "fetchedAt": "2026-10-21T16:08:46.575Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-15000",
           "eventTicker": null,
@@ -659,7 +657,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:22.790Z",
+        "fetchedAt": "2026-10-21T16:08:47.045Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-16000",
           "eventTicker": null,
@@ -790,7 +788,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:23.262Z",
+        "fetchedAt": "2026-10-21T16:08:47.514Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-17000",
           "eventTicker": null,
@@ -921,7 +919,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:23.730Z",
+        "fetchedAt": "2026-10-21T16:08:47.984Z",
         "kalshi": {
           "ticker": "KXNFLCAREERRSHYDS-DHENRY-18000",
           "eventTicker": null,
@@ -1052,7 +1050,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:24.423Z",
+        "fetchedAt": "2026-10-21T16:08:48.460Z",
         "kalshi": {
           "ticker": "SENATENH-28-R",
           "eventTicker": null,
@@ -1167,7 +1165,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:24.917Z",
+        "fetchedAt": "2026-10-21T16:08:48.932Z",
         "kalshi": {
           "ticker": "SENATEGA-28-R",
           "eventTicker": null,
@@ -1282,7 +1280,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:25.571Z",
+        "fetchedAt": "2026-10-21T16:08:49.405Z",
         "kalshi": {
           "ticker": "SENATEFL-28-R",
           "eventTicker": null,
@@ -1397,7 +1395,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:26.215Z",
+        "fetchedAt": "2026-10-21T16:08:49.876Z",
         "kalshi": {
           "ticker": "SENATESD-28-R",
           "eventTicker": null,
@@ -1512,7 +1510,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:26.708Z",
+        "fetchedAt": "2026-10-21T16:08:50.502Z",
         "kalshi": {
           "ticker": "SENATESC-28-R",
           "eventTicker": null,
@@ -1627,7 +1625,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:27.442Z",
+        "fetchedAt": "2026-10-21T16:08:50.973Z",
         "kalshi": {
           "ticker": "SENATEOH-28-R",
           "eventTicker": null,
@@ -1742,7 +1740,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:27.935Z",
+        "fetchedAt": "2026-10-21T16:08:51.444Z",
         "kalshi": {
           "ticker": "SENATEKS-28-R",
           "eventTicker": null,
@@ -1857,7 +1855,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:28.429Z",
+        "fetchedAt": "2026-10-21T16:08:51.913Z",
         "kalshi": {
           "ticker": "SENATEIA-28-R",
           "eventTicker": null,
@@ -1972,7 +1970,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:29.076Z",
+        "fetchedAt": "2026-10-21T16:08:52.386Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-SOM",
           "eventTicker": null,
@@ -2089,7 +2087,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:29.726Z",
+        "fetchedAt": "2026-10-21T16:08:52.858Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-ONC",
           "eventTicker": null,
@@ -2206,7 +2204,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:30.414Z",
+        "fetchedAt": "2026-10-21T16:08:53.333Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-YOU",
           "eventTicker": null,
@@ -2323,7 +2321,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:31.060Z",
+        "fetchedAt": "2026-10-21T16:08:53.806Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-NUI",
           "eventTicker": null,
@@ -2440,7 +2438,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:31.706Z",
+        "fetchedAt": "2026-10-21T16:08:54.282Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-ONE",
           "eventTicker": null,
@@ -2557,7 +2555,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:32.351Z",
+        "fetchedAt": "2026-10-21T16:08:54.757Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-AME",
           "eventTicker": null,
@@ -2674,7 +2672,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:33.002Z",
+        "fetchedAt": "2026-10-21T16:08:55.229Z",
         "kalshi": {
           "ticker": "KXOSCARPIC-27-WIL",
           "eventTicker": null,
@@ -2791,7 +2789,7 @@
       "differentEndDates": true,
       "ruleConflicts": [],
       "ruleEvidence": {
-        "fetchedAt": "2026-10-21T16:07:33.686Z",
+        "fetchedAt": "2026-10-21T16:08:55.709Z",
         "kalshi": {
           "ticker": "KXOSCARDOCU-27-MUS",
           "eventTicker": null,
@@ -2898,7 +2896,21 @@
     "No candidate is auto-approved.",
     "Review complete contract rules, deadlines, void/cancellation behavior and identifiers before adding to approved-pairs.json."
   ],
-  "refreshedAt": "2026-10-21T16:07:33.886Z",
+  "feedback": {
+    "reviewedRejections": 0,
+    "previouslyVerifiedSeen": 0
+  },
+  "labeledBenchmark": {
+    "groundTruthPairs": 0,
+    "truePositive": 0,
+    "falsePositive": 0,
+    "falseNegative": 0,
+    "trueNegative": 0,
+    "precision": null,
+    "recall": null,
+    "caveat": "Only measures supplied human-adjudicated pairs; unlabeled candidates are excluded."
+  },
+  "refreshedAt": "2026-10-21T16:08:55.909Z",
   "evidenceRefresh": {
     "attempted": 24,
     "successful": 24,
