@@ -65,3 +65,16 @@ test("identical prime minister titles survive generic posting-list suppression",
  const pairs=discoverIndexedPairs([...normalizeMarkets(a,"kalshi"),...normalizeMarkets(b,"polymarket")],{minScore:.1,maxBlock:0}).candidates;
  assert.ok(pairs.some(x=>x.kalshiTicker==="PM"&&x.polymarketId==="PM2"));
 });
+
+test("stale cached classification is recomputed before candidate comparison",()=>{
+ const a=[{title:"NBA",markets:[{ticker:"K",title:"Will Kyrie Irving announce his retirement before the 2026-27 NBA season?"}]}];
+ const b=[{title:"NBA",markets:[{id:"P",question:"Kyrie Irving: Steals O/U 0.5"}]}];
+ const rows=[...normalizeMarkets(a,"kalshi"),...normalizeMarkets(b,"polymarket")].map(x=>({...x,intent:"UNKNOWN",tokens:["kyrie","irving","nba"]}));
+ assert.equal(discoverIndexedPairs(rows,{minScore:.1}).candidates.length,0);
+});
+test("steals, blocks, turnovers, and player statistics classify as PLAYER_STAT",()=>{
+ for(const stat of ["Steals","Blocks","Turnovers","Points","Rebounds","Assists"]){
+  const rows=normalizeMarkets([{markets:[{id:stat,question:"Kyrie Irving: "+stat+" O/U 0.5"}]}],"polymarket");
+  assert.equal(rows[0].intent,"PLAYER_STAT");
+ }
+});
