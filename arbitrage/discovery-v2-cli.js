@@ -54,7 +54,12 @@ const activeIds=new Set(current.map(m=>m.id));
 const active=Object.values(snapshot.markets).filter(m=>activeIds.has(m.id));
 const cache=await read(process.env.ARB_V2_EMBEDDINGS??"arbitrage-embedding-cache.json",{vectors:{}});
 const discovered=discoverIndexedPairs(active,{limit:Math.max(1,Math.min(5000,Number(process.env.ARB_V2_LIMIT??1000))),vectors:cache.vectors??{}});
-const ranked=rankResearchCandidates(discovered.candidates);
+const rankedRaw=rankResearchCandidates(discovered.candidates);
+// Remove weak single-token collisions and cap category concentration in the research queue.
+const qualified=rankedRaw.filter(x=>x.sharedKeys>=2&&x.score>=.45);
+const categoryLimit=Math.max(1,Math.floor(Number(process.env.ARB_V2_CATEGORY_SHARE??.4)*Math.min(qualified.length,Number(process.env.ARB_V2_LIMIT??1000))));
+const ranked=[];const categorySelected={};
+for(const c of qualified){if(ranked.length>=Number(process.env.ARB_V2_LIMIT??1000))break;if((categorySelected[c.category]??0)>=categoryLimit)continue;categorySelected[c.category]=(categorySelected[c.category]??0)+1;ranked.push(c)}
 const baseline=await read(process.env.ARB_V1_ARCHIVE??"reports/latest-discovery-archive.json",{candidates:[]});
 const prior=new Set((baseline.candidates??[]).map(x=>String(x.kalshiTicker)+"|"+String(x.polymarketId)));
 const overlap=ranked.filter(x=>prior.has(x.kalshiTicker+"|"+x.polymarketId)).length;
@@ -72,7 +77,7 @@ await writeFile("arbitrage-v2-human-review-sample.json",JSON.stringify({timestam
 const report={timestamp:new Date().toISOString(),engine:"DISCOVERY_V2_SHADOW",status:collected.errors.length?"PARTIAL":"COLLECTED",
  researchOnly:true,autoApproved:0,verifiedPairs:0,liveOrders:0,
  collection:{kalshiEvents:collected.kalshi.length,polymarketEvents:collected.polymarket.length,errors:collected.errors,complete:collected.complete},
- snapshot:snapshot.stats,discovery:discovered.stats,
+ snapshot:snapshot.stats,discovery:{...discovered.stats,qualified:qualified.length,afterCategoryDiversity:ranked.length,categoryLimit},
  comparison:{baselineCandidates:(baseline.candidates??[]).length,overlap,titleOverlap,newVsBaseline:ranked.length-overlap,categoryCounts,
  caveat:"Different collection coverage can affect counts; candidate totals do not measure verified settlement equivalence."},
  labeledMetrics,candidates:ranked,notes:["Unverified candidates are not executable arbitrage.","Price and liquidity ranking requires separate verified-pair order-book observation.","No auto-approval, trading, or external order placement."]};
