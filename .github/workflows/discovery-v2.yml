@@ -47,5 +47,6 @@ jobs:
           path: |
             arbitrage-discovery-v2.json
             arbitrage-v2-market-snapshot.json
+            arbitrage-v2-human-review-sample.json
           if-no-files-found: warn
           retention-days: 14
