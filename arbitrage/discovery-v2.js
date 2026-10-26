@@ -13,7 +13,7 @@ const type=s=>/\b(nominated|nomination|nominee)\b/i.test(s)?"NOMINATION":/\b(win
 export function intentOf(s){
  const t=normalize(s);
  if(/\b(retire|retirement|retiring|announce his retirement|announce her retirement)\b/.test(t))return "RETIREMENT";
- if(/\b(points|rebounds|assists|touchdowns|yards|strikeouts)\b/.test(t)&&/\b(over|under|o u|total|at least|more than|fewer than)\b/.test(t))return "PLAYER_STAT";
+ if(/\b(points|rebounds|assists|steals|blocks|turnovers|three pointers|threes|3 pointers|touchdowns|yards|strikeouts|saves|shots|goals|hits|runs|rbi|passes|completions|receptions)\b/.test(t)&&/\b(over|under|o u|total|at least|more than|fewer than)\b/.test(t))return "PLAYER_STAT";
  if(/\b(nominated|nomination|nominee|primary nomination)\b/.test(t))return "NOMINATION";
  if(/\b(prime minister|president|presidential|governor|senate|election|electoral)\b/.test(t)&&/\b(win|wins|winner|elected|become|next)\b/.test(t))return "ELECTION_WIN";
  if(/\b(win|wins|winner|champion|championship|title|tournament|super bowl)\b/.test(t))return "SPORTS_WIN";
@@ -39,7 +39,7 @@ export function normalizeMarkets(events,venue){
  }
  return result;
 }
-export function mergeSnapshot(previous={},incoming=[],{complete=false,now=new Date().toISOString()}={}){
+export function refreshDerivedFields(m){\n const title=String(m.title??"");\n const full=[title,m.subtitle,m.eventTitle].filter(Boolean).join(" ");\n return {...m,intent:intentOf(title),outcomeType:type(title),category:category(full),years:years(title).length?years(title):years(full),tokens:tokens(full)};\n}\nexport function mergeSnapshot(previous={},incoming=[],{complete=false,now=new Date().toISOString()}={}){
  const next=complete?{}:{...(previous.markets??{})};
  let added=0,updated=0,unchanged=0,marketDataRefreshed=0;
  for(const m of incoming){
@@ -91,7 +91,7 @@ function cosineVector(a,b){
  return aa&&bb?dot/Math.sqrt(aa*bb):null;
 }
 export function discoverIndexedPairs(markets,{limit=500,perMarket=10,minScore=.22,maxBlock=600,vectors={}}={}){
- const ks=markets.filter(x=>x.venue==="kalshi"),ps=markets.filter(x=>x.venue==="polymarket");
+ // Recompute classification for cached snapshot records from the current rules.\n const fresh=markets.map(refreshDerivedFields);\n const ks=fresh.filter(x=>x.venue==="kalshi"),ps=fresh.filter(x=>x.venue==="polymarket");
  const index=new Map(),exactTitleIndex=new Map();
  for(let j=0;j<ps.length;j++){
   const titleKey=normalize(ps[j].title);
