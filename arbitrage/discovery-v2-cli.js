@@ -55,7 +55,7 @@ const active=Object.values(snapshot.markets).filter(m=>activeIds.has(m.id));
 const cache=await read(process.env.ARB_V2_EMBEDDINGS??"arbitrage-embedding-cache.json",{vectors:{}});
 const discovered=discoverIndexedPairs(active,{limit:Math.max(1,Math.min(5000,Number(process.env.ARB_V2_LIMIT??1000))),vectors:cache.vectors??{}});
 const ranked=rankResearchCandidates(discovered.candidates);
-const baseline=await read(process.env.ARB_V1_ARCHIVE??"arbitrage-discovery-archive.json",{candidates:[]});
+const baseline=await read(process.env.ARB_V1_ARCHIVE??"reports/latest-discovery-archive.json",{candidates:[]});
 const prior=new Set((baseline.candidates??[]).map(x=>String(x.kalshiTicker)+"|"+String(x.polymarketId)));
 const overlap=ranked.filter(x=>prior.has(x.kalshiTicker+"|"+x.polymarketId)).length;
 const report={timestamp:new Date().toISOString(),engine:"DISCOVERY_V2_SHADOW",status:collected.errors.length?"PARTIAL":"COLLECTED",
