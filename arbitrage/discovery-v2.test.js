@@ -25,3 +25,13 @@ test("research priority cannot produce verified trades or invented executable ed
  const ranked=rankResearchCandidates([{score:.8,kalshiTicker:"K",polymarketId:"P"}]);
  assert.equal(ranked[0].netExecutableEdge,null);assert.equal(ranked[0].executable,false);
 });
+
+test("price and volume changes are not falsely counted as contract revisions",()=>{
+ const base=normalizeMarkets(k,"kalshi");
+ const first=mergeSnapshot({},base);
+ const changed=base.map(m=>({...m,volume:m.volume+5,liquidity:m.liquidity+2}));
+ const second=mergeSnapshot(first,changed);
+ assert.equal(second.stats.updated,0);
+ assert.equal(second.stats.unchanged,2);
+ assert.equal(second.stats.marketDataRefreshed,2);
+});
