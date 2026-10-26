@@ -58,13 +58,24 @@ const ranked=rankResearchCandidates(discovered.candidates);
 const baseline=await read(process.env.ARB_V1_ARCHIVE??"reports/latest-discovery-archive.json",{candidates:[]});
 const prior=new Set((baseline.candidates??[]).map(x=>String(x.kalshiTicker)+"|"+String(x.polymarketId)));
 const overlap=ranked.filter(x=>prior.has(x.kalshiTicker+"|"+x.polymarketId)).length;
+const normalizeTitle=x=>String(x??"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
+const baselineTitles=new Set((baseline.candidates??[]).map(x=>normalizeTitle(x.kalshiTitle)+"|"+normalizeTitle(x.polymarketTitle)));
+const titleOverlap=ranked.filter(x=>baselineTitles.has(normalizeTitle(x.kalshiTitle)+"|"+normalizeTitle(x.polymarketTitle))).length;
+const categoryCounts={};for(const c of ranked)categoryCounts[c.category]=(categoryCounts[c.category]??0)+1;
+const labeled=await read("arbitrage/ground-truth.json",[]);
+const labelMap=new Map(labeled.filter(x=>["MATCH","MISMATCH"].includes(x.label)).map(x=>[x.kalshiTicker+"|"+x.polymarketId,x.label]));
+let tp=0,fp=0,fn=0,tn=0;const predicted=new Set(ranked.map(x=>x.kalshiTicker+"|"+x.polymarketId));
+for(const [key,label] of labelMap){if(label==="MATCH"&&predicted.has(key))tp++;else if(label==="MATCH")fn++;else if(predicted.has(key))fp++;else tn++}
+const labeledMetrics={labeledPairs:labelMap.size,truePositive:tp,falsePositive:fp,falseNegative:fn,trueNegative:tn,precision:tp+fp?tp/(tp+fp):null,recall:tp+fn?tp/(tp+fn):null};
+const reviewSample=[];const categorySampleCounts={};for(const c of ranked){if(reviewSample.length>=60)break;if((categorySampleCounts[c.category]??0)>=15)continue;categorySampleCounts[c.category]=(categorySampleCounts[c.category]??0)+1;reviewSample.push({kalshiTicker:c.kalshiTicker,polymarketId:c.polymarketId,kalshiTitle:c.kalshiTitle,polymarketTitle:c.polymarketTitle,category:c.category,score:c.score,label:null,reviewerNotes:"",warning:"Review both official settlement rulebooks; title similarity alone is insufficient."})}
+await writeFile("arbitrage-v2-human-review-sample.json",JSON.stringify({timestamp:new Date().toISOString(),instructions:"Label MATCH only after manually confirming settlement equivalence using official rules; otherwise label MISMATCH or leave null.",sample:reviewSample},null,2)+"\\n");
 const report={timestamp:new Date().toISOString(),engine:"DISCOVERY_V2_SHADOW",status:collected.errors.length?"PARTIAL":"COLLECTED",
  researchOnly:true,autoApproved:0,verifiedPairs:0,liveOrders:0,
  collection:{kalshiEvents:collected.kalshi.length,polymarketEvents:collected.polymarket.length,errors:collected.errors,complete:collected.complete},
  snapshot:snapshot.stats,discovery:discovered.stats,
- comparison:{baselineCandidates:(baseline.candidates??[]).length,overlap,newVsBaseline:ranked.length-overlap,
+ comparison:{baselineCandidates:(baseline.candidates??[]).length,overlap,titleOverlap,newVsBaseline:ranked.length-overlap,categoryCounts,
  caveat:"Different collection coverage can affect counts; candidate totals do not measure verified settlement equivalence."},
- candidates:ranked,notes:["Unverified candidates are not executable arbitrage.","Price and liquidity ranking requires separate verified-pair order-book observation.","No auto-approval, trading, or external order placement."]};
+ labeledMetrics,candidates:ranked,notes:["Unverified candidates are not executable arbitrage.","Price and liquidity ranking requires separate verified-pair order-book observation.","No auto-approval, trading, or external order placement."]};
 await writeFile(snapshotPath,JSON.stringify(snapshot)+"\n");
 await writeFile(output,JSON.stringify(report,null,2)+"\n");
 console.log(JSON.stringify({status:report.status,collection:report.collection,snapshot:report.snapshot,discovery:report.discovery,comparison:report.comparison}));
