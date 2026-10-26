@@ -43,4 +43,4 @@ const report={timestamp:new Date().toISOString(),method:"SAME_SNAPSHOT_V1_TFIDF_
  heuristicAudit:{v1:audit(v1Mapped),v2:audit(v2Mapped)},
  caveats:["Identical input subsets, but retrieval thresholds and ranking algorithms differ.","Heuristic flags do not establish settlement equivalence.","No human labels available; precision and recall cannot be computed.","Neither engine approves trades."]};
 await writeFile("arbitrage-v2-same-snapshot-comparison.json",JSON.stringify(report,null,2)+"\n");
-console.log(JSON.stringify({sample:report.sample,v1:report.v1,v2:report.v2,overlap,titleOverlap,commonKalshiCount:commonKalshi.length,v1Only:report.v1Only,v2Only:report.v2Only,heuristicFlags:{v1:report.heuristicAudit.v1.flagCounts,v2:report.heuristicAudit.v2.flagCounts}}));
+console.log(JSON.stringify({sample:report.sample,v1:report.v1,v2:report.v2,overlap,titleOverlap,commonKalshiCount:commonKalshi.length,v1Only:report.v1Only,v2Only:report.v2Only,heuristicFlags:{v1:report.heuristicAudit.v1.flagCounts,v2:report.heuristicAudit.v2.flagCounts},examples:{v1:sampleV1Only.slice(0,4),v2:sampleV2Only.slice(0,4),sameKalshi:sampleDisagreements.slice(0,3)}}));
