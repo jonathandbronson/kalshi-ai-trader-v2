@@ -54,6 +54,17 @@ function blockingKeys(m){
  if(m.eventTitle)for(const t of tokens(m.eventTitle).slice(0,8))keys.add("E:"+t);
  return [...keys];
 }
+const GENERIC=new Set(["will","would","could","should","there","have","been","this","that","these","those","with","from","which","where","when","what","about","after","before","over","under","above","below","more","than","less","least","most","year","years","market","event","election","presidential","president","winner","winning","wins","champion","championship","nomination","nominated","nominee","price","reach","between","during","against","total","first","next","2026","2027","2028","2029"]);
+function distinctiveTitleTokens(s){return [...new Set(normalize(s).split(" ").filter(t=>t.length>=4&&!GENERIC.has(t)&&!/^\\d+$/.test(t)))];}
+function titleAgreement(a,b){
+ const x=distinctiveTitleTokens(a.title),y=distinctiveTitleTokens(b.title),ys=new Set(y);
+ const common=x.filter(t=>ys.has(t));
+ const titleCosine=x.length&&y.length?common.length/Math.sqrt(x.length*y.length):0;
+ const exact=normalize(a.title)===normalize(b.title);
+ // Without a distinctive common title term, event boilerplate can create spurious matches.
+ const enough=exact||common.length>=2||(common.length===1&&titleCosine>=.65);
+ return {enough,titleCosine,sharedTitleTokens:common.length,exact};
+}
 function cosineTokens(a,b){
  const x=new Set(a.tokens),y=new Set(b.tokens);
  if(!x.size||!y.size)return 0;
@@ -86,16 +97,19 @@ export function discoverIndexedPairs(markets,{limit=500,perMarket=10,minScore=.2
   const ranked=[];
   for(const [j,sharedKeys] of shortlist){
    const p=ps[j];if(!compatible(k,p))continue;
+   const agreement=titleAgreement(k,p);if(!agreement.enough)continue;
    comparisons++;
    const lexical=cosineTokens(k,p);
    const ka=vectors[k.id],pa=vectors[p.id];
    const kv=ka?.hash===k.textHash?ka.vector:null,pv=pa?.hash===p.textHash?pa.vector:null;
    const neural=cosineVector(kv,pv);
-   const score=neural===null?lexical:Math.max(lexical,neural);
+   const rawScore=neural===null?lexical:Math.max(lexical,neural);
+   const score=.5*rawScore+.5*agreement.titleCosine;
    if(score<minScore)continue;
    ranked.push({kalshiTicker:k.marketId,polymarketId:p.marketId,kalshiTitle:k.title,polymarketTitle:p.title,
     kalshiEventId:k.eventId,polymarketEventId:p.eventId,category:k.category,lexicalScore:Number(lexical.toFixed(4)),
     neuralScore:neural===null?null:Number(neural.toFixed(4)),score:Number(score.toFixed(4)),sharedKeys,
+    titleAgreement:Number(agreement.titleCosine.toFixed(4)),sharedTitleTokens:agreement.sharedTitleTokens,exactTitle:agreement.exact,
     discoverySource:neural===null?"INDEXED_LEXICAL":"INDEXED_NEURAL",approved:false,settlementVerified:false,executable:false});
   }
   ranked.sort((a,b)=>b.score-a.score);
