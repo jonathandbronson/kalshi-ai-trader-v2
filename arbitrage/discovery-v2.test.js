@@ -78,3 +78,17 @@ test("steals, blocks, turnovers, and player statistics classify as PLAYER_STAT",
   assert.equal(rows[0].intent,"PLAYER_STAT");
  }
 });
+
+test("MLB debut cannot match unrelated esports game winners",()=>{
+ const a=[{title:"MLB",markets:[{ticker:"MLB",title:"Will Roch Cholowsky play in a game for any team in the MLB before Nov 1, 2026?"}]}];
+ const b=[{title:"LoL",markets:[{id:"LOL",question:"LoL: LOS vs Team Secret Whales - Game 1 Winner"},{id:"HANDICAP",question:"Game Handicap: AL (-1.5) vs Team Liquid (+1.5)"}]}];
+ const rows=[...normalizeMarkets(a,"kalshi"),...normalizeMarkets(b,"polymarket")];
+ assert.equal(discoverIndexedPairs(rows,{minScore:.1}).candidates.length,0);
+});
+test("exact prime minister titles survive divergent venue close dates",()=>{
+ const title="Will Naftali Bennett be the next Prime Minister of Israel?";
+ const a=[{title:"Israel",markets:[{ticker:"PM",title,close_time:"2027-01-01T00:00:00Z"}]}];
+ const b=[{title:"Israel",markets:[{id:"PM2",question:title,endDate:"2045-01-01T00:00:00Z"}]}];
+ const rows=[...normalizeMarkets(a,"kalshi"),...normalizeMarkets(b,"polymarket")];
+ assert.ok(discoverIndexedPairs(rows,{minScore:.2,maxBlock:0}).candidates.some(x=>x.kalshiTicker==="PM"&&x.polymarketId==="PM2"));
+});
