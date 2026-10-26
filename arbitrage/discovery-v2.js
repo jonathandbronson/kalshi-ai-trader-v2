@@ -58,11 +58,15 @@ export function mergeSnapshot(previous={},incoming=[],{complete=false,now=new Da
  return {schemaVersion:2,timestamp:now,markets:next,stats:{added,updated,unchanged,marketDataRefreshed,total:Object.keys(next).length,complete}};
 }
 function compatible(a,b){
+ const exact=normalize(a.title)===normalize(b.title);
  if(a.venue===b.venue)return false;
  if(a.intent&&b.intent&&a.intent!=="UNKNOWN"&&b.intent!=="UNKNOWN"&&a.intent!==b.intent)return false;
  if(a.outcomeType!=="OTHER"&&b.outcomeType!=="OTHER"&&a.outcomeType!==b.outcomeType)return false;
+ // Unclassified contracts must have identical titles to avoid name/boilerplate collisions.
+ if(!exact&&(a.intent==="UNKNOWN"||b.intent==="UNKNOWN"))return false;
  if(a.years.length&&b.years.length&&!a.years.some(y=>b.years.includes(y)))return false;
- if(a.close&&b.close&&Math.abs(Date.parse(a.close)-Date.parse(b.close))>1000*60*60*24*90)return false;
+ // Different venue close times are not necessarily different settlement events.
+ if(!exact&&a.close&&b.close&&Math.abs(Date.parse(a.close)-Date.parse(b.close))>1000*60*60*24*90)return false;
  return true;
 }
 function blockingKeys(m){
@@ -72,7 +76,7 @@ function blockingKeys(m){
  if(m.eventTitle)for(const t of tokens(m.eventTitle).slice(0,8))keys.add("E:"+t);
  return [...keys];
 }
-const GENERIC=new Set(["will","would","could","should","there","have","been","this","that","these","those","with","from","which","where","when","what","about","after","before","over","under","above","below","more","than","less","least","most","year","years","market","event","election","presidential","president","winner","winning","wins","champion","championship","nomination","nominated","nominee","price","reach","between","during","against","total","first","next","2026","2027","2028","2029"]);
+const GENERIC=new Set(["will","would","could","should","there","have","been","this","that","these","those","with","from","which","where","when","what","about","after","before","over","under","above","below","more","than","less","least","most","year","years","market","event","election","presidential","president","winner","winning","wins","champion","championship","nomination","nominated","nominee","price","reach","between","during","against","total","first","next","game","games","team","teams","play","plays","player","players","season","match","matches","league","any","2026","2027","2028","2029"]);
 function distinctiveTitleTokens(s){return [...new Set(normalize(s).split(" ").filter(t=>t.length>=4&&!GENERIC.has(t)&&!/^\d+$/.test(t)))];}
 function titleAgreement(a,b){
  const x=distinctiveTitleTokens(a.title),y=distinctiveTitleTokens(b.title),ys=new Set(y);
@@ -80,7 +84,7 @@ function titleAgreement(a,b){
  const titleCosine=x.length&&y.length?common.length/Math.sqrt(x.length*y.length):0;
  const exact=normalize(a.title)===normalize(b.title);
  // Without a distinctive common title term, event boilerplate can create spurious matches.
- const enough=exact||common.length>=2||(common.length===1&&titleCosine>=.65);
+ const enough=exact||(common.length>=2&&titleCosine>=.65);
  return {enough,titleCosine,sharedTitleTokens:common.length,exact};
 }
 function cosineTokens(a,b){
