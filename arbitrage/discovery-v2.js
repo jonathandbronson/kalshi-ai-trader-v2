@@ -12,13 +12,13 @@ const type=s=>/\b(nominated|nomination|nominee)\b/i.test(s)?"NOMINATION":/\b(win
 // Conservative intent signatures: unknown intents remain research candidates, never approvals.
 export function intentOf(s){
  const t=normalize(s);
- if(/\\b(retire|retirement|retiring|announce his retirement|announce her retirement)\\b/.test(t))return "RETIREMENT";
- if(/\\b(points|rebounds|assists|touchdowns|yards|strikeouts)\\b/.test(t)&&/\\b(over|under|o u|total|at least|more than|fewer than)\\b/.test(t))return "PLAYER_STAT";
- if(/\\b(nominated|nomination|nominee|primary nomination)\\b/.test(t))return "NOMINATION";
- if(/\\b(prime minister|president|presidential|governor|senate|election|electoral)\\b/.test(t)&&/\\b(win|wins|winner|elected|become|next)\\b/.test(t))return "ELECTION_WIN";
- if(/\\b(win|wins|winner|champion|championship|title|tournament|super bowl)\\b/.test(t))return "SPORTS_WIN";
- if(/\\b(over|above|at least|reach|exceed)\\b/.test(t))return "THRESHOLD_ABOVE";
- if(/\\b(under|below|at most|less than)\\b/.test(t))return "THRESHOLD_BELOW";
+ if(/\b(retire|retirement|retiring|announce his retirement|announce her retirement)\b/.test(t))return "RETIREMENT";
+ if(/\b(points|rebounds|assists|touchdowns|yards|strikeouts)\b/.test(t)&&/\b(over|under|o u|total|at least|more than|fewer than)\b/.test(t))return "PLAYER_STAT";
+ if(/\b(nominated|nomination|nominee|primary nomination)\b/.test(t))return "NOMINATION";
+ if(/\b(prime minister|president|presidential|governor|senate|election|electoral)\b/.test(t)&&/\b(win|wins|winner|elected|become|next)\b/.test(t))return "ELECTION_WIN";
+ if(/\b(win|wins|winner|champion|championship|title|tournament|super bowl)\b/.test(t))return "SPORTS_WIN";
+ if(/\b(over|above|at least|reach|exceed)\b/.test(t))return "THRESHOLD_ABOVE";
+ if(/\b(under|below|at most|less than)\b/.test(t))return "THRESHOLD_BELOW";
  return "UNKNOWN";
 }
 const category=s=>/\b(nfl|nba|football|soccer|tennis|baseball|championship)\b/i.test(s)?"SPORTS":/\b(senate|election|president|governor|congress)\b/i.test(s)?"POLITICS":/\b(bitcoin|ethereum|crypto|btc|eth)\b/i.test(s)?"CRYPTO":/\b(fed|cpi|inflation|unemployment|gdp)\b/i.test(s)?"ECONOMICS":"OTHER";
@@ -68,7 +68,7 @@ function blockingKeys(m){
  return [...keys];
 }
 const GENERIC=new Set(["will","would","could","should","there","have","been","this","that","these","those","with","from","which","where","when","what","about","after","before","over","under","above","below","more","than","less","least","most","year","years","market","event","election","presidential","president","winner","winning","wins","champion","championship","nomination","nominated","nominee","price","reach","between","during","against","total","first","next","2026","2027","2028","2029"]);
-function distinctiveTitleTokens(s){return [...new Set(normalize(s).split(" ").filter(t=>t.length>=4&&!GENERIC.has(t)&&!/^\\d+$/.test(t)))];}
+function distinctiveTitleTokens(s){return [...new Set(normalize(s).split(" ").filter(t=>t.length>=4&&!GENERIC.has(t)&&!/^\d+$/.test(t)))];}
 function titleAgreement(a,b){
  const x=distinctiveTitleTokens(a.title),y=distinctiveTitleTokens(b.title),ys=new Set(y);
  const common=x.filter(t=>ys.has(t));
