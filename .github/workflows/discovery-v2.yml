@@ -7,6 +7,7 @@ on:
       - 'arbitrage/discovery-v2.js'
       - 'arbitrage/discovery-v2-cli.js'
       - 'arbitrage/discovery-v2.test.js'
+      - 'arbitrage/discovery-v2-comparison-cli.js'
       - '.github/workflows/discovery-v2.yml'
 jobs:
   shadow:
@@ -23,6 +24,7 @@ jobs:
         run: |
           node --check arbitrage/discovery-v2.js
           node --check arbitrage/discovery-v2-cli.js
+          node --check arbitrage/discovery-v2-comparison-cli.js
           node --test arbitrage/discovery-v2.test.js
       - name: Restore prior incremental market snapshot
         uses: actions/cache/restore@v4
@@ -33,6 +35,8 @@ jobs:
             discovery-v2-snapshot-
       - name: Run independent shadow discovery
         run: node arbitrage/discovery-v2-cli.js
+      - name: Compare V1 and V2 on the same market snapshot
+        run: node arbitrage/discovery-v2-comparison-cli.js
       - name: Persist incremental market snapshot
         if: success()
         uses: actions/cache/save@v4
@@ -48,5 +52,6 @@ jobs:
             arbitrage-discovery-v2.json
             arbitrage-v2-market-snapshot.json
             arbitrage-v2-human-review-sample.json
+            arbitrage-v2-same-snapshot-comparison.json
           if-no-files-found: warn
           retention-days: 14
