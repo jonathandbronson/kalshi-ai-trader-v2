@@ -96,7 +96,8 @@ function cosineVector(a,b){
  return aa&&bb?dot/Math.sqrt(aa*bb):null;
 }
 export function discoverIndexedPairs(markets,{limit=500,perMarket=10,minScore=.22,maxBlock=600,vectors={}}={}){
- // Recompute classification for cached snapshot records from the current rules.\n const fresh=markets.map(refreshDerivedFields);
+ // Recompute classification for cached snapshot records from the current rules.
+ const fresh=markets.map(refreshDerivedFields);
  const ks=fresh.filter(x=>x.venue==="kalshi"),ps=fresh.filter(x=>x.venue==="polymarket");
  const index=new Map(),exactTitleIndex=new Map();
  for(let j=0;j<ps.length;j++){
