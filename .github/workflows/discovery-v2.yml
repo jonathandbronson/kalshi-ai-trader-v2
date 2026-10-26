@@ -1,0 +1,38 @@
+name: Discovery V2 shadow benchmark
+on:
+  workflow_dispatch:
+  push:
+    branches: [discovery-v2]
+    paths:
+      - 'arbitrage/discovery-v2.js'
+      - 'arbitrage/discovery-v2-cli.js'
+      - 'arbitrage/discovery-v2.test.js'
+      - '.github/workflows/discovery-v2.yml'
+jobs:
+  shadow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate V2 syntax and behavior
+        run: |
+          node --check arbitrage/discovery-v2.js
+          node --check arbitrage/discovery-v2-cli.js
+          node --test arbitrage/discovery-v2.test.js
+      - name: Run independent shadow discovery
+        run: node arbitrage/discovery-v2-cli.js
+      - name: Retain reports and snapshot as artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: discovery-v2-shadow
+          path: |
+            arbitrage-discovery-v2.json
+            arbitrage-v2-market-snapshot.json
+          if-no-files-found: warn
+          retention-days: 14
