@@ -20,7 +20,7 @@ export function normalizeMarkets(events,venue){
   if(!title.trim())continue;
   const close=date(market.close_time??market.expiration_time??market.endDate??event.endDate);
   result.push({id:venue+":"+id,venue,marketId:id,eventId:String(event.event_ticker??event.id??""),title,eventTitle,subtitle:String(market.subtitle??""),text:full,
-   category:category(full),outcomeType:type(title),years:years(full),close,tokens:tokens(full),
+   category:category(full),outcomeType:type(title),years:years(title).length?years(title):years(full),close,tokens:tokens(full),
    liquidity:Number(market.liquidityNum??market.liquidity??0)||0,volume:Number(market.volume24hr??market.volume_24h??0)||0,
    ruleHash:hash([market.rules_primary,market.rules_secondary,market.description].join("|")),
    textHash:hash(normalize(full)),sourceMarket:market});
