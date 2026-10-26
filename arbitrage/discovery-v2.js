@@ -9,6 +9,18 @@ const tokens=s=>[...new Set(normalize(s).split(" ").filter(x=>x.length>2&&!STOP.
 const years=s=>[...new Set((String(s).match(/\b20\d\d\b/g)??[]))].sort();
 const date=s=>{const v=Date.parse(s??"");return Number.isFinite(v)?new Date(v).toISOString().slice(0,10):null};
 const type=s=>/\b(nominated|nomination|nominee)\b/i.test(s)?"NOMINATION":/\b(win|wins|winner|champion)\b/i.test(s)?"WIN":/\b(over|above|at least)\b/i.test(s)?"ABOVE":/\b(under|below|at most)\b/i.test(s)?"BELOW":"OTHER";
+// Conservative intent signatures: unknown intents remain research candidates, never approvals.
+export function intentOf(s){
+ const t=normalize(s);
+ if(/\\b(retire|retirement|retiring|announce his retirement|announce her retirement)\\b/.test(t))return "RETIREMENT";
+ if(/\\b(points|rebounds|assists|touchdowns|yards|strikeouts)\\b/.test(t)&&/\\b(over|under|o u|total|at least|more than|fewer than)\\b/.test(t))return "PLAYER_STAT";
+ if(/\\b(nominated|nomination|nominee|primary nomination)\\b/.test(t))return "NOMINATION";
+ if(/\\b(prime minister|president|presidential|governor|senate|election|electoral)\\b/.test(t)&&/\\b(win|wins|winner|elected|become|next)\\b/.test(t))return "ELECTION_WIN";
+ if(/\\b(win|wins|winner|champion|championship|title|tournament|super bowl)\\b/.test(t))return "SPORTS_WIN";
+ if(/\\b(over|above|at least|reach|exceed)\\b/.test(t))return "THRESHOLD_ABOVE";
+ if(/\\b(under|below|at most|less than)\\b/.test(t))return "THRESHOLD_BELOW";
+ return "UNKNOWN";
+}
 const category=s=>/\b(nfl|nba|football|soccer|tennis|baseball|championship)\b/i.test(s)?"SPORTS":/\b(senate|election|president|governor|congress)\b/i.test(s)?"POLITICS":/\b(bitcoin|ethereum|crypto|btc|eth)\b/i.test(s)?"CRYPTO":/\b(fed|cpi|inflation|unemployment|gdp)\b/i.test(s)?"ECONOMICS":"OTHER";
 export function normalizeMarkets(events,venue){
  const result=[];
@@ -20,7 +32,7 @@ export function normalizeMarkets(events,venue){
   if(!title.trim())continue;
   const close=date(market.close_time??market.expiration_time??market.endDate??event.endDate);
   result.push({id:venue+":"+id,venue,marketId:id,eventId:String(event.event_ticker??event.id??""),title,eventTitle,subtitle:String(market.subtitle??""),text:full,
-   category:category(full),outcomeType:type(title),years:years(title).length?years(title):years(full),close,tokens:tokens(full),
+   category:category(full),outcomeType:type(title),intent:intentOf(title),years:years(title).length?years(title):years(full),close,tokens:tokens(full),
    liquidity:Number(market.liquidityNum??market.liquidity??0)||0,volume:Number(market.volume24hr??market.volume_24h??0)||0,
    ruleHash:hash([market.rules_primary,market.rules_secondary,market.description].join("|")),
    textHash:hash(normalize(full)),sourceMarket:market});
@@ -42,6 +54,7 @@ export function mergeSnapshot(previous={},incoming=[],{complete=false,now=new Da
 }
 function compatible(a,b){
  if(a.venue===b.venue)return false;
+ if(a.intent&&b.intent&&a.intent!=="UNKNOWN"&&b.intent!=="UNKNOWN"&&a.intent!==b.intent)return false;
  if(a.outcomeType!=="OTHER"&&b.outcomeType!=="OTHER"&&a.outcomeType!==b.outcomeType)return false;
  if(a.years.length&&b.years.length&&!a.years.some(y=>b.years.includes(y)))return false;
  if(a.close&&b.close&&Math.abs(Date.parse(a.close)-Date.parse(b.close))>1000*60*60*24*90)return false;
@@ -79,10 +92,15 @@ function cosineVector(a,b){
 }
 export function discoverIndexedPairs(markets,{limit=500,perMarket=10,minScore=.22,maxBlock=600,vectors={}}={}){
  const ks=markets.filter(x=>x.venue==="kalshi"),ps=markets.filter(x=>x.venue==="polymarket");
- const index=new Map();
- for(let j=0;j<ps.length;j++)for(const key of blockingKeys(ps[j])){
+ const index=new Map(),exactTitleIndex=new Map();
+ for(let j=0;j<ps.length;j++){
+  const titleKey=normalize(ps[j].title);
+  if(!exactTitleIndex.has(titleKey))exactTitleIndex.set(titleKey,[]);
+  exactTitleIndex.get(titleKey).push(j);
+  for(const key of blockingKeys(ps[j])){
   if(!index.has(key))index.set(key,[]);
   index.get(key).push(j);
+  }
  }
  const candidates=[],seen=new Set();let comparisons=0,blocked=0;
  for(const k of ks){
@@ -92,6 +110,8 @@ export function discoverIndexedPairs(markets,{limit=500,perMarket=10,minScore=.2
    if(posting.length>maxBlock)continue;
    for(const j of posting)hits.set(j,(hits.get(j)??0)+1);
   }
+  // Exact contract titles bypass posting-list caps; they still pass intent/date checks.
+  for(const j of exactTitleIndex.get(normalize(k.title))??[])hits.set(j,Math.max(100,hits.get(j)??0));
   const shortlist=[...hits].sort((a,b)=>b[1]-a[1]).slice(0,Math.max(60,perMarket*12));
   blocked+=shortlist.length;
   const ranked=[];
@@ -107,7 +127,7 @@ export function discoverIndexedPairs(markets,{limit=500,perMarket=10,minScore=.2
    const score=.5*rawScore+.5*agreement.titleCosine;
    if(score<minScore)continue;
    ranked.push({kalshiTicker:k.marketId,polymarketId:p.marketId,kalshiTitle:k.title,polymarketTitle:p.title,
-    kalshiEventId:k.eventId,polymarketEventId:p.eventId,category:k.category,lexicalScore:Number(lexical.toFixed(4)),
+    kalshiEventId:k.eventId,polymarketEventId:p.eventId,category:k.category,kalshiIntent:k.intent??intentOf(k.title),polymarketIntent:p.intent??intentOf(p.title),lexicalScore:Number(lexical.toFixed(4)),
     neuralScore:neural===null?null:Number(neural.toFixed(4)),score:Number(score.toFixed(4)),sharedKeys,
     titleAgreement:Number(agreement.titleCosine.toFixed(4)),sharedTitleTokens:agreement.sharedTitleTokens,exactTitle:agreement.exact,
     discoverySource:neural===null?"INDEXED_LEXICAL":"INDEXED_NEURAL",approved:false,settlementVerified:false,executable:false});
