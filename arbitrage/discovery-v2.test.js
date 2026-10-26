@@ -50,3 +50,18 @@ test("title identity outranks generic event similarity",()=>{
  assert.equal(result.candidates[0].exactTitle,true);
  assert.ok(result.candidates[0].titleAgreement>.9);
 });
+
+test("retirement contracts never pair with presidential election or player statistics",()=>{
+ const a=[{title:"NBA",markets:[{ticker:"L",title:"Will LeBron James announce his retirement before the 2028-29 NBA season?"},{ticker:"K",title:"Will Kyrie Irving announce his retirement before the 2026-27 NBA season?"}]}];
+ const b=[{title:"Sports",markets:[{id:"P",question:"Will LeBron James win the 2028 US Presidential Election?"},{id:"Q",question:"Kyrie Irving: Points O/U 21.5"}]}];
+ const rows=[...normalizeMarkets(a,"kalshi"),...normalizeMarkets(b,"polymarket")];
+ const pairs=discoverIndexedPairs(rows,{minScore:.1}).candidates;
+ assert.equal(pairs.length,0);
+});
+test("identical prime minister titles survive generic posting-list suppression",()=>{
+ const title="Will Naftali Bennett be the next Prime Minister of Israel?";
+ const a=[{title:"Israeli politics",markets:[{ticker:"PM",title}]}];
+ const b=[{title:"Israeli politics",markets:[{id:"PM2",question:title}]}];
+ const pairs=discoverIndexedPairs([...normalizeMarkets(a,"kalshi"),...normalizeMarkets(b,"polymarket")],{minScore:.1,maxBlock:0}).candidates;
+ assert.ok(pairs.some(x=>x.kalshiTicker==="PM"&&x.polymarketId==="PM2"));
+});
