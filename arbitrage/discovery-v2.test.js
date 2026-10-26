@@ -35,3 +35,18 @@ test("price and volume changes are not falsely counted as contract revisions",()
  assert.equal(second.stats.unchanged,2);
  assert.equal(second.stats.marketDataRefreshed,2);
 });
+
+test("shared event boilerplate cannot match unrelated contracts",()=>{
+ const kalshi=[{title:"2026 Presidential election",markets:[{ticker:"KA",title:"Will Alice Johnson win the 2026 Presidential election?"}]}];
+ const poly=[{title:"2026 Presidential election",markets:[{id:"PB",question:"Will Robert Smith win the 2026 Presidential election?"},{id:"PA",question:"Will Alice Johnson win the 2026 Presidential election?"}]}];
+ const result=discoverIndexedPairs([...normalizeMarkets(kalshi,"kalshi"),...normalizeMarkets(poly,"polymarket")],{minScore:.2});
+ assert.ok(result.candidates.some(x=>x.kalshiTicker==="KA"&&x.polymarketId==="PA"));
+ assert.ok(!result.candidates.some(x=>x.kalshiTicker==="KA"&&x.polymarketId==="PB"));
+});
+test("title identity outranks generic event similarity",()=>{
+ const a=[{title:"2026 election",markets:[{ticker:"KX",title:"Will Alice Johnson win the 2026 election?"}]}];
+ const b=[{title:"2026 election",markets:[{id:"PX",question:"Will Alice Johnson win the 2026 election?"}]}];
+ const result=discoverIndexedPairs([...normalizeMarkets(a,"kalshi"),...normalizeMarkets(b,"polymarket")],{minScore:.2});
+ assert.equal(result.candidates[0].exactTitle,true);
+ assert.ok(result.candidates[0].titleAgreement>.9);
+});
