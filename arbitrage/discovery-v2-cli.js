@@ -56,7 +56,7 @@ const cache=await read(process.env.ARB_V2_EMBEDDINGS??"arbitrage-embedding-cache
 const discovered=discoverIndexedPairs(active,{limit:Math.max(1,Math.min(5000,Number(process.env.ARB_V2_LIMIT??1000))),vectors:cache.vectors??{}});
 const rankedRaw=rankResearchCandidates(discovered.candidates);
 // Remove weak single-token collisions and cap category concentration in the research queue.
-const qualified=rankedRaw.filter(x=>x.sharedKeys>=2&&x.score>=.45);
+const qualified=rankedRaw.filter(x=>x.sharedKeys>=2&&x.score>=.45&&x.sharedTitleTokens>=1);
 const categoryLimit=Math.max(1,Math.floor(Number(process.env.ARB_V2_CATEGORY_SHARE??.4)*Math.min(qualified.length,Number(process.env.ARB_V2_LIMIT??1000))));
 const ranked=[];const categorySelected={};
 for(const c of qualified){if(ranked.length>=Number(process.env.ARB_V2_LIMIT??1000))break;if((categorySelected[c.category]??0)>=categoryLimit)continue;categorySelected[c.category]=(categorySelected[c.category]??0)+1;ranked.push(c)}
