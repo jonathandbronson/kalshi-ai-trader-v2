@@ -29,15 +29,16 @@ export function normalizeMarkets(events,venue){
 }
 export function mergeSnapshot(previous={},incoming=[],{complete=false,now=new Date().toISOString()}={}){
  const next=complete?{}:{...(previous.markets??{})};
- let added=0,updated=0,unchanged=0;
+ let added=0,updated=0,unchanged=0,marketDataRefreshed=0;
  for(const m of incoming){
   const prior=next[m.id];
   if(!prior)added++;
-  else if(prior.textHash!==m.textHash||prior.ruleHash!==m.ruleHash||prior.close!==m.close||prior.liquidity!==m.liquidity||prior.volume!==m.volume)updated++;
+  else if(prior.textHash!==m.textHash||prior.ruleHash!==m.ruleHash||prior.close!==m.close)updated++;
   else unchanged++;
+  if(prior&&(prior.liquidity!==m.liquidity||prior.volume!==m.volume))marketDataRefreshed++;
   next[m.id]={...m,lastSeen:now};
  }
- return {schemaVersion:2,timestamp:now,markets:next,stats:{added,updated,unchanged,total:Object.keys(next).length,complete}};
+ return {schemaVersion:2,timestamp:now,markets:next,stats:{added,updated,unchanged,marketDataRefreshed,total:Object.keys(next).length,complete}};
 }
 function compatible(a,b){
  if(a.venue===b.venue)return false;
